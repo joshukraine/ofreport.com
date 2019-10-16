@@ -2,7 +2,7 @@
   "name": "ofreport.com",
   "version": "2.0.0",
   "description": "Our family blog, documenting our work in Ukraine",
-  "author": "",
+  "author": "Joshua Steele",
   "private": true,
   "scripts": {
     "dev": "nuxt",
