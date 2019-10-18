@@ -1,6 +1,6 @@
 ---
 
-title: "Operation Library"
+title: "[8] Operation Library"
 date: "2019-03-30"
 tags:
 - newsletter

@@ -1,6 +1,6 @@
 ---
 
-title: "Sharpening Arrows"
+title: "[3] Sharpening Arrows"
 date: "2018-06-24"
 tags:
 - newsletter

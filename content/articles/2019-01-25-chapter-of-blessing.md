@@ -1,6 +1,6 @@
 ---
 
-title: "A Chapter of Blessing"
+title: "[6] A Chapter of Blessing"
 date: "2019-01-25"
 tags:
 - newsletter

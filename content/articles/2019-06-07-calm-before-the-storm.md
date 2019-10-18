@@ -1,6 +1,6 @@
 ---
 
-title: "Calm Before the Storm"
+title: "[9] Calm Before the Storm"
 date: "2019-06-07"
 tags:
 - newsletter
