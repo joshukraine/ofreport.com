@@ -26,6 +26,7 @@
     }
   },
   "dependencies": {
+    "glob": "^7.1.4",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
