@@ -1,4 +1,10 @@
-const path = require('path');
+import glob from 'glob';
+import path from 'path';
+
+const dynamicArticleRoutes = () => [].concat(
+  glob.sync('articles/*.md', { cwd: 'content' })
+    .map((filepath) => `blog/${path.basename(filepath, '.md')}`),
+);
 
 export default {
   mode: 'universal',
@@ -59,5 +65,8 @@ export default {
         },
       );
     },
+  },
+  generate: {
+    routes: dynamicArticleRoutes(),
   },
 };
