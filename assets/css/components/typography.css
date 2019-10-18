@@ -41,12 +41,12 @@ p {
   @apply .mt-4;
 }
 
-a {
+.markdown a {
   @apply .text-blue-600 .no-underline;
   transition: color 150ms ease;
 }
 
-a:hover {
+.markdown a:hover {
   @apply .text-blue-400;
   transition: color 150ms ease;
 }
