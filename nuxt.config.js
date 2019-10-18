@@ -1,3 +1,4 @@
+const path = require('path');
 
 export default {
   mode: 'universal',
@@ -50,6 +51,13 @@ export default {
     */
     /* eslint-disable-next-line no-unused-vars */
     extend(config, ctx) {
+      config.module.rules.push(
+        {
+          test: /\.md$/,
+          include: path.resolve(__dirname, 'content'),
+          loader: 'frontmatter-markdown-loader',
+        },
+      );
     },
   },
 };
