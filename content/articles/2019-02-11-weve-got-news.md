@@ -9,6 +9,8 @@ author: ["Joshua Steele", "joshukraine", "@tw"]
 image: "/2019/baby-on-the-way-1200w.jpg"
 image_lg: "/2019/baby-on-the-way-3000w.jpg"
 caption: "Our home is continually filled with the melodious sound...ok mostly melodious sound...of childrens' voices. Today we are smiling because a new choir member will be joining soon!"
+preview: >
+  Today we're very excited to announce that we are expecting! Kelsie is about 17 weeks along in her pregnancy, and we anticipate the birth of our newest addition some time in late July.
 
 ---
 

@@ -9,6 +9,8 @@ author: "Raphaël Villeneuve"
 image: "/2018/villeneuve-family-1200w.jpg"
 image_lg: "/2018/villeneuve-family-2000w.jpg"
 caption: "The Villeneuve Family, fall 2018. From the left: Dominic, Danièle, Matthew, Ralph"
+preview: >
+  *EDITOR'S NOTE: Raphaël "Ralph" Villeneuve served with our team in L'viv during the summer of 2017. In the article below, he recounts in his own words how he learned to discern God's will and direction. If you haven't already, I encourage you to first ["Meet Ralph"](https://ofreport.com/2017/08/meet-ralph/), and then introduce him to your family. Our kids need examples of other young people who have wholly dedicated their lives to Christ.*
 
 ---
 

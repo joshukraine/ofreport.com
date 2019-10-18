@@ -8,7 +8,7 @@
          class="markdown"
     >
       <h2>{{ article.title }}</h2>
-      <p>{{ article.caption }}</p>
+      <p>{{ article.preview }}</p>
       <nuxt-link :to="article._path">
         Read
       </nuxt-link>

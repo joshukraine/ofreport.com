@@ -12,6 +12,8 @@ download: "OFR-Aug-Sep-2018.pdf"
 image: "/2018/dobro-zlo-group-1200w.jpg"
 image_lg: "/2018/dobro-zlo-group-2000w.jpg"
 caption: "After more than a year of work on translation, graphics, editing, and logistics, the Ukrainian edition of Good and Evil is here! On August 23rd, this group of men worked past midnight unloading all 5,000 books!"
+preview: >
+  For some of our readers, the completion of *Good and Evil* in Ukrainian may already be old news. 5,000 books were delivered to our office in L'viv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/){: target="_blank"}) But as you may have guessed, there is more to tell.
 
 ---
 
