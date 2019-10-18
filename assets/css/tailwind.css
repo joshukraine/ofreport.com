@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 
 @import './components/typography.css';
+@import './components/lists.css';
 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
