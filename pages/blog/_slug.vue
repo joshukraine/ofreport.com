@@ -2,11 +2,11 @@
   <div>
     <h1>Title: {{ fm.title }}</h1>
     <p>This is a blog post page.</p>
-    <nuxt-link to="/">
+    <nuxt-link to="/" class="text-red-500">
       Home
     </nuxt-link>
     <!-- eslint-disable-next-line vue/no-v-html -->
-    <div class="content" v-html="body" />
+    <div class="markdown" v-html="body" />
   </div>
 </template>
 
