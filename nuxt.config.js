@@ -35,8 +35,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/cloudinary',
-    '~/plugins/vuejs-paginate',
+    { src: '~/plugins/cloudinary.js' },
+    { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
   ],
   /*
   ** Nuxt.js dev-modules
