@@ -62,6 +62,12 @@ export default {
           test: /\.md$/,
           include: path.resolve(__dirname, 'content'),
           loader: 'frontmatter-markdown-loader',
+          options: {
+            mode: ['vue-render-functions'],
+            vue: {
+              root: 'markdown',
+            },
+          },
         },
       );
     },

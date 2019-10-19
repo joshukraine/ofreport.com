@@ -5,23 +5,30 @@
     <nuxt-link to="/" class="text-red-500">
       Home
     </nuxt-link>
-    <!-- eslint-disable-next-line vue/no-v-html -->
-    <div class="markdown" v-html="body" />
+
+    <DynamicMarkdown
+      :render-fn="renderFn"
+      :static-render-fns="staticRenderFns"
+    />
   </div>
 </template>
 
 <script>
+import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
+
 export default {
+  components: {
+    DynamicMarkdown,
+  },
   async asyncData({ params }) {
     try {
       const article = await import(`~/content/articles/${params.slug}.md`);
-
       return {
         fm: article.attributes, // frontmatter
-        body: article.html,
+        renderFn: article.vue.render,
+        staticRenderFns: article.vue.staticRenderFns,
       };
     } catch (error) {
-      console.debug(error);
       return false;
     }
   },
