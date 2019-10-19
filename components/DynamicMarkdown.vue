@@ -1,10 +1,8 @@
 <script>
-import LocalComponent from '~/components/LocalComponent.vue';
 import ArticleImage from '~/components/ArticleImage.vue';
 
 export default {
   components: {
-    LocalComponent,
     ArticleImage,
   },
   props: {
