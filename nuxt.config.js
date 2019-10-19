@@ -1,4 +1,3 @@
-import Mode from 'frontmatter-markdown-loader/mode';
 import glob from 'glob';
 import path from 'path';
 
@@ -64,7 +63,7 @@ export default {
           include: path.resolve(__dirname, 'content'),
           loader: 'frontmatter-markdown-loader',
           options: {
-            mode: [Mode.VUE_RENDER_FUNCTIONS],
+            mode: ['vue-render-functions'],
             vue: {
               root: 'markdown',
             },
