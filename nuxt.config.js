@@ -36,6 +36,7 @@ export default {
   */
   plugins: [
     '~/plugins/cloudinary',
+    '~/plugins/vuejs-paginate',
   ],
   /*
   ** Nuxt.js dev-modules

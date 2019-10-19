@@ -29,7 +29,8 @@
     "cloudinary-vue": "latest",
     "frontmatter-markdown-loader": "^2.3.0",
     "glob": "^7.1.4",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vuejs-paginate": "^2.1.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",
