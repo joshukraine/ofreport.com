@@ -26,6 +26,7 @@
     }
   },
   "dependencies": {
+    "cloudinary-vue": "latest",
     "frontmatter-markdown-loader": "^2.3.0",
     "glob": "^7.1.4",
     "nuxt": "^2.0.0"
