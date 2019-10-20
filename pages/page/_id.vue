@@ -12,6 +12,9 @@ export default {
   components: {
     BlogIndex,
   },
+  validate({ params }) {
+    return /^\d+$/.test(params.id);
+  },
   asyncData({ params }) {
     const articles = Object.values(data).reverse();
     const startPage = parseInt(params.id);
