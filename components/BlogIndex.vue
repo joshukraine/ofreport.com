@@ -17,6 +17,7 @@
     <paginate
       v-model="page"
       :page-count="pageCount"
+      :click-handler="pageChangeHandle"
       :prev-text="'Prev'"
       :next-text="'Next'"
       :container-class="'pagination'"
@@ -77,6 +78,15 @@ export default {
 
     // Select the articles for the current page.
     this.articles = this.allArticles.slice(start, end);
+  },
+  methods: {
+    pageChangeHandle(pageNum) {
+      if (pageNum === 1) {
+        this.$nuxt.$router.push('/');
+      } else {
+        this.$nuxt.$router.push(`/page/${pageNum}`);
+      }
+    },
   },
 };
 </script>
