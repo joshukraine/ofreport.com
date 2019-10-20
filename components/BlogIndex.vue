@@ -35,7 +35,7 @@
 </template>
 
 <script>
-const perPage = 3;
+const perPage = parseInt(process.env.PER_PAGE);
 
 export default {
   props: {

@@ -1,9 +1,13 @@
 import path from 'path';
 import data from './data/articles.json';
 
+/* eslint-disable-next-line import/no-extraneous-dependencies */
+require('dotenv').config();
+
+const perPage = parseInt(process.env.PER_PAGE);
 const articleCount = Object.values(data).length;
 const articleSlugs = Object.keys(data);
-const articlePages = [...Array(Math.ceil(articleCount / 3))];
+const articlePages = [...Array(Math.ceil(articleCount / perPage))];
 
 const dynamicRoutes = () => [].concat(
   articlePages.map((_, i) => `/page/${i + 1}`),
