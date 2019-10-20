@@ -1,9 +1,13 @@
-import glob from 'glob';
 import path from 'path';
+import data from './data/articles.json';
 
-const dynamicArticleRoutes = () => [].concat(
-  glob.sync('articles/*.md', { cwd: 'content' })
-    .map((filepath) => `blog/${path.basename(filepath, '.md')}`),
+const articleCount = Object.values(data).length;
+const articleSlugs = Object.keys(data);
+const articlePages = [...Array(Math.ceil(articleCount / 3))];
+
+const dynamicRoutes = () => [].concat(
+  articlePages.map((_, i) => `/page/${i + 1}`),
+  articleSlugs.map((filepath) => `blog/${filepath}`),
 );
 
 export default {
@@ -75,6 +79,6 @@ export default {
     },
   },
   generate: {
-    routes: dynamicArticleRoutes(),
+    routes: dynamicRoutes(),
   },
 };
