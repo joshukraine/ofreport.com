@@ -9,7 +9,7 @@
     >
       <h2>{{ article.title }}</h2>
       <p>{{ article.preview }}</p>
-      <nuxt-link :to="'blog/' + article.basename">
+      <nuxt-link :to="`/blog/${article.basename}`">
         Read
       </nuxt-link>
     </div>
