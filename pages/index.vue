@@ -1,15 +1,14 @@
 <template>
   <div>
     <h1>Home Page</h1>
-    <p>These are the articles:</p>
 
     <div v-for="article in articles"
-         :key="article._path"
+         :key="article.basename"
          class="markdown"
     >
       <h2>{{ article.title }}</h2>
       <p>{{ article.preview }}</p>
-      <nuxt-link :to="article._path">
+      <nuxt-link :to="'blog/' + article.basename">
         Read
       </nuxt-link>
     </div>
@@ -17,17 +16,16 @@
 </template>
 
 <script>
-export default {
-  async asyncData() {
-    const context = await require.context('~/content/articles/', true, /\.md$/);
+import data from '~/data/articles.json';
 
-    const articles = await context.keys().slice(5, 10).map((key) => ({
-      ...context(key).attributes,
-      _path: `/blog/${key.replace('.md', '').replace('./', '')}`,
-    }));
+const perPage = 7;
+
+export default {
+  asyncData() {
+    const articles = Object.values(data).reverse().slice(0, perPage);
 
     return {
-      articles: articles.reverse(),
+      articles,
     };
   },
 };
