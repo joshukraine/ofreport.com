@@ -1,9 +1,17 @@
-import glob from 'glob';
 import path from 'path';
+import data from './data/articles.json';
 
-const dynamicArticleRoutes = () => [].concat(
-  glob.sync('articles/*.md', { cwd: 'content' })
-    .map((filepath) => `blog/${path.basename(filepath, '.md')}`),
+/* eslint-disable-next-line import/no-extraneous-dependencies */
+require('dotenv').config();
+
+const perPage = parseInt(process.env.PER_PAGE);
+const articleCount = Object.values(data).length;
+const articleSlugs = Object.keys(data);
+const articlePages = [...Array(Math.ceil(articleCount / perPage))];
+
+const dynamicRoutes = () => [].concat(
+  articlePages.map((_, i) => `/page/${i + 1}`),
+  articleSlugs.map((filepath) => `blog/${filepath}`),
 );
 
 export default {
@@ -35,7 +43,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/cloudinary',
+    { src: '~/plugins/cloudinary.js' },
+    { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
   ],
   /*
   ** Nuxt.js dev-modules
@@ -43,12 +52,16 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/dotenv',
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
   ],
+  purgeCSS: {
+    whitelist: ['blockquote', 'ul', 'ol', 'li'],
+  },
   /*
   ** Build configuration
   */
@@ -74,6 +87,6 @@ export default {
     },
   },
   generate: {
-    routes: dynamicArticleRoutes(),
+    routes: dynamicRoutes(),
   },
 };

@@ -5,8 +5,9 @@
   "author": "Joshua Steele",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
+    "dev": "yarn md2json && nuxt",
+    "build": "yarn md2json && nuxt build",
+    "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
@@ -28,10 +29,12 @@
   "dependencies": {
     "cloudinary-vue": "latest",
     "frontmatter-markdown-loader": "^2.3.0",
-    "glob": "^7.1.4",
-    "nuxt": "^2.0.0"
+    "markdown-to-json": "^0.5.1",
+    "nuxt": "^2.0.0",
+    "vuejs-paginate": "^2.1.0"
   },
   "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/tailwindcss": "^1.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
