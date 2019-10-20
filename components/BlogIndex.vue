@@ -61,12 +61,6 @@ export default {
     pageCount() {
       return Math.ceil(this.articleCount / perPage);
     },
-    renderNextLink() {
-      return this.startPage < this.pageCount;
-    },
-    renderPrevLink() {
-      return this.startPage > 1;
-    },
   },
   mounted() {
     // Set the current page.
