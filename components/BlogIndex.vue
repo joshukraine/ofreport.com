@@ -87,7 +87,7 @@ export default {
 
 <style>
 .pagination {
-  @apply .flex .mt-8;
+  @apply .flex .mt-8 .list-none;
 }
 
 .pagination > li > a {
