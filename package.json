@@ -5,8 +5,9 @@
   "author": "Joshua Steele",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
+    "dev": "yarn md2json && nuxt",
+    "build": "yarn md2json && nuxt build",
+    "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
