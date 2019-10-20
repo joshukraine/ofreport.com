@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BlogIndex :all-articles="articles" :current-page="1" />
+    <BlogIndex :all-articles="articles" :current-page="currentPage" />
   </div>
 </template>
 
@@ -12,11 +12,13 @@ export default {
   components: {
     BlogIndex,
   },
-  asyncData() {
+  asyncData({ params }) {
     const articles = Object.values(data).reverse();
+    const currentPage = parseInt(params.id);
 
     return {
       articles,
+      currentPage,
     };
   },
 };
