@@ -9,6 +9,7 @@ import BlogIndex from '~/components/BlogIndex.vue';
 import data from '~/data/articles.json';
 
 export default {
+  middleware: 'index-redirect',
   components: {
     BlogIndex,
   },
