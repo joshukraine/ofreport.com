@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Home Page</h1>
-    <p>Current page: {{ currentPage }}</p>
+    <p>Current page: {{ page }}</p>
 
     <div v-for="article in articles"
          :key="article.basename"
@@ -14,14 +14,22 @@
       </nuxt-link>
     </div>
 
-    <div class="paginator">
-      <nuxt-link v-if="renderPrevLink" to="#">
-        Prev
-      </nuxt-link>
-      <nuxt-link v-if="renderNextLink" to="#">
-        Next
-      </nuxt-link>
-    </div>
+    <paginate
+      v-model="page"
+      :page-count="pageCount"
+      :prev-text="'Prev'"
+      :next-text="'Next'"
+      :container-class="'pagination'"
+      :page-class="'page-item'"
+      :page-link-class="'page-link-item'"
+      :prev-class="'prev-item'"
+      :prev-link-class="'prev-link-item'"
+      :next-class="'next-item'"
+      :next-link-class="'next-link-item'"
+      :break-view-class="'break-view'"
+      :break-view-link-class="'break-view-link'"
+      :first-last-button="true"
+    />
   </div>
 </template>
 
@@ -34,7 +42,7 @@ export default {
       type: Array,
       required: true,
     },
-    currentPage: {
+    startPage: {
       type: Number,
       required: true,
     },
@@ -42,6 +50,7 @@ export default {
   data() {
     return {
       articles: [],
+      page: null,
     };
   },
   computed: {
@@ -52,15 +61,18 @@ export default {
       return Math.ceil(this.articleCount / perPage);
     },
     renderNextLink() {
-      return this.currentPage < this.pageCount;
+      return this.startPage < this.pageCount;
     },
     renderPrevLink() {
-      return this.currentPage > 1;
+      return this.startPage > 1;
     },
   },
   mounted() {
+    // Set the current page.
+    this.page = this.startPage;
+
     // Calculate the range of articles to display.
-    const start = (this.currentPage - 1) * perPage;
+    const start = (this.page - 1) * perPage;
     const end = start + perPage;
 
     // Select the articles for the current page.
@@ -68,3 +80,17 @@ export default {
   },
 };
 </script>
+
+<style>
+.pagination {
+  @apply .flex .mt-8;
+}
+
+.pagination > li > a {
+  @apply .py-2 .px-4 .border;
+}
+
+.pagination .active {
+  @apply .text-blue-500 .font-bold;
+}
+</style>

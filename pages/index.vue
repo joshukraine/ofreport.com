@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BlogIndex :all-articles="articles" :current-page="1" />
+    <BlogIndex :all-articles="articles" :start-page="1" />
   </div>
 </template>
 
