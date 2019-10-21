@@ -47,6 +47,10 @@ export default {
       type: Number,
       required: true,
     },
+    rootSegment: {
+      type: String,
+      default: null,
+    },
   },
   data() {
     return {
@@ -60,6 +64,9 @@ export default {
     },
     pageCount() {
       return Math.ceil(this.articleCount / perPage);
+    },
+    paginatedRoot() {
+      return this.rootSegment ? `/${this.rootSegment}` : '';
     },
   },
   mounted() {
@@ -76,9 +83,9 @@ export default {
   methods: {
     pageChangeHandle(pageNum) {
       if (pageNum === 1) {
-        this.$nuxt.$router.push('/');
+        this.$nuxt.$router.push(`${this.paginatedRoot}/`);
       } else {
-        this.$nuxt.$router.push(`/page/${pageNum}`);
+        this.$nuxt.$router.push(`${this.paginatedRoot}/page/${pageNum}`);
       }
     },
   },
