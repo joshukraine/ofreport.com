@@ -23,7 +23,7 @@ const stringParameterize = (tag) => tag.trim()
 
 export default {
   asyncData({ params }) {
-    const taggedArticles = Object.values(articles)
+    const taggedArticles = Object.values(articles).reverse()
       .filter((article) => {
         const safeTags = article.tags.map((tag) => stringParameterize(tag));
         return safeTags.includes(params.tag);
