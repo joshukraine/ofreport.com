@@ -1,6 +1,17 @@
 <template>
   <div>
     <h1>Articles tagged with: {{ tag }}</h1>
+
+    <div v-for="article in taggedArticles"
+         :key="article.basename"
+         class="markdown"
+    >
+      <h2>{{ article.title }}</h2>
+      <p>{{ article.preview }}</p>
+      <nuxt-link :to="`/blog/${article.basename}`">
+        Read
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
