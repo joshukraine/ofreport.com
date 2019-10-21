@@ -8,6 +8,7 @@
          class="markdown"
     >
       <h2>{{ article.title }}</h2>
+      <p><em>Published {{ article.date }}</em></p>
       <p>{{ article.preview }}</p>
       <nuxt-link :to="`/blog/${article.basename}`">
         Read
