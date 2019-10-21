@@ -1,17 +1,18 @@
 <template>
   <div>
-    <BlogIndex :all-articles="articles" :start-page="startPage" />
+    <h1>Home Page</h1>
+    <ArticlesList :all-articles="articles" :start-page="startPage" />
   </div>
 </template>
 
 <script>
-import BlogIndex from '~/components/BlogIndex.vue';
+import ArticlesList from '~/components/ArticlesList.vue';
 import data from '~/data/articles.json';
 
 export default {
   middleware: 'index-redirect',
   components: {
-    BlogIndex,
+    ArticlesList,
   },
   validate({ params }) {
     return /^\d+$/.test(params.id);

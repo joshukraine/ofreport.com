@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Home Page</h1>
     <p>Current page: {{ page }}</p>
 
     <div v-for="article in articles"
