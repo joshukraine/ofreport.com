@@ -8,6 +8,7 @@
 import TagHome from '~/components/TagHome.vue';
 
 export default {
+  middleware: 'tag-index-redirect',
   components: {
     TagHome,
   },

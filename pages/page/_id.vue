@@ -8,7 +8,7 @@
 import BlogHome from '~/components/BlogHome.vue';
 
 export default {
-  middleware: 'index-redirect',
+  middleware: 'blog-index-redirect',
   components: {
     BlogHome,
   },
