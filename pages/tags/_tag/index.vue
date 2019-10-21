@@ -1,28 +1,24 @@
 <template>
   <div>
     <h1>Articles tagged with: {{ tag }}</h1>
-
-    <div v-for="article in taggedArticles"
-         :key="article.basename"
-         class="markdown"
-    >
-      <h2>{{ article.title }}</h2>
-      <p><em>Published {{ article.date }}</em></p>
-      <p>{{ article.preview }}</p>
-      <nuxt-link :to="`/blog/${article.basename}`">
-        Read
-      </nuxt-link>
-    </div>
+    <ArticlesList :all-articles="taggedArticles"
+                  :start-page="1"
+                  root-segment="tags"
+    />
   </div>
 </template>
 
 <script>
+import ArticlesList from '~/components/ArticlesList.vue';
 import articles from '~/data/articles.json';
 
 const stringParameterize = (tag) => tag.trim()
   .toLowerCase().replace(/[^a-zA-Z0-9 -]/, '').replace(/\s/g, '-');
 
 export default {
+  components: {
+    ArticlesList,
+  },
   asyncData({ params }) {
     const taggedArticles = Object.values(articles).reverse()
       .filter((article) => {
