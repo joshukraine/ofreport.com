@@ -1,17 +1,29 @@
 import path from 'path';
-import data from './data/articles.json';
+import articles from './data/articles.json';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
 
 const perPage = parseInt(process.env.PER_PAGE);
-const articleCount = Object.values(data).length;
-const articleSlugs = Object.keys(data);
+
+const parameterize = (tag) => tag.trim()
+  .toLowerCase().replace(/[^a-zA-Z0-9 -]/, '').replace(/\s/g, '-');
+
+// Calculate article values
+const articleCount = Object.values(articles).length;
+const articleSlugs = Object.keys(articles);
 const articlePages = [...Array(Math.ceil(articleCount / perPage))];
 
+// Calculate tag values
+const rawTags = [];
+Object.values(articles).map((a) => a.tags
+  .map((tag) => rawTags.push(parameterize(tag))));
+const uniqueTags = [...new Set(rawTags)];
+
 const dynamicRoutes = () => [].concat(
+  articleSlugs.map((slug) => `/blog/${slug}`),
   articlePages.map((_, i) => `/page/${i + 1}`),
-  articleSlugs.map((filepath) => `blog/${filepath}`),
+  uniqueTags.map((tag) => `/tags/${tag}`),
 );
 
 export default {
