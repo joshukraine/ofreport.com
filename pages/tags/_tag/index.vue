@@ -3,7 +3,7 @@
     <h1>Articles tagged with: {{ tag }}</h1>
     <ArticlesList :all-articles="taggedArticles"
                   :start-page="1"
-                  root-segment="tags"
+                  :root-segment="rootSegment"
     />
   </div>
 </template>
@@ -20,6 +20,7 @@ export default {
     ArticlesList,
   },
   asyncData({ params }) {
+    const rootSegment = `tags/${params.tag}`;
     const taggedArticles = Object.values(articles).reverse()
       .filter((article) => {
         const safeTags = article.tags.map((tag) => stringParameterize(tag));
@@ -30,6 +31,7 @@ export default {
     return {
       taggedArticles,
       tag: params.tag,
+      rootSegment,
     };
   },
 };
