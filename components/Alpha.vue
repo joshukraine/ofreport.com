@@ -1,7 +1,7 @@
 <template>
   <section class="alpha bg-cover bg-top sm:bg-left-top flex items-center md:bg-left lg:bg-top">
     <div class="container pb-10 sm:pb-0 md:py-32">
-      <div class="flex justify-end pt-24 sm:pt-32 md:pt-0 md:px-8 lg:px-10">
+      <div class="flex justify-end pt-24 sm:pt-32 md:pt-0 md:px-8 lg:px-16">
         <div class="text-center px-8 md:w-2/5 md:px-0">
           <img class="w-full" src="~assets/svg/josh-and-kels.svg">
           <p class="text-white font-header mb-8 md:mb-12">
