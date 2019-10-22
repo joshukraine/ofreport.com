@@ -6,6 +6,9 @@ require('dotenv').config();
 
 export default {
   mode: 'universal',
+  env: {
+    perPage: process.env.PER_PAGE || 5,
+  },
   /*
   ** Headers of the page
   */
