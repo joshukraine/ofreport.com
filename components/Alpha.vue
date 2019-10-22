@@ -10,9 +10,9 @@
           <p class="text-white font-header mb-8 sm:text-xl md:mb-12">
             We live in Ukraine where we strive to tell others about God's gift of eternal life through Jesus Christ.
           </p>
-          <button class="btn btn-lg btn-blue">
+          <nuxt-link to="/family" class="btn btn-lg btn-blue">
             Meet our Family
-          </button>
+          </nuxt-link>
         </div>
       </div>
     </div>
