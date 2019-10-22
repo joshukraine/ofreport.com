@@ -1,5 +1,5 @@
 body {
-  @apply .text-base .font-normal .leading-normal;
+  @apply .text-base .font-sans .font-normal .leading-normal .antialiased;
 }
 
 h1,
@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply .mt-8 .mx-0 .text-lg .font-bold .leading-tight;
+  @apply .mt-8 .mx-0 .text-lg .font-header .font-bold .leading-tight;
 }
 
 h1 {
@@ -23,6 +23,10 @@ h3 {
   @apply .text-xl;
 }
 
+p {
+  @apply .mt-4;
+}
+
 @screen sm {
   h1 {
     @apply .text-5xl;
@@ -35,10 +39,11 @@ h3 {
   h3 {
     @apply .text-2xl;
   }
-}
 
-p {
-  @apply .mt-4;
+  p,
+  a {
+    @apply .text-lg;
+  }
 }
 
 .markdown a {
@@ -53,4 +58,8 @@ p {
 
 blockquote {
   @apply .pl-6 .border-l-8 .italic;
+}
+
+hr {
+  @apply .my-10;
 }
