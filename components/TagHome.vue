@@ -11,9 +11,7 @@
 <script>
 import ArticlesList from '~/components/ArticlesList.vue';
 import articles from '~/data/articles.json';
-
-const stringParameterize = (tag) => tag.trim()
-  .toLowerCase().replace(/[^a-zA-Z0-9 -]/, '').replace(/\s/g, '-');
+import parameterize from '~/lib/helpers';
 
 export default {
   components: {
@@ -37,7 +35,7 @@ export default {
     this.tag = this.$route.params.tag;
     this.taggedArticles = Object.values(articles).reverse()
       .filter((article) => {
-        const safeTags = article.tags.map((tag) => stringParameterize(tag));
+        const safeTags = article.tags.map((tag) => parameterize(tag));
         return safeTags.includes(this.$route.params.tag);
       })
       .map((article) => article);
