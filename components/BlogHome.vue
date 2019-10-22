@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Alpha />
-    <ArticlesList :all-articles="allArticles" :start-page="startPage" />
+    <ArticlesList :all-articles="allArticles"
+                  :start-page="startPage"
+                  :root-segment="rootSegment"
+    />
   </div>
 </template>
 
 <script>
-import Alpha from '~/components/Alpha.vue';
 import ArticlesList from '~/components/ArticlesList.vue';
 import articles from '~/data/articles.json';
 
 export default {
   components: {
-    Alpha,
     ArticlesList,
   },
   props: {
@@ -24,6 +24,7 @@ export default {
   data() {
     return {
       allArticles: [],
+      rootSegment: 'blog',
     };
   },
   created() {
