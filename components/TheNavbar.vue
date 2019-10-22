@@ -157,8 +157,6 @@ export default {
 
   .nav-link {
     @apply .mb-0 .pb-0 .text-xl .ml-8 .opacity-100 .text-gray-400 .font-semibold;
-
-    /* display: initial; */
     transition: color 150ms ease;
   }
 
