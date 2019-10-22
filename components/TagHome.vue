@@ -11,7 +11,7 @@
 <script>
 import ArticlesList from '~/components/ArticlesList.vue';
 import articles from '~/data/articles.json';
-import parameterize from '~/lib/helpers';
+import { parameterize } from '~/lib/helpers';
 
 export default {
   components: {
