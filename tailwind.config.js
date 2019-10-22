@@ -50,6 +50,10 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
+      borderColor: (theme) => ({
+        ...theme('colors'),
+        default: theme('colors.gray.200', 'currentColor'),
+      }),
     },
   },
   variants: {},
