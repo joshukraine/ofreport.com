@@ -3,6 +3,7 @@
 @import './components/base.css';
 @import './components/typography.css';
 @import './components/lists.css';
+@import './components/hamburger.css';
 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
