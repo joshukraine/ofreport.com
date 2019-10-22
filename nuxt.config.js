@@ -37,7 +37,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/cloudinary.js' },
+    { src: '~/plugins/cloudinary.js', mode: 'client' },
     { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
   ],
   /*
