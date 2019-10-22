@@ -27,6 +27,12 @@
           </nuxt-link>
           <nuxt-link class="nav-link"
                      :class="{ 'nav-link-fadein nav-link-3': navOpen }"
+                     to="/blog/"
+          >
+            Blog
+          </nuxt-link>
+          <nuxt-link class="nav-link"
+                     :class="{ 'nav-link-fadein nav-link-3': navOpen }"
                      to="/archives/"
           >
             Archives
