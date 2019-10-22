@@ -9,7 +9,7 @@
     "build": "yarn md2json && nuxt build",
     "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate": "yarn md2json && nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore ."
   },
