@@ -1,16 +1,18 @@
 <template>
   <div>
-    <h1>Home Page</h1>
+    <Alpha />
     <ArticlesList :all-articles="allArticles" :start-page="startPage" />
   </div>
 </template>
 
 <script>
+import Alpha from '~/components/Alpha.vue';
 import ArticlesList from '~/components/ArticlesList.vue';
 import articles from '~/data/articles.json';
 
 export default {
   components: {
+    Alpha,
     ArticlesList,
   },
   props: {

@@ -1,9 +1,10 @@
 @import 'tailwindcss/base';
 
 @import './components/base.css';
-@import './components/typography.css';
-@import './components/lists.css';
+@import './components/buttons.css';
 @import './components/hamburger.css';
+@import './components/lists.css';
+@import './components/typography.css';
 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

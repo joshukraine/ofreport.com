@@ -55,6 +55,9 @@ module.exports = {
         default: theme('colors.gray.200', 'currentColor'),
       }),
     },
+    container: {
+      center: true,
+    },
   },
   variants: {},
   plugins: [],
