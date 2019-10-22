@@ -9,7 +9,7 @@
     "build": "yarn md2json && nuxt build",
     "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
     "start": "nuxt start",
-    "generate": "nuxt generate",
+    "generate": "yarn md2json && nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore ."
   },
@@ -27,7 +27,7 @@
     }
   },
   "dependencies": {
-    "cloudinary-vue": "latest",
+    "cloudinary-vue": "^1.0.0-beta3",
     "frontmatter-markdown-loader": "^2.3.0",
     "markdown-to-json": "^0.5.1",
     "nuxt": "^2.0.0",
@@ -43,8 +43,6 @@
     "eslint-plugin-vue": "^5.2.3",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
     "stylelint": "^11.1.1",
     "stylelint-order": "^3.1.1"
   }
