@@ -1,15 +1,15 @@
 <template>
   <div>
-    <Alpha />
+    <BlogHome :start-page="1" />
   </div>
 </template>
 
 <script>
-import Alpha from '~/components/Alpha.vue';
+import BlogHome from '~/components/BlogHome.vue';
 
 export default {
   components: {
-    Alpha,
+    BlogHome,
   },
 };
 </script>
