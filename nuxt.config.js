@@ -21,6 +21,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:700&display=swap' },
     ],
   },
   /*
@@ -36,7 +37,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/cloudinary.js' },
+    { src: '~/plugins/cloudinary.js', mode: 'client' },
     { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
   ],
   /*
