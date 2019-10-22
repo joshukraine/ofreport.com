@@ -15,6 +15,7 @@
     </div>
 
     <paginate
+      v-if="pageCount > 1"
       v-model="page"
       :page-count="pageCount"
       :click-handler="pageChangeHandle"
