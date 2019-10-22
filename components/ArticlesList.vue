@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Home Page</h1>
     <p>Current page: {{ page }}</p>
 
     <div v-for="article in articles"
@@ -8,6 +7,7 @@
          class="markdown"
     >
       <h2>{{ article.title }}</h2>
+      <p><em>Published {{ article.date }}</em></p>
       <p>{{ article.preview }}</p>
       <nuxt-link :to="`/blog/${article.basename}`">
         Read
@@ -15,6 +15,7 @@
     </div>
 
     <paginate
+      v-if="pageCount > 1"
       v-model="page"
       :page-count="pageCount"
       :click-handler="pageChangeHandle"
@@ -35,7 +36,7 @@
 </template>
 
 <script>
-const perPage = parseInt(process.env.PER_PAGE);
+const perPage = parseInt(process.env.perPage);
 
 export default {
   props: {
@@ -46,6 +47,10 @@ export default {
     startPage: {
       type: Number,
       required: true,
+    },
+    rootSegment: {
+      type: String,
+      default: null,
     },
   },
   data() {
@@ -60,6 +65,9 @@ export default {
     },
     pageCount() {
       return Math.ceil(this.articleCount / perPage);
+    },
+    paginatedRoot() {
+      return this.rootSegment ? `/${this.rootSegment}` : '';
     },
   },
   mounted() {
@@ -76,9 +84,9 @@ export default {
   methods: {
     pageChangeHandle(pageNum) {
       if (pageNum === 1) {
-        this.$nuxt.$router.push('/');
+        this.$nuxt.$router.push(`${this.paginatedRoot}/`);
       } else {
-        this.$nuxt.$router.push(`/page/${pageNum}`);
+        this.$nuxt.$router.push(`${this.paginatedRoot}/page/${pageNum}`);
       }
     },
   },

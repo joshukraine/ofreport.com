@@ -1,21 +1,14 @@
 import path from 'path';
-import data from './data/articles.json';
+import dynamicRoutes from './lib/dynamic-routes';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
 
-const perPage = parseInt(process.env.PER_PAGE);
-const articleCount = Object.values(data).length;
-const articleSlugs = Object.keys(data);
-const articlePages = [...Array(Math.ceil(articleCount / perPage))];
-
-const dynamicRoutes = () => [].concat(
-  articlePages.map((_, i) => `/page/${i + 1}`),
-  articleSlugs.map((filepath) => `blog/${filepath}`),
-);
-
 export default {
   mode: 'universal',
+  env: {
+    perPage: process.env.PER_PAGE || 5,
+  },
   /*
   ** Headers of the page
   */

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <BlogHome :start-page="1" />
+    <TagHome :start-page="1" />
   </div>
 </template>
 
 <script>
-import BlogHome from '~/components/BlogHome.vue';
+import TagHome from '~/components/TagHome.vue';
 
 export default {
   components: {
-    BlogHome,
+    TagHome,
   },
 };
 </script>

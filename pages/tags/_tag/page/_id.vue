@@ -1,16 +1,16 @@
 <template>
   <div>
-    <BlogHome :start-page="startPage" />
+    <TagHome :start-page="startPage" />
   </div>
 </template>
 
 <script>
-import BlogHome from '~/components/BlogHome.vue';
+import TagHome from '~/components/TagHome.vue';
 
 export default {
-  middleware: 'blog-index-redirect',
+  middleware: 'tag-index-redirect',
   components: {
-    BlogHome,
+    TagHome,
   },
   validate({ params }) {
     return /^\d+$/.test(params.id);
