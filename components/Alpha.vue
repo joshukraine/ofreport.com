@@ -21,13 +21,13 @@
 
 <style scoped>
 .alpha {
-  background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/v1571750972/OFReport.com/assets/joshandkels-OFReport.com-cover-mobile_wry9lu.jpg");
+  background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/v1571750972/OFReport/assets/joshandkels-OFReport.com-cover-mobile_wry9lu.jpg");
   min-height: 100vh;
 }
 
 @screen sm {
   .alpha {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/v1571770785/OFReport.com/assets/joshandkels-OFReport.com-cover_hrc85f.jpg");
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/v1571770785/OFReport/assets/joshandkels-OFReport.com-cover_hrc85f.jpg");
     min-height: 70vh;
   }
 }
