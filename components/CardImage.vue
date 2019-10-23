@@ -6,7 +6,7 @@
                           :alt="alt"
                           crop="scale"
                           fetchFormat="auto"
-                          quality="auto:best"
+                          quality="auto"
       />
     </cld-image>
   </figure>
