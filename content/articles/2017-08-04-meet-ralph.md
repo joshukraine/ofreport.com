@@ -1,15 +1,15 @@
 ---
-
 title: "Meet Ralph"
 date: "2017-08-04"
-tags:
-- ministry
-- photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2017/meet-ralph-1200w.jpg"
 image_lg: "/2017/meet-ralph-2000w.jpg"
 caption: "Raphaël \"Ralph\" Villeneuve is our tri-lingual summer intern with a heart for missions in Eastern Europe."
-
+preview: >
+  Over the years, I've corresponded with many young men about ministering in Ukraine. The ones who come here usually do so to participate in our [CMO project][cmo title]. This year, we decided to skip CMO so we could focus on some behind-the-scenes work, but God sent us a young man anyway. His name is Ralph, and I'd like for you to meet him. READMORE
+tags:
+- ministry
+- photos
 ---
 
 Over the years, I've corresponded with many young men about ministering in Ukraine. The ones who come here usually do so to participate in our [CMO project][cmo title]. This year, we decided to skip CMO so we could focus on some behind-the-scenes work, but God sent us a young man anyway. His name is Ralph, and I'd like for you to meet him. READMORE

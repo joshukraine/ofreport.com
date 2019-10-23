@@ -1,25 +1,21 @@
 ---
-
-title: "[4] Vision To Reality"
+title: "Vision To Reality"
 date: "2018-09-30"
-tags:
-- newsletter
-- good and evil
-- cmo
-- photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-Aug-Sep-2018.pdf"
 image: "/2018/dobro-zlo-group-1200w.jpg"
 image_lg: "/2018/dobro-zlo-group-2000w.jpg"
 caption: "After more than a year of work on translation, graphics, editing, and logistics, the Ukrainian edition of Good and Evil is here! On August 23rd, this group of men worked past midnight unloading all 5,000 books!"
 preview: >
   For some of our readers, the completion of *Good and Evil* in Ukrainian may already be old news. 5,000 books were delivered to our office in L'viv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/){: target="_blank"}) But as you may have guessed, there is more to tell.
-
+tags:
+- newsletter
+- good and evil
+- cmo
+- photos
 ---
 
 For some of our readers, the completion of *Good and Evil* in Ukrainian may already be old news. 5,000 books were delivered to our office in L'viv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/){: target="_blank"}) But as you may have guessed, there is more to tell.
-
-READMORE
 
 This printing of *Good and Evil* is the fulfillment of a vision that began in 2016 when we realized that we would soon run out of books from our first print run (done in black and white). When we made the decision to print a new edition in color, we were not at all sure that we would be able to pull it off. Print runs like this cost thousands of dollars, to say nothing of the time and work involved with translation, graphics, editing, and so forth. As so often happens, God provided all that was needed, and now the new color edition of *Good and Evil* in Ukrainian is being shipped to families all across the nation.
 

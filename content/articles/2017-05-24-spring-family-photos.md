@@ -1,20 +1,18 @@
 ---
-
 title: "Spring Family Photos"
 date: "2017-05-24"
-tags:
-- family
-- photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2017/steele-family-2017-1200w.jpg"
 image_lg: "/2017/steele-family-2017-2000w.jpg"
 caption: "The Steele Family - Spring 2017: Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David"
-
+preview: >
+  Spring is here! And that means family photos. :) Our little David Noble is now 4 months old, and until now he's been conspicuously absent from our main family portrait. Time to fix that!
+tags:
+- family
+- photos
 ---
 
 Spring is here! And that means family photos. :) Our little David Noble is now 4 months old, and until now he's been conspicuously absent from our main family portrait. Time to fix that!
-
-READMORE
 
 The weather these days in L'viv has been gorgeous. Spring has undoubtedly sprung, and the greenery is everywhere. Last week, we planned a picnic at a large park here in the city called [Stryis'kyi Park](https://goo.gl/maps/VtZdwLKBaaw). Despite its location, once you enter the park you would never guess that you're in a city.
 

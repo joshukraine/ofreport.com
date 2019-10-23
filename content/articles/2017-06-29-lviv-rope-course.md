@@ -1,17 +1,17 @@
 ---
-
 title: "L'viv Rope Course"
 date: "2017-06-29"
+author: "Joshua Steele"
+image: "/2017/rope-course-01-1200w.jpg"
+image_lg: "/2017/rope-course-01-2000w.jpg"
+caption: "L'viv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!"
+preview: >
+  Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures. READMORE
 tags:
 - ministry
 - photos
 - video
 - bible first
-author: ["Joshua Steele", "joshukraine", "@tw"]
-image: "/2017/rope-course-01-1200w.jpg"
-image_lg: "/2017/rope-course-01-2000w.jpg"
-caption: "L'viv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!"
-
 ---
 
 Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures. READMORE

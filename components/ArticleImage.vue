@@ -1,5 +1,5 @@
 <template>
-  <figure>
+  <figure class="my-10">
     <cld-image
       :public-id="publicId"
       :width="width"
@@ -8,7 +8,7 @@
       crop="scale"
       quality="auto"
     />
-    <figcaption v-if="caption">
+    <figcaption v-if="caption" class="mt-2 text-center font-semibold">
       {{ caption }}
     </figcaption>
   </figure>
@@ -40,3 +40,9 @@ export default {
   },
 };
 </script>
+
+<style>
+figure img {
+  @apply .mx-auto;
+}
+</style>

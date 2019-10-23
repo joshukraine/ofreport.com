@@ -1,20 +1,18 @@
 ---
-
-title: "[1] Coming To America!"
+title: "Coming To America!"
 date: "2018-02-05"
-tags:
-- family
-- photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2018/america-trip-1230w.jpg"
 image_lg: "/2018/america-trip-2000w.jpg"
 caption: "Get ready folks! This fall, the Steele clan is coming to the States! This will be our first trip in four years, and we'd like to tell you what we have planned."
 preview: >
   When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of L'viv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
-
+tags:
+- family
+- photos
 ---
 
-When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of L'viv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.READMORE
+When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of L'viv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2018/christmas-eve-pajamas-550h.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2018/christmas-eve-pajamas-2000h.jpg)
 {: .article-image .article-image--has-caption}

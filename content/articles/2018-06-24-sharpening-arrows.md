@@ -1,20 +1,18 @@
 ---
-
-title: "[3] Sharpening Arrows"
+title: "Sharpening Arrows"
 date: "2018-06-24"
-tags:
-- newsletter
-- good and evil
-- cmo
-- photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-May-Jun-2018.pdf"
 image: "/2018/teaching-forum-mall-1200w.jpg"
 image_lg: "/2018/teaching-forum-mall-2000w.jpg"
 caption: "The Bible tells us that children are like arrows in the hands of a warrior — their impact can be swift and far-reaching. But effective arrows need preparation. They require thoughtful crafting to ensure that they are straight and sharp. I'm excited by the little arrows God is raising up here in our church in L'viv, and I'd like to tell you about how we are using Scripture to prepare these young people to have an impact for Christ."
 preview: >
   There are days when I feel too exhausted to go on. Sometimes I think, “I have so many other ministries...maybe I'm stretching myself too thin with this kids' class?” Then my phone rings. A child's voice greets me from the other end of the line in the respectful Ukrainian “vy” form which makes me feel old. “Good day, Uncle Joshua! Do you  have time for me to come over and recite my memory project?” And just like that, I'm back in the game.
-
+tags:
+- newsletter
+- good and evil
+- cmo
+- photos
 ---
 
 There are days when I feel too exhausted to go on. Sometimes I think, “I have so many other ministries...maybe I'm stretching myself too thin with this kids' class?” Then my phone rings. A child's voice greets me from the other end of the line in the respectful Ukrainian “vy” form which makes me feel old. “Good day, Uncle Joshua! Do you  have time for me to come over and recite my memory project?” And just like that, I'm back in the game.

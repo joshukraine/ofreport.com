@@ -1,16 +1,16 @@
 ---
-
 title: Meet David Noble
 date: "2017-03-29"
+author: "Joshua Steele"
+image: "/2017/03/david-collage-1024x504.jpg"
+caption: "David Noble Steele was born in L’viv, Ukraine, on January 16, 2017. As you may have guessed from the photos, we like this little guy a lot, and we can’t wait to introduce you!"
+download: "OFR-Mar-Apr-2017.pdf"
+preview: >
+  "Joshua’s Kingdom of Little Girls.” This was the endearing title once bestowed upon our family by my former language teacher, Veronica. And not without good reason! A family who can boast a string of four lovely daughters in a row is sure to win many admiring smiles, as well as the occasional quip about the absence of boys. READMORE Ukrainians in particular seem partial to girls, often reassuring us that, “Girls are so much better. They’re quieter. They’ll take care of you when you’re older.”  Etcetera. “Still,” I would think to myself at times, “if God wanted to give me a son, I wouldn’t complain.”
 tags:
 - newsletter
 - family
 - good and evil
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Mar-Apr-2017.pdf"
-image: "/2017/03/david-collage-1024x504.jpg"
-caption: "David Noble Steele was born in L’viv, Ukraine, on January 16, 2017. As you may have guessed from the photos, we like this little guy a lot, and we can’t wait to introduce you!"
-
 ---
 
 "Joshua’s Kingdom of Little Girls.” This was the endearing title once bestowed upon our family by my former language teacher, Veronica. And not without good reason! A family who can boast a string of four lovely daughters in a row is sure to win many admiring smiles, as well as the occasional quip about the absence of boys. READMORE Ukrainians in particular seem partial to girls, often reassuring us that, “Girls are so much better. They’re quieter. They’ll take care of you when you’re older.”  Etcetera. “Still,” I would think to myself at times, “if God wanted to give me a son, I wouldn’t complain.”
@@ -23,7 +23,7 @@ Finally, the day came for the birth. As Kelsie and I settled in to our room at t
 
 One might think that after so many children, these new arrivals would lose their shine. But experience has proven that every child, boy and girl alike, is a reward from heaven, and their entrance into the family is cause for rejoicing which cannot be described in words.
 
-### David’s Name
+## David’s Name
 
 Names are important to God, and in Scripture we find Him carefully selecting names based on their meaning. We have likewise tried to choose names for our children that will encourage them to aspire to follow Christ in bold ways.
 
@@ -37,7 +37,7 @@ It is our prayer for our son that even in his youth he will come to know and lov
 ![David Noble](//d21yo20tm8bmc2.cloudfront.net/2017/03/david-blanket-1024x575.jpg)
 {: .article-image}
 
-### Good and Evil Update
+## Good and Evil Update
 
 God is richly blessing our work on the new Ukrainian translation of Good and Evil! Our translator, Anatoliy, has completed the first chapter, and Nathan and I have also completed our review of the text. Chapter 2 is in progress.
 
@@ -49,7 +49,7 @@ Please continue to pray for this project. Good and Evil has proven itself an eff
 ![Good and Evil](//d21yo20tm8bmc2.cloudfront.net/2016/09/english-good-and-evil-bogo-special-1-240x450.jpg)
 {: .article-image}
 
-### How You Can Pray
+## How You Can Pray
 
 * Praise the Lord for the safe arrival of our son, David!
 * Pray for health, strength, and wisdom for Kelsie as she gives of herself daily to be mommy to five kiddos.
