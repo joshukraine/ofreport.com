@@ -4,7 +4,7 @@
             :class="{ 'open-nav': navOpen }"
     >
       <nuxt-link class="block mt-1" to="/">
-        <img class="w-56 lg:w-64" src="~/assets/svg/ofr-logo.svg">
+        <img class="w-48 md:w-56" src="~/assets/svg/ofr-logo.svg">
       </nuxt-link>
       <div class="relative">
         <button class="hamburger" @click="navOpen = !navOpen">
