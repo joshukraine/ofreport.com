@@ -8,7 +8,7 @@
             {{ fm.caption }}
           </p>
 
-          <div class="mt-6 py-8">
+          <div class="mt-3 md:mt-6 lg:mt-10 py-8">
             <h1 class="leading-none">
               {{ fm.title }}
             </h1>
