@@ -29,11 +29,11 @@ p {
 
 @screen sm {
   h1 {
-    @apply .text-6xl;
+    @apply .text-5xl;
   }
 
   h2 {
-    @apply .text-4xl;
+    @apply .text-3xl;
   }
 
   h3 {
@@ -43,6 +43,20 @@ p {
   p,
   a {
     @apply .text-lg;
+  }
+}
+
+@screen lg {
+  h1 {
+    @apply .text-6xl;
+  }
+
+  h2 {
+    @apply .text-4xl;
+  }
+
+  h3 {
+    @apply .text-3xl;
   }
 }
 
