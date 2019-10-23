@@ -57,6 +57,10 @@ module.exports = {
       height: (theme) => ({
         auto: 'auto',
         ...theme('spacing'),
+        72: '18rem',
+        80: '20rem',
+        '400px': '400px',
+        '500px': '500px',
         '600px': '600px',
         full: '100%',
         screen: '100vh',
