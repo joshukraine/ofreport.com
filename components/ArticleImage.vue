@@ -1,16 +1,19 @@
+<!-- eslint-disable vue/attribute-hyphenation -->
 <template>
   <figure class="my-10">
-    <cld-image
-      :public-id="publicId"
-      :width="width"
-      :height="height"
-      :alt="alt"
-      crop="scale"
-      quality="auto"
-    />
-    <figcaption v-if="caption" class="mt-2 text-center font-semibold">
-      {{ caption }}
-    </figcaption>
+    <cld-image :public-id="publicId">
+      <cld-transformation :width="width"
+                          :height="height"
+                          :alt="alt"
+                          crop="scale"
+                          fetchFormat="auto"
+                          quality="auto:best"
+      />
+      <cld-image />
+      <figcaption v-if="caption" class="mt-2 text-center font-semibold">
+        {{ caption }}
+      </figcaption>
+    </cld-image>
   </figure>
 </template>
 
