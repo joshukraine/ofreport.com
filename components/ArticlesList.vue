@@ -1,17 +1,34 @@
 <template>
-  <div>
-    <p>Current page: {{ page }}</p>
-
-    <div v-for="article in articles"
-         :key="article.basename"
-         class="markdown"
-    >
-      <h2>{{ article.title }}</h2>
-      <p><em>Published {{ article.date }}</em></p>
-      <p>{{ article.preview }}</p>
-      <nuxt-link :to="`/blog/${article.basename}`">
-        Read
-      </nuxt-link>
+  <div class="container border">
+    <div class="max-w-3xl mx-auto md:flex md:flex-wrap border">
+      <div v-for="article in articles"
+           :key="article.basename"
+           class="md:w-1/2 mt-8"
+      >
+        <div class="md:mx-4 p-4 h-full flex flex-col justify-between bg-white rounded-lg shadow-md">
+          <div>
+            <h2 class="my-0 leading-none">
+              {{ article.title }}
+            </h2>
+            <p class="text-sm mt-1">
+              <span>{{ article.author }}</span>
+              <span>&middot; {{ article.date }}</span>
+            </p>
+            <div v-if="article.cover" class="-mx-4">
+              <card-image :article-cover="article.cover"
+                          width="610"
+                          :alt="article.caption"
+              />
+            </div>
+            <p>{{ article.preview }}</p>
+          </div>
+          <p>
+            <nuxt-link :to="`/blog/${article.basename}`">
+              Read more
+            </nuxt-link>
+          </p>
+        </div>
+      </div>
     </div>
 
     <paginate
@@ -36,9 +53,14 @@
 </template>
 
 <script>
+import CardImage from '~/components/CardImage.vue';
+
 const perPage = parseInt(process.env.perPage);
 
 export default {
+  components: {
+    CardImage,
+  },
   props: {
     allArticles: {
       type: Array,
