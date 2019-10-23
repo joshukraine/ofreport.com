@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header class="h-20 lg:h-24 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b lg:px-6"
+    <header class="h-20 lg:h-24 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-100 lg:px-6"
             :class="{ 'open-nav': navOpen }"
     >
-      <nuxt-link class="block" to="/">
+      <nuxt-link class="block mt-1" to="/">
         <img class="w-56 lg:w-64" src="~/assets/svg/ofr-logo.svg">
       </nuxt-link>
       <div class="relative">
