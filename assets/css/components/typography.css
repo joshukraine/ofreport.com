@@ -46,12 +46,14 @@ p {
   }
 }
 
-.markdown a {
+.markdown a,
+p > a {
   @apply .text-blue-600 .no-underline;
   transition: color 150ms ease;
 }
 
-.markdown a:hover {
+.markdown a:hover,
+p > a:hover {
   @apply .text-blue-400;
   transition: color 150ms ease;
 }
