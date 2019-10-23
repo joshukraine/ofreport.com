@@ -4,7 +4,7 @@
       <div class="bg-cover bg-center h-56 sm:h-72 md:h-400px lg:h-500px xl:h-600px" :style="{ backgroundImage: 'url(' + fm.cover + ')' }" />
       <div class="container">
         <div class="max-w-3xl mx-auto">
-          <p class="text-center text-base text-gray-600 italic font-bold">
+          <p class="text-center text-base text-gray-500 font-semibold">
             {{ fm.caption }}
           </p>
 
