@@ -54,6 +54,13 @@ module.exports = {
         ...theme('colors'),
         default: theme('colors.gray.200', 'currentColor'),
       }),
+      height: (theme) => ({
+        auto: 'auto',
+        ...theme('spacing'),
+        '600px': '600px',
+        full: '100%',
+        screen: '100vh',
+      }),
     },
     container: {
       center: true,
