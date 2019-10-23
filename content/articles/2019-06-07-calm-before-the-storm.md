@@ -1,12 +1,6 @@
 ---
-
-title: "[9] Calm Before the Storm"
+title: "Calm Before the Storm"
 date: "2019-06-07"
-tags:
-- newsletter
-- good and evil
-- family
-- photos
 author: "Joshua Steele"
 download: "OFR-Apr-Jun-2019.pdf"
 image: "/2019/daddys-home-1200w.jpeg"
@@ -14,12 +8,14 @@ image_lg: "/2019/daddys-home-3000w.jpeg"
 caption: "&ldquo;Daddy's home!&rdquo; As something of a finale to our otherwise quiet spring season, I got to attend the wedding of a good friend in the US. After a week away from my family, and a joyful reunion upon my return, it's time to buckle up. CMO 2019 is only days away!"
 preview: >
   Daniel Courter first visited us in Ukraine in 2007 along with his father Anthony and younger brother Aaron. He later went on to participate in both CMO 2009 and CMO 2010. This spring, on May 25th, I had the privilege of attending his wedding to Genesis Laubenthal. It was a beautiful ceremony, and Kelsie and I are excited to see how God will use Daniel and Genesis for His glory!
-
+tags:
+- newsletter
+- good and evil
+- family
+- photos
 ---
 
 Daniel Courter first visited us in Ukraine in 2007 along with his father Anthony and younger brother Aaron. He later went on to participate in both CMO 2009 and CMO 2010. This spring, on May 25th, I had the privilege of attending his wedding to Genesis Laubenthal. It was a beautiful ceremony, and Kelsie and I are excited to see how God will use Daniel and Genesis for His glory!
-
-READMORE
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2019/wedding-sign-700w.jpeg)](https://d21yo20tm8bmc2.cloudfront.net/2019/wedding-sign-3000w.jpeg)
 {: .article-image .article-image--has-caption}

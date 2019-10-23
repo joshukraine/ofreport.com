@@ -1,17 +1,17 @@
 ---
-
 title: "A Chance to Give Back"
 date: "2017-08-12"
-tags:
-- newsletter
-- ministry
-- photos
 author: "Kelsie Steele"
 download: "OFR-Jul-Aug-2017.pdf"
 image: "/2017/mom-seminar-group-1200w.jpg"
 image_lg: "/2017/mom-seminar-group-2000w.jpg"
 caption: "Recently, Kelsie was asked to speak at a two-day family seminar here in L’viv. She was joined by Katelin Day, and together they delivered a series of talks aimed at encouraging and equipping young mothers. This is Kelsie’s report of the event in her own words."
-
+preview: >
+  “God,” I whispered, “will you help me?” I sat in a small bedroom hearing the spring breeze rustle the curtains and play in my hair. I wiped my sweaty palms and tried to take some deep breaths. It wasn’t the first time I had to face my nervousness and take on a public speaking opportunity in a foreign language.READMORE But so far it hadn’t gotten any easier. The first session was already finished and I had felt awkward and stiff, stumbling around to find words and explain things clearly. A wave of embarrassment crept over me at the thought. Who was I to be standing in front of these women?
+tags:
+- newsletter
+- ministry
+- photos
 ---
 
 “God,” I whispered, “will you help me?” I sat in a small bedroom hearing the spring breeze rustle the curtains and play in my hair. I wiped my sweaty palms and tried to take some deep breaths. It wasn’t the first time I had to face my nervousness and take on a public speaking opportunity in a foreign language.READMORE But so far it hadn’t gotten any easier. The first session was already finished and I had felt awkward and stiff, stumbling around to find words and explain things clearly. A wave of embarrassment crept over me at the thought. Who was I to be standing in front of these women?
