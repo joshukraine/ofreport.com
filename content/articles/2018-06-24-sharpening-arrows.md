@@ -7,7 +7,7 @@ tags:
 - good and evil
 - cmo
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-May-Jun-2018.pdf"
 image: "/2018/teaching-forum-mall-1200w.jpg"
 image_lg: "/2018/teaching-forum-mall-2000w.jpg"

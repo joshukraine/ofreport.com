@@ -5,7 +5,7 @@ date: "2017-05-24"
 tags:
 - family
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2017/steele-family-2017-1200w.jpg"
 image_lg: "/2017/steele-family-2017-2000w.jpg"
 caption: "The Steele Family - Spring 2017: Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David"

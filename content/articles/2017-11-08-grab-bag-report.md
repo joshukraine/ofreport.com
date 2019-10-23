@@ -8,7 +8,7 @@ tags:
 - bible first
 - family
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-Oct-Dec-2017.pdf"
 image: "/2017/11/grab-bag-cover-1200w.jpg"
 image_lg: "/2017/11/grab-bag-cover-2000w.jpg"

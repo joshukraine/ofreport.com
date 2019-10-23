@@ -6,7 +6,7 @@ tags:
 - newsletter
 - ministry
 - photos
-author: ["Kelsie Steele", "steelekelsie", "@ig"]
+author: "Kelsie Steele"
 download: "OFR-Jul-Aug-2017.pdf"
 image: "/2017/mom-seminar-group-1200w.jpg"
 image_lg: "/2017/mom-seminar-group-2000w.jpg"

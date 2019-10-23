@@ -7,7 +7,7 @@ tags:
 - good and evil
 - family
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-Apr-Jun-2019.pdf"
 image: "/2019/daddys-home-1200w.jpeg"
 image_lg: "/2019/daddys-home-3000w.jpeg"

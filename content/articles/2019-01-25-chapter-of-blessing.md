@@ -5,7 +5,7 @@ date: "2019-01-25"
 tags:
 - newsletter
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-Oct-Dec-2018.pdf"
 image: "/2019/steeles-ark-encounter-1200w.jpg"
 image_lg: "/2019/steeles-ark-encounter-3000w.jpeg"

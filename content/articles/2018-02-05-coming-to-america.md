@@ -5,7 +5,7 @@ date: "2018-02-05"
 tags:
 - family
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2018/america-trip-1230w.jpg"
 image_lg: "/2018/america-trip-2000w.jpg"
 caption: "Get ready folks! This fall, the Steele clan is coming to the States! This will be our first trip in four years, and we'd like to tell you what we have planned."

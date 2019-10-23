@@ -5,7 +5,7 @@ date: "2019-02-11"
 tags:
 - family
 - announcements
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2019/baby-on-the-way-1200w.jpg"
 image_lg: "/2019/baby-on-the-way-3000w.jpg"
 caption: "Our home is continually filled with the melodious sound...ok mostly melodious sound...of childrens' voices. Today we are smiling because a new choir member will be joining soon!"

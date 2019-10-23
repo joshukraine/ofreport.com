@@ -7,7 +7,7 @@ tags:
 - good and evil
 - cmo
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-Aug-Sep-2018.pdf"
 image: "/2018/dobro-zlo-group-1200w.jpg"
 image_lg: "/2018/dobro-zlo-group-2000w.jpg"

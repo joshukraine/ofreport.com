@@ -7,7 +7,7 @@ tags:
 - good and evil
 - family
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 download: "OFR-Jan-Mar-2019.pdf"
 image: "/2019/dobro-i-zlo-library-05-1200w.jpg"
 image_lg: "/2019/dobro-i-zlo-library-05-3000w.jpg"

@@ -5,7 +5,7 @@ date: "2017-12-21"
 tags:
 - ministry
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
+author: "Joshua Steele"
 image: "/2017/12/kids-in-snow-1200w.jpg"
 image_lg: "/2017/12/kids-in-snow-2000w.jpg"
 caption: "Last Sunday, we invited our kids from church to join us for an afternoon of pizza, games, singing, and smores. We had a blast, and we'd like to share a few of the warmest moments with you."
