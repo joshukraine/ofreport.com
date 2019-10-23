@@ -12,7 +12,7 @@
             <h1 class="leading-none">
               {{ fm.title }}
             </h1>
-            <p class="text-sm mt-0">
+            <p class="text-sm mt-1">
               <a v-if="authorHasSocial"
                  :href="articleAuthor.social"
                  class="text-sm"
