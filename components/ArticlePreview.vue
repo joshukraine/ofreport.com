@@ -46,7 +46,7 @@ export default {
   computed: {
     customWidth() {
       if (this.featured) {
-        return '735';
+        return '740';
       }
       return '610';
     },
