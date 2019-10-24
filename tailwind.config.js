@@ -52,7 +52,7 @@ module.exports = {
       },
       borderColor: (theme) => ({
         ...theme('colors'),
-        default: theme('colors.gray.200', 'currentColor'),
+        default: theme('colors.gray.100', 'currentColor'),
       }),
       height: (theme) => ({
         auto: 'auto',
