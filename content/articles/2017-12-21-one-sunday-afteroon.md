@@ -2,11 +2,10 @@
 title: "One Sunday Afteroon"
 date: "2017-12-21"
 author: "Joshua Steele"
-image: "/2017/12/kids-in-snow-1200w.jpg"
-image_lg: "/2017/12/kids-in-snow-2000w.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571938781/OFReport/2017-12-21-one-sunday-afteroon/kids-in-snow-12-6_ot5lzj.jpg"
 caption: "Last Sunday, we invited our kids from church to join us for an afternoon of pizza, games, singing, and smores. We had a blast, and we'd like to share a few of the warmest moments with you."
 preview: >
-The [Bible First Kids class](http://OFReport.com/2017/06/bible-first-kids/) I lead at our church continues to be one of the ministries I enjoy most. We focus on Scripture memory, Sword Drills, and of course reading through the [Bible First lessons](https://getbiblefirst.com/lessons/){: target="_blank"} together. And we have fun doing it! The kids range in age from 10-year-olds up to 15 and 16-year-olds.READMORE
+  The [Bible First Kids class](http://OFReport.com/2017/06/bible-first-kids/) I lead at our church continues to be one of the ministries I enjoy most. We focus on Scripture memory, Sword Drills, and of course reading through the [Bible First lessons](https://getbiblefirst.com/lessons/){: target="_blank"} together. And we have fun doing it! The kids range in age from 10-year-olds up to 15 and 16-year-olds.READMORE
 tags:
 - ministry
 - photos

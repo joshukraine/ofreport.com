@@ -2,8 +2,7 @@
 title: "Coming To America!"
 date: "2018-02-05"
 author: "Joshua Steele"
-image: "/2018/america-trip-1230w.jpg"
-image_lg: "/2018/america-trip-2000w.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571937734/OFReport/2018-02-05-coming-to-america/america-trip-12-6_jn4isg.jpg"
 caption: "Get ready folks! This fall, the Steele clan is coming to the States! This will be our first trip in four years, and we'd like to tell you what we have planned."
 preview: >
   When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of L'viv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
