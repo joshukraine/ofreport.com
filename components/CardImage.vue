@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/attribute-hyphenation -->
 <template>
-  <figure class="mt-4">
+  <figure>
     <cld-image :public-id="`OFReport/${publicId}`">
       <cld-transformation :width="width"
                           :alt="alt"
