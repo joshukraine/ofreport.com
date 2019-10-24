@@ -1,7 +1,12 @@
 <template>
   <div>
     <article>
-      <div class="bg-cover bg-center h-56 sm:h-72 md:h-400px lg:h-500px xl:h-600px" :style="{ backgroundImage: 'url(' + coverBgImage + ')' }" />
+      <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
+        <div class="bg-cover bg-center h-56 sm:h-72 md:h-400px lg:h-500px xl:h-600px"
+             :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
+        />
+      </div>
+
       <div class="container">
         <div class="max-w-3xl mx-auto">
           <p class="text-center text-base text-gray-500 font-semibold">
