@@ -20,10 +20,12 @@
                           :alt="article.caption"
               />
             </div>
-            <p>{{ article.preview }}</p>
+            <p class="text-base">
+              {{ article.preview }}
+            </p>
           </div>
-          <p>
-            <nuxt-link :to="`/blog/${article.basename}`">
+          <p class="border-t pt-2 mt-6">
+            <nuxt-link class="text-base font-bold" :to="`/blog/${article.basename}`">
               Read more
             </nuxt-link>
           </p>

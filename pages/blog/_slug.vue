@@ -2,14 +2,14 @@
   <div>
     <article>
       <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
-        <div class="bg-cover bg-center h-56 sm:h-72 md:h-400px lg:h-500px xl:h-600px"
+        <div class="bg-cover bg-top h-64 sm:h-400px md:h-500px lg:h-600px xl:h-700px"
              :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
         />
       </div>
 
       <div class="container">
         <div class="max-w-3xl mx-auto">
-          <p class="text-center text-base text-gray-500 font-semibold">
+          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold">
             {{ fm.caption }}
           </p>
 
