@@ -1,35 +1,14 @@
 <template>
-  <div class="container border">
-    <div class="max-w-3xl mx-auto md:flex md:flex-wrap border">
+  <div class="container">
+    <div class="max-w-3xl mx-auto md:flex md:flex-wrap">
+      <div v-if="isBlogHome" class="mt-8 w-full">
+        <ArticlePreview :article="featuredArticle" :featured="true" />
+      </div>
       <div v-for="article in articles"
            :key="article.basename"
            class="md:w-1/2 mt-8"
       >
-        <div class="md:mx-4 p-4 h-full flex flex-col justify-between bg-white rounded-lg shadow-md">
-          <div>
-            <h2 class="my-0 leading-none">
-              {{ article.title }}
-            </h2>
-            <p class="text-sm mt-1">
-              <span>{{ article.author }}</span>
-              <span>&middot; {{ article.date }}</span>
-            </p>
-            <div v-if="article.cover" class="-mx-4">
-              <card-image :article-cover="article.cover"
-                          width="610"
-                          :alt="article.caption"
-              />
-            </div>
-            <p class="text-base">
-              {{ article.preview }}
-            </p>
-          </div>
-          <p class="border-t pt-2 mt-6">
-            <nuxt-link class="text-base font-bold" :to="`/blog/${article.basename}`">
-              Read more
-            </nuxt-link>
-          </p>
-        </div>
+        <ArticlePreview :article="article" :featured="false" />
       </div>
     </div>
 
@@ -55,13 +34,13 @@
 </template>
 
 <script>
-import CardImage from '~/components/CardImage.vue';
+import ArticlePreview from '~/components/ArticlePreview.vue';
 
 const perPage = parseInt(process.env.perPage);
 
 export default {
   components: {
-    CardImage,
+    ArticlePreview,
   },
   props: {
     allArticles: {
@@ -81,6 +60,8 @@ export default {
     return {
       articles: [],
       page: null,
+      isBlogHome: false,
+      start: 0,
     };
   },
   computed: {
@@ -93,17 +74,29 @@ export default {
     paginatedRoot() {
       return this.rootSegment ? `/${this.rootSegment}` : '';
     },
+    featuredArticle() {
+      return this.allArticles[0];
+    },
+  },
+  created() {
+    if (this.$route.fullPath === '/blog/') {
+      this.isBlogHome = true;
+    }
   },
   mounted() {
     // Set the current page.
     this.page = this.startPage;
 
     // Calculate the range of articles to display.
-    const start = (this.page - 1) * perPage;
-    const end = start + perPage;
+    if (this.isBlogHome) {
+      this.start = 1;
+    } else {
+      this.start = (this.page - 1) * perPage;
+    }
+    const end = this.start + perPage;
 
     // Select the articles for the current page.
-    this.articles = this.allArticles.slice(start, end);
+    this.articles = this.allArticles.slice(this.start, end);
   },
   methods: {
     pageChangeHandle(pageNum) {
