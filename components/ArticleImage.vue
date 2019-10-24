@@ -9,11 +9,10 @@
                           fetchFormat="auto"
                           quality="auto"
       />
-      <cld-image />
-      <figcaption v-if="caption" class="mt-2 text-center font-semibold">
-        {{ caption }}
-      </figcaption>
     </cld-image>
+    <figcaption v-if="caption" class="mt-2 text-center font-semibold">
+      {{ caption }}
+    </figcaption>
   </figure>
 </template>
 
