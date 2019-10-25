@@ -9,7 +9,9 @@
       </div>
       <div>
         <h2 class="mt-4 leading-none">
-          {{ article.title }}
+          <nuxt-link class="hover:text-blue-600" :to="`/blog/${article.basename}`">
+            {{ article.title }}
+          </nuxt-link>
         </h2>
         <p class="mt-1 text-sm text-gray-400">
           <span>{{ article.author }}</span>
@@ -21,7 +23,7 @@
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
-      <nuxt-link class="text-base font-bold" :to="`/blog/${article.basename}`">
+      <nuxt-link class="text-base" :to="`/blog/${article.basename}`">
         Read more
       </nuxt-link>
     </p>
