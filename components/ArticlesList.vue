@@ -36,13 +36,13 @@ export default {
       type: Array,
       required: true,
     },
-    startPage: {
-      type: Number,
-      required: true,
-    },
     rootSegment: {
       type: String,
       default: null,
+    },
+    startPage: {
+      type: Number,
+      required: true,
     },
   },
   data() {
