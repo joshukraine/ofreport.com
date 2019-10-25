@@ -2,8 +2,7 @@
 title: "We've Got News!"
 date: "2019-02-11"
 author: "Joshua Steele"
-image: "/2019/baby-on-the-way-1200w.jpg"
-image_lg: "/2019/baby-on-the-way-3000w.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571902199/OFReport/2019-02-11-weve-got-news/baby-on-the-way-1200-630_uxyuha.jpg"
 caption: "Our home is continually filled with the melodious sound...ok mostly melodious sound...of childrens' voices. Today we are smiling because a new choir member will be joining soon!"
 preview: >
   Today we're very excited to announce that we are expecting! Kelsie is about 17 weeks along in her pregnancy, and we anticipate the birth of our newest addition some time in late July.
@@ -13,8 +12,6 @@ tags:
 ---
 
 Today we're very excited to announce that we are expecting! Kelsie is about 17 weeks along in her pregnancy, and we anticipate the birth of our newest addition some time in late July.
-
-READMORE
 
 We don't yet know the gender, but we hope to find out in the next couple of weeks when we go for our first ultrasound. Given our current boy-girl ratio, it seems unlikely that the boys' team will be able to take the lead this time around. Still, with God all things are possible. Triplet boys?
 

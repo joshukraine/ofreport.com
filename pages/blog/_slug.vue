@@ -1,10 +1,15 @@
 <template>
   <div>
     <article>
-      <div class="bg-cover bg-center h-56 sm:h-72 md:h-400px lg:h-500px xl:h-600px" :style="{ backgroundImage: 'url(' + fm.cover + ')' }" />
+      <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
+        <div class="bg-cover bg-top h-64 sm:h-400px md:h-500px lg:h-600px xl:h-700px"
+             :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
+        />
+      </div>
+
       <div class="container">
         <div class="max-w-3xl mx-auto">
-          <p class="text-center text-base text-gray-500 font-semibold">
+          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold">
             {{ fm.caption }}
           </p>
 
@@ -59,6 +64,12 @@ export default {
   computed: {
     articleAuthor() {
       return this.authors.find((author) => author.name === this.fm.author);
+    },
+    coverBgImage() {
+      const opts = 'upload/c_scale,f_auto,q_auto:best,w_2000';
+      const segments = this.fm.cover.split('upload');
+      segments.splice(1, 0, opts);
+      return segments.join('');
     },
   },
   async asyncData({ params }) {

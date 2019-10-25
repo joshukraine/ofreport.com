@@ -1,25 +1,21 @@
 <!-- eslint-disable vue/attribute-hyphenation -->
 <template>
-  <figure class="my-10">
-    <cld-image :public-id="publicId">
+  <figure>
+    <cld-image :public-id="`OFReport/${publicId}`">
       <cld-transformation :width="width"
-                          :height="height"
                           :alt="alt"
                           crop="scale"
                           fetchFormat="auto"
                           quality="auto"
       />
     </cld-image>
-    <figcaption v-if="caption" class="mt-2 text-center font-semibold">
-      {{ caption }}
-    </figcaption>
   </figure>
 </template>
 
 <script>
 export default {
   props: {
-    publicId: {
+    articleCover: {
       type: String,
       required: true,
     },
@@ -27,24 +23,15 @@ export default {
       type: String,
       default: '',
     },
-    height: {
-      type: String,
-      default: '',
-    },
     alt: {
       type: String,
       required: true,
     },
-    caption: {
-      type: String,
-      default: null,
+  },
+  computed: {
+    publicId() {
+      return this.articleCover.split('OFReport/')[1];
     },
   },
 };
 </script>
-
-<style>
-figure img {
-  @apply .mx-auto;
-}
-</style>

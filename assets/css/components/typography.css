@@ -40,8 +40,7 @@ p {
     @apply .text-2xl;
   }
 
-  p,
-  a {
+  p {
     @apply .text-lg;
   }
 }
@@ -60,16 +59,18 @@ p {
   }
 }
 
+a {
+  transition: color 150ms ease-in-out;
+}
+
 .markdown a,
 p > a {
-  @apply .text-blue-600 .no-underline;
-  transition: color 150ms ease;
+  @apply .text-blue-600 .font-semibold;
 }
 
 .markdown a:hover,
 p > a:hover {
   @apply .text-blue-400;
-  transition: color 150ms ease;
 }
 
 blockquote {

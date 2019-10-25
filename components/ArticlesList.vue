@@ -1,17 +1,15 @@
 <template>
-  <div>
-    <p>Current page: {{ page }}</p>
-
-    <div v-for="article in articles"
-         :key="article.basename"
-         class="markdown"
-    >
-      <h2>{{ article.title }}</h2>
-      <p><em>Published {{ article.date }}</em></p>
-      <p>{{ article.preview }}</p>
-      <nuxt-link :to="`/blog/${article.basename}`">
-        Read
-      </nuxt-link>
+  <div class="container">
+    <div class="max-w-3xl mx-auto md:flex md:flex-wrap">
+      <div v-if="isBlogHome" class="mt-8 w-full">
+        <ArticlePreview :article="featuredArticle" :featured="true" />
+      </div>
+      <div v-for="article in articles"
+           :key="article.basename"
+           class="md:w-1/2 mt-8"
+      >
+        <ArticlePreview :article="article" :featured="false" />
+      </div>
     </div>
 
     <paginate
@@ -36,9 +34,14 @@
 </template>
 
 <script>
+import ArticlePreview from '~/components/ArticlePreview.vue';
+
 const perPage = parseInt(process.env.perPage);
 
 export default {
+  components: {
+    ArticlePreview,
+  },
   props: {
     allArticles: {
       type: Array,
@@ -57,6 +60,8 @@ export default {
     return {
       articles: [],
       page: null,
+      isBlogHome: false,
+      start: 0,
     };
   },
   computed: {
@@ -69,17 +74,29 @@ export default {
     paginatedRoot() {
       return this.rootSegment ? `/${this.rootSegment}` : '';
     },
+    featuredArticle() {
+      return this.allArticles[0];
+    },
+  },
+  created() {
+    if (this.$route.fullPath === '/blog/') {
+      this.isBlogHome = true;
+    }
   },
   mounted() {
     // Set the current page.
     this.page = this.startPage;
 
     // Calculate the range of articles to display.
-    const start = (this.page - 1) * perPage;
-    const end = start + perPage;
+    if (this.isBlogHome) {
+      this.start = 1;
+    } else {
+      this.start = (this.page - 1) * perPage;
+    }
+    const end = this.start + perPage;
 
     // Select the articles for the current page.
-    this.articles = this.allArticles.slice(start, end);
+    this.articles = this.allArticles.slice(this.start, end);
   },
   methods: {
     pageChangeHandle(pageNum) {
