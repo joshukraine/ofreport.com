@@ -1,10 +1,10 @@
 <template>
   <div>
-    <header class="h-20 lg:h-24 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-100 lg:px-6"
+    <header class="h-16 sm:h-18 md:h-20 lg:h-24 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-100 lg:px-6"
             :class="{ 'open-nav': navOpen }"
     >
       <nuxt-link class="block mt-1" to="/">
-        <img class="w-48 md:w-56" src="~/assets/svg/ofr-logo.svg">
+        <img class="w-40 md:w-56" src="~/assets/svg/ofr-logo.svg">
       </nuxt-link>
       <div class="relative">
         <button class="hamburger" @click="navOpen = !navOpen">
@@ -74,7 +74,7 @@ export default {
 .nav-menu {
   @apply .absolute .pb-20 .bg-blue-600 .h-screen .w-full .overflow-y-auto;
   left: 100%;
-  top: 5rem;
+  top: 4rem;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -128,6 +128,10 @@ export default {
 }
 
 @screen md {
+  .nav-menu {
+    top: 5rem;
+  }
+
   .nav-link-wrapper {
     @apply .max-w-3xl;
   }
