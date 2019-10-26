@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div class="max-w-3xl mx-auto md:flex md:flex-wrap">
-      <div v-if="isBlogHome" class="mt-8 w-full">
+      <div v-if="isBlogHome" class="mt-6 md:mt-10 w-full">
         <ArticlePreview :article="featuredArticle" :featured="true" />
       </div>
       <div v-for="article in articles"
            :key="article.basename"
-           class="md:w-1/2 mt-8"
+           class="mt-6 md:mt-10 md:w-1/2"
       >
         <ArticlePreview :article="article" :featured="false" />
       </div>
