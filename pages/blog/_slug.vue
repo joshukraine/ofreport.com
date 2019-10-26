@@ -9,9 +9,11 @@
 
       <div class="container">
         <div class="max-w-3xl mx-auto">
-          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold">
-            {{ fm.caption }}
-          </p>
+          <!-- eslint-disable vue/no-v-html -->
+          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold"
+             v-html="renderInlineMd(fm.caption)"
+          />
+          <!-- eslint-enable vue/no-v-html -->
 
           <div class="mt-3 md:mt-6 lg:mt-10 py-8">
             <h1 class="leading-none">
@@ -50,11 +52,15 @@
 <script>
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
+import markdownit from '~/mixins/markdownit';
 
 export default {
   components: {
     DynamicMarkdown,
   },
+  mixins: [
+    markdownit,
+  ],
   data() {
     return {
       authors: authorData.data,
