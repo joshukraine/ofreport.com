@@ -2,7 +2,7 @@
   <div>
     <article>
       <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
-        <div class="bg-cover bg-top h-64 sm:h-400px md:h-500px lg:h-600px xl:h-700px"
+        <div class="bg-cover bg-center h-64 sm:h-400px md:h-500px xl:h-600px"
              :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
         />
       </div>
@@ -15,7 +15,7 @@
           />
           <!-- eslint-enable vue/no-v-html -->
 
-          <div class="mt-3 md:mt-6 lg:mt-10 py-8">
+          <div class="mt-3 md:mt-6 lg:mt-8 py-4 sm:pt-6">
             <h1 class="leading-none">
               {{ fm.title }}
             </h1>
