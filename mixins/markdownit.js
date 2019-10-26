@@ -1,9 +1,9 @@
-const mila = require('markdown-it-link-attributes');
-
 const md = require('markdown-it')({
   linkify: true,
   typographer: true,
 });
+
+const mila = require('markdown-it-link-attributes');
 
 md.use(mila, {
   pattern: /^https?:\/\//,
