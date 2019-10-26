@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-6 sm:my-8 md:my-10 w-full">
     <paginate
       v-if="pageCount > 1"
       v-model="page"
@@ -16,7 +16,6 @@
       :next-link-class="'next-link-item'"
       :break-view-class="'break-view'"
       :break-view-link-class="'break-view-link'"
-      :first-last-button="true"
     />
   </div>
 </template>
@@ -72,14 +71,43 @@ export default {
 
 <style>
 .pagination {
-  @apply .flex .mt-8 .list-none;
+  @apply .flex .justify-center .list-none;
 }
 
 .pagination > li > a {
-  @apply .py-2 .px-4 .border;
+  @apply .mx-1 .py-1 .px-2 .border .text-sm .text-blue-600 .rounded;
 }
 
-.pagination .active {
-  @apply .text-blue-500 .font-bold;
+.pagination > li > a:hover {
+  @apply .bg-gray-100;
 }
+
+.pagination .active > a,
+.pagination .active > a:focus,
+.pagination .active > a:hover {
+  @apply .bg-blue-600 .border .border-blue-600 .text-white .cursor-default .outline-none;
+}
+
+.pagination .disabled > a,
+.pagination .disabled > a:focus,
+.pagination .disabled > a:hover {
+  @apply .text-gray-400 .cursor-default .bg-gray-050 .outline-none;
+}
+
+.pagination .page-item {
+  @apply .hidden;
+}
+
+@screen xs {
+  .pagination .page-item {
+    @apply .block;
+  }
+}
+
+@screen sm {
+  .pagination > li > a {
+    @apply .mx-2 .py-2 .px-3 .text-base;
+  }
+}
+
 </style>

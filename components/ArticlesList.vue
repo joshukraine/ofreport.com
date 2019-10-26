@@ -10,13 +10,13 @@
       >
         <ArticlePreview :article="article" :featured="false" />
       </div>
-    </div>
 
-    <Paginator :article-count="articleCount"
-               :start-page="startPage"
-               :root-segment="rootSegment"
-               :per-page="perPage"
-    />
+      <Paginator :article-count="articleCount"
+                 :start-page="startPage"
+                 :root-segment="rootSegment"
+                 :per-page="perPage"
+      />
+    </div>
   </div>
 </template>
 
