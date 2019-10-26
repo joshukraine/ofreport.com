@@ -1,3 +1,5 @@
+import markdownIt from 'markdown-it';
+import mila from 'markdown-it-link-attributes';
 import path from 'path';
 import dynamicRoutes from './lib/dynamic-routes';
 
@@ -72,6 +74,17 @@ export default {
           loader: 'frontmatter-markdown-loader',
           options: {
             mode: ['vue-render-functions'],
+            markdownIt: markdownIt({
+              html: true,
+              linkify: true,
+              typographer: true,
+            }).use(mila, {
+              pattern: /^https?:\/\//,
+              attrs: {
+                target: '_blank',
+                rel: 'noopener',
+              },
+            }),
             vue: {
               root: 'markdown',
             },

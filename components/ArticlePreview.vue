@@ -13,13 +13,14 @@
             {{ article.title }}
           </nuxt-link>
         </h2>
+
         <p class="mt-1 text-sm text-gray-400">
           <span>{{ article.author }}</span>
           <span>&middot; {{ article.date }}</span>
         </p>
-        <p class="text-base">
-          {{ article.preview }}
-        </p>
+
+        <!-- eslint-disable-next-line vue/no-v-html -->
+        <div v-html="renderMd(article.preview)" />
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
@@ -32,11 +33,15 @@
 
 <script>
 import CardImage from '~/components/CardImage.vue';
+import markdownit from '~/mixins/markdownit';
 
 export default {
   components: {
     CardImage,
   },
+  mixins: [
+    markdownit,
+  ],
   props: {
     article: {
       type: Object,

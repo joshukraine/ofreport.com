@@ -4,17 +4,18 @@ date: "2017-06-13"
 author: "Joshua Steele"
 image: "/2017/bible-first-kids-1200w.jpg"
 image_lg: "/2017/bible-first-kids-2000w.jpg"
-caption: "Meet some of the young people of Bible First Kids - a new class we’ve started at our church here in L’viv. From the left: Pastor Vladyslav (with Sofia), Abigail, Joshua (back), Anya, Bohdan, Timothy, Anya, Matthew, Maria."
 download: "OFR-May-Jun-2017.pdf"
+caption: >
+  Meet some of the young people of Bible First Kids - a new class we’ve started at our church here in L’viv. From the left: Pastor Vladyslav (with Sofia), Abigail, Joshua (back), Anya, Bohdan, Timothy, Anya, Matthew, Maria.
 preview: >
-  On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. READMORE “I heard that you’ve been taking Abigail through the *Bible First* lessons at home.” I acknowledged that this was correct. “Would you be willing to do the same for our older kids at church?”
+  On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request.  "I heard that you’ve been taking Abigail through the *Bible First* lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
 tags:
 - newsletter
 - bible first
 - good and evil
 ---
 
-On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. READMORE “I heard that you’ve been taking Abigail through the *Bible First* lessons at home.” I acknowledged that this was correct. “Would you be willing to do the same for our older kids at church?”
+On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request.  "I heard that you’ve been taking Abigail through the *Bible First* lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
 
 I agreed and our first class was held on the Sunday after Easter. I brought a short message for the church during which I introduced *Bible First*, giving an overview of the course and explaining our goals to the parents. I then invited all the older kids up on the stage and gave them three challenges on which to focus as we started our new class: 1. Set aside childish things (1 Cor. 13:11), 2. Build a Godly reputation (Prov. 20:11), and 3. Seek the Lord in their youth (Eccl. 12:1). This done, we prayed and exited the main auditorium together.
 
@@ -23,14 +24,14 @@ I agreed and our first class was held on the Sunday after Easter. I brought a sh
 The class receives three challenges in front of the congregation on our first day.
 {: .caption-text .article-image__caption}
 
-I was glad that Pastor Vladyslav was joining me to help lead the class. Most of my Bible teaching experience has been with adults, and I confess I was bit nervous with the idea of committing to lead a weekly kids' class. That first day, however, laid my fears to rest. We got right down to business, reading through a good portion of Lesson 1. I also introduced the kids to “sword drills”, wherein everyone practices finding various passages in their Bibles as quickly as possible. Whoever finds the passage first reads it aloud. He then comes to the front and leads the next drill.
+I was glad that Pastor Vladyslav was joining me to help lead the class. Most of my Bible teaching experience has been with adults, and I confess I was bit nervous with the idea of committing to lead a weekly kids' class. That first day, however, laid my fears to rest. We got right down to business, reading through a good portion of Lesson 1. I also introduced the kids to "sword drills", wherein everyone practices finding various passages in their Bibles as quickly as possible. Whoever finds the passage first reads it aloud. He then comes to the front and leads the next drill.
 
 [![Danylo Medyakovsky (16) takes a turn leading the class in sword drills.](https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-2000w.jpg)
 {: .article-image .article-image--has-caption}
 Danylo Medyakovsky (16) takes a turn leading the class in sword drills.
 {: .caption-text .article-image__caption}
 
-In addition to reading through *Bible First* lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter “intro” message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
+In addition to reading through *Bible First* lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter "intro" message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
 
 [![The kids takes notes while listening to a message in the main service.](https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-2000w.jpg)
 {: .article-image .article-image--has-caption}

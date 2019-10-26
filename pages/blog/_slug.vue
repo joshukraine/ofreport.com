@@ -2,18 +2,20 @@
   <div>
     <article>
       <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
-        <div class="bg-cover bg-top h-64 sm:h-400px md:h-500px lg:h-600px xl:h-700px"
+        <div class="bg-cover bg-center h-64 sm:h-400px md:h-500px xl:h-600px"
              :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
         />
       </div>
 
       <div class="container">
         <div class="max-w-3xl mx-auto">
-          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold">
-            {{ fm.caption }}
-          </p>
+          <!-- eslint-disable vue/no-v-html -->
+          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold"
+             v-html="renderInlineMd(fm.caption)"
+          />
+          <!-- eslint-enable vue/no-v-html -->
 
-          <div class="mt-3 md:mt-6 lg:mt-10 py-8">
+          <div class="mt-3 md:mt-6 lg:mt-8 py-4 sm:pt-6">
             <h1 class="leading-none">
               {{ fm.title }}
             </h1>
@@ -31,7 +33,7 @@
                    :key="tag"
                    class="inline-block group"
               >
-                <nuxt-link class="text-black" :to="`/tags/${tag}`">
+                <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}`">
                   <span class="opacity-50 inline-block rounded-full bg-blue-600 px-3 py-1 leading-none text-xs text-white font-bold mr-2 mb-2 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
                 </nuxt-link>
               </div>
@@ -50,11 +52,16 @@
 <script>
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
+import markdownit from '~/mixins/markdownit';
+import { parameterize } from '~/lib/helpers';
 
 export default {
   components: {
     DynamicMarkdown,
   },
+  mixins: [
+    markdownit,
+  ],
   data() {
     return {
       authors: authorData.data,
@@ -89,6 +96,11 @@ export default {
       /* eslint-disable-next-line no-console */
       console.error(`UNKNOWN AUTHOR: Sorry, we have no author named "${this.fm.author}". Check your spelling, or add the new author to authors.json.`);
     }
+  },
+  methods: {
+    safeTag(tag) {
+      return parameterize(tag);
+    },
   },
 };
 </script>

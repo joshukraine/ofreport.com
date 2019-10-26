@@ -1,10 +1,10 @@
 <template>
   <div>
-    <header class="h-16 sm:h-18 md:h-20 lg:h-24 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-100 lg:px-6"
+    <header class="h-16 sm:h-18 md:h-20 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-100 lg:px-6"
             :class="{ 'open-nav': navOpen }"
     >
-      <nuxt-link class="block mt-1" to="/">
-        <img class="w-40 md:w-56" src="~/assets/svg/ofr-logo.svg">
+      <nuxt-link class="block" to="/">
+        <img class="w-40 md:w-48" src="~/assets/svg/ofr-logo.svg">
       </nuxt-link>
       <div class="relative">
         <button class="hamburger" @click="navOpen = !navOpen">
