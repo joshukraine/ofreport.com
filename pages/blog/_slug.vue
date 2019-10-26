@@ -25,7 +25,7 @@
                  class="text-sm"
               >{{ articleAuthor.name }}</a>
               <span v-else class="text-gray-400">{{ articleAuthor.name }}</span>
-              <span class="text-gray-400">&middot; {{ fm.date }}</span>
+              <span class="text-gray-400">&middot; {{ publishedOn }}</span>
             </p>
 
             <div v-if="fm.tags.length > 0" class="mt-4">
@@ -77,6 +77,10 @@ export default {
       const segments = this.fm.cover.split('upload');
       segments.splice(1, 0, opts);
       return segments.join('');
+    },
+    publishedOn() {
+      const date = new Date(this.fm.date);
+      return this.$moment(date).format('MMMM D, YYYY');
     },
   },
   async asyncData({ params }) {

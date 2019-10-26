@@ -16,7 +16,7 @@
 
         <p class="mt-1 text-sm text-gray-400">
           <span>{{ article.author }}</span>
-          <span>&middot; {{ article.date }}</span>
+          <span>&middot; {{ publishedOn }}</span>
         </p>
 
         <!-- eslint-disable-next-line vue/no-v-html -->
@@ -58,6 +58,10 @@ export default {
         return '740';
       }
       return '610';
+    },
+    publishedOn() {
+      const date = new Date(this.article.date);
+      return this.$moment(date).format('MMMM D, YYYY');
     },
   },
 };
