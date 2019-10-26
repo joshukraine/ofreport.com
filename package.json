@@ -30,6 +30,7 @@
     "cloudinary-vue": "^1.0.0-beta3",
     "frontmatter-markdown-loader": "^2.3.0",
     "markdown-it": "^10.0.0",
+    "markdown-it-link-attributes": "^3.0.0",
     "markdown-to-json": "^0.5.1",
     "nuxt": "^2.0.0",
     "vuejs-paginate": "^2.1.0"

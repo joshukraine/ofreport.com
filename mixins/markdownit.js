@@ -1,8 +1,18 @@
+const mila = require('markdown-it-link-attributes');
+
 const md = require('markdown-it')({
-  html: true,
   linkify: true,
   typographer: true,
 });
+
+md.use(mila, {
+  pattern: /^https?:\/\//,
+  attrs: {
+    target: '_blank',
+    rel: 'noopener',
+  },
+});
+
 
 export default {
   methods: {
