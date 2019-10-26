@@ -33,7 +33,7 @@
                    :key="tag"
                    class="inline-block group"
               >
-                <nuxt-link class="text-black" :to="`/tags/${tag}`">
+                <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}`">
                   <span class="opacity-50 inline-block rounded-full bg-blue-600 px-3 py-1 leading-none text-xs text-white font-bold mr-2 mb-2 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
                 </nuxt-link>
               </div>
@@ -53,6 +53,7 @@
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
 import markdownit from '~/mixins/markdownit';
+import { parameterize } from '~/lib/helpers';
 
 export default {
   components: {
@@ -95,6 +96,11 @@ export default {
       /* eslint-disable-next-line no-console */
       console.error(`UNKNOWN AUTHOR: Sorry, we have no author named "${this.fm.author}". Check your spelling, or add the new author to authors.json.`);
     }
+  },
+  methods: {
+    safeTag(tag) {
+      return parameterize(tag);
+    },
   },
 };
 </script>
