@@ -61,7 +61,7 @@ export default {
       return this.allArticles[0];
     },
     isBlogHome() {
-      return this.startPage === 1;
+      return this.rootSegment === 'blog' && this.startPage === 1;
     },
   },
   mounted() {
