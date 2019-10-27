@@ -49,7 +49,6 @@ export default {
     return {
       articles: [],
       page: null,
-      isBlogHome: false,
       start: 0,
       perPage,
     };
@@ -61,11 +60,9 @@ export default {
     featuredArticle() {
       return this.allArticles[0];
     },
-  },
-  created() {
-    if (this.$route.fullPath === '/blog/') {
-      this.isBlogHome = true;
-    }
+    isBlogHome() {
+      return this.startPage === 1;
+    },
   },
   mounted() {
     // Set the current page.
