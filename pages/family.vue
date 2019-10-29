@@ -25,7 +25,7 @@
       </figure>
     </section>
 
-    <section class="container max-w-3xl mx-auto mt-6">
+    <section class="container max-w-3xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
       <DynamicMarkdown
         :render-fn="renderFn"
         :static-render-fns="staticRenderFns"
