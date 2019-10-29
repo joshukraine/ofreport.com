@@ -20,7 +20,7 @@
         </p>
 
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <div v-html="renderMd(article.preview)" />
+        <div class="preview-text" v-html="renderMd(article.preview)" />
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
@@ -66,3 +66,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.preview-text p {
+  @apply .text-base;
+}
+</style>
