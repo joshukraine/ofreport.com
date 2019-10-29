@@ -27,6 +27,27 @@ p {
   @apply .mt-4;
 }
 
+figcaption {
+  @apply .text-sm;
+}
+
+a {
+  @apply .text-blue-600 .font-semibold;
+  transition: color 150ms ease-in-out;
+}
+
+a:hover {
+  @apply .text-blue-400;
+}
+
+blockquote {
+  @apply .pl-6 .border-l-8 .italic;
+}
+
+hr {
+  @apply .my-10;
+}
+
 @screen sm {
   h1 {
     @apply .text-5xl;
@@ -43,26 +64,9 @@ p {
   p {
     @apply .text-lg;
   }
+
+  figcaption {
+    @apply .text-base;
+  }
 }
 
-a {
-  transition: color 150ms ease-in-out;
-}
-
-.markdown a,
-p > a {
-  @apply .text-blue-600 .font-semibold;
-}
-
-.markdown a:hover,
-p > a:hover {
-  @apply .text-blue-400;
-}
-
-blockquote {
-  @apply .pl-6 .border-l-8 .italic;
-}
-
-hr {
-  @apply .my-10;
-}

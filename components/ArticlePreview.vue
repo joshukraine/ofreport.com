@@ -9,7 +9,7 @@
       </div>
       <div>
         <h2 class="mt-4 leading-none">
-          <nuxt-link class="hover:text-blue-600" :to="`/blog/${article.basename}`">
+          <nuxt-link class="text-gray-900 hover:text-blue-600" :to="`/blog/${article.basename}`">
             {{ article.title }}
           </nuxt-link>
         </h2>
@@ -71,4 +71,7 @@ export default {
 .preview-text p {
   @apply .text-base;
 }
+
+h2 > a {
+  @apply; }
 </style>
