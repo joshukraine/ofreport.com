@@ -6,14 +6,23 @@
           Pleased to meet you!
         </h1>
       </div>
-      <cld-image public-id="OFReport/assets/steele-family-2018-12-6_sdixdx.jpg">
-        <cld-transformation width="2000"
-                            alt="The Steele Family, 2018"
-                            crop="scale"
-                            fetch-format="auto"
-                            quality="auto"
-        />
-      </cld-image>
+      <figure class="steele-bio">
+        <cld-image public-id="OFReport/assets/steele-family-2018-12-6_sdixdx.jpg">
+          <cld-transformation width="2000"
+                              alt="The Steele Family, 2018"
+                              crop="scale"
+                              fetch-format="auto"
+                              quality="auto"
+          />
+        </cld-image>
+        <figcaption class="mt-2 text-center font-semibold">
+          The Steele Family<br>
+          Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and
+          <nuxt-link to="/blog/2019-10-14-meet-mia">
+            Mia (not pictured)
+          </nuxt-link>
+        </figcaption>
+      </figure>
     </section>
 
     <section class="container max-w-3xl mx-auto mt-6">
@@ -43,7 +52,7 @@ export default {
 </script>
 
 <style>
-.cld-image img {
+.steele-bio img {
   @apply rounded-lg;
 }
 </style>
