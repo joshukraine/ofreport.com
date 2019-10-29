@@ -8,7 +8,7 @@
       </div>
       <figure class="steele-bio">
         <cld-image public-id="OFReport/assets/steele-family-2018-12-6_sdixdx.jpg">
-          <cld-transformation width="2000"
+          <cld-transformation width="1000"
                               alt="The Steele Family, 2018"
                               crop="scale"
                               fetch-format="auto"
