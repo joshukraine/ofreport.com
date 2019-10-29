@@ -11,8 +11,8 @@
           <cld-transformation width="1000"
                               alt="The Steele Family, 2018"
                               crop="scale"
-                              fetch-format="auto"
-                              quality="auto"
+                              fetchFormat="auto"
+                              quality="auto:best"
           />
         </cld-image>
         <figcaption class="mt-2 text-center font-semibold">

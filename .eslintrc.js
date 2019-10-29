@@ -55,5 +55,8 @@ module.exports = {
         allowFirstLine: true,
       },
     }],
+    'vue/attribute-hyphenation': ['error', 'always', {
+      ignore: ['fetchFormat'],
+    }],
   },
 };
