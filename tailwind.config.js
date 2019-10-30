@@ -57,6 +57,10 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
+        fancy: [
+          '"Mate SC"',
+          'serif',
+        ],
       },
       borderColor: (theme) => ({
         ...theme('colors'),
