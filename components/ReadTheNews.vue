@@ -23,7 +23,7 @@
               />
             </cld-image>
           </figure>
-          <div class="flex-1">
+          <div class="flex-1 mb-6">
             <h2 class="mt-0">
               Read the News
             </h2>

@@ -44,8 +44,8 @@ blockquote {
   @apply .pl-6 .border-l-8 .italic;
 }
 
-hr {
-  @apply .my-10;
+.markdown hr {
+  @apply .my-8;
 }
 
 @screen sm {
@@ -68,5 +68,8 @@ hr {
   figcaption {
     @apply .text-base;
   }
-}
 
+  .markdown hr {
+    @apply .my-12;
+  }
+}
