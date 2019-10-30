@@ -87,6 +87,7 @@ module.exports = {
     },
   },
   variants: {
+    fill: ['responsive', 'hover', 'focus'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
