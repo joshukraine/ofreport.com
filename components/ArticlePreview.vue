@@ -9,7 +9,7 @@
       </div>
       <div>
         <h2 class="mt-4 leading-none">
-          <nuxt-link class="hover:text-blue-600" :to="`/blog/${article.basename}`">
+          <nuxt-link class="text-gray-900 hover:text-blue-600" :to="`/blog/${article.basename}`">
             {{ article.title }}
           </nuxt-link>
         </h2>
@@ -20,7 +20,7 @@
         </p>
 
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <div v-html="renderMd(article.preview)" />
+        <div class="preview-text" v-html="renderMd(article.preview)" />
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
@@ -66,3 +66,12 @@ export default {
   },
 };
 </script>
+
+<style>
+.preview-text p {
+  @apply .text-base;
+}
+
+h2 > a {
+  @apply; }
+</style>

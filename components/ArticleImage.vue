@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/attribute-hyphenation -->
 <template>
   <figure class="my-10">
     <cld-image :public-id="publicId">

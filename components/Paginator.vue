@@ -106,7 +106,7 @@ export default {
 
 @screen sm {
   .pagination > li > a {
-    @apply .mx-2 .py-2 .px-3 .text-base;
+    @apply .mx-2 .py-2 .px-3 .text-base .font-normal;
   }
 }
 
