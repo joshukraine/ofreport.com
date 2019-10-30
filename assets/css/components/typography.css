@@ -44,10 +44,6 @@ blockquote {
   @apply .pl-6 .border-l-8 .italic;
 }
 
-hr {
-  @apply .my-10;
-}
-
 @screen sm {
   h1 {
     @apply .text-5xl;
