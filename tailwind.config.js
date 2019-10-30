@@ -26,6 +26,7 @@ module.exports = {
           700: '#127fbf',
           800: '#0b69a3',
           900: '#035388',
+          footer: '#8bccf8',
         },
         gray: {
           '050': '#f5f7fa',
