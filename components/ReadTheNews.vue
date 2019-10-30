@@ -11,7 +11,7 @@
           />
         </cld-image>
       </figure>
-      <div class="flex-1 sm:ml-6">
+      <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
         <div class="flex">
           <figure class="ofr-cover sm:hidden mr-4">
             <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
