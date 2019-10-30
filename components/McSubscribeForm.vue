@@ -1,5 +1,5 @@
 <template>
-  <div id="mc_embed_signup" class="mt-6">
+  <div id="mc_embed_signup">
     <form id="mc-embedded-subscribe-form"
           action="https://OFReport.us6.list-manage.com/subscribe/post?u=1e0c65850b60905f65b151819&amp;id=97b9f6a559"
           method="post"
