@@ -97,12 +97,22 @@
     <div class="border-t border-blue-footer">
       <div class="container py-6 sm:py-8">
         <p class="mt-0 text-center text-blue-footer">
-          © <span class="year">2019</span> Joshua and Kelsie Steele
+          &copy; {{ cpYear }} Joshua and Kelsie Steele
         </p>
       </div>
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  computed: {
+    cpYear() {
+      return this.$moment().format('YYYY');
+    },
+  },
+};
+</script>
 
 <style scoped>
 footer a {
