@@ -6,10 +6,14 @@
 */
 module.exports = {
   theme: {
+    screens: {
+      xs: '460px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+    },
     extend: {
-      screens: {
-        xs: '460px',
-      },
       colors: {
         blue: {
           '050': '#e3f8ff',
