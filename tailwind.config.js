@@ -26,6 +26,8 @@ module.exports = {
           700: '#127fbf',
           800: '#0b69a3',
           900: '#035388',
+          footer: '#8bccf8',
+          dark: '#024775',
         },
         gray: {
           '050': '#f5f7fa',
@@ -56,6 +58,10 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
+        fancy: [
+          '"Mate SC"',
+          'serif',
+        ],
       },
       borderColor: (theme) => ({
         ...theme('colors'),
@@ -82,6 +88,7 @@ module.exports = {
     },
   },
   variants: {
+    fill: ['responsive', 'hover', 'focus'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
