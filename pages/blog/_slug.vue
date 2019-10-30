@@ -43,6 +43,7 @@
             :render-fn="renderFn"
             :static-render-fns="staticRenderFns"
           />
+          <ArticleFooter />
         </div>
       </div>
     </article>
@@ -50,6 +51,7 @@
 </template>
 
 <script>
+import ArticleFooter from '~/components/ArticleFooter.vue';
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
 import markdownit from '~/mixins/markdownit';
@@ -57,6 +59,7 @@ import { parameterize } from '~/lib/helpers';
 
 export default {
   components: {
+    ArticleFooter,
     DynamicMarkdown,
   },
   mixins: [
