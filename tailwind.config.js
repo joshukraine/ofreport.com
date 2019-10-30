@@ -27,6 +27,7 @@ module.exports = {
           800: '#0b69a3',
           900: '#035388',
           footer: '#8bccf8',
+          dark: '#024775',
         },
         gray: {
           '050': '#f5f7fa',

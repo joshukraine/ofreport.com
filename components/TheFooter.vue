@@ -7,7 +7,7 @@
         hearts. <span class="whitespace-no-wrap">1 Thessalonians 2:4</span>
       </p>
     </div>
-    <div class="border-t border-blue-footer">
+    <div class="border-t-2 border-blue-dark">
       <div class="container pt-6 sm:pt-8 flex mx-auto max-w-lg">
         <ul class="w-1/3 text-center">
           <li>
@@ -94,7 +94,7 @@
         </li>
       </ul>
     </div>
-    <div class="border-t border-blue-footer">
+    <div class="bg-blue-dark">
       <div class="container py-6 sm:py-8">
         <p class="mt-0 text-center text-blue-footer">
           &copy; {{ cpYear }} Joshua and Kelsie Steele
