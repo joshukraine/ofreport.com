@@ -20,11 +20,14 @@
           </h3>
         </div>
         <div>
-          <ul>
+          <ul class="fa-ul">
             <li v-for="issueYear in archives[labelYear]"
                 :key="issueYear"
                 class="text-base sm:text-xl leading-tight mb-2 md:mb-4 last:mb-0"
             >
+              <span class="fa-li text-red-600">
+                <font-awesome-icon :icon="['fas', 'file-pdf']" fixed-width />
+              </span>
               <a :href="cdnLink(issueYear.file)"
                  target="_blank"
                  rel="noopener noreferrer"

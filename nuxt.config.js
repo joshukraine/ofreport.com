@@ -35,11 +35,13 @@ export default {
   ** Global CSS
   */
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/fontawesome.js' },
     { src: '~/plugins/cloudinary.js', mode: 'client' },
     { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
   ],
@@ -69,6 +71,18 @@ export default {
       'md:mt-8',
       'md:mb-8',
       'md:my-8',
+    ],
+    whitelistPatterns: [
+      /^fade/,
+      /^svg-inline/,
+      /^fa$/,
+      /^fa-/,
+      /^fab/,
+      /^fas/,
+      /^fal/,
+      /^far/,
+      /--fa$/,
+      /^sr-/,
     ],
   },
   /*
