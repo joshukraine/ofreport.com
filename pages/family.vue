@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article class="mb-8 md:mb-12">
     <section class="container max-w-5xl mx-auto md:px-6 lg:px-4">
       <div class="my-6 sm:my-8 lg:my-12 text-center">
         <h1 class="lg:text-6xl">
