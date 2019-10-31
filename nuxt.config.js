@@ -35,11 +35,13 @@ export default {
   ** Global CSS
   */
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/fontawesome.js' },
     { src: '~/plugins/cloudinary.js', mode: 'client' },
     { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
   ],
