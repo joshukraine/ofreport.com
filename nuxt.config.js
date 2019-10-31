@@ -83,7 +83,7 @@ export default {
               pattern: /^https?:\/\//,
               attrs: {
                 target: '_blank',
-                rel: 'noopener',
+                rel: 'noopener noreferrer',
               },
             }),
             vue: {
