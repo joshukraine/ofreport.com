@@ -1,9 +1,11 @@
 <script>
+import ArticleButton from '~/components/ArticleButton.vue';
 import ArticleImage from '~/components/ArticleImage.vue';
 import SvgImage from '~/components/SvgImage.vue';
 
 export default {
   components: {
+    ArticleButton,
     ArticleImage,
     SvgImage,
   },
