@@ -57,7 +57,7 @@ export default {
   modules: [
   ],
   purgeCSS: {
-    whitelist: ['blockquote', 'ul', 'ol', 'li'],
+    whitelist: ['blockquote', 'ul', 'ol', 'li', 'markdown'],
   },
   /*
   ** Build configuration
