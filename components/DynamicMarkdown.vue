@@ -1,9 +1,13 @@
 <script>
+import ArticleButton from '~/components/ArticleButton.vue';
 import ArticleImage from '~/components/ArticleImage.vue';
+import ArticleSvg from '~/components/ArticleSvg.vue';
 
 export default {
   components: {
+    ArticleButton,
     ArticleImage,
+    ArticleSvg,
   },
   props: {
     renderFn: {

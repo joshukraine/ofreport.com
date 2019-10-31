@@ -58,7 +58,7 @@ export default {
 
 <style>
 .read-the-news {
-  background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_800/v1571750972/OFReport/assets/ofr-logo-faded-bg_n7difd.jpg");
+  background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_460/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
 }
 
 .ofr-cover img {
@@ -77,6 +77,10 @@ export default {
   .ofr-cover img {
     width: 150px;
   }
+
+  .read-the-news {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1024/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
+  }
 }
 
 @screen md {
@@ -85,13 +89,7 @@ export default {
   }
 
   .read-the-news {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1500/v1571750972/OFReport/assets/ofr-logo-faded-bg_n7difd.jpg");
-  }
-}
-
-@screen lg {
-  .read-the-news {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1571750972/OFReport/assets/ofr-logo-faded-bg_n7difd.jpg");
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
   }
 }
 </style>
