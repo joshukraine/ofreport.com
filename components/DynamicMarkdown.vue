@@ -1,9 +1,11 @@
 <script>
 import ArticleImage from '~/components/ArticleImage.vue';
+import SvgImage from '~/components/SvgImage.vue';
 
 export default {
   components: {
     ArticleImage,
+    SvgImage,
   },
   props: {
     renderFn: {
