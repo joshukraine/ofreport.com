@@ -72,6 +72,18 @@ export default {
       'md:mb-8',
       'md:my-8',
     ],
+    whitelistPatterns: [
+      /^fade/,
+      /^svg-inline/,
+      /^fa$/,
+      /^fa-/,
+      /^fab/,
+      /^fas/,
+      /^fal/,
+      /^far/,
+      /--fa$/,
+      /^sr-/,
+    ],
   },
   /*
   ** Build configuration
