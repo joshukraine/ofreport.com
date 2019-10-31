@@ -1,11 +1,7 @@
 <template>
   <article class="mb-8 md:mb-12">
     <section class="container max-w-5xl mx-auto md:px-6 lg:px-4">
-      <div class="my-6 sm:my-8 lg:my-12 text-center">
-        <h1 class="lg:text-6xl">
-          Pleased to meet you!
-        </h1>
-      </div>
+      <PageHeader title="Pleased to meet you!" />
       <figure class="steele-bio">
         <cld-image public-id="OFReport/assets/steele-family-2018-12-6_sdixdx.jpg">
           <cld-transformation width="1000"
@@ -36,10 +32,12 @@
 
 <script>
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
+import PageHeader from '~/components/PageHeader.vue';
 
 export default {
   components: {
     DynamicMarkdown,
+    PageHeader,
   },
   async asyncData() {
     const page = await import('~/content/pages/family.md');
