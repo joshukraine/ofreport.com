@@ -88,8 +88,11 @@ module.exports = {
     },
   },
   variants: {
+    borderWidth: ['responsive', 'last'],
     fill: ['responsive', 'hover', 'focus'],
+    margin: ['responsive', 'last'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+    padding: ['responsive', 'last'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   plugins: [],
