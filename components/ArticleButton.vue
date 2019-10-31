@@ -2,7 +2,7 @@
   <div>
     <a v-if="external"
        :href="path"
-       :class="bgStyle"
+       :class="[bgStyle, verticalSpacing]"
        class="article-button btn md:btn-lg"
        target="_blank"
        rel="noopener noreferrer"
@@ -11,7 +11,7 @@
     </a>
     <nuxt-link v-else
                :to="path"
-               :class="bgStyle"
+               :class="[bgStyle, verticalSpacing]"
                class="article-button btn md:btn-lg"
     >
       {{ text }}
@@ -38,10 +38,20 @@ export default {
       type: Boolean,
       required: true,
     },
+    margin: {
+      type: String,
+      default: '',
+    },
   },
   computed: {
     bgStyle() {
       return this.outline ? 'btn-blue-outline' : 'btn-blue';
+    },
+    verticalSpacing() {
+      const side = this.margin;
+      const marginClasses = `m${side}-6 md:m${side}-8`;
+      const options = ['t', 'b', 'y'];
+      return options.includes(side) ? marginClasses : 'my-0';
     },
   },
 };
@@ -49,7 +59,7 @@ export default {
 
 <style scoped>
 .article-button {
-  @apply .my-8 .inline-block .text-sm;
+  @apply .inline-block .text-sm;
 }
 
 @screen xs {
