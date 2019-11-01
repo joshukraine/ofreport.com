@@ -32,11 +32,11 @@ export default {
     },
     external: {
       type: Boolean,
-      required: true,
+      default: false,
     },
     outline: {
       type: Boolean,
-      required: true,
+      default: false,
     },
     margin: {
       type: String,
