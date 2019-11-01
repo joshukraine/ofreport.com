@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="{ 'text-center': center }">
     <a v-if="external"
        :href="path"
        :class="[bgStyle, verticalSpacing]"
@@ -32,15 +32,19 @@ export default {
     },
     external: {
       type: Boolean,
-      required: true,
+      default: false,
     },
     outline: {
       type: Boolean,
-      required: true,
+      default: false,
     },
     margin: {
       type: String,
       default: '',
+    },
+    center: {
+      type: Boolean,
+      default: false,
     },
   },
   computed: {
