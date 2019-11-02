@@ -62,7 +62,11 @@
           </div>
 
           <input name="_gotcha" style="display: none;" type="text">
-          <input type="submit" value="Send" class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline">
+          <input type="submit"
+                 value="Send"
+                 :disabled="submitStatus === 'PENDING'"
+                 class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline"
+          >
         </form>
         <p v-if="status" class="text-right">
           {{ status }}
@@ -98,9 +102,9 @@ export default {
           content: this.message,
         });
         this.$v.$reset();
-        this.status = 'Message sent!';
-        this.submitStatus = 'OK';
         this.formReset();
+        this.submitStatus = 'OK';
+        this.status = 'Message sent!';
       } catch (error) {
         this.status = 'Oops, there was an error!';
       }
