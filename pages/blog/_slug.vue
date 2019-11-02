@@ -10,7 +10,7 @@
       <div class="container">
         <div class="max-w-3xl mx-auto">
           <!-- eslint-disable vue/no-v-html -->
-          <p class="text-center text-sm sm:text-base text-gray-500 font-semibold"
+          <p class="text-center text-sm sm:text-base text-gray-600 font-semibold"
              v-html="renderInlineMd(fm.caption)"
           />
           <!-- eslint-enable vue/no-v-html -->
@@ -24,8 +24,8 @@
                  :href="articleAuthor.social"
                  class="text-sm"
               >{{ articleAuthor.name }}</a>
-              <span v-else class="text-gray-400">{{ articleAuthor.name }}</span>
-              <span class="text-gray-400">&middot; {{ publishedOn }}</span>
+              <span v-else class="text-gray-500">{{ articleAuthor.name }}</span>
+              <span class="text-gray-500">&middot; {{ publishedOn }}</span>
             </p>
 
             <div v-if="fm.tags.length > 0" class="mt-4">

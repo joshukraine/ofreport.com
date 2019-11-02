@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="h-16 sm:h-18 md:h-20 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-100 lg:px-6"
+    <header class="h-16 sm:h-18 md:h-20 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-200 lg:px-6"
             :class="{ 'open-nav': navOpen }"
     >
       <nuxt-link class="block" to="/">
@@ -166,7 +166,7 @@ export default {
   }
 
   .nav-link {
-    @apply .mb-0 .pb-0 .text-xl .ml-8 .opacity-100 .text-gray-400 .font-semibold;
+    @apply .mb-0 .pb-0 .text-xl .ml-8 .opacity-100 .text-gray-500 .font-semibold;
     transition: color 150ms ease;
   }
 

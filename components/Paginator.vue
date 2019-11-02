@@ -91,7 +91,7 @@ export default {
 .pagination .disabled > a,
 .pagination .disabled > a:focus,
 .pagination .disabled > a:hover {
-  @apply .text-gray-400 .cursor-default .bg-gray-050 .outline-none;
+  @apply .text-gray-400 .cursor-default .bg-gray-100 .outline-none;
 }
 
 .pagination .page-item {
