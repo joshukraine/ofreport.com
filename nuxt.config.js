@@ -41,10 +41,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/axios.js' },
-    { src: '~/plugins/fontawesome.js' },
-    { src: '~/plugins/cloudinary.js', mode: 'client' },
-    { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
+    '~/plugins/axios.js',
+    '~/plugins/cloudinary.client.js',
+    '~/plugins/fontawesome.js',
+    '~/plugins/vuejs-paginate.client.js',
   ],
   /*
   ** Nuxt.js dev-modules
