@@ -41,6 +41,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/axios.js' },
     { src: '~/plugins/fontawesome.js' },
     { src: '~/plugins/cloudinary.js', mode: 'client' },
     { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
