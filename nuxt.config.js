@@ -45,6 +45,7 @@ export default {
     '~/plugins/cloudinary.client.js',
     '~/plugins/fontawesome.js',
     '~/plugins/vuejs-paginate.client.js',
+    '~/plugins/vuelidate.js',
   ],
   /*
   ** Nuxt.js dev-modules
