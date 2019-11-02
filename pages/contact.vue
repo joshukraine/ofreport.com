@@ -61,7 +61,6 @@
             </p>
           </div>
 
-          <input name="_gotcha" style="display: none;" type="text">
           <input type="submit"
                  value="Send"
                  :disabled="submitStatus === 'PENDING'"
