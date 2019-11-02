@@ -22,7 +22,7 @@
         <div>
           <ul class="fa-ul">
             <li v-for="issueYear in archives[labelYear]"
-                :key="issueYear"
+                :key="issueYear.file"
                 class="text-base sm:text-xl leading-tight mb-2 md:mb-4 last:mb-0"
             >
               <span class="fa-li text-red-600">
