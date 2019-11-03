@@ -32,6 +32,7 @@
 </template>
 
 <script>
+import dayjs from 'dayjs';
 import CardImage from '~/components/CardImage.vue';
 import markdownit from '~/mixins/markdownit';
 
@@ -60,9 +61,7 @@ export default {
       return '610';
     },
     publishedOn() {
-      // const date = new Date(this.article.date);
-      // return this.$moment(date).format('MMMM D, YYYY');
-      return 'DATE';
+      return dayjs(this.article.date).format('MMMM D, YYYY');
     },
   },
 };

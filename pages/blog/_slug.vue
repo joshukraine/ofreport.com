@@ -51,6 +51,7 @@
 </template>
 
 <script>
+import dayjs from 'dayjs';
 import ArticleFooter from '~/components/ArticleFooter.vue';
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
@@ -82,9 +83,7 @@ export default {
       return segments.join('');
     },
     publishedOn() {
-      // const date = new Date(this.fm.date);
-      // return this.$moment(date).format('MMMM D, YYYY');
-      return 'DATE';
+      return dayjs(this.fm.date).format('MMMM D, YYYY');
     },
   },
   async asyncData({ params }) {

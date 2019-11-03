@@ -105,11 +105,12 @@
 </template>
 
 <script>
+import dayjs from 'dayjs';
+
 export default {
   computed: {
     cpYear() {
-      // return this.$moment().format('YYYY');
-      return 'DATE';
+      return dayjs().format('YYYY');
     },
   },
 };
