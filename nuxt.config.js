@@ -8,12 +8,11 @@ require('dotenv').config();
 
 export default {
   mode: 'universal',
+
   env: {
     perPage: process.env.PER_PAGE || 8,
   },
-  /*
-  ** Headers of the page
-  */
+
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -28,46 +27,35 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap' },
     ],
   },
-  /*
-  ** Customize the progress-bar color
-  */
+
   loading: { color: '#2bb0ed' },
-  /*
-  ** Global CSS
-  */
+
   css: [
-    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+
   plugins: [
     '~/plugins/axios.js',
     '~/plugins/cloudinary.client.js',
-    '~/plugins/fontawesome.js',
     '~/plugins/vuejs-paginate.client.js',
     '~/plugins/vuelidate.js',
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
+
   buildModules: [
     '@nuxtjs/dotenv',
-    '@nuxtjs/moment',
     '@nuxtjs/tailwindcss',
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/toast',
   ],
+
   toast: {
     position: 'bottom-right',
     singleton: true,
     iconPack: 'material',
   },
+
   purgeCSS: {
     whitelist: [
       'blockquote',
@@ -82,26 +70,10 @@ export default {
       'md:mb-8',
       'md:my-8',
     ],
-    whitelistPatterns: [
-      /^fade/,
-      /^svg-inline/,
-      /^fa$/,
-      /^fa-/,
-      /^fab/,
-      /^fas/,
-      /^fal/,
-      /^far/,
-      /--fa$/,
-      /^sr-/,
-    ],
   },
-  /*
-  ** Build configuration
-  */
+
   build: {
-    /*
-    ** You can extend webpack config here
-    */
+    // analyze: true,
     /* eslint-disable-next-line no-unused-vars */
     extend(config, ctx) {
       config.module.rules.push(
@@ -130,6 +102,7 @@ export default {
       );
     },
   },
+
   generate: {
     routes: dynamicRoutes(),
   },

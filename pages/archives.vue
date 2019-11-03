@@ -15,19 +15,16 @@
            class="flex mb-6 sm:mb-8 last:mb-0 pb-6 sm:pb-8 last:pb-0 border-b last:border-b-0"
       >
         <div class="pr-4 sm:pr-6 md:pr-10">
-          <h3 class="mt-0 md:text-3xl leading-tight">
+          <h3 class="mt-0 md:text-3xl leading-none">
             {{ labelYear }}
           </h3>
         </div>
         <div>
-          <ul class="fa-ul">
+          <ul class="ml-6 pdf-issues">
             <li v-for="issueYear in archives[labelYear]"
                 :key="issueYear.file"
                 class="text-base sm:text-xl leading-tight mb-2 md:mb-4 last:mb-0"
             >
-              <span class="fa-li text-red-600">
-                <font-awesome-icon :icon="['fas', 'file-pdf']" fixed-width />
-              </span>
               <a :href="cdnLink(issueYear.file)"
                  target="_blank"
                  rel="noopener noreferrer"
@@ -77,3 +74,25 @@ export default {
   },
 };
 </script>
+
+<style>
+.pdf-issues > li:before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzg0IDUxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTgxLjkgMjU2LjFjLTUtMTYtNC45LTQ2LjktMi00Ni45IDguNCAwIDcuNiAzNi45IDIgNDYuOXptLTEuNyA0Ny4yYy03LjcgMjAuMi0xNy4zIDQzLjMtMjguNCA2Mi43IDE4LjMtNyAzOS0xNy4yIDYyLjktMjEuOS0xMi43LTkuNi0yNC45LTIzLjQtMzQuNS00MC44ek04Ni4xIDQyOC4xYzAgLjggMTMuMi01LjQgMzQuOS00MC4yLTYuNyA2LjMtMjkuMSAyNC41LTM0LjkgNDAuMnpNMjQ4IDE2MGgxMzZ2MzI4YzAgMTMuMy0xMC43IDI0LTI0IDI0SDI0Yy0xMy4zIDAtMjQtMTAuNy0yNC0yNFYyNEMwIDEwLjcgMTAuNyAwIDI0IDBoMjAwdjEzNmMwIDEzLjIgMTAuOCAyNCAyNCAyNHptLTggMTcxLjhjLTIwLTEyLjItMzMuMy0yOS00Mi43LTUzLjggNC41LTE4LjUgMTEuNi00Ni42IDYuMi02NC4yLTQuNy0yOS40LTQyLjQtMjYuNS00Ny44LTYuOC01IDE4LjMtLjQgNDQuMSA4LjEgNzctMTEuNiAyNy42LTI4LjcgNjQuNi00MC44IDg1LjgtLjEgMC0uMS4xLS4yLjEtMjcuMSAxMy45LTczLjYgNDQuNS01NC41IDY4IDUuNiA2LjkgMTYgMTAgMjEuNSAxMCAxNy45IDAgMzUuNy0xOCA2MS4xLTYxLjggMjUuOC04LjUgNTQuMS0xOS4xIDc5LTIzLjIgMjEuNyAxMS44IDQ3LjEgMTkuNSA2NCAxOS41IDI5LjIgMCAzMS4yLTMyIDE5LjctNDMuNC0xMy45LTEzLjYtNTQuMy05LjctNzMuNi03LjJ6TTM3NyAxMDVMMjc5IDdjLTQuNS00LjUtMTAuNi03LTE3LTdoLTZ2MTI4aDEyOHYtNi4xYzAtNi4zLTIuNS0xMi40LTctMTYuOXptLTc0LjEgMjU1LjNjNC4xLTIuNy0yLjUtMTEuOS00Mi44LTkgMzcuMSAxNS44IDQyLjggOSA0Mi44IDl6IiBmaWxsPSIjRTUzRTNFIi8+Cjwvc3ZnPgo=");
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  display: block;
+  float: left;
+  height: 1em;
+  margin-left: -1.3em;
+  margin-top: 2px;
+  width: 1em;
+}
+
+@screen sm {
+  .pdf-issues > li:before {
+    margin-left: -1.5em;
+    margin-top: 3px;
+  }
+}
+</style>
