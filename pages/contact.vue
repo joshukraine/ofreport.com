@@ -63,13 +63,10 @@
 
           <input type="submit"
                  value="Send"
-                 :disabled="submitStatus === 'PENDING'"
+                 :disabled="submitPending"
                  class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline"
           >
         </form>
-        <p v-if="status" class="text-right">
-          {{ status }}
-        </p>
       </div>
     </section>
   </article>
@@ -88,11 +85,19 @@ export default {
       name: '',
       email: '',
       message: '',
-      status: '',
-      submitStatus: null,
+      submitPending: false,
     };
   },
   methods: {
+    validateFinal() {
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        this.toastInvalid('Please check the highlighted fields for errors.', 3000);
+      } else {
+        this.submitPending = true;
+        this.postMessage();
+      }
+    },
     async postMessage() {
       try {
         await this.$axios.$post('/email/send/json', {
@@ -100,27 +105,35 @@ export default {
           email: this.email,
           content: this.message,
         });
-        this.$v.$reset();
-        this.formReset();
-        this.submitStatus = 'OK';
-        this.status = 'Message sent!';
+        this.toastSuccess('Thank you! Your message was sent.', 5000);
+        this.formReset(5000);
       } catch (error) {
-        this.status = 'Oops, there was an error!';
+        this.toastError('Oops, something went wrong. Message not sent! Please try again in a little while.', 5000);
+        this.$v.$reset();
+        this.submitPending = false;
       }
     },
-    formReset() {
+    formReset(delay) {
       this.name = '';
       this.email = '';
       this.message = '';
+      this.$v.$reset();
+      setTimeout(() => {
+        this.submitPending = false;
+      }, delay);
     },
-    validateFinal() {
-      this.$v.$touch();
-      if (this.$v.$invalid) {
-        this.submitStatus = 'ERROR';
-      } else {
-        this.submitStatus = 'PENDING';
-        this.postMessage();
-      }
+    toastSuccess(message, duration) {
+      this.$toast.success(message, { icon: 'done' }).goAway(duration);
+    },
+    toastInvalid(message, duration) {
+      this.$toast.error(message, {
+        icon: 'warning',
+      }).goAway(duration);
+    },
+    toastError(message, duration) {
+      this.$toast.error(message, {
+        icon: 'error',
+      }).goAway(duration);
     },
   },
   validations: {

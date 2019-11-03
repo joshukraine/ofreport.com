@@ -25,6 +25,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:700&display=swap' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Mate+SC&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap' },
     ],
   },
   /*
@@ -62,6 +63,11 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/toast',
   ],
+  toast: {
+    position: 'bottom-right',
+    singleton: true,
+    iconPack: 'material',
+  },
   purgeCSS: {
     whitelist: [
       'blockquote',
