@@ -127,12 +127,12 @@ export default {
     },
     toastInvalid(message, duration) {
       this.$toast.error(message, {
-        icon: 'warning',
+        icon: 'error_outline',
       }).goAway(duration);
     },
     toastError(message, duration) {
       this.$toast.error(message, {
-        icon: 'error',
+        icon: 'error_outline',
       }).goAway(duration);
     },
   },
@@ -151,7 +151,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .form-input {
   @apply .mt-2 .py-3 .px-4 .appearance-none .block .w-full .bg-gray-200 .border-2 .border-gray-200 .rounded;
 }
@@ -166,10 +166,22 @@ export default {
 
 .invalid input,
 .invalid textarea {
-  @apply .border-red-500;
+  @apply .border-red-600;
 }
 
 .invalid-hint {
-  @apply .text-red-500 .text-sm .mt-1 .mb-0;
+  @apply .text-red-600 .text-sm .mt-1 .mb-0;
+}
+
+.toasted.toasted-primary {
+  @apply .font-normal .text-base;
+}
+
+.toasted.toasted-primary.success {
+  @apply .bg-green-600;
+}
+
+.toasted.toasted-primary.error {
+  @apply .bg-red-600;
 }
 </style>
