@@ -60,6 +60,7 @@ export default {
   */
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/toast',
   ],
   purgeCSS: {
     whitelist: [
