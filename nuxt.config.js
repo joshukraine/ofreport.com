@@ -88,6 +88,7 @@ export default {
   },
 
   build: {
+    analyze: true,
     /* eslint-disable-next-line no-unused-vars */
     extend(config, ctx) {
       config.module.rules.push(
