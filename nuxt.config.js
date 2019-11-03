@@ -31,13 +31,11 @@ export default {
   loading: { color: '#2bb0ed' },
 
   css: [
-    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
   plugins: [
     '~/plugins/axios.js',
     '~/plugins/cloudinary.client.js',
-    '~/plugins/fontawesome.js',
     '~/plugins/vuejs-paginate.client.js',
     '~/plugins/vuelidate.js',
   ],
@@ -71,18 +69,6 @@ export default {
       'md:mt-8',
       'md:mb-8',
       'md:my-8',
-    ],
-    whitelistPatterns: [
-      /^fade/,
-      /^svg-inline/,
-      /^fa$/,
-      /^fa-/,
-      /^fab/,
-      /^fas/,
-      /^fal/,
-      /^far/,
-      /--fa$/,
-      /^sr-/,
     ],
   },
 
