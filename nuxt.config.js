@@ -25,12 +25,13 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:700&display=swap' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Mate+SC&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap' },
     ],
   },
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#2bb0ed' },
   /*
   ** Global CSS
   */
@@ -41,9 +42,11 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/fontawesome.js' },
-    { src: '~/plugins/cloudinary.js', mode: 'client' },
-    { src: '~/plugins/vuejs-paginate.js', mode: 'client' },
+    '~/plugins/axios.js',
+    '~/plugins/cloudinary.client.js',
+    '~/plugins/fontawesome.js',
+    '~/plugins/vuejs-paginate.client.js',
+    '~/plugins/vuelidate.js',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -57,7 +60,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/toast',
   ],
+  toast: {
+    position: 'bottom-right',
+    singleton: true,
+    iconPack: 'material',
+  },
   purgeCSS: {
     whitelist: [
       'blockquote',

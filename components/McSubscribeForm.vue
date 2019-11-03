@@ -13,7 +13,7 @@
                type="email"
                value=""
                name="EMAIL"
-               class="w-full py-2 px-4 rounded xs:rounded-r-none border border-gray-200 xs:border-r-0 placeholder-gray-600 focus:placeholder-gray-300 focus:outline-none focus:shadow-outline"
+               class="w-full py-2 px-4 rounded xs:rounded-r-none border border-gray-400 xs:border-r-0 placeholder-gray-600 focus:placeholder-gray-300 focus:outline-none focus:shadow-outline"
                placeholder="you@example.com"
                required
         >

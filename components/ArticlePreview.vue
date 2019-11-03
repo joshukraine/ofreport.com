@@ -14,7 +14,7 @@
           </nuxt-link>
         </h2>
 
-        <p class="mt-1 text-sm text-gray-400">
+        <p class="mt-1 text-sm text-gray-500">
           <span>{{ article.author }}</span>
           <span>&middot; {{ publishedOn }}</span>
         </p>
