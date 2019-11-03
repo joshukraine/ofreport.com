@@ -60,8 +60,9 @@ export default {
       return '610';
     },
     publishedOn() {
-      const date = new Date(this.article.date);
-      return this.$moment(date).format('MMMM D, YYYY');
+      // const date = new Date(this.article.date);
+      // return this.$moment(date).format('MMMM D, YYYY');
+      return 'DATE';
     },
   },
 };

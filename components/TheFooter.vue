@@ -108,7 +108,8 @@
 export default {
   computed: {
     cpYear() {
-      return this.$moment().format('YYYY');
+      // return this.$moment().format('YYYY');
+      return 'DATE';
     },
   },
 };

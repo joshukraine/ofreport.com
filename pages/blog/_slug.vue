@@ -82,8 +82,9 @@ export default {
       return segments.join('');
     },
     publishedOn() {
-      const date = new Date(this.fm.date);
-      return this.$moment(date).format('MMMM D, YYYY');
+      // const date = new Date(this.fm.date);
+      // return this.$moment(date).format('MMMM D, YYYY');
+      return 'DATE';
     },
   },
   async asyncData({ params }) {

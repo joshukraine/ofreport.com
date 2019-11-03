@@ -44,7 +44,6 @@ export default {
 
   buildModules: [
     '@nuxtjs/dotenv',
-    '@nuxtjs/moment',
     '@nuxtjs/tailwindcss',
   ],
 
