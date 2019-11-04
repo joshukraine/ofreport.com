@@ -59,6 +59,14 @@ import markdownit from '~/mixins/markdownit';
 import { parameterize } from '~/lib/helpers';
 
 export default {
+  head() {
+    return {
+      title: this.fm.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.fm.preview },
+      ],
+    };
+  },
   components: {
     ArticleFooter,
     DynamicMarkdown,
