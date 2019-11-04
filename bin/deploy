@@ -2,8 +2,9 @@
 
 set -e
 ENV="$1"
-aws_cmd=$(command -v aws)
+# aws_cmd=$(command -v aws)
 yarn_cmd=$(command -v yarn)
+gulp_cmd=$(command -v gulp)
 build_dir="dist"
 
 if [[ $# -ne 1 ]]; then
@@ -33,6 +34,9 @@ else
     #   printf "\\n--> http://ofreport.com.s3-website-us-east-1.amazonaws.com/\\n"
     # fi
   else
+    printf "\\n--> Checking for node_modules dependencies...\\n"
+    [ ! -d "node_modules" ] && $yarn_cmd install
+
     printf "\\n--> Setting up robots.txt for non-production environment...\\n"
     if [ -f static/robots.txt ]; then
       rm static/robots.txt
@@ -40,10 +44,10 @@ else
     cp -vf robots-dev.txt static/robots.txt
 
     printf "\\n--> Generating static site files -> %s/...\\n" "$build_dir"
-    APP_ENV=$ENV $yarn_cmd generate
+    $yarn_cmd generate
 
-    printf "\\n--> Syncing to s3://%s.ofreport.com...\\n" "$ENV"
-    $aws_cmd s3 sync "$build_dir"/ s3://"$ENV".ofreport.com/ --delete --exclude "*DS_Store" --acl=public-read
+    printf "\\n--> Deploying to s3://%s.ofreport.com...\\n" "$ENV"
+    $gulp_cmd deploy
 
     printf "\\n--> Deploy complete!"
     printf "\\n--> http://%s.ofreport.com.s3-website-us-east-1.amazonaws.com/\\n" "$ENV"
@@ -54,7 +58,3 @@ else
   cat $build_dir/robots.txt
   echo "----------------------------"
 fi
-
-# Production bucket: http://ofreport.com.s3-website-us-east-1.amazonaws.com/
-# Staging bucket: http://staging.ofreport.com.s3-website-us-east-1.amazonaws.com/
-# v2-nuxt bucket: http://v2-nuxt.ofreport.com.s3-website-us-east-1.amazonaws.com/
