@@ -47,7 +47,7 @@ else
     $yarn_cmd generate
 
     printf "\\n--> Deploying to s3://%s.ofreport.com...\\n" "$ENV"
-    $gulp_cmd deploy
+    AWS_BUCKET_NAME=$AWS_DEV_BUCKET_NAME $gulp_cmd deploy
 
     printf "\\n--> Deploy complete!"
     printf "\\n--> http://%s.ofreport.com.s3-website-us-east-1.amazonaws.com/\\n" "$ENV"

@@ -9,7 +9,7 @@ const config = {
 
   // Required
   params: {
-    Bucket: process.env.AWS_DEV_BUCKET_NAME,
+    Bucket: process.env.AWS_BUCKET_NAME,
   },
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
