@@ -32,7 +32,10 @@ export default {
     ],
   },
 
-  loading: { color: '#2bb0ed' },
+  loading: {
+    color: '#2bb0ed',
+    height: '3px',
+  },
 
   css: [
   ],
