@@ -4,12 +4,13 @@
       <div class="container pb-10 sm:pb-0 md:pt-32 md:pb-16 lg:pb-20">
         <div class="flex justify-end pt-16 sm:pt-32 md:pt-0 lg:px-10">
           <div class="text-center px-8 md:w-2/5 md:px-0">
-            <img class="w-full" src="~assets/svg/josh-and-kels.svg">
+            <img class="w-full" src="~/assets/svg/josh-and-kels.svg">
             <p class="mt-2 mb-8 md:mb-12 text-white text-base font-header">
               Est. 2004
             </p>
             <p class="mb-8 text-white font-header text-sm xs:text-base md:text-xl md:mb-12">
-              We live in Ukraine where we strive to tell others about God's gift of eternal life through Jesus Christ.
+              We live in Ukraine where we strive to tell others about God's gift of
+              eternal life through <span class="whitespace-no-wrap">Jesus Christ.</span>
             </p>
             <nuxt-link to="/family" class="btn sm:btn-lg btn-blue font-header">
               Meet our Family
