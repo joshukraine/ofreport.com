@@ -165,4 +165,13 @@
     </Redirect>
   </RoutingRule>
 
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>page/</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/page/</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
 </RoutingRules>
