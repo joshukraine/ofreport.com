@@ -76,6 +76,7 @@ export default {
   },
 
   build: {
+    extractCSS: true,
     /* eslint-disable-next-line no-unused-vars */
     extend(config, ctx) {
       config.module.rules.push(
