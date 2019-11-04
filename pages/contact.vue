@@ -106,21 +106,19 @@ export default {
           content: this.message,
         });
         this.toastSuccess('Thank you! Your message was sent.', 5000);
-        this.formReset(5000);
+        this.formReset();
       } catch (error) {
         this.toastError('Oops, something went wrong. Message not sent! Please try again in a little while.', 5000);
         this.$v.$reset();
         this.submitPending = false;
       }
     },
-    formReset(delay) {
+    formReset() {
       this.name = '';
       this.email = '';
       this.message = '';
       this.$v.$reset();
-      setTimeout(() => {
-        this.submitPending = false;
-      }, delay);
+      this.submitPending = false;
     },
     toastSuccess(message, duration) {
       this.$toast.success(message, { icon: 'done' }).goAway(duration);
