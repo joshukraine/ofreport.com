@@ -23,7 +23,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
       { hid: 'description', name: 'description', content: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.' },
       { name: 'author', content: 'Joshua and Kelsie Steele' },
-      { hid: 'robots', name: 'robots', content: process.env.APP_ENV === 'production' ? 'index,follow' : 'noindex,nofollow' },
+      { hid: 'robots', name: 'robots', content: process.env.APP_ENV === 'prod' ? 'index,follow' : 'noindex,nofollow' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
