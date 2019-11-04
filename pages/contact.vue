@@ -191,6 +191,18 @@ export default {
   @apply .bg-red-600;
 }
 
+.toasted.toasted-primary.success,
+.toasted.toasted-primary.error {
+  @apply .justify-start .pb-2;
+}
+
+@media (max-width: 600px) {
+  .toasted.toasted-primary.success,
+  .toasted.toasted-primary.error {
+    @apply .pb-6;
+  }
+}
+
 .contact-form .btn:disabled {
   @apply .cursor-wait;
 }
