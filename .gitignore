@@ -90,3 +90,4 @@ sw.*
 *.swp
 
 data/articles.json
+.awspublish*

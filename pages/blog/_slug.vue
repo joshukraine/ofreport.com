@@ -24,8 +24,8 @@
                  :href="articleAuthor.social"
                  class="text-sm"
               >{{ articleAuthor.name }}</a>
-              <span v-else class="text-gray-500">{{ articleAuthor.name }}</span>
-              <span class="text-gray-500">&middot; {{ publishedOn }}</span>
+              <span v-else class="text-gray-600">{{ articleAuthor.name }}</span>
+              <span class="text-gray-600">&middot; {{ publishedOn }}</span>
             </p>
 
             <div v-if="fm.tags.length > 0" class="mt-4">
