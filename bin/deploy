@@ -46,11 +46,11 @@ else
     printf "\\n--> Generating static site files -> %s/...\\n" "$build_dir"
     $yarn_cmd generate
 
-    printf "\\n--> Deploying to s3://%s.ofreport.com...\\n" "$ENV"
+    printf "\\n--> Deploying to %s...\\n" "$AWS_DEV_BUCKET_NAME"
     AWS_BUCKET_NAME=$AWS_DEV_BUCKET_NAME $gulp_cmd deploy
 
     printf "\\n--> Deploy complete!"
-    printf "\\n--> http://%s.ofreport.com.s3-website-us-east-1.amazonaws.com/\\n" "$ENV"
+    printf "\\n--> http://%s.s3-website-us-east-1.amazonaws.com/\\n" "$AWS_DEV_BUCKET_NAME"
   fi
 
   printf "\\n--> Here is the contents of your robots.txt file: (%s/robots.txt)\\n" "$build_dir"
