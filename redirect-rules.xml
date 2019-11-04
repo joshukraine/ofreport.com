@@ -1,0 +1,168 @@
+<!-- Reference: -->
+<!-- https://docs.aws.amazon.com/AmazonS3/latest/dev/how-to-page-redirect.html#advanced-conditional-redirects -->
+<!-- http://stackoverflow.com/a/17856520/655204 -->
+
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2019/10/meet-mia</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2019-10-14-meet-mia</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2019/06/calm-before-the-storm</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2019-06-07-calm-before-the-storm</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2019/03/operation-library</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2019-03-30-operation-library</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2019/02/weve-got-news</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2019-02-11-weve-got-news</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2019/01/chapter-of-blessing</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2019-01-25-chapter-of-blessing</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2018/11/to-the-ends-of-the-earth</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2018-11-27-to-the-ends-of-the-earth</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2018/09/vision-to-reality</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2018-09-30-vision-to-reality</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2018/06/sharpening-arrows</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2018-06-24-sharpening-arrows</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2018/03/two-robes</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2018-03-19-two-robes</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2018/02/coming-to-america</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2018-02-05-coming-to-america</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/12/one-sunday-afteroon</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-12-21-one-sunday-afteroon</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/11/grab-bag-report</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-11-08-grab-bag-report</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/08/a-chance-to-give-back</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-08-12-a-chance-to-give-back</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/08/meet-ralph</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-08-04-meet-ralph</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/06/lviv-rope-course</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-06-29-lviv-rope-course</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/06/bible-first-kids</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-06-13-bible-first-kids</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/05/spring-family-photos</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-05-24-spring-family-photos</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2017/03/meet-david-noble</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2017-03-29-meet-david-noble</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+</RoutingRules>
