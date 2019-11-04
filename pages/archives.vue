@@ -46,6 +46,14 @@ import PageHeader from '~/components/PageHeader.vue';
 import archives from '~/data/archives.json';
 
 export default {
+  head() {
+    return {
+      title: 'Archives',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Since 2003, we have published a newsletter called Overseas Field Report. If you’re interested in reading the history of our ministry overseas, you’ve come to the right place!' },
+      ],
+    };
+  },
   components: {
     DynamicMarkdown,
     PageHeader,

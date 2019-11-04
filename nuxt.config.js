@@ -14,11 +14,16 @@ export default {
   },
 
   head: {
-    title: process.env.npm_package_name || '',
+    titleTemplate: (titleChunk) => {
+      const baseTitle = 'Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine';
+      return titleChunk ? `${titleChunk} | ${baseTitle}` : baseTitle;
+    },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
+      { hid: 'description', name: 'description', content: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.' },
+      { name: 'author', content: 'Joshua and Kelsie Steele' },
+      { hid: 'robots', name: 'robots', content: process.env.APP_ENV === 'prod' ? 'index,follow' : 'noindex,nofollow' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -28,7 +33,10 @@ export default {
     ],
   },
 
-  loading: { color: '#2bb0ed' },
+  loading: {
+    color: '#2bb0ed',
+    height: '3px',
+  },
 
   css: [
   ],
@@ -73,6 +81,7 @@ export default {
   },
 
   build: {
+    extractCSS: true,
     /* eslint-disable-next-line no-unused-vars */
     extend(config, ctx) {
       config.module.rules.push(

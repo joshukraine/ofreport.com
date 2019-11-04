@@ -35,6 +35,11 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
+  head() {
+    return {
+      title: 'The Steele Family',
+    };
+  },
   components: {
     DynamicMarkdown,
     PageHeader,

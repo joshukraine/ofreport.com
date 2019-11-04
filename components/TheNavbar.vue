@@ -72,7 +72,8 @@ export default {
 
 <style scoped>
 .nav-menu {
-  @apply .absolute .pb-20 .bg-blue-600 .h-screen .w-full .overflow-y-auto;
+  @apply .absolute .pb-20 .h-screen .w-full .overflow-y-auto;
+  background: linear-gradient(to bottom, #127fbf 0%, #035388 100%);
   left: 100%;
   top: 4rem;
   transition: transform 0.2s ease-in-out;
@@ -147,7 +148,8 @@ export default {
   }
 
   .nav-menu {
-    @apply .p-0 .relative .bg-white;
+    @apply .p-0 .relative;
+    background: #fff;
     bottom: 0;
     height: initial;
     left: initial;

@@ -10,7 +10,7 @@
       <div class="container">
         <div class="max-w-3xl mx-auto">
           <!-- eslint-disable vue/no-v-html -->
-          <p class="text-center text-sm sm:text-base text-gray-600 font-semibold"
+          <p class="mt-2 text-center text-sm sm:text-base text-gray-600 font-semibold"
              v-html="renderInlineMd(fm.caption)"
           />
           <!-- eslint-enable vue/no-v-html -->
@@ -59,6 +59,14 @@ import markdownit from '~/mixins/markdownit';
 import { parameterize } from '~/lib/helpers';
 
 export default {
+  head() {
+    return {
+      title: this.fm.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.fm.preview },
+      ],
+    };
+  },
   components: {
     ArticleFooter,
     DynamicMarkdown,

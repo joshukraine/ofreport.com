@@ -77,6 +77,14 @@ import { required, email } from 'vuelidate/lib/validators';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
+  head() {
+    return {
+      title: 'Contact',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Need to get in touch? Drop us a line!' },
+      ],
+    };
+  },
   components: {
     PageHeader,
   },
@@ -181,6 +189,18 @@ export default {
 
 .toasted.toasted-primary.error {
   @apply .bg-red-600;
+}
+
+.toasted.toasted-primary.success,
+.toasted.toasted-primary.error {
+  @apply .justify-start .pb-2;
+}
+
+@media (max-width: 600px) {
+  .toasted.toasted-primary.success,
+  .toasted.toasted-primary.error {
+    @apply .pb-6;
+  }
 }
 
 .contact-form .btn:disabled {

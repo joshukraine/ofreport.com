@@ -9,7 +9,7 @@ const config = {
 
   // Required
   params: {
-    Bucket: process.env.AWS_BUCKET_NAME,
+    Bucket: process.env.OFR_BUCKET_NAME,
   },
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -19,8 +19,8 @@ const config = {
 
   // Optional
   deleteOldVersions: false, // NOT FOR PRODUCTION
-  // distribution: process.env.AWS_CLOUDFRONT, // CloudFront distribution ID
-  region: process.env.AWS_DEFAULT_REGION,
+  // distribution: process.env.OFR_CLOUDFRONT, // CloudFront distribution ID
+  region: process.env.OFR_DEFAULT_REGION,
   headers: { /* 'Cache-Control': 'max-age=315360000, no-transform, public', */ },
 
   // Sensible Defaults - gitignore these Files and Dirs
