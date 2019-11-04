@@ -16,6 +16,14 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
+  head() {
+    return {
+      title: 'Donate',
+      meta: [
+        { hid: 'description', name: 'description', content: 'If you would like to make a financial contribution, please choose from one of the options below. We are grateful for your kindness and generosity!' },
+      ],
+    };
+  },
   components: {
     DynamicMarkdown,
     PageHeader,

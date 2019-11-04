@@ -77,6 +77,14 @@ import { required, email } from 'vuelidate/lib/validators';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
+  head() {
+    return {
+      title: 'Contact',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Need to get in touch? Drop us a line!' },
+      ],
+    };
+  },
   components: {
     PageHeader,
   },
