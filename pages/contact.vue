@@ -8,7 +8,7 @@
       </p>
 
       <div class="mt-6 p-4 bg-white rounded shadow-md">
-        <form @submit.prevent="validateFinal">
+        <form class="contact-form" @submit.prevent="validateFinal">
           <div :class="{ 'invalid': $v.name.$error }">
             <label class="form-label" for="name">
               Your Name
@@ -183,5 +183,9 @@ export default {
 
 .toasted.toasted-primary.error {
   @apply .bg-red-600;
+}
+
+.contact-form .btn:disabled {
+  @apply .cursor-wait;
 }
 </style>
