@@ -60,8 +60,15 @@ export default {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/toast',
+    '@nuxtjs/recaptcha',
     '@nuxtjs/sitemap',
   ],
+
+  recaptcha: {
+    language: 'en',
+    siteKey: process.env.OFR_RECAPTCHA_SITE_KEY,
+    version: 2,
+  },
 
   toast: {
     position: 'bottom-right',
