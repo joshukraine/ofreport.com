@@ -63,7 +63,14 @@ export default {
     return {
       title: this.fm.title,
       meta: [
+        { hid: 'author', name: 'author', content: this.fm.author },
         { hid: 'description', name: 'description', content: this.fm.preview },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+        { hid: 'article:author', property: 'article:author', content: this.fm.author },
+        { hid: 'article:published_time', property: 'article:published_time', content: this.fm.date },
+        { hid: 'og:title', property: 'og:title', content: this.fm.title },
+        { hid: 'og:description', property: 'og:description', content: this.fm.preview },
+        { hid: 'og:image', property: 'og:image', content: this.ogImage },
       ],
     };
   },
@@ -86,6 +93,12 @@ export default {
     },
     coverBgImage() {
       const opts = 'upload/c_scale,f_auto,q_auto:best,w_2000';
+      const segments = this.fm.cover.split('upload');
+      segments.splice(1, 0, opts);
+      return segments.join('');
+    },
+    ogImage() {
+      const opts = 'upload/c_fill,f_auto,h_630,q_auto,w_1200';
       const segments = this.fm.cover.split('upload');
       segments.splice(1, 0, opts);
       return segments.join('');
