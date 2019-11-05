@@ -61,11 +61,20 @@
             </p>
           </div>
 
-          <input type="submit"
-                 value="Send"
-                 :disabled="submitPending"
-                 class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline"
+          <div class="mt-6">
+            <recaptcha
+              @error="onError"
+              @success="onSuccess"
+              @expired="onExpired"
+            />
+          </div>
+
+          <button type="submit"
+                  :disabled="submitPending"
+                  class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline"
           >
+            Send
+          </button>
         </form>
       </div>
     </section>
@@ -109,8 +118,32 @@ export default {
         this.toastInvalid('Please check the highlighted fields for errors.', 3000);
       } else {
         this.submitPending = true;
-        this.postMessage();
+        this.validateReCaptcha();
       }
+    },
+    async validateReCaptcha() {
+      try {
+        const token = await this.$recaptcha.getResponse();
+        console.log('ReCaptcha token:', token);
+        await this.$recaptcha.reset();
+        this.postMessage();
+      } catch (error) {
+        console.log('ReCaptcha error:', error);
+        this.submitPending = false;
+      }
+    },
+    onError(error) {
+      console.log('Error happened:', error);
+      this.toastError('Please check the ReCaptcha box.', 5000);
+      this.submitPending = false;
+    },
+    onSuccess(token) {
+      console.log('Succeeded:', token);
+    },
+    onExpired() {
+      console.log('Expired');
+      this.toastError('Sorry, this reCaptcha has expired. Please refresh the page and try again.', 5000);
+      this.submitPending = false;
     },
     async postMessage() {
       try {
@@ -185,10 +218,6 @@ export default {
   @apply .text-red-600 .text-sm .mt-1 .mb-0;
 }
 
-.toasted.toasted-primary {
-  @apply .font-normal .text-base;
-}
-
 .toasted.toasted-primary.success {
   @apply .bg-green-600;
 }
@@ -199,7 +228,7 @@ export default {
 
 .toasted.toasted-primary.success,
 .toasted.toasted-primary.error {
-  @apply .justify-start .pb-2;
+  @apply .justify-start .pb-2 .font-semibold .text-base;
 }
 
 @media (max-width: 600px) {
