@@ -16,17 +16,27 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
-  head() {
-    return {
-      title: 'Donate',
-      meta: [
-        { hid: 'description', name: 'description', content: 'If you would like to make a financial contribution, please choose from one of the options below. We are grateful for your kindness and generosity!' },
-      ],
-    };
-  },
   components: {
     DynamicMarkdown,
     PageHeader,
+  },
+  data() {
+    return {
+      description: 'If you would like to make a financial contribution, please choose from one of the options below. We are grateful for your kindness and generosity!',
+      title: 'Donate',
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:description', property: 'og:description', content: this.description },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.description },
+      ],
+    };
   },
   async asyncData() {
     const page = await import('~/content/pages/donate.md');

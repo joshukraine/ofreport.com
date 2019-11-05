@@ -35,14 +35,27 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
-  head() {
-    return {
-      title: 'The Steele Family',
-    };
-  },
   components: {
     DynamicMarkdown,
     PageHeader,
+  },
+  data() {
+    return {
+      description: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
+      title: 'The Steele Family',
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:description', property: 'og:description', content: this.description },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.description },
+      ],
+    };
   },
   async asyncData() {
     const page = await import('~/content/pages/family.md');
