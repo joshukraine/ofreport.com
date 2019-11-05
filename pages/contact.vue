@@ -123,22 +123,19 @@ export default {
     },
     async validateReCaptcha() {
       try {
-        const token = await this.$recaptcha.getResponse();
-        console.log('ReCaptcha token:', token);
+        await this.$recaptcha.getResponse();
         await this.$recaptcha.reset();
         this.postMessage();
       } catch (error) {
-        console.log('ReCaptcha error:', error);
         this.submitPending = false;
       }
     },
-    onError(error) {
-      console.log('Error happened:', error);
+    onError() {
       this.toastError('Please check the ReCaptcha box.', 5000);
       this.submitPending = false;
     },
-    onSuccess(token) {
-      console.log('Succeeded:', token);
+    onSuccess() {
+      return true;
     },
     onExpired() {
       console.log('Expired');
