@@ -56,6 +56,7 @@ export default {
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/toast',
+    '@nuxtjs/sitemap',
   ],
 
   toast: {
@@ -78,6 +79,12 @@ export default {
       'md:mb-8',
       'md:my-8',
     ],
+  },
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://ofreport.com',
+    gzip: true,
   },
 
   build: {
