@@ -1,6 +1,10 @@
 <template>
   <div>
-    <h1>Articles tagged with: {{ tag }}</h1>
+    <section class="container">
+      <div class="my-6 sm:my-8 md:mb-0 lg:mt-12 text-center">
+        <h1>Articles tagged "{{ tag }}"</h1>
+      </div>
+    </section>
     <ArticlesList :all-articles="taggedArticles"
                   :start-page="startPage"
                   :root-segment="rootSegment"
