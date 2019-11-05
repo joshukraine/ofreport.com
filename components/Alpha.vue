@@ -8,11 +8,11 @@
             <p class="mt-2 mb-8 md:mb-12 text-white text-base font-header">
               Est. 2004
             </p>
-            <p class="mb-8 text-white font-header text-sm xs:text-base md:text-xl md:mb-12">
+            <p class="mb-8 text-white font-header text-lg md:text-xl md:mb-12">
               We live in Ukraine where we strive to tell others about God's gift of
               eternal life through <span class="whitespace-no-wrap">Jesus Christ.</span>
             </p>
-            <nuxt-link to="/family" class="btn sm:btn-lg btn-blue font-header">
+            <nuxt-link to="/family" class="btn btn-lg btn-blue font-header">
               Meet our Family
             </nuxt-link>
           </div>
