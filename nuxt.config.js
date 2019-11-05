@@ -20,7 +20,7 @@ export default {
       return titleChunk ? `${titleChunk} | ${baseTitle}` : baseTitle;
     },
     htmlAttrs: {
-      lang: site.language,
+      lang: site.lang,
     },
     meta: [
       { charset: 'utf-8' },
