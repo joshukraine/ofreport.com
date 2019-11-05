@@ -3,6 +3,11 @@
     <section class="container">
       <div class="my-6 sm:my-8 md:mb-0 lg:mt-12 text-center">
         <h1>Articles tagged "{{ tag }}"</h1>
+        <p>
+          <nuxt-link to="/tags">
+            View all tags
+          </nuxt-link>
+        </p>
       </div>
     </section>
     <ArticlesList :all-articles="taggedArticles"
