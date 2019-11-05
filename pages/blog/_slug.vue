@@ -71,6 +71,9 @@ export default {
         { hid: 'og:title', property: 'og:title', content: this.fm.title },
         { hid: 'og:description', property: 'og:description', content: this.fm.preview },
         { hid: 'og:image', property: 'og:image', content: this.ogImage },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.fm.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.fm.preview },
+        { hid: 'twitter:image', name: 'twitter:image', content: this.ogImage },
       ],
     };
   },
