@@ -77,23 +77,29 @@ import { required, email } from 'vuelidate/lib/validators';
 import PageHeader from '~/components/PageHeader.vue';
 
 export default {
-  head() {
-    return {
-      title: 'Contact',
-      meta: [
-        { hid: 'description', name: 'description', content: 'Need to get in touch? Drop us a line!' },
-      ],
-    };
-  },
   components: {
     PageHeader,
   },
   data() {
     return {
-      name: '',
+      description: 'Need to get in touch? Drop us a line!',
       email: '',
       message: '',
+      name: '',
       submitPending: false,
+      title: 'Contact',
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:description', property: 'og:description', content: this.description },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.description },
+      ],
     };
   },
   methods: {

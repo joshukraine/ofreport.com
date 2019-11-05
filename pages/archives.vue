@@ -46,14 +46,6 @@ import PageHeader from '~/components/PageHeader.vue';
 import archives from '~/data/archives.json';
 
 export default {
-  head() {
-    return {
-      title: 'Archives',
-      meta: [
-        { hid: 'description', name: 'description', content: 'Since 2003, we have published a newsletter called Overseas Field Report. If you’re interested in reading the history of our ministry overseas, you’ve come to the right place!' },
-      ],
-    };
-  },
   components: {
     DynamicMarkdown,
     PageHeader,
@@ -61,7 +53,21 @@ export default {
   data() {
     return {
       archives: {},
+      description: 'Since 2003, we have published a newsletter called Overseas Field Report. If you’re interested in reading the history of our ministry overseas, you’ve come to the right place!',
+      title: 'Archives',
       years: [],
+    };
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.description },
+        { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:description', property: 'og:description', content: this.description },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.description },
+      ],
     };
   },
   async asyncData() {
