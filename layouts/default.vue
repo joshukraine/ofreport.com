@@ -27,6 +27,9 @@ export default {
         { property: 'og:site_name', content: site.name },
         { property: 'og:locale', content: 'en_US' },
       ],
+      link: [
+        { hid: 'canonical', rel: 'canonical', href: site.url + this.$route.path },
+      ],
     };
   },
   components: {
