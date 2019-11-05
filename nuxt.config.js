@@ -83,6 +83,9 @@ export default {
       'md:mb-8',
       'md:my-8',
     ],
+    whitelistPatterns: [
+      /^fade/,
+    ],
   },
 
   sitemap: {
@@ -125,5 +128,10 @@ export default {
   generate: {
     fallback: true,
     routes: dynamicRoutes(),
+  },
+
+  pageTransition: {
+    name: 'fade',
+    mode: 'out-in',
   },
 };
