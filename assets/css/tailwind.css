@@ -4,6 +4,7 @@
 @import './components/buttons.css';
 @import './components/hamburger.css';
 @import './components/lists.css';
+@import './components/transitions.css';
 @import './components/typography.css';
 
 @import 'tailwindcss/components';
