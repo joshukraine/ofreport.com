@@ -5,7 +5,7 @@ author: "Raphaël Villeneuve"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571818789/OFReport/2018-11-27-to-the-ends-of-the-earth/villeneuve-family-1200-630_w56o2z.jpg"
 caption: "The Villeneuve Family, fall 2018. From the left: Dominic, Danièle, Matthew, Ralph"
 preview: >
-  EDITOR'S NOTE: Raphaël "Ralph" Villeneuve served with our team in L'viv during the summer of 2017. In the article below, he recounts in his own words how he learned to discern God's will and direction. If you haven't already, I encourage you to first ["Meet Ralph"](/blog/2017-08-04-meet-ralph), and then introduce him to your family. Our kids need examples of other young people who have wholly dedicated their lives to Christ.
+  Are you a Christian teen wondering where to head out in life, what God may want you to do? You want to find out, but you're not sure how. If so, then you're just like I was a few years ago. It may seem hard or mysterious, and you've probably heard someone say "God told me" or "God wants me to." How could they possibly know? To answer these questions, I'm simply going to tell you my story.
 tags:
 - testimony
 - theology
