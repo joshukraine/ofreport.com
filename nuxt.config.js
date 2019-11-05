@@ -2,6 +2,7 @@ import markdownIt from 'markdown-it';
 import mila from 'markdown-it-link-attributes';
 import path from 'path';
 import dynamicRoutes from './lib/dynamic-routes';
+import site from './data/site.json';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
@@ -18,11 +19,14 @@ export default {
       const baseTitle = 'Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine';
       return titleChunk ? `${titleChunk} | ${baseTitle}` : baseTitle;
     },
+    htmlAttrs: {
+      lang: site.language,
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
-      { hid: 'description', name: 'description', content: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.' },
-      { name: 'author', content: 'Joshua and Kelsie Steele' },
+      { hid: 'description', name: 'description', content: site.description },
+      { hid: 'author', name: 'author', content: 'Joshua and Kelsie Steele' },
       { hid: 'robots', name: 'robots', content: process.env.APP_ENV === 'prod' ? 'index,follow' : 'noindex,nofollow' },
     ],
     link: [
