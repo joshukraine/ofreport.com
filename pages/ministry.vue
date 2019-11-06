@@ -1,5 +1,5 @@
 <template>
-  <article class="mb-8 md:mb-12">
+  <article class="ministry pb-8 md:pb-12">
     <PageHeader title="We live to serve<br />Jesus Christ." :html="true" />
 
     <section class="container text-center max-w-2xl mx-auto -mt-4">
@@ -47,3 +47,13 @@ export default {
   },
 };
 </script>
+
+<style>
+@screen sm {
+  .ministry {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1573039527/OFReport/assets/abby-beka-ministry-bg-fade_lwhwyj.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+}
+</style>

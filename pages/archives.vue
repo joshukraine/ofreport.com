@@ -1,5 +1,5 @@
 <template>
-  <article class="mb-8 md:mb-12">
+  <article class="ofr-archives pb-8 md:pb-12">
     <PageHeader title="Through the Years" />
 
     <section class="container max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
@@ -90,6 +90,14 @@ export default {
 </script>
 
 <style>
+@screen sm {
+  .ofr-archives {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1573039527/OFReport/assets/selfie-family-bg-fade_qkqb9u.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+}
+
 .pdf-issues > li:before {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQwIDUxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNNTM3LjYgMjI2LjZjNC4xLTEwLjcgNi40LTIyLjQgNi40LTM0LjYgMC01My00My05Ni05Ni05Ni0xOS43IDAtMzguMSA2LTUzLjMgMTYuMkMzNjcgNjQuMiAzMTUuMyAzMiAyNTYgMzJjLTg4LjQgMC0xNjAgNzEuNi0xNjAgMTYwIDAgMi43LjEgNS40LjIgOC4xQzQwLjIgMjE5LjggMCAyNzMuMiAwIDMzNmMwIDc5LjUgNjQuNSAxNDQgMTQ0IDE0NGgzNjhjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjggMC02MS45LTQ0LTExMy42LTEwMi40LTEyNS40em0tMTMyLjkgODguN0wyOTkuMyA0MjAuN2MtNi4yIDYuMi0xNi40IDYuMi0yMi42IDBMMTcxLjMgMzE1LjNjLTEwLjEtMTAuMS0yLjktMjcuMyAxMS4zLTI3LjNIMjQ4VjE3NmMwLTguOCA3LjItMTYgMTYtMTZoNDhjOC44IDAgMTYgNy4yIDE2IDE2djExMmg2NS40YzE0LjIgMCAyMS40IDE3LjIgMTEuMyAyNy4zeiIgZmlsbD0iI0U1M0UzRSIvPgo8L3N2Zz4K");
   background-position: center;
