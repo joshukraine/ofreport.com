@@ -2,7 +2,7 @@
   <article class="mb-8 md:mb-12">
     <PageHeader title="We live to serve<br />Jesus Christ." :html="true" />
 
-    <section class="container text-center max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+    <section class="container text-center max-w-2xl mx-auto -mt-4">
       <DynamicMarkdown
         :render-fn="renderFn"
         :static-render-fns="staticRenderFns"
