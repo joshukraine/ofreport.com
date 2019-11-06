@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <article>
     <TagHome :start-page="startPage" />
-  </div>
+  </article>
 </template>
 
 <script>

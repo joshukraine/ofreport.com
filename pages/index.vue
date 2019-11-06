@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <article>
     <Alpha />
     <ReadTheNews />
-  </div>
+  </article>
 </template>
 
 <script>

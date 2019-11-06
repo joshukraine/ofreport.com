@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <section>
     <BlogHome :start-page="startPage" />
-  </div>
+  </section>
 </template>
 
 <script>

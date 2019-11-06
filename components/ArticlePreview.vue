@@ -1,5 +1,5 @@
 <template>
-  <div class="md:mx-4 p-4 h-full flex flex-col justify-between bg-white rounded-lg overflow-hidden shadow-md">
+  <article class="md:mx-4 p-4 h-full flex flex-col justify-between bg-white rounded-lg overflow-hidden shadow-md">
     <div>
       <div v-if="article.cover" class="-mx-4 -mt-4">
         <card-image :article-cover="article.cover"
@@ -28,7 +28,7 @@
         Read more
       </nuxt-link>
     </p>
-  </div>
+  </article>
 </template>
 
 <script>
