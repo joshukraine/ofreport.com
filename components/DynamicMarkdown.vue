@@ -1,11 +1,13 @@
 <script>
 import ArticleButton from '~/components/ArticleButton.vue';
+import ArticleCallout from '~/components/ArticleCallout.vue';
 import ArticleImage from '~/components/ArticleImage.vue';
 import ArticleSvg from '~/components/ArticleSvg.vue';
 
 export default {
   components: {
     ArticleButton,
+    ArticleCallout,
     ArticleImage,
     ArticleSvg,
   },

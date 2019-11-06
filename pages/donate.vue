@@ -1,8 +1,8 @@
 <template>
-  <article class="mb-8 md:mb-12">
+  <article class="donate pb-8 md:pb-12">
     <PageHeader title="How to Donate" />
 
-    <section class="container max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+    <section class="container max-w-2xl mx-auto -mt-4">
       <DynamicMarkdown
         :render-fn="renderFn"
         :static-render-fns="staticRenderFns"
@@ -47,3 +47,13 @@ export default {
   },
 };
 </script>
+
+<style>
+@screen sm {
+  .donate {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1573039527/OFReport/assets/full-family-bg-fade_b2lc3m.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+}
+</style>

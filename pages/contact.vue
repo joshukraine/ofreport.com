@@ -1,8 +1,8 @@
 <template>
-  <article class="mb-8 md:mb-12">
+  <article class="contact pb-8 md:pb-12">
     <PageHeader title="Hello!" />
 
-    <section class="container max-w-xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+    <section class="container max-w-xl mx-auto">
       <p class="mt-0 text-center">
         Need to get in touch? Drop us a line!
       </p>
@@ -236,5 +236,13 @@ export default {
 
 .contact-form .btn:disabled {
   @apply .cursor-wait;
+}
+
+@screen sm {
+  .contact {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1573039527/OFReport/assets/joshandkels-bg-fade_ynfifb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
 }
 </style>

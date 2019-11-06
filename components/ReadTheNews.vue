@@ -1,5 +1,5 @@
 <template>
-  <section class="read-the-news bg-cover bg-center py-10 xs:px-4 xs:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24">
+  <section class="read-the-news bg-cover bg-center py-6 xs:px-4 xs:py-8 sm:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24">
     <div class="container flex justify-between max-w-3xl">
       <figure class="ofr-cover hidden sm:block">
         <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
@@ -57,10 +57,6 @@ export default {
 </script>
 
 <style>
-.read-the-news {
-  background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_460/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
-}
-
 .ofr-cover img {
   @apply shadow-md;
   width: 70px;
