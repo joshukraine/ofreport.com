@@ -26,7 +26,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
       { hid: 'description', name: 'description', content: site.description },
-      { hid: 'author', name: 'author', content: 'Joshua and Kelsie Steele' },
+      { hid: 'author', name: 'author', content: site.author },
       { hid: 'robots', name: 'robots', content: process.env.APP_ENV === 'prod' ? 'index,follow' : 'noindex,nofollow' },
     ],
     link: [
