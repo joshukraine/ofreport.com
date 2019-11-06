@@ -131,15 +131,14 @@ export default {
       }
     },
     onError() {
-      this.toastError('Please check the ReCaptcha box.', 5000);
+      this.toastError('Please check "I\'m not a robot".', 5000);
       this.submitPending = false;
     },
     onSuccess() {
       return true;
     },
     onExpired() {
-      console.log('Expired');
-      this.toastError('Sorry, this reCaptcha has expired. Please refresh the page and try again.', 5000);
+      this.toastError('Sorry, this reCAPTCHA has expired. Please refresh the page and try again.', 5000);
       this.submitPending = false;
     },
     async postMessage() {
