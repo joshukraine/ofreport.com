@@ -1,8 +1,6 @@
-import markdownIt from 'markdown-it';
-import mila from 'markdown-it-link-attributes';
-import path from 'path';
-import dynamicRoutes from './lib/dynamic-routes';
-import site from './data/site.json';
+import {
+  build, dynamicRoutes, feed, head, purgeCSS,
+} from './config';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
@@ -14,28 +12,7 @@ export default {
     perPage: process.env.PER_PAGE || 8,
   },
 
-  head: {
-    titleTemplate: (titleChunk) => {
-      const baseTitle = 'Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine';
-      return titleChunk ? `${titleChunk} | ${baseTitle}` : baseTitle;
-    },
-    htmlAttrs: {
-      lang: site.lang,
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
-      { hid: 'description', name: 'description', content: site.description },
-      { hid: 'author', name: 'author', content: site.author },
-      { hid: 'robots', name: 'robots', content: process.env.APP_ENV === 'prod' ? 'index,follow' : 'noindex,nofollow' },
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:700&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Mate+SC&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap' },
-    ],
-  },
+  head,
 
   loading: {
     color: '#2bb0ed',
@@ -59,10 +36,13 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/feed',
     '@nuxtjs/toast',
     '@nuxtjs/recaptcha',
     '@nuxtjs/sitemap',
   ],
+
+  feed,
 
   recaptcha: {
     language: 'en',
@@ -76,24 +56,7 @@ export default {
     iconPack: 'material',
   },
 
-  purgeCSS: {
-    whitelist: [
-      'blockquote',
-      'ul',
-      'ol',
-      'li',
-      'markdown',
-      'mt-6',
-      'mb-6',
-      'my-6',
-      'md:mt-8',
-      'md:mb-8',
-      'md:my-8',
-    ],
-    whitelistPatterns: [
-      /^fade/,
-    ],
-  },
+  purgeCSS,
 
   sitemap: {
     path: '/sitemap.xml',
@@ -101,36 +64,7 @@ export default {
     gzip: true,
   },
 
-  build: {
-    extractCSS: true,
-    /* eslint-disable-next-line no-unused-vars */
-    extend(config, ctx) {
-      config.module.rules.push(
-        {
-          test: /\.md$/,
-          include: path.resolve(__dirname, 'content'),
-          loader: 'frontmatter-markdown-loader',
-          options: {
-            mode: ['vue-render-functions'],
-            markdownIt: markdownIt({
-              html: true,
-              linkify: true,
-              typographer: true,
-            }).use(mila, {
-              pattern: /^https?:\/\//,
-              attrs: {
-                target: '_blank',
-                rel: 'noopener noreferrer',
-              },
-            }),
-            vue: {
-              root: 'markdown',
-            },
-          },
-        },
-      );
-    },
-  },
+  build,
 
   generate: {
     fallback: true,

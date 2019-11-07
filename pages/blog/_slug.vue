@@ -19,8 +19,8 @@
             {{ fm.title }}
           </h1>
           <p class="text-sm mt-1">
-            <a v-if="authorHasSocial"
-               :href="articleAuthor.social"
+            <a v-if="authorHasLink"
+               :href="articleAuthor.link"
                class="text-sm"
             >{{ articleAuthor.name }}</a>
             <span v-else class="text-gray-600">{{ articleAuthor.name }}</span>
@@ -54,7 +54,7 @@ import ArticleFooter from '~/components/ArticleFooter.vue';
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
 import markdownit from '~/mixins/markdownit';
-import { parameterize } from '~/lib/helpers';
+import { parameterize, cldOptimize } from '~/config/utils/helpers';
 
 export default {
   head() {
@@ -85,7 +85,7 @@ export default {
   data() {
     return {
       authors: authorData.data,
-      authorHasSocial: false,
+      authorHasLink: false,
     };
   },
   computed: {
@@ -93,16 +93,23 @@ export default {
       return this.authors.find((author) => author.name === this.fm.author);
     },
     coverBgImage() {
-      const opts = 'upload/c_scale,f_auto,q_auto:best,w_2000';
-      const segments = this.fm.cover.split('upload');
-      segments.splice(1, 0, opts);
-      return segments.join('');
+      const opts = [
+        'c_scale',
+        'f_auto',
+        'q_auto:best',
+        'w_2000',
+      ];
+      return cldOptimize(this.fm.cover, opts);
     },
     ogImage() {
-      const opts = 'upload/c_fill,f_auto,h_630,q_auto,w_1200';
-      const segments = this.fm.cover.split('upload');
-      segments.splice(1, 0, opts);
-      return segments.join('');
+      const opts = [
+        'c_fill',
+        'f_auto',
+        'h_630',
+        'q_auto',
+        'w_1200',
+      ];
+      return cldOptimize(this.fm.cover, opts);
     },
     publishedOn() {
       return dayjs(this.fm.date).format('MMMM D, YYYY');
@@ -118,8 +125,8 @@ export default {
   },
   created() {
     try {
-      if (Object.keys(this.articleAuthor).includes('social')) {
-        this.authorHasSocial = true;
+      if (Object.keys(this.articleAuthor).includes('link')) {
+        this.authorHasLink = true;
       }
     } catch (error) {
       /* eslint-disable-next-line no-console */
