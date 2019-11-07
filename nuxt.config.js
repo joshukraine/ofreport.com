@@ -75,6 +75,11 @@ export default {
         const articles = Object.values(articleData).reverse();
         const recentArticles = articles.slice(0, 10);
 
+        const md = markdownIt({
+          linkify: true,
+          typographer: true,
+        });
+
         feed.options = {
           title: 'OFReport.com — Joshua and Kelsie Steele',
           description: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
@@ -88,7 +93,7 @@ export default {
           feed.addItem({
             title: a.title,
             link: `${site.url}/blog/${a.basename}`,
-            description: a.preview,
+            description: md.render(a.preview),
             date: new Date(a.iso8601Date),
             // image: a.cover,
           });
