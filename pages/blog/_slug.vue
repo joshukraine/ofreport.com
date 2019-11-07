@@ -54,7 +54,7 @@ import ArticleFooter from '~/components/ArticleFooter.vue';
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
 import markdownit from '~/mixins/markdownit';
-import { parameterize, cldOptimize } from '~/lib/helpers';
+import { parameterize, cldOptimize } from '~/config/utils/helpers';
 
 export default {
   head() {

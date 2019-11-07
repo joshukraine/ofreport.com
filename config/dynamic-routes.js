@@ -1,5 +1,5 @@
 import articles from '../data/articles.json';
-import { getUniqueTags, getArticlesTaggedWith } from './helpers';
+import { getUniqueTags, getArticlesTaggedWith } from './utils/helpers';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
@@ -30,11 +30,9 @@ const deepTagArray = uniqueTags.map((tag) => {
   return tagPathGroup;
 });
 
-const dynamicRoutes = () => [].concat(
+export default () => [].concat(
   articleSlugs.map((slug) => `/blog/${slug}`),
   articlePages.map((_, i) => `/blog/page/${i + 1}`),
   uniqueTags.map((tag) => `/tags/${tag}`),
   [].concat(...deepTagArray),
 );
-
-export { dynamicRoutes as default };

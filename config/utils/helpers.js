@@ -1,4 +1,4 @@
-import articles from '../data/articles.json';
+import articles from '../../data/articles.json';
 
 const parameterize = (tag) => tag.trim()
   .toLowerCase().replace(/[^a-zA-Z0-9 -]/, '').replace(/\s/g, '-');
