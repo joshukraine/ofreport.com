@@ -20,6 +20,13 @@ export default {
     DynamicMarkdown,
     PageHeader,
   },
+  async asyncData() {
+    const page = await import('~/content/pages/donate.md');
+    return {
+      renderFn: page.vue.render,
+      staticRenderFns: page.vue.staticRenderFns,
+    };
+  },
   data() {
     return {
       description: 'If you would like to make a financial contribution, please choose from one of the options below. We are grateful for your kindness and generosity!',
@@ -36,13 +43,6 @@ export default {
         { hid: 'twitter:title', name: 'twitter:title', content: this.title },
         { hid: 'twitter:description', name: 'twitter:description', content: this.description },
       ],
-    };
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/donate.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
     };
   },
 };

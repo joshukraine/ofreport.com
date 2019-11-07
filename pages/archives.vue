@@ -50,6 +50,13 @@ export default {
     DynamicMarkdown,
     PageHeader,
   },
+  async asyncData() {
+    const page = await import('~/content/pages/archives.md');
+    return {
+      renderFn: page.vue.render,
+      staticRenderFns: page.vue.staticRenderFns,
+    };
+  },
   data() {
     return {
       archives: {},
@@ -57,6 +64,15 @@ export default {
       title: 'Archives',
       years: [],
     };
+  },
+  created() {
+    this.archives = archives;
+    this.years = Object.keys(archives).reverse();
+  },
+  methods: {
+    cdnLink(file) {
+      return `https://d21yo20tm8bmc2.cloudfront.net/ofr/${file}`;
+    },
   },
   head() {
     return {
@@ -69,22 +85,6 @@ export default {
         { hid: 'twitter:description', name: 'twitter:description', content: this.description },
       ],
     };
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/archives.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
-    };
-  },
-  created() {
-    this.archives = archives;
-    this.years = Object.keys(archives).reverse();
-  },
-  methods: {
-    cdnLink(file) {
-      return `https://d21yo20tm8bmc2.cloudfront.net/ofr/${file}`;
-    },
   },
 };
 </script>

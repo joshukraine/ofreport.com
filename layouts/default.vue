@@ -14,6 +14,10 @@ import TheFooter from '~/components/TheFooter.vue';
 import site from '~/data/site.json';
 
 export default {
+  components: {
+    TheNavbar,
+    TheFooter,
+  },
   head() {
     return {
       meta: [
@@ -37,10 +41,6 @@ export default {
         { hid: 'canonical', rel: 'canonical', href: site.url + this.$route.path },
       ],
     };
-  },
-  components: {
-    TheNavbar,
-    TheFooter,
   },
 };
 </script>

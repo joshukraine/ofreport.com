@@ -20,6 +20,13 @@ export default {
     DynamicMarkdown,
     PageHeader,
   },
+  async asyncData() {
+    const page = await import('~/content/pages/ministry.md');
+    return {
+      renderFn: page.vue.render,
+      staticRenderFns: page.vue.staticRenderFns,
+    };
+  },
   data() {
     return {
       description: 'Our highest purpose in life is to follow our Savior, the Lord Jesus Christ. We are raising our family in Ukraine, and striving to share the Gospel with those around us. If you’d like to learn more about how we minister, read on!',
@@ -36,13 +43,6 @@ export default {
         { hid: 'twitter:title', name: 'twitter:title', content: this.title },
         { hid: 'twitter:description', name: 'twitter:description', content: this.description },
       ],
-    };
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/ministry.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
     };
   },
 };
