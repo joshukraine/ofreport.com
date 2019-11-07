@@ -2,7 +2,7 @@
   <article class="ofr-archives pb-8 md:pb-12">
     <PageHeader title="Through the Years" />
 
-    <section class="container max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+    <section class="container max-w-2xl mx-auto">
       <DynamicMarkdown
         :render-fn="renderFn"
         :static-render-fns="staticRenderFns"
@@ -50,6 +50,13 @@ export default {
     DynamicMarkdown,
     PageHeader,
   },
+  async asyncData() {
+    const page = await import('~/content/pages/archives.md');
+    return {
+      renderFn: page.vue.render,
+      staticRenderFns: page.vue.staticRenderFns,
+    };
+  },
   data() {
     return {
       archives: {},
@@ -57,6 +64,15 @@ export default {
       title: 'Archives',
       years: [],
     };
+  },
+  created() {
+    this.archives = archives;
+    this.years = Object.keys(archives).reverse();
+  },
+  methods: {
+    cdnLink(file) {
+      return `https://d21yo20tm8bmc2.cloudfront.net/ofr/${file}`;
+    },
   },
   head() {
     return {
@@ -69,22 +85,6 @@ export default {
         { hid: 'twitter:description', name: 'twitter:description', content: this.description },
       ],
     };
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/archives.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
-    };
-  },
-  created() {
-    this.archives = archives;
-    this.years = Object.keys(archives).reverse();
-  },
-  methods: {
-    cdnLink(file) {
-      return `https://d21yo20tm8bmc2.cloudfront.net/ofr/${file}`;
-    },
   },
 };
 </script>

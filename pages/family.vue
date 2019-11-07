@@ -34,6 +34,13 @@ export default {
   components: {
     DynamicMarkdown,
   },
+  async asyncData() {
+    const page = await import('~/content/pages/family.md');
+    return {
+      renderFn: page.vue.render,
+      staticRenderFns: page.vue.staticRenderFns,
+    };
+  },
   data() {
     return {
       description: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
@@ -50,13 +57,6 @@ export default {
         { hid: 'twitter:title', name: 'twitter:title', content: this.title },
         { hid: 'twitter:description', name: 'twitter:description', content: this.description },
       ],
-    };
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/family.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
     };
   },
 };

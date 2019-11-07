@@ -57,24 +57,6 @@ import markdownit from '~/mixins/markdownit';
 import { parameterize, cldOptimize } from '~/config/utils/helpers';
 
 export default {
-  head() {
-    return {
-      title: this.fm.title,
-      meta: [
-        { hid: 'author', name: 'author', content: this.fm.author },
-        { hid: 'description', name: 'description', content: this.fm.preview },
-        { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'article:author', property: 'article:author', content: this.fm.author },
-        { hid: 'article:published_time', property: 'article:published_time', content: this.fm.date },
-        { hid: 'og:title', property: 'og:title', content: this.fm.title },
-        { hid: 'og:description', property: 'og:description', content: this.fm.preview },
-        { hid: 'og:image', property: 'og:image', content: this.ogImage },
-        { hid: 'twitter:title', name: 'twitter:title', content: this.fm.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: this.fm.preview },
-        { hid: 'twitter:image', name: 'twitter:image', content: this.ogImage },
-      ],
-    };
-  },
   components: {
     ArticleFooter,
     DynamicMarkdown,
@@ -82,6 +64,14 @@ export default {
   mixins: [
     markdownit,
   ],
+  async asyncData({ params }) {
+    const article = await import(`~/content/articles/${params.slug}.md`);
+    return {
+      fm: article.attributes, // frontmatter
+      renderFn: article.vue.render,
+      staticRenderFns: article.vue.staticRenderFns,
+    };
+  },
   data() {
     return {
       authors: authorData.data,
@@ -115,14 +105,6 @@ export default {
       return dayjs(this.fm.date).format('MMMM D, YYYY');
     },
   },
-  async asyncData({ params }) {
-    const article = await import(`~/content/articles/${params.slug}.md`);
-    return {
-      fm: article.attributes, // frontmatter
-      renderFn: article.vue.render,
-      staticRenderFns: article.vue.staticRenderFns,
-    };
-  },
   created() {
     try {
       if (Object.keys(this.articleAuthor).includes('link')) {
@@ -137,6 +119,24 @@ export default {
     safeTag(tag) {
       return parameterize(tag);
     },
+  },
+  head() {
+    return {
+      title: this.fm.title,
+      meta: [
+        { hid: 'author', name: 'author', content: this.fm.author },
+        { hid: 'description', name: 'description', content: this.fm.preview },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+        { hid: 'article:author', property: 'article:author', content: this.fm.author },
+        { hid: 'article:published_time', property: 'article:published_time', content: this.fm.date },
+        { hid: 'og:title', property: 'og:title', content: this.fm.title },
+        { hid: 'og:description', property: 'og:description', content: this.fm.preview },
+        { hid: 'og:image', property: 'og:image', content: this.ogImage },
+        { hid: 'twitter:title', name: 'twitter:title', content: this.fm.title },
+        { hid: 'twitter:description', name: 'twitter:description', content: this.fm.preview },
+        { hid: 'twitter:image', name: 'twitter:image', content: this.ogImage },
+      ],
+    };
   },
 };
 </script>

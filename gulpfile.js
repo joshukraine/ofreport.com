@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 const gulp = require('gulp');
 const awspublish = require('gulp-awspublish');
 const cloudfront = require('gulp-cloudfront-invalidate-aws-publish');
