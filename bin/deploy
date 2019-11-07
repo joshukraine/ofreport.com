@@ -46,5 +46,6 @@ else
   printf "\\n--> Here is the contents of your robots.txt file: (%s/robots.txt)\\n" "$build_dir"
   echo "----------------------------"
   cat $build_dir/robots.txt
+  echo
   echo "----------------------------"
 fi
