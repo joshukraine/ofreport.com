@@ -91,3 +91,4 @@ sw.*
 
 data/articles.json
 .awspublish*
+static/feed.xml
