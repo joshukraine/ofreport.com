@@ -2,11 +2,22 @@ import markdownIt from 'markdown-it';
 import dayjs from 'dayjs';
 import articleData from '../data/articles.json';
 import site from '../data/site.json';
+import { cldOptimize } from './utils/helpers';
 
 const md = markdownIt({
   linkify: true,
   typographer: true,
 });
+
+const feedImage = (img) => {
+  const opts = [
+    'c_scale',
+    'f_auto',
+    'q_auto',
+    'w_560',
+  ];
+  return cldOptimize(img, opts);
+};
 
 export default () => {
   const feedConfig = {
@@ -31,7 +42,7 @@ export default () => {
           link: `${site.url}/blog/${a.basename}`,
           description: md.render(a.preview),
           date: new Date(a.iso8601Date),
-          image: a.cover,
+          image: feedImage(a.cover),
         });
       });
     },
