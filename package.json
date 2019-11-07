@@ -30,6 +30,7 @@
     "@nuxtjs/axios": "^5.8.0",
     "@nuxtjs/feed": "^1.1.0",
     "@nuxtjs/recaptcha": "^0.6.1",
+    "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.0.0",
     "@nuxtjs/toast": "^3.3.0",
     "cloudinary-vue": "^1.0.0-beta3",
