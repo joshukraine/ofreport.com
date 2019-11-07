@@ -20,12 +20,6 @@ else
       printf "\\n--> Checking for node_modules dependencies...\\n"
       [ ! -d "node_modules" ] && $yarn_cmd install
 
-      printf "\\n--> Setting up robots.txt for PRODUCTION environment...\\n"
-      if [ -f static/robots.txt ]; then
-        rm static/robots.txt
-      fi
-      cp -vf robots-prod.txt static/robots.txt
-
       printf "\\n--> Generating static site files -> %s/...\\n" "$build_dir"
       APP_ENV="prod" $yarn_cmd generate
 
@@ -38,12 +32,6 @@ else
   else
     printf "\\n--> Checking for node_modules dependencies...\\n"
     [ ! -d "node_modules" ] && $yarn_cmd install
-
-    printf "\\n--> Setting up robots.txt for non-production environment...\\n"
-    if [ -f static/robots.txt ]; then
-      rm static/robots.txt
-    fi
-    cp -vf robots-dev.txt static/robots.txt
 
     printf "\\n--> Generating static site files -> %s/...\\n" "$build_dir"
     APP_ENV=$ENV $yarn_cmd generate
