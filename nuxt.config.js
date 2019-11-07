@@ -59,6 +59,7 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/feed',
     '@nuxtjs/toast',
     '@nuxtjs/recaptcha',
     '@nuxtjs/sitemap',
