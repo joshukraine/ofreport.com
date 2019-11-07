@@ -2,7 +2,7 @@
   <article class="ofr-archives pb-8 md:pb-12">
     <PageHeader title="Through the Years" />
 
-    <section class="container max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+    <section class="container max-w-2xl mx-auto">
       <DynamicMarkdown
         :render-fn="renderFn"
         :static-render-fns="staticRenderFns"
