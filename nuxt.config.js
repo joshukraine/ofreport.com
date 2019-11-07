@@ -1,9 +1,10 @@
 import markdownIt from 'markdown-it';
 import mila from 'markdown-it-link-attributes';
 import path from 'path';
+import dayjs from 'dayjs';
 import dynamicRoutes from './lib/dynamic-routes';
 import site from './data/site.json';
-import articles from './data/articles.json';
+import articleData from './data/articles.json';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
@@ -68,52 +69,33 @@ export default {
 
   feed: [
     {
-      path: '/feed.xml', // The route to your feed.
+      path: '/feed.xml',
       async create(feed) {
+        const cpYear = dayjs().format('YYYY');
+        const articles = Object.values(articleData).reverse();
+        const recentArticles = articles.slice(0, 10);
+
         feed.options = {
-          title: 'Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine',
+          title: 'OFReport.com — Joshua and Kelsie Steele',
           description: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
           id: 'https://ofreport.com/',
           link: 'https://ofreport.com/feed.xml',
           language: site.lang,
-          image: site.image,
-          copyright: '(c) 2019 Joshua and Kelsie Steele',
-          author: {
-            name: 'Joshua Steele',
-            email: 'joshua@ofreport.com',
-            link: 'https://twitter.com/joshukraine',
-          },
+          copyright: `Copyright ${cpYear}, Joshua and Kelsie Steele`,
         };
 
-        Object.values(articles).forEach((a) => {
+        recentArticles.forEach((a) => {
           feed.addItem({
             title: a.title,
-            id: a.basename,
             link: `${site.url}/blog/${a.basename}`,
-            description: a.caption,
-            content: a.preview,
-            author: [
-              {
-                name: 'Joshua Steele',
-                email: 'joshua@ofreport.com',
-                link: 'https://twitter.com/joshukraine',
-              },
-            ],
-            date: new Date(a.date),
-            image: a.cover,
+            description: a.preview,
+            date: new Date(a.iso8601Date),
+            // image: a.cover,
           });
         });
-
-        feed.addCategory('family');
-
-        feed.addContributor({
-          name: 'Joshua Steele',
-          email: 'joshukraine@gmail.com',
-          link: 'https://twitter.com/joshukraine',
-        });
       },
-      cacheTime: 1000 * 60 * 15, // How long should the feed be cached
-      type: 'rss2', // Can be: rss2, atom1, json1
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2',
     },
   ],
 
