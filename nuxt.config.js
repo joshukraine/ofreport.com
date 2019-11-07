@@ -39,8 +39,15 @@ export default {
     '@nuxtjs/feed',
     '@nuxtjs/toast',
     '@nuxtjs/recaptcha',
+    '@nuxtjs/robots',
     '@nuxtjs/sitemap',
   ],
+
+  robots: {
+    UserAgent: '*',
+    Disallow: process.env.APP_ENV === 'prod' ? '' : '/',
+    Sitemap: 'https://ofreport.com/sitemap.xml',
+  },
 
   feed,
 
