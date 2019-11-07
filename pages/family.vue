@@ -1,27 +1,24 @@
 <template>
   <article class="mb-8 md:mb-12">
-    <section class="container max-w-5xl mx-auto md:px-6 lg:px-4">
-      <PageHeader title="Pleased to meet you!" />
-      <figure class="steele-bio">
-        <cld-image public-id="OFReport/assets/steele-family-2018-12-6_sdixdx.jpg">
-          <cld-transformation width="1000"
-                              alt="The Steele Family, 2018"
-                              crop="scale"
-                              fetchFormat="auto"
-                              quality="auto:best"
-          />
-        </cld-image>
-        <figcaption class="mt-2 text-center font-semibold">
-          The Steele Family<br>
-          Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and
-          <nuxt-link to="/blog/2019-10-14-meet-mia">
-            Mia (not pictured)
-          </nuxt-link>
-        </figcaption>
-      </figure>
+    <section class="family border-b bg-cover bg-center">
+      <section class="py-6 sm:py-8 lg:pt-10 lg:pb-12 text-center">
+        <h1 class="text-white text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+          Pleased to meet you!
+        </h1>
+      </section>
     </section>
 
-    <section class="container max-w-3xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
+    <section class="container max-w-3xl mx-auto">
+      <p class="mt-2 text-center text-sm sm:text-base font-semibold">
+        The Steele Family<br>
+        Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and
+        <nuxt-link to="/blog/2019-10-14-meet-mia">
+          Mia (not pictured)
+        </nuxt-link>
+      </p>
+    </section>
+
+    <section class="container max-w-3xl mx-auto mt-8 sm:mt-12 md:mt-16">
       <DynamicMarkdown
         :render-fn="renderFn"
         :static-render-fns="staticRenderFns"
@@ -32,12 +29,10 @@
 
 <script>
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
-import PageHeader from '~/components/PageHeader.vue';
 
 export default {
   components: {
     DynamicMarkdown,
-    PageHeader,
   },
   data() {
     return {
@@ -67,8 +62,50 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .steele-bio img {
   @apply rounded-lg;
+}
+
+.family {
+  background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_768/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
+  min-height: 250px;
+}
+
+@screen xs {
+  .family {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1024/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
+    min-height: 350px;
+  }
+}
+
+@screen sm {
+  .family {
+    min-height: 450px;
+  }
+}
+
+@screen md {
+  .family {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1500/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
+    min-height: 500px;
+  }
+}
+
+@screen lg {
+  .family {
+    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
+    min-height: 700px;
+  }
+}
+
+@screen xl {
+  .family {
+    min-height: 75vh;
+  }
+
+  .family h1 {
+    font-size: 5rem;
+  }
 }
 </style>

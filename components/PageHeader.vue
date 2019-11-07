@@ -1,5 +1,5 @@
 <template>
-  <section class="py-6 sm:py-8 lg:py-12 text-center">
+  <section class="py-6 sm:py-8 lg:pt-10 lg:pb-12 text-center">
     <!-- eslint-disable-next-line vue/no-v-html -->
     <h1 v-if="html" class="lg:text-6xl" v-html="title" />
     <h1 v-else class="lg:text-6xl">
