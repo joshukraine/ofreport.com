@@ -19,8 +19,8 @@
             {{ fm.title }}
           </h1>
           <p class="text-sm mt-1">
-            <a v-if="authorHasSocial"
-               :href="articleAuthor.social"
+            <a v-if="authorHasLink"
+               :href="articleAuthor.link"
                class="text-sm"
             >{{ articleAuthor.name }}</a>
             <span v-else class="text-gray-600">{{ articleAuthor.name }}</span>
@@ -85,7 +85,7 @@ export default {
   data() {
     return {
       authors: authorData.data,
-      authorHasSocial: false,
+      authorHasLink: false,
     };
   },
   computed: {
@@ -118,8 +118,8 @@ export default {
   },
   created() {
     try {
-      if (Object.keys(this.articleAuthor).includes('social')) {
-        this.authorHasSocial = true;
+      if (Object.keys(this.articleAuthor).includes('link')) {
+        this.authorHasLink = true;
       }
     } catch (error) {
       /* eslint-disable-next-line no-console */
