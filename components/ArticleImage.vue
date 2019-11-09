@@ -9,7 +9,10 @@
                           quality="auto"
       />
     </cld-image>
-    <figcaption v-if="caption" class="mt-2 text-center font-semibold">
+    <figcaption v-if="caption"
+                class="mt-2 mx-auto text-center font-semibold"
+                :class="{ 'portrait-caption': height }"
+    >
       {{ caption }}
     </figcaption>
   </figure>
@@ -24,15 +27,11 @@ export default {
     },
     width: {
       type: String,
-      default: '',
+      default: null,
     },
     height: {
       type: String,
-      default: '',
-    },
-    alt: {
-      type: String,
-      required: true,
+      default: null,
     },
     caption: {
       type: String,
@@ -45,5 +44,9 @@ export default {
 <style>
 figure img {
   @apply .mx-auto;
+}
+
+.portrait-caption {
+  max-width: 576px;
 }
 </style>
