@@ -17,6 +17,9 @@ export default {
   ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    {
+      rel: 'alternate', type: 'application/rss+xml', title: 'RSS Feed', href: 'https://ofreport.com/feed.xml',
+    },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:700&display=swap' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Mate+SC&display=swap' },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap' },
