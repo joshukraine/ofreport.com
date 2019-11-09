@@ -9,17 +9,24 @@
                           quality="auto"
       />
     </cld-image>
+
+    <!-- eslint-disable vue/no-v-html -->
     <figcaption v-if="caption"
                 class="mt-2 mx-auto text-center font-semibold"
                 :class="{ 'portrait-caption': height }"
-    >
-      {{ caption }}
-    </figcaption>
+                v-html="renderInlineMd(caption)"
+    />
+    <!-- eslint-enable vue/no-v-html -->
   </figure>
 </template>
 
 <script>
+import markdownit from '~/mixins/markdownit';
+
 export default {
+  mixins: [
+    markdownit,
+  ],
   props: {
     publicId: {
       type: String,
