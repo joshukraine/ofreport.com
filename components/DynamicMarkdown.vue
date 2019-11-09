@@ -17,19 +17,22 @@ export default {
   },
   props: {
     renderFn: {
-      type: String,
+      type: Function,
       required: true,
     },
     staticRenderFns: {
-      type: String,
+      type: Array,
       required: true,
     },
   },
+  data() {
+    return {
+      templateRender: null,
+    };
+  },
   created() {
-    /* eslint-disable no-new-func */
-    this.templateRender = new Function(this.renderFn)();
-    this.$options.staticRenderFns = new Function(this.staticRenderFns)();
-    /* eslint-enable no-new-func */
+    this.templateRender = this.renderFn;
+    this.$options.staticRenderFns = this.staticRenderFns;
   },
 
   render(createElement) {
