@@ -1,3 +1,4 @@
+import Mode from 'frontmatter-markdown-loader/mode';
 import markdownIt from 'markdown-it';
 import mila from 'markdown-it-link-attributes';
 import path from 'path';
@@ -13,7 +14,7 @@ export default {
         include: path.resolve(__dirname, '../content'),
         loader: 'frontmatter-markdown-loader',
         options: {
-          mode: ['vue-render-functions'],
+          mode: [Mode.VUE_COMPONENT],
           markdownIt: markdownIt({
             html: true,
             linkify: true,
