@@ -1,5 +1,5 @@
 <template>
-  <figure class="my-10">
+  <figure class="my-10 md:my-16">
     <cld-image :public-id="publicId">
       <cld-transformation :width="width"
                           :height="height"
