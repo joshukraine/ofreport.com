@@ -3,7 +3,7 @@
     <cld-image :public-id="publicId">
       <cld-transformation :width="width"
                           :height="height"
-                          :alt="alt"
+                          :alt="caption"
                           crop="scale"
                           fetchFormat="auto"
                           quality="auto"
