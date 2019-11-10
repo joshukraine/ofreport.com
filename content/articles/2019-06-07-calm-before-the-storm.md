@@ -70,7 +70,7 @@ This year we have four young men joining our team for CMO. Please pray for Kade,
 * Pray for a safe delivery for Kelsie and the baby. Due date is in late July.
 * Pray for peace and liberty in Ukraine.
 
-<article-callout content="Keep scrolling for more photos from our family and ministry!" mb="16" mt="16" />
+<article-callout content="Keep scrolling for more photos from our family and ministry!" />
 
 <article-image publicId="OFReport/2019-06-07-calm-before-the-storm/happy-birthday-momma_fmgusr.jpg" width="768" caption="Celebrating Momma's birthday! 🥰"/>
 

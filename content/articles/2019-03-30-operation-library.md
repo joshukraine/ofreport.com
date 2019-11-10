@@ -49,7 +49,7 @@ We've had three meetings so far, and it took two of those for Kelsie and I to te
 * Pray for God's guidance and blessing on the young people in our home group.
 * Pray for peace and liberty in Ukraine.
 
-<article-callout content="Keep scrolling for more photos from our family and ministry!" mb="16" mt="16" />
+<article-callout content="Keep scrolling for more photos from our family and ministry!" />
 
 ## More library photos...
 
