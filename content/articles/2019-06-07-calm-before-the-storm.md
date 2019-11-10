@@ -94,7 +94,7 @@ This year we have four young men joining our team for CMO. Please pray for Kade,
 
 <article-image publicId="OFReport/2019-06-07-calm-before-the-storm/last-teen-meeting-summer_em0dbq.jpg" width="768" caption="Last week we did our final teen meeting before CMO starts. We've had some good talks with these kids!"/>
 
-<article-image publicId="OFReport/2019-06-07-calm-before-the-storm/lick-the-spoon_sda1wf.jpg" width="768" caption="Cakes are fun, but better still is licking the icing spoons!"/>
+<article-image publicId="OFReport/2019-06-07-calm-before-the-storm/lick-the-spoon_sda1wf.jpg" height="768" caption="Cakes are fun, but better still is licking the icing spoons!"/>
 
 <article-image publicId="OFReport/2019-06-07-calm-before-the-storm/the-big-4-0-birthday_gozbso.jpg" height="768" caption="Celebrating the big 4-0!"/>
 
