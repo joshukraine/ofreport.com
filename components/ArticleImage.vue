@@ -1,5 +1,5 @@
 <template>
-  <figure class="my-10 md:my-16" :class="{ 'image-border': border }">
+  <figure class="my-10 md:my-16 rounded-corners" :class="{ 'image-border': border }">
     <cld-image :public-id="publicId">
       <cld-transformation :width="width"
                           :height="height"
@@ -63,5 +63,9 @@ figure img {
 
 .image-border img {
   @apply .border;
+}
+
+.rounded-corners img {
+  @apply .rounded;
 }
 </style>
