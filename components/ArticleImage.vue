@@ -1,5 +1,5 @@
 <template>
-  <figure class="my-10 md:my-16">
+  <figure class="my-10 md:my-16" :class="{ 'image-border': border }">
     <cld-image :public-id="publicId">
       <cld-transformation :width="width"
                           :height="height"
@@ -44,6 +44,10 @@ export default {
       type: String,
       default: null,
     },
+    border: {
+      type: Boolean,
+      default: false,
+    },
   },
 };
 </script>
@@ -55,5 +59,9 @@ figure img {
 
 .portrait-caption {
   max-width: 576px;
+}
+
+.image-border img {
+  @apply .border;
 }
 </style>
