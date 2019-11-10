@@ -61,7 +61,8 @@ blockquote {
     @apply .text-2xl;
   }
 
-  p {
+  p,
+  li {
     @apply .text-lg;
   }
 

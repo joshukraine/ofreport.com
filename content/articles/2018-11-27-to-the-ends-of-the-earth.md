@@ -13,7 +13,7 @@ tags:
 
 > EDITOR'S NOTE: Raphaël "Ralph" Villeneuve served with our team in L'viv during the summer of 2017. In the article below, he recounts in his own words how he learned to discern God's will and direction. If you haven't already, I encourage you to first ["Meet Ralph"](/blog/2017-08-04-meet-ralph), and then introduce him to your family. Our kids need examples of other young people who have wholly dedicated their lives to Christ.
 
----
+<article-spacer />
 
 Are you a Christian teen wondering where to head out in life, what God may want you to do? You want to find out, but you're not sure how. If so, then you're just like I was a few years ago. It may seem hard or mysterious, and you've probably heard someone say "God told me" or "God wants me to." How could they possibly know? To answer these questions, I'm simply going to tell you my story.
 
@@ -21,7 +21,7 @@ But before that, it is important to note that it will be impossible to find and 
 
 Call me Ralph. I was born in a Christian family, have one brother, and great parents who taught me the Bible, what salvation through Christ is, and character. We went to church, and I attended Sunday school; much like most people that have been born in a Christian family. When I was ten, we moved to Mexico as missionaries. We stayed there until I was thirteen, and then we moved back to the province of Quebec, but in a different city than the one we came from. It was during those years in Mexico that I was saved and decided to follow God. It was only when I was about twelve that I was saved; of course I was not a felon, but I had not accepted Jesus as my Saviour until then. There were no drastic changes in my life after that moment, not until about more than a year later. That's when I decided I had enough of trying to drive my own life; I wasn't particularly happy at the time, so I gave it all up in His hands. Then my life began to change, slowly but surely, with God's help.
 
-<article-image publicId="OFReport/2018-11-27-to-the-ends-of-the-earth/villeneuves-mexico_qr586k.jpg" width="768" alt="Our family in Mexico (March, 2013)" caption="Our family in Mexico (March, 2013)"/>
+<article-image publicId="OFReport/2018-11-27-to-the-ends-of-the-earth/villeneuves-mexico_qr586k.jpg" width="768" caption="Our family in Mexico (March, 2013)"/>
 
 Ever since we had come back from Mexico, I felt I would not live in Quebec forever. Amidst school and routine, I got some interest into Eastern European countries. I'm not sure when that began, but I do remember reading an article in a missionary magazine about missionaries in Poland. I realized that as much as we hear missionaries going to Africa or South America, we almost never hear about someone going to Slavic countries to spread the Gospel. Slavic people do not have less needs to be evangelised than anyone else. These countries stayed in my mind for a while; and I prayed about what His will could be. Prayer is so important in the Christian life; you can't get away without it. Start by sincerely saying what you have on your mind and in your heart, and it doesn't need to be half an hour long either. God hears, and He will answer you, in His way, at His time. You must be patient for the answer to arrive, but ready to act when it does. God may answer in a variety of ways, but he may also not answer at all, or answer in a way we never could have seen coming. Very often, when we ask something, we imagine how God could answer to satisfy our demands. God answers according to His will, which is always best for us, even if it is sometimes hard to understand how. (More on that later.)
 
@@ -40,7 +40,5 @@ A tremendous number of people die each day, and you can be sure that the vast ma
 Jesus' final order to us before he left the Earth was to preach the Gospel and train disciples which in turn, will do the same thing. That way, the Gospel will spread like wildfire; it is exponential. Of course, not everyone will accept the perfect gift of salvation, but we must know that it is God who ultimately saves, we are just the messengers. Our job is to share the Gospel with as many as we can, and only God can do the rest. Is it going to be easy? Absolutely not. We may be mocked, ridiculed, persecuted, and for some, martyred. But we are not the ones they reject; they reject God. Hebrews 11 speaks about the heroes of the faith, and it is an amazing chapter ([go read it now](https://biblia.com/books/kjv1900/Heb11)).
 
 And let me tell you, everyone that I ever heard that followed God's will to the ends of the Earth (figuratively speaking or not) never regretted it. Neither have I. When you walk in His steps, you can be at peace knowing you are in the right place doing the right thing. The time is short, and we must make the most of it for the Lord. If you choose to follow and obey Him, he will give you the strength and resources you need. Are you up to the task?
-
----
 
 *Ralph would like to thank Jason Labrecque for his help in editing this article.*

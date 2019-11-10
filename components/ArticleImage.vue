@@ -1,22 +1,32 @@
 <template>
-  <figure class="my-10">
+  <figure class="my-10 md:my-16 rounded-corners" :class="{ 'image-border': border }">
     <cld-image :public-id="publicId">
       <cld-transformation :width="width"
                           :height="height"
-                          :alt="alt"
+                          :alt="caption"
                           crop="scale"
                           fetchFormat="auto"
                           quality="auto"
       />
     </cld-image>
-    <figcaption v-if="caption" class="mt-2 text-center font-semibold">
-      {{ caption }}
-    </figcaption>
+
+    <!-- eslint-disable vue/no-v-html -->
+    <figcaption v-if="caption"
+                class="mt-2 mx-auto text-center font-semibold"
+                :class="{ 'portrait-caption': height }"
+                v-html="renderInlineMd(caption)"
+    />
+    <!-- eslint-enable vue/no-v-html -->
   </figure>
 </template>
 
 <script>
+import markdownit from '~/mixins/markdownit';
+
 export default {
+  mixins: [
+    markdownit,
+  ],
   props: {
     publicId: {
       type: String,
@@ -24,19 +34,19 @@ export default {
     },
     width: {
       type: String,
-      default: '',
+      default: null,
     },
     height: {
       type: String,
-      default: '',
-    },
-    alt: {
-      type: String,
-      required: true,
+      default: null,
     },
     caption: {
       type: String,
       default: null,
+    },
+    border: {
+      type: Boolean,
+      default: false,
     },
   },
 };
@@ -45,5 +55,17 @@ export default {
 <style>
 figure img {
   @apply .mx-auto;
+}
+
+.portrait-caption {
+  max-width: 576px;
+}
+
+.image-border img {
+  @apply .border;
+}
+
+.rounded-corners img {
+  @apply .rounded;
 }
 </style>

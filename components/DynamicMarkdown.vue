@@ -2,6 +2,7 @@
 import ArticleButton from '~/components/ArticleButton.vue';
 import ArticleCallout from '~/components/ArticleCallout.vue';
 import ArticleImage from '~/components/ArticleImage.vue';
+import ArticleSpacer from '~/components/ArticleSpacer.vue';
 import ArticleSvg from '~/components/ArticleSvg.vue';
 
 export default {
@@ -9,6 +10,7 @@ export default {
     ArticleButton,
     ArticleCallout,
     ArticleImage,
+    ArticleSpacer,
     ArticleSvg,
   },
   props: {
