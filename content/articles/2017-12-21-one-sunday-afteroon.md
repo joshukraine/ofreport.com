@@ -5,15 +5,15 @@ author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571938781/OFReport/2017-12-21-one-sunday-afteroon/kids-in-snow-12-6_ot5lzj.jpg"
 caption: "Last Sunday, we invited our kids from church to join us for an afternoon of pizza, games, singing, and smores. We had a blast, and we'd like to share a few of the warmest moments with you."
 preview: >
-  The [Bible First Kids class](http://OFReport.com/2017/06/bible-first-kids/) I lead at our church continues to be one of the ministries I enjoy most. We focus on Scripture memory, Sword Drills, and of course reading through the [Bible First lessons](https://getbiblefirst.com/lessons/){: target="_blank"} together. And we have fun doing it! The kids range in age from 10-year-olds up to 15 and 16-year-olds.READMORE
+  The [Bible First Kids class](http://OFReport.com/2017/06/bible-first-kids/) I lead at our church continues to be one of the ministries I enjoy most. We focus on Scripture memory, Sword Drills, and of course reading through the [Bible First lessons](https://getbiblefirst.com/lessons/) together. And we have fun doing it! The kids range in age from 10-year-olds up to 15 and 16-year-olds.
 tags:
 - ministry
 - photos
 ---
 
-The [Bible First Kids class](http://OFReport.com/2017/06/bible-first-kids/) I lead at our church continues to be one of the ministries I enjoy most. We focus on Scripture memory, Sword Drills, and of course reading through the [Bible First lessons](https://getbiblefirst.com/lessons/){: target="_blank"} together. And we have fun doing it! The kids range in age from 10-year-olds up to 15 and 16-year-olds.READMORE
+The [Bible First Kids class](http://OFReport.com/2017/06/bible-first-kids/) I lead at our church continues to be one of the ministries I enjoy most. We focus on Scripture memory, Sword Drills, and of course reading through the [Bible First lessons](https://getbiblefirst.com/lessons/) together. And we have fun doing it! The kids range in age from 10-year-olds up to 15 and 16-year-olds.
 
-This past Sunday, we did something new. Instead of our usual class, we gathered all the kids together, hopped in the [famous yellow van](https://youtu.be/m4Kul2Jn1fI){: target="_blank"}, and drove back to our house. Once there, we kicked things off with an art contest and hot chocolate. Next came games, pizza, singing, and finally roasted marshmallows over the fireplace.
+This past Sunday, we did something new. Instead of our usual class, we gathered all the kids together, hopped in the [famous yellow van](https://youtu.be/m4Kul2Jn1fI), and drove back to our house. Once there, we kicked things off with an art contest and hot chocolate. Next came games, pizza, singing, and finally roasted marshmallows over the fireplace.
 
 Pictures tell the story best, so scroll on down and enjoy the ride! We love these kids and we're thrilled to see them seeking Christ as they prepare for adulthood. Please pray with us that God will turn each of them into powerful "arrows" for His kingdom!
 

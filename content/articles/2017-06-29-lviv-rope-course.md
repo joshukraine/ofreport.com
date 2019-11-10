@@ -2,11 +2,11 @@
 title: "L'viv Rope Course"
 date: "2017-06-29"
 author: "Joshua Steele"
-image: "/2017/rope-course-01-1200w.jpg"
-image_lg: "/2017/rope-course-01-2000w.jpg"
-caption: "L'viv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573400861/OFReport/2017-06-29-lviv-rope-course/rope-course-12-6_xxdjsy.jpg"
+caption: >
+  L'viv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!
 preview: >
-  Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures. READMORE
+  Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures.
 tags:
 - ministry
 - photos
@@ -14,7 +14,7 @@ tags:
 - bible first
 ---
 
-Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures. READMORE
+Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures.
 
 Please keep praying for our class. We're approaching the end of [Lesson 2](https://getbiblefirst.com/lessons/lesson2/) in Bible First. The kids are learning a lot, and I'm very grateful for the opportunity we have to study this material together.
 

@@ -1,11 +1,10 @@
 ---
-title: Meet David Noble
+title: "Meet David Noble"
 date: "2017-03-29"
 author: "Joshua Steele"
-image: "/2017/03/david-collage-1024x504.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573405111/OFReport/2017-03-29-meet-david-noble/david-collage_dytfdl.jpg"
 caption: >
   David Noble Steele was born in L'viv, Ukraine, on January 16, 2017. As you may have guessed from the photos, we like this little guy a lot, and we can't wait to introduce you!
-download: "OFR-Mar-Apr-2017.pdf"
 preview: >
   *Joshua's Kingdom of Little Girls.* This was the endearing title once bestowed upon our family by my former language teacher, Veronica. And not without good reason! A family who can boast a string of four lovely daughters in a row is sure to win many admiring smiles, as well as the occasional quip about the absence of boys. Ukrainians in particular seem partial to girls, often reassuring us that, "Girls are so much better. They're quieter. They'll take care of you when you're older." Etcetera. "Still," I would think to myself at times, "if God wanted to give me a son, I wouldn't complain."
 tags:
@@ -14,7 +13,9 @@ tags:
 - good and evil
 ---
 
-"Joshua's Kingdom of Little Girls." This was the endearing title once bestowed upon our family by my former language teacher, Veronica. And not without good reason! A family who can boast a string of four lovely daughters in a row is sure to win many admiring smiles, as well as the occasional quip about the absence of boys. READMORE Ukrainians in particular seem partial to girls, often reassuring us that, "Girls are so much better. They're quieter. They'll take care of you when you're older."  Etcetera. "Still," I would think to myself at times, "if God wanted to give me a son, I wouldn't complain."
+"Joshua's Kingdom of Little Girls." This was the endearing title once bestowed upon our family by my former language teacher, Veronica. And not without good reason! A family who can boast a string of four lovely daughters in a row is sure to win many admiring smiles, as well as the occasional quip about the absence of boys. Ukrainians in particular seem partial to girls, often reassuring us that, "Girls are so much better. They're quieter. They'll take care of you when you're older."  Etcetera. "Still," I would think to myself at times, "if God wanted to give me a son, I wouldn't complain."
+
+<article-callout content="OFR-Mar-Apr-2017.pdf" :download="true" />
 
 I'll never forget that day we went in for the ultrasound. When the technician told us we were having a boy, I must confess that my faith level was somewhere in between Sarah and Abraham. I didn't laugh out loud in unbelief, but to say that I "staggered not" would be overly generous. Could it be true? Was God really going to give us a son?
 

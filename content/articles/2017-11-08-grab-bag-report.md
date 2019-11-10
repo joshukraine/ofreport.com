@@ -2,13 +2,11 @@
 title: "Grab Bag Report"
 date: "2017-11-08"
 author: "Joshua Steele"
-download: "OFR-Oct-Dec-2017.pdf"
-image: "/2017/11/grab-bag-cover-1200w.jpg"
-image_lg: "/2017/11/grab-bag-cover-2000w.jpg"
-caption: "Good and Evil, family news, our new ETO staff family, CMO 2018 — where do I start? Two pages never seems enough to fit in all the news.
-But this time, I'm going to try..."
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573399280/OFReport/2017-11-08-grab-bag-report/grab-bag-cover-2000w_qwgkyh.jpg"
+caption: >
+  Good and Evil, family news, our new ETO staff family, CMO 2018 — where do I start? Two pages never seems enough to fit in all the news.  But this time, I'm going to try...
 preview: >
-  There are months when so much is going on, it's hard to find time to write newsletters! God is blessing the ministry and keeping us busy with progress on a variety of fronts. In this issue, we'd like to give you a little grab bag of several mini-reports. Let's dive in!READMORE
+  There are months when so much is going on, it's hard to find time to write newsletters! God is blessing the ministry and keeping us busy with progress on a variety of fronts. In this issue, we'd like to give you a little grab bag of several mini-reports. Let's dive in!
 tags:
 - newsletter
 - good and evil
@@ -17,7 +15,9 @@ tags:
 - photos
 ---
 
-There are months when so much is going on, it's hard to find time to write newsletters! God is blessing the ministry and keeping us busy with progress on a variety of fronts. In this issue, we'd like to give you a little grab bag of several mini-reports. Let's dive in!READMORE
+There are months when so much is going on, it's hard to find time to write newsletters! God is blessing the ministry and keeping us busy with progress on a variety of fronts. In this issue, we'd like to give you a little grab bag of several mini-reports. Let's dive in!
+
+<article-callout content="OFR-Oct-Dec-2017.pdf" :download="true" />
 
 ![Good and Evil](https://d21yo20tm8bmc2.cloudfront.net/2017/11/ge-cover-250h.jpg)
 {: .article-image}
