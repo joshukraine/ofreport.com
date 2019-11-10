@@ -2,8 +2,7 @@
 title: "Bible First Kids"
 date: "2017-06-13"
 author: "Joshua Steele"
-image: "/2017/bible-first-kids-1200w.jpg"
-image_lg: "/2017/bible-first-kids-2000w.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573401900/OFReport/2017-06-13-bible-first-kids/bible-first-kids-12-6_og2mea.jpg"
 download: "OFR-May-Jun-2017.pdf"
 caption: >
   Meet some of the young people of Bible First Kids - a new class we’ve started at our church here in L’viv. From the left: Pastor Vladyslav (with Sofia), Abigail, Joshua (back), Anya, Bohdan, Timothy, Anya, Matthew, Maria.
@@ -15,7 +14,9 @@ tags:
 - good and evil
 ---
 
-On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request.  "I heard that you’ve been taking Abigail through the *Bible First* lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
+On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. "I heard that you’ve been taking Abigail through the *Bible First* lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
+
+<article-callout content="OFR-May-Jun-2017.pdf" :download="true" />
 
 I agreed and our first class was held on the Sunday after Easter. I brought a short message for the church during which I introduced *Bible First*, giving an overview of the course and explaining our goals to the parents. I then invited all the older kids up on the stage and gave them three challenges on which to focus as we started our new class: 1. Set aside childish things (1 Cor. 13:11), 2. Build a Godly reputation (Prov. 20:11), and 3. Seek the Lord in their youth (Eccl. 12:1). This done, we prayed and exited the main auditorium together.
 
