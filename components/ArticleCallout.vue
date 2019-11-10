@@ -10,6 +10,21 @@
       </a>
     </p>
 
+    <div v-else-if="link">
+      <p class="m-0 sm:text-xl font-bold text-center">
+        {{ content }}
+      </p>
+      <p class="sm:text-xl font-bold text-center">
+        <a class="inline-block"
+           :href="link.href"
+           target="_blank"
+           rel="noopener noreferrer"
+        >
+          {{ link.name }}
+        </a>
+      </p>
+    </div>
+
     <p v-else class="m-0 sm:text-xl font-bold text-center">
       {{ content }}
     </p>
@@ -34,6 +49,10 @@ export default {
     mb: {
       type: String,
       default: '10',
+    },
+    link: {
+      type: Object,
+      default: null,
     },
   },
   computed: {
