@@ -17,6 +17,7 @@ const getArticlesTaggedWith = (tag) => Object.values(articles)
   }).map((article) => article);
 
 const cldOptimize = (url, opts) => {
+  if (!url) { return false; }
   const optionStr = `upload/${opts.join(',')}`;
   const segments = url.split('upload');
   segments.splice(1, 0, optionStr);
