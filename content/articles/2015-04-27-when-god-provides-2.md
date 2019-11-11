@@ -1,16 +1,17 @@
 ---
-
-title: When God Provides
+title: "When God Provides"
 date: "2015-04-27 18:35:57"
+author: "Joshua Steele"
+download: "OFR-Mar-Apr-2015.pdf"
+cover: "/2015/04/steele-family-spring-20151-1024x683.jpg"
+caption: >
+  After nearly seven years living in a 775 square foot apartment, God has graciously provided the Steeles with more living space! We’d like to share with you the story of how God recently led our growing family to a new home in L’viv.
+preview: >
+  When we arrived back in L’viv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.
 tags:
 - newsletter
 - family
 - cmo
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Mar-Apr-2015.pdf"
-image: "/2015/04/steele-family-spring-20151-1024x683.jpg"
-caption: "After nearly seven years living in a 775 square foot apartment, God has graciously provided the Steeles with more living space! We’d like to share with you the story of how God recently led our growing family to a new home in L’viv."
-
 ---
 
 When we arrived back in L’viv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.

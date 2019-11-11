@@ -1,16 +1,17 @@
 ---
-
-title: Welcome, Kathryn Grace!
+title: "Welcome, Kathryn Grace!"
 date: "2015-02-09 22:28:03"
+author: "Joshua Steele"
+download: "OFR-Jan-Feb-2015.pdf"
+cover: "/2015/02/2015-01-05-10.41.10-1024x768.jpg"
+caption: >
+  We are thrilled to announce the arrival of our fourth daughter, Kathryn Grace Steele! Kathryn was born on December 30, 2014 at 12:00am. She was 20 and 3/4 inches long and weighed 8 lbs., 12 oz.
+preview: >
+  Last spring, when Kelsie and I learned that we were expecting a baby, our first task was to decide where to have the birth. Given the complications we experienced during Hosanna’s birth, we felt that this time it would be wisest to come home to the U.S. We’ve been here for nearly five months now, and God has blessed tremendously. Kathryn was born at my parent’s home in Texas, and both mother and baby are recovering quite well. Our midwife, Judith Hynds, and her assistant Jenee Ohrvall, did an outstanding job, and we highly recommend them both!
 tags:
 - newsletter
 - family
 - photos
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Jan-Feb-2015.pdf"
-image: "/2015/02/2015-01-05-10.41.10-1024x768.jpg"
-caption: "We are thrilled to announce the arrival of our fourth daughter, Kathryn Grace Steele! Kathryn was born on December 30, 2014 at 12:00am. She was 20 and 3/4 inches long and weighed 8 lbs., 12 oz."
-
 ---
 
 Last spring, when Kelsie and I learned that we were expecting a baby, our first task was to decide where to have the birth. Given the complications we experienced during Hosanna’s birth, we felt that this time it would be wisest to come home to the U.S. We’ve been here for nearly five months now, and God has blessed tremendously. Kathryn was born at my parent’s home in Texas, and both mother and baby are recovering quite well. Our midwife, Judith Hynds, and her assistant Jenee Ohrvall, did an outstanding job, and we highly recommend them both!
