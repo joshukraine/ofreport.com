@@ -1,13 +1,12 @@
 ---
-
 title: "The Seven Pillars of Genesis, Part 4: Abraham"
 date: "2013-06-15 12:00:44"
+author: "Joshua Steele"
+preview: >
+  Historically, men have sought God’s favor through their works. While this pursuit is theoretically legitimate, it is always found inadequate due to the presence of sin. Although righteous works are indeed pleasing to God, they cannot undo evil works.
 tags:
 - bible first
 - seven pillars
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "When God promised to give Abraham a son under impossible circumstances, Abraham believed that God would do exactly as He said."
-
 ---
 
 The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.

@@ -1,13 +1,12 @@
 ---
-
 title: "The Seven Pillars of Genesis, Part 5: Isaac"
 date: "2013-06-22 12:00:58"
+author: "Joshua Steele"
+preview: >
+  After repeatedly promising Abraham that he would become a great nation, God fulfilled His word by giving Abraham a miracle son: Isaac. Given this background, one can only imagine the shock Abraham must have experienced when God commanded him to offer Isaac as a sacrifice. Not only was human sacrifice inconsistent with God’s previous commands regarding the sanctity of life, but this new directive seemed a contradiction of His promise to make Abraham the head of a great nation. How could there ever be such a nation if God’s promised child, Isaac, was to die?
 tags:
 - bible first
 - seven pillars
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "After repeatedly promising Abraham that he would become a great nation, God fulfilled His word by giving Abraham a miracle son: Isaac."
-
 ---
 
 The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.

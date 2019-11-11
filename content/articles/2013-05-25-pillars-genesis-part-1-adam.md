@@ -1,13 +1,12 @@
 ---
-
 title: "The Seven Pillars of Genesis, Part 1: Adam"
 date: "2013-05-25 10:00:02"
+author: "Joshua Steele"
+preview: >
+  Genesis introduces many significant characters, but seven individuals in particular clearly illustrate the Gospel message in story form. These men–Adam, Abel, Noah, Abraham, Isaac, Jacob and Joseph–are Genesis’ Seven Pillars. Their stories constitute the bulk of the Genesis narrative, each one presenting a different aspect of the Gospel and revealing God’s plan for the salvation of the world.
 tags:
 - bible first
 - seven pillars
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "The Bible is a book of kingdoms, and Adam was earth’s first king. Like most monarchs, Adam’s authority was given him by right of birth."
-
 ---
 
 The following text is taken from the twentieth and final lesson of <a title="Bible First" href="http://www.getbiblefirst.com/" target="_blank">*Bible First*</a>. As promised in a previous issue of our newsletter, we'll be publishing *The Seven Pillars of Genesis* as a series of blog posts over the next few weeks.

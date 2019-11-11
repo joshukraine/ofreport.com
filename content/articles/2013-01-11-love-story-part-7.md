@@ -1,12 +1,11 @@
 ---
-
 title: "Our Love Story, Part 7: “I love you!”"
 date: "2013-01-11 10:00:43"
+author: "Joshua Steele"
+preview: >
+  It wasn’t long before I knew I needed to get State-side. Only a couple of weeks after completing a transition back to Ukraine from Thailand, I flew home to Texas where Kelsie was waiting for me. Her parents had moved up to Calgary, Canada due to a work assignment from Danny’s employer, but Kelsie stayed behind so we could meet and begin to spend time together in person.
 tags:
 - love story
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "It wasn’t long before I knew I needed to get State-side. Only a couple of weeks after completing a transition back to Ukraine from Thailand, I flew home to Texas where Kelsie was waiting for me."
-
 ---
 
 It wasn’t long before I knew I needed to get State-side. Only a couple of weeks after completing a transition back to Ukraine from Thailand, I flew home to Texas where Kelsie was waiting for me. Her parents had moved up to Calgary, Canada due to a work assignment from Danny’s employer, but Kelsie stayed behind so we could meet and begin to spend time together in person.

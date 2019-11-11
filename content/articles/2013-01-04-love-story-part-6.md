@@ -1,12 +1,11 @@
 ---
-
 title: "Our Love Story, Part 6: Mystery Courtship"
 date: "2013-01-04 10:00:03"
+author: "Joshua Steele"
+preview: >
+  As Kelsie and I embarked on what would become a life-long journey together, our relationship was unlike anything I had envisioned. I was still in Thailand and she in Oklahoma. My acquaintance with her family had reached the ripe old age of three weeks, and neither of us had ever seen each other in person. Our budding new friendship sounded more like a success story from an online dating site than a Christian courtship. Yet none involved could deny that God was leading.
 tags:
 - love story
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "It wasn’t long before I knew I needed to get State-side. Only a couple of weeks after completing a transition back to Ukraine from Thailand, I flew home to Texas where Kelsie was waiting for me."
-
 ---
 
 As Kelsie and I embarked on what would become a life-long journey together, our relationship was unlike anything I had envisioned. I was still in Thailand and she in Oklahoma. My acquaintance with her family had reached the ripe old age of three weeks, and neither of us had ever seen each other in person. Our budding new friendship sounded more like a success story from an online dating site than a Christian courtship. Yet none involved could deny that God was leading.

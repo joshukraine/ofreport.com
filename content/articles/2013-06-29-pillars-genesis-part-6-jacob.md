@@ -1,13 +1,12 @@
 ---
-
 title: "The Seven Pillars of Genesis, Part 6: Jacob"
 date: "2013-06-29 12:00:58"
+author: "Joshua Steele"
+preview: >
+  Jacob, the third of the great patriarchs, seemed an unlikely candidate to carry on the Abrahamic covenant, and yet his life demonstrated a personal relationship with God and a genuine walk of faith. Many aspects of Jacob’s life parallel that of Christ, but perhaps most significant is his inheritance.
 tags:
 - bible first
 - seven pillars
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "Jacob, the third of the great patriarchs, seemed an unlikely candidate to carry on the Abrahamic covenant, and yet his life demonstrated a personal relationship with God and a genuine walk of faith."
-
 ---
 
 The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.
