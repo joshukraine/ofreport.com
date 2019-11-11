@@ -3,7 +3,8 @@ title: "A Chapter of Blessing"
 date: "2019-01-25"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571903061/OFReport/2019-01-25-chapter-of-blessing/steeles-ark-encounter-12-6_sxyaho.jpg"
-caption: "Our family recently returned to Ukraine after a three-month visit to America. While in the US, we got to reconnect with precious friends and family, we reported on our ministry, we took a huge road trip, and we even got to visit the Ark Encounter!"
+caption: >
+  Our family recently returned to Ukraine after a three-month visit to America. While in the US, we got to reconnect with precious friends and family, we reported on our ministry, we took a huge road trip, and we even got to visit the Ark Encounter!
 preview: >
   On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in L'viv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
 tags:
