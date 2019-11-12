@@ -1,15 +1,15 @@
 ---
-
 title: "Merry Christmas!!"
 date: "2008-12-27 15:25:21"
+author: "Kelsie Steele"
+preview: >
+  Thank you to our parents, siblings, and friends, who sent boxes over or gave us gifts to make the day special! Merry Christmas everybody!
 tags:
 - family
 - fun
-author: "Kelsie Steele"
-
 ---
 
-Thank you to our parents, siblings, and friends, who sent boxes over or gave us gifts to make the day special! Merry Christmas everybody! READMORE
+Thank you to our parents, siblings, and friends, who sent boxes over or gave us gifts to make the day special! Merry Christmas everybody!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3850.jpg"><img class="size-medium wp-image-192" title="dsc_3850" src="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3850-300x199.jpg" alt="Abigail Hope and Rebekah Praise, Christmas Eve 2008" width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

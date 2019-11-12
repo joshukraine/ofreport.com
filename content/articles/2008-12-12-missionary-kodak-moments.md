@@ -1,18 +1,18 @@
 ---
-
 title: "Missionary Kodak Moments"
 date: "2008-12-12 16:09:57"
+author: "Kelsie Steele"
+preview: >
+  Our second evening of English Club and Bible teaching went off very well! 11 people came to participate in the evening's events, most of whom were present for the teaching of the Word!
 tags:
 - abs
 - bible study
 - english club
 - ministry
 - photos
-author: ["Kelsie Steele", "steelekelsie", "@ig"]
-
 ---
 
-Our second evening of English Club and Bible teaching went off very well! 11 people came to participate in the evening's events, most of whom were present for the teaching of the Word! READMORE
+Our second evening of English Club and Bible teaching went off very well! 11 people came to participate in the evening's events, most of whom were present for the teaching of the Word!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3732.jpg"><img class="size-medium wp-image-135" title="dsc_3732" src="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3732-300x221.jpg" alt="Anya shows interest in the Gospel of John." width="300" height="221" /></a>
 {: .article-image .article-image--has-caption}

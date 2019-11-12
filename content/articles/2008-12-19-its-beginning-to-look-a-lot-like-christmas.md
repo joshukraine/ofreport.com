@@ -1,16 +1,16 @@
 ---
-
 title: "It's beginning to look a lot like Christmas!"
 date: "2008-12-19 19:12:16"
+author: "Kelsie Steele"
+preview: >
+  Our family is getting things ready for the holidays!
 tags:
 - abs
 - family
 - photos
-author: "Kelsie Steele"
-
 ---
 
-Our family is getting things ready for the holidays! READMORE
+Our family is getting things ready for the holidays!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_37551.jpg"><img class="size-medium wp-image-155" title="dsc_37551" src="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_37551-199x300.jpg" alt="The Christmas tree makes our house so cheery during the dark winter days." width="199" height="300" /></a>
 {: .article-image .article-image--has-caption}

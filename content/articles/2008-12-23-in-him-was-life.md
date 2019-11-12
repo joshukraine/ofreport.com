@@ -1,19 +1,15 @@
 ---
-
 title: "In Him was life..."
 date: "2008-12-23 21:24:32"
+author: "Kelsie Steele"
 tags:
 - bible study
 - ministry
-author: "Kelsie Steele"
-
 ---
 
 *"Did you notice that Roman brought a Bible with him this time?"*
 
 *"Yes! and Bohdan, who sat next to me, was able to locate all the Scripture references as we went."*
-
-READMORE
 
 *"And we had ALL guys! It was a men's Bible study!"*
 
