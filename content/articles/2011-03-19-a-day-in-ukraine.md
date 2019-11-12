@@ -1,16 +1,14 @@
 ---
-
 title: A Day in Ukraine
 date: "2011-03-19 21:55:29"
+author: "Joshua Steele"
+preview: >
+  Recently, I was asked to write an article about a missionary colleague of mine, Nathan Day. Having completed the assignment, I’ve decided to publish it here on our blog. If you’re not familiar with Nathan and his ministry, I would encourage you to get to know his family and to pray for him. If you’re in a missions-minded church, you might even consider printing out this article and giving a copy to your pastor. Good men on the field are hard to find, and those that are laboring for the Kingdom of God deserve our prayers and support.
 tags:
 - ministry
-author: "Joshua Steele"
-
 ---
 
 Recently, I was asked to write an article about a missionary colleague of mine, Nathan Day. Having completed the assignment, I’ve decided to publish it here on our blog. If you’re not familiar with Nathan and his ministry, I would encourage you to get to know his family and to pray for him. If you’re in a missions-minded church, you might even consider printing out this article and giving a copy to your pastor. Good men on the field are hard to find, and those that are laboring for the Kingdom of God deserve our prayers and support.
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/03/cmo2010_DSC_9062.jpeg"><img class="size-medium wp-image-1224" title="cmo2010_DSC_9062" src="//d21yo20tm8bmc2.cloudfront.net/2011/03/cmo2010_DSC_9062-300x199.jpg" alt="" width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}
