@@ -1,7 +1,9 @@
 ---
-
 title: "Snapshots from ABS"
 date: "2009-02-04 21:06:05"
+author: "Kelsie Steele"
+preview: >
+  We had a great turn out for English Club and Audio Bible Study (ABS) last night! Thanks to everyone for the prayers that are going up for this ministry!
 tags:
 - abs
 - bible study
@@ -9,11 +11,9 @@ tags:
 - english club
 - ministry
 - photos
-author: "Kelsie Steele"
-
 ---
 
-We had a great turn out for English Club and Audio Bible Study (ABS) last night! Thanks to everyone for the prayers that are going up for this ministry! READMORE
+We had a great turn out for English Club and Audio Bible Study (ABS) last night! Thanks to everyone for the prayers that are going up for this ministry!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4834.jpg"><img class="size-medium wp-image-400" title="dsc_4834" src="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4834-300x198.jpg" alt="Roman and Roman practice English in a discussion about occupations." width="300" height="198" /></a>
 {: .article-image .article-image--has-caption}

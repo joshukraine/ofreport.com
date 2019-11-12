@@ -1,13 +1,13 @@
 ---
-
 title: "News from the Steeles"
 date: "2011-08-15 10:58:09"
+author: "Joshua Steele"
+preview: >
+  Yes, once again our blog has fallen behind. One reason that occurred this time is that I had to make an unexpected trip to the United States for a few weeks. I've just recently returned and am trying to get caught up.
 tags:
 - family
 - ministry
 - video
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 Yes, once again our blog has fallen behind. One reason that occurred this time is that I had to make an unexpected trip to the United States for a few weeks. I've just recently returned and am trying to get caught up.

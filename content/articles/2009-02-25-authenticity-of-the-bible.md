@@ -1,17 +1,17 @@
 ---
-
 title: "Authenticity of the Bible"
 date: "2009-02-25 18:34:10"
+author: "Kelsie Steele"
+preview: >
+  This week at ABS, Jessie Beal taught on the authenticity of the Bible. It was a great message, and one that is certainly needed in our day. One of the main ideas that we try to communicate to people here is that the Bible is our final authority in every area.
 tags:
 - abs
 - bible study
 - english club
 - ministry
-author: "Kelsie Steele"
-
 ---
 
-This week at ABS, Jessie Beal taught on the authenticity of the Bible. It was a great message, and one that is certainly needed in our day. One of the main ideas that we try to communicate to people here is that the Bible is our final authority in every area. READMORE While many Ukrainians acknowledge that the Bible is a "holy book," few have any real knowledge as to the many proofs of its divine inspiration.
+This week at ABS, Jessie Beal taught on the authenticity of the Bible. It was a great message, and one that is certainly needed in our day. One of the main ideas that we try to communicate to people here is that the Bible is our final authority in every area. While many Ukrainians acknowledge that the Bible is a "holy book," few have any real knowledge as to the many proofs of its divine inspiration.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5016.jpg"><img class="size-medium wp-image-485" title="dsc_5016" src="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5016-300x199.jpg" alt="Jessie teaches on the authenticity of the Bible at ABS, while Joshua translates." width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

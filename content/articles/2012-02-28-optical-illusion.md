@@ -1,12 +1,12 @@
 ---
-
 title: "Optical Illusion"
 date: "2012-02-28 16:38:17"
+author: "Joshua Steele"
+preview: >
+  We snapped this family photo in our living room a few days ago. But not all is as it seems. Take a closer look and find out the latest exciting news from the Steele family!
 tags:
 - announcements
 - family
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 We snapped this family photo in our living room a few days ago. But not all is as it seems. Take a closer look and find out the latest exciting news from the Steele family!

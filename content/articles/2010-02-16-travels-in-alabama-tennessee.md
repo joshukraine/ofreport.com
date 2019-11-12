@@ -1,16 +1,14 @@
 ---
-
 title: "Travels in Alabama & Tennessee"
 date: "2010-02-16 21:02:07"
+author: "Joshua Steele"
+preview: >
+  Last Friday morning we managed to break out of the record-breaking Texas snow and begin our trip north towards Alabama. We traveled for two days and arrived late Saturday afternoon at the Ballengers' home about 50 minutes outside of Birmingham. John Ballenger is one of the leaders of Grace Family Church. He had contacted me several months ago by e-mail about the possibility of our family visiting their church to present our work in Ukraine, and now we finally had the chance to meet in person.
 tags:
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 Last Friday morning we managed to break out of the record-breaking Texas snow and begin our trip north towards Alabama. We traveled for two days and arrived late Saturday afternoon at the Ballengers' home about 50 minutes outside of Birmingham. John Ballenger is one of the leaders of Grace Family Church. He had contacted me several months ago by e-mail about the possibility of our family visiting their church to present our work in Ukraine, and now we finally had the chance to meet in person.
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8575.jpg"><img class="size-medium wp-image-941" title="DSC_8575" src="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8575-300x199.jpg" alt="" /></a>
 {: .article-image .article-image--has-caption}

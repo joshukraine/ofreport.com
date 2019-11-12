@@ -1,17 +1,17 @@
 ---
-
 title: "How to Study the Bible"
 date: "2009-03-11 14:36:36"
+author: "Kelsie Steele"
+preview: >
+  We had our core group of men show up last night for English Club and Audio Bible Study (ABS)! As time has passed, we feel we have really gotten to know this group and that our friendships are steadily growing. 
 tags:
 - abs
 - bible study
 - english club
 - ministry
-author: "Kelsie Steele"
-
 ---
 
-We had our core group of men show up last night for English Club and Audio Bible Study (ABS)! As time has passed, we feel we have really gotten to know this group and that our friendships are steadily growing. READMORE
+We had our core group of men show up last night for English Club and Audio Bible Study (ABS)! As time has passed, we feel we have really gotten to know this group and that our friendships are steadily growing. 
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5115.jpg"><img class="size-medium wp-image-544" title="dsc_5115" src="//d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5115-300x200.jpg" alt="Several men joined us last night for English Club and ABS." width="300" height="200" /></a>
 {: .article-image .article-image--has-caption}

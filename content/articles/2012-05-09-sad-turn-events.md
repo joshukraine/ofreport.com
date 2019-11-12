@@ -1,11 +1,11 @@
 ---
-
 title: "A Sad Turn of Events"
 date: "2012-05-09 19:37:10"
+author: "Joshua Steele"
+preview: >
+  The following is copied from an email which I sent out yesterday to a small group of family and friends. We appreciate your prayers for our family during this time.
 tags:
 - family
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 The following is copied from an email which I sent out yesterday to a small group of family and friends. We appreciate your prayers for our family during this time.

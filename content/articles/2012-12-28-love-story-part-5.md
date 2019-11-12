@@ -1,12 +1,11 @@
 ---
-
 title: "Our Love Story, Part 5: The Beginning"
 date: "2012-12-28 10:00:22"
+author: "Joshua Steele"
+preview: >
+  I am told that most young ladies receive a pleasant sort of shock when they learn of a secret admirer. Kelsie was no exception. She, too, had experienced some disappointments before meeting me and had wondered if a man of godly character would ever pursue her. Now, as her father handed over the rolled up parchment, she loosened the ribbon and read my invitation.
 tags:
 - love story
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "Now, as her father handed over the rolled up parchment, she loosened the ribbon and read my invitation."
-
 ---
 
 I am told that most young ladies receive a pleasant sort of shock when they learn of a secret admirer. Kelsie was no exception. She, too, had experienced some disappointments before meeting me and had wondered if a man of godly character would ever pursue her.

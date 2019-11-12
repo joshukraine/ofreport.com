@@ -1,18 +1,19 @@
 ---
-
 title: "Overcome Evil with Good"
 date: "2014-07-17 15:24:46"
+author: "Joshua Steele"
+download: "OFR-Jun-Aug-2014.pdf"
+cover: "/2014/07/overcome-1024x572.jpg"
+caption: >
+  At a recent film showing in the village of Ilemnya (pronounced ee-LEM-nya) we had over 40 kids in attendance. Each of them received copies of Good and Evil Short plus starter packets for our Bible course.
+preview: >
+  Carpathian villages, though beautiful in photos, can be surprisingly dark places. Entrenched in centuries of religion and superstition, the people who live in these mountain communities often embody a sad yet all too common paradox: *“They profess that they know God; but in works they deny him...” (Titus 1:16)*
 tags:
 - newsletter
 - cmo
 - good and evil
 - family
 - bible first
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Jun-Aug-2014.pdf"
-image: "/2014/07/overcome-1024x572.jpg"
-caption: "At a recent film showing in the village of Ilemnya (pronounced ee-LEM-nya) we had over 40 kids in attendance. Each of them received copies of Good and Evil Short plus starter packets for our Bible course."
-
 ---
 
 Carpathian villages, though beautiful in photos, can be surprisingly dark places. Entrenched in centuries of religion and superstition, the people who live in these mountain communities often embody a sad yet all too common paradox: *“They profess that they know God; but in works they deny him...” (Titus 1:16)*

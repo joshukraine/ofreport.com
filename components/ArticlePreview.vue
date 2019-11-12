@@ -1,14 +1,14 @@
 <template>
   <article class="md:mx-4 p-4 h-full flex flex-col justify-between bg-white rounded-lg overflow-hidden shadow-md">
     <div>
-      <div v-if="article.cover" class="-mx-4 -mt-4">
+      <div v-if="article.cover" class="-mx-4 -mt-4 mb-4">
         <card-image :article-cover="article.cover"
                     :width="customWidth"
-                    :alt="article.caption"
+                    :alt="altText"
         />
       </div>
       <div>
-        <h2 class="mt-4 leading-none">
+        <h2 class="mt-0 leading-none">
           <nuxt-link class="text-gray-900 hover:text-blue-600" :to="`/blog/${article.basename}`">
             {{ article.title }}
           </nuxt-link>
@@ -20,7 +20,7 @@
         </p>
 
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="preview-text" v-html="renderMd(article.preview)" />
+        <div v-if="article.preview" class="preview-text" v-html="renderMd(article.preview)" />
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
@@ -55,13 +55,13 @@ export default {
   },
   computed: {
     customWidth() {
-      if (this.featured) {
-        return '740';
-      }
-      return '610';
+      return this.featured ? '740' : '610';
     },
     publishedOn() {
       return dayjs(this.article.date).format('MMMM D, YYYY');
+    },
+    altText() {
+      return this.article.caption ? this.article.caption : '';
     },
   },
 };

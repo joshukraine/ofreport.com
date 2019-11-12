@@ -1,16 +1,16 @@
 ---
-
 title: "Gospel of John Series Complete!"
 date: "2009-02-19 12:49:23"
+author: "Joshua Steele"
+preview: >
+  Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It's been a great experience, and we're very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD's to our students.
 tags:
 - abs
 - bible study
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
-Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It's been a great experience, and we're very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD's to our students. READMORE
+Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It's been a great experience, and we're very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD's to our students.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4845.jpg"><img class="size-medium wp-image-409" title="dsc_4845" src="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4845-300x199.jpg" alt="Listeners are holding copies of the book of John translated by our friend, Yura Popchenko." width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

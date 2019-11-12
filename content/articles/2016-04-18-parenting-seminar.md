@@ -1,21 +1,20 @@
 ---
-
-title: Parenting Seminar
+title: "Parenting Seminar"
 date: "2016-04-18 07:52:04"
+author: "Joshua Steele"
+download: "OFR-Jan-Mar-2016.pdf"
+cover: "/2016/04/IMG_6934-1024x683.jpg"
+caption: >
+  Kelsie and I recently had the privilege of teaching our very first parenting seminar! Organized by a local church here in L’viv, the event was well attended, and we were excited for the opportunity to address Ukrainian couples on the topic of child training.
+preview: >
+  Over the past few months, I’ve often found myself pondering that well-known phrase in Psalm 23... “...my cup runneth over.” It seems God has lately thrown open the flood gates of ministry opportunity for our family. While at times exhausting and even overwhelming, it’s a great problem to have!
 tags:
 - newsletter
 - cmo
 - bible first
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Jan-Mar-2016.pdf"
-image: "/2016/04/IMG_6934-1024x683.jpg"
-caption: "Kelsie and I recently had the privilege of teaching our very first parenting seminar! Organized by a local church here in L’viv, the event was well attended, and we were excited for the opportunity to address Ukrainian couples on the topic of child training."
-
 ---
 
 Over the past few months, I’ve often found myself pondering that well-known phrase in Psalm 23... “...my cup runneth over.” It seems God has lately thrown open the flood gates of ministry opportunity for our family. While at times exhausting and even overwhelming, it’s a great problem to have!
-
-READMORE
 
 One such opportunity presented itself earlier this year when a young lady named Lindsay Blessing contacted us about speaking at a parenting seminar organized by her church. Lindsay’s father Mark is a missionary here and pastor of the church. We’ve been friends with their family for many years and I’ve preached at the church several times in the past.
 

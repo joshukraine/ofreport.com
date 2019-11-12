@@ -1,13 +1,14 @@
 ---
-
 title: "Going Home"
 date: "2012-05-15 15:13:08"
+author: "Joshua Steele"
+cover: "/2012/05/photo-1024x768.jpg"
+caption: >
+  At the new airport in L'viv. Next stop: Warsaw!
+preview: >
+  Today Kelsie and our three girls departed L'viv accompanied by my mom, Cathy. They have about 18 hours of travel ahead of them before arriving in Houston where they will be met by the Powells, Kelsie's parents. Happily, there were no problems at all when they passed through customs. What a blessing!
 tags:
 - family
-author: ["Joshua Steele", "joshukraine", "@tw"]
-image: "/2012/05/photo-1024x768.jpg"
-caption: "At the new airport in L'viv. Next stop: Warsaw!"
-
 ---
 
 Today Kelsie and our three girls departed L'viv accompanied by my mom, Cathy. They have about 18 hours of travel ahead of them before arriving in Houston where they will be met by the Powells, Kelsie's parents. Happily, there were no problems at all when they passed through customs. What a blessing!

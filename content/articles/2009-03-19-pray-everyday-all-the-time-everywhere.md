@@ -1,18 +1,18 @@
 ---
-
 title: '"Pray everyday, all the time, everywhere."'
 date: "2009-03-19 15:11:51"
+author: "Kelsie Steele"
+preview: >
+  In Ukraine, it is not uncommon to find people who think that prayer must be read from a book or recited from an already assembled collection. Many people often pray the Lord's prayer in a repetitious fashion, but have little idea of telling their hearts to God. The simplicity of coming to God as a Father and asking for what you need, or offering thanksgiving and worship, is sometimes foreign to them.
 tags:
 - abs
 - bible study
 - english club
 - ministry
 - photos
-author: "Kelsie Steele"
-
 ---
 
-In Ukraine, it is not uncommon to find people who think that prayer must be read from a book or recited from an already assembled collection. Many people often pray the Lord's prayer in a repetitious fashion, but have little idea of telling their hearts to God. The simplicity of coming to God as a Father and asking for what you need, or offering thanksgiving and worship, is sometimes foreign to them. READMORE
+In Ukraine, it is not uncommon to find people who think that prayer must be read from a book or recited from an already assembled collection. Many people often pray the Lord's prayer in a repetitious fashion, but have little idea of telling their hearts to God. The simplicity of coming to God as a Father and asking for what you need, or offering thanksgiving and worship, is sometimes foreign to them.
 
 Jessie did a wonderful job of explaining to our Tuesday night group what the Bible says about prayer. He touched on what, where, when, why, and how to pray. We all came away encouraged to "pray everyday, all the time, everywhere."
 

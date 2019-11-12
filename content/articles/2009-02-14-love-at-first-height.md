@@ -1,16 +1,16 @@
 ---
-
 title: 'Love at First "Height"'
 date: "2009-02-14 19:39:24"
+author: "Kelsie Steele"
+preview: >
+  Five years ago, around Valentine's Day, my dad took me to a special restaurant for dinner. A looong discussion ensued regarding my future and what steps I should be taking.
 tags:
 - family
 - fun
 - photos
-author: "Kelsie Steele"
-
 ---
 
-Five years ago, around Valentine's Day, my dad took me to a special restaurant for dinner. A looong discussion ensued regarding my future and what steps I should be taking. READMORE Together we decided that I should continue to wait at home for God's direction. I would continue serving in my local church, pursuing studies, and helping my family. Only two days following this conversation, Joshua wrote to my Dad for the first time, beginning a correspondence which would shortly result in our courtship and marriage.
+Five years ago, around Valentine's Day, my dad took me to a special restaurant for dinner. A looong discussion ensued regarding my future and what steps I should be taking. Together we decided that I should continue to wait at home for God's direction. I would continue serving in my local church, pursuing studies, and helping my family. Only two days following this conversation, Joshua wrote to my Dad for the first time, beginning a correspondence which would shortly result in our courtship and marriage.
 
 I feel as if every Valentine's Day were the anniversary of the beginning of our story. How grateful I am to be five years into our relationship, so loved and cherished by the man who is so perfect for me. Marriage just keeps getting better! In celebration of the day, Joshua and I had made special plans to go rock climbing, something we really enjoy doing together.
 

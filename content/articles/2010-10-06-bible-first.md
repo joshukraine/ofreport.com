@@ -1,19 +1,16 @@
 ---
-
 title: "Bible First"
 date: "2010-10-06 14:55:55"
+author: "Joshua Steele"
+cover: "/2010/10/every-word-2000w.jpg"
+preview: >
+  Here in Ukraine, anyone who isn't Catholic or Orthodox is considered a "sektant" (member of a sect or cult). The mere mention of attending an evangelical church is usually met with fear, skepticism and even anger.
 tags:
 - ministry
 - bible first
-author: ["Joshua Steele", "joshukraine", "@tw"]
-image: "/2010/10/every-word-1200w.jpg"
-image_lg: "/2010/10/every-word-2000w.jpg"
-
 ---
 
 Here in Ukraine, anyone who isn't Catholic or Orthodox is considered a "sektant" (member of a sect or cult). The mere mention of attending an evangelical church is usually met with fear, skepticism and even anger.
-
-READMORE
 
 Early in our ministry, we began to realize that traditional approaches to evangelism backfire more often than not. Invite someone to church and they run the opposite direction. Offer them a Gospel tract and it ends up in the garbage, unread. Invite them to a home Bible study and you learn that they have an aversion to religious meetings in houses - especially houses belonging to people they don't know. Bottom line: how can a missionary reach sinners for Jesus if he can't convince them to listen to his message? "Faith cometh by hearing..." and despite our best efforts, the Ukrainians were not hearing. In fact they were not actually rejecting the message of the Gospel per se. *They were rejecting what they perceived as an attempt to convert them to a foreign cult.* It wasn't about faith versus works, or Christ versus the world. It was about our church versus their church. Think about that for a moment: if you felt someone was trying sweep you and your family away from the church you know into a cult funded by people from overseas, how would you react? Would you attend a few meetings and evaluate their teachings objectively? Unlikely.
 

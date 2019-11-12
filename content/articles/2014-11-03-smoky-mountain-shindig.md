@@ -1,16 +1,17 @@
 ---
-
-title: Smoky Mountain Shindig
+title: "Smoky Mountain Shindig"
 date: "2014-11-03 03:33:29"
+author: "Joshua Steele"
+download: "OFR-Sep-Oct-2014.pdf"
+cover: "/2014/11/ofr-shindig-cover.png"
+caption: >
+  This September, Kelsie and I took part in No Greater Joy’s Smoky Mountain Shindig. Over 2,000 people gathered for an unforgettable conference filled with solid Bible teaching, singing, fellowship, games, and encouragement.
+preview: >
+  When Michael and Debi Pearl heard we were coming to the US for the birth of our baby, they invited Kelsie and I to speak at their third annual Shindig, scheduled for September 10-14. We agreed to come and were blessed beyond all expectation! While there isn’t room here to give a full report of all that happened during the conference, I’d like to share a few of the highlights.
 tags:
 - newsletter
 - family
 - cmo
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Sep-Oct-2014.pdf"
-image: "/2014/11/ofr-shindig-cover.png"
-caption: "This September, Kelsie and I took part in No Greater Joy’s Smoky Mountain Shindig. Over 2,000 people gathered for an unforgettable conference filled with solid Bible teaching, singing, fellowship, games, and encouragement."
-
 ---
 
 When Michael and Debi Pearl heard we were coming to the US for the birth of our baby, they invited Kelsie and I to speak at their third annual Shindig, scheduled for September 10-14. We agreed to come and were blessed beyond all expectation! While there isn’t room here to give a full report of all that happened during the conference, I’d like to share a few of the highlights.

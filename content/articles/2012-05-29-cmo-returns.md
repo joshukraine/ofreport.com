@@ -1,16 +1,17 @@
 ---
-
 title: "CMO Returns"
 date: "2012-05-29 14:36:00"
+author: "Joshua Steele"
+download: "OFR-June-2012.pdf"
+cover: "/2012/06/scouting-trip-vimeo.jpg"
+caption: >
+  CMO is back! After taking a year off in 2011, Carpathian Mountain Outreach 2012 is set to begin on July 1, just one month away.
+preview: >
+  The June issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we'll tell you a bit about the upcoming CMO project which begins in July. Also included are updates on the Skole ministry and our baby.
 tags:
 - newsletter
 - cmo
 - family
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-June-2012.pdf"
-image: "/2012/06/scouting-trip-vimeo.jpg"
-caption: "CMO is back! After taking a year off in 2011, Carpathian Mountain Outreach 2012 is set to begin on July 1, just one month away."
-
 ---
 
 The June issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we'll tell you a bit about the upcoming CMO project which begins in July. Also included are updates on the Skole ministry and our baby.

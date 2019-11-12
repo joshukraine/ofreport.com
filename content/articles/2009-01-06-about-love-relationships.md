@@ -1,15 +1,15 @@
 ---
-
 title: "About Love Relationships"
 date: "2009-01-06 16:05:36"
+author: "Joshua Steele"
+preview: >
+  With well over 300 Ukrainian students enrolled in our <a href="http://getbiblefirst.com/" target="_blank">Chronological Bible Course</a>, we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?"
 tags:
 - bible first
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
-With well over 300 Ukrainian students enrolled in our <a href="http://getbiblefirst.com/" target="_blank">Chronological Bible Course</a>, we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?" READMORE
+With well over 300 Ukrainian students enrolled in our <a href="http://getbiblefirst.com/" target="_blank">Chronological Bible Course</a>, we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?"
 
 Recently, one of our newer students, a young lady named Maryana, wrote to us with the following question:
 

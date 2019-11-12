@@ -72,7 +72,7 @@ export default {
     if (this.isBlogHome) {
       this.start = 1;
     } else {
-      this.start = (this.page - 1) * this.perPage;
+      this.start = ((this.page - 1) * this.perPage) + 1;
     }
     const end = this.start + this.perPage;
 

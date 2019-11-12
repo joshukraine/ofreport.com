@@ -1,16 +1,17 @@
 ---
-
-title: Gaining New Ground
+title: "Gaining New Ground"
 date: "2015-09-01 12:42:17"
+author: "Joshua Steele"
+download: "OFR-Sep-Oct-2015.pdf"
+cover: "/2015/09/06-IMG_6462-1024x683.png"
+caption: >
+  Several of the CMO 2015 team hike towards a new set of buildings during a literature campaign.
+preview: >
+  This summer marked our 9th CMO project! When we first embarked down this path back in 2006, I had no idea how far the Lord would take it. Each year, He continues to bless this outreach, bringing new laborers into the field and new fruit for His glory. READMORE
 tags:
 - newsletter
 - cmo
 - good and evil
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Sep-Oct-2015.pdf"
-image: "/2015/09/06-IMG_6462-1024x683.png"
-caption: "Several of the CMO 2015 team hike towards a new set of buildings during a literature campaign."
-
 ---
 
 This summer marked our 9th CMO project! When we first embarked down this path back in 2006, I had no idea how far the Lord would take it. Each year, He continues to bless this outreach, bringing new laborers into the field and new fruit for His glory. READMORE

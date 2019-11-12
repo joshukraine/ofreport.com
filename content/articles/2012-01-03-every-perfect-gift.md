@@ -1,17 +1,17 @@
 ---
-
 title: "Every Perfect Gift"
 date: "2012-01-03 05:18:50"
+author: "Joshua Steele"
+download: "OFR-Jan-2012.pdf"
+cover: "/2012/01/fall-family-2011 005.jpg"
+caption: "Happy New Year from the Steele family! From left: Hosanna (1), Kelsie, Rebekah (4), Joshua, Abigail (6)"
+preview: >
+  Well, it's been a while, but today we uploaded a new issue of our print newsletter, *Overseas Field Report*. If you're on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
 tags:
 - newsletter
 - family
 - cmo
 - bible first
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Jan-2012.pdf"
-image: "/2012/01/fall-family-2011 005.jpg"
-caption: "Happy New Year from the Steele family! From left: Hosanna (1), Kelsie, Rebekah (4), Joshua, Abigail (6)"
-
 ---
 
 Well, it's been a while, but today we uploaded a new issue of our print newsletter, *Overseas Field Report*. If you're on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.

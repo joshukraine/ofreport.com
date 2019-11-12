@@ -1,17 +1,15 @@
 ---
-
-title: "The Latest... "
+title: "The Latest..."
 date: "2009-08-26 06:23:56"
+author: "Joshua Steele"
+preview: >
+  After many weeks of preparation, the Steele family is finally departing for America! As we travel, we would greatly appreciate your prayers in the following areas:
 tags:
 - family
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 After many weeks of preparation, the Steele family is finally departing for America! As we travel, we would greatly appreciate your prayers in the following areas:
-
-READMORE
 
 * A smooth border crossing out of Ukraine (We don’t expect any problems, but you never know.)
 * Strength for the children

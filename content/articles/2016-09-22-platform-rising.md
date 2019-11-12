@@ -1,17 +1,18 @@
 ---
-
-title: Platform Rising
+title: "Platform Rising"
 date: "2016-09-22 09:01:58"
+author: "Joshua Steele"
+download: "OFR-Sep-Oct-2016.pdf"
+cover: "/2016/09/josh-preaching-cmo-2016-1024x497.jpg"
+caption: >
+  Preaching the Gospel after a film showing in the Carpathian village of Scherbovets.
+preview: >
+  When I first came to Ukraine over 15 years ago, my initial goal was to learn how to speak the Ukrainian language. I knew that if I was to effectively communicate the Gospel to people here, I needed to be able to talk.
 tags:
 - newsletter
 - family
 - bible first
 - good and evil
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Sep-Oct-2016.pdf"
-image: "/2016/09/josh-preaching-cmo-2016-1024x497.jpg"
-caption: "Preaching the Gospel after a film showing in the Carpathian village of Scherbovets."
-
 ---
 
 When I first came to Ukraine over 15 years ago, my initial goal was to learn how to speak the Ukrainian language. I knew that if I was to effectively communicate the Gospel to people here, I needed to be able to talk.

@@ -1,17 +1,17 @@
 ---
-
 title: "This week in L'viv"
 date: "2009-01-27 08:51:21"
+author: "Kelsie Steele"
+preview: >
+  With the arrival of a new team member, preparations for this summer's outreach, the ongoing development and upkeep of our correspondence Bible course (CBC), and two growing little girls, our family is keeping pretty busy these days! Here's a quick news update to fill you in on the latest. 
 tags:
 - abs
 - bryan shufelt
 - family
 - ministry
-author: "Kelsie Steele"
-
 ---
 
-With the arrival of a new team member, preparations for this summer's outreach, the ongoing development and upkeep of our correspondence Bible course (CBC), and two growing little girls, our family is keeping pretty busy these days! Here's a quick news update to fill you in on the latest. READMORE
+With the arrival of a new team member, preparations for this summer's outreach, the ongoing development and upkeep of our correspondence Bible course (CBC), and two growing little girls, our family is keeping pretty busy these days! Here's a quick news update to fill you in on the latest. 
 
 ### Bryan Shufelt
 

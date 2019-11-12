@@ -1,15 +1,15 @@
 ---
-
 title: "Whatever Happened to September?"
 date: "2008-10-11 12:20:48"
+author: "Kelsie Steele"
+preview: >
+  The start of September brought the end of our CMO project. We said goodbye to the team of 6 awesome guys who served with us this summer.
 tags:
 - family
 - photos
-author: ["Kelsie Steele", "steelekelsie", "@ig"]
-
 ---
 
-The start of September brought the end of our CMO project. We said goodbye to the team of 6 awesome guys who served with us this summer. READMORE
+The start of September brought the end of our CMO project. We said goodbye to the team of 6 awesome guys who served with us this summer.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2008/11/steele_026.jpg"><img class="size-full wp-image-20" title="steele_026" src="//d21yo20tm8bmc2.cloudfront.net/2008/11/steele_026.jpg" alt="Can't you tell we had a lot of fun this year?" width="350" height="263" /></a>
 {: .article-image .article-image--has-caption}

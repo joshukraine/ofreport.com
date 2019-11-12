@@ -1,12 +1,11 @@
 ---
-
 title: "Our Love Story, Part 3: Dating the Dad?"
 date: "2012-12-14 15:00:07"
+author: "Joshua Steele"
+preview: >
+  While I realize that there may be exceptions, my position to this day remains the same: if at all possible, ask Dad first. The benefits of such an approach are numerous, and in my case, though a bit nervous initially, I never regretted for a moment my decision to correspond with Kelsie’s father before making my intentions known to her.
 tags:
 - love story
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "While I realize that there may be exceptions, my position to this day remains the same: if at all possible, ask Dad first. The benefits of such an approach are numerous, and in my case, though a bit nervous initially, I never regretted for a moment my decision to correspond with Kelsie’s father before making my intentions known to her."
-
 ---
 
 In our modern culture, many Christian young men scoff at the idea of contacting a girl’s father before pursuing a relationship with her. “After all, she is an adult. Let her make her own decision.” While I realize that there may be exceptions, my position to this day remains the same: if at all possible, ask Dad first. The benefits of such an approach are numerous, and in my case, though a bit nervous initially, I never regretted for a moment my decision to correspond with Kelsie’s father before making my intentions known to her.

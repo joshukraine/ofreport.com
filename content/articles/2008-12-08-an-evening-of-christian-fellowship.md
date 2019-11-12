@@ -1,18 +1,17 @@
 ---
-
 title: "An Evening of Christian Fellowship"
 date: "2008-12-08 14:11:11"
+author: "Kelsie Steele"
+preview: >
+  The postal worker's eyes widened as I handed her my 3 large stacks of business envelopes. "So many lovers to write to, eh?", the gray-headed gentleman next to me teased with a twinkle in his eye. I don't usually enjoy trips to the Ukrainian Post Office, but this one was important.
 tags:
 - abs
 - bible study
 - english club
 - ministry
-author: ["Kelsie Steele", "steelekelsie", "@ig"]
-
 ---
 
-
-The postal worker's eyes widened as I handed her my 3 large stacks of business envelopes. "So many lovers to write to, eh?", the gray-headed gentleman next to me teased with a twinkle in his eye. I don't usually enjoy trips to the Ukrainian Post Office, but this one was important. READMORE Joshua and I had spent all weekend preparing this mail-out for those of our Bible Correspondence students who live in the L'viv area-- 228 in all. As I sat and licked each individual stamp, (no self-adhesive here!) my thoughts ran in a continuous cycle: Will this person come? Lord, draw their hearts to you. I wonder how many will be there. Will they come? Bring those who are ready to hear, Lord!
+The postal worker's eyes widened as I handed her my 3 large stacks of business envelopes. "So many lovers to write to, eh?", the gray-headed gentleman next to me teased with a twinkle in his eye. I don't usually enjoy trips to the Ukrainian Post Office, but this one was important. Joshua and I had spent all weekend preparing this mail-out for those of our Bible Correspondence students who live in the L'viv area-- 228 in all. As I sat and licked each individual stamp, (no self-adhesive here!) my thoughts ran in a continuous cycle: Will this person come? Lord, draw their hearts to you. I wonder how many will be there. Will they come? Bring those who are ready to hear, Lord!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_37023.jpg"><img class="size-medium wp-image-117" title="dsc_37023" src="//d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_37023-300x201.jpg" alt=" " width="300" height="201" /></a>
 {: .article-image}

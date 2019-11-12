@@ -1,13 +1,12 @@
 ---
-
 title: "The Seven Pillars of Genesis, Part 3: Noah"
 date: "2013-06-08 12:00:15"
+author: "Joshua Steele"
+preview: >
+  Noah lived in an era of wickedness so terrible that it caused God to regret His creation of the human race. Yet in the midst of this universal debauchery, Noah was found to be righteous.
 tags:
 - bible first
 - seven pillars
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "Noah lived in an era of wickedness so terrible that it caused God to regret His creation of the human race."
-
 ---
 
 The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.

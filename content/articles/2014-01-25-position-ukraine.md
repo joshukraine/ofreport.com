@@ -1,14 +1,15 @@
 ---
-
 title: "Our Position in Ukraine"
 date: "2014-01-25 18:40:45"
+author: "Joshua Steele"
+cover: "/2014/01/euromaydan.jpg"
+caption: >
+  As you are no doubt aware, Ukraine is in the middle of a political crisis.
+preview: >
+  As you are no doubt aware, Ukraine is in the middle of a political crisis. The details of the conflict–which have grown more gory in recent days–are readily available on <a title="KyivPost" href="http://www.kyivpost.com/" target="_blank">major news outlets</a>, so I won’t waste space here repeating what’s been said by others. The purpose of this post is to inform you of our family’s position in Ukraine relative to current events.
 tags:
 - family
 - ukraine
-author: ["Joshua Steele", "joshukraine", "@tw"]
-image: "/2014/01/euromaydan.jpg"
-desc: As you are no doubt aware, Ukraine is in the middle of a political crisis.
-
 ---
 
 As you are no doubt aware, Ukraine is in the middle of a political crisis. The details of the conflict–which have grown more gory in recent days–are readily available on <a title="KyivPost" href="http://www.kyivpost.com/" target="_blank">major news outlets</a>, so I won’t waste space here repeating what’s been said by others. The purpose of this post is to inform you of our family’s position in Ukraine relative to current events.

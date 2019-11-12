@@ -1,4 +1,5 @@
 const md = require('markdown-it')({
+  html: true,
   linkify: true,
   typographer: true,
 });
@@ -9,7 +10,7 @@ md.use(mila, {
   pattern: /^https?:\/\//,
   attrs: {
     target: '_blank',
-    rel: 'noopener',
+    rel: 'noopener noreferrer',
   },
 });
 

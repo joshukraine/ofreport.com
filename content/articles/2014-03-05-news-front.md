@@ -1,16 +1,16 @@
 ---
-
-title: News from the Front
+title: "News from the Front"
 date: "2014-03-05 12:14:24"
+author: "Joshua Steele"
+download: "OFR-Jan-Mar-2014.pdf"
+cover: "/2014/03/kyiv-burning.jpg"
+caption: >
+  This screenshot, taken on the night of February 18, offers a glimpse of the violence and turmoil that recently gripped Ukraine’s capital city, Kyiv.
+preview: >
+  The January-March issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we'll give you the latest news on the developing crisis in Ukraine, including how current events will affect CMO 2014. Also in this issue, meet Nathan Gregson, our newest missionary intern here in Ukraine!
 tags:
 - newsletter
 - cmo
-author: ["Joshua Steele", "joshukraine", "@tw"]
-download: "OFR-Jan-Mar-2014.pdf"
-image: "/2014/03/kyiv-burning.jpg"
-caption: "This screenshot, taken on the night of February 18, offers a glimpse of the violence and turmoil
-that recently gripped Ukraine’s capital city, Kyiv."
-
 ---
 
 The January-March issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we'll give you the latest news on the developing crisis in Ukraine, including how current events will affect CMO 2014. Also in this issue, meet Nathan Gregson, our newest missionary intern here in Ukraine!

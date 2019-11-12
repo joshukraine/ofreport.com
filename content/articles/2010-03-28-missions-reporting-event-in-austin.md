@@ -1,18 +1,16 @@
 ---
-
 title: "Missions Reporting Event in Austin"
 date: "2010-03-28 20:40:58"
+author: "Joshua Steele"
+preview: >
+  Due to sickness in my family and also in the family that was organizing this event, we have decided to postpone it until a later date. If/when that is scheduled, we will post a new invitation. We apologize for the late notice.
 tags:
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 <p style="text-align: center;"><strong><span style="color: #ff0000;">EVENT CANCELLED</span></strong></p>
 
 Due to sickness in my family and also in the family that was organizing this event, we have decided to postpone it until a later date. If/when that is scheduled, we will post a new invitation. We apologize for the late notice.
-
-READMORE
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-
 title: "Our Baby is With the Lord"
 date: "2012-06-18 23:37:21"
+author: "Joshua Steele"
+preview: >
+  For the past week or so, Kelsie has not felt any movement from the baby. Today, we went in for an ultrasound which confirmed what we were beginning to suspect: our baby has gone home.
 tags:
 - family
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 For the past week or so, Kelsie has not felt any movement from the baby. Today, we went in for an ultrasound which confirmed what we were beginning to suspect: our baby has gone home.

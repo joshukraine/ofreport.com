@@ -1,17 +1,15 @@
 ---
-
 title: 'I Met the "Martin Luther" of the Carpathians'
 date: "2009-06-10 12:25:46"
+author: "Joshua Steele"
+preview: >
+  During our first CMO project in 2006, we showed The Light of the World in a very small village called Khashchovanya. By the time of that showing, we had already experienced a fair amount of resistance from Catholic priests in other villages. Thus I was quite surprised when we saw the priest from Khashchovanya present at our showing along with his children! He viewed the entire film, and listened without objection to my Gospel presentation at the end.
 tags:
 - cmo
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 During our first CMO project in 2006, we showed The Light of the World in a very small village called Khashchovanya. By the time of that showing, we had already experienced a fair amount of resistance from Catholic priests in other villages. Thus I was quite surprised when we saw the priest from Khashchovanya present at our showing along with his children! He viewed the entire film, and listened without objection to my Gospel presentation at the end.
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/cmo2006_028_lg.jpg"><img class="size-medium wp-image-802" title="cmo2006_028_lg" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/cmo2006_028_lg-300x225.jpg" alt="Showing The Light of the World in Khashchovanya, 2006" /></a>
 {: .article-image .article-image--has-caption}

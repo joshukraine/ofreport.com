@@ -1,12 +1,11 @@
 ---
-
 title: "A Sinner Has Come Home"
 date: "2012-05-30 01:58:50"
+author: "Joshua Steele"
+preview: >
+  There have been relatively few times during my missionary career when I have had the joyful opportunity to witness a person actually coming to Christ. Ultimately, only God can see the heart, but there are times when a person’s outward response to the Gospel leaves little doubt that they have been born again.
 tags:
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "There have been relatively few times during my missionary career when I have had the joyful opportunity to witness a person actually coming to Christ. Ultimately, only God can see the heart, but there are times when a person’s outward response to the Gospel leaves little doubt that they have been born again."
-
 ---
 
 There have been relatively few times during my missionary career when I have had the joyful opportunity to witness a person actually coming to Christ. Ultimately, only God can see the heart, but there are times when a person’s outward response to the Gospel leaves little doubt that they have been born again.

@@ -1,13 +1,12 @@
 ---
-
 title: "The Seven Pillars of Genesis, Part 7: Joseph"
 date: "2013-07-06 12:00:37"
+author: "Joshua Steele"
+preview: >
+  The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.
 tags:
 - bible first
 - seven pillars
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: Joseph is often acclaimed as the most complete type of Christ found in the Old Testament.
-
 ---
 
 The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.

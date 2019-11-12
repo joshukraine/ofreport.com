@@ -1,18 +1,18 @@
 ---
-
 title: 'The Bible or "the Church?"'
 date: "2009-02-12 09:51:35"
+author: "Joshua Steele"
+preview: >
+  Last time at ABS (Audio Bible Study), I taught from John chapter 20 on the resurrection. During the course of the lesson, one of the verses I cited was I Timothy 2:5: *"For there is one God, and one mediator between God and men, the man Christ Jesus;"* After the lesson had ended, one of our students, Marian, came up to ask me about this point.
 tags:
 - abs
 - bible study
 - english club
 - ministry
 - theology
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
-Last time at ABS (Audio Bible Study), I taught from John chapter 20 on the resurrection. During the course of the lesson, one of the verses I cited was I Timothy 2:5: *"For there is one God, and one mediator between God and men, the man Christ Jesus;"* After the lesson had ended, one of our students, Marian, came up to ask me about this point. READMORE
+Last time at ABS (Audio Bible Study), I taught from John chapter 20 on the resurrection. During the course of the lesson, one of the verses I cited was I Timothy 2:5: *"For there is one God, and one mediator between God and men, the man Christ Jesus;"* After the lesson had ended, one of our students, Marian, came up to ask me about this point.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4871.jpg"><img class="size-medium wp-image-431" title="dsc_4871" src="//d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4871-300x199.jpg" alt="Joshua and Marian chat after ABS." width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

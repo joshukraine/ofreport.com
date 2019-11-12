@@ -1,20 +1,18 @@
 ---
-
 title: "Tuesday Night Report"
 date: "2009-06-14 13:01:36"
+author: "Kelsie Steele"
+preview: >
+  God is continuing to bless our English Club and Audio Bible Study meetings! Each week people are coming to hear the Word of God. By way of reminder, we hold English Club for the first hour of the evening, follow that with a 5 minute break, and then begin Bible teaching/preaching in Ukrainian for the second hour. The evening ends with tea, snacks, and fellowship.
 tags:
 - abs
 - bible study
 - english club
 - ministry
 - photos
-author: "Kelsie Steele"
-
 ---
 
 God is continuing to bless our English Club and Audio Bible Study meetings! Each week people are coming to hear the Word of God. By way of reminder, we hold English Club for the first hour of the evening, follow that with a 5 minute break, and then begin Bible teaching/preaching in Ukrainian for the second hour. The evening ends with tea, snacks, and fellowship.
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/dsc_6775.jpg"><img class="size-medium wp-image-820" title="dsc_6775" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/dsc_6775-199x300.jpg" alt="Joshua listening as students share their thoughts on the evening's topic: sports." width="199" height="300" /></a>
 {: .article-image .article-image--has-caption}
