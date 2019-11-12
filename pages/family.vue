@@ -1,8 +1,8 @@
 <template>
   <article class="mb-8 md:mb-12">
     <section class="family border-b bg-cover bg-center">
-      <section class="py-6 sm:py-8 lg:pt-10 lg:pb-12 text-center">
-        <h1 class="text-white text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+      <section class="pt-4 xs:pt-6 sm:pt-6 md:pt-8 lg:pt-10 lg:pb-12 text-center">
+        <h1 class="text-white text-3xl xs:text-4xl sm:text-5xl lg:text-6xl">
           Pleased to meet you!
         </h1>
       </section>
