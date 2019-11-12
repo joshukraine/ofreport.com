@@ -1,12 +1,11 @@
 ---
-
 title: "Our Love Story, Part 1: Three Strikes and You’re Out?"
 date: "2012-11-30 15:00:23"
+author: "Joshua Steele"
+preview: >
+  About three years ago, in response to requests from various people, Kelsie and I endeavored to publish our courtship story here on our blog.
 tags:
 - love story
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "About three years ago, in response to requests from various people, Kelsie and I endeavored to publish our courtship story here on our blog."
-
 ---
 
 About three years ago, in response to requests from various people, Kelsie and I endeavored to publish our courtship story here on our blog. We were writing together, and posting as we went along. Unfortunately, the busyness of life and ministry at that time proved to be too much, and our posts slowly tapered off to nothing.

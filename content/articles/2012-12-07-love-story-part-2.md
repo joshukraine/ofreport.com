@@ -1,12 +1,11 @@
 ---
-
 title: "Our Love Story, Part 2: First Things First"
 date: "2012-12-07 15:00:28"
+author: "Joshua Steele"
+preview: >
+  My introduction to Kelsie Powell was unlike anything I had previously imagined. When first I heard of her, we were about as far apart geographically as it is possible for any two people to be on this planet.
 tags:
 - love story
-author: ["Joshua Steele", "joshukraine", "@tw"]
-desc: "My introduction to Kelsie Powell was unlike anything I had previously imagined. When first I heard of her, we were about as far apart geographically as it is possible for any two people to be on this planet."
-
 ---
 
 My introduction to Kelsie Powell was unlike anything I had previously imagined. When first I heard of her, we were about as far apart geographically as it is possible for any two people to be on this planet. In early 2004, she was living in Oklahoma with her parents while I was working on a short-term missions project in Thailand.
