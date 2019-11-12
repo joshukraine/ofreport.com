@@ -167,6 +167,15 @@
 
   <RoutingRule>
     <Condition>
+      <KeyPrefixEquals>2009/06/fatherstepan/</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2009-06-10-father-stepan</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
       <KeyPrefixEquals>page/</KeyPrefixEquals>
     </Condition>
     <Redirect>
