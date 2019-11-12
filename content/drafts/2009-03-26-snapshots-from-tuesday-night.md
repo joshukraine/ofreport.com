@@ -1,18 +1,18 @@
 ---
-
 title: "Snapshots from Tuesday Night"
 date: "2009-03-26 10:12:07"
+author: "Kelsie Steele"
+preview: >
+  A few photos from ABS...
 tags:
 - abs
 - bible study
 - english club
 - ministry
 - photos
-author: "Kelsie Steele"
-
 ---
 
-A few photos from ABS... READMORE
+A few photos from ABS...
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5132.jpg"><img class="size-medium wp-image-579" title="dsc_5132" src="//d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5132-201x300.jpg" alt="Marian examines a Bolivian souvenir during English Club. Our theme this week was &quot;Vacations&quot;." width="201" height="300" /></a>
 {: .article-image .article-image--has-caption}

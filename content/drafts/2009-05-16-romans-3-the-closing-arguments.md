@@ -1,15 +1,15 @@
 ---
-
 title: "Romans 3: The Closing Arguments"
 date: "2009-05-16 05:59:22"
+author: "Joshua Steele"
+preview: >
+  For the past few weeks at ABS, we've been teaching through the first two chapters of Romans. Since his opening statement in Romans 1:18, Paul has built an air-tight case against the ungodly. Furthermore, having drawn us into a position of judgment, he has shown that we who consider ourselves to be "better than the wicked" are in fact just as guilty, condemned by our own mouths.
 tags:
 - ministry
 - theology
-author: "Joshua Steele"
-
 ---
 
-For the past few weeks at ABS, we've been teaching through the first two chapters of Romans. Since his opening statement in Romans 1:18, Paul has built an air-tight case against the ungodly. Furthermore, having drawn us into a position of judgment, he has shown that we who consider ourselves to be "better than the wicked" are in fact just as guilty, condemned by our own mouths. READMORE
+For the past few weeks at ABS, we've been teaching through the first two chapters of Romans. Since his opening statement in Romans 1:18, Paul has built an air-tight case against the ungodly. Furthermore, having drawn us into a position of judgment, he has shown that we who consider ourselves to be "better than the wicked" are in fact just as guilty, condemned by our own mouths.
 
 This past week, we taught through Romans 3:1-20. In this chapter, Paul begins by addressing several common heresies of his day. He first clarifies the significance of the Jewish people - God gave us the Scriptures through the Jews - but points out that even if the majority of the Jews (or people in general) did not receive God's plan of salvation, that does not negate it. God is not an elected official who needs a majority vote in order to move forward.
 

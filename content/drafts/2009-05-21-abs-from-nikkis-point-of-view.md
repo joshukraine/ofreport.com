@@ -1,18 +1,18 @@
 ---
-
 title: "ABS from Nikki's Point of View"
 date: "2009-05-21 12:51:20"
+author: "Kelsie Steele"
+preview: >
+  "Nikki" is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening's events. The following are a few of her shots from recent weeks.
 tags:
 - abs
 - bible study
 - english club
 - ministry
 - photos
-author: "Kelsie Steele"
-
 ---
 
-"Nikki" is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening's events. The following are a few of her shots from recent weeks. READMORE
+"Nikki" is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening's events. The following are a few of her shots from recent weeks.
 
 God is continuing to bless this ministry--we are building good friendships and people are hearing the gospel preached. Please continue to pray that those who are coming would repent and believe in Christ!
 

@@ -1,14 +1,14 @@
 ---
-
 title: "Headed to Krakow"
 date: "2009-03-01 16:22:09"
+author: "Joshua Steele"
+preview: >
+  Once again, Kels and I are embarking on one of our mandatory, twice-a-year "vacations." Even though we have Ukrainian multi-entry visas that are good for five years, the law still states that we have to leave the country every six months and come back in again. (sigh) Technically, there are ways around this (yes, we know about registration), but for us, a trip into Poland twice a year has historically been cheaper, simpler, and infinitely more pleasant than the alternative.
 tags:
 - family
-author: "Joshua Steele"
-
 ---
 
-Once again, Kels and I are embarking on one of our mandatory, twice-a-year "vacations." Even though we have Ukrainian multi-entry visas that are good for five years, the law still states that we have to leave the country every six months and come back in again. (sigh) Technically, there are ways around this (yes, we know about registration), but for us, a trip into Poland twice a year has historically been cheaper, simpler, and infinitely more pleasant than the alternative. READMORE
+Once again, Kels and I are embarking on one of our mandatory, twice-a-year "vacations." Even though we have Ukrainian multi-entry visas that are good for five years, the law still states that we have to leave the country every six months and come back in again. (sigh) Technically, there are ways around this (yes, we know about registration), but for us, a trip into Poland twice a year has historically been cheaper, simpler, and infinitely more pleasant than the alternative.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/03/cmo2006_007_lg.jpg"><img class="size-medium wp-image-499" title="cmo2006_007_lg" src="//d21yo20tm8bmc2.cloudfront.net/2009/03/cmo2006_007_lg-300x225.jpg" alt="One of the many elegant courtyards inside Krakow's famous Wawel Castle." width="300" height="225" /></a>
 {: .article-image .article-image--has-caption}

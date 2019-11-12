@@ -1,15 +1,15 @@
 ---
-
 title: "Welcome Bryan Shufelt!"
 date: "2009-01-20 05:20:51"
+author: "Joshua Steele"
+preview: >
+  This week, we are excited to announce the arrival of a new ETO team member: missionary Bryan Shufelt. Bryan served here in Ukraine with us during <a href="http://cmoproject.org/" target="_blank">CMO 2006</a>, and proved himself a capable and faithful minister of the Gospel. Bryan is sent out <a href="http://www.fairparkbaptist.org/" target="_blank">Fairpark Baptist Church</a> in Fort Worth, Texas.
 tags:
 - bryan shufelt
 - ministry
-author: "Joshua Steele"
-
 ---
 
-This week, we are excited to announce the arrival of a new ETO team member: missionary Bryan Shufelt. Bryan served here in Ukraine with us during <a href="http://cmoproject.org/" target="_blank">CMO 2006</a>, and proved himself a capable and faithful minister of the Gospel. Bryan is sent out <a href="http://www.fairparkbaptist.org/" target="_blank">Fairpark Baptist Church</a> in Fort Worth, Texas. READMORE
+This week, we are excited to announce the arrival of a new ETO team member: missionary Bryan Shufelt. Bryan served here in Ukraine with us during <a href="http://cmoproject.org/" target="_blank">CMO 2006</a>, and proved himself a capable and faithful minister of the Gospel. Bryan is sent out <a href="http://www.fairparkbaptist.org/" target="_blank">Fairpark Baptist Church</a> in Fort Worth, Texas.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/01/bryan.jpg"><img class="size-medium wp-image-307" title="bryan" src="//d21yo20tm8bmc2.cloudfront.net/2009/01/bryan-247x300.jpg" alt="Bryan Shufelt" width="247" height="300" /></a>
 {: .article-image .article-image--has-caption}

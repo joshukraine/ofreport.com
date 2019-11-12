@@ -1,16 +1,16 @@
 ---
-
 title: "Good and Evil Shipment has Arrived!"
 date: "2009-01-02 11:14:07"
+author: "Joshua Steele"
+preview: >
+  We are very pleased to report that the entire shipment of *Good and Evil* books has arrived at last. On Tuesday morning, we unloaded all four pallets of books in L'viv. We have a growing list of people who have received the short version of G&amp;E, and have requested a full copy. We are thrilled that we can finally begin filling these requests. We believe that God will use this book to draw Ukrainians to Christ.
 tags:
 - good and evil
 - ministry
 - photos
-author: "Joshua Steele"
-
 ---
 
-We are very pleased to report that the entire shipment of *Good and Evil* books has arrived at last. On Tuesday morning, we unloaded all four pallets of books in L'viv. We have a growing list of people who have received the short version of G&amp;E, and have requested a full copy. We are thrilled that we can finally begin filling these requests. We believe that God will use this book to draw Ukrainians to Christ. READMORE
+We are very pleased to report that the entire shipment of *Good and Evil* books has arrived at last. On Tuesday morning, we unloaded all four pallets of books in L'viv. We have a growing list of people who have received the short version of G&amp;E, and have requested a full copy. We are thrilled that we can finally begin filling these requests. We believe that God will use this book to draw Ukrainians to Christ.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4229.jpg"><img class="size-medium wp-image-226" title="dsc_4229" src="//d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4229-300x199.jpg" alt="The delivery truck pulls into position near our ministry center in L'viv." width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

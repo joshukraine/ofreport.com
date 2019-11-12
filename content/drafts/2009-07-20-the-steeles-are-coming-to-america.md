@@ -1,12 +1,12 @@
 ---
-
 title: "The Steeles are Coming to America!"
 date: "2009-07-20 08:23:18"
+author: "Joshua Steele"
+preview: >
+  Yes, as many of you have heard, our family will soon be making a trip to the United States. We will be leaving L'viv on August 26, arriving in DFW the same day. While we don't have an exact return date, we expect to be back in Ukraine by mid-May, in time for the start of CMO 2010. There are actually several reasons that we decided to make this trip at this time, but one of the main ones has to do with immigration problems that have come up recently in Ukraine. Here's a quick synopsis of the situation.
 tags:
 - family
 - ministry
-author: ["Joshua Steele", "joshukraine", "@tw"]
-
 ---
 
 Yes, as many of you have heard, our family will soon be making a trip to the United States. We will be leaving L'viv on August 26, arriving in DFW the same day. While we don't have an exact return date, we expect to be back in Ukraine by mid-May, in time for the start of CMO 2010. There are actually several reasons that we decided to make this trip at this time, but one of the main ones has to do with immigration problems that have come up recently in Ukraine. Here's a quick synopsis of the situation.

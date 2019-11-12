@@ -1,15 +1,15 @@
 ---
-
 title: "We have a one-year-old!"
 date: "2009-01-22 13:37:16"
+author: "Kelsie Steele"
+preview: >
+  It is hard to believe that our little baby girl is already one year old! Her actual birthday was on Saturday, the 17th, but we were so busy we didn't celebrate until last night. At least when they're this little they don't know the difference!
 tags:
 - family
 - photos
-author: "Kelsie Steele"
-
 ---
 
-It is hard to believe that our little baby girl is already one year old! Her actual birthday was on Saturday, the 17th, but we were so busy we didn't celebrate until last night. At least when they're this little they don't know the difference! READMORE
+It is hard to believe that our little baby girl is already one year old! Her actual birthday was on Saturday, the 17th, but we were so busy we didn't celebrate until last night. At least when they're this little they don't know the difference!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4483.jpg"><img class="size-medium wp-image-320" title="dsc_4483" src="//d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4483-199x300.jpg" alt="Our little Rebekah Praise" width="199" height="300" /></a>
 {: .article-image .article-image--has-caption}
