@@ -20,7 +20,7 @@
         </p>
 
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <div class="preview-text" v-html="renderMd(article.preview)" />
+        <div v-if="article.preview" class="preview-text" v-html="renderMd(article.preview)" />
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
