@@ -10,7 +10,7 @@ tags:
 
 As Kelsie and I embarked on what would become a life-long journey together, our relationship was unlike anything I had envisioned. I was still in Thailand and she in Oklahoma. My acquaintance with her family had reached the ripe old age of three weeks, and neither of us had ever seen each other in person. Our budding new friendship sounded more like a success story from an online dating site than a Christian courtship. Yet none involved could deny that God was leading.
 
-READMORE
+
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2013/01/P1010017.jpg"><img class="size-medium wp-image-1707 " alt="Kelsie receives her first bouquet from me while I was still overseas." src="//d21yo20tm8bmc2.cloudfront.net/2013/01/P1010017-450x337.jpg" /></a>
 {: .article-image .article-image--has-caption}

@@ -12,7 +12,7 @@ There have been relatively few times during my missionary career when I have had
 
 Today I witnessed just such a rebirth in my own living room.
 
-READMORE
+
 
 Several months ago, a man named Vasyl began attending our English Club here in L’viv. It was evident from the beginning that God was working in his heart, and he asked lots of questions about the Lord. On two prior occasions we had extended conversations during which I explained the Gospel to him in detail. Although he seemed very open, it just didn’t quite penetrate.
 

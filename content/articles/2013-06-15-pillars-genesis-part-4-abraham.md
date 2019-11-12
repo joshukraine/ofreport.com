@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Historically, men have sought God’s favor through their works. While this pursuit is theoretically legitimate, it is always found inadequate due to the presence of sin. Although righteous works are indeed pleasing to God, they cannot undo evil works.
 
-READMORE
+
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2013/05/Abraham.jpg"><img class="alignleft  wp-image-1816" alt="Abraham" src="//d21yo20tm8bmc2.cloudfront.net/2013/05/Abraham-372x450.jpg" /></a>
 {: .article-image .article-image--has-caption}

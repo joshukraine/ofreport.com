@@ -14,7 +14,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 ### Joseph’s Forgiveness
 Joseph is often acclaimed as the most complete type of Christ found in the Old Testament. Entire charts have been constructed to show the numerous parallels between the life of Joseph and the life of our Savior. Of all Joseph’s qualities, his forgiveness of those who had been his persecutors is among the most Christ-like.
 
-READMORE
+
 
 <img class="alignleft  wp-image-1847" style="border-color: #bbbbbb; background-color: #eeeeee;" alt="Joseph" src="//d21yo20tm8bmc2.cloudfront.net/2013/07/Joseph-372x450.jpg" />
 {: .article-image}

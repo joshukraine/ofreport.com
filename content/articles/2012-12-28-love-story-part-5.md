@@ -12,7 +12,7 @@ I am told that most young ladies receive a pleasant sort of shock when they lear
 
 Now, as her father handed over the rolled up parchment, she loosened the ribbon and read my invitation.
 
-READMORE
+
 
 *Dear Kelsie,*
 

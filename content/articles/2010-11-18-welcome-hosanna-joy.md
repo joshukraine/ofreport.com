@@ -12,7 +12,7 @@ tags:
 
 After long months of waiting and many prayers, our third daughter has arrived safe and sound. Hosanna Joy Steele was born at 1:57am on November 15th, weighing 8 lbs. and 1 oz. She was 19.7 inches long.
 
-READMORE
+
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2914.jpg"><img class="size-medium wp-image-1099" title="DSC_2914" src="//d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2914-300x199.jpg" alt="" width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

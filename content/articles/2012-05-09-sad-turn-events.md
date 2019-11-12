@@ -10,7 +10,7 @@ tags:
 
 The following is copied from an email which I sent out yesterday to a small group of family and friends. We appreciate your prayers for our family during this time.
 
-READMORE
+
 
 ### Email, May 8, 2012
 

@@ -10,7 +10,7 @@ tags:
 
 In our modern culture, many Christian young men scoff at the idea of contacting a girl’s father before pursuing a relationship with her. “After all, she is an adult. Let her make her own decision.” While I realize that there may be exceptions, my position to this day remains the same: if at all possible, ask Dad first. The benefits of such an approach are numerous, and in my case, though a bit nervous initially, I never regretted for a moment my decision to correspond with Kelsie’s father before making my intentions known to her.
 
-READMORE
+
 
 When Danny and I began emailing, I had no idea what to expect. But I knew that for now, Kelsie was under his jurisdiction and if I wanted a chance at winning her heart, I first needed to obtain Danny’s permission. I invited him to go at his own pace, to ask whatever questions he wanted, and to take whatever steps he felt were necessary in order to assure himself that I was ready and able to love, lead, and provide for his daughter in marriage.
 

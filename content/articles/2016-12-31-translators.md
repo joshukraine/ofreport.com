@@ -3,7 +3,7 @@ title: "Translators, Inc."
 date: "2016-12-31 17:33:10"
 author: "Joshua Steele"
 download: "OFR-Nov-Dec-2016.pdf"
-cover: "/2016/12/IMG_1900-1024x497.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573572104/OFReport/2016-12-31-translators/IMG_1900-12-6_kxzjlk.jpg"
 caption: >
   Every morning on weekdays, Abigail and I read through a portion of Bible First.<br>We are now on Lesson 10!
 preview: >
@@ -15,8 +15,6 @@ tags:
 ---
 
 One of the most common questions I am asked as a missionary is how I would describe a “typical day on the foreign mission field”. This question always amuses me because the mission field is intrinsically atypical! During my time overseas, I’ve learned that God leads our ministry through seasons. Just when we think we’ve settled into something stable, the game changes.
-
-READMORE
 
 For many years, our ministry kept a fairly steady back-and-forth rhythm of high-energy evangelism in the summers and lesson-writing coupled with discipleship efforts in the colder months. But while those efforts continue forward, we’ve recently seen God open a new front: translation.
 
@@ -31,18 +29,14 @@ Back in the mid-2000’s, the very first language group to receive a translation
 This fall, we hired Anatoliy Zhylaviy, a Ukrainian translator and philologist from our church, to begin a complete revision of our Ukrainian Bible First course. He is working through the entire course: editing, revising, and even retranslating as needed. Demand for Bible First amongst Ukrainians remains strong, and we are excited to bring these updated lessons to our students.
 
 ![Anatoliy Zhylavyi](//d21yo20tm8bmc2.cloudfront.net/2016/12/DSC_1007a-295x300.jpg)
-{: .article-image .article-image--has-caption}
 Anatoliy Zhylavyi
-{: .caption-text .article-image__caption}
 
 ### French
 
 Meet Catherine Leavitt - a French national who has spent more than two decades living in Oregon. Catherine contacted us several months ago with a desire to translate Bible First into French. She’s been working diligently on the project and is making good progress. Her father, a French linguist who still lives in France, is assisting her as well. We are very grateful to their family, and we’re looking forward to making Bible First available as a ministry tool for believers in France!
 
 ![Catherine Leavitt](//d21yo20tm8bmc2.cloudfront.net/2016/12/IMG_3244-400x300.jpg)
-{: .article-image .article-image--has-caption}
 Catherin Leavitt
-{: .caption-text .article-image__caption}
 
 ### Spanish
 
@@ -51,9 +45,7 @@ Several months ago, we received an email from a lady named Maria Sanchez. Maria 
 Over the past several months, Maria has kept us on our toes as she has sent email after email with new drafts, questions, corrections, and more. She has now completed translating up through Lesson 9 - almost halfway!
 
 ![Maria Sanchez](//d21yo20tm8bmc2.cloudfront.net/2016/12/mail_image_preview-400x300.png)
-{: .article-image .article-image--has-caption}
 Maria Sanchez
-{: .caption-text .article-image__caption}
 
 ### The Language of the Web
 
@@ -68,7 +60,6 @@ We’ll be writing more about this project in future updates, but for now, pleas
 Oh, and there’s one more thing: it’s almost baby time! Kelsie is due to deliver our first son in early January. Please pray for our family–and Kelsie in particular–as we prepare to welcome our new little boy!
 
 ![Steele Kids](//d21yo20tm8bmc2.cloudfront.net/2016/12/steele-girls-338x450.jpg)
-{: .article-image}
 
 ### How You Can Pray
 

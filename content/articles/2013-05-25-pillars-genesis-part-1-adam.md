@@ -15,7 +15,7 @@ The following text is taken from the twentieth and final lesson of <a title="Bib
 
 Genesis introduces many significant characters, but seven individuals in particular clearly illustrate the Gospel message in story form. These men–Adam, Abel, Noah, Abraham, Isaac, Jacob and Joseph–are Genesis’ Seven Pillars. Their stories constitute the bulk of the Genesis narrative, each one presenting a different aspect of the Gospel and revealing God’s plan for the salvation of the world.
 
-READMORE
+
 
 ### Adam’s Dominion
 

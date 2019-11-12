@@ -3,7 +3,7 @@ title: "Smoky Mountain Shindig"
 date: "2014-11-03 03:33:29"
 author: "Joshua Steele"
 download: "OFR-Sep-Oct-2014.pdf"
-cover: "/2014/11/ofr-shindig-cover.png"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573559532/OFReport/2014-11-03-smoky-mountain-shindig/ofr-shindig-cover-12-6_bzlbvv.jpg"
 caption: >
   This September, Kelsie and I took part in No Greater Joy’s Smoky Mountain Shindig. Over 2,000 people gathered for an unforgettable conference filled with solid Bible teaching, singing, fellowship, games, and encouragement.
 preview: >
@@ -15,8 +15,6 @@ tags:
 ---
 
 When Michael and Debi Pearl heard we were coming to the US for the birth of our baby, they invited Kelsie and I to speak at their third annual Shindig, scheduled for September 10-14. We agreed to come and were blessed beyond all expectation! While there isn’t room here to give a full report of all that happened during the conference, I’d like to share a few of the highlights.
-
-READMORE
 
 The Shindig was held at the Ridgecrest Conference Center in North Carolina. Nestled in the beautiful Smoky Mountains, it turned out to be the perfect venue for a conference that we believe was used of God to bless and encourage a multitude of families.
 
@@ -35,7 +33,6 @@ If you’d like to learn more about the Shindig, be sure to visit <a href="http:
 This year, we had just one CMO guy who joined us from the US. His name is James Slice, and he is now preparing to go as a full-time missionary to Egypt. Even before coming to Ukraine, James had his eye on Egypt, and has spent more than a year studying Arabic.
 
 <img class="alignleft size-full wp-image-1941" src="//d21yo20tm8bmc2.cloudfront.net/2014/11/james-slice.png" alt="james-slice" />
-{: .article-image}
 
 We ministered side-by-side with James for two months in Ukraine, and I can say with conviction that he is one of the most committed and faithful men who has ever served on a CMO team. I speak for the entire board of Euro Team Outreach in saying that we heartily recommend him as man of integrity who is stepping out by faith to obey God’s call on his life.
 

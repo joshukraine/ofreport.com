@@ -10,8 +10,6 @@ tags:
 
 On Sunday morning, June 3, I preached a message called Patient Faith at our home church. In this message, I shared some of the things that God had been teaching our family through the discovery of our unborn daughter's severe genetic deformity. Our daughter passed away about one week later.
 
-READMORE
-
 You can listen to the message using the audio player below, or download it by right-clicking the download link and selecting "Save as...".
 
 ### Patient Faith (51 minutes)

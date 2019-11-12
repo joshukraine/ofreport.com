@@ -10,8 +10,6 @@ tags:
 
 On the day that our fourth child was stillborn, my father wrote her a letter. With his permission, I've decided to share it with you. This letter offers yet another glimpse into the goodness and sovereignty of God, who used what seemed a tragedy to bless many.
 
-READMORE
-
 *Dear precious Little One,*
 
 *Thank you for the sweet love you brought to your mommy and daddy and dear sisters as well as all of our family. You have a most special place in all of our hearts as we say goodbye and farewell for a short time until we meet again. We will miss you and think of you often.*

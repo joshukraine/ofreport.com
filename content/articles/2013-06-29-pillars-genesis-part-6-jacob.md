@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Jacob, the third of the great patriarchs, seemed an unlikely candidate to carry on the Abrahamic covenant, and yet his life demonstrated a personal relationship with God and a genuine walk of faith. Many aspects of Jacob’s life parallel that of Christ, but perhaps most significant is his inheritance.
 
-READMORE
+
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2013/05/Jacob.jpg"><img class="alignleft  wp-image-1831" alt="Jacob" src="//d21yo20tm8bmc2.cloudfront.net/2013/05/Jacob-366x450.jpg" /></a>
 {: .article-image}

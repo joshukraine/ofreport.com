@@ -12,8 +12,6 @@ Dear Subscribers,
 
 Due to an unexpected email policy change made by our web hosting provider, we have been forced to completely rebuild the subscriber database used by our blog. It is for this reason that you may not have received any notifications from our blog in recent weeks.
 
-READMORE
-
 The process is now complete, but if you wish to continue receiving our updates you will need to resubscribe to our blog. To do this, simply follow these steps:
 
 * Add the email address <a href="mailto:admin@ofreport.com"><strong>admin@ofreport.com</strong></a> to your contacts list. This way, our emails will not get routed to your spam folder.

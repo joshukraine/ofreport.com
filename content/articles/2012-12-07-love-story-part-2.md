@@ -10,7 +10,7 @@ tags:
 
 My introduction to Kelsie Powell was unlike anything I had previously imagined. When first I heard of her, we were about as far apart geographically as it is possible for any two people to be on this planet. In early 2004, she was living in Oklahoma with her parents while I was working on a short-term missions project in Thailand.
 
-READMORE
+
 
 My sister’s email description of Kelsie was glowing. The highlights included such demonstratives as “Godly”, “virtuous”, “committed”, and one that caught my particular attention: “praying to marry a missionary.” This last point addressed a major question that I had pondered for some time: what type of girl would consent to marry a missionary, knowing that she would likely spend the rest of her life in some remote country overseas? Apparently, Kelsie was just such a girl.
 

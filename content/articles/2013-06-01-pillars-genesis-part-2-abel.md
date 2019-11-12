@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Abel’s offering of a lamb in Genesis 4 clearly represents the payment God requires to atone for (that is, cover) sin. Only innocent blood possesses the judicial power to effectively remove sin. (See Leviticus 17:11, Hebrews 9:22)
 
-READMORE
+
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2013/06/Abel.jpg"><img class="alignleft  wp-image-1808" alt="Cain and Abel" src="//d21yo20tm8bmc2.cloudfront.net/2013/06/Abel-366x450.jpg" /></a>
 {: .article-image}

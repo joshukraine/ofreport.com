@@ -3,7 +3,7 @@ title: "Overcome Evil with Good"
 date: "2014-07-17 15:24:46"
 author: "Joshua Steele"
 download: "OFR-Jun-Aug-2014.pdf"
-cover: "/2014/07/overcome-1024x572.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573559780/OFReport/2014-07-17-overcome-evil-with-good/overcome-evil-with-good-12-6_qyiwnu.jpg"
 caption: >
   At a recent film showing in the village of Ilemnya (pronounced ee-LEM-nya) we had over 40 kids in attendance. Each of them received copies of Good and Evil Short plus starter packets for our Bible course.
 preview: >
@@ -17,8 +17,6 @@ tags:
 ---
 
 Carpathian villages, though beautiful in photos, can be surprisingly dark places. Entrenched in centuries of religion and superstition, the people who live in these mountain communities often embody a sad yet all too common paradox: *“They profess that they know God; but in works they deny him...” (Titus 1:16)*
-
-READMORE
 
 Consider the children pictured above. The Bible literature they were given has the potential to lead them to salvation through faith in Christ. Yet some may never even have the chance to read the material or consider its claims. There is great likelihood that parents and grandparents, misguided by the deception of false teaching, will snatch away the books with a stern warning to avoid accepting propaganda from sects. Anyone from the outside who talks of God or the Bible is not to be trusted.
 

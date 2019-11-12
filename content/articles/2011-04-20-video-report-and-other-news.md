@@ -12,7 +12,7 @@ tags:
 
 Better late than never? I suppose the truth of that statement depends on the situation, but late as it may be, our *latest* ETO Video Report is online! Go ahead and check it out, then keep scrolling down for more news. And as always, thanks for keeping up with our ministry and praying for us!
 
-READMORE
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Czj5jzdAoa0" frameborder="0" allowfullscreen></iframe>
 

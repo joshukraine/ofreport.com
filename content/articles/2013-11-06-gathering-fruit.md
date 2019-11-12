@@ -3,7 +3,7 @@ title: "Gathering Fruit"
 date: "2013-11-06 15:00:55"
 author: "Joshua Steele"
 download: "OFR-Oct-Nov-2013.pdf"
-cover: "/2013/11/IMG_5965.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573560705/OFReport/2013-11-06-gathering-fruit/IMG_5965-12-6_uojuwd.jpg"
 caption: >
   “He that goeth forth and weepeth, bearing precious seed, Shall doubtless come again with rejoicing, bringing his sheaves with him.” (Psalm 126:6)
 preview: >
