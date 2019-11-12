@@ -10,7 +10,7 @@ md.use(mila, {
   pattern: /^https?:\/\//,
   attrs: {
     target: '_blank',
-    rel: 'noopener',
+    rel: 'noopener noreferrer',
   },
 });
 
