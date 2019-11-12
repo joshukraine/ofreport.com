@@ -4,7 +4,7 @@
       <div v-if="article.cover" class="-mx-4 -mt-4 mb-4">
         <card-image :article-cover="article.cover"
                     :width="customWidth"
-                    :alt="article.caption"
+                    :alt="altText"
         />
       </div>
       <div>
@@ -59,6 +59,9 @@ export default {
     },
     publishedOn() {
       return dayjs(this.article.date).format('MMMM D, YYYY');
+    },
+    altText() {
+      return this.article.caption ? this.article.caption : '';
     },
   },
 };

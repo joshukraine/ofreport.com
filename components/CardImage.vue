@@ -25,7 +25,7 @@ export default {
     },
     alt: {
       type: String,
-      required: true,
+      default: '',
     },
   },
   computed: {
