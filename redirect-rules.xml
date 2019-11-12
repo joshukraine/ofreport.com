@@ -251,7 +251,7 @@
       <KeyPrefixEquals>2014/07/overcome-evil-with-good</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2014-07-17-overcome-evil-with-good</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2014-07-17-overcome-evil-with-good</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -260,7 +260,7 @@
       <KeyPrefixEquals>2014/05/gearing-up-cmo</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2014-05-13-gearing-up-cmo</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2014-05-13-gearing-up-cmo</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -269,7 +269,7 @@
       <KeyPrefixEquals>2014/05/baby-way</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2014-05-23-baby-way</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2014-05-23-baby-way</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -278,7 +278,7 @@
       <KeyPrefixEquals>2014/03/news-front</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2014-03-05-news-front</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2014-03-05-news-front</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -287,7 +287,7 @@
       <KeyPrefixEquals>2014/01/position-ukraine</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2014-01-25-position-ukraine</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2014-01-25-position-ukraine</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -296,7 +296,7 @@
       <KeyPrefixEquals>2013/11/gathering-fruit</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-11-06-gathering-fruit</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-11-06-gathering-fruit</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -305,7 +305,7 @@
       <KeyPrefixEquals>2013/09/cmo-2013-summary</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-09-03-cmo-2013-summary</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-09-03-cmo-2013-summary</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -314,7 +314,7 @@
       <KeyPrefixEquals>2013/07/pillars-genesis-part-7-joseph</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-07-06-pillars-genesis-part-7-joseph</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-07-06-pillars-genesis-part-7-joseph</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -323,7 +323,7 @@
       <KeyPrefixEquals>2013/06/pillars-genesis-part-6-jacob</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-06-29-pillars-genesis-part-6-jacob</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-06-29-pillars-genesis-part-6-jacob</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -332,7 +332,7 @@
       <KeyPrefixEquals>2013/06/pillars-genesis-part-5-isaac</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-06-22-pillars-genesis-part-5-isaac</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-06-22-pillars-genesis-part-5-isaac</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -341,7 +341,7 @@
       <KeyPrefixEquals>2013/06/pillars-genesis-part-4-abraham</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-06-15-pillars-genesis-part-4-abraham</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-06-15-pillars-genesis-part-4-abraham</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -350,7 +350,7 @@
       <KeyPrefixEquals>2013/06/pillars-genesis-part-3-noah</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-06-08-pillars-genesis-part-3-noah</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-06-08-pillars-genesis-part-3-noah</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -359,7 +359,7 @@
       <KeyPrefixEquals>2013/06/pillars-genesis-part-2-abel</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-06-01-pillars-genesis-part-2-abel</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-06-01-pillars-genesis-part-2-abel</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -368,7 +368,7 @@
       <KeyPrefixEquals>2013/05/pillars-genesis-part-1-adam</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-05-25-pillars-genesis-part-1-adam</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-05-25-pillars-genesis-part-1-adam</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -377,7 +377,7 @@
       <KeyPrefixEquals>2013/05/230k</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-05-23-230k</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-05-23-230k</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -386,7 +386,7 @@
       <KeyPrefixEquals>2013/04/bible-first-final-lessons</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-04-13-bible-first-final-lessons</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-04-13-bible-first-final-lessons</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -395,7 +395,7 @@
       <KeyPrefixEquals>2013/03/angels</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-03-14-angels</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-03-14-angels</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -404,7 +404,7 @@
       <KeyPrefixEquals>2013/02/gospel-story-joseph</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-02-20-gospel-story-joseph</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-02-20-gospel-story-joseph</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -413,7 +413,7 @@
       <KeyPrefixEquals>2013/02/announcing-cmo-2013</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-02-13-announcing-cmo-201k</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-02-13-announcing-cmo-201k</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -422,7 +422,7 @@
       <KeyPrefixEquals>2013/01/love-story-part-7</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-01-11-love-story-part-7</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-01-11-love-story-part-7</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -431,7 +431,7 @@
       <KeyPrefixEquals>2013/01/love-story-part-6</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-01-08-january-ofr-bible-first</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-01-08-january-ofr-bible-first</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -440,7 +440,7 @@
       <KeyPrefixEquals>2013/01/january-ofr-bible-first</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2013-01-04-love-story-part-6</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2013-01-04-love-story-part-6</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -449,7 +449,7 @@
       <KeyPrefixEquals>2012/12/love-story-part-5</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-12-28-love-story-part-5</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-12-28-love-story-part-5</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -458,7 +458,7 @@
       <KeyPrefixEquals>2012/12/love-story-part-4</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-12-21-love-story-part-4</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-12-21-love-story-part-4</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -467,7 +467,7 @@
       <KeyPrefixEquals>2012/12/love-story-part-3</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-12-14-love-story-part-3</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-12-14-love-story-part-3</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -476,7 +476,7 @@
       <KeyPrefixEquals>2012/12/love-story-part-2</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-12-07-love-story-part-2</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-12-07-love-story-part-2</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -485,7 +485,7 @@
       <KeyPrefixEquals>2012/11/today-fly</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-11-04-today-fly</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-11-04-today-fly</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -494,7 +494,7 @@
       <KeyPrefixEquals>2012/11/love-story</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-11-27-love-story</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-11-27-love-story</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -503,7 +503,7 @@
       <KeyPrefixEquals>2012/11/love-story-part-1</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-11-30-love-story-part-1</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-11-30-love-story-part-1</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -512,7 +512,7 @@
       <KeyPrefixEquals>2012/10/new-chapter</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-10-19-new-chapter</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-10-19-new-chapter</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -521,7 +521,7 @@
       <KeyPrefixEquals>2012/09/subscriptions-blog</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-09-30-subscriptions-blog</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-09-30-subscriptions-blog</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -530,7 +530,7 @@
       <KeyPrefixEquals>2012/09/project-firsts</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-09-13-project-firsts</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-09-13-project-firsts</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -539,7 +539,7 @@
       <KeyPrefixEquals>2012/08/faithful-men</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-08-14-faithful-men</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-08-14-faithful-men</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -548,7 +548,7 @@
       <KeyPrefixEquals>2012/07/patient-faith</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-07-03-patient-faith</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-07-03-patient-faith</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -557,7 +557,7 @@
       <KeyPrefixEquals>2012/07/letter-granddad</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-07-10-letter-granddad</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-07-10-letter-granddad</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -566,7 +566,7 @@
       <KeyPrefixEquals>2012/07/july-newsletter</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-07-16-july-newsletter</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-07-16-july-newsletter</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -575,7 +575,7 @@
       <KeyPrefixEquals>2012/06/little-one</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-06-26-little-one</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-06-26-little-one</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -584,7 +584,7 @@
       <KeyPrefixEquals>2012/06/delivery-tuesday</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-06-24-delivery-tuesday</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-06-24-delivery-tuesday</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -593,7 +593,7 @@
       <KeyPrefixEquals>2012/06/baby-with-the-lord</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-06-18-baby-with-the-lord</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-06-18-baby-with-the-lord</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -602,7 +602,7 @@
       <KeyPrefixEquals>2012/05/sinner-home</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-05-30-sinner-home</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-05-30-sinner-home</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -611,7 +611,7 @@
       <KeyPrefixEquals>2012/05/sad-turn-events</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-05-09-sad-turn-events</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-05-09-sad-turn-events</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -620,7 +620,7 @@
       <KeyPrefixEquals>2012/05/registered</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-05-01-registered</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-05-01-registered</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -629,7 +629,7 @@
       <KeyPrefixEquals>2012/05/headed-home</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-05-15-headed-home</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-05-15-headed-home</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -638,7 +638,7 @@
       <KeyPrefixEquals>2012/05/cmo-returns</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-05-29-cmo-returns</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-05-29-cmo-returns</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -647,7 +647,7 @@
       <KeyPrefixEquals>2012/04/visas-and-beyond</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-04-05-visas-and-beyond</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-04-05-visas-and-beyond</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -656,7 +656,7 @@
       <KeyPrefixEquals>2012/04/doors-opening-skole</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-04-01-doors-opening-skole</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-04-01-doors-opening-skole</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -665,7 +665,7 @@
       <KeyPrefixEquals>2012/03/what-saith-scripture</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-03-01-what-saith-scripture</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-03-01-what-saith-scripture</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -674,7 +674,7 @@
       <KeyPrefixEquals>2012/03/visas</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-03-13-visas</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-03-13-visas</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -683,7 +683,7 @@
       <KeyPrefixEquals>2012/03/krakow</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-03-07-krakow</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-03-07-krakow</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -692,7 +692,7 @@
       <KeyPrefixEquals>2012/03/family-saturday</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-03-10-family-saturday</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-03-10-family-saturday</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -701,7 +701,7 @@
       <KeyPrefixEquals>2012/02/pray-open-doors</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-02-05-pray-open-doors</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-02-05-pray-open-doors</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -710,7 +710,7 @@
       <KeyPrefixEquals>2012/02/optical-illusion</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-02-28-optical-illusion</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-02-28-optical-illusion</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -719,7 +719,7 @@
       <KeyPrefixEquals>2012/02/abby-beka-hebrews-11</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-02-09-abby-beka-hebrews-11</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-02-09-abby-beka-hebrews-11</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -728,7 +728,7 @@
       <KeyPrefixEquals>2012/01/faces</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-01-04-new-faces</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-01-04-new-faces</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -737,7 +737,7 @@
       <KeyPrefixEquals>2012/01/every-perfect-gift</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2012-01-03-every-perfect-gift</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2012-01-03-every-perfect-gift</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -746,7 +746,7 @@
       <KeyPrefixEquals>2010/09/looking-forward-to-2012-2</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2010-09-17-looking-forward-to-2012</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2010-09-17-looking-forward-to-2012</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
@@ -755,7 +755,7 @@
       <KeyPrefixEquals>2010/02/young-mens-conference</KeyPrefixEquals>
     </Condition>
     <Redirect>
-      <ReplaceKeyPrefixWith>2010-02-08-young-mens-conference</ReplaceKeyPrefixWith>
+      <ReplaceKeyPrefixWith>blog/2010-02-08-young-mens-conference</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
 
