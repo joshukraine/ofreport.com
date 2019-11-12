@@ -55,10 +55,7 @@ export default {
   },
   computed: {
     customWidth() {
-      if (this.featured) {
-        return '740';
-      }
-      return '610';
+      return this.featured ? '740' : '610';
     },
     publishedOn() {
       return dayjs(this.article.date).format('MMMM D, YYYY');
