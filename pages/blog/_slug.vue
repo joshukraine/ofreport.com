@@ -56,6 +56,7 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
 import markdownit from '~/mixins/markdownit';
 import { parameterize, cldOptimize } from '~/config/utils/helpers';
+import site from '~/data/site.json';
 
 export default {
   components: {
@@ -93,14 +94,11 @@ export default {
       return cldOptimize(this.fm.cover, opts);
     },
     ogImage() {
-      const opts = [
-        'c_fill',
-        'f_auto',
-        'h_630',
-        'q_auto',
-        'w_1200',
-      ];
-      return cldOptimize(this.fm.cover, opts);
+      const opts = ['c_fill', 'f_auto', 'h_630', 'q_auto', 'w_1200'];
+      if (this.fm.cover) {
+        return cldOptimize(this.fm.cover, opts);
+      }
+      return cldOptimize(site.image, opts);
     },
     publishedOn() {
       return dayjs(this.fm.date).format('MMMM D, YYYY');
