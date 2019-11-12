@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Noah lived in an era of wickedness so terrible that it caused God to regret His creation of the human race. Yet in the midst of this universal debauchery, Noah was found to be righteous.
 
-READMORE
+
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2013/05/Noah.jpg"><img class="alignleft  wp-image-1812" alt="Noah" src="//d21yo20tm8bmc2.cloudfront.net/2013/05/Noah-378x450.jpg" /></a>
 {: .article-image}

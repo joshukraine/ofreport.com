@@ -10,7 +10,7 @@ tags:
 
 After only three weeks, Danny surprised me by stating that he felt this was of the Lord and that we should tell Kelsie about it. “How would you like to tell her?” he asked. Since I was still in Thailand, my options were limited. Ultimately, we decided that I would write an introductory letter. Danny and his wife, Cindy, would print it on parchment paper, tie it up with a burgundy ribbon, and present it to Kelsie.
 
-READMORE
+
 
 I believe there were those at the time who, upon hearing our story, worried that Danny and I were concocting an arranged marriage in which Kelsie had no say. Nothing could be further from the truth. As her father, Danny was merely doing what any good father should do: protecting his daughter from potentially harmful relationships and doing all he could to find for her the man who would become her life-long companion. That said, it was understood from the beginning that Kelsie had veto power. I had proposed a courtship, Danny had approved, but the final decision would be Kelsie’s.
 

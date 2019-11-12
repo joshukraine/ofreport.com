@@ -10,7 +10,7 @@ tags:
 
 Last Monday morning (3/14), Kelsie and I traveled with our friends, the Days, to Krakow to apply for new religious visas. Essentially these visas will allow us to stay in the country for longer periods of time without having to continually cross the border every 90 days.
 
-READMORE
+
 
 We arrived in Krakow late Monday afternoon, and we were at the Ukrainian embassy first thing Tuesday morning. We had a bit of a run-around trying to get all the necessary photo-copies made, payments submitted, and receipts turned in before the embassy's document submission deadline of 12 noon, but with God's help we made it in time. Later that afternoon, we picked up our passports complete with brand new, one-year R visas. We were back in Lviv early Wednesday morning. Thank you all for praying about this with us!
 

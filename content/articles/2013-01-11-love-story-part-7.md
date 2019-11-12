@@ -10,7 +10,7 @@ tags:
 
 It wasn’t long before I knew I needed to get State-side. Only a couple of weeks after completing a transition back to Ukraine from Thailand, I flew home to Texas where Kelsie was waiting for me. Her parents had moved up to Calgary, Canada due to a work assignment from Danny’s employer, but Kelsie stayed behind so we could meet and begin to spend time together in person.
 
-READMORE
+
 
 As the days passed, my confidence in our relationship grew steadily. Soon, I decided that it was time to tell Kelsie in no uncertain terms that I loved her. Trained as I was to treat such steps with extreme caution, I decided to check with Danny first. I sent off an email and soon received his reply. He gave his permission excitedly and even expressed some surprise that I had not already told Kelsie of my love!
 

@@ -10,7 +10,7 @@ tags:
 
 About three years ago, in response to requests from various people, Kelsie and I endeavored to publish our courtship story here on our blog. We were writing together, and posting as we went along. Unfortunately, the busyness of life and ministry at that time proved to be too much, and our posts slowly tapered off to nothing.
 
-READMORE
+
 
 Ever since then, I've wanted to restart that project and finish it out. This summer, the opportunity presented itself. Debi Pearl wrote me and asked if I would document our story to be published as part of Mike's new book, *<a href="http://nogreaterjoy.org/shop/in-search-of-a-help-meet-book" target="_blank">In Search of  a Help Meet</a>*. It took me longer than I expected, but I finally got the whole thing written and sent in.
 
