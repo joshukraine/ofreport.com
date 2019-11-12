@@ -3,7 +3,7 @@ title: "Platform Rising"
 date: "2016-09-22 09:01:58"
 author: "Joshua Steele"
 download: "OFR-Sep-Oct-2016.pdf"
-cover: "/2016/09/josh-preaching-cmo-2016-1024x497.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573555930/OFReport/2016-09-22-platform-rising/josh-preaching-cmo-2016_ulanjs.jpg"
 caption: >
   Preaching the Gospel after a film showing in the Carpathian village of Scherbovets.
 preview: >
@@ -16,8 +16,6 @@ tags:
 ---
 
 When I first came to Ukraine over 15 years ago, my initial goal was to learn how to speak the Ukrainian language. I knew that if I was to effectively communicate the Gospel to people here, I needed to be able to talk.
-
-READMORE
 
 As I began my language-learning journey, I became something of a fanatic. I immersed myself in Ukrainian culture, I spent hours a week studying, and I even avoided Americans so that I could maximize my talk time in Ukrainian. In under two years, I was fluent. I could read, I could write, I could converse, and I could preach. I had arrived! Or so I thought...
 
@@ -36,7 +34,6 @@ In this report, I’d like to share with you how God is blessing our platform in
 Several years ago, we translated Good and Evil into Ukrainian. We began handing out the books at film showings, and offering free copies on our web site. Back then, things were pretty quiet. But in recent months, we have seen traffic increase dramatically such that we are now sending out 50-70 books per month!
 
 <img class="aligncenter size-medium wp-image-2051" src="//d21yo20tm8bmc2.cloudfront.net/2016/09/english-good-and-evil-bogo-special-1-240x450.jpg" alt="english-good-and-evil-bogo-special-1" />
-{: .article-image}
 
 Just before CMO began this summer, someone posted a link to our web site on a Ukrainian/Russian “freebie” site. As a result, we got over 300 requests for Good and Evil books in less than 48 hours!
 
@@ -47,7 +44,6 @@ At this pace, our supply of books is fast running out, and soon it will be gone.
 Since No Greater Joy began distributing Bible First books in English, we’ve seen demand for them grow tremendously! One area that is particularly exciting is the translation of Bible First into other languages. Right now, we have Spanish and French translations in progress. There is also a possibility that a Russian translation may begin soon.
 
 <img class="aligncenter size-full wp-image-2053" src="//d21yo20tm8bmc2.cloudfront.net/2016/09/Volume-1-Cover-ES.png" alt="volume-1-cover-es" />
-{: .article-image}
 
 Meanwhile, our Bible First ministry in Ukraine is thriving as well. We continue to see an average of nearly one new student every day enrolling in the course.
 
@@ -64,7 +60,6 @@ Abigail, Rebekah, and Hosanna are all progressing well in school. Kelsie is a st
 In case you missed our blog post in June, we’d like to share some exciting news! Kelsie is in her 25th week of pregnancy. And now, after four girls, God has given us our first boy! We are thrilled and grateful for His gift of life, and we’re ready to embark on this new adventure. The girls in particular are excited that they will finally have a little brother. :)
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2016/09/its-a-boy.jpg"><img class="aligncenter size-medium wp-image-2055" src="//d21yo20tm8bmc2.cloudfront.net/2016/09/its-a-boy-450x338.jpg" alt="its-a-boy" /></a>
-{: .article-image}
 
 Aside from the usual fatigue, Kelsie is doing well. Based on the latest ultrasound data, our projected due date is January 5, 2017. Please keep Kelsie and our new baby in your prayers!
 

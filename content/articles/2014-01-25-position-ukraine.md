@@ -2,7 +2,7 @@
 title: "Our Position in Ukraine"
 date: "2014-01-25 18:40:45"
 author: "Joshua Steele"
-cover: "/2014/01/euromaydan.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573560509/OFReport/2014-01-25-position-ukraine/euromaydan-12-6_b7bbvd.jpg"
 caption: >
   As you are no doubt aware, Ukraine is in the middle of a political crisis.
 preview: >
@@ -13,8 +13,6 @@ tags:
 ---
 
 As you are no doubt aware, Ukraine is in the middle of a political crisis. The details of the conflict–which have grown more gory in recent days–are readily available on <a title="KyivPost" href="http://www.kyivpost.com/" target="_blank">major news outlets</a>, so I won’t waste space here repeating what’s been said by others. The purpose of this post is to inform you of our family’s position in Ukraine relative to current events.
-
-READMORE
 
 There are quite a few foreign missionaries (Americans, Canadians, Czech, and others) who live and minister in Ukraine. Certainly many of our supporters and friends back home are wondering, “With all this in the news about revolution in Ukraine, what are the missionaries doing?” I’ll tell you: we’ve been calling each other on the phone and asking that same question. :) While that last sentence may have brought a smile to your face (as was its intention) it is nonetheless true. In my circle of friends–both American and Ukrainian–I don’t know anyone who’s ever had to flee a country due to civil war, the declaration of martial law, or violent revolution.
 

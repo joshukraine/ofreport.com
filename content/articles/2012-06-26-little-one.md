@@ -2,7 +2,7 @@
 title: "Little One"
 date: "2012-06-26 09:23:28"
 author: "Joshua Steele"
-cover: "/2012/06/2012-06-26-20.58.34-1024x768.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573563737/OFReport/2012-06-26-little-one/2012-06-26-20.58.34-12-6_yvdmg1.jpg"
 preview: >
   The journey that we began four months ago in Ukraine ended today in a quiet family birthing room in Houston. Our day started at 5am when we checked in to Hermann Memorial Hospital and Kelsie was given her initial dose of induction medication.
 tags:
@@ -10,8 +10,6 @@ tags:
 ---
 
 The journey that we began four months ago in Ukraine ended today in a quiet family birthing room in Houston. Our day started at 5am when we checked in to Hermann Memorial Hospital and Kelsie was given her initial dose of induction medication.
-
-READMORE
 
 As anticipated, the first several hours were fairly uneventful, but as time passed the contractions increased their intensity. While labor is never easy, God gave much grace and Kelsie came through with flying colors. Kelsie's mom, Cindy, was with us along with our amazing medical staff - Dr. Berryhill and his nurse Ruth.
 
@@ -23,8 +21,6 @@ This has been a sad chapter in our lives, and yet we rejoice that the story does
 
 Farewell, Little One. Be at peace in the glory of His presence and know that Mommy and Daddy love you. Wait a little while, and we’ll be home.
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2012/06/2012-06-26-20.56.21.jpg"><img class="aligncenter size-medium wp-image-1556" title="2012-06-26 20.56.21" src="//d21yo20tm8bmc2.cloudfront.net/2012/06/2012-06-26-20.56.21-450x337.jpg" alt="" /></a>
-{: .article-image}
+<article-image publicId="OFReport/2012-06-26-little-one/Little-One-b_jdhxay.jpg" width="768" />
 
-*“But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven.”*
-*(Matthew 19:14)*
+<article-callout content='"But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven." (Matthew 19:14)' />

@@ -3,7 +3,7 @@ title: "New OFR Posted!"
 date: "2009-04-21 11:33:05"
 author: "Joshua Steele"
 download: "OFR_May_2009.pdf"
-cover: "/2009/04/all-under-sin-web.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573570465/OFReport/2009-04-21-new-ofr-posted/all-under-sin-web-12-6_wgwuaj.jpg"
 preview: >
   The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will be going out in the mail soon.
 tags:

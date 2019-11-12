@@ -2,7 +2,7 @@
 title: "Going Home"
 date: "2012-05-15 15:13:08"
 author: "Joshua Steele"
-cover: "/2012/05/photo-1024x768.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573565145/OFReport/2012-05-15-headed-home/kelsie-girls-airpor-lviv-12-6_ngkxzl.jpg"
 caption: >
   At the new airport in L'viv. Next stop: Warsaw!
 preview: >
@@ -12,8 +12,6 @@ tags:
 ---
 
 Today Kelsie and our three girls departed L'viv accompanied by my mom, Cathy. They have about 18 hours of travel ahead of them before arriving in Houston where they will be met by the Powells, Kelsie's parents. Happily, there were no problems at all when they passed through customs. What a blessing!
-
-READMORE
 
 My mom has been with our family in Ukraine for almost three weeks now and her help has been invaluable! We had initially planned to send Kelsie and the girls alone to the US, but God, knowing our current circumstances, provided a much better alternative. Mom, thanks so much for all you've done. We love you!
 

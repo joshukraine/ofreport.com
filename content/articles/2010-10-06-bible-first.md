@@ -2,7 +2,7 @@
 title: "Bible First"
 date: "2010-10-06 14:55:55"
 author: "Joshua Steele"
-cover: "/2010/10/every-word-2000w.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573569649/OFReport/2010-10-06-bible-first/DSC_2704-12-6_zvecyq.jpg"
 preview: >
   Here in Ukraine, anyone who isn't Catholic or Orthodox is considered a "sektant" (member of a sect or cult). The mere mention of attending an evangelical church is usually met with fear, skepticism and even anger.
 tags:

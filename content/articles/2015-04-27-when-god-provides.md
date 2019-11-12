@@ -3,7 +3,7 @@ title: "When God Provides"
 date: "2015-04-27 18:35:57"
 author: "Joshua Steele"
 download: "OFR-Mar-Apr-2015.pdf"
-cover: "/2015/04/steele-family-spring-20151-1024x683.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573558057/OFReport/2015-04-27-when-god-provides/steele-family-spring-20151-12-6_ia9gcd.jpg"
 caption: >
   After nearly seven years living in a 775 square foot apartment, God has graciously provided the Steeles with more living space! We’d like to share with you the story of how God recently led our growing family to a new home in L’viv.
 preview: >
@@ -15,8 +15,6 @@ tags:
 ---
 
 When we arrived back in L’viv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.
-
-READMORE
 
 For those of you who’ve never lived in L’viv, the idea of moving to a flat with a bit more space might seem straightforward. Sadly, it’s not. While one and two bedroom apartments are relatively easy to find (assuming you’re not picky about their condition) larger apartments are much rarer. Finding a home for an American family of six that was in decent shape, located near the city, and reasonably priced, threatened to be a daunting task indeed, and one that could stretch out for weeks or even months.
 
@@ -35,18 +33,14 @@ That very afternoon, I received a call from Victoria. She had gotten the message
 To my surprise, Victoria called and said she had found a large apartment right in our region that was for rent. When could we come and see it?
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/2015-02-26-15.22.22.jpg"><img class="size-medium wp-image-1974" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/2015-02-26-15.22.22-450x338.jpg" alt="The building where our new apartment is located." /></a>
-{: .article-image .article-image--has-caption}
 The building where our new apartment is located.
-{: .caption-text .article-image__caption}
 
 ### Wednesday, February 25
 
 At the agreed upon time, Kelsie and I went to the address Victoria had provided us. It was only about a five-minute drive from Tychyny, and almost across the street from the apartment that ETO rents as our “Ministry Center”!
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/stairs.jpg"><img class="wp-image-1986" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/stairs-300x450.jpg" alt="The wooden staircase leading up to the second floor of our apartment." /></a>
-{: .article-image .article-image--has-caption}
 The wooden staircase leading up to the second floor of our apartment.
-{: .caption-text .article-image__caption}
 
 Victoria was waiting on the street with the owner, and together we went inside. To say that we were surprised by what we saw would be an understatement. We had been told that it was large. Victoria thought it had four rooms? But when we entered, we found that there were five rooms, plus a dining room, and TWO BATHROOMS! (In my fourteen years in Ukraine, I’ve never lived anywhere that had two bathrooms.) Also surprising was that this apartment was actually two stories!
 
@@ -65,9 +59,7 @@ At 2pm, we sat down and signed a one-year lease for an apartment well over twice
 The Ukrainian language has a wonderful little word that translates “remodeling job”: remont. Even the Americans here use the word remont in everyday speech, partly because it’s short and easy to say, and partly because it seems everyone is either doing a remont or needs to do one.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_3200-e1430147920288.jpg"><img class="wp-image-1977" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_3200-e1430147920288-338x450.jpg" alt="Nana helped with everything from painting to dishes to homeschooling kids!" /></a>
-{: .article-image .article-image--has-caption}
 Nana helped with everything from painting to dishes to homeschooling kids!
-{: .caption-text .article-image__caption}
 
 Our new place didn’t actually need much repair, but it did need paint. So for the next week and a half, I worked with my mom and several members of the ETO team to repaint the house.
 
@@ -80,9 +72,7 @@ As the painting progressed, we began slowly ferrying our belongings over in Jess
 Finally, the remont was finished and it was time to move. We packed everything in advance, wrapped all our furniture in plastic film, and steeled ourselves (no pun intended) for what promised to be a whopper of a work day.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/2015-03-18-17.59.16.jpg"><img class="size-medium wp-image-1975" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/2015-03-18-17.59.16-450x274.jpg" alt="Moving day. The guys we hired said that in all their years in the moving business, ours was the biggest job they’d ever had!" /></a>
-{: .article-image .article-image--has-caption}
 Moving day. The guys we hired said that in all their years in the moving business, ours was the biggest job they’d ever had!
-{: .caption-text .article-image__caption}
 
 At Tychyny, we lived on the tenth floor. And the elevator is barely large enough for four people. And we have a piano. :)
 
@@ -95,31 +85,22 @@ On the day of the move, they arrived at 8am sharp. They worked all day long, hel
 ### Taste and See
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/2015-02-26-15.20.14.jpg"><img class="alignright wp-image-1973" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/2015-02-26-15.20.14-338x450.jpg" alt="2015-02-26 15.20.14" /></a>
-{: .article-image}
 
 For our family, stories like the one I’ve just told are highlights in our walk with the Lord. They are our own little Red-Sea-crossings, miracles that remind us that we follow a God who is both powerful and kind. He is a Father who loves to do good things for His children.
 
 In the weeks leading up to our move, our family had been memorizing Psalm 34. The first time we went to see our new apartment, Kelsie noticed that it was number 34, a not-so-coincidental reminder to us of the many times we have tasted the goodness of our God. *“O taste and see that the Lord is good: blessed is the man that trusteth in him.” (Psalm 34:8)*
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/dining-room.jpg"><img class="size-medium wp-image-1987" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/dining-room-450x300.jpg" alt="This is the first house we’ve ever had that has a dining room. Great place for family meals... or for homeschooling kiddos!" /></a>
-{: .article-image .article-image--has-caption}
 This is the first house we’ve ever had that has a dining room. Great place for family meals... or for homeschooling kiddos!
-{: .caption-text .article-image__caption}
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6452.jpg"><img class="size-medium wp-image-1980" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6452-450x300.jpg" alt="Plenty of room in the kitchen." /></a>
-{: .article-image .article-image--has-caption}
 Plenty of room in the kitchen.
-{: .caption-text .article-image__caption}
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6461.jpg"><img class="size-medium wp-image-1982" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6461-450x300.jpg" alt="Now the kids actually have a place to put away their toys. :)" /></a>
-{: .article-image .article-image--has-caption}
 Now the kids actually have a place to put away their toys. :)
-{: .caption-text .article-image__caption}
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6471.jpg"><img class="size-medium wp-image-1983" src="//d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6471-450x300.jpg" alt="Space for dad to have his office at home!" /></a>
-{: .article-image .article-image--has-caption}
 Space for dad to have his office at home!
-{: .caption-text .article-image__caption}
 
 ### An 8-man CMO Team
 
