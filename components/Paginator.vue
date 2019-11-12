@@ -47,6 +47,18 @@ export default {
   },
   computed: {
     pageCount() {
+      if (this.rootSegment === 'blog') {
+        return this.blogPageCount;
+      }
+      return this.fullPageCount;
+    },
+    blogPageCount() {
+      if (this.articleCount % this.perPage === 1) {
+        return this.fullPageCount - 1;
+      }
+      return this.fullPageCount;
+    },
+    fullPageCount() {
       return Math.ceil(this.articleCount / this.perPage);
     },
     paginatedRoot() {
