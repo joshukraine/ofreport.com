@@ -9,7 +9,7 @@ export default {
   mode: 'universal',
 
   env: {
-    perPage: process.env.PER_PAGE || 8,
+    perPage: process.env.PER_PAGE || 10,
   },
 
   head,
