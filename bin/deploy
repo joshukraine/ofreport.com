@@ -28,6 +28,7 @@ else
 
       printf "\\n--> Deploy complete!"
       printf "\\n--> http://ofreport.com.s3-website-us-east-1.amazonaws.com/\\n"
+      printf "\\n--> https://ofreport.com/\\n"
     fi
   else
     printf "\\n--> Checking for node_modules dependencies...\\n"
