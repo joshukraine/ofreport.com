@@ -14,5 +14,7 @@ export default {
     /^md:mt-/,
     /^md:mb-/,
     /^md:my-/,
+    /^h-/,
+    /^sm:h-/,
   ],
 };
