@@ -9,7 +9,7 @@
       </div>
       <div>
         <h2 class="mt-0 leading-none">
-          <nuxt-link class="text-gray-900 hover:text-blue-600" :to="`/blog/${article.basename}`">
+          <nuxt-link class="text-gray-900 hover:text-blue-600" :to="`/blog/${article.basename}/`">
             {{ article.title }}
           </nuxt-link>
         </h2>
@@ -24,7 +24,7 @@
       </div>
     </div>
     <p class="border-t pt-2 mt-6">
-      <nuxt-link class="text-base" :to="`/blog/${article.basename}`">
+      <nuxt-link class="text-base" :to="`/blog/${article.basename}/`">
         Read more
       </nuxt-link>
     </p>

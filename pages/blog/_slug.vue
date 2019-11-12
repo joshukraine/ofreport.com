@@ -33,7 +33,7 @@
                  :key="tag"
                  class="inline-block group"
             >
-              <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}`">
+              <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}/`">
                 <span class="opacity-50 inline-block rounded-full bg-blue-600 px-3 py-1 leading-none text-xs text-white font-bold mr-2 mb-2 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
               </nuxt-link>
             </div>
