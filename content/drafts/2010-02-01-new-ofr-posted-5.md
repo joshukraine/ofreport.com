@@ -1,20 +1,18 @@
 ---
-
 title: "New OFR Posted!"
 date: "2010-02-01 16:14:34"
+author: "Joshua Steele"
+download: "OFR-Jan-Feb-2010.pdf"
+preview: >
+  The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will going out in the mail this week, so if you're on our regular mailing list, you should be receiving a copy soon.
 tags:
 - newsletter
 - ministry
 - family
 - cmo
-author: "Joshua Steele"
-download: "OFR-Jan-Feb-2010.pdf"
-
 ---
 
 The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will going out in the mail this week, so if you're on our regular mailing list, you should be receiving a copy soon.
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/02/looking-ahead-02-01.jpg"><img class="size-medium wp-image-909" title="looking-ahead-02-01" src="//d21yo20tm8bmc2.cloudfront.net/2010/02/looking-ahead-02-01-300x199.jpg" alt="" width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}

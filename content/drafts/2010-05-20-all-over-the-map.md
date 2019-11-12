@@ -1,17 +1,15 @@
 ---
-
 title: "All Over the Map"
 date: "2010-05-20 12:18:06"
+author: "Joshua Steele"
+preview: >
+  The image below is a picture of the map hanging in our ministry office here in L'viv. Each pin represents a town or village where we have students enrolled studying the Bible. Denise Hutchison recently gathered this info from our student tracking system and set up the map. (Thanks, Denise!) At present, we have 406 students in active enrollment, and with CMO approaching, we're expecting that number to rise!
 tags:
 - ministry
 - cmo
-author: "Joshua Steele"
-
 ---
 
 The image below is a picture of the map hanging in our ministry office here in L'viv. Each pin represents a town or village where we have students enrolled studying the Bible. Denise Hutchison recently gathered this info from our student tracking system and set up the map. (Thanks, Denise!) At present, we have 406 students in active enrollment, and with CMO approaching, we're expecting that number to rise!
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/05/cbc-map.jpg"><img class="size-medium wp-image-988" title="cbc-map" src="//d21yo20tm8bmc2.cloudfront.net/2010/05/cbc-map-300x204.jpg" alt="" /></a>
 {: .article-image .article-image--has-caption}

@@ -1,17 +1,15 @@
 ---
-
 title: "We've Got News"
 date: "2010-03-23 16:44:04"
+author: "Joshua Steele"
+preview: >
+  Since our last post (which, yes, has been entirely too long) much has happened. So much, in fact, that I'm not quite sure where to begin. I suppose I'll start with the news that it most exciting:
 tags:
 - family
 - ministry
-author: "Joshua Steele"
-
 ---
 
 Since our last post (which, yes, has been entirely too long) much has happened. So much, in fact, that I'm not quite sure where to begin. I suppose I'll start with the news that it most exciting:
-
-READMORE
 
 <p style="text-align: center;"><strong>Kelsie and I are expecting our third child!</strong></p>
 

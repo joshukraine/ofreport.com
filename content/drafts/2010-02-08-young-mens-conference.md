@@ -1,16 +1,14 @@
 ---
-
 title: "Young Men's Conference"
 date: "2010-02-08 14:46:40"
+author: "Joshua Steele"
+preview: >
+  Saturday was the second and final day of our Young Men's Conference. Thank you to all of you who were praying about this. We had a great turn out (over 30 guys), and I believe that these young men were encouraged and God was glorified.
 tags:
 - ministry
-author: "Joshua Steele"
-
 ---
 
 Saturday was the second and final day of our Young Men's Conference. Thank you to all of you who were praying about this. We had a great turn out (over 30 guys), and I believe that these young men were encouraged and God was glorified.
-
-READMORE
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8531.jpg"><img class="size-medium wp-image-925 " title="DSC_8531" src="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8531-300x199.jpg" alt="" width="300" height="199" /></a>
 {: .article-image .article-image--has-caption}
