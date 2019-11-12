@@ -167,20 +167,262 @@
 
   <RoutingRule>
     <Condition>
+      <KeyPrefixEquals>2016/12/translators</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2016-12-31-translators</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2016/09/platform-rising</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2016-09-22-platform-rising</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2016/06/meet-newest-member-steele-family</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2016-06-17-meet-newest-member-steele-family</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2016/04/parenting-seminar</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2016-04-18-parenting-seminar</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2015/04/when-god-provides-2</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2015-04-27-when-god-provides</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2015/02/welcome-kathryn-grace</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2015-02-09-welcome-kathryn-grace</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2014/11/smoky-mountain-shindig</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2014-11-03-smoky-mountain-shindig</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2014/01/position-ukraine</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2014-01-25-position-ukraine</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2014/03/news-front</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2014-03-05-news-front</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/07/pillars-genesis-part-7-joseph</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-07-06-pillars-genesis-part-7-joseph</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/06/pillars-genesis-part-6-jacob</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-06-29-pillars-genesis-part-6-jacob</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/06/pillars-genesis-part-5-isaac</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-06-22-pillars-genesis-part-5-isaac</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/06/pillars-genesis-part-4-abraham</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-06-15-pillars-genesis-part-4-abraham</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/06/pillars-genesis-part-3-noah</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-06-08-pillars-genesis-part-3-noah</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/06/pillars-genesis-part-2-abel</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-06-01-pillars-genesis-part-2-abel</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/05/pillars-genesis-part-1-adam</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-05-25-pillars-genesis-part-1-adam</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/02/gospel-story-joseph</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-02-20-gospel-story-joseph</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/02/announcing-cmo-2013</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-02-13-announcing-cmo-201k</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/01/love-story-part-7</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-01-11-love-story-part-7</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2013/01/love-story-part-6</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2013-01-04-love-story-part-6</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/12/love-story-part-5</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-12-28-love-story-part-5</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/12/love-story-part-4</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-12-21-love-story-part-4</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/12/love-story-part-3</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-12-14-love-story-part-3</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/12/love-story-part-2</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-12-07-love-story-part-2</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/11/love-story</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-11-27-love-story</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/11/love-story-part-1</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-11-30-love-story-part-1</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/07/patient-faith</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-07-03-patient-faith</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>2012/06/little-one</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <ReplaceKeyPrefixWith>blog/2012-06-26-little-one</ReplaceKeyPrefixWith>
+    </Redirect>
+  </RoutingRule>
+
+  <RoutingRule>
+    <Condition>
       <KeyPrefixEquals>2009/06/fatherstepan/</KeyPrefixEquals>
     </Condition>
     <Redirect>
       <ReplaceKeyPrefixWith>blog/2009-06-10-father-stepan</ReplaceKeyPrefixWith>
     </Redirect>
   </RoutingRule>
-
-  <RoutingRule>
-    <Condition>
-      <KeyPrefixEquals>page/</KeyPrefixEquals>
-    </Condition>
-    <Redirect>
-      <ReplaceKeyPrefixWith>blog/page/</ReplaceKeyPrefixWith>
-    </Redirect>
-  </RoutingRule>
-
 </RoutingRules>
