@@ -2,7 +2,6 @@
 title: "Translators, Inc."
 date: "2016-12-31 17:33:10"
 author: "Joshua Steele"
-download: "OFR-Nov-Dec-2016.pdf"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573572104/OFReport/2016-12-31-translators/IMG_1900-12-6_kxzjlk.jpg"
 caption: >
   Every morning on weekdays, Abigail and I read through a portion of Bible First.<br>We are now on Lesson 10!
@@ -15,6 +14,8 @@ tags:
 ---
 
 One of the most common questions I am asked as a missionary is how I would describe a “typical day on the foreign mission field”. This question always amuses me because the mission field is intrinsically atypical! During my time overseas, I’ve learned that God leads our ministry through seasons. Just when we think we’ve settled into something stable, the game changes.
+
+<article-callout content="OFR-Nov-Dec-2016.pdf" :download="true" />
 
 For many years, our ministry kept a fairly steady back-and-forth rhythm of high-energy evangelism in the summers and lesson-writing coupled with discipleship efforts in the colder months. But while those efforts continue forward, we’ve recently seen God open a new front: translation.
 

@@ -2,7 +2,6 @@
 title: "Welcome, Kathryn Grace!"
 date: "2015-02-09 22:28:03"
 author: "Joshua Steele"
-download: "OFR-Jan-Feb-2015.pdf"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573558760/OFReport/2015-02-09-welcome-kathryn-grace/2015-01-05-10.41-12-6_nugqyq.jpg"
 caption: >
   We are thrilled to announce the arrival of our fourth daughter, Kathryn Grace Steele! Kathryn was born on December 30, 2014 at 12:00am. She was 20 and 3/4 inches long and weighed 8 lbs., 12 oz.
@@ -15,6 +14,8 @@ tags:
 ---
 
 Last spring, when Kelsie and I learned that we were expecting a baby, our first task was to decide where to have the birth. Given the complications we experienced during Hosanna’s birth, we felt that this time it would be wisest to come home to the U.S. We’ve been here for nearly five months now, and God has blessed tremendously. Kathryn was born at my parent’s home in Texas, and both mother and baby are recovering quite well. Our midwife, Judith Hynds, and her assistant Jenee Ohrvall, did an outstanding job, and we highly recommend them both!
+
+<article-callout content="OFR-Jan-Feb-2015.pdf" :download="true" />
 
 Kelsie did have some trouble delivering the placenta, but we were able to transport her to a local hospital and in a few hours everything was taken care of. While this was definitely one of Kelsie’s hardest births from a labor and delivery standpoint, we are grateful that God led and protected us as He always does.
 

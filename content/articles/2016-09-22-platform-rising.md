@@ -2,7 +2,6 @@
 title: "Platform Rising"
 date: "2016-09-22 09:01:58"
 author: "Joshua Steele"
-download: "OFR-Sep-Oct-2016.pdf"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573555930/OFReport/2016-09-22-platform-rising/josh-preaching-cmo-2016_ulanjs.jpg"
 caption: >
   Preaching the Gospel after a film showing in the Carpathian village of Scherbovets.
@@ -16,6 +15,8 @@ tags:
 ---
 
 When I first came to Ukraine over 15 years ago, my initial goal was to learn how to speak the Ukrainian language. I knew that if I was to effectively communicate the Gospel to people here, I needed to be able to talk.
+
+<article-callout content="OFR-Sep-Oct-2016.pdf" :download="true" />
 
 As I began my language-learning journey, I became something of a fanatic. I immersed myself in Ukrainian culture, I spent hours a week studying, and I even avoided Americans so that I could maximize my talk time in Ukrainian. In under two years, I was fluent. I could read, I could write, I could converse, and I could preach. I had arrived! Or so I thought...
 

@@ -2,7 +2,6 @@
 title: "Gaining New Ground"
 date: "2015-09-01 12:42:17"
 author: "Joshua Steele"
-download: "OFR-Sep-Oct-2015.pdf"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573557624/OFReport/2015-09-01-gaining-ground/06-IMG_6462_r7jny1.jpg"
 caption: >
   Several of the CMO 2015 team hike towards a new set of buildings during a literature campaign.
@@ -15,6 +14,8 @@ tags:
 ---
 
 This summer marked our 9th CMO project! When we first embarked down this path back in 2006, I had no idea how far the Lord would take it. Each year, He continues to bless this outreach, bringing new laborers into the field and new fruit for His glory. 
+
+<article-callout content="OFR-Sep-Oct-2015.pdf" :download="true" />
 
 One of the things I look forward to most during CMO is visiting new cities. While our team always spends a fair amount of time ministering in our home town of L’viv, we are focusing more and more on branching out to establish beachheads in other towns.
 
