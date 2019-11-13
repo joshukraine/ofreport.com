@@ -1,8 +1,8 @@
+![OFReport.com][screenshot]
+
 # OFReport.com
 
 > Our family blog, documenting our work in Ukraine
-
-![OFReport.com][screenshot]
 
 ## Overview
 
