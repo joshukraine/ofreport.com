@@ -4,6 +4,8 @@
 
 > Our family blog, documenting our work in Ukraine
 
+[![CircleCI](https://circleci.com/gh/joshukraine/ofreport.com/tree/master.svg?style=svg)](https://circleci.com/gh/joshukraine/ofreport.com/tree/master)
+
 ## Overview
 
 OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is deployed as a pre-generated static site on [Amazon S3][aws-s3]. In addition to Vue and Nuxt, several noteworthy supporting technologies have been used, including the following:
