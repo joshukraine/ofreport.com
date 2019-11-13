@@ -2,6 +2,8 @@
 
 > Our family blog, documenting our work in Ukraine
 
+![OFReport.com screenshot][screenshot]
+
 ## Overview
 
 OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is deployed as a pre-generated static site on [Amazon S3][aws-s3]. In addition to Vue and Nuxt, several noteworthy supporting technologies have been used, including the following:
@@ -137,7 +139,7 @@ Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][lic
 [nuxt-s3-deploy]: https://nuxtjs.org/faq/deployment-aws-s3-cloudfront
 [nuxt]: https://nuxtjs.org/
 [purgecss]: https://www.purgecss.com/
-[screenshot]: https://d2ppgd6w5akw3v.cloudfront.net/images/bibliya.net.ua-screenshot-2018-1200w.jpg
+[screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1573625059/OFReport/assets/ofreport.com_screenshot_c8ethn.png
 [static-gen]: https://www.staticgen.com/nuxt
 [stylelint]: https://stylelint.io/
 [tailwind]: https://tailwindcss.com/
