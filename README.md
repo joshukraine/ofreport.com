@@ -76,12 +76,12 @@ The generated site will be output to the `dist/` folder.
 
 ## Environment-specific Builds
 
-Nuxt allows you to [define environment variables][env-property] which can be accessed at compile time by calling `process.env.YOUR_VARIABLE`. This is particularly useful for generating builds with specifics that differ between, for example, production and staging environments.
+Nuxt allows you to [define environment variables][env-property] which can be accessed at compile time by calling `process.env.YOUR_VARIABLE`. This is particularly useful for generating builds with specifics that differ between, for example, production and development environments.
 
 To generate a production build, run:
 
 ```bash
-$ APP_ENV=production yarn generate
+$ APP_ENV=prod yarn generate
 ```
 
 This will, among other things, set the robots meta tag to `index,follow`. If `APP_ENV` is set to anything else, the robots tag will be set to `noindex,nofollow`.
