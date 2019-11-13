@@ -100,7 +100,7 @@ $ bin/deploy dev
 $ bin/deploy prod
 ```
 
-For more information on deployment with Nuxt, [visit their FAQ page][nuxt-s3-deploy].
+For more information on deployment with Nuxt, [visit their FAQ page][nuxt-faq].
 
 ## Webpack Bundle Analyzer
 
@@ -129,7 +129,7 @@ I use [Neovim][neovim] as my editor along with the [ALE][ale] plugin for asynchr
 Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
 
 [airbnb]: https://github.com/airbnb/javascript
-[ale]: https://github.com/w0rp/ale
+[ale]: https://github.com/dense-analysis/ale
 [aws-cloudfront]: https://aws.amazon.com/cloudfront/
 [aws-s3]: https://aws.amazon.com/getting-started/projects/host-static-website/
 [aws-ssl]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
@@ -140,7 +140,7 @@ Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][lic
 [eslint-vue]: https://yarnpkg.com/en/package/eslint-plugin-vue
 [fml]: https://hmsk.github.io/frontmatter-markdown-loader/
 [gulp-awspublish]: https://yarnpkg.com/en/package/gulp-awspublish
-[gulp]: https://yarnpkg.com/en/package/gulp
+[gulp]: https://gulpjs.com/
 [hmr]: https://webpack.js.org/concepts/hot-module-replacement/
 [http-server]: https://yarnpkg.com/en/package/http-server
 [license]: https://github.com/joshukraine/ofreport.com/blob/master/LICENSE
@@ -159,5 +159,5 @@ Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][lic
 [tailwind]: https://tailwindcss.com/
 [vue]: https://vuejs.org/
 [vuejs-paginate]: https://yarnpkg.com/en/package/vuejs-paginate
-[vuelidate]: https://monterail.github.io/vuelidate/
+[vuelidate]: https://vuelidate.netlify.com/
 [yarn]: https://yarnpkg.com/en/docs/install
