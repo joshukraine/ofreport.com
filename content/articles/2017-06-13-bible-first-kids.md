@@ -7,7 +7,7 @@ download: "OFR-May-Jun-2017.pdf"
 caption: >
   Meet some of the young people of Bible First Kids - a new class we’ve started at our church here in L’viv. From the left: Pastor Vladyslav (with Sofia), Abigail, Joshua (back), Anya, Bohdan, Timothy, Anya, Matthew, Maria.
 preview: >
-  On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request.  "I heard that you’ve been taking Abigail through the *Bible First* lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
+  On April 8, 2017, our eldest daughter Abigail was baptized following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. "I heard that you’ve been taking Abigail through the Bible First lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
 tags:
 - newsletter
 - bible first

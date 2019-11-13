@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573400861/OFReport/2
 caption: >
   L'viv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!
 preview: >
-  Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures.
+  Last Sunday, I took all the kids from our Bible First class to a rope course here in L’viv. We had a fun time and thought you might enjoy seeing some pictures.
 tags:
 - ministry
 - photos

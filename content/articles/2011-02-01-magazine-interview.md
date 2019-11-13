@@ -3,14 +3,14 @@ title: "Magazine Interview"
 date: "2011-02-01 15:40:32"
 author: "Joshua Steele"
 preview: >
-  Recently, Kelsie and I were interviewed by an online magazine called <a href="http://www.generation-impact.com/">Generation Impact</a>, edited by Grace Williamson. The magazine is a ministry of the Williamson family, and their goal is to encourage homeschoolers to be lights for Christ. Here's a brief excerpt from their web site:
+  Recently, Kelsie and I were interviewed by an online magazine called Generation Impact, edited by Grace Williamson. The magazine is a ministry of the Williamson family, and their goal is to encourage homeschoolers to be lights for Christ.
 tags:
 - ministry
 ---
 
 Recently, Kelsie and I were interviewed by an online magazine called <a href="http://www.generation-impact.com/">Generation Impact</a>, edited by Grace Williamson. The magazine is a ministry of the Williamson family, and their goal is to encourage homeschoolers to be lights for Christ. Here's a brief excerpt from their web site:
 
-"Our mission at Generation-Impact is to encourage these young people to stand strong in their convictions. We hope to uplift them by sharing the stories of other homeschool students and graduates who are striving to follow God’s call for their lives instead of the world’s. We hope to encourage those still in the process of homeschooling as well as those who have graduated and are wondering what to do next."
+> Our mission at Generation-Impact is to encourage these young people to stand strong in their convictions. We hope to uplift them by sharing the stories of other homeschool students and graduates who are striving to follow God’s call for their lives instead of the world’s. We hope to encourage those still in the process of homeschooling as well as those who have graduated and are wondering what to do next.
 
 <a href="http://www.generation-impact.com/"><img class="alignleft size-full wp-image-1153" title="Generation Impact Banner" src="//d21yo20tm8bmc2.cloudfront.net/2011/02/Generation-Impact-Banner.jpeg" alt="" /></a>
 {: .article-image}
