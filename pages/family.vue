@@ -12,7 +12,7 @@
       <p class="mt-2 text-center text-sm sm:text-base font-semibold">
         The Steele Family<br>
         Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and
-        <nuxt-link to="/blog/2019-10-14-meet-mia">
+        <nuxt-link to="/blog/2019-10-14-meet-mia/">
           Mia (not pictured)
         </nuxt-link>
       </p>

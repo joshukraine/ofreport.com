@@ -31,6 +31,7 @@ export default {
 
   buildModules: [
     '@nuxtjs/dotenv',
+    '@nuxtjs/google-analytics',
     '@nuxtjs/tailwindcss',
   ],
 
@@ -69,6 +70,11 @@ export default {
     path: '/sitemap.xml',
     hostname: 'https://ofreport.com',
     gzip: true,
+  },
+
+  googleAnalytics: {
+    id: 'UA-22952661-1',
+    dev: false,
   },
 
   build,

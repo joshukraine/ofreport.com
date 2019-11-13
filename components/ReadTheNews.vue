@@ -37,7 +37,7 @@
         <McSubscribeForm />
         <p>
           You can also access previous issues in our
-          <nuxt-link to="/archives">
+          <nuxt-link to="/archives/">
             Archives.
           </nuxt-link>
         </p>

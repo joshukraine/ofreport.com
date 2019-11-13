@@ -2,7 +2,8 @@
 title: "Life is Colorful"
 date: "2011-11-08 07:05:48"
 author: "Joshua Steele"
-caption: "L'viv is beautiful in the fall. For a large city, it's quite rich in plant life."
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573584251/OFReport/2011-11-08-life-is-colorful/IMG_0156_opt-12-6_i4mfdy.jpg"
+caption: "The center of L'viv, looking towards the Opera Theater"
 preview: >
   L'viv is beautiful in the fall. For a large city, it's quite rich in plant life. Even the downtown area boasts rows of large trees which are now displaying all kinds of vibrant colors. In a way, all these shifting colors remind me of the current state of affairs here in Ukraine. Many things are changing, and as always we are in need of your prayers as we move forward.
 tags:
@@ -13,17 +14,9 @@ tags:
 
 L'viv is beautiful in the fall. For a large city, it's quite rich in plant life. Even the downtown area boasts rows of large trees which are now displaying all kinds of vibrant colors. In a way, all these shifting colors remind me of the current state of affairs here in Ukraine. Many things are changing, and as always we are in need of your prayers as we move forward.
 
-
-
-<img class="size-large wp-image-1281" title="IMG_0156_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0156_opt-1024x682.jpg" alt="" width="584" height="388" />
-{: .article-image .article-image--has-caption}
-The center of L'viv, looking towards the Opera Theater
-{: .caption-text .article-image__caption}
-
 ## Immigration
 
 <img class="alignleft size-full wp-image-1283" style="margin-right: 10px; border-style: initial; border-color: initial; border-image: initial; border-width: 0px;" title="ukraine_coat_of_arms" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/ukraine_coat_of_arms.png" alt="" />
-{: .article-image}
 
 If you've been following our ministry for any length of time, then you've heard us speak about the difficulties of obtaining visas and other documents necessary for us to live in Ukraine on a continual basis. One of the biggest problems in this area is the frequency with which Ukraine changes its immigration policies. Guess what? They did it again.
 
@@ -40,9 +33,7 @@ Abby is growing into quite the young lady. She's reached the point that she can 
 Most of all, we are thrilled to see Abby developing a tender heart towards us and towards her siblings. She consistently exhibits a joyful, obedient spirit and is always looking for ways to please us.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0250_opt.jpg"><img class="size-medium wp-image-1285 " title="IMG_0250_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0250_opt-300x200.jpg" alt="" width="300" height="200" /></a>
-{: .article-image .article-image--has-caption}
 Abigail Hope, age 6
-{: .caption-text .article-image__caption}
 
 To see a recent video of Abby quoting a poem in Ukrainian, check out Kelsie's new blog, <a title="Be of Good Courage" href="http://kelsiesteele.blogspot.com/2011/11/abby-presents-do-you-like-mushrooms.html" target="_blank">Be of Good Courage</a>.
 
@@ -51,42 +42,30 @@ To see a recent video of Abby quoting a poem in Ukrainian, check out Kelsie's ne
 Our little second-born is not so little anymore. Of late, she's developed a particular interest in cleaning the house. Recently, while I was home alone with the kids, she marched up to me and announced, "Daddy, I'm going to clean the whole house!" And with a little help, she undertook to do just that.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0237_opt.jpg"><img class="size-medium wp-image-1286" title="IMG_0237_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0237_opt-300x200.jpg" alt="" width="300" height="200" /></a>
-{: .article-image .article-image--has-caption}
 Rebekah Praise, age 3 (4 in January)
-{: .caption-text .article-image__caption}
 
 ### Hosanna
 
 Cutie #3 in our family is crawling! She found her mobility a few weeks ago and is quite the happy explorer. There are few things I enjoy more than to hear her little hands and feet padding along down the hallway, followed by her joyful face turning the corner with big eyes that say, "Play with me, Daddy!"
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0171_opt.jpg"><img class="size-medium wp-image-1289" title="IMG_0171_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0171_opt-300x200.jpg" alt="" width="300" height="200" /></a>
-{: .article-image .article-image--has-caption}
 Oooo, Daddy! Can I have that?
-{: .caption-text .article-image__caption}
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0047_opt.jpg"><img class=" wp-image-1288  " title="IMG_0047_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0047_opt-300x200.jpg" alt="" width="300" height="200" /></a>
-{: .article-image .article-image--has-caption}
 Hosanna loves her rocking chair!
-{: .caption-text .article-image__caption}
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0211_opt.jpg"><img class="size-medium wp-image-1290" title="IMG_0211_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0211_opt-300x200.jpg" alt="" width="300" height="200" /></a>
-{: .article-image .article-image--has-caption}
 Playing with new toys at Uncle Jessie's house
-{: .caption-text .article-image__caption}
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0035_opt.jpg"><img class="size-medium wp-image-1287" title="IMG_0035_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0035_opt-300x200.jpg" alt="" width="300" height="200" /></a>
-{: .article-image .article-image--has-caption}
 This kid really lives up to her name: Hosanna Joy! She will turn 1 on November 15.
-{: .caption-text .article-image__caption}
 
 ### Mom and Dad
 
 Kelsie and I are of course kept very busy with our kiddos and a growing ministry. But most importantly, we are more in love now than ever before. We recently celebrated seven years of marriage, and had the fun opportunity to spend a few days in Austria together. We both agree that these are the best years of our lives so far. God's blessing is tremendous and we count ourselves quite privileged to have the stewardship of three beautiful children.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0507_opt.jpg"><img class="size-medium wp-image-1291" title="IMG_0507_opt" src="//d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0507_opt-300x225.jpg" alt="" width="300" height="225" /></a>
-{: .article-image .article-image--has-caption}
 Kelsie and Joshua, celebrating seven years together in Salzburg, Austria.
-{: .caption-text .article-image__caption}
 
 ## Ministry Report
 

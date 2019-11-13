@@ -21,7 +21,7 @@
           </h1>
           <p class="text-sm mt-1">
             <a v-if="authorHasLink"
-               :href="articleAuthor.link"
+               :href="fmAuthorLink"
                class="text-sm"
             >{{ articleAuthor.name }}</a>
             <span v-else class="text-gray-600">{{ articleAuthor.name }}</span>
@@ -33,7 +33,7 @@
                  :key="tag"
                  class="inline-block group"
             >
-              <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}`">
+              <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}/`">
                 <span class="opacity-50 inline-block rounded-full bg-blue-600 px-3 py-1 leading-none text-xs text-white font-bold mr-2 mb-2 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
               </nuxt-link>
             </div>
@@ -56,6 +56,7 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
 import markdownit from '~/mixins/markdownit';
 import { parameterize, cldOptimize } from '~/config/utils/helpers';
+import site from '~/data/site.json';
 
 export default {
   components: {
@@ -93,14 +94,32 @@ export default {
       return cldOptimize(this.fm.cover, opts);
     },
     ogImage() {
-      const opts = [
-        'c_fill',
-        'f_auto',
-        'h_630',
-        'q_auto',
-        'w_1200',
-      ];
-      return cldOptimize(this.fm.cover, opts);
+      const opts = ['c_fill', 'f_auto', 'h_630', 'q_auto', 'w_1200'];
+      if (this.fm.cover) {
+        return cldOptimize(this.fm.cover, opts);
+      }
+      return cldOptimize(site.image, opts);
+    },
+    authorTwitterLink() {
+      if (this.authorHasLink) {
+        return this.articleAuthor.links.twitter;
+      }
+      return '';
+    },
+    authorFacebookLink() {
+      if (this.authorHasLink) {
+        return this.articleAuthor.links.facebook;
+      }
+      return '';
+    },
+    fmAuthorLink() {
+      if (this.authorTwitterLink) {
+        return this.authorTwitterLink;
+      }
+      if (this.authorFacebookLink) {
+        return this.authorFacebookLink;
+      }
+      return false;
     },
     publishedOn() {
       return dayjs(this.fm.date).format('MMMM D, YYYY');
@@ -108,7 +127,7 @@ export default {
   },
   created() {
     try {
-      if (Object.keys(this.articleAuthor).includes('link')) {
+      if (Object.keys(this.articleAuthor).includes('links')) {
         this.authorHasLink = true;
       }
     } catch (error) {
@@ -128,7 +147,7 @@ export default {
         { hid: 'author', name: 'author', content: this.fm.author },
         { hid: 'description', name: 'description', content: this.fm.preview },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'article:author', property: 'article:author', content: this.fm.author },
+        { hid: 'article:author', property: 'article:author', content: this.authorFacebookLink },
         { hid: 'article:published_time', property: 'article:published_time', content: this.fm.date },
         { hid: 'og:title', property: 'og:title', content: this.fm.title },
         { hid: 'og:description', property: 'og:description', content: this.fm.preview },

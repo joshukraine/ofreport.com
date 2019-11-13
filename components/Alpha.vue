@@ -12,7 +12,7 @@
               We live in Ukraine where we strive to tell others about God's gift of
               eternal life through <span class="whitespace-no-wrap">Jesus Christ.</span>
             </p>
-            <nuxt-link to="/family" class="btn btn-lg btn-blue font-header">
+            <nuxt-link to="/family/" class="btn btn-lg btn-blue font-header">
               Meet our Family
             </nuxt-link>
           </div>

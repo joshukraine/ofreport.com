@@ -21,7 +21,7 @@ const config = {
 
   // Optional
   deleteOldVersions: false, // NOT FOR PRODUCTION
-  // distribution: process.env.OFR_CLOUDFRONT, // CloudFront distribution ID
+  distribution: process.env.OFR_CLOUDFRONT, // CloudFront distribution ID
   region: process.env.OFR_DEFAULT_REGION,
   headers: { /* 'Cache-Control': 'max-age=315360000, no-transform, public', */ },
 
