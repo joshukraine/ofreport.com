@@ -6,12 +6,12 @@
       <nuxt-link class="block" to="/">
         <img class="w-40 md:w-48" src="~/assets/svg/ofr-logo.svg">
       </nuxt-link>
-      <div class="relative">
+      <div class="relative -mr-4">
         <button class="hamburger" @click="navOpen = !navOpen">
           MENU
         </button>
       </div>
-      <nav class="nav-menu pt-8 px-4 lg:pt-0" :class="{ 'reveal-nav': navOpen }">
+      <nav class="nav-menu pt-4 px-4 lg:pt-0" :class="{ 'reveal-nav': navOpen }">
         <div class="nav-link-wrapper">
           <nuxt-link class="nav-link"
                      :class="{ 'nav-link-fadein nav-link-1': navOpen }"
@@ -88,7 +88,8 @@ export default {
 }
 
 .nav-link {
-  @apply .relative .inline-block .mb-6 .pb-6 .leading-none .text-xl .text-white .font-header .no-underline .opacity-0;
+  @apply .relative .inline-block .py-6 .text-xl .text-white .font-header .no-underline .opacity-0;
+  line-height: 0.75;
 }
 
 .nav-link:not(:last-of-type) {
@@ -138,7 +139,7 @@ export default {
   }
 
   .nav-link {
-    @apply .text-3xl .mb-8 .pb-8;
+    @apply .text-3xl .py-8;
   }
 }
 
@@ -168,7 +169,7 @@ export default {
   }
 
   .nav-link {
-    @apply .mb-0 .pb-0 .text-xl .ml-8 .opacity-100 .text-gray-500 .font-semibold;
+    @apply .py-0 .text-xl .ml-8 .opacity-100 .text-gray-500 .font-semibold;
     transition: color 150ms ease;
   }
 
