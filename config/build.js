@@ -4,6 +4,7 @@ import path from 'path';
 
 export default {
   extractCSS: true,
+  quiet: false,
   /* eslint-disable-next-line no-unused-vars */
   extend(config, ctx) {
     config.module.rules.push(
