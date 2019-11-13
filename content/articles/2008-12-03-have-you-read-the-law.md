@@ -3,7 +3,7 @@ title: "Have you read The Law?"
 date: "2008-12-03 09:12:16"
 author: "Joshua Steele"
 preview: >
-  With all that's been going on of late in the political world, I decided to pull out my copy of The Law by <a href="http://en.wikipedia.org/wiki/Frederic_Bastiat" target="_blank">Frederic Bastiat</a> and read through it again. The Law is a very short book (sometimes even referred to as "pamphlet") but it is truly revolutionary in the strictest sense of the word.
+  With all that's been going on of late in the political world, I decided to pull out my copy of The Law by Frederic Bastiat and read through it again. The Law is a very short book (sometimes even referred to as "pamphlet") but it is truly revolutionary in the strictest sense of the word.
 tags:
 - economics
 - frederic bastiat

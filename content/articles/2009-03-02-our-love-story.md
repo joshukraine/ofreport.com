@@ -3,7 +3,7 @@ title: "Our Love Story"
 date: "2009-03-02 03:53:20"
 author: "Kelsie Steele"
 preview: >
-  Joshua and I have often expressed how much we wished we had written our love story in a more detailed manner. Outside of a short <a href="http://www.ofreport.com/wp-content/plugins/download-monitor/download.php?id=5">newsletter version</a> for our missionary report, we have never recorded all that God did in bringing us together.
+  Joshua and I have often expressed how much we wished we had written our love story in a more detailed manner. Outside of a short newsletter version for our missionary report, we have never recorded all that God did in bringing us together.
 tags:
 - family
 - love story

@@ -4,7 +4,7 @@ date: "2009-11-18 18:19:36"
 download: "OFR_Oct-Dec_2009.pdf"
 author: "Joshua Steele"
 preview: >
-  The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will be going out in the mail soon.
+  The latest issue of Overseas Field Report has now been posted to our blog. Hard copies will be going out in the mail soon.
 tags:
 - newsletter
 - ministry
