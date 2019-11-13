@@ -2,7 +2,7 @@
 
 > Our family blog, documenting our work in Ukraine
 
-![OFReport.com screenshot][screenshot]
+![OFReport.com][screenshot]
 
 ## Overview
 
@@ -102,6 +102,18 @@ $ bin/deploy prod
 
 For more information on deployment with Nuxt, [visit their FAQ page][nuxt-s3-deploy].
 
+## Webpack Bundle Analyzer
+
+Nuxt provides a nice cli interface to [analyze the size of webpack output files][nuxt-analyze]. Run the following command to generate an interactive zoomable treemap.
+
+```bash
+$ yarn build --analyze
+```
+
+Output at `.nuxt/stats/client.html`:
+
+![treemap][bundle-treemap]
+
 ## Code Style and Linting
 
 Project-specific JavaScript conforms to the [Airbnb][airbnb] code style.
@@ -121,6 +133,7 @@ Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][lic
 [aws-cloudfront]: https://aws.amazon.com/cloudfront/
 [aws-s3]: https://aws.amazon.com/getting-started/projects/host-static-website/
 [aws-ssl]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
+[bundle-treemap]: https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1000/v1573627005/OFReport/assets/nuxt_stats_client.html_wpbbpp.png
 [cloudinary]: https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ck3hvrdcnvaeftjds7ep
 [env-property]: https://nuxtjs.org/api/configuration-env#the-env-property
 [eslint-config-airbnb-base]: https://yarnpkg.com/en/package/eslint-config-airbnb-base
@@ -134,6 +147,7 @@ Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][lic
 [markdown-it]: https://yarnpkg.com/en/package/markdown-it
 [neovim]: https://neovim.io/
 [node]: https://nodejs.org/en/
+[nuxt-analyze]: https://nuxtjs.org/api/configuration-build/#analyze
 [nuxt-assets]: https://nuxtjs.org/guide/assets
 [nuxt-faq]: https://nuxtjs.org/faq
 [nuxt-s3-deploy]: https://nuxtjs.org/faq/deployment-aws-s3-cloudfront
