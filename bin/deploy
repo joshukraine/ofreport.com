@@ -18,6 +18,7 @@ else
       [ ! -d "node_modules" ] && $yarn_cmd install
 
       printf "\\n--> Generating static site files -> %s/...\\n" "$build_dir"
+      $yarn_cmd md2json
       APP_ENV="prod" $yarn_cmd generate
 
       printf "\\n--> Deploying to %s...\\n" "$OFR_PROD_BUCKET_NAME"
@@ -32,6 +33,7 @@ else
     [ ! -d "node_modules" ] && $yarn_cmd install
 
     printf "\\n--> Generating static site files -> %s/...\\n" "$build_dir"
+    $yarn_cmd md2json
     APP_ENV=$ENV $yarn_cmd generate
 
     printf "\\n--> Deploying to %s...\\n" "$OFR_DEV_BUCKET_NAME"

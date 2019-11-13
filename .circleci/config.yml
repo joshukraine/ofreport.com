@@ -11,6 +11,7 @@ jobs:
 
     environment:
       PER_PAGE: "10"
+      APP_ENV: "prod"
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -36,4 +37,5 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run: yarn md2json
       - run: yarn generate
