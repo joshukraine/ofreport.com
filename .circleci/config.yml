@@ -36,4 +36,5 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run: yarn md2json
       - run: yarn generate
