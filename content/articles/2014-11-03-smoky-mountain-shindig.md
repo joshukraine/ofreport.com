@@ -2,7 +2,6 @@
 title: "Smoky Mountain Shindig"
 date: "2014-11-03 03:33:29"
 author: "Joshua Steele"
-download: "OFR-Sep-Oct-2014.pdf"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573559532/OFReport/2014-11-03-smoky-mountain-shindig/ofr-shindig-cover-12-6_bzlbvv.jpg"
 caption: >
   This September, Kelsie and I took part in No Greater Joy’s Smoky Mountain Shindig. Over 2,000 people gathered for an unforgettable conference filled with solid Bible teaching, singing, fellowship, games, and encouragement.
@@ -15,6 +14,8 @@ tags:
 ---
 
 When Michael and Debi Pearl heard we were coming to the US for the birth of our baby, they invited Kelsie and I to speak at their third annual Shindig, scheduled for September 10-14. We agreed to come and were blessed beyond all expectation! While there isn’t room here to give a full report of all that happened during the conference, I’d like to share a few of the highlights.
+
+<article-callout content="OFR-Sep-Oct-2014.pdf" :download="true" />
 
 The Shindig was held at the Ridgecrest Conference Center in North Carolina. Nestled in the beautiful Smoky Mountains, it turned out to be the perfect venue for a conference that we believe was used of God to bless and encourage a multitude of families.
 

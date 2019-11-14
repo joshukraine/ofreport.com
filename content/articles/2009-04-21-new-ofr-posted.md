@@ -13,6 +13,8 @@ tags:
 
 The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will be going out in the mail soon.
 
-The main article in this issue of OFR is a reprint of our recent blog post entitled, <a href="http://www.ofreport.com/2009/04/proving-that-all-are-under-sin/">Proving that ALL are under sin</a>. The Ministry at a Glance page includes updates on CMO 2009, ABS, the Bible correspondence course, and the Good and Evil project. Also in this issue is a brief family update and several photographs.
+<article-callout content="OFR_May_2009.pdf" :download="true" />
+
+The main article in this issue of OFR is a reprint of our recent blog post entitled, [Proving that ALL are under sin](/blog/2009-04-10-proving-that-all-are-under-sin/). The Ministry at a Glance page includes updates on CMO 2009, ABS, the Bible correspondence course, and the Good and Evil project. Also in this issue is a brief family update and several photographs.
 
 If you would like to subscribe to receive Overseas Field Report by mail, please <a href="http://www.ofreport.com/contact/">send us your name and US mailing address</a>. We appreciate your interest in overseas missions.

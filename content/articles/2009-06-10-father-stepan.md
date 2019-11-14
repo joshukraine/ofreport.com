@@ -4,23 +4,23 @@ date: "2009-06-10 12:25:46"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573570721/OFReport/2009-06-10-father-stepan/20090607_0054-12-6_et51gk.jpg"
 preview: >
-  During our first CMO project in 2006, we showed The Light of the World in a very small village called Khashchovanya. By the time of that showing, we had already experienced a fair amount of resistance from Catholic priests in other villages. Thus I was quite surprised when we saw the priest from Khashchovanya present at our showing along with his children! He viewed the entire film, and listened without objection to my Gospel presentation at the end.
+  During our first CMO project in 2006, we showed *The Light of the World* in a very small village called Khashchovanya. By the time of that showing, we had already experienced a fair amount of resistance from Catholic priests in other villages. Thus I was quite surprised when we saw the priest from Khashchovanya present at our showing along with his children! He viewed the entire film, and listened without objection to my Gospel presentation at the end.
 tags:
 - cmo
 - ministry
 ---
 
-During our first CMO project in 2006, we showed The Light of the World in a very small village called Khashchovanya. By the time of that showing, we had already experienced a fair amount of resistance from Catholic priests in other villages. Thus I was quite surprised when we saw the priest from Khashchovanya present at our showing along with his children! He viewed the entire film, and listened without objection to my Gospel presentation at the end.
+During our first CMO project in 2006, we showed *The Light of the World* in a very small village called Khashchovanya. By the time of that showing, we had already experienced a fair amount of resistance from Catholic priests in other villages. Thus I was quite surprised when we saw the priest from Khashchovanya present at our showing along with his children! He viewed the entire film, and listened without objection to my Gospel presentation at the end.
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/cmo2006_028_lg.jpg"><img class="size-medium wp-image-802" title="cmo2006_028_lg" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/cmo2006_028_lg-300x225.jpg" alt="Showing The Light of the World in Khashchovanya, 2006" /></a>
-Showing The Light of the World in Khashchovanya, 2006
+<article-callout content="OFR_Oct-Dec_2009.pdf" :download="true" />
+
+<article-image publicId="OFReport/2009-06-10-father-stepan/cmo2006_028_lg-2000w_jikkak.jpg" width="768" caption="Showing The Light of the World in Khashchovanya, 2006"/>
 
 That day, as we packed our gear and prepared to leave, he came over to chat with me. He introduced himself as Father Stepan, and said, "You guys are protestants, right?" I gave him some type of diplomatic answer, the result of previous experience speaking with other priests, and then explained that we simply believe the Bible and preach salvation by grace through faith. He then surprised me further by saying, "That is the message I have been preaching to these people every Sunday." I was shocked. Far from rejecting the Gospel of grace, here was a priest who actually seemed to be telling me that he was in agreement with it!
 
 Our conversation that day was brief, and after we left I related what had happened to the rest of the team. We didn't have any further contact with Father Stepan after that, but we wondered if perhaps he might know the Lord. His words certainly seemed to confirm that.
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/cmo2006_009_lg.jpg"><img class="size-medium wp-image-805" title="cmo2006_009_lg" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/cmo2006_009_lg-300x225.jpg" alt="The CMO team approaches the village of Khashchovanya, 2006" /></a>
-The CMO team approaches the village of Khashchovanya. (2006)
+<article-image publicId="OFReport/2009-06-10-father-stepan/IMG_2802_mjzckm.jpg" width="768" caption="The CMO team approaches the village of Khashchovanya. (2006)"/>
 
 Last month, a full three years after our first visit to Khashchovanya, we again rolled into the village in Jessie's yellow van. This year, we planned to show a new film in Khashchovanya: Fireproof. We asked around and soon found Father Stepan. I introduced myself again, and asked if he remembered me. "How could I forget a name like Joshua?" he asked warmly. (There is no equivalent for the name "Joshua" in Ukrainian.) We explained our desire to show Fireproof, and again were pleased to see that he was very open to the idea. We told him that we would be back in a couple of weeks to hang some posters. Then we wrote down his cell number, and headed to the next village on our list.
 
@@ -36,20 +36,16 @@ Then we came to the subject of witnessing techniques. Father Stepan has a favori
 
 I wish I had a recording of our fellowship on that bus. I have given the highlights as best I remember them, but much more was said. In four years of ministering the Gospel in Carpathian mountain villages, I have never met anyone who knew the Gospel message like Father Stepan. A week later, our team returned to Khashchovanya. We showed the film, and afterward I preached a short Gospel message. Once again, Father Stepan was there for the whole thing, and afterward, he invited us to his house. At one point during our conversation, he asked a favor of me: "Do you have access to the internet?" I acknowledged that I do. "If you could somehow get me recordings of J. Vernon McGee's sermons in Russian, that would be a great help to me." He then proceeded to show me a shelf in his living room, about three feet wide, which was crammed from one end to the other with small paperback notebooks. He opened one of these and I saw that it was completely filled with handwritten notes. "You see all these? These are my studies of the Bible and notes I have taken from listening to preachers on the radio."
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090603_0192.jpg"><img class="size-medium wp-image-806" title="20090603_0192" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090603_0192-300x225.jpg" alt="Looking at pictures with Father Stepan at his home in Khashchovanya" /></a>
-Looking at pictures with Father Stepan at his home in Khashchovanya.
+<article-image publicId="OFReport/2009-06-10-father-stepan/20090603_0192_a99lyt.jpg" width="768" caption="Looking at pictures with Father Stepan at his home in Khashchovanya."/>
 
 Before we left Father Stepan's home that day, our whole team gathered with him and prayed for the village of Khashchovanya. We prayed for God's blessing on him and his ministry, and that God would open the hearts of the people to the message of Christ. I would like to ask you to pray for Father Stepan as well. I am as certain of his salvation in Christ as I have ever been about anyone. There are times on the mission field when one begins to experience the Elijah syndrome: "I'm alone and no one else is following Christ." But that day on our bus ride to the Carpathian mountains, God showed me one of His own: a shining light in a remote village, a man of God, faithfully proclaiming salvation through Jesus Christ alone. And you can be certain that his job is not an easy one. At least our team has the means to travel to many villages, to print large amounts of literature, and to maintain direct contact with believers whom we know and love. Father Stepan is holding the line in a very dark place. For eight years he has preached the Gospel to the people of that village, and he is preaching still. Please pray for him. Men like that are few and far between.
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090607_0054.jpg"><img class="size-medium wp-image-807" title="20090607_0054" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090607_0054-300x230.jpg" alt="The CMO team stands with Father Stepan" /></a>
-The CMO team stands with Father Stepan.
+<article-image publicId="OFReport/2009-06-10-father-stepan/20090607_0054_kqhm5i.jpg" width="768" caption="The CMO team stands with Father Stepan."/>
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090604_iphoto_0015.jpg"><img class="size-medium wp-image-808" title="20090604_iphoto_0015" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090604_iphoto_0015-300x199.jpg" alt="Father Stepan's church in Khashchovanya" /></a>
-Father Stepan's church in Khashchovanya
+<article-image publicId="OFReport/2009-06-10-father-stepan/20090604_iphoto_0015_i1uynl.jpg" width="768" caption="Father Stepan's church in Khashchovanya"/>
 
 In closing, I want to say that my story above is not intended as a call to ecumenicism. This is not a story of an Evangelical and a Catholic who decided to shelve their doctrine so they could have a praise service in the same room. This is the story of a modern-day Martin Luther: a man to whom God has revealed Himself through the Scriptures. Yes, I'm sure that if I sat down with Father Stepan and compared doctrinal statements there would be differences - maybe big ones. But when I think of Father Stepan and his little church in the mountains, I am reminded of Jesus' dialogue with His disciples in Mark 9:38-40: *"And John answered him, saying, Master, we saw one casting out devils in thy name, and he followeth not us: and we forbad him, because he followeth not us. But Jesus said, Forbid him not: for there is no man which shall do a miracle in my name, that can lightly speak evil of me. For he that is not against us is on our part."*
 
 I rejoice that I have an ally in the Carpathians: a man who knows my Lord and preaches His Gospel. And I ask you again: when you pray for missionaries in Ukraine, remember to add one more to your list: pray for Brother Stepan.
 
-<a href="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090607_0043.jpg"><img class="size-medium wp-image-809" title="20090607_0043" src="//d21yo20tm8bmc2.cloudfront.net/2009/06/20090607_0043-300x219.jpg" alt=" " /></a>
-"For he that is not against us is on our part." (Mark 9:40)
+<article-image publicId="OFReport/2009-06-10-father-stepan/20090607_0043_vrns4u.jpg" width="768" caption='"For he that is not against us is on our part." (Mark 9:40)'/>

@@ -44,11 +44,11 @@ export default {
     },
     mt: {
       type: String,
-      default: '16',
+      default: '12',
     },
     mb: {
       type: String,
-      default: '16',
+      default: '12',
     },
     link: {
       type: Object,

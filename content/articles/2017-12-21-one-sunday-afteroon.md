@@ -18,73 +18,40 @@ This past Sunday, we did something new. Instead of our usual class, we gathered 
 Pictures tell the story best, so scroll on down and enjoy the ride! We love these kids and we're thrilled to see them seeking Christ as they prepare for adulthood. Please pray with us that God will turn each of them into powerful "arrows" for His kingdom!
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/art-contest-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/art-contest-2000w.jpg)
-{: .article-image .article-image--has-caption}
 We started things out with an art contest - a nice simple activity as the kids were arriving and getting out of coats and boots. (When you have a narrow apartment entrance and a crowd of kids all bundled up, the transition can take some time.) Hot chocolate was also a big win!
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/hosanna-pictionary-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/hosanna-pictionary-2000w.jpg)
-{: .article-image .article-image--has-caption}
 After the art contest, our first game was Pictionary.
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/kids-all-sizes-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/kids-all-sizes-2000w.jpg)
-{: .article-image .article-image--has-caption}
 We had kids of all sizes!
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/happy-pictionary-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/happy-pictionary-2000w.jpg)
-{: .article-image .article-image--has-caption}
 There were lots of laughs as different ones tried their hand at drawing the various words given.
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/grabbing-some-pizza-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/grabbing-some-pizza-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Next up: pizza! That's one of the nice things about teen events. Food is simple. Just order a bunch of pizzas, present them to the kids in an awe-inspiring stack of floppy cardboard boxes, and then enjoy your hero status! ;) In addition to pizza, we were also very grateful to Margarita for providing a tasty side salad.
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/singing-carols-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/singing-carols-2000w.jpg)
-{: .article-image .article-image--has-caption}
 In between games and activities, we also sang Christmas carols like Joy to the World, Silent Night, and Jingle Bells. Most of these we sang in both English and Ukrainian. The Ukrainian kids all have English classes at school, and many of them understand quite a bit.
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/couch-laughs-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/couch-laughs-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Joy to the World may have gotten a bit too joyful at times. ;)
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/matthew-david-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/matthew-david-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Matthew enjoyed holding David. He's going to make a great dad someday!
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/happy-gals-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/happy-gals-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Lovely ladies, lovely smiles!
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/bible-trivia-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/bible-trivia-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Our last game of the afternoon was Bible Trivia. There were some tough questions, but the kids did a great job. In the end each team nominated their MVP for the final round of questions. First one to get a question wrong was out. Both kids did so well that we finally had to call a tie!
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/tall-guy-trivia-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/tall-guy-trivia-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Well, this is definitely not the little kids group! ;)
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/kids-making-smores-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/kids-making-smores-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Last but certainly not least, it was time to make smores! Roasting marshmallows over the fire proved a fun way to wrap up the afternoon.
-{: .caption-text .article-image__caption}
 
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/12/mom-helps-with-smores-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/12/mom-helps-with-smores-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Hot, sticky marshmallow giving you trouble? Aunt Kelsie to the rescue!
-{: .caption-text .article-image__caption}
-
-
-
-
-
-
-
