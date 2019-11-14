@@ -39,13 +39,13 @@ Ralph explained that his desire was to gain experience on the mission field in E
 
 In the end, the decision was made that Ralph could come. What transpired over the next few months confirmed for me beyond all doubt that Ralph's trip to Ukraine was not only God's direction, it was God's blessing and provision for our ministry.
 
-### Diligence and Initiative
+## Diligence and Initiative
 
 Among the first things that impressed me about Ralph were his diligence and initiative. Even before arriving in Ukraine, he began learning the technologies he would need in order to participate in our ministry. I sent him online tutorials and resources, followed by practice work to make sure he understood the concepts. He completed all the training and, still in Canada, he began doing real work that was benefiting our ministry.
 
 As we sent Ralph new tasks, he progressed so quickly that I began to worry I might run out of work for him before he got to Ukraine!
 
-### A Problem that Needed Solving
+## A Problem that Needed Solving
 
 In order to properly understand the scope of what Ralph has done, I'd like to briefly explain a potentially serious problem we faced in our ministry – a problem that Ralph is helping to resolve.
 
@@ -55,7 +55,7 @@ Now imagine the following scenario. You have a collection of Word documents that
 
 One solution to this problem is a technology known as [version control][vcs title]. In our organization, we use a version control system (VCS) called [Git][git title]. Git allows us to store our text in a repository, and it tracks every single change we make. Git also provides for easy remote backup. In short, once a body of text is placed under version control with Git, it is nearly impossible to lose content through human error.
 
-### The Plain-Text Master
+## The Plain-Text Master
 
 The text of *Bible First* was initially stored in a page-layout program called [Adobe InDesign][indesign title]. This program is great if you want to get your text ready for print, but InDesign wasn't intended to serve as a dedicated VCS.
 
@@ -64,9 +64,7 @@ As you have likely inferred by now, we needed to move the text of *Bible First* 
 Ralph's first task would be to take every English lesson in the *Bible First* program and convert it into a plain-text format called [Markdown][md title]. From there he would go through the entire lesson, paragraph by paragraph, and ensure that all the content was present and displayed in its proper order. This also involved adding special formatting markers that would indicate which text should be bold or italic, which headings should be primary or secondary, and so on.
 
 [![Comparing Spanish and English versions of Bible First in Vim.](https://d21yo20tm8bmc2.cloudfront.net/2017/vim-markdown-550w.png)](https://d21yo20tm8bmc2.cloudfront.net/2017/vim-markdown-2300w.png)
-{: .article-image .article-image--has-caption}
 Comparing Spanish and English versions of Bible First in Vim.
-{: .caption-text .article-image__caption}
 
 Every step of the way, Ralph would save his work in Git - an operation known as *making a commit* - and upload it to a remote repository. When this process was completed for a given lesson, Ralph would send us a request for review. Once approved, the lesson would be merged into what is called the *master branch* - the main body of the repository where all content is kept.
 
@@ -79,13 +77,13 @@ If that all sounded a bit technical, that's because it is. It's hard. Not only c
 
 As I write this blog post, my email is pinging me about every 30 minutes with Git notifications. It's Ralph, steadily plowing through more plain-text conversion. As of this writing, all the English lessons have been converted and stored safely in our Git repository. 14 lessons of Russian have also been converted, two lessons in Ukrainian, and 17 lessons in Spanish.
 
-### Working in Five Languages
+## Working in Five Languages
 
 In addition to his work with plain-text conversion, Ralph has also blessed our team with his linguistic skills. Because the Villeneuve family are from Quebec, Ralph's first language is French. Growing up, he attended an English-speaking school, and as a result he is also fluent in English. Then, several years ago, Ralph's parents took their family to Mexico where they served as missionaries for three years. While there, Ralph gained a thorough knowledge of Spanish.
 
 What this means for us is that, with Ralph on the team, we are able to read and verify the text of *Bible First* in every language into which it is currently being translated! For example, as Ralph works through the Spanish lessons, converting the text into Markdown format, he can also read it and help to check for errors. Our Spanish translator, Maria, recently remarked to me, *"I am very glad that Ralph understands Spanish and has a sharp eye. It gives me peace to know that another pair of Spanish eyes are going through my translation."*
 
-### Preparation for Print
+## Preparation for Print
 
 Although plain text is the preferred format for storing the source text of *Bible First*, there is still a need to format each lesson for print. This has already been done in English, but as new translations are completed, each one will need to be laid out for print using Adobe InDesign. This means flowing text and graphics on a page, adding page numbers, the table of contents, footnotes, and so forth.
 
@@ -96,13 +94,11 @@ Initially, we worked together formatting one of our Ukrainian lessons until Ralp
 Now, as new material is completed and placed under version control, Ralph has the skills to complete the cycle by formatting the lessons for print.
 
 [![Laying out pages for Bible First in Ukrainian](https://d21yo20tm8bmc2.cloudfront.net/2017/ralph-computer-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/ralph-computer-2000w.jpg)
-{: .article-image .article-image--has-caption}
 Laying out pages for Bible First in Ukrainian.
-{: .caption-text .article-image__caption}
 
 <div class="link-target__container">
 	<span class="link-target" id="skip-to-conclusion"></span>
-	<h3>Conclusion</h3>
+	<h2>Conclusion</h2>
 </div>
 
 In a recent email to Kelsie, Ralph's mother, Danièle, made the following observation: *"I miss Ralph, but I'm not sad to have him so far of us this summer, because **he chose to follow God and to trust Him with his life.**"*
@@ -117,16 +113,13 @@ Although I've never met Ralph's parents, Dominic and Danièle, I would like to e
 
 Make no mistake: the God who searched the globe to find Abraham, David, Samuel, Gideon, and dozens of others, is still searching today. Young person, He is calling you to serve Him too, and if you obey, He will bless your life and use you in ways that you cannot now begin to imagine. *"For the eyes of the LORD run to and fro throughout the whole earth, to shew himself strong in the behalf of them whose heart is perfect toward him..."  (2 Chronicles 16:9)*
 
----
-{: .hr--bold}
+<article-divider mt="10" mb="10"/>
 
 [![Be like Ralph.](https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-04-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-04-2000w.jpg)
-{: .article-image}
 
 **This is Ralph.  
 Ralph is happy because he's chosen to follow God.  
 Be like Ralph.**
-{: .article-text--centered}
 
 [cli title]: https://en.wikipedia.org/wiki/Command-line_interface "Read more about command line interfaces."
 [vim title]: https://en.wikipedia.org/wiki/Vim_(text_editor) "Read more about Vim."
