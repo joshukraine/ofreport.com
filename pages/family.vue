@@ -1,6 +1,6 @@
 <template>
   <article class="mb-8 md:mb-12">
-    <section class="family border-b bg-cover bg-center">
+    <section class="family border-b bg-cover bg-center min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh">
       <section class="pt-4 xs:pt-6 sm:pt-6 md:pt-8 lg:pt-10 lg:pb-12 text-center">
         <h1 class="text-white text-3xl xs:text-4xl sm:text-5xl lg:text-6xl">
           Pleased to meet you!
@@ -69,41 +69,27 @@ export default {
 
 .family {
   background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_768/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
-  min-height: 250px;
 }
 
 @screen xs {
   .family {
     background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1024/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
-    min-height: 350px;
-  }
-}
-
-@screen sm {
-  .family {
-    min-height: 450px;
   }
 }
 
 @screen md {
   .family {
     background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1500/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
-    min-height: 500px;
   }
 }
 
 @screen lg {
   .family {
     background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg");
-    min-height: 700px;
   }
 }
 
 @screen xl {
-  .family {
-    min-height: 75vh;
-  }
-
   .family h1 {
     font-size: 5rem;
   }
