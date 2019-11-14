@@ -14,13 +14,11 @@ tags:
 
 Over the years, I've corresponded with many young men about ministering in Ukraine. The ones who come here usually do so to participate in our [CMO project][cmo title]. This year, we decided to skip CMO so we could focus on some behind-the-scenes work, but God sent us a young man anyway. His name is Ralph, and I'd like for you to meet him.
 
----
-{: .hr--bold}
+<article-divider mb="6" />
 
 DISCLAIMER: This post is longer than most I write. The technical nature of Ralph's work requires some explanation in order for most readers to understand its true impact. If you have the patience, and you're interested to see how God is using a seventeen-year-old to further His kingdom, I encourage you to read on! If you can't bear the suspense, [click here](#skip-to-conclusion) to jump to the conclusion.
 
----
-{: .hr--bold}
+<article-divider mt="6" />
 
 Let's start with an email which I received from Ralph in February...
 

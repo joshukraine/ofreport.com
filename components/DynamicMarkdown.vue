@@ -1,6 +1,7 @@
 <script>
 import ArticleButton from '~/components/ArticleButton.vue';
 import ArticleCallout from '~/components/ArticleCallout.vue';
+import ArticleDivider from '~/components/ArticleDivider.vue';
 import ArticleImage from '~/components/ArticleImage.vue';
 import ArticleSpacer from '~/components/ArticleSpacer.vue';
 import ArticleSvg from '~/components/ArticleSvg.vue';
@@ -9,6 +10,7 @@ export default {
   components: {
     ArticleButton,
     ArticleCallout,
+    ArticleDivider,
     ArticleImage,
     ArticleSpacer,
     ArticleSvg,
