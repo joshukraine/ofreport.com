@@ -74,3 +74,18 @@ blockquote {
     @apply .my-10;
   }
 }
+
+.link-target__container {
+  position: relative;
+}
+
+.link-target {
+  position: absolute;
+  top: -4rem;
+}
+
+@screen md {
+  .link-target {
+    top: -5rem;
+  }
+}
