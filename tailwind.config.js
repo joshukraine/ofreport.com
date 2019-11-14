@@ -65,6 +65,16 @@ module.exports = {
         full: '100%',
         screen: '100vh',
       }),
+      minHeight: {
+        250: '250px',
+        350: '350px',
+        450: '450px',
+        500: '500px',
+        600: '600px',
+        700: '700px',
+        '1/2-vh': '50vh',
+        '3/4-vh': '75vh',
+      },
     },
     container: {
       center: true,
