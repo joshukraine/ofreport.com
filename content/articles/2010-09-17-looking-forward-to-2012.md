@@ -12,8 +12,9 @@ tags:
 
 CMO 2010 is over, and we are once again rejoicing as we witness the increase God has given. We were able to show the film and preach the Gospel in 10 mountain villages this summer. We also did literature blitzes in 7 new cities we have not visited before. Over the course of the project our team distributed approximately 160,000 tracts and other forms of Bible literature. Since CMO 2010 commenced on June 1, 168 new students have enrolled in our correspondence Bible course. This year we also made our first trip to Eastern Ukraine, where we did a ten-day literature blitz in several towns and villages in the Dnipropetrovsk area. So far we have gained 21 new students as a result of that outreach alone.
 
+<article-callout content="OFR-October-2010.pdf" :download="true" />
+
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/09/DSC_8991a.jpg"><img class="size-medium wp-image-1071 " title="DSC_8991a" src="//d21yo20tm8bmc2.cloudfront.net/2010/09/DSC_8991a-300x199.jpg" alt="" /></a>
-{: .article-image}
 
 As of this writing, we have 574 students in active enrollment, studying the Bible through our correspondence course. Over the years we have seen the great potential that such a course has as an evangelistic tool, and for some time now it has been our vision to make this course available to other believers, churches, and missionaries. More specifically, we would like to incorporate it into the training that CMO men receive while they serve with us in Ukraine. During their time here, these men learn by experience how to reach a city through literature, and we would like to be able to send them back to the US with a complete Bible course in hand.
 

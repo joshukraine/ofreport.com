@@ -19,23 +19,23 @@ In addition to what I've mentioned above, Kelsie and I both need new visas, whic
 
 As usual, we would greatly appreciate your prayers during this transition time. Ukraine has, in many ways, become our home, and the prospect of leaving for an extended trip will be difficult. I have lived my entire adult life overseas, and spending several months in America will definitely be an adjustment for our family.
 
-### The Ministry in Ukraine
+## The Ministry in Ukraine
 
 The ministries in progress here will continue in our absence. Nathan Day will also be returning to the States soon to get married, and so for the next few months the Beal family, Denise Hutchison and Bryan Shufelt will be handling most of the workload. Please pray for them during this time. Our family will continue to work on some ministry projects even while in the US, especially the development of our Chronological Bible Course.
 
-### Housing
+## Housing
 
 In the past, our visits to the US have been short (+/- two months) and we've stayed with family. Since we will be staying much longer this time (up to nine months), we would really like to find a place of our own. We will have to continue paying rent here in Ukraine so that we don't lose our apartment, and thus it would be a great blessing if we could find inexpensive housing for our time in the US. If you have any information regarding available housing (missionary quarters, cheap rent house/apartment, etc.), we would love to hear about it!
 
-### Transportation
+## Transportation
 
 We will definitely be in need of a vehicle while in the States. Ideally, we'd like to find a small car (e.g. Honda Accord) which gets good gas mileage. If you have any information regarding a cheap (possibly free?) vehicle which we could use during our stay, please let us know.
 
-### Immigration Laws
+## Immigration Laws
 
 Please continue to pray for the immigration situation in Ukraine. As far as we understand the laws at this time, it IS possible to live and minister in Ukraine on a continual basis. But life here is not as simple as it once was. Pray that the doors to the Gospel will remain open for years to come.
 
-### Ukraine Ministry Reporting
+## Ukraine Ministry Reporting
 
 During our time in the US, we will be available on a limited basis for speaking engagements. If you are interested in having our family visit your church or home group with a presentation of our work in Ukraine, please contact us immediately.
 

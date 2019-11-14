@@ -1,7 +1,6 @@
 ---
 title: "New OFR Posted!"
 date: "2009-11-18 18:19:36"
-download: "OFR_Oct-Dec_2009.pdf"
 author: "Joshua Steele"
 preview: >
   The latest issue of Overseas Field Report has now been posted to our blog. Hard copies will be going out in the mail soon.
@@ -11,6 +10,8 @@ tags:
 ---
 
 The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will be going out in the mail soon.
+
+<article-callout content="OFR_Oct-Dec_2009.pdf" :download="true" />
 
 The main article in this issue of OFR is a reprint of a blog post entitled, <a href="http://www.ofreport.com/2009/06/fatherstepan">I Met the Martin Luther of the Carpathians</a>.  There are lots of people on our regular mailing list who do not access our blog, and this story was so powerful that we decided to publish it in the print version of our newsletter. But don't despair: there's lots of news in this issue that hasn't yet appeared on the blog. So be sure to download the PDF if you're not on our regular mailing list.
 

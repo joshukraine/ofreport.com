@@ -2,7 +2,7 @@
 title: "Proving that ALL are under sin"
 date: "2009-04-10 09:16:07"
 author: "Joshua Steele"
-cover: "/2009/04/all-under-sin-web.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573570465/OFReport/2009-04-21-new-ofr-posted/all-under-sin-web-12-6_wgwuaj.jpg"
 preview: >
   In the first three chapters of the book of Romans, Paul provides us with irrefutable evidence that all men are indeed under sin. A firm grasp of this concept is foundational in understanding the Gospel. Contrary to what is commonly taught, Paul does not point to a birth defect as the basis for the sinner's blame. Rather, he points out that God judges men who <span style="text-decoration: underline;">hold truth in unrighteousness</span>. (Rom. 1:18)
 tags:
@@ -13,6 +13,8 @@ tags:
 ---
 
 In the first three chapters of the book of Romans, Paul provides us with irrefutable evidence that all men are indeed under sin. A firm grasp of this concept is foundational in understanding the Gospel. Contrary to what is commonly taught, Paul does not point to a birth defect as the basis for the sinner's blame. Rather, he points out that God judges men who <span style="text-decoration: underline;">hold truth in unrighteousness</span>. (Rom. 1:18) That is, those who understand good, embrace it as a worthy standard of conduct, even judge others by it, and yet still commit sin by violating their own standard. (See Matt. 7:1-2)
+
+<article-callout content="OFR_May_2009.pdf" :download="true" />
 
 Beginning with Romans 1:18, Paul invites us into the courtroom to observe the sinful acts of the wicked: failure to glorify God, ungratefulness, murder, fornication, homosexuality, deceit, envy, idolatry, disobedience to parents, etc., etc., etc. Then, as we point our fingers in agreement with God and condemn those who have committed such evil, Paul points right back at us: *"Therefore thou art inexcusable, O man, whosoever thou art that judgest: for <span style="text-decoration: underline;">wherein thou judgest another, thou condemnest thyself</span>; for thou that judgest doest the same things." *All men stand blameworthy before God, condemned by their own mouths. As the master said to the servant in Luke 19:22, *"Out of thine own mouth will I judge thee, thou wicked servant."*
 

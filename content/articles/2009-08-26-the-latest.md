@@ -19,18 +19,14 @@ After many weeks of preparation, the Steele family is finally departing for Amer
 
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/08/20090823_0061.JPG"><img class="size-medium wp-image-866" title="20090823_0061" src="//d21yo20tm8bmc2.cloudfront.net/2009/08/20090823_0061-300x199.jpg" alt="Beka and Abby are growing all the time! Abby will be four in September. Beka is 19 months." width="300" height="199" /></a>
-{: .article-image .article-image--has-caption}
 Beka and Abby are growing all the time! Abby will be four in September. Beka is 19 months.
-{: .caption-text .article-image__caption}
 
 Nathan Day will be traveling to America a few days after we do. As many of you know, he will be getting married to Katelin Rebsch on November 7 of this year. Please pray for safe travel for Nathan and Katelin and for God’s blessing on them as they begin their new life together in Ukraine. Also, be sure to <a href="http://www.mywedding.com/natelin" target="_blank">check out their new wedding web site!</a>
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2009/08/ETO_Team_Picture.jpg"><img class="size-medium wp-image-859" title="ETO_Team_Picture" src="//d21yo20tm8bmc2.cloudfront.net/2009/08/ETO_Team_Picture-300x207.jpg" alt="" width="300" height="207" /></a>
-{: .article-image .article-image--has-caption}
 The 2009 ETO staff team
-{: .caption-text .article-image__caption}
 
-### Ministry Status
+## Ministry Status
 
 Although we will be in the US for several months, the ministry will proceed. The Beal family, Denise Hutchison, and Bryan Shufelt remain in Ukraine and will continue ETO’s many outreaches and projects in our absence. The following is a brief overview of our primary ministries and their goals over the next few months.
 

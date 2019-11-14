@@ -12,7 +12,7 @@ This morning, I arrived in L'viv on an early train from Kyiv, where I had spoken
 
 Unfortunately, I don't have any pictures for this post, but I just wanted to provide a quick report and to thank those of you who prayed for me during this time. I believe that God was honored and that saints were encouraged to follow Him.
 
-### Immigration Update
+## Immigration Update
 
 Another piece of very good news is that things are looking up in the immigration arena. While in Kyiv, I also picked up a letter of invitation which will allow Kelsie and me to apply for religious visas. Nathan and Katelin Day should also be receiving a similar letter this week. The four of us are scheduled to travel to Krakow this coming Monday, where we will submit our documents at the Ukrainian embassy. Please pray that we will receive our visas quickly and without any complications.
 
