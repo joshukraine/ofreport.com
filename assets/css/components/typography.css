@@ -71,6 +71,6 @@ blockquote {
   }
 
   .markdown hr {
-    @apply .my-12;
+    @apply .my-10;
   }
 }
