@@ -63,6 +63,12 @@ export default {
     isBlogHome() {
       return this.rootSegment === 'blog' && this.startPage === 1;
     },
+    calculatedArticleRange() {
+      if (this.rootSegment === 'blog') {
+        return ((this.page - 1) * this.perPage) + 1;
+      }
+      return (this.page - 1) * this.perPage;
+    },
   },
   mounted() {
     // Set the current page.
@@ -72,7 +78,7 @@ export default {
     if (this.isBlogHome) {
       this.start = 1;
     } else {
-      this.start = ((this.page - 1) * this.perPage) + 1;
+      this.start = this.calculatedArticleRange;
     }
     const end = this.start + this.perPage;
 
