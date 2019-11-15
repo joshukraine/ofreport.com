@@ -1,6 +1,6 @@
 <template>
   <article class="mb-8 md:mb-12">
-    <section class="family border-b bg-cover bg-center min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh">
+    <section class="family border-b bg-cover bg-center min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-700 xl:h-3/4-vh">
       <section class="pt-4 xs:pt-6 sm:pt-6 md:pt-8 lg:pt-10 lg:pb-12 text-center">
         <h1 class="text-white text-3xl xs:text-4xl sm:text-5xl lg:text-6xl">
           Pleased to meet you!

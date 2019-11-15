@@ -62,6 +62,8 @@ module.exports = {
         '700px': '700px',
         '800px': '800px',
         '900px': '900px',
+        '1/2-vh': '50vh',
+        '3/4-vh': '75vh',
         full: '100%',
         screen: '100vh',
       }),
