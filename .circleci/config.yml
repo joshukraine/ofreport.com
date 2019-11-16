@@ -41,8 +41,11 @@ jobs:
 
     steps:
       - run:
-          name: Install Gulp
+          name: Install Gulp globally
           command: sudo npm install -g gulp
+      - run:
+          name: Install Gulp locally
+          command: npm install gulp
       - run:
           name: Deploy to S3
           command: gulp deploy
