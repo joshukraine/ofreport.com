@@ -11,7 +11,7 @@ tags:
 - theology
 ---
 
-> EDITOR'S NOTE: Raphaël "Ralph" Villeneuve served with our team in L'viv during the summer of 2017. In the article below, he recounts in his own words how he learned to discern God's will and direction. If you haven't already, I encourage you to first ["Meet Ralph"](/blog/2017-08-04-meet-ralph), and then introduce him to your family. Our kids need examples of other young people who have wholly dedicated their lives to Christ.
+> EDITOR'S NOTE: Raphaël "Ralph" Villeneuve served with our team in L'viv during the summer of 2017. In the article below, he recounts in his own words how he learned to discern God's will and direction. If you haven't already, I encourage you to first <nuxt-link to="/blog/2017-08-04-meet-ralph">"Meet Ralph"</nuxt-link>, and then introduce him to your family. Our kids need examples of other young people who have wholly dedicated their lives to Christ.
 
 <article-spacer />
 
