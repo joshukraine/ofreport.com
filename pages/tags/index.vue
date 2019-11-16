@@ -25,7 +25,7 @@ export default {
     };
   },
   created() {
-    this.tags = getUniqueTags(articles);
+    this.tags = getUniqueTags(articles).sort();
   },
 };
 </script>
