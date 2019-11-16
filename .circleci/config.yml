@@ -1,24 +1,16 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
-      - image: circleci/node:12.13.0
-
-    environment:
-      PER_PAGE: "10"
-      APP_ENV: "prod"
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
+      # https://circleci.com/docs/2.0/circleci-images/#nodejs
+      - image: circleci/node:latest
 
     working_directory: ~/ofreport.com
+
+    environment:
+      NUXT_BUILD_DIR: ~/ofreport.com/dist
+      PER_PAGE: "10"
+      APP_ENV: "prod"
 
     steps:
       - checkout
@@ -39,3 +31,30 @@ jobs:
 
       - run: yarn md2json
       - run: yarn generate
+
+  deploy:
+    docker:
+      # https://circleci.com/docs/2.0/circleci-images/#nodejs
+      - image: circleci/node:latest
+
+    working_directory: ~/ofreport.com
+
+    steps:
+      - run:
+          name: Install Gulp
+          command: sudo npm install -g gulp
+      - run:
+          name: Deploy to S3
+          command: gulp deploy
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
