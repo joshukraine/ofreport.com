@@ -20,7 +20,7 @@ We only found out about the pregnancy a couple of weeks ago, so we still don't h
 
 ## Young Men's Conference
 
-Some of you may recall from a previous post that I taught a two-day conference for young men here in Fort Worth, TX. My brother Jonathan is working on making that available on DVD and is nearly ready to begin distribution. Not long after that original conference, I visited No Greater Joy and was asked to do a condensed version of the conference up there. This was recorded on video and is now available for viewing through Vimeo. If you like, you can view all three of these sesssions right here on our blog. Just click the <a href="http://www.ofreport.com/mens-conference/">Men's Conference link</a> on the right-hand menu.
+Some of you may recall from a previous post that I taught a two-day conference for young men here in Fort Worth, TX. My brother Jonathan is working on making that available on DVD and is nearly ready to begin distribution. Not long after that original conference, I visited No Greater Joy and was asked to do a condensed version of the conference up there. This was recorded on video and is now available for viewing through Vimeo. If you like, you can view all three of these sessions right here on our blog. Just click the <nuxt-link to="/blog/2010-02-08-young-mens-conference/">Men's Conference link</nuxt-link> on the right-hand menu.
 
 ## Travel and Reporting
 
@@ -28,4 +28,4 @@ God has recently opened several doors for us to share our work in Ukraine in var
 
 ## CMO Plans
 
-We already have a few guys planning to come to CMO this year. If you're thinking about coming, you need to send in your application ASAP. The registration deadline is April 15th. Don't put it off! If you have questions, <a href="http://www.euroteamoutreach.org/cmo" target="_blank">check our web site</a> or <a href="http://www.ofreport.com/contact/">send us an e-mail</a>. Don't miss this exciting opportunity to help advance the Kingdom of God!
+We already have a few guys planning to come to CMO this year. If you're thinking about coming, you need to send in your application ASAP. The registration deadline is April 15th. Don't put it off! If you have questions, <a href="http://www.euroteamoutreach.org/cmo" target="_blank">check our web site</a> or <nuxt-link to="/contact/">send us an e-mail</nuxt-link>. Don't miss this exciting opportunity to help advance the Kingdom of God!

@@ -12,7 +12,7 @@ tags:
 - cmo
 ---
 
-The latest issue of <a href="http://www.ofreport.com/archives/">Overseas Field Report</a> has now been posted to our blog. Hard copies will going out in the mail this week, so if you're on our regular mailing list, you should be receiving a copy soon.
+The latest issue of <nuxt-link to="/archives/">Overseas Field Report</nuxt-link> has now been posted to our blog. Hard copies will going out in the mail this week, so if you're on our regular mailing list, you should be receiving a copy soon.
 
 <article-callout content="OFR-Jan-Feb-2010.pdf" :download="true" />
 
@@ -21,4 +21,4 @@ Carpathian Mountain Outreach 2010 will begin on June 1st. Exciting things are ha
 
 **CORRECTION**: After mailing out the printed version of OFR, we realized that part of the last sentence on page 3 was cut off. The entire sentence should read: *"Whether you support us in prayer or join us in the mountains, help us do what believers have been doing for 2000 years: go and tell others what Jesus Christ has done for you."* This has been corrected in the PDF file, which can be downloaded via the link above.
 
-If you would like to subscribe to receive Overseas Field Report by mail, please <a href="http://www.ofreport.com/contact/">send us your name and US mailing address</a>. We appreciate your interest in overseas missions.
+If you would like to subscribe to receive Overseas Field Report by mail, please <nuxt-link to="/contact/">send us your name and US mailing address</nuxt-link>. We appreciate your interest in overseas missions.
