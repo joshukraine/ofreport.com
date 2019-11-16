@@ -2,6 +2,7 @@
 title: "New OFR Posted!"
 date: "2009-11-18 18:19:36"
 author: "Joshua Steele"
+pdf: "OFR_Oct-Dec_2009.pdf"
 preview: >
   The latest issue of Overseas Field Report has now been posted to our blog. Hard copies will be going out in the mail soon.
 tags:

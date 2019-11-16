@@ -3,6 +3,7 @@ title: "Bible First Kids"
 date: "2017-06-13"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573401900/OFReport/2017-06-13-bible-first-kids/bible-first-kids-12-6_og2mea.jpg"
+pdf: "OFR-May-Jun-2017.pdf"
 caption: >
   Meet some of the young people of Bible First Kids - a new class we’ve started at our church here in L’viv. From the left: Pastor Vladyslav (with Sofia), Abigail, Joshua (back), Anya, Bohdan, Timothy, Anya, Matthew, Maria.
 preview: >

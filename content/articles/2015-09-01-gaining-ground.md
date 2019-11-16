@@ -3,6 +3,7 @@ title: "Gaining New Ground"
 date: "2015-09-01 12:42:17"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573557624/OFReport/2015-09-01-gaining-ground/06-IMG_6462_r7jny1.jpg"
+pdf: "OFR-Sep-Oct-2015.pdf"
 caption: >
   Several of the CMO 2015 team hike towards a new set of buildings during a literature campaign.
 preview: >

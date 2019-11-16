@@ -3,6 +3,7 @@ title: "Welcome, Kathryn Grace!"
 date: "2015-02-09 22:28:03"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573558760/OFReport/2015-02-09-welcome-kathryn-grace/2015-01-05-10.41-12-6_nugqyq.jpg"
+pdf: "OFR-Jan-Feb-2015.pdf"
 caption: >
   We are thrilled to announce the arrival of our fourth daughter, Kathryn Grace Steele! Kathryn was born on December 30, 2014 at 12:00am. She was 20 and 3/4 inches long and weighed 8 lbs., 12 oz.
 preview: >

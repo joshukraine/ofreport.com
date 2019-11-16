@@ -3,6 +3,7 @@ title: "Translators, Inc."
 date: "2016-12-31 17:33:10"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573572104/OFReport/2016-12-31-translators/IMG_1900-12-6_kxzjlk.jpg"
+pdf: "OFR-Nov-Dec-2016.pdf"
 caption: >
   Every morning on weekdays, Abigail and I read through a portion of Bible First.<br>We are now on Lesson 10!
 preview: >

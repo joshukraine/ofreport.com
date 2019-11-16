@@ -3,6 +3,7 @@ title: "A Chance to Give Back"
 date: "2017-08-12"
 author: "Kelsie Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573571847/OFReport/2017-08-12-a-chance-to-give-back/mom-seminar-group-12-6_h8v4dn.jpg"
+pdf: "OFR-Jul-Aug-2017.pdf"
 caption: >
   Recently, Kelsie was asked to speak at a two-day family seminar here in L’viv. She was joined by Katelin Day, and together they delivered a series of talks aimed at encouraging and equipping young mothers. This is Kelsie’s report of the event in her own words.
 preview: >

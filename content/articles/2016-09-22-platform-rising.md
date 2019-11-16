@@ -3,6 +3,7 @@ title: "Platform Rising"
 date: "2016-09-22 09:01:58"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573555930/OFReport/2016-09-22-platform-rising/josh-preaching-cmo-2016_ulanjs.jpg"
+pdf: "OFR-Sep-Oct-2016.pdf"
 caption: >
   Preaching the Gospel after a film showing in the Carpathian village of Scherbovets.
 preview: >

@@ -3,6 +3,7 @@ title: "News from the Front"
 date: "2014-03-05 12:14:24"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573560258/OFReport/2014-03-05-news-front/kyiv-burning_j09ohf.jpg"
+pdf: "OFR-Jan-Mar-2014.pdf"
 caption: >
   This screenshot, taken on the night of February 18, offers a glimpse of the violence and turmoil that recently gripped Ukraine’s capital city, Kyiv.
 preview: >

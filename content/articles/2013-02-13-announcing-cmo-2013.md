@@ -3,6 +3,7 @@ title: "Announcing CMO 2013"
 date: "2013-02-13 16:25:35"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573561465/OFReport/2013-02-13-announcing-cmo-2013/cmo-2013-logo-photo-12-6_cpckv2.jpg"
+pdf: "OFR-Feb-2013.pdf"
 caption: >
   Registration for Carpathian Mountain Outreach 2013 officially opened on February 4th. Read on to find out how you can be involved in building this year’s team of laborers for the harvest fields of Ukraine!
 preview: >

@@ -3,6 +3,7 @@ title: "Overcome Evil with Good"
 date: "2014-07-17 15:24:46"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573559780/OFReport/2014-07-17-overcome-evil-with-good/overcome-evil-with-good-12-6_qyiwnu.jpg"
+pdf: "OFR-Jun-Aug-2014.pdf"
 caption: >
   At a recent film showing in the village of Ilemnya (pronounced ee-LEM-nya) we had over 40 kids in attendance. Each of them received copies of Good and Evil Short plus starter packets for our Bible course.
 preview: >

@@ -3,6 +3,7 @@ title: "Registered!"
 date: "2012-05-01 19:04:20"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573566507/OFReport/2012-05-01-registered/reg-card-12-6_waewmx.jpg"
+pdf: "OFR-May-2012.pdf"
 caption: >
   On April 13th, just two weeks before our class D visas were set to expire, each member of our team received long-term residency cards like the one pictured above.
 preview: >

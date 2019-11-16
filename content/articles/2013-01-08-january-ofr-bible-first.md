@@ -3,6 +3,7 @@ title: "January OFR: Bible First Is Here!"
 date: "2013-01-08 15:21:40"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573561680/OFReport/2013-01-08-january-ofr-bible-first/bible-first-is-here-12-6_qrns7l.jpg"
+pdf: "OFR-Jan-2013.pdf"
 caption: >
   On December 14th, the letter below was sent out by e-mail announcing the official launch of Bible First! We invite you to avail yourself of this new evangelism tool at www.getbiblefirst.com. May God bless you as you minister for Him!
 preview: >
