@@ -3,6 +3,7 @@ title: "When God Provides"
 date: "2015-04-27 18:35:57"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573558057/OFReport/2015-04-27-when-god-provides/steele-family-spring-20151-12-6_ia9gcd.jpg"
+pdf: "OFR-Mar-Apr-2015.pdf"
 caption: >
   After nearly seven years living in a 775 square foot apartment, God has graciously provided the Steeles with more living space! We’d like to share with you the story of how God recently led our growing family to a new home in L’viv.
 preview: >

@@ -3,6 +3,7 @@ title: "Grab Bag Report"
 date: "2017-11-08"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573399280/OFReport/2017-11-08-grab-bag-report/grab-bag-cover-2000w_qwgkyh.jpg"
+pdf: "OFR-Oct-Dec-2017.pdf"
 caption: >
   Good and Evil, family news, our new ETO staff family, CMO 2018 — where do I start? Two pages never seems enough to fit in all the news.  But this time, I'm going to try...
 preview: >

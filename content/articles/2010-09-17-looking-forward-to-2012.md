@@ -2,6 +2,7 @@
 title: "Looking Forward to 2012"
 date: "2010-09-17 10:55:54"
 author: "Joshua Steele"
+pdf: "OFR-October-2010.pdf"
 preview: >
   CMO 2010 is over, and we are once again rejoicing as we witness the increase God has given. We were able to show the film and preach the Gospel in 10 mountain villages this summer. We also did literature blitzes in 7 new cities we have not visited before. Over the course of the project our team distributed approximately 160,000 tracts and other forms of Bible literature.
 tags:

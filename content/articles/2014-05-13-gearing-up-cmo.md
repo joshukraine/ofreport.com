@@ -3,6 +3,7 @@ title: "Gearing Up for CMO"
 date: "2014-05-13 11:19:50"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573560131/OFReport/2014-05-13-gearing-up-cmo/IMG_4615-12-6_rclemh.jpg"
+pdf: "OFR-Apr-May-2014.pdf"
 caption: >
   Carpathian Mountain Outreach 2014 will begin in just over a month. This will be our 8th project, and we’re excited to see what God will do in western Ukraine this year!
 preview: >

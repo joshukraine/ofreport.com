@@ -3,6 +3,7 @@ title: "A New Chapter"
 date: "2012-10-19 19:50:12"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573563077/OFReport/2012-10-19-new-chapter/IMG_5706-12-6_eqpqz9.jpg"
+pdf: "OFR-Oct-2012.pdf"
 caption: >
   The Steele family - October, 2012. From the left: Abigail (7), Hosanna (23 months), Joshua (like 400 months), Kelsie (forever 21), Rebekah (almost 5).
 preview: >

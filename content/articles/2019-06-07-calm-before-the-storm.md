@@ -3,6 +3,7 @@ title: "Calm Before the Storm"
 date: "2019-06-07"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571898092/OFReport/2019-06-07-calm-before-the-storm/daddys-home-cover-1200-630_czmh0h.jpg"
+pdf: "OFR-Apr-Jun-2019.pdf"
 caption: >
   "Daddy's home!" As something of a finale to our otherwise quiet spring season, I got to attend the wedding of a good friend in the US. After a week away from my family, and a joyful reunion upon my return, it's time to buckle up. CMO 2019 is only days away!
 preview: >

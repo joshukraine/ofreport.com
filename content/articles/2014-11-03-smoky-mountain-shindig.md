@@ -3,6 +3,7 @@ title: "Smoky Mountain Shindig"
 date: "2014-11-03 03:33:29"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573559532/OFReport/2014-11-03-smoky-mountain-shindig/ofr-shindig-cover-12-6_bzlbvv.jpg"
+pdf: "OFR-Sep-Oct-2014.pdf"
 caption: >
   This September, Kelsie and I took part in No Greater Joy’s Smoky Mountain Shindig. Over 2,000 people gathered for an unforgettable conference filled with solid Bible teaching, singing, fellowship, games, and encouragement.
 preview: >

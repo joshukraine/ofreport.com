@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573400669/OFReport/2
 caption: >
   Raphaël "Ralph" Villeneuve is our tri-lingual summer intern with a heart for missions in Eastern Europe.
 preview: >
-  Over the years, I've corresponded with many young men about ministering in Ukraine. The ones who come here usually do so to participate in our [CMO project][cmo title]. This year, we decided to skip CMO so we could focus on some behind-the-scenes work, but God sent us a young man anyway. His name is Ralph, and I'd like for you to meet him.
+  Over the years, I've corresponded with many young men about ministering in Ukraine. The ones who come here usually do so to participate in our CMO project. This year, we decided to skip CMO so we could focus on some behind-the-scenes work, but God sent us a young man anyway. His name is Ralph, and I'd like for you to meet him.
 tags:
 - ministry
 - photos

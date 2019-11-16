@@ -2,6 +2,7 @@
 title: "New OFR Posted!"
 date: "2010-05-22 21:17:41"
 author: "Joshua Steele"
+pdf: "OFR-May-June-2010.pdf"
 preview: >
   The latest issue of Overseas Field Report has now been posted to our blog. If you’re on our regular mailing list, you should be receiving your hard copy in the next couple of weeks.
 tags:

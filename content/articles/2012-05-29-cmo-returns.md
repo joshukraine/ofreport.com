@@ -3,6 +3,7 @@ title: "CMO Returns"
 date: "2012-05-29 14:36:00"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573564812/OFReport/2012-05-29-cmo-returns/scouting-trip-vimeo-12-6_fwulvz.jpg"
+pdf: "OFR-June-2012.pdf"
 caption: >
   CMO is back! After taking a year off in 2011, Carpathian Mountain Outreach 2012 is set to begin on July 1, just one month away.
 preview: >

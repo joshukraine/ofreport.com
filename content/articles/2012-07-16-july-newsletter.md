@@ -3,6 +3,7 @@ title: "July Newsletter"
 date: "2012-07-16 22:21:52"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573563557/OFReport/2012-07-16-july-newsletter/Little-One-b-12-6_mfep3z.jpg"
+pdf: "OFR-July-2012.pdf"
 caption: >
   On May 8, we learned of our unborn child’s terminal genetic illness. We learned that our child was a girl on her birthday, June 26. The following article was posted to our blog that evening.
 preview: >
