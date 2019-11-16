@@ -31,7 +31,7 @@ In addition to our usual visits with family in Texas, we're hoping to take a roa
 
 <article-image publicId="OFReport/2018-02-05-coming-to-america/ark-encounter_ffkx2a.jpg" height="768" caption="The Ark Encounter in Kentucky"/>
 
-While we're out there, we would also like to drive through Tennessee, North Carolina, Alabama, Georgia, and maybe even Florida or others. Over the years, God has given us friends in all those places (you know who you are!) and we'd like to stop by and see you if possible. We don't have an exact route or dates planned yet, but if you'd like to see us, [give us a shout out](/contact) and we'll get in touch with you.
+While we're out there, we would also like to drive through Tennessee, North Carolina, Alabama, Georgia, and maybe even Florida or others. Over the years, God has given us friends in all those places (you know who you are!) and we'd like to stop by and see you if possible. We don't have an exact route or dates planned yet, but if you'd like to see us, <nuxt-link to="/contact/">give us a shout out</nuxt-link> and we'll get in touch with you.
 
 <article-image publicId="OFReport/2018-02-05-coming-to-america/crazy-route_ns74d2.jpg" height="768" caption="Definitely still in the planning phase with this... 😉"/>
 

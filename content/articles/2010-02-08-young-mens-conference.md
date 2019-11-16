@@ -13,7 +13,7 @@ Saturday was the second and final day of our Young Men's Conference. Thank you t
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8531.jpg"><img class="size-medium wp-image-925 " title="DSC_8531" src="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8531-300x199.jpg" alt="" width="300" height="199" /></a>
 Young Men's Conference - February 2010
 
-Our theme was II Timothy 2. The conference consisted of four sessions, each deriving it's subject from a verse in II Timothy 2. (see topical overview below) All four sessions were recorded on video, and Jonathan Steele is putting them onto a DVD. If you would like to obtain a copy of the DVD, please contact Jonathan via e-mail: <strong><a href="mailto:jonathancalebsteele@gmail.com">jonathancalebsteele@gmail.com</a></strong>.
+Our theme was II Timothy 2. The conference consisted of four sessions, each deriving it's subject from a verse in II Timothy 2. (see topical overview below) All four sessions were recorded on video, and Jonathan Steele is putting them onto a DVD.
 
 <a href="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8524.jpg"><img class="size-medium wp-image-927" title="DSC_8524" src="//d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8524-300x199.jpg" alt="" width="300" height="199" /></a>
 Bill Bell gives a demonstration on tactical firearms.
