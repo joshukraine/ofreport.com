@@ -3,6 +3,7 @@ title: "Operation Library"
 date: "2019-03-30"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571900771/OFReport/2019-03-30-operation-library/dobro-i-zlo-library-05-1200-630_pmwaod.jpg"
+pdf: "OFR-Jan-Mar-2019.pdf"
 caption: "God has recently opened an exciting door for us to put copies of Good and Evil into Ukrainian libraries! Working with us to head up this project is our long-time friend, Serhii Chepara. Read on to learn how God is moving!"
 preview: >
   Shortly after our return from America, one of the teachers in the Christian school at our church asked me speak to her class. She had heard about our visit to the Ark Encounter in Kentucky and wanted me to share our experience with the children. After I spoke, the kids would do a puppet show about Noah's Ark. The whole event was to take place at a local children's library in our neighborhood. I agreed to come and a date was set.
