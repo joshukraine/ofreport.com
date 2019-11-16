@@ -8,7 +8,6 @@ jobs:
     working_directory: ~/ofreport.com
 
     environment:
-      NUXT_BUILD_DIR: ~/ofreport.com/dist
       PER_PAGE: "10"
       APP_ENV: "prod"
 
@@ -30,7 +29,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn md2json
-      - run: yarn generate
+      - run: yarn build
 
   deploy:
     docker:
@@ -39,13 +38,34 @@ jobs:
 
     working_directory: ~/ofreport.com
 
+    environment:
+      PER_PAGE: "10"
+      APP_ENV: "prod"
+
     steps:
       - run:
           name: Install Gulp globally
           command: sudo npm install -g gulp
-      - run:
-          name: Install Gulp locally
-          command: npm install gulp
+
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run: yarn md2json
+      - run: yarn generate
+
       - run:
           name: Deploy to S3
           command: gulp deploy
