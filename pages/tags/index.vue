@@ -1,7 +1,7 @@
 <template>
   <article class="container text-center max-w-xl">
     <div class="my-6 sm:my-8 md:mb-0 lg:mt-12">
-      <h1>All Tags</h1>
+      <h1>Article Tags</h1>
     </div>
 
     <ul class="my-6">
