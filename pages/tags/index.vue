@@ -5,9 +5,9 @@
     </div>
 
     <ul class="my-6">
-      <li v-for="tag in tags" :key="tag" class="py-4 sm:py-6 border-b last:border-b-0">
-        <nuxt-link :to="`/tags/${tag}`" class="sm:text-xl">
-          {{ tag }}
+      <li v-for="tag in tags" :key="tag[0]" class="py-4 sm:py-6 border-b last:border-b-0">
+        <nuxt-link :to="`/tags/${tag[0]}`" class="sm:text-xl">
+          {{ tag[0] }} ({{ tag[1] }})
         </nuxt-link>
       </li>
     </ul>
@@ -25,7 +25,7 @@ export default {
     };
   },
   created() {
-    this.tags = getUniqueTags(articles);
+    this.tags = getUniqueTags(articles).sort();
   },
 };
 </script>
