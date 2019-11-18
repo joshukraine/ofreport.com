@@ -1,3 +1,4 @@
+import countBy from 'lodash.countby';
 import articles from '../../data/articles.json';
 
 const parameterize = (tag) => tag.trim()
@@ -7,7 +8,7 @@ const getUniqueTags = (articleData) => {
   const rawTags = [];
   Object.values(articleData).map((a) => a.tags
     .map((tag) => rawTags.push(parameterize(tag))));
-  return [...new Set(rawTags)];
+  return Object.entries(countBy(rawTags));
 };
 
 const getArticlesTaggedWith = (tag) => Object.values(articles)
