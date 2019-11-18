@@ -25,11 +25,21 @@
               Blog
             </nuxt-link>
           </li>
-        </ul>
-        <ul class="w-1/3 text-center">
           <li>
             <nuxt-link to="/archives/">
               Archives
+            </nuxt-link>
+          </li>
+        </ul>
+        <ul class="w-1/3 text-center">
+          <li>
+            <nuxt-link to="/subscribe/">
+              Subscribe
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/tags/">
+              Tags
             </nuxt-link>
           </li>
           <li>
@@ -52,6 +62,9 @@
           </li>
           <li>
             <a href="https://cmoproject.org/" target="_blank">CMO</a>
+          </li>
+          <li>
+            <a href="https://kelsie.me/" target="_blank">kelsie.me</a>
           </li>
         </ul>
       </div>
