@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="border-t-2 border-blue-dark">
-      <div class="container pt-6 sm:pt-8 flex mx-auto max-w-lg">
+      <div class="container pt-6 sm:pt-8 lg:pt-10 flex mx-auto max-w-2xl">
         <ul class="w-1/3 text-center">
           <li>
             <nuxt-link to="/family/">
@@ -25,11 +25,21 @@
               Blog
             </nuxt-link>
           </li>
-        </ul>
-        <ul class="w-1/3 text-center">
           <li>
             <nuxt-link to="/archives/">
               Archives
+            </nuxt-link>
+          </li>
+        </ul>
+        <ul class="w-1/3 text-center">
+          <li>
+            <nuxt-link to="/subscribe/">
+              Subscribe
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/tags/">
+              Tags
             </nuxt-link>
           </li>
           <li>
@@ -53,9 +63,12 @@
           <li>
             <a href="https://cmoproject.org/" target="_blank">CMO</a>
           </li>
+          <li>
+            <a href="https://kelsie.me/" target="_blank">kelsie.me</a>
+          </li>
         </ul>
       </div>
-      <ul class="py-6 sm:py-8 flex justify-center">
+      <ul class="py-6 sm:py-8 lg:py-10 flex justify-center">
         <li class="mx-6">
           <a href="https://www.facebook.com/joshukraine"
              class=""

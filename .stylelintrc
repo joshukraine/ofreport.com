@@ -22,7 +22,7 @@
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": "never",
-    "comment-empty-line-before": "always",
+    "comment-empty-line-before": "never",
     "comment-whitespace-inside": "always",
     "declaration-block-semicolon-newline-after": "always-multi-line",
     "declaration-block-semicolon-newline-before": "never-multi-line",
