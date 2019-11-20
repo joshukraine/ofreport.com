@@ -23,6 +23,30 @@ export default {
       return `${site.url + this.$route.path}/`;
     },
   },
+  mounted() {
+    this.setupMailChimpPopup();
+  },
+  methods: {
+    setupMailChimpPopup() {
+      const mailchimpConfig = {
+        baseUrl: 'mc.us6.list-manage.com',
+        uuid: '1e0c65850b60905f65b151819',
+        lid: '97b9f6a559',
+      };
+
+      const mcPopupLoader = document.createElement('script');
+      mcPopupLoader.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
+      mcPopupLoader.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
+
+      const mcPopup = document.createElement('script');
+      mcPopup.appendChild(document.createTextNode(`require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": "${mailchimpConfig.baseUrl}", "uuid": "${mailchimpConfig.uuid}", "lid": "${mailchimpConfig.lid}"})});`));
+
+      mcPopupLoader.onload = () => {
+        document.body.appendChild(mcPopup);
+      };
+      document.body.appendChild(mcPopupLoader);
+    },
+  },
   head() {
     return {
       meta: [
