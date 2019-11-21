@@ -3,10 +3,7 @@
     <PageHeader title="How to Donate" />
 
     <section class="container max-w-2xl mx-auto -mt-4">
-      <DynamicMarkdown
-        :render-fn="renderFn"
-        :static-render-fns="staticRenderFns"
-      />
+      <DynamicMarkdown dir="pages" slug="donate" />
     </section>
   </article>
 </template>
@@ -19,13 +16,6 @@ export default {
   components: {
     DynamicMarkdown,
     PageHeader,
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/donate.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
-    };
   },
   data() {
     return {

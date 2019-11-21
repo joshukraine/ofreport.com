@@ -3,10 +3,7 @@
     <PageHeader title="We live to serve<br />Jesus Christ." :html="true" />
 
     <section class="container text-center max-w-2xl mx-auto -mt-4">
-      <DynamicMarkdown
-        :render-fn="renderFn"
-        :static-render-fns="staticRenderFns"
-      />
+      <DynamicMarkdown dir="pages" slug="ministry" />
     </section>
   </article>
 </template>
@@ -19,13 +16,6 @@ export default {
   components: {
     DynamicMarkdown,
     PageHeader,
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/ministry.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
-    };
   },
   data() {
     return {

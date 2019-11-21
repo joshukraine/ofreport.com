@@ -3,10 +3,7 @@
     <PageHeader title="Through the Years" />
 
     <section class="container max-w-2xl mx-auto">
-      <DynamicMarkdown
-        :render-fn="renderFn"
-        :static-render-fns="staticRenderFns"
-      />
+      <DynamicMarkdown dir="pages" slug="archives" />
     </section>
 
     <section class="container max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
@@ -49,13 +46,6 @@ export default {
   components: {
     DynamicMarkdown,
     PageHeader,
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/archives.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
-    };
   },
   data() {
     return {
