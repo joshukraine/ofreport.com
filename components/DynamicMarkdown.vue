@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <component :is="markdownContent" />
-  </div>
+  <component :is="markdownContent" />
 </template>
 
 <script>
