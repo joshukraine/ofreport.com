@@ -1,8 +1,5 @@
 <template>
   <div>
-    <!-- Frontmatter (attributes) currently not loading properly. The line below -->
-    <!-- causes a TypeError: "Cannot read property 'title' of null" -->
-    <!-- <p>Post title: {{ attributes.title }}</p> -->
     <component :is="markdownContent" />
   </div>
 </template>
@@ -29,24 +26,20 @@ export default {
   data() {
     return {
       markdownContent: null,
-      attributes: null,
     };
   },
   created() {
-    this.markdownContent = () => import(`~/content/${this.dir}/${this.slug}.md`).then((md) => {
-      this.attributes = md.attributes;
-      return {
-        extends: md.vue.component,
-        components: {
-          ArticleButton,
-          ArticleCallout,
-          ArticleDivider,
-          ArticleImage,
-          ArticleSpacer,
-          ArticleSvg,
-        },
-      };
-    });
+    this.markdownContent = () => import(`~/content/${this.dir}/${this.slug}.md`).then((md) => ({
+      extends: md.vue.component,
+      components: {
+        ArticleButton,
+        ArticleCallout,
+        ArticleDivider,
+        ArticleImage,
+        ArticleSpacer,
+        ArticleSvg,
+      },
+    }));
   },
 };
 </script>
