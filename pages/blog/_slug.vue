@@ -39,10 +39,9 @@
             </div>
           </div>
         </div>
-        <DynamicMarkdown
-          :render-fn="renderFn"
-          :static-render-fns="staticRenderFns"
-        />
+
+        <DynamicMarkdown :slug="articleSlug" />
+
         <ArticleFooter />
       </div>
     </div>
@@ -51,6 +50,7 @@
 
 <script>
 import dayjs from 'dayjs';
+import articles from '~/data/articles.json';
 import ArticleFooter from '~/components/ArticleFooter.vue';
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import authorData from '~/data/authors.json';
@@ -66,14 +66,6 @@ export default {
   mixins: [
     markdownit,
   ],
-  async asyncData({ params }) {
-    const article = await import(`~/content/articles/${params.slug}.md`);
-    return {
-      fm: article.attributes, // frontmatter
-      renderFn: article.vue.render,
-      staticRenderFns: article.vue.staticRenderFns,
-    };
-  },
   data() {
     return {
       authors: authorData.data,
@@ -81,6 +73,12 @@ export default {
     };
   },
   computed: {
+    fm() {
+      return articles[this.articleSlug];
+    },
+    articleSlug() {
+      return this.$route.params.slug;
+    },
     articleAuthor() {
       return this.authors.find((author) => author.name === this.fm.author);
     },
