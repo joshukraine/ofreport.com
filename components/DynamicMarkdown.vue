@@ -1,5 +1,8 @@
 <template>
   <div>
+    <!-- Frontmatter (attributes) currently not loading properly. The line below -->
+    <!-- causes a TypeError: "Cannot read property 'title' of null" -->
+    <!-- <p>Post title: {{ attributes.title }}</p> -->
     <component :is="markdownContent" />
   </div>
 </template>
