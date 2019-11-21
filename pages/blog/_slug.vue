@@ -40,7 +40,7 @@
           </div>
         </div>
 
-        <DynamicMarkdown :slug="articleSlug" />
+        <DynamicMarkdown dir="articles" :slug="articleSlug" />
 
         <ArticleFooter />
       </div>

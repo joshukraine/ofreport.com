@@ -3,10 +3,7 @@
     <PageHeader title="We live to serve<br />Jesus Christ." :html="true" />
 
     <section class="container text-center max-w-2xl mx-auto -mt-4">
-      <DynamicMarkdown
-        :render-fn="renderFn"
-        :static-render-fns="staticRenderFns"
-      />
+      <DynamicMarkdown dir="pages" slug="ministry" />
     </section>
   </article>
 </template>
@@ -14,7 +11,6 @@
 <script>
 import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 import PageHeader from '~/components/PageHeader.vue';
-import ministry from '~/content/pages/ministry.md';
 
 export default {
   components: {
@@ -23,17 +19,9 @@ export default {
   },
   data() {
     return {
-      fm: null,
-      renderFn: null,
-      staticRenderFns: null,
       description: 'Our highest purpose in life is to follow our Savior, the Lord Jesus Christ. We are raising our family in Ukraine, and striving to share the Gospel with those around us. If you’d like to learn more about how we minister, read on!',
       title: 'Ministry',
     };
-  },
-  created() {
-    this.fm = ministry.attributes;
-    this.renderFn = ministry.vue.render;
-    this.staticRenderFns = ministry.vue.staticRenderFns;
   },
   head() {
     return {

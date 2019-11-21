@@ -18,6 +18,10 @@ export default {
       type: String,
       required: true,
     },
+    dir: {
+      type: String,
+      required: true,
+    },
   },
   data() {
     return {
@@ -26,7 +30,7 @@ export default {
     };
   },
   created() {
-    this.markdownContent = () => import(`~/content/articles/${this.slug}.md`).then((md) => {
+    this.markdownContent = () => import(`~/content/${this.dir}/${this.slug}.md`).then((md) => {
       this.attributes = md.attributes;
       return {
         extends: md.vue.component,

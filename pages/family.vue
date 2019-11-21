@@ -19,10 +19,7 @@
     </section>
 
     <section class="container max-w-3xl mx-auto mt-8 sm:mt-12 md:mt-16">
-      <DynamicMarkdown
-        :render-fn="renderFn"
-        :static-render-fns="staticRenderFns"
-      />
+      <DynamicMarkdown dir="pages" slug="family" />
     </section>
   </article>
 </template>
@@ -33,13 +30,6 @@ import DynamicMarkdown from '~/components/DynamicMarkdown.vue';
 export default {
   components: {
     DynamicMarkdown,
-  },
-  async asyncData() {
-    const page = await import('~/content/pages/family.md');
-    return {
-      renderFn: page.vue.render,
-      staticRenderFns: page.vue.staticRenderFns,
-    };
   },
   data() {
     return {
