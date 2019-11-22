@@ -34,6 +34,7 @@ export default {
   data() {
     return {
       description: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
+      image: 'https://res.cloudinary.com/dnkvsijzu/image/upload/c_fill,f_auto,h_630,q_auto:best,w_1200/v1572346054/OFReport/assets/steele-family-2018-12-6_sdixdx.jpg',
       title: 'The Steele Family',
     };
   },
@@ -42,10 +43,14 @@ export default {
       title: this.title,
       meta: [
         { hid: 'description', name: 'description', content: this.description },
+        { hid: 'og:image', property: 'og:image', content: this.image },
         { hid: 'og:title', property: 'og:title', content: this.title },
+        { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
+        { hid: 'og:image:height', property: 'og:image:height', content: '630' },
         { hid: 'og:description', property: 'og:description', content: this.description },
         { hid: 'twitter:title', name: 'twitter:title', content: this.title },
         { hid: 'twitter:description', name: 'twitter:description', content: this.description },
+        { hid: 'twitter:image', name: 'twitter:image', content: this.image },
       ],
     };
   },
