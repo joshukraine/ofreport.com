@@ -1,7 +1,7 @@
 <template>
   <div style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
     <section class="alpha bg-cover bg-top sm:bg-left-top min-h-screen md:min-h-3/4-vh flex items-center sm:p-10 md:bg-left lg:bg-top">
-      <div class="container pb-10 sm:pb-0 md:py-24">
+      <div class="w-11/12 mx-auto pb-10 sm:pb-0 md:py-24">
         <div class="flex justify-end pt-16 sm:pt-32 md:pt-0 lg:px-10">
           <div class="text-center px-8 md:w-2/5 md:px-0">
             <img class="w-full" src="~/assets/svg/josh-and-kels.svg">
