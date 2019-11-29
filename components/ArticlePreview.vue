@@ -87,7 +87,4 @@ export default {
 .preview-text p {
   @apply .text-base;
 }
-
-h2 > a {
-  @apply; }
 </style>
