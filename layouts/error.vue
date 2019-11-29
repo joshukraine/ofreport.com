@@ -2,7 +2,10 @@
   <article class="mb-8 md:mb-12">
     <section class="container px-10 max-w-3xl sm:max-w-xl text-center">
       <div class="my-8 sm:my-12 md:mt-16">
-        <svg viewBox="0 0 500 213" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 500 213"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg"
+        >
           <title>404</title>
           <path fill-rule="evenodd"
                 clip-rule="evenodd"
