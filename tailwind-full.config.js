@@ -1,4 +1,3 @@
-/* eslint-disable */
 module.exports = {
   prefix: '',
   important: false,
