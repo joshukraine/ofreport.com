@@ -124,8 +124,6 @@ export default {
 @screen sm {
   .nav-link-wrapper {
     @apply .max-w-xl .my-0 .mx-auto;
-
-    /* margin: 0 auto; */
   }
 }
 

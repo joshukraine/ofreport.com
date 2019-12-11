@@ -5,13 +5,13 @@
   "author": "Joshua Steele",
   "private": true,
   "scripts": {
-    "dev": "yarn md2json && nuxt",
     "build": "nuxt build",
-    "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
-    "start": "nuxt start",
+    "dev": "yarn md2json && nuxt",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore ."
+    "lint": "eslint --ext .js,.vue . && stylelint \"**/*.(css|vue)\"",
+    "lint:fix": "eslint --ext .js,.vue --fix . && stylelint --fix \"**/*.(css|vue)\"",
+    "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
+    "start": "nuxt start"
   },
   "lint-staged": {
     "*.vue": [
@@ -51,7 +51,7 @@
   "devDependencies": {
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-analytics": "^2.2.1",
-    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^1.2.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
