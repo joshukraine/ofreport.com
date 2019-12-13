@@ -33,6 +33,12 @@ module.exports = {
     // https://github.com/nuxt/eslint-config/blob/master/packages/eslint-config/index.js
     'import/no-unresolved': 'off',
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
+    'import/extensions': ['error', 'never', {
+      vue: 'always',
+      json: 'always',
+    }],
+
     // https://eslint.org/docs/rules/max-len
     // https://github.com/vuejs/eslint-plugin-vue/issues/731
     'max-len': 'off',
