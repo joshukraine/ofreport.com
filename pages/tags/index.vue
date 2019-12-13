@@ -19,7 +19,7 @@
 
 <script>
 import articles from '~/data/articles.json';
-import { getUniqueTags } from '~/config/utils/helpers.js';
+import { getUniqueTags } from '~/config/utils/helpers';
 
 export default {
   data() {
