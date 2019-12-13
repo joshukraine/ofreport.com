@@ -11,5 +11,10 @@ export default {
   components: {
     BlogHome,
   },
+  head() {
+    return {
+      title: 'Blog',
+    };
+  },
 };
 </script>

@@ -19,7 +19,7 @@
 
 <script>
 import articles from '~/data/articles.json';
-import { getUniqueTags } from '~/config/utils/helpers';
+import { getUniqueTags } from '~/config/utils/helpers.js';
 
 export default {
   data() {
@@ -29,6 +29,11 @@ export default {
   },
   created() {
     this.tags = getUniqueTags(articles).sort();
+  },
+  head() {
+    return {
+      title: 'Tags',
+    };
   },
 };
 </script>
