@@ -30,5 +30,10 @@ export default {
   created() {
     this.tags = getUniqueTags(articles).sort();
   },
+  head() {
+    return {
+      title: 'Tags',
+    };
+  },
 };
 </script>
