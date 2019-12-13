@@ -6,17 +6,17 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1576234307/OFReport/2
 caption: >
   We still don't have a new "official" family photo since Mia's arrival, but this impromptu shot in the living turned out pretty nicely! Clockwise from the top: Joshua, Kelsie, Mia (4 mos.), Rebekah (11), Abigail (14), Macie (dog), Hosanna (9), David (2), Kathryn (4).
 preview: >
-  It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have newsletter coming out soon, but in the meantime, here are handful of memories from our life here in L'viv.
+  It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in L'viv.
 tags:
 - family
 - photos
 ---
 
-It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have newsletter coming out soon, but in the meantime, here are handful of memories from our life here in L'viv.
+It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in L'viv.
 
 As always, we're grateful for your prayers and support as we minister!
 
-<article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2434_spmfcs" width="768" caption="We recently had to make a trip to the city of Vinnytsya (~6 hrs. east of us) to get new passports. All in all, it was a fun road trip!" />
+<article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2434_spmfcs" width="768" caption="We recently had to travel to the city of Vinnytsya (~6 hrs. east of us) to get new passports. All in all, it was a fun road trip!" />
 
 <article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2441_k0chr2" height="768" caption="We stayed in a small apartment, and everyone had their own nightstand. Kathryn was particularly pleased with this arrangement. 😁" />
 
@@ -24,7 +24,7 @@ As always, we're grateful for your prayers and support as we minister!
 
 <article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2641_rfjyfl" width="768" caption="Ear muffs are the new must-have trendy accessory at our house." />
 
-<article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2560_czidae" height="768" caption="&ldquo;Wow Dad, how's the weather up there?&rdquo;" />
+<article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2560_czidae" height="768" caption="&ldquo;Wow Dad, how's the weather up there?&rdquo; 🌦" />
 
 <article-image publicId="OFReport/2019-12-13-fall-family-photos/IMG_2618_oibogu" width="768" caption="Last month, Hosanna turned 9. Mom and the older girls outdid themselves with this hand-made Lego Hobbit cake!" />
 
