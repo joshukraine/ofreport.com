@@ -1,5 +1,5 @@
 <template>
-  <figure :class="verticalSpacing">
+  <figure :style="{ maxWidth: width + 'px' }" :class="verticalSpacing">
     <a v-if="link"
        :href="link"
        target="_blank"
@@ -51,3 +51,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+figure {
+  @apply .mx-auto;
+}
+</style>
