@@ -16,6 +16,8 @@ tags:
 
 It's been said before, but it's worth saying again and again: THE number one need we have on the mission field is for laborers. Money, computers, vehicles, groceries, buildings — all of that is needful and we praise God for it. But vehicles don't preach. Dollars alone can't win souls. God has entrusted the ministry of the Gospel to people. *"Therefore said he unto them, The harvest truly is great, but the **labourers are few**: pray ye therefore the Lord of the harvest, **that he would send forth labourers into his harvest**." (Luke 10:2)*
 
+<article-callout content="OFR-Nov-Dec-2019.pdf" :download="true" />
+
 Every year, as we prepare for our summer outreaches, we pray that God would send us laborers. And He does! They usually come for a few weeks, they minister with us, and then they go on to their next field. But this year, God did something special and called a young man to come back and serve alongside our team in Ukraine.
 
 Kade Bloom already had his sights set on the mission field before he arrived last summer to take part in CMO 2019. We met him through ETO board member, Ben Sargent, because the two of them had been evangelizing together in Georgia and North Carolina. During our staff meetings, I kept hearing Kade's name come up with phrases like "top-shelf" and "A-team".
