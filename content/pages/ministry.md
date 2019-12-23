@@ -2,7 +2,7 @@ Our highest purpose in life is to follow our Savior, the Lord Jesus Christ. We a
 
 <article-spacer heightSm="16" />
 
-<article-svg name="eto-logo" width="200" alt="Euro Team Outreach" />
+<article-svg name="eto-logo" width="200" margin="b" alt="Euro Team Outreach" />
 
 Our family serves with a group of missionaries known as Euro Team Outreach (ETO). ETO is a nonprofit organization dedicated to the advancement of the Gospel of Jesus Christ.
 
@@ -10,7 +10,7 @@ Our family serves with a group of missionaries known as Euro Team Outreach (ETO)
 
 ---
 
-<article-svg name="bible-first" width="400" alt="Bible First" />
+<article-svg name="bible-first" width="400" margin="b" alt="Bible First" />
 
 Bible First is an evangelistic correspondence course designed to reach unbelievers by involving them in a chronological study of the book of Genesis. Over the course of 20 lessons, students are presented not only with the Gospel, but every major doctrine in Scripture. The lessons point to Jesus, drawing on the types and parallels that God Himself built into Genesis.
 
@@ -18,7 +18,7 @@ Bible First is an evangelistic correspondence course designed to reach unbelieve
 
 ---
 
-<article-svg name="cmo-logo" width="250" alt="Carpathian Mountain Outreach" />
+<article-svg name="cmo-logo" width="250" margin="b" alt="Carpathian Mountain Outreach" />
 
 Carpathian Mountain Outreach (CMO) is a short-term missions project hosted every summer by our team in Ukraine. The goal of this project is two-fold: to preach the Gospel in Ukraine and to train young men in foreign missions.
 
