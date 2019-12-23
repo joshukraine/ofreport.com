@@ -14,7 +14,7 @@ tags:
 - good-and-evil
 ---
 
-It's been said before, but it's worth saying again and again: THE number one need we have on the mission field is for laborers. Money, computers, vehicles, groceries, buildings — all of that is needful and we praise God for it. But vehicles don't preach. Dollars alone can't win souls. God has entrusted the ministry of the Gospel to people. *"Therefore said he unto them, The harvest truly is great, but the **labourers are few**: pray ye therefore the Lord of the harvest, **that he would send forth labourers into his harvest**." (Luke 10:2)*
+It's been said before, but it's worth saying again and again: THE number one need we have on the mission field is for laborers. Money, computers, vehicles, groceries, buildings — all of that is needful and we praise God for it. But vehicles don't preach. Dollars alone can't win souls. God has entrusted the ministry of the Gospel to *people*. *"Therefore said he unto them, The harvest truly is great, but the **labourers are few**: pray ye therefore the Lord of the harvest, **that he would send forth labourers into his harvest**." (Luke 10:2)*
 
 <article-callout content="OFR-Nov-Dec-2019.pdf" :download="true" />
 
