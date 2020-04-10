@@ -2,7 +2,7 @@
 title: "L’viv Angels"
 date: "2020-04-10"
 author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1586535433/OFReport/DRAFT/5-passengers-12-6_qbryax.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1586535433/OFReport/2020-04-10-lviv-angels/5-passengers-12-6_qbryax.jpg"
 caption: "As the Coronavirus pandemic drags on, my morning hours are spent driving doctors to the Pulmonary Diagnostic Center south of L’viv. Pictured here are five of my regular passengers: Oleg, Natalya, Svitlana, Natalya, and Anna."
 pdf: "OFR-Jan-Mar-2020.pdf"
 preview: >
@@ -26,17 +26,17 @@ At first, the city assigned us to drive blood donors to and from the local blood
 
 On my first run to the PDC, I think I had 3 passengers. Since I knew they needed to go again the next day, we agreed that I would pick them up at the same time instead of them having to call the dispatcher again and request a driver. A day or two later, a new request came through the L’viv Angels group for a deaf lab technician named Lyuba. I could see that she was more-or-less on my route, so I volunteered to pick her up.
 
-<article-image publicId="OFReport/DRAFT/van-selfie_kefvtm.jpg" width="768" caption="This morning’s run to the PDC with six of my new doctor friends. These folks really are a great bunch and it’s a blessing to be able to support their work during the pandemic. 🤗"/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/van-selfie_kefvtm.jpg" width="768" caption="This morning’s run to the PDC with six of my new doctor friends. These folks really are a great bunch and it’s a blessing to be able to support their work during the pandemic. 🤗"/>
 
 By this time, I was making two or three separate stops each morning on my way to the PDC. I decided to create my own Viber group to coordinate more effectively with my regular passengers. Over time, more people were added, and as of this writing, our group is up to seven — the maximum I can take in the van at once. In addition to my regulars, I often drive paramedics on weekends. Every first-time passenger gets a copy of *Good and Evil* in Ukrainian, and I’ve donated G&E books to other drivers who in turn give them to their passengers. Some drivers are also handing out Gideon New Testaments.
 
-<article-image publicId="OFReport/DRAFT/drivers-books_ylteqh.jpg" width="768" caption="Several drivers carry *Good and Evil* books and Gideon New Testaments for our passengers."/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/drivers-books_ylteqh.jpg" width="768" caption="Several drivers carry *Good and Evil* books and Gideon New Testaments for our passengers."/>
 
 The L’viv Angels group now has over 50 drivers and is turning out to be a great opportunity both for humanitarian service and as a platform to tell doctors in L’viv about the Great Physician.
 
-<article-image publicId="OFReport/DRAFT/lviv-angels_hkpbek.jpg" width="768" caption="The L’viv Angels gather in front of a hospital to be tested for COVID-19. Out of more than 30 drivers, there was not a single positive test!"/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/lviv-angels_hkpbek.jpg" width="768" caption="The L’viv Angels gather in front of a hospital to be tested for COVID-19. Out of more than 30 drivers, there was not a single positive test!"/>
 
-<article-image publicId="OFReport/DRAFT/photo_2020-04-10_20.59.47_ft3clu.jpg" width="768" caption="Official COVID-19 stats from Ukraine’s Ministry of Health as of April 10, 2020. 2203 confirmed cases, 311 in the past 24 hrs, 61 recovered, 69 deaths. Visit https://covid19.gov.ua/en for more about COVID-19 in Ukraine."/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/photo_2020-04-10_20.59.47_ft3clu.jpg" width="768" caption="Official COVID-19 stats from Ukraine’s Ministry of Health as of April 10, 2020. 2203 confirmed cases, 311 in the past 24 hrs, 61 recovered, 69 deaths. Visit https://covid19.gov.ua/en for more about COVID-19 in Ukraine."/>
 
 ## More to Tell
 
@@ -52,12 +52,12 @@ With all that’s been going on, both with the pandemic and in our ministry in g
 
 <article-callout content="Keep scrolling for more photos from our family and ministry!" />
 
-<article-image publicId="OFReport/DRAFT/rivne-students_tiqkn5.jpg" width="768" caption="In February, we made a trip to visit some of our Bible First students in the city of Rivne."/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/rivne-students_tiqkn5.jpg" width="768" caption="In February, we made a trip to visit some of our Bible First students in the city of Rivne."/>
 
-<article-image publicId="OFReport/DRAFT/chair-wheels_rhjowu.jpg" width="768" caption="Stuck inside? No problem! We’ll just design our own baby stroller!"/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/chair-wheels_rhjowu.jpg" width="768" caption="Stuck inside? No problem! We’ll just design our own baby stroller!"/>
 
-<article-image publicId="OFReport/DRAFT/bohdana-kids_rozhmd.jpg" width="768" caption="During the quarantine, we dearly miss our friend and “mommy’s helper”, Bohdana."/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/bohdana-kids_rozhmd.jpg" width="768" caption="During the quarantine, we dearly miss our friend and “mommy’s helper”, Bohdana."/>
 
-<article-image publicId="OFReport/DRAFT/mia-big-chair_aw4fa1.jpg" height="768" caption="Little Mia Faith enjoys playing in Daddy’s office! 🥰"/>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/mia-big-chair_aw4fa1.jpg" height="768" caption="Little Mia Faith enjoys playing in Daddy’s office! 🥰"/>
 
-<article-image publicId="OFReport/DRAFT/littles-masks_evo3sx.jpg" height="768" caption="A lady in our church generously gave our family some kid-sized face masks. David, however, was not convinced: “I don’t wanna wewh a mask, Daddy!” It took some getting used to, but with a few adjustments to the elastic bands, the littles are doing super!"></article-image>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/littles-masks_evo3sx.jpg" height="768" caption="A lady in our church generously gave our family some kid-sized face masks. David, however, was not convinced: “I don’t wanna wewh a mask, Daddy!” It took some getting used to, but with a few adjustments to the elastic bands, the littles are doing super!"></article-image>
