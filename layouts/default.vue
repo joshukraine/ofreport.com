@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheNavbar />
-    <main class="pt-16 md:pt-20">
+    <main class="pt-16">
       <nuxt />
     </main>
     <TheFooter />

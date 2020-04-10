@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="h-16 sm:h-18 md:h-20 fixed w-full z-50 bg-white flex px-4 justify-between items-center border-b border-gray-200 lg:px-6"
+    <header class="fixed z-50 flex items-center justify-between w-full h-16 px-4 bg-white border-b border-gray-200 lg:px-6"
             :class="{ 'open-nav': navOpen }"
     >
       <nuxt-link class="block" to="/">
@@ -11,7 +11,7 @@
           MENU
         </button>
       </div>
-      <nav class="nav-menu pt-4 px-4 lg:pt-0" :class="{ 'reveal-nav': navOpen }">
+      <nav class="px-4 pt-4 nav-menu lg:pt-0" :class="{ 'reveal-nav': navOpen }">
         <div class="nav-link-wrapper">
           <nuxt-link class="nav-link"
                      :class="{ 'nav-link-fadein nav-link-1': navOpen }"
@@ -129,7 +129,7 @@ export default {
 
 @screen md {
   .nav-menu {
-    top: 5rem;
+    top: 4rem;
   }
 
   .nav-link-wrapper {
