@@ -3,7 +3,7 @@ title: "Love Story Cafe"
 date: "2020-04-29"
 author: "Kelsie Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1588164627/OFReport/2020-04-29-love-story-cafe/love-story-cafe-12-6_ol9d4r.jpg"
-caption: "God has recently opened some new doors for Joshua and I to share our love story, encouraging others to follow God’s guidance in marriage and family."
+caption: "God recently opened some new doors for Joshua and I to share our love story, encouraging others to follow God’s guidance in marriage and family."
 preview: >
   Dinnerware clinked and the chic restaurant dining room hummed with the activity of about 50 people: couples dressed up to celebrate the 14th of February over a special dinner. “The Love Story Cafe”, a Valentine’s outreach hosted by God’s Design Church, was in full progress. Josh and I had supplied the “love story” part a few minutes earlier.
 tags:
@@ -35,6 +35,8 @@ The response to the Love Story Cafe was warm and receptive, and many couples exp
 <article-image publicId="OFReport/2020-04-29-love-story-cafe/DSCF4777_r4b969.jpg" width="768" />
 
 As a rule, our family has a fairly quiet social calendar. But this year was an exception as we actually had two opportunities to share around Valentine’s Day. Only a few days before the LSC, a group of 50+ single adults gathered at a local Baptist church to hear our love story.
+
+<article-image publicId="OFReport/2020-04-29-love-story-cafe/IMG_3030_tvg4xc.jpg" width="768" caption="Making new friends after our meeting at Christ the Savior Baptist Church."/>
 
 This meeting, in contrast to the formality and focus of the Love Story Cafe, was relaxed and leisurely. We shared for about an hour and a half, recounting how God brought us together from across the world, having never met each other before. If I could distill down a theme for all that was said, it would be this: God is a rewarder of them that seek Him. To have the privilege of sharing that message with an interested group of young people – now that is exciting!!
 
