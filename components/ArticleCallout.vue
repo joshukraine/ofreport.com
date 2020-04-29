@@ -1,6 +1,6 @@
 <template>
-  <section class="py-4 sm:py-6 border-t-4 border-b-4" :class="marginClasses">
-    <p v-if="download" class="pdf-download m-0 sm:text-xl font-bold text-center">
+  <section class="py-4 border-t-4 border-b-4 sm:py-6" :class="marginClasses">
+    <p v-if="download" class="m-0 font-bold text-center pdf-download sm:text-xl">
       <a class="inline-block"
          :href="downloadLink"
          target="_blank"
@@ -11,21 +11,28 @@
     </p>
 
     <div v-else-if="link">
-      <p class="m-0 sm:text-xl font-bold text-center">
+      <p class="m-0 font-bold text-center sm:text-xl">
         {{ content }}
       </p>
-      <p class="sm:text-xl font-bold text-center">
-        <a class="inline-block"
-           :href="link.href"
-           target="_blank"
-           rel="noopener noreferrer"
-        >
-          {{ link.name }}
-        </a>
+      <p class="font-bold text-center sm:text-xl">
+        <template v-if="link.to">
+          <nuxt-link :to="link.to">
+            {{ link.name }}
+          </nuxt-link>
+        </template>
+        <template v-if="link.href">
+          <a class="inline-block"
+             :href="link.href"
+             target="_blank"
+             rel="noopener noreferrer"
+          >
+            {{ link.name }}
+          </a>
+        </template>
       </p>
     </div>
 
-    <p v-else class="m-0 sm:text-xl font-bold text-center">
+    <p v-else class="m-0 font-bold text-center sm:text-xl">
       {{ content }}
     </p>
   </section>
