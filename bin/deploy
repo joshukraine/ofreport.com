@@ -22,7 +22,7 @@ else
       APP_ENV="prod" $yarn_cmd generate
 
       printf "\\n--> Deploying to %s...\\n" "$OFR_PROD_BUCKET_NAME"
-      OFR_BUCKET_NAME=$OFR_PROD_BUCKET_NAME $gulp_cmd deploy
+      APP_ENV="prod" OFR_BUCKET_NAME=$OFR_PROD_BUCKET_NAME $gulp_cmd deploy
 
       printf "\\n--> Deploy complete!"
       printf "\\n--> http://ofreport.com.s3-website-us-east-1.amazonaws.com/\\n"
