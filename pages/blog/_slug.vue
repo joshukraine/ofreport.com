@@ -110,12 +110,21 @@ export default {
       }
       return '';
     },
+    authorBlogLink() {
+      if (this.authorHasLink) {
+        return this.articleAuthor.links.blog;
+      }
+      return '';
+    },
     fmAuthorLink() {
       if (this.authorTwitterLink) {
         return this.authorTwitterLink;
       }
       if (this.authorFacebookLink) {
         return this.authorFacebookLink;
+      }
+      if (this.authorBlogLink) {
+        return this.authorBlogLink;
       }
       return false;
     },
