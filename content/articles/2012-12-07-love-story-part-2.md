@@ -39,3 +39,5 @@ Who was I kidding? What father in his right mind would even listen to such an ab
 Scarcely able to believe that this was all happening, I composed a simple message in which I introduced myself, gave a very brief explanation of my work as a missionary, and expressed my desire to “get to know Kelsie in a courtship relationship with the goal of marriage in mind should the Lord so direct.” I stressed my respect for the fact that Kelsie was his daughter, that he was her God-ordained head, and that I was ready to proceed in whatever way and at whatever pace he desired. Then I hit send and waited.
 
 A positive reply arrived soon thereafter, and Danny and I began our correspondence.
+
+<nuxt-link to="/blog/2012-12-14-love-story-part-3/">Part 3: Dating the Dad?</nuxt-link>

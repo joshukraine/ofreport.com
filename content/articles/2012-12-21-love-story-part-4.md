@@ -28,3 +28,5 @@ At the time all this was transpiring, Kelsie was away teaching at a girls’ ret
 Danny continued, “Yes, I think you might be interested in learning Ukrainian.”
 
 With that, he handed her a small, worn, paperback Ukrainian phrasebook. Opening it, she immediately noticed a name penned inside the front cover: Joshua Steele.
+
+<nuxt-link to="/blog/2012-12-28-love-story-part-5/">Part 5: The Beginning</nuxt-link>

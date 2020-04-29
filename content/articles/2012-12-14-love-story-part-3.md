@@ -17,3 +17,5 @@ When Danny and I began emailing, I had no idea what to expect. But I knew that f
 Our early emails were largely composed of basic facts about our two families. He asked many questions about my upbringing and my ministry. In turn he also told me a lot about their family. Far from the extended grilling I had feared, I found that Danny and I actually got along quite well. He was very positive and encouraging. As I would later learn, Danny had felt strongly for a couple of months that God was about to bring Kelsie’s life partner onto the scene, and he had been waiting. From the time he read my first email, he strongly sensed that this courtship was God’s design.
 
 I think it is no coincidence that of all the players in this particular courtship drama, it was Kelsie’s father who was the first to be convinced in his heart that this was a marriage made in heaven. Before I even knew the name Kelsie Powell, God had impressed upon Danny that the time was near.
+
+<nuxt-link to="/blog/2012-12-21-love-story-part-4/">Part 4: Let’s Tell Kelsie</nuxt-link>

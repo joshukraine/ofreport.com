@@ -29,3 +29,5 @@ Our approach was practical. Separated by thousands of miles, we focused on excha
 Unlike most young people entering courtship, we could not meet face to face and so relied heavily on written correspondence. Looking back, both of us have observed that God used this apparent limitation as a means of maturing and strengthening our relationship. As we wrote, we discussed a variety of issues including our views on children, finances, the family in general, church, ministry, education, and employment. Woven into the fact exchanges were plenty of personal details and the simple, excited chatter of two young people who are rapidly falling in love.
 
 But love was one word I refrained from using at the beginning. Too many have cheapened that word by applying it early and often to anything and anyone who happens to catch their fancy. I wanted Kelsie to know that when first I confessed my love for her, it would be more than just words.
+
+<nuxt-link to="/blog/2013-01-11-love-story-part-7/">Part 7: “I love you!”</nuxt-link>
