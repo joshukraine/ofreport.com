@@ -35,3 +35,5 @@ Our moms met and chatted at the girls' retreat before Kelsie knew what was going
 {: .article-image .article-image--has-caption}
 Suddenly, Kelsie was spending a lot more time with her email!
 {: .caption-text .article-image__caption}
+
+<nuxt-link to="/blog/2013-01-04-love-story-part-6/">Part 6: Mystery Courtship</nuxt-link>

@@ -33,3 +33,5 @@ At last I gave up trying. I was tired. I was distracted from my work. The emotio
 In a way, I felt that I had fewer answers than when I had begun. There were many things I did not understand, many courtship and marriage questions that remained a mystery. But I did know one thing: God is faithful. Marriage or no marriage, I had committed my life to following Him, and that was not about to change.
 
 A few weeks later, I received an email from my sister Jennifer, who wrote, “I recently shared a room with a wonderful young lady named Kelsie…”
+
+<nuxt-link to="/blog/2012-12-07-love-story-part-2/">Part 2: First Things First</nuxt-link>
