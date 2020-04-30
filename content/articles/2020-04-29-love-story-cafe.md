@@ -7,7 +7,7 @@ caption: "God recently opened some new doors for Joshua and I to share our love 
 preview: >
   Dinnerware clinked and the chic restaurant dining room hummed with the activity of about 50 people: couples dressed up to celebrate the 14th of February over a special dinner. “The Love Story Cafe”, a Valentine’s outreach hosted by God’s Design Church, was in full progress. Josh and I had supplied the “love story” part a few minutes earlier.
 tags:
-- love-story
+- love story
 - ministry
 - photos
 ---
