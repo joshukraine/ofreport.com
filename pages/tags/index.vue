@@ -1,5 +1,5 @@
 <template>
-  <article class="container text-center max-w-xl">
+  <article class="container max-w-xl text-center">
     <div class="my-6 sm:my-8 md:mb-0 lg:mt-12">
       <h1>Article Tags</h1>
     </div>
@@ -7,7 +7,7 @@
     <ul class="my-6">
       <li v-for="tag in tags"
           :key="tag[0]"
-          class="py-4 sm:py-6 border-b last:border-b-0"
+          class="py-4 border-b sm:py-6 last:border-b-0"
       >
         <nuxt-link :to="`/tags/${tag[0]}`" class="sm:text-xl">
           {{ tag[0] }} ({{ tag[1] }})

@@ -1,5 +1,5 @@
 <template>
-  <article class="ofr-archives pb-8 md:pb-12">
+  <article class="pb-8 ofr-archives md:pb-12">
     <PageHeader title="Through the Years" />
 
     <section class="container max-w-2xl mx-auto">
@@ -9,10 +9,10 @@
     <section class="container max-w-2xl mx-auto mt-6 sm:mt-8 md:mt-10 lg:mt-12">
       <div v-for="labelYear in years"
            :key="labelYear"
-           class="flex mb-6 sm:mb-8 last:mb-0 pb-6 sm:pb-8 last:pb-0 border-b last:border-b-0"
+           class="flex pb-6 mb-6 border-b sm:mb-8 last:mb-0 sm:pb-8 last:pb-0 last:border-b-0"
       >
         <div class="pr-4 sm:pr-6 md:pr-10">
-          <h3 class="mt-0 md:text-3xl leading-none">
+          <h3 class="mt-0 leading-none md:text-3xl">
             {{ labelYear }}
           </h3>
         </div>
@@ -20,7 +20,7 @@
           <ul class="ml-6 pdf-issues">
             <li v-for="issueYear in archives[labelYear]"
                 :key="issueYear.file"
-                class="text-base sm:text-xl leading-tight mb-2 md:mb-4 last:mb-0"
+                class="mb-2 text-base leading-tight sm:text-xl md:mb-4 last:mb-0"
             >
               <a :href="cdnLink(issueYear.file)"
                  target="_blank"

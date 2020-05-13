@@ -1,14 +1,14 @@
 <template>
   <footer class="bg-blue-900">
-    <div class="container py-6 max-w-4xl">
-      <p class="mt-0 text-center text-blue-footer font-fancy text-xl md:text-2xl leading-snug tracking-wide">
+    <div class="container max-w-4xl py-6">
+      <p class="mt-0 text-xl leading-snug tracking-wide text-center text-blue-footer font-fancy md:text-2xl">
         But as we were allowed of God to be put in trust with the gospel,
         even so we speak; not as pleasing men, but God, which trieth our
         hearts. <span class="whitespace-no-wrap">1 Thessalonians 2:4</span>
       </p>
     </div>
     <div class="border-t-2 border-blue-dark">
-      <div class="container pt-6 sm:pt-8 lg:pt-10 flex mx-auto max-w-2xl">
+      <div class="container flex max-w-2xl pt-6 mx-auto sm:pt-8 lg:pt-10">
         <ul class="w-1/3 text-center">
           <li>
             <nuxt-link to="/family/">
@@ -68,7 +68,7 @@
           </li>
         </ul>
       </div>
-      <ul class="py-6 sm:py-8 lg:py-10 flex justify-center">
+      <ul class="flex justify-center py-6 sm:py-8 lg:py-10">
         <li class="mx-6">
           <a href="https://www.facebook.com/joshukraine"
              class=""

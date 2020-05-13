@@ -1,5 +1,5 @@
 <template>
-  <article class="contact pb-8 md:pb-12">
+  <article class="pb-8 contact md:pb-12">
     <PageHeader title="Hello!" />
 
     <section class="container max-w-xl mx-auto">
@@ -7,7 +7,7 @@
         Need to get in touch? Drop us a line!
       </p>
 
-      <div class="mt-6 p-4 bg-white rounded shadow-md">
+      <div class="p-4 mt-6 bg-white rounded shadow-md">
         <form class="contact-form" @submit.prevent="validateFinal">
           <div :class="{ 'invalid': $v.name.$error }">
             <label class="form-label" for="name">
@@ -18,7 +18,7 @@
                    name="name"
                    placeholder="Jane Doe"
                    type="text"
-                   class="form-input placeholder-gray-600 focus:placeholder-gray-400"
+                   class="placeholder-gray-600 form-input focus:placeholder-gray-400"
             >
             <p v-if="$v.name.$error" class="invalid-hint">
               Please provide your name.
@@ -34,7 +34,7 @@
                    name="email"
                    placeholder="you@example.com"
                    type="email"
-                   class="form-input placeholder-gray-600 focus:placeholder-gray-400"
+                   class="placeholder-gray-600 form-input focus:placeholder-gray-400"
             >
             <p v-if="!$v.email.required && $v.email.$dirty" class="invalid-hint">
               Please enter an email.
@@ -54,7 +54,7 @@
                       maxlength="3000"
                       name="message"
                       placeholder="What would you like to say?"
-                      class="form-input placeholder-gray-600 focus:placeholder-gray-400 resize-none"
+                      class="placeholder-gray-600 resize-none form-input focus:placeholder-gray-400"
             />
             <p v-if="$v.message.$error" class="invalid-hint">
               Please enter a message.
@@ -71,7 +71,7 @@
 
           <button type="submit"
                   :disabled="submitPending"
-                  class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline"
+                  class="block w-full mt-6 outline-none btn btn-blue btn-lg sm:w-auto focus:shadow-outline"
           >
             Send
           </button>

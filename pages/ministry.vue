@@ -1,8 +1,8 @@
 <template>
-  <article class="ministry pb-8 md:pb-12">
+  <article class="pb-8 ministry md:pb-12">
     <PageHeader title="We live to serve<br />Jesus Christ." :html="true" />
 
-    <section class="container text-center max-w-2xl mx-auto -mt-4">
+    <section class="container max-w-2xl mx-auto -mt-4 text-center">
       <DynamicMarkdown dir="pages" slug="ministry" />
     </section>
   </article>

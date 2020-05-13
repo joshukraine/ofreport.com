@@ -1,5 +1,5 @@
 <template>
-  <article class="donate pb-8 md:pb-20">
+  <article class="pb-8 donate md:pb-20">
     <PageHeader title="How to Donate" />
 
     <section class="container max-w-2xl mx-auto -mt-4">

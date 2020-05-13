@@ -13,7 +13,7 @@
                type="email"
                value=""
                name="EMAIL"
-               class="w-full py-2 px-4 rounded xs:rounded-r-none border border-gray-400 xs:border-r-0 placeholder-gray-600 focus:placeholder-gray-300 focus:outline-none focus:shadow-outline"
+               class="w-full px-4 py-2 placeholder-gray-600 border border-gray-400 rounded xs:rounded-r-none xs:border-r-0 focus:placeholder-gray-300 focus:outline-none focus:shadow-outline"
                placeholder="you@example.com"
                required
         >
@@ -30,7 +30,7 @@
                  type="submit"
                  value="Subscribe"
                  name="subscribe"
-                 class="w-full mt-2 xs:mt-0 py-2 px-4 font-bold btn-blue rounded xs:rounded-l-none xs:border xs:border-blue-600 cursor-pointer"
+                 class="w-full px-4 py-2 mt-2 font-bold rounded cursor-pointer xs:mt-0 btn-blue xs:rounded-l-none xs:border xs:border-blue-600"
           >
         </div>
       </div>

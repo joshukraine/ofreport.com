@@ -1,5 +1,5 @@
 <template>
-  <div class="my-6 sm:my-8 md:my-10 w-full">
+  <div class="w-full my-6 sm:my-8 md:my-10">
     <paginate
       v-if="pageCount > 1"
       v-model="page"

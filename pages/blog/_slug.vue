@@ -1,7 +1,7 @@
 <template>
   <article>
     <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
-      <div class="bg-cover bg-center min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh"
+      <div class="bg-center bg-cover min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh"
            :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
       />
     </div>
@@ -10,16 +10,16 @@
       <div class="max-w-3xl mx-auto">
         <!-- eslint-disable vue/no-v-html -->
         <p v-if="fm.cover && fm.caption"
-           class="mt-2 text-center text-sm sm:text-base text-gray-600 font-semibold"
+           class="mt-2 text-sm font-semibold text-center text-gray-600 sm:text-base"
            v-html="renderInlineMd(fm.caption)"
         />
         <!-- eslint-enable vue/no-v-html -->
 
-        <div class="mt-3 md:mt-6 lg:mt-8 py-4 sm:pt-6">
+        <div class="py-4 mt-3 md:mt-6 lg:mt-8 sm:pt-6">
           <h1 class="leading-none">
             {{ fm.title }}
           </h1>
-          <p class="text-sm mt-1">
+          <p class="mt-1 text-sm">
             <a v-if="authorHasLink"
                :href="fmAuthorLink"
                class="text-sm"
@@ -34,7 +34,7 @@
                  class="inline-block group"
             >
               <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}/`">
-                <span class="opacity-50 inline-block rounded-full bg-blue-600 px-3 py-1 leading-none text-xs text-white font-bold mr-2 mb-2 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
+                <span class="inline-block px-3 py-1 mb-2 mr-2 text-xs font-bold leading-none text-white bg-blue-600 rounded-full opacity-50 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
               </nuxt-link>
             </div>
           </div>

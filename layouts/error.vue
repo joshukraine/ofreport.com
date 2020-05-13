@@ -1,6 +1,6 @@
 <template>
   <article class="mb-8 md:mb-12">
-    <section class="container px-10 max-w-3xl sm:max-w-xl text-center">
+    <section class="container max-w-3xl px-10 text-center sm:max-w-xl">
       <div class="my-8 sm:my-12 md:mt-16">
         <svg viewBox="0 0 500 213"
              fill="none"

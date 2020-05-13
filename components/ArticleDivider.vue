@@ -1,5 +1,5 @@
 <template>
-  <div class="article-divider bg-gray-300" :class="marginClasses" />
+  <div class="bg-gray-300 article-divider" :class="marginClasses" />
 </template>
 
 <script>

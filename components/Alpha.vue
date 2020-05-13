@@ -1,14 +1,14 @@
 <template>
   <div style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
-    <section class="alpha bg-cover bg-top sm:bg-left-top min-h-screen md:min-h-3/4-vh flex items-center sm:p-10 md:bg-left lg:bg-top">
-      <div class="w-11/12 mx-auto pb-10 sm:pb-0 md:py-24">
+    <section class="flex items-center min-h-screen bg-top bg-cover alpha sm:bg-left-top md:min-h-3/4-vh sm:p-10 md:bg-left lg:bg-top">
+      <div class="w-11/12 pb-10 mx-auto sm:pb-0 md:py-24">
         <div class="flex justify-end pt-16 sm:pt-32 md:pt-0 lg:px-10">
-          <div class="text-center px-8 md:w-2/5 md:px-0">
+          <div class="px-8 text-center md:w-2/5 md:px-0">
             <img class="w-full" src="~/assets/svg/josh-and-kels.svg">
-            <p class="mt-2 mb-8 md:mb-12 text-white text-base font-header">
+            <p class="mt-2 mb-8 text-base text-white md:mb-12 font-header">
               Est. 2004
             </p>
-            <p class="mb-8 text-white text-lg md:text-xl xl:text-2xl md:mb-12">
+            <p class="mb-8 text-lg text-white md:text-xl xl:text-2xl md:mb-12">
               We live in Ukraine where we strive to tell others about God's gift of
               eternal life through <span class="whitespace-no-wrap">Jesus Christ.</span>
             </p>

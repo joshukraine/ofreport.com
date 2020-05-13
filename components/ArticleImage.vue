@@ -12,7 +12,7 @@
 
     <!-- eslint-disable vue/no-v-html -->
     <figcaption v-if="caption"
-                class="mt-2 mx-auto text-center font-semibold"
+                class="mx-auto mt-2 font-semibold text-center"
                 :class="{ 'portrait-caption': height }"
                 v-html="renderInlineMd(caption)"
     />

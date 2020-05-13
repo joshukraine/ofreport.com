@@ -1,9 +1,9 @@
 <template>
-  <article class="subscribe pb-8 md:pb-20">
+  <article class="pb-8 subscribe md:pb-20">
     <PageHeader title="Subscribe" />
 
     <section class="container flex justify-between max-w-3xl">
-      <figure class="ofr-cover hidden sm:block">
+      <figure class="hidden ofr-cover sm:block">
         <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
           <cld-transformation width="200"
                               alt="Overseas Field Report"
@@ -15,7 +15,7 @@
       </figure>
       <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
         <div class="flex mb-6">
-          <figure class="ofr-cover sm:hidden mr-4">
+          <figure class="mr-4 ofr-cover sm:hidden">
             <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
               <cld-transformation width="100"
                                   alt="Overseas Field Report"

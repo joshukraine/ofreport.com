@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="max-w-3xl mx-auto md:flex md:flex-wrap">
-      <div v-if="isBlogHome" class="mt-6 md:mt-10 w-full">
+      <div v-if="isBlogHome" class="w-full mt-6 md:mt-10">
         <ArticlePreview :article="featuredArticle" :featured="true" />
       </div>
       <div v-for="article in articles"

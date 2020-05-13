@@ -1,7 +1,7 @@
 <template>
-  <article class="md:mx-4 p-4 h-full flex flex-col justify-between bg-white rounded-lg overflow-hidden shadow-md">
+  <article class="flex flex-col justify-between h-full p-4 overflow-hidden bg-white rounded-lg shadow-md md:mx-4">
     <div>
-      <div v-if="article.cover" class="-mx-4 -mt-4 mb-4">
+      <div v-if="article.cover" class="mb-4 -mx-4 -mt-4">
         <card-image :article-cover="article.cover"
                     :width="customWidth"
                     :alt="altText"
@@ -27,7 +27,7 @@
         <!-- eslint-enable vue/no-v-html -->
       </div>
     </div>
-    <div class="border-t pt-2 mt-6 flex justify-between">
+    <div class="flex justify-between pt-2 mt-6 border-t">
       <nuxt-link class="text-base" :to="`/blog/${article.basename}/`">
         Read more
       </nuxt-link>
@@ -38,7 +38,7 @@
          target="_blank"
          rel="noopener noreferrer"
       >
-        <svg class="fill-current text-gray-400 hover:text-red-500 h-6 w-6"
+        <svg class="w-6 h-6 text-gray-400 fill-current hover:text-red-500"
              viewBox="0 0 640 640"
              xmlns="http://www.w3.org/2000/svg"
         >
