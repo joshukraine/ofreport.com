@@ -110,7 +110,7 @@
     <div class="bg-blue-dark">
       <div class="container py-6 sm:py-8">
         <p class="mt-0 text-center text-blue-footer">
-          &copy; {{ cpYear }} Joshua and Kelsie Steele
+          &copy; 2003–{{ cpYear }} Joshua and Kelsie Steele
         </p>
       </div>
     </div>

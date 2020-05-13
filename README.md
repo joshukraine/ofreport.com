@@ -128,7 +128,7 @@ I use [Neovim][neovim] as my editor along with the [ALE][ale] plugin for asynchr
 
 ## Legal
 
-Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
+Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
 
 [airbnb]: https://github.com/airbnb/javascript
 [ale]: https://github.com/dense-analysis/ale
