@@ -3,6 +3,7 @@
     <a v-if="link" :href="link" target="_blank">
       <img
         :src="require(`../assets/svg/${name}.svg`)"
+        loading="lazy"
         :width="width"
         :alt="alt"
       />
@@ -10,6 +11,7 @@
     <img
       v-else
       :src="require(`../assets/svg/${name}.svg`)"
+      loading="lazy"
       :width="width"
       :alt="alt"
     />

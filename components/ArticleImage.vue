@@ -3,11 +3,16 @@
     class="my-10 md:my-16 rounded-corners"
     :class="{ 'image-border': border }"
   >
-    <cld-image :public-id="publicId">
+    <cld-image
+      :public-id="publicId"
+      loading="lazy"
+      :width="width"
+      :height="height"
+      :alt="caption"
+    >
       <cld-transformation
         :width="width"
         :height="height"
-        :alt="caption"
         crop="scale"
         fetchFormat="auto"
         quality="auto"

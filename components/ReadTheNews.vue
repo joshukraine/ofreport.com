@@ -4,10 +4,14 @@
   >
     <div class="container flex justify-between max-w-3xl">
       <figure class="hidden ofr-cover sm:block">
-        <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
+        <cld-image
+          public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+          loading="lazy"
+          width="200"
+          alt="Overseas Field Report"
+        >
           <cld-transformation
             width="200"
-            alt="Overseas Field Report"
             crop="scale"
             fetchFormat="auto"
             quality="auto:best"
@@ -17,10 +21,13 @@
       <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
         <div class="flex">
           <figure class="mr-4 ofr-cover sm:hidden">
-            <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
+            <cld-image
+              public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+              width="100"
+              alt="Overseas Field Report"
+            >
               <cld-transformation
                 width="100"
-                alt="Overseas Field Report"
                 crop="scale"
                 fetchFormat="auto"
                 quality="auto:best"
