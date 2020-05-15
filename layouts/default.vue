@@ -35,11 +35,19 @@ export default {
       };
 
       const mcPopupLoader = document.createElement('script');
-      mcPopupLoader.src = '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
-      mcPopupLoader.setAttribute('data-dojo-config', 'usePlainJson: true, isDebug: false');
+      mcPopupLoader.src =
+        '//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js';
+      mcPopupLoader.setAttribute(
+        'data-dojo-config',
+        'usePlainJson: true, isDebug: false'
+      );
 
       const mcPopup = document.createElement('script');
-      mcPopup.appendChild(document.createTextNode(`require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": "${mailchimpConfig.baseUrl}", "uuid": "${mailchimpConfig.uuid}", "lid": "${mailchimpConfig.lid}"})});`));
+      mcPopup.appendChild(
+        document.createTextNode(
+          `require(["mojo/signup-forms/Loader"], function (L) { L.start({"baseUrl": "${mailchimpConfig.baseUrl}", "uuid": "${mailchimpConfig.uuid}", "lid": "${mailchimpConfig.lid}"})});`
+        )
+      );
 
       mcPopupLoader.onload = () => {
         document.body.appendChild(mcPopup);
@@ -55,7 +63,11 @@ export default {
         { hid: 'og:url', property: 'og:url', content: this.canonicalUrl },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:title', property: 'og:title', content: site.title },
-        { hid: 'og:description', property: 'og:description', content: site.description },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: site.description,
+        },
         { hid: 'og:image', property: 'og:image', content: site.image },
         { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
         { hid: 'og:image:height', property: 'og:image:height', content: '630' },
@@ -63,12 +75,14 @@ export default {
         { hid: 'twitter:site', name: 'twitter:site', content: '@joshukraine' },
         { hid: 'twitter:url', name: 'twitter:url', content: this.canonicalUrl },
         { hid: 'twitter:title', name: 'twitter:title', content: site.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: site.description },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: site.description,
+        },
         { hid: 'twitter:image', name: 'twitter:image', content: site.image },
       ],
-      link: [
-        { hid: 'canonical', rel: 'canonical', href: this.canonicalUrl },
-      ],
+      link: [{ hid: 'canonical', rel: 'canonical', href: this.canonicalUrl }],
     };
   },
 };

@@ -14,7 +14,6 @@ md.use(mila, {
   },
 });
 
-
 export default {
   methods: {
     renderMd(input) {
