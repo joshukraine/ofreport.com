@@ -1,18 +1,20 @@
 <template>
   <div :class="{ 'text-center': center }">
-    <a v-if="external"
-       :href="path"
-       :class="[bgStyle, verticalSpacing]"
-       class="article-button btn md:btn-lg"
-       target="_blank"
-       rel="noopener noreferrer"
+    <a
+      v-if="external"
+      :href="path"
+      :class="[bgStyle, verticalSpacing]"
+      class="article-button btn md:btn-lg"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       {{ text }}
     </a>
-    <nuxt-link v-else
-               :to="path"
-               :class="[bgStyle, verticalSpacing]"
-               class="article-button btn md:btn-lg"
+    <nuxt-link
+      v-else
+      :to="path"
+      :class="[bgStyle, verticalSpacing]"
+      class="article-button btn md:btn-lg"
     >
       {{ text }}
     </nuxt-link>

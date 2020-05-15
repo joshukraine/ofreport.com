@@ -1,12 +1,16 @@
-<!-- eslint-disable vue/attribute-hyphenation -->
 <template>
   <figure>
-    <cld-image :public-id="`OFReport/${publicId}`">
-      <cld-transformation :width="width"
-                          :alt="alt"
-                          crop="scale"
-                          fetchFormat="auto"
-                          quality="auto"
+    <cld-image
+      :public-id="`OFReport/${publicId}`"
+      loading="lazy"
+      :width="width"
+      :alt="alt"
+    >
+      <cld-transformation
+        :width="width"
+        crop="scale"
+        fetchFormat="auto"
+        quality="auto"
       />
     </cld-image>
   </figure>

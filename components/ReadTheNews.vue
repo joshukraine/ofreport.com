@@ -1,25 +1,36 @@
 <template>
-  <section class="read-the-news bg-cover bg-center py-6 xs:px-4 xs:py-8 sm:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24">
+  <section
+    class="py-6 bg-center bg-cover read-the-news xs:px-4 xs:py-8 sm:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24"
+  >
     <div class="container flex justify-between max-w-3xl">
-      <figure class="ofr-cover hidden sm:block">
-        <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-          <cld-transformation width="200"
-                              alt="Overseas Field Report"
-                              crop="scale"
-                              fetchFormat="auto"
-                              quality="auto:best"
+      <figure class="hidden ofr-cover sm:block">
+        <cld-image
+          public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+          loading="lazy"
+          width="200"
+          alt="Overseas Field Report"
+        >
+          <cld-transformation
+            width="200"
+            crop="scale"
+            fetchFormat="auto"
+            quality="auto:best"
           />
         </cld-image>
       </figure>
       <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
         <div class="flex">
-          <figure class="ofr-cover sm:hidden mr-4">
-            <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-              <cld-transformation width="100"
-                                  alt="Overseas Field Report"
-                                  crop="scale"
-                                  fetchFormat="auto"
-                                  quality="auto:best"
+          <figure class="mr-4 ofr-cover sm:hidden">
+            <cld-image
+              public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+              width="100"
+              alt="Overseas Field Report"
+            >
+              <cld-transformation
+                width="100"
+                crop="scale"
+                fetchFormat="auto"
+                quality="auto:best"
               />
             </cld-image>
           </figure>
@@ -27,7 +38,7 @@
             <h2 class="mt-0">
               Read the News
             </h2>
-            <p>
+            <p class="font-serif">
               <em>Overseas Field Report</em> is our bi-monthly newsletter
               containing updates on our family and ministry here in Ukraine.
               We’d be tickled if you’d subscribe and pray for us!
@@ -35,7 +46,7 @@
           </div>
         </div>
         <McSubscribeForm />
-        <p>
+        <p class="font-serif">
           You can also access previous issues in our
           <nuxt-link to="/archives/">
             Archives.
@@ -75,7 +86,7 @@ export default {
   }
 
   .read-the-news {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1024/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1024/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg');
   }
 }
 
@@ -85,7 +96,7 @@ export default {
   }
 
   .read-the-news {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg');
   }
 }
 </style>

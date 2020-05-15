@@ -1,5 +1,5 @@
 <template>
-  <article class="contact pb-8 md:pb-12">
+  <article class="pb-8 contact md:pb-12">
     <PageHeader title="Hello!" />
 
     <section class="container max-w-xl mx-auto">
@@ -7,36 +7,41 @@
         Need to get in touch? Drop us a line!
       </p>
 
-      <div class="mt-6 p-4 bg-white rounded shadow-md">
+      <div class="p-4 mt-6 bg-white rounded shadow-md">
         <form class="contact-form" @submit.prevent="validateFinal">
-          <div :class="{ 'invalid': $v.name.$error }">
+          <div :class="{ invalid: $v.name.$error }">
             <label class="form-label" for="name">
               Your Name
             </label>
-            <input v-model.trim="$v.name.$model"
-                   maxlength="100"
-                   name="name"
-                   placeholder="Jane Doe"
-                   type="text"
-                   class="form-input placeholder-gray-600 focus:placeholder-gray-400"
-            >
+            <input
+              v-model.trim="$v.name.$model"
+              maxlength="100"
+              name="name"
+              placeholder="Jane Doe"
+              type="text"
+              class="placeholder-gray-600 form-input focus:placeholder-gray-400"
+            />
             <p v-if="$v.name.$error" class="invalid-hint">
               Please provide your name.
             </p>
           </div>
 
-          <div :class="{ 'invalid': $v.email.$error }" class="mt-6">
+          <div :class="{ invalid: $v.email.$error }" class="mt-6">
             <label class="form-label" for="email">
               Your Email
             </label>
-            <input v-model.lazy.trim="$v.email.$model"
-                   maxlength="100"
-                   name="email"
-                   placeholder="you@example.com"
-                   type="email"
-                   class="form-input placeholder-gray-600 focus:placeholder-gray-400"
+            <input
+              v-model.lazy.trim="$v.email.$model"
+              maxlength="100"
+              name="email"
+              placeholder="you@example.com"
+              type="email"
+              class="placeholder-gray-600 form-input focus:placeholder-gray-400"
+            />
+            <p
+              v-if="!$v.email.required && $v.email.$dirty"
+              class="invalid-hint"
             >
-            <p v-if="!$v.email.required && $v.email.$dirty" class="invalid-hint">
               Please enter an email.
             </p>
             <p v-if="!$v.email.email" class="invalid-hint">
@@ -44,17 +49,18 @@
             </p>
           </div>
 
-          <div :class="{ 'invalid': $v.message.$error }" class="mt-6">
+          <div :class="{ invalid: $v.message.$error }" class="mt-6">
             <label class="form-label" for="message">
               Your Message
             </label>
-            <textarea v-model.trim="$v.message.$model"
-                      cols="30"
-                      rows="10"
-                      maxlength="3000"
-                      name="message"
-                      placeholder="What would you like to say?"
-                      class="form-input placeholder-gray-600 focus:placeholder-gray-400 resize-none"
+            <textarea
+              v-model.trim="$v.message.$model"
+              cols="30"
+              rows="10"
+              maxlength="3000"
+              name="message"
+              placeholder="What would you like to say?"
+              class="placeholder-gray-600 resize-none form-input focus:placeholder-gray-400"
             />
             <p v-if="$v.message.$error" class="invalid-hint">
               Please enter a message.
@@ -69,9 +75,10 @@
             />
           </div>
 
-          <button type="submit"
-                  :disabled="submitPending"
-                  class="btn btn-blue btn-lg block mt-6 w-full sm:w-auto outline-none focus:shadow-outline"
+          <button
+            type="submit"
+            :disabled="submitPending"
+            class="block w-full mt-6 outline-none btn btn-blue btn-lg sm:w-auto focus:shadow-outline"
           >
             Send
           </button>
@@ -103,7 +110,10 @@ export default {
     validateFinal() {
       this.$v.$touch();
       if (this.$v.$invalid) {
-        this.toastInvalid('Please check the highlighted fields for errors.', 3000);
+        this.toastInvalid(
+          'Please check the highlighted fields for errors.',
+          3000
+        );
       } else {
         this.submitPending = true;
         this.validateReCaptcha();
@@ -126,7 +136,10 @@ export default {
       return true;
     },
     onExpired() {
-      this.toastError('Sorry, this reCAPTCHA has expired. Please refresh the page and try again.', 5000);
+      this.toastError(
+        'Sorry, this reCAPTCHA has expired. Please refresh the page and try again.',
+        5000
+      );
       this.submitPending = false;
     },
     async postMessage() {
@@ -139,7 +152,10 @@ export default {
         this.toastSuccess('Thank you! Your message was sent.', 5000);
         this.formReset();
       } catch (error) {
-        this.toastError('Oops, something went wrong. Message not sent! Please try again in a little while.', 5000);
+        this.toastError(
+          'Oops, something went wrong. Message not sent! Please try again in a little while.',
+          5000
+        );
         this.$v.$reset();
         this.submitPending = false;
       }
@@ -155,14 +171,18 @@ export default {
       this.$toast.success(message, { icon: 'done' }).goAway(duration);
     },
     toastInvalid(message, duration) {
-      this.$toast.error(message, {
-        icon: 'error_outline',
-      }).goAway(duration);
+      this.$toast
+        .error(message, {
+          icon: 'error_outline',
+        })
+        .goAway(duration);
     },
     toastError(message, duration) {
-      this.$toast.error(message, {
-        icon: 'error_outline',
-      }).goAway(duration);
+      this.$toast
+        .error(message, {
+          icon: 'error_outline',
+        })
+        .goAway(duration);
     },
   },
   head() {
@@ -171,9 +191,17 @@ export default {
       meta: [
         { hid: 'description', name: 'description', content: this.description },
         { hid: 'og:title', property: 'og:title', content: this.title },
-        { hid: 'og:description', property: 'og:description', content: this.description },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.description,
+        },
         { hid: 'twitter:title', name: 'twitter:title', content: this.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: this.description },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.description,
+        },
       ],
     };
   },
@@ -240,7 +268,7 @@ export default {
 
 @screen sm {
   .contact {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1573039527/OFReport/assets/joshandkels-bg-fade_ynfifb.jpg");
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1573039527/OFReport/assets/joshandkels-bg-fade_ynfifb.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
   }

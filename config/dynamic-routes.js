@@ -30,9 +30,10 @@ const deepTagArray = uniqueTags.map((tag) => {
   return tagPathGroup;
 });
 
-export default () => [].concat(
-  articleSlugs.map((slug) => `/blog/${slug}`),
-  articlePages.map((_, i) => `/blog/page/${i + 1}`),
-  uniqueTags.map((tag) => `/tags/${tag[0]}`),
-  [].concat(...deepTagArray),
-);
+export default () =>
+  [].concat(
+    articleSlugs.map((slug) => `/blog/${slug}`),
+    articlePages.map((_, i) => `/blog/page/${i + 1}`),
+    uniqueTags.map((tag) => `/tags/${tag[0]}`),
+    [].concat(...deepTagArray)
+  );

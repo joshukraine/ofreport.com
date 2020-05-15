@@ -10,12 +10,7 @@ const md = markdownIt({
 });
 
 const feedImage = (img) => {
-  const opts = [
-    'c_scale',
-    'f_auto',
-    'q_auto',
-    'w_560',
-  ];
+  const opts = ['c_scale', 'f_auto', 'q_auto', 'w_560'];
   return cldOptimize(img, opts);
 };
 
@@ -29,7 +24,8 @@ export default () => {
 
       feed.options = {
         title: 'OFReport.com — Joshua and Kelsie Steele',
-        description: 'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
+        description:
+          'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
         id: 'https://ofreport.com/',
         link: 'https://ofreport.com/feed.xml',
         language: site.lang,

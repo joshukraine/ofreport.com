@@ -1,6 +1,6 @@
 .markdown ul,
 .markdown ol {
-  @apply .mt-4 .ml-8;
+  @apply .mt-4 .ml-8 .font-serif;
 }
 
 .markdown ul {

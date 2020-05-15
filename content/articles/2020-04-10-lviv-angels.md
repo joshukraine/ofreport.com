@@ -9,6 +9,7 @@ preview: >
   Wherever you are in the world right now, you are likely reading this while under some kind of quarantine. Here in L’viv, the Coronavirus pandemic has upended our lives, similar to what you are likely experiencing. Non-essential businesses are closed, we must wear masks if we leave home, lines of people are spaced with six-foot gaps, and suddenly, everyone is homeschooling!
 tags:
 - newsletter
+- ministry
 - photos
 ---
 
@@ -60,4 +61,4 @@ With all that’s been going on, both with the pandemic and in our ministry in g
 
 <article-image publicId="OFReport/2020-04-10-lviv-angels/mia-big-chair_aw4fa1.jpg" height="768" caption="Little Mia Faith enjoys playing in Daddy’s office! 🥰"/>
 
-<article-image publicId="OFReport/2020-04-10-lviv-angels/littles-masks_evo3sx.jpg" height="768" caption="A lady in our church generously gave our family some kid-sized face masks. David, however, was not convinced: “I don’t wanna wewh a mask, Daddy!” It took some getting used to, but with a few adjustments to the elastic bands, the littles are doing super!"></article-image>
+<article-image publicId="OFReport/2020-04-10-lviv-angels/littles-masks_evo3sx.jpg" height="768" caption="A lady in our church generously gave our family some kid-sized face masks. David, however, was not convinced: “I don’t wanna wewh a mask, Daddy!” It took some getting used to, but with a few adjustments to the elastic bands, the littles are doing super!"/>

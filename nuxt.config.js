@@ -1,5 +1,5 @@
 import {
-  build, dynamicRoutes, feed, head, purgeCSS,
+  build, dynamicRoutes, feed, head,
 } from './config';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
@@ -19,8 +19,7 @@ export default {
     height: '3px',
   },
 
-  css: [
-  ],
+  css: [],
 
   plugins: [
     '~/plugins/axios.js',
@@ -63,8 +62,6 @@ export default {
     singleton: true,
     iconPack: 'material',
   },
-
-  purgeCSS,
 
   sitemap: {
     path: '/sitemap.xml',

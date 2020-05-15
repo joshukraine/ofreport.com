@@ -1,40 +1,42 @@
 <template>
   <article>
-    <div v-if="fm.cover" style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);">
-      <div class="bg-cover bg-center min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh"
-           :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
+    <div
+      v-if="fm.cover"
+      style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);"
+    >
+      <div
+        class="bg-center bg-cover min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh"
+        :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
       />
     </div>
 
     <div class="container">
       <div class="max-w-3xl mx-auto">
-        <!-- eslint-disable vue/no-v-html -->
-        <p v-if="fm.cover && fm.caption"
-           class="mt-2 text-center text-sm sm:text-base text-gray-600 font-semibold"
-           v-html="renderInlineMd(fm.caption)"
+        <p
+          v-if="fm.cover && fm.caption"
+          class="mt-2 text-sm font-semibold text-center text-gray-600 sm:text-base"
+          v-html="renderInlineMd(fm.caption)"
         />
-        <!-- eslint-enable vue/no-v-html -->
 
-        <div class="mt-3 md:mt-6 lg:mt-8 py-4 sm:pt-6">
+        <div class="py-4 mt-3 md:mt-6 lg:mt-8 sm:pt-6">
           <h1 class="leading-none">
             {{ fm.title }}
           </h1>
-          <p class="text-sm mt-1">
-            <a v-if="authorHasLink"
-               :href="fmAuthorLink"
-               class="text-sm"
-            >{{ articleAuthor.name }}</a>
+          <p class="mt-1 text-sm">
+            <a v-if="authorHasLink" :href="fmAuthorLink" class="text-sm">{{
+              articleAuthor.name
+            }}</a>
             <span v-else class="text-gray-600">{{ articleAuthor.name }}</span>
             <span class="text-gray-600">&middot; {{ publishedOn }}</span>
           </p>
 
           <div v-if="fm.tags.length > 0" class="mt-4">
-            <div v-for="tag in fm.tags"
-                 :key="tag"
-                 class="inline-block group"
-            >
+            <div v-for="tag in fm.tags" :key="tag" class="inline-block group">
               <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}/`">
-                <span class="opacity-50 inline-block rounded-full bg-blue-600 px-3 py-1 leading-none text-xs text-white font-bold mr-2 mb-2 md:mb-0 group-hover:opacity-100">{{ tag }}</span>
+                <span
+                  class="inline-block px-3 py-1 mb-2 mr-2 text-xs font-bold leading-none text-white bg-blue-600 rounded-full opacity-50 md:mb-0 group-hover:opacity-100"
+                  >{{ tag }}</span
+                >
               </nuxt-link>
             </div>
           </div>
@@ -63,9 +65,7 @@ export default {
     ArticleFooter,
     DynamicMarkdown,
   },
-  mixins: [
-    markdownit,
-  ],
+  mixins: [markdownit],
   data() {
     return {
       authors: authorData.data,
@@ -83,12 +83,7 @@ export default {
       return this.authors.find((author) => author.name === this.fm.author);
     },
     coverBgImage() {
-      const opts = [
-        'c_scale',
-        'f_auto',
-        'q_auto:best',
-        'w_2000',
-      ];
+      const opts = ['c_scale', 'f_auto', 'q_auto:best', 'w_2000'];
       return cldOptimize(this.fm.cover, opts);
     },
     ogImage() {
@@ -139,7 +134,9 @@ export default {
       }
     } catch (error) {
       /* eslint-disable-next-line no-console */
-      console.error(`UNKNOWN AUTHOR: Sorry, we have no author named "${this.fm.author}". Check your spelling, or add the new author to authors.json.`);
+      console.error(
+        `UNKNOWN AUTHOR: Sorry, we have no author named "${this.fm.author}". Check your spelling, or add the new author to authors.json.`
+      );
     }
   },
   methods: {
@@ -154,13 +151,29 @@ export default {
         { hid: 'author', name: 'author', content: this.fm.author },
         { hid: 'description', name: 'description', content: this.fm.preview },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'article:author', property: 'article:author', content: this.authorFacebookLink },
-        { hid: 'article:published_time', property: 'article:published_time', content: this.fm.date },
+        {
+          hid: 'article:author',
+          property: 'article:author',
+          content: this.authorFacebookLink,
+        },
+        {
+          hid: 'article:published_time',
+          property: 'article:published_time',
+          content: this.fm.date,
+        },
         { hid: 'og:title', property: 'og:title', content: this.fm.title },
-        { hid: 'og:description', property: 'og:description', content: this.fm.preview },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.fm.preview,
+        },
         { hid: 'og:image', property: 'og:image', content: this.ogImage },
         { hid: 'twitter:title', name: 'twitter:title', content: this.fm.title },
-        { hid: 'twitter:description', name: 'twitter:description', content: this.fm.preview },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.fm.preview,
+        },
         { hid: 'twitter:image', name: 'twitter:image', content: this.ogImage },
       ],
     };

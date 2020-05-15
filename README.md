@@ -10,8 +10,7 @@
 
 OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is deployed as a pre-generated static site on [Amazon S3][aws-s3]. In addition to Vue and Nuxt, several noteworthy supporting technologies have been used, including the following:
 
-* [Tailwind CSS][tailwind]
-* [Purgecss][purgecss]
+* [Tailwind CSS][tailwind] + [PurgeCSS][purgecss]
 * [markdown-it][markdown-it]
 * [frontmatter-markdown-loader][fml]
 * [Cloudinary][cloudinary]
@@ -21,7 +20,7 @@ OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is d
 
 ## Requirements
 
-* [Node >= 10.x][node]
+* [Node >= 12.x][node]
 * [Yarn 1.x][yarn]
 * [Gulp 4.x][gulp]
 
@@ -56,7 +55,7 @@ Sometimes in development it can be helpful to run the statically generated site 
 First, install http-server globally if you don't already have it.
 
 ```bash
-$ npm install http-server -g
+$ npm install -g http-server
 ```
 
 Next, build the site as explained in the previous section.
@@ -116,7 +115,7 @@ Output at `.nuxt/stats/client.html`:
 
 ![treemap][bundle-treemap]
 
-## Code Style and Linting
+## Code Style, Linting and Formatting
 
 Project-specific JavaScript conforms to the [Airbnb][airbnb] code style.
 
@@ -124,19 +123,21 @@ JS linting is done with ESLint and extended with [eslint-plugin-vue][eslint-vue]
 
 CSS linting is done with [stylelint][stylelint].
 
-I use [Neovim][neovim] as my editor along with the [ALE][ale] plugin for asynchronous linting.
+Code formatting is done with [Prettier][prettier].
+
+I use [Neovim][neovim] as my editor along with the [coc.nvim][coc-nvim] plugin for code completion and asynchronous linting.
 
 ## Legal
 
-Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
+Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
 
 [airbnb]: https://github.com/airbnb/javascript
-[ale]: https://github.com/dense-analysis/ale
 [aws-cloudfront]: https://aws.amazon.com/cloudfront/
 [aws-s3]: https://aws.amazon.com/getting-started/projects/host-static-website/
 [aws-ssl]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
 [bundle-treemap]: https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1000/v1573627005/OFReport/assets/nuxt_stats_client.html_wpbbpp.png
 [cloudinary]: https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ck3hvrdcnvaeftjds7ep
+[coc-nvim]: https://github.com/neoclide/coc.nvim
 [env-property]: https://nuxtjs.org/api/configuration-env#the-env-property
 [eslint-config-airbnb-base]: https://yarnpkg.com/en/package/eslint-config-airbnb-base
 [eslint-vue]: https://yarnpkg.com/en/package/eslint-plugin-vue
@@ -154,6 +155,7 @@ Copyright © 2019 Joshua and Kelsie Steele. Software is licensed under [MIT][lic
 [nuxt-faq]: https://nuxtjs.org/faq
 [nuxt-s3-deploy]: https://nuxtjs.org/faq/deployment-aws-s3-cloudfront
 [nuxt]: https://nuxtjs.org/
+[prettier]: https://prettier.io/
 [purgecss]: https://www.purgecss.com/
 [screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1573625059/OFReport/assets/ofreport.com_screenshot_c8ethn.png
 [static-gen]: https://www.staticgen.com/nuxt
