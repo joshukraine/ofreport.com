@@ -9,6 +9,7 @@ preview: >
   Wherever you are in the world right now, you are likely reading this while under some kind of quarantine. Here in L’viv, the Coronavirus pandemic has upended our lives, similar to what you are likely experiencing. Non-essential businesses are closed, we must wear masks if we leave home, lines of people are spaced with six-foot gaps, and suddenly, everyone is homeschooling!
 tags:
 - newsletter
+- ministry
 - photos
 ---
 
