@@ -5,11 +5,12 @@
     <section class="container flex justify-between max-w-3xl">
       <figure class="hidden ofr-cover sm:block">
         <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-          <cld-transformation width="200"
-                              alt="Overseas Field Report"
-                              crop="scale"
-                              fetchFormat="auto"
-                              quality="auto:best"
+          <cld-transformation
+            width="200"
+            alt="Overseas Field Report"
+            crop="scale"
+            fetchFormat="auto"
+            quality="auto:best"
           />
         </cld-image>
       </figure>
@@ -17,11 +18,12 @@
         <div class="flex mb-6">
           <figure class="mr-4 ofr-cover sm:hidden">
             <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-              <cld-transformation width="100"
-                                  alt="Overseas Field Report"
-                                  crop="scale"
-                                  fetchFormat="auto"
-                                  quality="auto:best"
+              <cld-transformation
+                width="100"
+                alt="Overseas Field Report"
+                crop="scale"
+                fetchFormat="auto"
+                quality="auto:best"
               />
             </cld-image>
           </figure>
@@ -41,13 +43,16 @@
           </nuxt-link>
         </p>
 
-        <hr class="my-8">
+        <hr class="my-8" />
 
         <p class="mt-0">
           Don't want to receive emails from us anymore?
         </p>
         <p>
-          <a href="https://OFReport.us6.list-manage.com/unsubscribe?u=1e0c65850b60905f65b151819&id=97b9f6a559">Unsubscribe</a>
+          <a
+            href="https://OFReport.us6.list-manage.com/unsubscribe?u=1e0c65850b60905f65b151819&id=97b9f6a559"
+            >Unsubscribe</a
+          >
         </p>
       </div>
     </section>

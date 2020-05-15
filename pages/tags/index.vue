@@ -5,9 +5,10 @@
     </div>
 
     <ul class="my-6">
-      <li v-for="tag in tags"
-          :key="tag[0]"
-          class="py-4 border-b sm:py-6 last:border-b-0"
+      <li
+        v-for="tag in tags"
+        :key="tag[0]"
+        class="py-4 border-b sm:py-6 last:border-b-0"
       >
         <nuxt-link :to="`/tags/${tag[0]}`" class="sm:text-xl">
           {{ tag[0] }} ({{ tag[1] }})
