@@ -1,13 +1,16 @@
 <template>
-  <section class="py-6 bg-center bg-cover read-the-news xs:px-4 xs:py-8 sm:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24">
+  <section
+    class="py-6 bg-center bg-cover read-the-news xs:px-4 xs:py-8 sm:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24"
+  >
     <div class="container flex justify-between max-w-3xl">
       <figure class="hidden ofr-cover sm:block">
         <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-          <cld-transformation width="200"
-                              alt="Overseas Field Report"
-                              crop="scale"
-                              fetchFormat="auto"
-                              quality="auto:best"
+          <cld-transformation
+            width="200"
+            alt="Overseas Field Report"
+            crop="scale"
+            fetchFormat="auto"
+            quality="auto:best"
           />
         </cld-image>
       </figure>
@@ -15,11 +18,12 @@
         <div class="flex">
           <figure class="mr-4 ofr-cover sm:hidden">
             <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-              <cld-transformation width="100"
-                                  alt="Overseas Field Report"
-                                  crop="scale"
-                                  fetchFormat="auto"
-                                  quality="auto:best"
+              <cld-transformation
+                width="100"
+                alt="Overseas Field Report"
+                crop="scale"
+                fetchFormat="auto"
+                quality="auto:best"
               />
             </cld-image>
           </figure>
@@ -75,7 +79,7 @@ export default {
   }
 
   .read-the-news {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1024/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1024/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg');
   }
 }
 
@@ -85,7 +89,7 @@ export default {
   }
 
   .read-the-news {
-    background-image: url("https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg");
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_2000/v1571750972/OFReport/assets/ofr-logo-faded-bg_w6uvhk.jpg');
   }
 }
 </style>

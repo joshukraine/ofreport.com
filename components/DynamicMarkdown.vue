@@ -29,17 +29,18 @@ export default {
   created() {
     // https://github.com/babel/babel-eslint/issues/530
     // eslint-disable-next-line
-    this.markdownContent = () => import('~/content/' + this.dir + '/' + this.slug + '.md').then((md) => ({
-      extends: md.vue.component,
-      components: {
-        ArticleButton,
-        ArticleCallout,
-        ArticleDivider,
-        ArticleImage,
-        ArticleSpacer,
-        ArticleSvg,
-      },
-    }));
+    this.markdownContent = () =>
+      import(`~/content/${this.dir}/${this.slug}.md`).then((md) => ({
+        extends: md.vue.component,
+        components: {
+          ArticleButton,
+          ArticleCallout,
+          ArticleDivider,
+          ArticleImage,
+          ArticleSpacer,
+          ArticleSvg,
+        },
+      }));
   },
 };
 </script>

@@ -10,9 +10,10 @@
         </p>
       </div>
     </section>
-    <ArticlesList :all-articles="taggedArticles"
-                  :start-page="startPage"
-                  :root-segment="rootSegment"
+    <ArticlesList
+      :all-articles="taggedArticles"
+      :start-page="startPage"
+      :root-segment="rootSegment"
     />
   </div>
 </template>
@@ -42,7 +43,8 @@ export default {
   created() {
     this.rootSegment = `tags/${this.$route.params.tag}`;
     this.tag = this.$route.params.tag;
-    this.taggedArticles = Object.values(articles).reverse()
+    this.taggedArticles = Object.values(articles)
+      .reverse()
       .filter((article) => {
         const safeTags = article.tags.map((tag) => parameterize(tag));
         return safeTags.includes(this.$route.params.tag);

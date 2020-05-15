@@ -1,51 +1,61 @@
 <template>
   <div>
-    <header class="fixed z-50 flex items-center justify-between w-full h-16 px-4 bg-white border-b border-gray-200 lg:px-6"
-            :class="{ 'open-nav': navOpen }"
+    <header
+      class="fixed z-50 flex items-center justify-between w-full h-16 px-4 bg-white border-b border-gray-200 lg:px-6"
+      :class="{ 'open-nav': navOpen }"
     >
       <nuxt-link class="block" to="/">
-        <img class="w-40 md:w-48" src="~/assets/svg/ofr-logo.svg">
+        <img class="w-40 md:w-48" src="~/assets/svg/ofr-logo.svg" />
       </nuxt-link>
       <div class="relative -mr-4">
         <button class="hamburger" @click="navOpen = !navOpen">
           MENU
         </button>
       </div>
-      <nav class="px-4 pt-4 nav-menu lg:pt-0" :class="{ 'reveal-nav': navOpen }">
+      <nav
+        class="px-4 pt-4 nav-menu lg:pt-0"
+        :class="{ 'reveal-nav': navOpen }"
+      >
         <div class="nav-link-wrapper">
-          <nuxt-link class="nav-link"
-                     :class="{ 'nav-link-fadein nav-link-1': navOpen }"
-                     to="/family/"
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-1': navOpen }"
+            to="/family/"
           >
             Family
           </nuxt-link>
-          <nuxt-link class="nav-link"
-                     :class="{ 'nav-link-fadein nav-link-2': navOpen }"
-                     to="/ministry/"
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-2': navOpen }"
+            to="/ministry/"
           >
             Ministry
           </nuxt-link>
-          <nuxt-link class="nav-link"
-                     :class="{ 'nav-link-fadein nav-link-3': navOpen }"
-                     to="/blog/"
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-3': navOpen }"
+            to="/blog/"
           >
             Blog
           </nuxt-link>
-          <nuxt-link class="nav-link"
-                     :class="{ 'nav-link-fadein nav-link-3': navOpen }"
-                     to="/archives/"
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-3': navOpen }"
+            to="/archives/"
           >
             Archives
           </nuxt-link>
-          <nuxt-link class="nav-link"
-                     :class="{ 'nav-link-fadein nav-link-4': navOpen }"
-                     to="/contact/"
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-4': navOpen }"
+            to="/contact/"
           >
             Contact
           </nuxt-link>
-          <nuxt-link class="nav-link"
-                     :class="{ 'nav-link-fadein nav-link-5': navOpen }"
-                     to="/donate/"
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-5': navOpen }"
+            to="/donate/"
           >
             Donate
           </nuxt-link>
@@ -179,7 +189,7 @@ export default {
   .nav-link::before {
     @apply .absolute .left-0 .invisible .w-full .bg-blue-600;
     bottom: -5px;
-    content: "";
+    content: '';
     height: 2px;
     transform: scaleX(0);
     transition: all 0.2s ease-in-out 0s;

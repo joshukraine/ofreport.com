@@ -2,11 +2,12 @@
 <template>
   <figure>
     <cld-image :public-id="`OFReport/${publicId}`">
-      <cld-transformation :width="width"
-                          :alt="alt"
-                          crop="scale"
-                          fetchFormat="auto"
-                          quality="auto"
+      <cld-transformation
+        :width="width"
+        :alt="alt"
+        crop="scale"
+        fetchFormat="auto"
+        quality="auto"
       />
     </cld-image>
   </figure>

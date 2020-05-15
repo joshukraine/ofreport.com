@@ -1,8 +1,9 @@
 <template>
   <div>
-    <ArticlesList :all-articles="allArticles"
-                  :start-page="startPage"
-                  :root-segment="rootSegment"
+    <ArticlesList
+      :all-articles="allArticles"
+      :start-page="startPage"
+      :root-segment="rootSegment"
     />
   </div>
 </template>

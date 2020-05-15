@@ -4,17 +4,19 @@
       <div v-if="isBlogHome" class="w-full mt-6 md:mt-10">
         <ArticlePreview :article="featuredArticle" :featured="true" />
       </div>
-      <div v-for="article in articles"
-           :key="article.basename"
-           class="mt-6 md:mt-10 md:w-1/2"
+      <div
+        v-for="article in articles"
+        :key="article.basename"
+        class="mt-6 md:mt-10 md:w-1/2"
       >
         <ArticlePreview :article="article" :featured="false" />
       </div>
 
-      <Paginator :article-count="articleCount"
-                 :start-page="startPage"
-                 :root-segment="rootSegment"
-                 :per-page="perPage"
+      <Paginator
+        :article-count="articleCount"
+        :start-page="startPage"
+        :root-segment="rootSegment"
+        :per-page="perPage"
       />
     </div>
   </div>
@@ -65,7 +67,7 @@ export default {
     },
     calculatedArticleRange() {
       if (this.rootSegment === 'blog') {
-        return ((this.page - 1) * this.perPage) + 1;
+        return (this.page - 1) * this.perPage + 1;
       }
       return (this.page - 1) * this.perPage;
     },

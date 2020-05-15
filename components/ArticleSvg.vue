@@ -1,19 +1,18 @@
 <template>
   <figure :style="{ maxWidth: width + 'px' }" :class="verticalSpacing">
-    <a v-if="link"
-       :href="link"
-       target="_blank"
-    >
-      <img :src="require(`../assets/svg/${name}.svg`)"
-           :width="width"
-           :alt="alt"
-      >
+    <a v-if="link" :href="link" target="_blank">
+      <img
+        :src="require(`../assets/svg/${name}.svg`)"
+        :width="width"
+        :alt="alt"
+      />
     </a>
-    <img v-else
-         :src="require(`../assets/svg/${name}.svg`)"
-         :width="width"
-         :alt="alt"
-    >
+    <img
+      v-else
+      :src="require(`../assets/svg/${name}.svg`)"
+      :width="width"
+      :alt="alt"
+    />
   </figure>
 </template>
 

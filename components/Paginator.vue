@@ -121,5 +121,4 @@ export default {
     @apply .mx-2 .py-2 .px-3 .text-base .font-normal;
   }
 }
-
 </style>
