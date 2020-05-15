@@ -18,15 +18,12 @@
         quality="auto"
       />
     </cld-image>
-
-    <!-- eslint-disable vue/no-v-html -->
     <figcaption
       v-if="caption"
       class="mx-auto mt-2 font-semibold text-center article-img-caption"
       :class="{ 'portrait-caption': height }"
       v-html="renderInlineMd(caption)"
     />
-    <!-- eslint-enable vue/no-v-html -->
   </figure>
 </template>
 

@@ -12,13 +12,11 @@
 
     <div class="container">
       <div class="max-w-3xl mx-auto">
-        <!-- eslint-disable vue/no-v-html -->
         <p
           v-if="fm.cover && fm.caption"
           class="mt-2 text-sm font-semibold text-center text-gray-600 sm:text-base"
           v-html="renderInlineMd(fm.caption)"
         />
-        <!-- eslint-enable vue/no-v-html -->
 
         <div class="py-4 mt-3 md:mt-6 lg:mt-8 sm:pt-6">
           <h1 class="leading-none">

@@ -25,13 +25,11 @@
           <span>&middot; {{ publishedOn }}</span>
         </p>
 
-        <!-- eslint-disable vue/no-v-html -->
         <div
           v-if="article.preview"
           class="preview-text"
           v-html="renderMd(article.preview)"
         />
-        <!-- eslint-enable vue/no-v-html -->
       </div>
     </div>
     <div class="flex justify-between pt-2 mt-6 border-t">
