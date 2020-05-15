@@ -12,8 +12,10 @@
             <p class="mt-2 mb-8 text-base text-white md:mb-12 font-header">
               Est. 2004
             </p>
-            <p class="mb-8 text-lg text-white md:text-xl xl:text-2xl md:mb-12">
-              We live in Ukraine where we strive to tell others about God's gift
+            <p
+              class="mb-8 font-serif text-lg text-white md:text-xl xl:text-2xl md:mb-12"
+            >
+              We live in Ukraine where we strive to tell others about God’s gift
               of eternal life through
               <span class="whitespace-no-wrap">Jesus Christ.</span>
             </p>

@@ -38,7 +38,7 @@
             <h2 class="mt-0">
               Read the News
             </h2>
-            <p>
+            <p class="font-serif">
               <em>Overseas Field Report</em> is our bi-monthly newsletter
               containing updates on our family and ministry here in Ukraine.
               We’d be tickled if you’d subscribe and pray for us!
@@ -46,7 +46,7 @@
           </div>
         </div>
         <McSubscribeForm />
-        <p>
+        <p class="font-serif">
           You can also access previous issues in our
           <nuxt-link to="/archives/">
             Archives.
