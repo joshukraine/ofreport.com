@@ -61,17 +61,6 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
 
-    // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/max-attributes-per-line.md
-    'vue/max-attributes-per-line': [
-      'error',
-      {
-        singleline: 2,
-        multiline: {
-          max: 1,
-          allowFirstLine: true,
-        },
-      },
-    ],
     'vue/attribute-hyphenation': [
       'error',
       'always',
