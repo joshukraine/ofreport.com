@@ -58,6 +58,11 @@ export default {
     },
     {
       rel: 'stylesheet',
+      href:
+        'https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap',
+    },
+    {
+      rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css?family=Mate+SC&display=swap',
     },
     {

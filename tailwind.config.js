@@ -46,6 +46,14 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
+        serif: [
+          'Noto Serif',
+          'Georgia',
+          'Cambria',
+          '"Times New Roman"',
+          'Times',
+          'serif',
+        ],
         fancy: ['"Mate SC"', 'serif'],
       },
       height: (theme) => ({

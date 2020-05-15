@@ -27,8 +27,16 @@ p {
   @apply .mt-4;
 }
 
+.markdown p {
+  @apply .font-serif;
+}
+
 figcaption {
   @apply .text-sm;
+}
+
+figcaption .article-img-caption {
+  @apply .font-sans;
 }
 
 a {

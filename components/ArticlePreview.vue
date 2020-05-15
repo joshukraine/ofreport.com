@@ -101,6 +101,6 @@ export default {
 
 <style>
 .preview-text p {
-  @apply .text-base;
+  @apply .text-base .font-serif;
 }
 </style>
