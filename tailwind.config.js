@@ -4,7 +4,34 @@
  ** Docs: https://tailwindcss.com/docs/configuration
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
+
+// eslint-disable-next-line
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
+  purge: {
+    content: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js',
+    ],
+    options: {
+      whitelist: ['blockquote', 'ul', 'ol', 'li', 'markdown'],
+      whitelistPatterns: [
+        /^fade/,
+        /^mt-/,
+        /^mb-/,
+        /^my-/,
+        /^md:mt-/,
+        /^md:mb-/,
+        /^md:my-/,
+        /^h-/,
+        /^sm:h-/,
+      ],
+    },
+  },
   theme: {
     screens: {
       xs: '460px',
@@ -31,30 +58,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        header: [
-          'Lato',
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
-          '"Noto Sans"',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
-        ],
-        serif: [
-          'Noto Serif',
-          'Georgia',
-          'Cambria',
-          '"Times New Roman"',
-          'Times',
-          'serif',
-        ],
         fancy: ['"Mate SC"', 'serif'],
+        header: ['Lato', 'sans'],
+        serif: ['Noto Serif', ...defaultTheme.fontFamily.serif],
       },
       height: (theme) => ({
         auto: 'auto',
@@ -107,27 +113,4 @@ module.exports = {
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   plugins: [],
-  purge: {
-    content: [
-      'components/**/*.vue',
-      'layouts/**/*.vue',
-      'pages/**/*.vue',
-      'plugins/**/*.js',
-      'nuxt.config.js',
-    ],
-    options: {
-      whitelist: ['blockquote', 'ul', 'ol', 'li', 'markdown'],
-      whitelistPatterns: [
-        /^fade/,
-        /^mt-/,
-        /^mb-/,
-        /^my-/,
-        /^md:mt-/,
-        /^md:mb-/,
-        /^md:my-/,
-        /^h-/,
-        /^sm:h-/,
-      ],
-    },
-  },
 };
