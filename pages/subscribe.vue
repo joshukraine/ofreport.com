@@ -27,7 +27,7 @@
               />
             </cld-image>
           </figure>
-          <div class="flex-1">
+          <div class="flex-1 md:pr-6">
             <p class="mt-0 font-serif xs:text-lg">
               <em>Overseas Field Report</em> is our bi-monthly newsletter
               containing updates on our family and ministry here in Ukraine.

@@ -2,7 +2,7 @@
   <article class="pb-8 ministry md:pb-12">
     <PageHeader title="We live to serve<br />Jesus Christ." :html="true" />
 
-    <section class="container max-w-2xl mx-auto -mt-4 text-center">
+    <section class="container max-w-2xl mx-auto -mt-4 text-center sm:px-8">
       <DynamicMarkdown dir="pages" slug="ministry" />
     </section>
   </article>
