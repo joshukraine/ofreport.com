@@ -3,7 +3,7 @@
     <PageHeader title="Hello!" />
 
     <section class="container max-w-xl mx-auto">
-      <p class="mt-0 text-center">
+      <p class="mt-0 font-serif text-center">
         Need to get in touch? Drop us a line!
       </p>
 
