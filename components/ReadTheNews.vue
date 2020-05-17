@@ -34,7 +34,7 @@
               />
             </cld-image>
           </figure>
-          <div class="flex-1 mb-6">
+          <div class="flex-1 mb-6 md:pr-6">
             <h2 class="mt-0">
               Read the News
             </h2>
