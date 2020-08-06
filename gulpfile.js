@@ -44,7 +44,7 @@ gulp.task('deploy', () => {
   // publisher will add Content-Length, Content-Type and headers specified above
   // If not specified it will set x-amz-acl to public-read by default
   g = g.pipe(
-    parallelize(publisher.publish(config.headers), config.concurrentUploads),
+    parallelize(publisher.publish(config.headers), config.concurrentUploads)
   );
 
   // Invalidate CDN
@@ -53,7 +53,7 @@ gulp.task('deploy', () => {
     g = g.pipe(cloudfront(config));
   } else {
     console.log(
-      'No CloudFront distribution configured - skipping CDN invalidation',
+      'No CloudFront distribution configured - skipping CDN invalidation'
     );
   }
 
