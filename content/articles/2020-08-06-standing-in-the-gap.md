@@ -57,10 +57,38 @@ Bobby and Sunni, thank you for your faithfulness to each other, for your service
 
 <article-image publicId="OFReport/2020-08-06-standing-in-the-gap/fun-at-the-days-house_ysagbw" width="768" caption="After weeks in quarantine, the kids loved getting back together with the Day family!" />
 
-<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/kids-good-and-evil-books_lrcipb" width="768" caption="We continue to ship Good and Evil books to churches and individuals across Ukraine. This photo is from a church in Kyiv to whom we recently sent a case of books." />
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/kids-good-and-evil-books_lrcipb" width="768" caption="We continue to ship *Good and Evil* books to churches and individuals across Ukraine. This photo is from a church in Kyiv to whom we recently sent a case of books." />
 
 <article-image publicId="OFReport/2020-08-06-standing-in-the-gap/two-girls-with-book_blchrz" height="768" caption="What a blessing to see young children developing a love for the Scriptures!" />
 
-<article-callout content="Do you know someone in Ukraine who would like to receive a free copy Good and Evil in their language? Direct them to the web address below!" :link="{ name: 'dobroizlo.com.ua', href: 'https://dobroizlo.com.ua/' }" />
+<article-callout content="Do you know someone in Ukraine who would like to receive a free copy of *Good and Evil* in their language? Direct them to the web address below!" :link="{ name: 'dobroizlo.com.ua', href: 'https://dobroizlo.com.ua/' }" />
 
 <article-image publicId="OFReport/2020-08-06-standing-in-the-gap/youth-meeting-kade_zbhlud" width="768" caption="Attendance at Kade’s youth meetings has been less do to COVID-19 restrictions, but we still have a good time!" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/david-jonathan-buds_a3ovyk" height="768" caption="David and Jonathan: Buds Forever! 😎" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/mia-high-chair_nvs7qc" height="768" caption="Somebody just reached one year old! Happy first birthday, Mia! 🎂🥰" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/please-no-questions-from-paparazzi_su2tvh" height="768" caption="”Please, no questions from the paparazzi!” 😜" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/david-rides-two-cars_iup5ws" height="768" caption="What could be better than cruising through the house on a cool plastic car? Cruising on TWO cool plastic cars! 🚘🚘" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/kathryn-new-shoes_ibdkey" height="768" caption="A friend at church gave our family some second-hand clothes, and Kathryn was thrilled to score a new pair of play shoes!" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/mobile-mia_cx7yen" height="768" caption="This little girl is crawling and climbing more and more all the time! 🙈 🙉" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/plastic-plate-apocalypse_t1f1hb" height="768" caption="Plastic Plate Apocalypse" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/mia-anya-cool-cat_myojz4" height="768" caption="We recently spent a pleasant evening with our friends the Medyakovsky’s. Anya and Mia had a fun time!" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/mom-kathryn-card-game_liz6lz" width="768" caption="Kathryn made her own card game and enjoyed a few hands with Mom!" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/mia-pretzel-stroller_gxlfcf" height="768" caption="Chillin’ in the stroller with pretzels" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/david-on-stump_edgbwd" height="768" caption="This little guy is getting taller all the time!" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/david-too-sleepy_e0qydt" height="768" caption="Too sleepy 😴" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/bohdanas-birthday_cldkbt" width="768" caption="Our dear Bohdana recently celebrated a birthday. The girls held a nice tea party in her honor!" />
+
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/kathryn-new-dress_vuvlnt" height="768" caption="There’s something about little girls and new dresses... Kathryn is a fan! 👗" />
