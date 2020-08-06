@@ -37,7 +37,7 @@
     "@nuxtjs/robots": "^2.4.2",
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/toast": "^3.3.1",
-    "cloudinary-vue": "^1.0.0",
+    "cloudinary-vue": "^1.1.1",
     "concurrent-transform": "^1.0.0",
     "current-script-polyfill": "^1.0.0",
     "dayjs": "^1.8.32",
