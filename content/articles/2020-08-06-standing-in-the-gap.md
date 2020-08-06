@@ -34,7 +34,7 @@ The body at Living Word Church is a dedicated and God-focused group of people, o
 
 Today we would like to take a moment to honor a special couple that have been a blessing to our family. I first met Bobby and Sunni Fisher as a child in Sunday school. I can still remember Sunni sharing testimonies from their marriage, and how thrilled she was when Bobby came to Jesus. She told a story I’ll never forget about how Bobby went to a bar and shared the Gospel with someone he knew there.
 
-Bobby and Sunni have a mailing business, and many years ago they offered to handle the mailing of our newsletter. Every few months, they fold, stuff, stamp and mail hundreds of copies of Overseas Field Report to people in the United States and abroad. And they have done this free of charge as a ministry to us and ultimately to Christ.
+Bobby and Sunni have a mailing business, and many years ago they offered to handle the mailing of our newsletter. Every few months, they fold, stuff, stamp and mail hundreds of copies of *Overseas Field Report* to people in the United States and abroad. And they have done this free of charge as a ministry to us and ultimately to Christ.
 
 On July 2, 2020, at the age of 77, Bobby received his promotion to glory after a battle with COVID-19. While we grieve at his departing, and the sorrow it means for Sunni, their family, and so many others, we rejoice at the knowledge that we will see him again one day. *“But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him.” (1 Thessalonians 4:13-14)*
 
@@ -63,7 +63,7 @@ Bobby and Sunni, thank you for your faithfulness to each other, for your service
 
 <article-callout content="Do you know someone in Ukraine who would like to receive a free copy of *Good and Evil* in their language? Direct them to the web address below!" :link="{ name: 'dobroizlo.com.ua', href: 'https://dobroizlo.com.ua/' }" />
 
-<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/youth-meeting-kade_zbhlud" width="768" caption="Attendance at Kade’s youth meetings has been less do to COVID-19 restrictions, but we still have a good time!" />
+<article-image publicId="OFReport/2020-08-06-standing-in-the-gap/youth-meeting-kade_zbhlud" width="768" caption="Attendance at Kade’s youth meetings has been less due to COVID-19 restrictions, but we still have a good time!" />
 
 <article-image publicId="OFReport/2020-08-06-standing-in-the-gap/david-jonathan-buds_a3ovyk" height="768" caption="David and Jonathan: Buds Forever! 😎" />
 
