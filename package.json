@@ -50,6 +50,7 @@
     "markdown-it-link-attributes": "^3.0.0",
     "markdown-to-json": "^0.5.1",
     "nuxt": "^2.14.1",
+    "tailwindcss": "^1.6.2",
     "vuejs-paginate": "^2.1.0",
     "vuelidate": "^0.7.4"
   },
