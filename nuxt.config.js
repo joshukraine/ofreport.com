@@ -1,12 +1,12 @@
-import {
-  build, dynamicRoutes, feed, head,
-} from './config';
+import { build, dynamicRoutes, feed, head } from './config';
 
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 require('dotenv').config();
 
 export default {
   mode: 'universal',
+
+  target: 'static',
 
   env: {
     perPage: process.env.PER_PAGE || 10,

@@ -15,9 +15,10 @@
     </p>
 
     <div v-else-if="link">
-      <p class="m-0 font-bold text-center sm:text-xl">
-        {{ content }}
-      </p>
+      <p
+        class="m-0 font-bold text-center sm:text-xl"
+        v-html="renderInlineMd(content)"
+      />
       <p class="font-bold text-center sm:text-xl">
         <template v-if="link.to">
           <nuxt-link :to="link.to">
@@ -37,14 +38,19 @@
       </p>
     </div>
 
-    <p v-else class="m-0 font-bold text-center sm:text-xl">
-      {{ content }}
-    </p>
+    <p
+      v-else
+      class="m-0 font-bold text-center sm:text-xl"
+      v-html="renderInlineMd(content)"
+    />
   </section>
 </template>
 
 <script>
+import markdownit from '~/mixins/markdownit';
+
 export default {
+  mixins: [markdownit],
   props: {
     content: {
       type: String,

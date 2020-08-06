@@ -1,22 +1,24 @@
 <template>
   <div class="w-full my-6 sm:my-8 md:my-10">
-    <paginate
-      v-if="pageCount > 1"
-      v-model="page"
-      :page-count="pageCount"
-      :click-handler="pageChangeHandle"
-      :prev-text="'Prev'"
-      :next-text="'Next'"
-      :container-class="'pagination'"
-      :page-class="'page-item'"
-      :page-link-class="'page-link-item'"
-      :prev-class="'prev-item'"
-      :prev-link-class="'prev-link-item'"
-      :next-class="'next-item'"
-      :next-link-class="'next-link-item'"
-      :break-view-class="'break-view'"
-      :break-view-link-class="'break-view-link'"
-    />
+    <client-only>
+      <paginate
+        v-if="pageCount > 1"
+        v-model="page"
+        :page-count="pageCount"
+        :click-handler="pageChangeHandle"
+        :prev-text="'Prev'"
+        :next-text="'Next'"
+        :container-class="'pagination'"
+        :page-class="'page-item'"
+        :page-link-class="'page-link-item'"
+        :prev-class="'prev-item'"
+        :prev-link-class="'prev-link-item'"
+        :next-class="'next-item'"
+        :next-link-class="'next-link-item'"
+        :break-view-class="'break-view'"
+        :break-view-link-class="'break-view-link'"
+      />
+    </client-only>
   </div>
 </template>
 

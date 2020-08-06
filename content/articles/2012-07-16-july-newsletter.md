@@ -13,7 +13,7 @@ tags:
 - cmo
 ---
 
-The July issue of our newsletter, *Overseas Field Report*, is now available. This issue includes a reprint of our ["Little One"](/2012/06/little-one/) article, plus updates on <a href="http://cmoproject.org/" target="_blank">CMO 2012</a> and <a title="A Sinner Has Come Home" href="/2012/05/sinner-home/" target="_blank">Vasyl</a>, the man from our English Club who recently got saved.
+The July issue of our newsletter, *Overseas Field Report*, is now available. This issue includes a reprint of our ["Little One"](/blog/2012-06-26-little-one/) article, plus updates on <a href="http://cmoproject.org/" target="_blank">CMO 2012</a> and <a title="A Sinner Has Come Home" href="/blog/2012-05-30-sinner-home/" target="_blank">Vasyl</a>, the man from our English Club who recently got saved.
 
 <article-callout content="OFR-July-2012.pdf" :download="true" />
 

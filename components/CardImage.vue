@@ -1,18 +1,20 @@
 <template>
   <figure>
-    <cld-image
-      :public-id="`OFReport/${publicId}`"
-      loading="lazy"
-      :width="width"
-      :alt="alt"
-    >
-      <cld-transformation
+    <client-only>
+      <cld-image
+        :public-id="`OFReport/${publicId}`"
+        loading="lazy"
         :width="width"
-        crop="scale"
-        fetchFormat="auto"
-        quality="auto"
-      />
-    </cld-image>
+        :alt="alt"
+      >
+        <cld-transformation
+          :width="width"
+          crop="scale"
+          fetchFormat="auto"
+          quality="auto"
+        />
+      </cld-image>
+    </client-only>
   </figure>
 </template>
 
