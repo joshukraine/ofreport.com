@@ -15,6 +15,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus vulputate
 
 <article-image publicId="OFReport/2020-04-29-love-story-cafe/DSCF4777_r4b969.jpg" width="768" />
 
+Need straight quotes? Press CTRL-V before typing the quote character.
+https://github.com/reedes/vim-textobj-quote#entering-straight-quotes
+
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras interdum et enim sit amet luctus. Maecenas bibendum ornare justo id suscipit. Nullam a tincidunt libero, at elementum quam. Nunc id semper urna. Aenean faucibus pharetra magna et volutpat. Curabitur blandit vehicula risus in facilisis. Vestibulum nec eros ut neque eleifend viverra at nec tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce at molestie lectus. Donec semper molestie orci iaculis facilisis.
 
 <article-callout content="Keep scrolling for more photos from the Love Story Cafe!" />
