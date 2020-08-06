@@ -1,30 +1,32 @@
 <template>
-  <figure
-    class="my-10 md:my-16 rounded-corners"
-    :class="{ 'image-border': border }"
-  >
-    <cld-image
-      :public-id="publicId"
-      loading="lazy"
-      :width="width"
-      :height="height"
-      :alt="caption"
+  <client-only>
+    <figure
+      class="my-10 md:my-16 rounded-corners"
+      :class="{ 'image-border': border }"
     >
-      <cld-transformation
+      <cld-image
+        :public-id="publicId"
+        loading="lazy"
         :width="width"
         :height="height"
-        crop="scale"
-        fetchFormat="auto"
-        quality="auto"
+        :alt="caption"
+      >
+        <cld-transformation
+          :width="width"
+          :height="height"
+          crop="scale"
+          fetchFormat="auto"
+          quality="auto"
+        />
+      </cld-image>
+      <figcaption
+        v-if="caption"
+        class="mx-auto mt-2 font-semibold text-center article-img-caption"
+        :class="{ 'portrait-caption': height }"
+        v-html="renderInlineMd(caption)"
       />
-    </cld-image>
-    <figcaption
-      v-if="caption"
-      class="mx-auto mt-2 font-semibold text-center article-img-caption"
-      :class="{ 'portrait-caption': height }"
-      v-html="renderInlineMd(caption)"
-    />
-  </figure>
+    </figure>
+  </client-only>
 </template>
 
 <script>

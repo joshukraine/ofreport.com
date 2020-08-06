@@ -4,28 +4,34 @@
 
     <section class="container flex justify-between max-w-3xl">
       <figure class="hidden ofr-cover sm:block">
-        <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-          <cld-transformation
-            width="200"
-            alt="Overseas Field Report"
-            crop="scale"
-            fetchFormat="auto"
-            quality="auto:best"
-          />
-        </cld-image>
+        <client-only>
+          <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
+            <cld-transformation
+              width="200"
+              alt="Overseas Field Report"
+              crop="scale"
+              fetchFormat="auto"
+              quality="auto:best"
+            />
+          </cld-image>
+        </client-only>
       </figure>
       <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
         <div class="flex mb-6">
           <figure class="mr-4 ofr-cover sm:hidden">
-            <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
-              <cld-transformation
-                width="100"
-                alt="Overseas Field Report"
-                crop="scale"
-                fetchFormat="auto"
-                quality="auto:best"
-              />
-            </cld-image>
+            <client-only>
+              <cld-image
+                public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+              >
+                <cld-transformation
+                  width="100"
+                  alt="Overseas Field Report"
+                  crop="scale"
+                  fetchFormat="auto"
+                  quality="auto:best"
+                />
+              </cld-image>
+            </client-only>
           </figure>
           <div class="flex-1 md:pr-6">
             <p class="mt-0 font-serif xs:text-lg">
