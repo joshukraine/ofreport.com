@@ -1,0 +1,10 @@
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+# https://github.com/toml-lang/toml
+
+[build]
+base = "."
+publish = "dist/"
+command = "yarn md2json && yarn generate"
+
+[build.environment]
+PER_PAGE = "10"
