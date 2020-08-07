@@ -45,7 +45,7 @@ export default {
 
   robots: {
     UserAgent: '*',
-    Disallow: process.env.APP_ENV === 'prod' ? '' : '/',
+    Disallow: process.env.NODE_ENV === 'production' ? '' : '/',
     Sitemap: 'https://ofreport.com/sitemap.xml',
   },
 
