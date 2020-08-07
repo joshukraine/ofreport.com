@@ -29,10 +29,6 @@ export default {
       type: Number,
       required: true,
     },
-    perPage: {
-      type: Number,
-      required: true,
-    },
     rootSegment: {
       type: String,
       default: null,
@@ -55,13 +51,13 @@ export default {
       return this.fullPageCount;
     },
     blogPageCount() {
-      if (this.articleCount % this.perPage === 1) {
+      if (this.articleCount % this.$config.perPage === 1) {
         return this.fullPageCount - 1;
       }
       return this.fullPageCount;
     },
     fullPageCount() {
-      return Math.ceil(this.articleCount / this.perPage);
+      return Math.ceil(this.articleCount / this.$config.perPage);
     },
     paginatedRoot() {
       return this.rootSegment ? `/${this.rootSegment}` : '';

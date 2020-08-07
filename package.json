@@ -52,7 +52,6 @@
     "vuelidate": "^0.7.4"
   },
   "devDependencies": {
-    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.0.0",
     "babel-eslint": "^10.0.3",
