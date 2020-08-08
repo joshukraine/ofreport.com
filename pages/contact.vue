@@ -258,7 +258,7 @@ export default {
 @media (max-width: 600px) {
   .toasted.toasted-primary.success,
   .toasted.toasted-primary.error {
-    @apply .pb-6;
+    @apply .py-5;
   }
 }
 

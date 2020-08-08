@@ -51,7 +51,7 @@ export default {
   },
 
   toast: {
-    position: 'bottom-right',
+    position: 'top-center',
     singleton: true,
     iconPack: 'material',
   },
