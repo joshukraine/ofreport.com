@@ -20,4 +20,4 @@ Well, it's been a while, but today we uploaded a new issue of our print newslett
 
 In case you haven't seen it, you can view our latest <a title="ETO Video Reports on Vimeo" href="http://vimeo.com/album/1692055" target="_blank">ETO Video Report</a> below. Thanks for praying for our family and work here in Ukraine!
 
-<iframe src="http://player.vimeo.com/video/33968788?portrait=0" frameborder="0" width="606" height="335"></iframe>
+<iframe src="https://player.vimeo.com/video/33968788?portrait=0" frameborder="0" width="606" height="335"></iframe>
