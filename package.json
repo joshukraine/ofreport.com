@@ -7,7 +7,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "yarn md2json && nuxt",
-    "generate": "nuxt generate",
+    "generate": "yarn md2json && nuxt generate",
     "lint": "eslint --ext .js,.vue . && stylelint \"**/*.(css|vue)\"",
     "lint:fix": "eslint --ext .js,.vue --fix . && stylelint --fix \"**/*.(css|vue)\"",
     "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",

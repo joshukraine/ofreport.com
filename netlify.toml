@@ -4,7 +4,7 @@
 [build]
 base = "."
 publish = "dist/"
-command = "yarn md2json && yarn generate"
+command = "yarn generate"
 
 [build.environment]
 PER_PAGE = "8"
