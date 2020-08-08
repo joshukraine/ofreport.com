@@ -4,25 +4,23 @@
 
 > Our family blog, documenting our work in Ukraine
 
-[![CircleCI](https://circleci.com/gh/joshukraine/ofreport.com/tree/master.svg?style=svg)](https://circleci.com/gh/joshukraine/ofreport.com/tree/master)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/69a46dc9-827c-4b08-8b75-0164feb31dce/deploy-status)](https://app.netlify.com/sites/ofreport/deploys)
 
 ## Overview
 
-OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is deployed as a pre-generated static site on [Amazon S3][aws-s3]. In addition to Vue and Nuxt, several noteworthy supporting technologies have been used, including the following:
+OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is deployed as a pre-generated static site on [Netlify][netlify]. In addition to Vue and Nuxt, several noteworthy supporting technologies have been used, including the following:
 
-* [Tailwind CSS][tailwind] + [PurgeCSS][purgecss]
+* [Tailwind CSS][tailwind]
 * [markdown-it][markdown-it]
 * [frontmatter-markdown-loader][fml]
 * [Cloudinary][cloudinary]
 * [Vuelidate][vuelidate]
 * [vuejs-paginate][vuejs-paginate]
-* [gulp-awspublish][gulp-awspublish]
 
 ## Requirements
 
 * [Node >= 12.x][node]
 * [Yarn 1.x][yarn]
-* [Gulp 4.x][gulp]
 
 ## Setup
 
@@ -30,6 +28,12 @@ To get started, clone/fork the repo, cd into it, and install the dependencies.
 
 ``` bash
 $ yarn install
+```
+
+Pagination depends on the presence of the `PER_PAGE` environment variable, so make sure this is set on your system. One easy way to handle this is with a local `.env` file in the root of the project:
+
+``` bash
+$ echo "PER_PAGE=8" >> .env
 ```
 
 ## Development
@@ -64,44 +68,21 @@ Next, build the site as explained in the previous section.
 $ yarn generate
 ```
 
-Finally, move into the `dist/` folder and start the server.
+Finally, serve the site from the `dist/` folder.
 
 ```bash
-$ cd dist/
-$ http-server -p 8080
+$ http-server dist/ -p 8080
 ```
 
 Visit `http://localhost:8080` and check out the site!
 
 The generated site will be output to the `dist/` folder.
 
-## Environment-specific Builds
-
-Nuxt allows you to [define environment variables][env-property] which can be accessed at compile time by calling `process.env.YOUR_VARIABLE`. This is particularly useful for generating builds with specifics that differ between, for example, production and development environments.
-
-To generate a production build, run:
-
-```bash
-$ APP_ENV=prod yarn generate
-```
-
-This will, among other things, set the robots meta tag to `index,follow`. If `APP_ENV` is set to anything else, the robots tag will be set to `noindex,nofollow`.
-
 ## Deployment
 
-My preferred deployment solution for static sites is [Amazon S3][aws-s3]. It's super cheap, and provides lots of nice extras like a CDN with [CloudFront][aws-cloudfront] and a [free SSL certificate][aws-ssl]. The Nuxt docs provide a detailed guide to [deployment with S3 + Cloudfront][nuxt-s3-deploy].
+My preferred deployment solution for static sites is [Netlify][netlify]. It's ~~super cheap~~ FREE, and provides lots of nice extras like a CDN with [Netlify Edge][netlify-edge] and a [free SSL certificate][netlify-ssl]. The Nuxt docs provide a brief guide to [deployment with Netlify][nuxt-netlify-deploy].
 
-Individual deploys are handled with the `bin/deploy` script, which calls the `gulp deploy` task provided by [gulp-awspublish][gulp-awspublish].  The `bin/deploy` script expects the environment to be passed as an argument.
-
-```bash
-# Deploy to development
-$ bin/deploy dev
-
-# Deploy to production
-$ bin/deploy prod
-```
-
-For more information on deployment with Nuxt, [visit their FAQ page][nuxt-faq].
+For more information on deployment solutions for Nuxt, [visit their FAQ page][nuxt-faq].
 
 ## Webpack Bundle Analyzer
 
@@ -132,9 +113,6 @@ I use [Neovim][neovim] as my editor along with the [coc.nvim][coc-nvim] plugin f
 Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
 
 [airbnb]: https://github.com/airbnb/javascript
-[aws-cloudfront]: https://aws.amazon.com/cloudfront/
-[aws-s3]: https://aws.amazon.com/getting-started/projects/host-static-website/
-[aws-ssl]: https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/
 [bundle-treemap]: https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1000/v1573627005/OFReport/assets/nuxt_stats_client.html_wpbbpp.png
 [cloudinary]: https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ck3hvrdcnvaeftjds7ep
 [coc-nvim]: https://github.com/neoclide/coc.nvim
@@ -142,22 +120,20 @@ Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [M
 [eslint-config-airbnb-base]: https://yarnpkg.com/en/package/eslint-config-airbnb-base
 [eslint-vue]: https://yarnpkg.com/en/package/eslint-plugin-vue
 [fml]: https://hmsk.github.io/frontmatter-markdown-loader/
-[gulp-awspublish]: https://yarnpkg.com/en/package/gulp-awspublish
-[gulp]: https://gulpjs.com/
 [hmr]: https://webpack.js.org/concepts/hot-module-replacement/
 [http-server]: https://yarnpkg.com/en/package/http-server
 [license]: https://github.com/joshukraine/ofreport.com/blob/master/LICENSE
 [markdown-it]: https://yarnpkg.com/en/package/markdown-it
 [neovim]: https://neovim.io/
+[netlify]: https://www.netlify.com/
 [node]: https://nodejs.org/en/
 [nuxt-analyze]: https://nuxtjs.org/api/configuration-build/#analyze
 [nuxt-assets]: https://nuxtjs.org/guide/assets
 [nuxt-faq]: https://nuxtjs.org/faq
-[nuxt-s3-deploy]: https://nuxtjs.org/faq/deployment-aws-s3-cloudfront
+[nuxt-netlify-deploy]: https://nuxtjs.org/faq/netlify-deployment
 [nuxt]: https://nuxtjs.org/
 [prettier]: https://prettier.io/
-[purgecss]: https://www.purgecss.com/
-[screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1573625059/OFReport/assets/ofreport.com_screenshot_c8ethn.png
+[screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1596887906/OFReport/assets/ofreport.com_screenshot_ejueay.png
 [static-gen]: https://www.staticgen.com/nuxt
 [stylelint]: https://stylelint.io/
 [tailwind]: https://tailwindcss.com/
@@ -165,3 +141,5 @@ Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [M
 [vuejs-paginate]: https://yarnpkg.com/en/package/vuejs-paginate
 [vuelidate]: https://vuelidate.netlify.com/
 [yarn]: https://yarnpkg.com/en/docs/install
+[netlify-edge]: https://www.netlify.com/products/edge/
+[netlify-ssl]: https://docs.netlify.com/domains-https/https-ssl/
