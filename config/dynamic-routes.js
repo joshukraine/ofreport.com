@@ -1,9 +1,6 @@
 import articles from '../data/articles.json';
 import { getUniqueTags, getArticlesTaggedWith } from './utils/helpers';
 
-/* eslint-disable-next-line import/no-extraneous-dependencies */
-require('dotenv').config();
-
 const perPage = parseInt(process.env.PER_PAGE);
 const articleCount = Object.values(articles).length;
 const articleSlugs = Object.keys(articles);

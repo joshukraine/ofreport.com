@@ -21,7 +21,9 @@ export default {
       hid: 'robots',
       name: 'robots',
       content:
-        process.env.APP_ENV === 'prod' ? 'index,follow' : 'noindex,nofollow',
+        process.env.NODE_ENV === 'production'
+          ? 'index,follow'
+          : 'noindex,nofollow',
     },
     { name: 'msapplication-TileColor', content: '#2d89ef' },
     { name: 'theme-color', content: '#ffffff' },

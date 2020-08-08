@@ -16,7 +16,6 @@
         :article-count="articleCount"
         :start-page="startPage"
         :root-segment="rootSegment"
-        :per-page="perPage"
       />
     </div>
   </div>
@@ -25,8 +24,6 @@
 <script>
 import ArticlePreview from '~/components/ArticlePreview.vue';
 import Paginator from '~/components/Paginator.vue';
-
-const perPage = parseInt(process.env.perPage);
 
 export default {
   components: {
@@ -52,7 +49,6 @@ export default {
       articles: [],
       page: null,
       start: 0,
-      perPage,
     };
   },
   computed: {
@@ -67,9 +63,9 @@ export default {
     },
     calculatedArticleRange() {
       if (this.rootSegment === 'blog') {
-        return (this.page - 1) * this.perPage + 1;
+        return (this.page - 1) * this.$config.perPage + 1;
       }
-      return (this.page - 1) * this.perPage;
+      return (this.page - 1) * this.$config.perPage;
     },
   },
   mounted() {
@@ -82,7 +78,7 @@ export default {
     } else {
       this.start = this.calculatedArticleRange;
     }
-    const end = this.start + this.perPage;
+    const end = this.start + this.$config.perPage;
 
     // Select the articles for the current page.
     this.articles = this.allArticles.slice(this.start, end);

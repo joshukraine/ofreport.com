@@ -1,15 +1,12 @@
 import { build, dynamicRoutes, feed, head } from './config';
 
-/* eslint-disable-next-line import/no-extraneous-dependencies */
-require('dotenv').config();
-
 export default {
   mode: 'universal',
 
   target: 'static',
 
-  env: {
-    perPage: process.env.PER_PAGE || 10,
+  publicRuntimeConfig: {
+    perPage: process.env.PER_PAGE || 8,
   },
 
   head,
@@ -28,11 +25,7 @@ export default {
     '~/plugins/vuelidate.js',
   ],
 
-  buildModules: [
-    '@nuxtjs/dotenv',
-    '@nuxtjs/google-analytics',
-    '@nuxtjs/tailwindcss',
-  ],
+  buildModules: ['@nuxtjs/google-analytics', '@nuxtjs/tailwindcss'],
 
   modules: [
     '@nuxtjs/axios',
@@ -45,7 +38,7 @@ export default {
 
   robots: {
     UserAgent: '*',
-    Disallow: process.env.APP_ENV === 'prod' ? '' : '/',
+    Disallow: process.env.NODE_ENV === 'production' ? '' : '/',
     Sitemap: 'https://ofreport.com/sitemap.xml',
   },
 
@@ -58,7 +51,7 @@ export default {
   },
 
   toast: {
-    position: 'bottom-right',
+    position: 'top-center',
     singleton: true,
     iconPack: 'material',
   },
