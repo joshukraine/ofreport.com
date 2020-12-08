@@ -10,7 +10,7 @@
 
 OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is deployed as a pre-generated static site on [Netlify][netlify]. In addition to Vue and Nuxt, several noteworthy supporting technologies have been used, including the following:
 
-* [Tailwind CSS][tailwind]
+* [Tailwind CSS (v1)][tailwind]
 * [markdown-it][markdown-it]
 * [frontmatter-markdown-loader][fml]
 * [Cloudinary][cloudinary]
@@ -19,7 +19,7 @@ OFReport.com is a [Vue.js][vue] application built with [Nuxt.js][nuxt], and is d
 
 ## Requirements
 
-* [Node >= 12.x][node]
+* [Node >= 14.x][node]
 * [Yarn 1.x][yarn]
 
 ## Setup
@@ -102,8 +102,6 @@ Project-specific JavaScript conforms to the [Airbnb][airbnb] code style.
 
 JS linting is done with ESLint and extended with [eslint-plugin-vue][eslint-vue] and [eslint-config-airbnb-base][eslint-config-airbnb-base].
 
-CSS linting is done with [stylelint][stylelint].
-
 Code formatting is done with [Prettier][prettier].
 
 I use [Neovim][neovim] as my editor along with the [coc.nvim][coc-nvim] plugin for code completion and asynchronous linting.
@@ -135,8 +133,7 @@ Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [M
 [prettier]: https://prettier.io/
 [screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1596887906/OFReport/assets/ofreport.com_screenshot_ejueay.png
 [static-gen]: https://www.staticgen.com/nuxt
-[stylelint]: https://stylelint.io/
-[tailwind]: https://tailwindcss.com/
+[tailwind]: https://v1.tailwindcss.com/
 [vue]: https://vuejs.org/
 [vuejs-paginate]: https://yarnpkg.com/en/package/vuejs-paginate
 [vuelidate]: https://vuelidate.netlify.com/
