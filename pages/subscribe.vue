@@ -44,9 +44,7 @@
         <McSubscribeForm />
         <p class="font-serif">
           You can also access previous issues in our
-          <nuxt-link to="/archives/">
-            Archives.
-          </nuxt-link>
+          <nuxt-link to="/archives/">Archives.</nuxt-link>
         </p>
 
         <hr class="my-8 font-serif" />

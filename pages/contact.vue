@@ -10,9 +10,7 @@
       <div class="p-4 mt-6 bg-white rounded shadow-md">
         <form class="contact-form" @submit.prevent="validateFinal">
           <div :class="{ invalid: $v.name.$error }">
-            <label class="form-label" for="name">
-              Your Name
-            </label>
+            <label class="form-label" for="name"> Your Name </label>
             <input
               v-model.trim="$v.name.$model"
               maxlength="100"
@@ -27,9 +25,7 @@
           </div>
 
           <div :class="{ invalid: $v.email.$error }" class="mt-6">
-            <label class="form-label" for="email">
-              Your Email
-            </label>
+            <label class="form-label" for="email"> Your Email </label>
             <input
               v-model.lazy.trim="$v.email.$model"
               maxlength="100"
@@ -50,9 +46,7 @@
           </div>
 
           <div :class="{ invalid: $v.message.$error }" class="mt-6">
-            <label class="form-label" for="message">
-              Your Message
-            </label>
+            <label class="form-label" for="message"> Your Message </label>
             <textarea
               v-model.trim="$v.message.$model"
               cols="30"

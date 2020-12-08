@@ -1,7 +1,5 @@
 <template>
-  <div
-    style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);"
-  >
+  <div style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)">
     <section
       class="flex items-center min-h-screen bg-top bg-cover alpha sm:bg-left-top md:min-h-3/4-vh sm:p-10 md:bg-left lg:bg-top"
     >

@@ -39,9 +39,7 @@
             </client-only>
           </figure>
           <div class="flex-1 mb-6 md:pr-6">
-            <h2 class="mt-0">
-              Read the News
-            </h2>
+            <h2 class="mt-0">Read the News</h2>
             <p class="font-serif">
               <em>Overseas Field Report</em> is our bi-monthly newsletter
               containing updates on our family and ministry here in Ukraine.
@@ -52,9 +50,7 @@
         <McSubscribeForm />
         <p class="font-serif">
           You can also access previous issues in our
-          <nuxt-link to="/archives/">
-            Archives.
-          </nuxt-link>
+          <nuxt-link to="/archives/"> Archives. </nuxt-link>
         </p>
       </div>
     </div>

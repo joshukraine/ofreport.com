@@ -13,46 +13,30 @@
       <div class="container flex max-w-2xl pt-6 mx-auto sm:pt-8 lg:pt-10">
         <ul class="w-1/3 text-center">
           <li>
-            <nuxt-link to="/family/">
-              Family
-            </nuxt-link>
+            <nuxt-link to="/family/"> Family </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/ministry/">
-              Ministry
-            </nuxt-link>
+            <nuxt-link to="/ministry/"> Ministry </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/blog/">
-              Blog
-            </nuxt-link>
+            <nuxt-link to="/blog/"> Blog </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/archives/">
-              Archives
-            </nuxt-link>
+            <nuxt-link to="/archives/"> Archives </nuxt-link>
           </li>
         </ul>
         <ul class="w-1/3 text-center">
           <li>
-            <nuxt-link to="/subscribe/">
-              Subscribe
-            </nuxt-link>
+            <nuxt-link to="/subscribe/"> Subscribe </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/tags/">
-              Tags
-            </nuxt-link>
+            <nuxt-link to="/tags/"> Tags </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/contact/">
-              Contact
-            </nuxt-link>
+            <nuxt-link to="/contact/"> Contact </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/donate/">
-              Donate
-            </nuxt-link>
+            <nuxt-link to="/donate/"> Donate </nuxt-link>
           </li>
         </ul>
         <ul class="w-1/3 text-center">

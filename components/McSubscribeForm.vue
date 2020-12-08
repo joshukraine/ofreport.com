@@ -20,7 +20,7 @@
           required
         />
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="left: -5000px; position: absolute;" aria-hidden="true">
+        <div style="left: -5000px; position: absolute" aria-hidden="true">
           <input
             type="text"
             name="b_1e0c65850b60905f65b151819_97b9f6a559"
