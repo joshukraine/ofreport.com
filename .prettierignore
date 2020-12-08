@@ -1,0 +1,3 @@
+.nuxt/
+dist/
+tailwind-full.config.js
