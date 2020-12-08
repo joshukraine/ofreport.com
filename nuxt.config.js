@@ -1,9 +1,9 @@
 import { build, dynamicRoutes, feed, head } from './config';
 
 export default {
-  mode: 'universal',
-
   target: 'static',
+
+  telemetry: true, // https://github.com/nuxt/telemetry
 
   publicRuntimeConfig: {
     perPage: process.env.PER_PAGE || 8,

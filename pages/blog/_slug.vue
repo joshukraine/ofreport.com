@@ -2,7 +2,7 @@
   <article>
     <div
       v-if="fm.cover"
-      style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%);"
+      style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)"
     >
       <div
         class="bg-center bg-cover min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh"

@@ -8,22 +8,21 @@
     "build": "nuxt build",
     "dev": "yarn md2json && nuxt",
     "generate": "yarn md2json && nuxt generate",
-    "lint": "eslint --ext .js,.vue . && stylelint \"**/*.(css|vue)\"",
-    "lint:fix": "eslint --ext .js,.vue --fix . && stylelint --fix \"**/*.(css|vue)\"",
+    "lint": "eslint --ext .js,.vue . && prettier --check \"**/*.(js|css|vue)\"",
+    "lint:fix": "eslint --ext .js,.vue --fix . && prettier --write \"**/*.(js|css|vue)\"",
     "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
     "start": "nuxt start"
   },
   "lint-staged": {
     "*.vue": [
       "eslint --fix",
-      "prettier --write",
-      "stylelint --fix"
+      "prettier --write"
     ],
     "*.js": [
       "eslint --fix",
       "prettier --write"
     ],
-    "*.css": "stylelint --fix"
+    "*.css": "prettier --write"
   },
   "husky": {
     "hooks": {
@@ -43,7 +42,7 @@
     "dayjs": "^1.8.32",
     "frontmatter-markdown-loader": "^3.6.0",
     "lodash.countby": "^4.6.0",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.0.3",
     "markdown-it-link-attributes": "^3.0.0",
     "markdown-to-json": "^0.5.1",
     "nuxt": "^2.14.3",
@@ -55,18 +54,15 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.0.0",
     "babel-eslint": "^10.0.3",
-    "eslint": "7.7.0",
+    "eslint": "7.15.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^6.0.0",
+    "eslint-plugin-vue": "^7.2.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier": "2.0.5",
-    "stylelint": "^13.6.1",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-order": "^4.1.0"
+    "prettier": "2.2.1"
   }
 }

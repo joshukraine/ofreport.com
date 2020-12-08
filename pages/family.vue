@@ -1,24 +1,13 @@
 <template>
   <article class="mb-8 md:mb-12">
     <section
-      class="bg-center bg-cover border-b family min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-700 xl:h-3/4-vh"
-    >
-      <section
-        class="pt-4 text-center xs:pt-6 sm:pt-6 md:pt-8 lg:pt-10 lg:pb-12"
-      >
-        <h1 class="text-3xl text-white xs:text-4xl sm:text-5xl lg:text-6xl">
-          Pleased to meet you!
-        </h1>
-      </section>
-    </section>
+      class="bg-top bg-cover border-b family min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-700 xl:min-h-900 xl:h-3/4-vh"
+    ></section>
 
     <section class="container max-w-3xl mx-auto">
       <p class="mt-2 text-sm font-semibold text-center sm:text-base">
-        The Steele Family<br />
-        Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and
-        <nuxt-link to="/blog/2019-10-14-meet-mia/">
-          Mia (not pictured)
-        </nuxt-link>
+        Pleased to meet you! We're the Steele Family:<br />
+        Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and Mia
       </p>
     </section>
 
@@ -77,24 +66,24 @@ export default {
 }
 
 .family {
-  background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_768/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg');
+  background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_768/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
 }
 
 @screen xs {
   .family {
-    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1024/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg');
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1024/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
   }
 }
 
 @screen md {
   .family {
-    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1500/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg');
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1500/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
   }
 }
 
 @screen lg {
   .family {
-    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1573152683/OFReport/assets/family-2018-top-fade_ksxx7v.jpg');
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
   }
 }
 

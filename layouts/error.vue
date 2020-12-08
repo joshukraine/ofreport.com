@@ -55,9 +55,7 @@
       <h1>Page not found</h1>
       <hr class="my-6" />
       <p>
-        <nuxt-link to="/">
-          Return home
-        </nuxt-link>
+        <nuxt-link to="/"> Return home </nuxt-link>
       </p>
     </section>
   </article>

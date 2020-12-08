@@ -8,9 +8,7 @@
         <img class="w-40 md:w-48" src="~/assets/svg/ofr-logo.svg" />
       </nuxt-link>
       <div class="relative -mr-4">
-        <button class="hamburger" @click="navOpen = !navOpen">
-          MENU
-        </button>
+        <button class="hamburger" @click="navOpen = !navOpen">MENU</button>
       </div>
       <nav
         class="px-4 pt-4 nav-menu lg:pt-0"
