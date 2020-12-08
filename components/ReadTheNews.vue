@@ -6,7 +6,7 @@
       <figure class="hidden ofr-cover sm:block">
         <client-only>
           <cld-image
-            public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+            public-id="OFReport/assets/OFR-Aug-Dec-2020_dxpdvm.jpg"
             loading="lazy"
             width="200"
             alt="Overseas Field Report"
@@ -25,7 +25,7 @@
           <figure class="mr-4 ofr-cover sm:hidden">
             <client-only>
               <cld-image
-                public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+                public-id="OFReport/assets/OFR-Aug-Dec-2020_dxpdvm.jpg"
                 width="100"
                 alt="Overseas Field Report"
               >

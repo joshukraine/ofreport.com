@@ -5,7 +5,7 @@
     <section class="container flex justify-between max-w-3xl">
       <figure class="hidden ofr-cover sm:block">
         <client-only>
-          <cld-image public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg">
+          <cld-image public-id="OFReport/assets/OFR-Aug-Dec-2020_dxpdvm.jpg">
             <cld-transformation
               width="200"
               alt="Overseas Field Report"
@@ -21,7 +21,7 @@
           <figure class="mr-4 ofr-cover sm:hidden">
             <client-only>
               <cld-image
-                public-id="OFReport/assets/OFR-May-Jun-2018_gvz1ij.jpg"
+                public-id="OFReport/assets/OFR-Aug-Dec-2020_dxpdvm.jpg"
               >
                 <cld-transformation
                   width="100"
