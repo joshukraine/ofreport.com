@@ -82,13 +82,13 @@ Despite the afore-mentioned challenges of the pandemic, our involvement in our l
 
 <article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4286_alxekp" width="768" caption="Kathryn gets some ice cream on her Daddy date!" />
 
-<article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4304_rvzi59" width="768" caption="In November, we were blessed by a visit from Mike and Denise Ireland. As many of you know, Denise (formerly Hutchison) served on our team from many years. She and Mike were married earlier this year and are preparing to come back to Ukraine as a couple." />
+<article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4304_rvzi59" width="768" caption="In November, we were blessed by a visit from Mike and Denise Ireland. As many of you know, Denise (formerly Hutchison) served on our team for many years. She and Mike were married earlier this year and are preparing to return to Ukraine as a couple." />
 
 <article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4245_edihmr" width="768" caption="Edmund and Agnes are a missionary couple from Northern Ireland who serve here in L’viv. Edmund organizes Christian conferences each year with his church, and I’ve helped him several times by providing Ukrainian translation. Recently they had our family over for dinner and we had a marvelous evening of fellowship together!" />
 
 <article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4231_gk794i" width="768" caption="In August, Hosanna and Rebekah took part in a mini summer camp organized by a lady in our church named Margarita (center in the photo above). They spent about a week in the Carpathians and had a fantastic time!" />
 
-<article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4500_poylg7" height="768" caption="Decorating for Christmas is so much more fun when Dad wears his special hat. 🎅🏻" />
+<article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4500_poylg7" height="768" caption="Our family doesn’t emphasize Santa Claus, but we do like Dad’s fun hat!" />
 
 <article-image publicId="OFReport/2020-12-08-a-time-to-write/IMG_4510_eo6iu2" height="768" caption="Mom and the older girls did a great job with the tree! Now if we can just keep Mia from plucking off the ornaments... 👶🏻" />
 
