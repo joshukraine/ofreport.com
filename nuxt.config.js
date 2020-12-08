@@ -1,8 +1,6 @@
 import { build, dynamicRoutes, feed, head } from './config';
 
 export default {
-  mode: 'universal',
-
   target: 'static',
 
   publicRuntimeConfig: {
