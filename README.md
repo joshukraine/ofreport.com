@@ -108,7 +108,7 @@ I use [Neovim][neovim] as my editor along with the [coc.nvim][coc-nvim] plugin f
 
 ## Legal
 
-Copyright © 2003–2020 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
+Copyright © 2003–2021 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
 
 [airbnb]: https://github.com/airbnb/javascript
 [bundle-treemap]: https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1000/v1573627005/OFReport/assets/nuxt_stats_client.html_wpbbpp.png
