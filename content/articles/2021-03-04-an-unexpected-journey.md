@@ -56,7 +56,7 @@ Notwithstanding, things have been particularly difficult as our family faces the
 
 ## The Countdown Begins
 
-Tomorrow morning, March 5, my 15-year-old daughter Abigail will join me on a flight back to Texas. We’ll be there for three weeks helping in any way we can to be a blessing to my parents and my siblings. We can’t take away all the pain and uncertainty, but we can *be there*, helping to bear the load.
+Tomorrow afternoon, March 5, my 15-year-old daughter Abigail will join me on a flight back to Texas. We’ll be there for three weeks helping in any way we can to be a blessing to my parents and my siblings. We can’t take away all the pain and uncertainty, but we can *be there*, helping to bear the load.
 
 Please pray for our family during this time. I’ve only written a tiny fraction of what we’ve been facing, and yet through all of this we have felt the peace that only Christ can give. God has not turned away His face from us. He remains faithful, and we continue to look to Him for grace, guidance and victory.
 
