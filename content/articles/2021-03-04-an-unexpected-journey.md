@@ -68,7 +68,9 @@ If you would like to be a blessing to my parents during this time, we would welc
 
 <article-button text="Meal Train for Mike and Cathy Steele" path="https://mealtrain.com/9wlnd5" :outline="true" :center="true" :external="true" margin="y"/>
 
-Additionally, if you would like to send cash, the best way is via [PayPal](https://www.paypal.com/) using my sister Jennifer’s email address: **shine828@gmail.com**
+Additionally, if you would like to send cash, the best way is via my sister Jennifer’s PayPal account using the button below:
+
+<article-button text="Donate via PayPal" path="https://www.paypal.me/jencarroll828" :outline="true" :center="true" :external="true" margin="y"/>
 
 ## How You Can Pray
 
