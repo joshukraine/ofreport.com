@@ -6,6 +6,7 @@
 @import './components/lists.css';
 @import './components/transitions.css';
 @import './components/typography.css';
+@import './components/video.css';
 
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
