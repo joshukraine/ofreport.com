@@ -35,10 +35,6 @@ figcaption {
   @apply .text-sm;
 }
 
-figcaption .article-img-caption {
-  @apply .font-sans;
-}
-
 a {
   @apply .text-blue-600 .font-semibold;
   transition: color 150ms ease-in-out;
