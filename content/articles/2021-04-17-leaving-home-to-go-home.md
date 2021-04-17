@@ -30,7 +30,7 @@ Mom’s health is, of course, more of a complicated issue. She’s still battlin
 
 <article-image publicId="OFReport/DRAFT/IMG_5161_gvyz1p" width="768" caption="Mom is an outside girl for sure, and we enjoyed our walks with her in the creek!" />
 
-A week or so after I left, my brother Josiah drove Mom down for a week-long visit at M.D. Anderson in Houston, where she was able to consult with one of the top myeloma specialists in the nation. The tests they ran were encouraging, and while the fight continues, we are hopeful.
+In early April, my brother Josiah drove Mom down for a week-long visit at M.D. Anderson in Houston, where she was able to consult with one of the top myeloma specialists in the nation. The tests they ran were encouraging, and while the fight continues, we are hopeful.
 
 ## How You Can Help
 
@@ -42,7 +42,7 @@ Many people have sent in generous donations to help support Mom and Dad during t
 
 During our final days in Texas, there was, as usual, a flurry of last-minute activity. Packing, weighing bags, shipping boxes, and (surprise!) mandatory PCR tests for reentry to Ukraine. And through it all we felt keenly the mixture of joy and sadness at “leaving home to go home”. But just as I was confident that God led us to Texas for ministry to my family there, so I remain confident that He is leading us to continue our ministry in Ukraine.
 
-Of course, with all the upheaval of the past few months, things are a bit behind schedule. But the wheels are turning and we have some exciting developments we’d like to share with you. So keep your eyes open for our next issue of *Overseas Field Report*, coming (hopefully) very soon!
+Of course, with all the upheaval of the past few months, ministry tasks are a bit behind schedule. But the wheels are turning and we have some exciting developments we’d like to share with you. So keep your eyes open for our next issue of *Overseas Field Report*, coming (hopefully) very soon!
 
 <article-image publicId="OFReport/DRAFT/IMG_5286_j3rbot" height="768" caption="Saying “Good-bye” to Nana 🥲" />
 
@@ -62,11 +62,11 @@ Of course, with all the upheaval of the past few months, things are a bit behind
 
 <article-image publicId="OFReport/DRAFT/Family_20photo_202021_mfbmlv" width="768" caption="Another family photo on the cul-de-sac with as many of the clan as we could muster." />
 
-<article-image publicId="OFReport/DRAFT/IMG_5219_llecy2" width="768" caption="What a joy it was to spend some time at our sending church in Texas! Our new pastor, David Waller, is doing a great job!" />
+<article-image publicId="OFReport/DRAFT/IMG_5219_llecy2" width="768" caption="What a joy it was to visit our sending church in Texas! Our new pastor, David Waller, is doing a great job!" />
 
-<article-image publicId="OFReport/DRAFT/IMG_5233_sf8m1y" width="768" caption="While in Texas, we were delighted to spend an evening with our former pastor, Kevin, and his wife, Althea. They are now leading another church in the area, and we had a great time catching up!" />
+<article-image publicId="OFReport/DRAFT/IMG_5233_sf8m1y" width="768" caption="We were delighted to spend an evening with our former pastor, Kevin, and his wife, Althea. They are now leading another church in the area, and we had a great time catching up!" />
 
-<article-image publicId="OFReport/DRAFT/IMG_5267_ywfq0f" width="768" caption="Spending some time with my Grandma Judy" />
+<article-image publicId="OFReport/DRAFT/IMG_5267_ywfq0f" width="768" caption="We’re grateful we got to see my Mom’s mother, our Grandma Judy." />
 
 <article-image publicId="OFReport/DRAFT/IMG_5195_gfwo1f" width="768" caption="During one of our outings in Fort Worth, Abby and I delivered some flowers to my dad’s mom, Dorothy, who is currently in a rehab facility." />
 
