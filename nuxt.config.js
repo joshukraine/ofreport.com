@@ -20,7 +20,6 @@ export default {
 
   plugins: [
     '~/plugins/axios.js',
-    '~/plugins/cloudinary.client.js',
     '~/plugins/vuejs-paginate.client.js',
     '~/plugins/vuelidate.js',
   ],
@@ -29,12 +28,18 @@ export default {
 
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/cloudinary',
     '@nuxtjs/feed',
-    '@nuxtjs/toast',
     '@nuxtjs/recaptcha',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+    '@nuxtjs/toast',
   ],
+
+  cloudinary: {
+    cloudName: 'dnkvsijzu',
+    useComponent: true,
+  },
 
   robots: {
     UserAgent: '*',
