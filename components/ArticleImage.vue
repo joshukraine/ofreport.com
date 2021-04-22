@@ -21,7 +21,7 @@
       </cld-image>
       <figcaption
         v-if="caption"
-        class="mx-auto mt-2 font-semibold text-center article-img-caption"
+        class="mx-auto mt-2 font-serif font-semibold text-center"
         :class="{ 'portrait-caption': height }"
         v-html="renderInlineMd(caption)"
       />
