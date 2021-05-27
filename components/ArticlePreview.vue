@@ -1,6 +1,16 @@
 <template>
   <article
-    class="flex flex-col justify-between h-full p-4 overflow-hidden bg-white rounded-lg shadow-md md:mx-4"
+    class="
+      flex flex-col
+      justify-between
+      h-full
+      p-4
+      overflow-hidden
+      bg-white
+      rounded-lg
+      shadow-md
+      md:mx-4
+    "
   >
     <div>
       <div v-if="article.cover" class="mb-4 -mx-4 -mt-4">

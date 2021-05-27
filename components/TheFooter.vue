@@ -2,7 +2,15 @@
   <footer class="bg-blue-900">
     <div class="container max-w-4xl py-6">
       <p
-        class="mt-0 text-xl leading-snug tracking-wide text-center text-blue-footer font-fancy md:text-2xl"
+        class="
+          mt-0
+          text-xl
+          leading-snug
+          tracking-wide
+          text-center text-blue-footer
+          font-fancy
+          md:text-2xl
+        "
       >
         But as we were allowed of God to be put in trust with the gospel, even
         so we speak; not as pleasing men, but God, which trieth our hearts.

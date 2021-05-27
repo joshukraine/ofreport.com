@@ -1,6 +1,18 @@
 <template>
   <section
-    class="py-6 bg-center bg-cover read-the-news xs:px-4 xs:py-8 sm:py-12 sm:px-8 md:px-16 md:py-20 lg:px-0 lg:py-24"
+    class="
+      py-6
+      bg-center bg-cover
+      read-the-news
+      xs:px-4
+      xs:py-8
+      sm:py-12
+      sm:px-8
+      md:px-16
+      md:py-20
+      lg:px-0
+      lg:py-24
+    "
   >
     <div class="container flex justify-between max-w-3xl">
       <figure class="hidden ofr-cover sm:block">
