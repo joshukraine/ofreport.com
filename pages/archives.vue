@@ -10,7 +10,17 @@
       <div
         v-for="labelYear in years"
         :key="labelYear"
-        class="flex pb-6 mb-6 border-b sm:mb-8 last:mb-0 sm:pb-8 last:pb-0 last:border-b-0"
+        class="
+          flex
+          pb-6
+          mb-6
+          border-b
+          sm:mb-8
+          last:mb-0
+          sm:pb-8
+          last:pb-0
+          last:border-b-0
+        "
       >
         <div class="pr-4 sm:pr-6 md:pr-10">
           <h3 class="mt-0 leading-none md:text-3xl">

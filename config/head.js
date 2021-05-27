@@ -60,8 +60,7 @@ export default {
     },
     {
       rel: 'stylesheet',
-      href:
-        'https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap',
     },
     {
       rel: 'stylesheet',
@@ -69,8 +68,7 @@ export default {
     },
     {
       rel: 'stylesheet',
-      href:
-        'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap',
+      href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap',
     },
   ],
 };
