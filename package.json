@@ -11,7 +11,8 @@
     "lint": "eslint --ext .js,.vue . && prettier --check \"**/*.(js|css|vue)\"",
     "lint:fix": "eslint --ext .js,.vue --fix . && prettier --write \"**/*.(js|css|vue)\"",
     "md2json": "m2j -w 0 content/articles/*.md -o data/articles.json",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.vue": [
@@ -22,12 +23,8 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "*.css": "prettier --write"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "*.css": "prettier --write",
+    "*.{js,vue}": "eslint --cache --fix"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.1",
@@ -62,7 +59,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^7.2.0",
-    "husky": "^4.2.5",
+    "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "2.3.0"
   }
