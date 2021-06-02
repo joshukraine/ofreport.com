@@ -67,6 +67,6 @@ God continues to bring opportunities for Kelsie and I to speak to Ukrainian grou
 
 <article-image publicId="OFReport/2021-06-02-bible-first-pioneers/beka-hosie-cinnamon-rolls-easter_yjsurt" height="768" caption="For Easter morning this year, Rebekah and Hosanna baked some tasty cinnamon rolls. 😋" />
 
-<article-image publicId="OFReport/2021-06-02-bible-first-pioneers/hosanna-birthday-hug_cwjyid" width="768" caption="Daddy is a busy man, but there’s always time for hugs. Especially birthday hugs!" />
+<article-image publicId="OFReport/2021-06-02-bible-first-pioneers/hosanna-birthday-hug_cwjyid" width="768" caption="Daddy is a busy man, but there’s always time for hugs. Especially birthday hugs from Hosanna!" />
 
 <article-image publicId="OFReport/2021-06-02-bible-first-pioneers/mia-doctor-costume_qoewyh" height="768" caption="Got aches or pains? 🤒&nbsp;&nbsp;Dr. Mia can fix you up! 💝" />
