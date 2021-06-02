@@ -57,7 +57,7 @@ God continues to bring opportunities for Kelsie and I to speak to Ukrainian grou
 
 <article-image publicId="OFReport/2021-06-02-bible-first-pioneers/kels-david-game-floor_xmo38x" width="768" caption="Mom takes time out of a busy day to enjoy a game with David in the playroom. 🥰" />
 
-<article-image publicId="OFReport/2021-06-02-bible-first-pioneers/josh-yura-mcdonalds_fz6akj" width="768" caption="Yura Petriv was one of the first Ukrainians who befriended me back in 2001 when I moved to L’viv. We’re still in the same church and we still enjoying chatting over a good cup of coffee. ☕️" />
+<article-image publicId="OFReport/2021-06-02-bible-first-pioneers/josh-yura-mcdonalds_fz6akj" width="768" caption="Yura Petriv was one of the first Ukrainians who befriended me back in 2001 when I moved to L’viv. We’re still in the same church and we still enjoy chatting over a good cup of coffee. ☕️" />
 
 <article-image publicId="OFReport/2021-06-02-bible-first-pioneers/david-smile-vest_ro7gp6" height="768" caption="This little guy is just a happy dude! 😎" />
 
