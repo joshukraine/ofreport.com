@@ -6,14 +6,14 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1622125784/OFReport/2
 caption: "On January 9, we launched our Bible First Pioneers initiative — an exciting opportunity for a new generation of missionaries to reach the lost using modern web technologies."
 pdf: "OFR-Apr-Jun-2021.pdf"
 preview: >
-  For some of our readers, the launch of the *Bible First Pioneers* project may already be old news. That being said, we’ve yet to write about it here in our newsletter because of all the recent upheaval in our schedule. Additionally, the Pioneers project has grown in the months since it was launched, and we’re excited to tell you what’s new!
+  For some of our readers, the launch of the Bible First Pioneers project may already be old news. That being said, we’ve yet to write about it here in our newsletter because of all the recent upheaval in our schedule. Additionally, the Pioneers project has grown in the months since it was launched, and we’re excited to tell you what’s new!
 tags:
 - newsletter
 - ministry
 - photos
 ---
 
-For some of our readers, the launch of the *Bible First Pioneers* project may already be old news. That being said, we’ve yet to write about it here in our newsletter because of all the recent upheaval in our schedule. Additionally, the Pioneers project has grown in the months since it was launched, and we’re excited to tell you what’s new!
+For some of our readers, the launch of the Bible First Pioneers project may already be old news. That being said, we’ve yet to write about it here in our newsletter because of all the recent upheaval in our schedule. Additionally, the Pioneers project has grown in the months since it was launched, and we’re excited to tell you what’s new!
 
 <article-callout content="OFR-Apr-Jun-2021.pdf" :download="true" />
 
@@ -30,7 +30,7 @@ If you’ve been following our ministry, you’ve heard us talk about our work d
 
 We received much greater initial response than expected, and the project is now evolving into something of a coach-training program. Of course, our long-term vision is to open this application to missionaries and churches for use in evangelism. As we continue to iron out some of the wrinkles, the Pioneers project is giving people an opportunity to learn the software and get a feel for what it’s like to reach people for Christ through a digital correspondence course.
 
-In recent weeks, we’ve also opened up the Pioneers program to our Ukrainian Bible First graduates. We’ve now begun Zoom training sessions for Ukrainian coaches, and God is blessing our efforts! Please pray for this ministry, and if you’d like to try it out yourself, be sure to let us know!
+In recent weeks, we’ve also opened up the Pioneers program to our Ukrainian *Bible First* graduates. We’ve now begun Zoom training sessions for Ukrainian coaches, and God is blessing our efforts! Please pray for this ministry, and if you’d like to try it out yourself, be sure to let us know!
 
 ## Intimacy in Marriage Seminar
 
