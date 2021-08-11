@@ -10,8 +10,7 @@
         sm:min-h-450
         md:min-h-500
         lg:min-h-700
-        xl:min-h-900
-        xl:h-3/4-vh
+        xl:min-h-900 xl:h-3/4-vh
       "
     ></section>
 

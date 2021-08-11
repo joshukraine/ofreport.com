@@ -18,8 +18,7 @@
           sm:mb-8
           last:mb-0
           sm:pb-8
-          last:pb-0
-          last:border-b-0
+          last:pb-0 last:border-b-0
         "
       >
         <div class="pr-4 sm:pr-6 md:pr-10">
