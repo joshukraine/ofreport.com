@@ -80,7 +80,7 @@ In June, Joshua and I were invited by a local church to speak at a family picnic
 
 <article-image publicId="OFReport/2021-08-11-return-to-the-mountains/van-house-hills_mdkzij" width="768" caption="The highlight of our summer was going back to Pylypets for a family vacation!" />
 
-<article-image publicId="OFReport/2021-08-11-return-to-the-mountains/pani-anya-with-families_lgffcb" width="768" caption="It was extra fun since our friends the Days came along too! We’re pictured here with our hostess, Pani Maria." />
+<article-image publicId="OFReport/2021-08-11-return-to-the-mountains/pani-anya-with-families_lgffcb" width="768" caption="It was extra fun since our friends the Days came along too! We’re pictured here with our hostess, Pani Anya." />
 
 <article-image publicId="OFReport/2021-08-11-return-to-the-mountains/steele-family-summer-2021_ajvxbd" width="768" caption="Family photo on a mountain overlook. Even Macie (our dog) got to come along!" />
 
