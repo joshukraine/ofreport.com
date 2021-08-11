@@ -40,7 +40,7 @@
     "dayjs": "^1.8.32",
     "frontmatter-markdown-loader": "^3.6.0",
     "lodash.countby": "^4.6.0",
-    "markdown-it": "^12.0.3",
+    "markdown-it": "^12.2.0",
     "markdown-it-link-attributes": "^3.0.0",
     "markdown-to-json": "^0.5.1",
     "nuxt": "^2.14.3",
@@ -60,7 +60,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^7.2.0",
     "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^11.1.2",
     "prettier": "2.3.2"
   }
 }
