@@ -22,11 +22,8 @@
             placeholder-gray-600
             border border-gray-400
             rounded
-            xs:rounded-r-none
-            xs:border-r-0
-            focus:placeholder-gray-300
-            focus:outline-none
-            focus:shadow-outline
+            xs:rounded-r-none xs:border-r-0
+            focus:placeholder-gray-300 focus:outline-none focus:shadow-outline
           "
           placeholder="you@example.com"
           required
@@ -56,8 +53,7 @@
               cursor-pointer
               xs:mt-0
               btn-blue
-              xs:rounded-l-none
-              xs:border xs:border-blue-600
+              xs:rounded-l-none xs:border xs:border-blue-600
             "
           />
         </div>
