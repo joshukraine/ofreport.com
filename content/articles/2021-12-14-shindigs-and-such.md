@@ -33,6 +33,8 @@ The first of our stops was a homeschool Shindig in the Black Hills of South Dako
 
 <article-image publicId="OFReport/2021-12-14-shindigs-and-such/rebekah-outreach-testimony_puzfhy" width="768" caption="Rebekah shares testimony after a group evangelism outreach in South Dakota." />
 
+<article-image publicId="OFReport/2021-12-14-shindigs-and-such/mike-debi-joshua_jzgqd7" width="768" caption="This entire trip was made possible thanks to the generosity of our dear friends Mike and Debi Pearl. Mike has previously been the main speaker at the SD Shindig, and when he could not attend this year due to health problems, he invited Joshua to take his place. NGJ covered all our travel expenses, enabling us not only to speak at several conferences, but also to spend precious time with our families. Thank you, Mike and Debi, for your kindness to us! We love you! ❤️" />
+
 <article-image publicId="OFReport/2021-12-14-shindigs-and-such/mt-rushmore-full-family_bxyfu4" width="768" caption="Enjoying some family time at Mt. Rushmore" />
 
 Next up, we enjoyed a fun visit in Minnesota with our friends, Hank and Amy Thompson. Despite not having seen them for over a decade, we resumed our friendship as if it had never left off. We had many stimulating conversations, also comparing notes on best coffee making strategies. 😉 Our kids experienced some of the joys of country life like target shooting and four-wheeling. By the time we left, Hank and Amy had all but convinced us to return in October for some exciting plans they had underway. But would we be able to do it? Time would tell…
