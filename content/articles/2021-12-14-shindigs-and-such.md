@@ -23,7 +23,7 @@ You could sum up our last few months in just 2 words: travel and people! Here ar
 
 On September 1st, we embarked on an adventure of travel and speaking in the US. Our journey has taken us through 11 States, two conferences, and to the homes of many friends and family. 
 
-The first of our stops was a homeschool Shindig in the Black Hills of South Dakota. Here Joshua spoke a number of times, covering topics like Active Forgiveness and Continuing Steadfast in the Faith. I had the privilege to share about 3 Strategies for a Happy Home with a friendly ladies’ group there. We rarely saw our kids, who were enjoying camp life: volleyball, gaga ball and even square dancing! When camp finished, Joshua’s parents were able to join us for a family trip to the iconic Mt. Rushmore.
+The first of our stops was a homeschool Shindig in the Black Hills of South Dakota. Here Joshua spoke a number of times, covering topics like *Active Forgiveness* and *Continuing Steadfast in the Faith*. I had the privilege to share about *3 Strategies for a Happy Home* with a friendly ladies’ group there. We rarely saw our kids, who were enjoying camp life: volleyball, gaga ball and even square dancing! When camp finished, Joshua’s parents were able to join us for a family trip to the iconic Mt. Rushmore.
 
 <article-image publicId="OFReport/2021-12-14-shindigs-and-such/shindig-josh-selfie_ejmlv8" height="768" caption="Welcome to Cedar Canyon Camp, near Rapid City, SD!" />
 
