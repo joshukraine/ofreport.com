@@ -9,7 +9,7 @@ preview: >
   Yes, it’s official. We are planning to host Carpathian Mountain Outreach 2022! ...Wiiiith some asterisks, of course. 😬✱✱✱
 tags:
 - ministry
-- announcement
+- announcements
 ---
 
 Yes, it’s official. We are planning to host Carpathian Mountain Outreach 2022! ...Wiiiith some asterisks, of course. 😬✱✱✱
