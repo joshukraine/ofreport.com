@@ -5,6 +5,7 @@ author: "Kelsie Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1639497442/OFReport/2021-12-14-shindigs-and-such/shindig-main-1200-630_re996l.jpg"
 caption: >
   By far our largest conference was the Black Hills Mini Shindig in South Dakota. We were blessed to meet and fellowship with so many like-minded believers!
+pdf: "OFR-Sep-Dec-2021.pdf"
 preview: >
   You could sum up our last few months in just 2 words: travel and people! Here are some of the highlights from our time in America, broken down into 4 phases.
 tags:
