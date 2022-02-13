@@ -36,5 +36,6 @@ Having said that, we are keeping our eyes open and have options in mind should e
 - [https://ofreport.com/blog/2022-01-24-home-sweet-ukraine/](https://ofreport.com/blog/2022-01-24-home-sweet-ukraine/)
 - [https://www.csis.org/analysis/russias-possible-invasion-ukraine](https://www.csis.org/analysis/russias-possible-invasion-ukraine)
 - [https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17](https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17)
+- [https://worldpopulationreview.com/country-rankings/nato-countries](https://worldpopulationreview.com/country-rankings/nato-countries)
 
 <article-spacer />
