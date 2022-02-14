@@ -32,10 +32,10 @@ Having said that, we are keeping our eyes open and have options in mind should e
 
 ### Reference
 
-- [https://ua.usembassy.gov/message-to-us-citizens-ukraine-land-border/](https://ua.usembassy.gov/message-to-us-citizens-ukraine-land-border/)
-- [https://ofreport.com/blog/2022-01-24-home-sweet-ukraine/](https://ofreport.com/blog/2022-01-24-home-sweet-ukraine/)
-- [https://www.csis.org/analysis/russias-possible-invasion-ukraine](https://www.csis.org/analysis/russias-possible-invasion-ukraine)
-- [https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17](https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17)
-- [https://worldpopulationreview.com/country-rankings/nato-countries](https://worldpopulationreview.com/country-rankings/nato-countries)
+- [Message to US Citizens: Ukraine Land Border (ua.usembassy.gov)](https://ua.usembassy.gov/message-to-us-citizens-ukraine-land-border/)
+- [Home Sweet Ukraine (OFReport.com)](https://ofreport.com/blog/2022-01-24-home-sweet-ukraine/)
+- [Russia’s Possible Invasion of Ukraine (csis.org)](https://www.csis.org/analysis/russias-possible-invasion-ukraine)
+- [Malaysia Airlines Flight 17 (wikipedia.org)](https://en.wikipedia.org/wiki/Malaysia_Airlines_Flight_17)
+- [NATO Member Countries (worldpopulationreview.com)](https://worldpopulationreview.com/country-rankings/nato-countries)
 
 <article-spacer />
