@@ -17,13 +17,6 @@ Russia has invaded Ukraine. Our family remains in L’viv as of this writing, an
 
 <article-spacer />
 
-<div class="flex flex-col justify-center p-6 border-4 border-blue-600">
-  <h2 class="mt-0 mb-4 text-center">Ukraine Update from L’viv</h2>
-  <p class="mb-6 text-center">An audio update from Joshua and Kelsie Steele</p>
-  <audio class="mx-auto" width="300" controls="controls">
-    <source src="//d21yo20tm8bmc2.cloudfront.net/audio/ukraine-update-lviv-feb-24.mp3" type="audio/mpeg" />
-    Sorry, your browser does not support the audio element.
-  </audio>
-</div>
+<div id="buzzsprout-player-10223782"></div><script src="https://www.buzzsprout.com/1953515/10223782-invasion.js?container_id=buzzsprout-player-10223782&player=small" type="text/javascript" charset="utf-8"></script>
 
 <article-image publicId="OFReport/2022-02-24-ukraine-update-lviv/strike-map_dopwz0" width="768" caption="Map of Russian missile strike locations across Ukraine as of midday, February 24." />
