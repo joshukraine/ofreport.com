@@ -15,14 +15,6 @@
         :class="{ 'reveal-nav': navOpen }"
       >
         <div class="nav-link-wrapper">
-          <a
-            class="nav-link"
-            :class="{ 'nav-link-fadein nav-link-1': navOpen }"
-            href="https://journeytoukraine.buzzsprout.com/"
-            target="_blank"
-          >
-            Podcast
-          </a>
           <nuxt-link
             class="nav-link"
             :class="{ 'nav-link-fadein nav-link-1': navOpen }"
@@ -43,6 +35,13 @@
             to="/blog/"
           >
             Blog
+          </nuxt-link>
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-1': navOpen }"
+            to="/podcast/"
+          >
+            Podcast
           </nuxt-link>
           <nuxt-link
             class="nav-link"

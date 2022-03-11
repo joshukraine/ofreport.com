@@ -27,9 +27,7 @@
         </ul>
         <ul class="w-1/3 text-center">
           <li>
-            <a href="https://journeytoukraine.buzzsprout.com/" target="_blank">
-              Podcast
-            </a>
+            <nuxt-link to="/podcast/"> Podcast </nuxt-link>
           </li>
           <li>
             <nuxt-link to="/subscribe/"> Subscribe </nuxt-link>
