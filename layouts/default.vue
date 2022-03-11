@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     canonicalUrl() {
-      return `${site.url + this.$route.path}/`;
+      return `${site.url + this.$route.path}`;
     },
   },
   mounted() {
