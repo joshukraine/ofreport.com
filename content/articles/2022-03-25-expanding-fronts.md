@@ -39,7 +39,7 @@ Thank you for listening and for praying for our family. We are excited about the
 
 <article-image publicId="OFReport/2022-03-25-expanding-fronts/playground_ushsbs" width="768" caption="This beautiful playground is just outside our building!" />
 
-<article-image publicId="OFReport/2022-03-25-expanding-fronts/tatra-mountains-2_vog93p" width="768" caption="During our drive to Zilina, we passed very close to the [Tatra Mountains](https://en.wikipedia.org/wiki/Tatra_Mountains)" />
+<article-image publicId="OFReport/2022-03-25-expanding-fronts/tatra-mountains-2_vog93p" width="768" caption="During our drive to Zilina, we passed very close to the [Tatra Mountains](https://en.wikipedia.org/wiki/Tatra_Mountains)." />
 
 <article-image publicId="OFReport/2022-03-25-expanding-fronts/move-to-zilina_apmqpc" height="768" caption="Driving up to our new home-for-now in Zilina!" />
 
