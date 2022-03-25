@@ -2,15 +2,7 @@
   <footer class="bg-blue-900">
     <div class="container max-w-4xl py-6">
       <p
-        class="
-          mt-0
-          text-xl
-          leading-snug
-          tracking-wide
-          text-center text-blue-footer
-          font-fancy
-          md:text-2xl
-        "
+        class="mt-0 text-xl leading-snug tracking-wide text-center text-blue-footer font-fancy md:text-2xl"
       >
         But as we were allowed of God to be put in trust with the gospel, even
         so we speak; not as pleasing men, but God, which trieth our hearts.
@@ -35,10 +27,10 @@
         </ul>
         <ul class="w-1/3 text-center">
           <li>
-            <nuxt-link to="/subscribe/"> Subscribe </nuxt-link>
+            <nuxt-link to="/podcast/"> Podcast </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/tags/"> Tags </nuxt-link>
+            <nuxt-link to="/subscribe/"> Subscribe </nuxt-link>
           </li>
           <li>
             <nuxt-link to="/contact/"> Contact </nuxt-link>

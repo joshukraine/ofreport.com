@@ -21,14 +21,7 @@ Having said that, we are keeping our eyes open and have options in mind should e
 
 <article-spacer />
 
-<div class="flex flex-col justify-center p-6 border-4 border-blue-600">
-  <h2 class="mt-0 mb-4 text-center">Our Outlook in Ukraine</h2>
-  <p class="mb-6 text-center">In the audio clip below, Joshua and Kelsie share their hearts and perspective on the current crisis in Ukraine.</p>
-  <audio class="mx-auto" width="300" controls="controls">
-    <source src="//d21yo20tm8bmc2.cloudfront.net/audio/our-outlook-in-ukraine.mp3" type="audio/mpeg" />
-    Sorry, your browser does not support the audio element.
-  </audio>
-</div>
+<div id="buzzsprout-player-10223750"></div><script src="https://www.buzzsprout.com/1953515/10223750-are-we-safe.js?container_id=buzzsprout-player-10223750&player=small" type="text/javascript" charset="utf-8"></script>
 
 ### Reference
 

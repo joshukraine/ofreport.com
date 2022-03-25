@@ -1,19 +1,7 @@
 <template>
   <div>
     <header
-      class="
-        fixed
-        z-50
-        flex
-        items-center
-        justify-between
-        w-full
-        h-16
-        px-4
-        bg-white
-        border-b border-gray-200
-        lg:px-6
-      "
+      class="fixed z-50 flex items-center justify-between w-full h-16 px-4 bg-white border-b border-gray-200 lg:px-6"
       :class="{ 'open-nav': navOpen }"
     >
       <nuxt-link class="block" to="/">
@@ -47,6 +35,13 @@
             to="/blog/"
           >
             Blog
+          </nuxt-link>
+          <nuxt-link
+            class="nav-link"
+            :class="{ 'nav-link-fadein nav-link-1': navOpen }"
+            to="/podcast/"
+          >
+            Podcast
           </nuxt-link>
           <nuxt-link
             class="nav-link"

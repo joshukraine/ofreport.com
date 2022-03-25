@@ -18,11 +18,4 @@ Russia’s invasion of Ukraine continues into its second day. This morning, we w
 
 <article-spacer />
 
-<div class="flex flex-col justify-center p-6 border-4 border-blue-600">
-  <h2 class="mt-0 mb-4 text-center">Sirens and Shelters</h2>
-  <p class="mb-6 text-center">An audio update from Joshua and Kelsie Steele</p>
-  <audio class="mx-auto" width="300" controls="controls">
-    <source src="//d21yo20tm8bmc2.cloudfront.net/audio/sirens-and-shelters.mp3" type="audio/mpeg" />
-    Sorry, your browser does not support the audio element.
-  </audio>
-</div>
+<div id="buzzsprout-player-10223801"></div><script src="https://www.buzzsprout.com/1953515/10223801-sirens-and-shelters.js?container_id=buzzsprout-player-10223801&player=small" type="text/javascript" charset="utf-8"></script>
