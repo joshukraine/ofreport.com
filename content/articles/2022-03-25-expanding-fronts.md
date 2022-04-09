@@ -4,7 +4,7 @@ date: "2022-03-25"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1648196285/OFReport/2022-03-25-expanding-fronts/home-in-zilina_wdw8p1.jpg"
 caption: >
-  Moving day at our new home-for-now in Zilina, Slovakia
+  Moving day at our new home-for-now in Žilina, Slovakia
 preview: >
   God is continuing to open doors here in Slovakia, and we are seeing good progress on several fronts. In this episode, we’ll talk about our new apartment, some good relationships that we’ve been building with Ukrainians, an exciting evacuation story from Kharkiv, and Joshua’s upcoming trip back to L’viv. Additionally, we have some good news about a new van!
 tags:
@@ -39,8 +39,8 @@ Thank you for listening and for praying for our family. We are excited about the
 
 <article-image publicId="OFReport/2022-03-25-expanding-fronts/playground_ushsbs" width="768" caption="This beautiful playground is just outside our building!" />
 
-<article-image publicId="OFReport/2022-03-25-expanding-fronts/tatra-mountains-2_vog93p" width="768" caption="During our drive to Zilina, we passed very close to the [Tatra Mountains](https://en.wikipedia.org/wiki/Tatra_Mountains)." />
+<article-image publicId="OFReport/2022-03-25-expanding-fronts/tatra-mountains-2_vog93p" width="768" caption="During our drive to Žilina, we passed very close to the [Tatra Mountains](https://en.wikipedia.org/wiki/Tatra_Mountains)." />
 
-<article-image publicId="OFReport/2022-03-25-expanding-fronts/move-to-zilina_apmqpc" height="768" caption="Driving up to our new home-for-now in Zilina!" />
+<article-image publicId="OFReport/2022-03-25-expanding-fronts/move-to-zilina_apmqpc" height="768" caption="Driving up to our new home-for-now in Žilina!" />
 
 <article-image publicId="OFReport/2022-03-25-expanding-fronts/beard-and-shades_wrkdmj" width="768" caption="The, umm, driver. 😬 Hey, if you’ve got the beard, grab the shades!" />
