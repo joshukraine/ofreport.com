@@ -34,13 +34,13 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-callout content="Keep scrolling for more photos from our life in Eastern Europe!" />
 
-<article-image publicId="OFReport/2022-05-02-on-the-road-again/girls-singing_tunvhb" height="768" caption="Abigail, Rebekah, and Hosanna sign a Ukrainian song at the second of two hotels where we did outreach concerts for Ukrainians in Poland." />
+<article-image publicId="OFReport/2022-05-02-on-the-road-again/girls-singing_tunvhb" height="768" caption="Abigail, Rebekah, and Hosanna sing a Ukrainian song at the second of two hotels where we did outreach concerts for Ukrainians in Poland." />
 
 <article-image publicId="OFReport/2022-05-02-on-the-road-again/ikea-kitchen-mia_twoozc" height="768" caption="On the way home from our trip to Poland, we got stop in a real IKEA store. For the kids, it was their first time. Mia fell in love with this little kitchen set." />
 
 <article-image publicId="OFReport/2022-05-02-on-the-road-again/dad-kids-ikea-toys_lgwen4" height="768" caption="Daddy is a softy and let all the kids pick out a toy. 🥰" />
 
-<article-image publicId="OFReport/2022-05-02-on-the-road-again/zilina-church-meeting_wyizew" height="768" caption="The New Beginnings church in Žilina. (Folks with headsets in the back are Ukrainians listening my translation of the service! 😁🇺🇦)" />
+<article-image publicId="OFReport/2022-05-02-on-the-road-again/zilina-church-meeting_wyizew" height="768" caption="The New Beginnings church in Žilina. (Folks with headsets in the back are Ukrainians listening to my translation of the service! 😁🇺🇦)" />
 
 <article-image publicId="OFReport/2022-05-02-on-the-road-again/russia-meme_orxcqe" height="768" caption="Sorry, just one meme. I couldn’t resist. 😸" />
 
