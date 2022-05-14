@@ -9,6 +9,7 @@ preview: >
   God is continuing to open doors here in Slovakia, and we are seeing good progress on several fronts. In this episode, we’ll talk about our new apartment, some good relationships that we’ve been building with Ukrainians, an exciting evacuation story from Kharkiv, and Joshua’s upcoming trip back to L’viv. Additionally, we have some good news about a new van!
 tags:
 - ukraine
+- podcast
 - family
 ---
 

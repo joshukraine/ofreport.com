@@ -9,6 +9,7 @@ preview: >
   For the first time since our evacuation, Joshua made a trip back into Ukraine to our home in L’viv. Hours before his planned arrival, L’viv was hit by Russian cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She joins us in this episode to share her story! We also have news about a new van for our family, as well as several prayer requests, especially regarding our health.
 tags:
 - ukraine
+- podcast
 - family
 - photos
 ---

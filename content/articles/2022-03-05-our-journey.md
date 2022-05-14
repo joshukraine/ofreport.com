@@ -9,6 +9,7 @@ preview: >
   On March 1, 2022, our family completed our crossing from Ukraine into Slovakia. This has been a difficult journey, but as always, God has been more than faithful. It’s been a few days since we posted news of our progress, so in this (admittedly longer) audio update, we’d like to bring you up to speed. We’ll talk not only about what has transpired, but about our current position in Slovakia and our plans the future. Thanks for listening!
 tags:
 - ukraine
+- podcast
 - family
 - photos
 ---

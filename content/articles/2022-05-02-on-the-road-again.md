@@ -9,6 +9,7 @@ preview: >
   As we enter the third month of Russia’s war against Ukraine, I am reminded of Paul’s words in 1 Corinthians 16:9: *“For a **great door and effectual** is opened unto me, and there are **many adversaries**.”* Despite the sorrow and tragedy of war, God continues to lead and bless His people. In this episode, we’ll tell you all about our recent trip to Poland where we visited a large group of our displaced Ukrainian friends from our church in L’viv. We also have updates about a new printing of the *Good and Evil* Bible comic book, our ministry to Ukrainians in Slovakia and more.
 tags:
 - ukraine
+- podcast
 - family
 - photos
 ---

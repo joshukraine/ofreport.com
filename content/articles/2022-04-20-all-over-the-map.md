@@ -9,6 +9,7 @@ preview: >
   Evacuation life for our family has proven to be anything but boring! In this episode, we’re excited to share our most recent stories with you, including another trip back into Ukraine, new doors opening for ministry to refugees in Slovakia and Poland, family news, and, sadly, a report on Russia’s latest missile strike in L’viv.
 tags:
 - ukraine
+- podcast
 - family
 - photos
 ---
