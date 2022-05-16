@@ -4,7 +4,7 @@ date: "2022-05-16"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1652695308/OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/chepara-family-1200w_x3l6uu.jpg"
 caption: >
-  CAPTION
+  Serhii Chepara, his wife Natallia, and their two children: Frantsishka (lower right) and Yulian
 preview: >
   Today we’re pleased to introduce a new series on the podcast called *Voices from Ukraine*. In each episode of the series, we’ll be interviewing people in-country who are serving the Lord and striving to support the Ukrainian people in their struggle for freedom. In today’s episode, we’re excited to bring you the story of Serhii and Natallia Chepara. You’ll hear Serhii share his experiences in his native Ukrainian language, with Kelsie translating into English. Natallia will talk about their long weeks of separation as she and the children evacuated to Germany and adapted to refugee life. Finally, you’ll hear the heart-warming conclusion as their family is reunited in a small Carpathian village. This is an episode you won’t want to miss!
 tags:
