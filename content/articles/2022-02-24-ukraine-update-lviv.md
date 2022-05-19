@@ -9,6 +9,7 @@ preview: >
   Russia has invaded Ukraine. Our family remains in Ukraine as of this writing, and we’d like to provide you with a brief update on our situation here. Please listen to the audio clip below to learn more. As always, we greatly appreciate your concern and prayers for our family and for Ukraine during this time.
 tags:
 - ukraine
+- podcast
 - family
 - audio
 ---
