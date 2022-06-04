@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1654273597/OFReport/2
 caption: >
   Photo by [Yura Khomitskyi](https://unsplash.com/@ykhomi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ukraine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 preview: >
-  It has now been over 100 days since Russia invaded our home — the beautiful country of Ukraine. We’re all ready for this nightmare to end, but reality not as simple as we would like. In this episode, we’ll share our thinking about the long-term implications of the war for our family and ministry. We’ll update you on several key fronts, and we’ll close out the episode with an informative synopsis of the military situation on the ground in Ukraine.
+  It has now been over 100 days since Russia invaded our home — the beautiful country of Ukraine. We’re all ready for this nightmare to end, but reality is not as simple as we would like. In this episode, we’ll share our thinking about the long-term implications of the war for our family and ministry. We’ll update you on several key fronts, and we’ll close out the episode with an informative synopsis of the military situation on the ground in Ukraine.
 tags:
 - podcast
 - ukraine
@@ -14,7 +14,7 @@ tags:
 - photos
 ---
 
-It has now been over 100 days since Russia invaded our home — the beautiful country of Ukraine. We’re all ready for this nightmare to end, but reality not as simple as we would like. In this episode, we’ll share our thinking about the long-term implications of the war for our family and ministry. We’ll update you on several key fronts, and we’ll close out the episode with an informative synopsis of the military situation on the ground in Ukraine.
+It has now been over 100 days since Russia invaded our home — the beautiful country of Ukraine. We’re all ready for this nightmare to end, but reality is not as simple as we would like. In this episode, we’ll share our thinking about the long-term implications of the war for our family and ministry. We’ll update you on several key fronts, and we’ll close out the episode with an informative synopsis of the military situation on the ground in Ukraine.
 
 Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
 
