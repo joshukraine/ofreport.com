@@ -90,10 +90,10 @@ The story isn’t over yet. God is still working, our family is still on the fie
 
 <article-image publicId="OFReport/2022-06-11-yellow-blue-bus/vans-parked_ewgadd" width="768" caption="Good thing our current apartment has two available parking spaces!" />
 
+<article-image publicId="OFReport/2022-06-11-yellow-blue-bus/van-kids-side-door_aasftc" width="768" caption="Road trips are more fun in the new van with passenger seats that face each other and sliding doors on BOTH SIDES!" />
+
 <article-image publicId="OFReport/2022-06-11-yellow-blue-bus/van-dashboard_yy6qhj" width="768" caption="Bluetooth, USB ports front and back, Apple Car Play, AIR CONDITIONING, rear camera, cruise control, and cup holders galore!" />
 
 <article-image publicId="OFReport/2022-06-11-yellow-blue-bus/van-back-storage_v5qjmg" height="768" caption="Lots of storage space in the back!" />
-
-<article-image publicId="OFReport/2022-06-11-yellow-blue-bus/van-kids-side-door_aasftc" width="768" caption="Road trips are more fun in the new van with passenger seats that face each other and sliding doors on BOTH SIDES!" />
 
 <article-image publicId="OFReport/2022-06-11-yellow-blue-bus/van-kids-inside_seeg6s" width="768" caption="Can’t wait for our next road trip! 😁🚙" />
