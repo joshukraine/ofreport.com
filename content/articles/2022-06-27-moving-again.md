@@ -36,6 +36,10 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-callout content="Keep scrolling for more photos!" />
 
+<article-image publicId="OFReport/2022-06-27-moving-again/new-house_tor1vz" width="768" caption="We just signed the lease on a house! It will be so nice to have some more space during our sojourn in Slovakia." />
+
+<article-image publicId="OFReport/2022-06-27-moving-again/new-house-yard_ajfcpp" height="768" caption="And there’s even a yard for the kids! Granddad’s already bought a kiddy pool for the littles. ☀️💦" />
+
 <article-image publicId="OFReport/2022-06-27-moving-again/bratislava-singing-1_dl1imj" width="768" caption="Our family sings *Prayer for Ukraine* at a Ukrainian Baptist Church in Bratislava." />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/bratislava-preaching_nwng6g" height="768" caption="Joshua preaches a short message on “Storm Speakers”." />
@@ -52,7 +56,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-06-27-moving-again/castle_ipfdni" width="768" caption="Our family recently took a day trip to see the [Castle of Spirits](https://goo.gl/maps/iBYJrPbEZ7st4DTa6) located about 1.5 hours south of Žilina." />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/kathryn-school-certificate_vlotwe" height="768" caption="Kathryn has been making good progress with her schoolwork! Tip ‘o the hat 🎩 to Baba and Granddad for all the extra homeschooling help! 👏🏻👏🏻👏🏻" />
+<article-image publicId="OFReport/2022-06-27-moving-again/kathryn-school-certificate_vlotwe" height="768" caption="Kathryn has been making good progress with her schoolwork! Tip o’ the hat 🎩 to Baba and Granddad for all the extra homeschooling help! 👏🏻👏🏻👏🏻" />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/granddad-reading_ukl7yc" width="768" caption="An afternoon story with Granddad — what could be better?" />
 
@@ -60,7 +64,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-06-27-moving-again/danny-kelsie_yits8l" height="768" caption="A daddy and his girl 💕" />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/baba-granddad-kids_xuphjb" width="768" caption="Group photo with the grandkids! 🥰" />
+<article-image publicId="OFReport/2022-06-27-moving-again/danny-kelsie_yits8l" height="768" caption="A daddy and his girl 💕" />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/yura-car-supplies_d0zhol" width="768" caption="Yura Petriv continues to drive supplies out to Radekhivski Hospodyni in support of the war effort." />
 
