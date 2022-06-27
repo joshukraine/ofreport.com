@@ -42,7 +42,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-06-27-moving-again/bratislava-singing-2_iydbsg" height="768" caption="We also sang an English/Ukrainian medley of *In Christ Alone*." />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/bratislava-pastor-victor_l1wby0" height="768" caption="Pastor Victor in a Ukrainian national who has been serving as a missionary pastor in Slovakia for the past several years. With the coming of war in Ukraine, his congregation has grown significantly." />
+<article-image publicId="OFReport/2022-06-27-moving-again/bratislava-pastor-victor_l1wby0" height="768" caption="Pastor Victor is a Ukrainian national who has been serving as a missionary pastor in Slovakia for the past several years. With the coming of war in Ukraine, his congregation has grown significantly." />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/wingspan-game_hhkieq" width="768" caption="One of Rebekah’s favorite boardgames is called *Wingspan* and she’s enjoyed several fun rounds with Baba and Granddad." />
 
@@ -68,9 +68,9 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-06-27-moving-again/tourniquets-box_mifz3f" width="768" caption="We were able to send some money from our fund, and another donor also pitched in. With everything combined, Yura was able to purchase 100 tourniquets which were sent to the front through Radekhiv." />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/shoes-radekhiv_lougsh" height="768" caption="A family friend of Kelsie’s recently donated a large sum to purchase tactical shoes for soldiers at the front." />
+<article-image publicId="OFReport/2022-06-27-moving-again/shoes-radekhiv_lougsh" height="768" caption="A family friend of Kelsie’s recently donated a large sum to purchase tactical shoes for soldiers at the front. Here, one of the volunteers at Radekhiv prepares the shoes for shipping." />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/soldiers-shoes_pwuhsj" height="768" caption="The soldiers who received them were very grateful! The lack of supplies of all kinds remains a major problem for frontline units, and we are excited to be able to contribute (and facilitate the contributions of others) where we can." />
+<article-image publicId="OFReport/2022-06-27-moving-again/soldiers-shoes_pwuhsj" height="768" caption="The soldiers who received the shoes were very grateful! The lack of supplies of all kinds remains a major problem for frontline units, and we are excited to be able to contribute (and facilitate the contributions of others) where we can." />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/gg-church-air-raid_tl2pfz" width="768" caption="Last Sunday, our church in L’viv had to move their morning service to the cafe in the basement due to an air raid." />
 
