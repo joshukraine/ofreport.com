@@ -46,7 +46,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-06-27-moving-again/bratislava-singing-2_iydbsg" height="768" caption="We also sang an English/Ukrainian medley of *In Christ Alone*." />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/bratislava-pastor-victor_l1wby0" height="768" caption="Pastor Victor is a Ukrainian national who has been serving as a missionary pastor in Slovakia for the past several years. With the coming of war in Ukraine, his congregation has grown significantly." />
+<article-image publicId="OFReport/2022-06-27-moving-again/bratislava-pastor-victor_l1wby0" height="768" caption="Pastor Victor (center) is a Ukrainian national who has been serving as a missionary pastor in Slovakia for the past several years. With the coming of war in Ukraine, his congregation has grown significantly." />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/wingspan-game_hhkieq" width="768" caption="One of Rebekah’s favorite boardgames is called *Wingspan* and she’s enjoyed several fun rounds with Baba and Granddad." />
 
@@ -64,7 +64,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-06-27-moving-again/danny-kelsie_yits8l" height="768" caption="A daddy and his girl 💕" />
 
-<article-image publicId="OFReport/2022-06-27-moving-again/danny-kelsie_yits8l" height="768" caption="A daddy and his girl 💕" />
+<article-image publicId="OFReport/2022-06-27-moving-again/baba-granddad-kids_xuphjb" width="768" caption="Group photo with the grandkids! 🥰" />
 
 <article-image publicId="OFReport/2022-06-27-moving-again/yura-car-supplies_d0zhol" width="768" caption="Yura Petriv continues to drive supplies out to Radekhivski Hospodyni in support of the war effort." />
 
