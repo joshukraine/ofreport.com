@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1658398270/OFReport/2
 caption: >
   Photo by <a href="https://unsplash.com/@lapyrin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivan Lapyrin</a> on <a href="https://unsplash.com/s/photos/kremlin-night?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 preview: >
-  Dolor architecto ratione eligendi ea deserunt. Voluptates expedita dolores eos natus molestiae! Laboriosam aspernatur blanditiis esse aut quibusdam voluptates Ipsum reiciendis alias aliquam veritatis numquam recusandae. Recusandae animi corrupti adipisci
+  Why is Russia acting as it is? What are the fundamental motivators driving their campaign of evil against Ukraine? In this episode, we’ll talk about the fascinating world of geopolitics and its relevance to the current conflict. We’ll also bring you up to date on our family news, the *Good and Evil* project, and our *Bible First* ministry.
 tags:
 - podcast
 - ukraine
@@ -21,8 +21,6 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 <article-spacer />
 
 <div id="buzzsprout-player-11004806"></div><script src="https://www.buzzsprout.com/1953515/11004806-russia-and-geopolitics.js?container_id=buzzsprout-player-11004806&player=small" type="text/javascript" charset="utf-8"></script>
-
-<article-spacer />
 
 <article-image publicId="OFReport/2022-07-21-russia-and-geopolitics/thehordelands2-01_kwpubx" height="768" caption="The Eurasian Hordelands map from [*The Accidental Superpower*](https://zeihan.com/purchase-the-accidental-superpower/) by Peter Zeihan" />
 
