@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1658398270/OFReport/2
 caption: >
   Photo by <a href="https://unsplash.com/@lapyrin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivan Lapyrin</a> on <a href="https://unsplash.com/s/photos/kremlin-night?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 preview: >
-  Why is Russia acting as it is? What are the fundamental motivators driving their campaign of evil against Ukraine? In this episode, we’ll talk about the fascinating world of geopolitics and its relevance to the current conflict. We’ll also bring you up to date on our family news, the *Good and Evil* project, and our *Bible First* ministry.
+  Why is Russia acting as it is? What are the fundamental motivators driving their campaign of evil against Ukraine? In this episode, we’ll talk about the fascinating world of geopolitics and its relevance to the current conflict. We’ll also bring you up to date on our family news, the Good and Evil project, and our Bible First ministry.
 tags:
 - podcast
 - ukraine
