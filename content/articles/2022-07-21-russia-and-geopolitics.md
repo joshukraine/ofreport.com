@@ -47,7 +47,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-callout content="We have lots of photos this time, so be sure to scroll all the way to the end! First up, a few photos from our move to Mojš..." />
 
-<article-image publicId="OFReport/2022-07-21-russia-and-geopolitics/moving/IMG_8585_sqgf1h" width="768" caption="Our friend Kati helps the kids wrap furniture in shrink wrap before loading into the moving van." />
+<article-image publicId="OFReport/2022-07-21-russia-and-geopolitics/moving/IMG_8585_sqgf1h" width="768" caption="Our friend, Kati, helps the kids wrap furniture in shrink wrap before loading into the moving van." />
 
 <article-image publicId="OFReport/2022-07-21-russia-and-geopolitics/moving/IMG_8588_ua4cvn" height="768" caption="David is getting better and better at helping Dad with the screw gun!" />
 
