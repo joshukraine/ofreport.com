@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1658742389/OFReport/2
 caption: >
   The new printing of *Good and Evil* in Ukrainian will be here soon! This special edition includes all the standard body content which makes *Good and Evil* awesome, but the book now features a patriotic cover design as well as a new foreword dedicated to the Ukrainians’ struggle for freedom.
 preview: >
-  Consectetur voluptates cum sapiente ratione illo Explicabo voluptate magni quasi asperiores eos. Nulla dignissimos autem dolorum nostrum odit! Tempore modi eligendi soluta accusamus temporibus Nisi et magni sunt ullam vel
+  Today we have a quick but exciting update for you: the printing presses in Kyiv are rolling! Actually, they have been rolling for a couple of weeks, but now we have pictures. 🤩 These are exciting times, and we are thrilled to have this special Ukrainian edition of *Good and Evil* coming very soon.
 tags:
 - good-and-evil
 - ukraine
