@@ -32,4 +32,3 @@ We continue to receive regular requests for *Good and Evil*, and we can’t wait
 <article-image publicId="OFReport/2022-07-25-presses-rolling/293738991_3320634958151527_4831110156299122033_n_zqadcz" height="768" />
 
 <article-image publicId="OFReport/2022-07-25-presses-rolling/ge-ukr-cover_apritd" height="768" />
-
