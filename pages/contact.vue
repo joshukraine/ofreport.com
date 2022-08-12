@@ -54,12 +54,7 @@
               maxlength="3000"
               name="message"
               placeholder="What would you like to say?"
-              class="
-                placeholder-gray-600
-                resize-none
-                form-input
-                focus:placeholder-gray-400
-              "
+              class="placeholder-gray-600 resize-none form-input focus:placeholder-gray-400"
             />
             <p v-if="$v.message.$error" class="invalid-hint">
               Please enter a message.
@@ -77,15 +72,7 @@
           <button
             type="submit"
             :disabled="submitPending"
-            class="
-              block
-              w-full
-              mt-6
-              outline-none
-              btn btn-blue btn-lg
-              sm:w-auto
-              focus:shadow-outline
-            "
+            class="block w-full mt-6 outline-none btn btn-blue btn-lg sm:w-auto focus:shadow-outline"
           >
             Send
           </button>
