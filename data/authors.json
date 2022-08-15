@@ -2,16 +2,11 @@
   "data": [
     {
       "name": "Joshua Steele",
-      "links": {
-        "twitter": "https://twitter.com/joshukraine",
-        "facebook": "https://www.facebook.com/joshukraine"
-      }
+      "link": "/contact"
     },
     {
       "name": "Kelsie Steele",
-      "links": {
-        "blog": "https://kelsie.me"
-      }
+      "link": "/contact"
     },
     {
       "name": "Raphaël Villeneuve"

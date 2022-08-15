@@ -23,7 +23,7 @@
             {{ fm.title }}
           </h1>
           <p class="mt-1 text-sm">
-            <a v-if="authorHasLink" :href="fmAuthorLink" class="text-sm">{{
+            <a v-if="authorHasLink" :href="authorLink" class="text-sm">{{
               articleAuthor.name
             }}</a>
             <span v-else class="text-gray-600">{{ articleAuthor.name }}</span>
@@ -94,33 +94,9 @@ export default {
       }
       return cldOptimize(site.image, opts);
     },
-    authorTwitterLink() {
+    authorLink() {
       if (this.authorHasLink) {
-        return this.articleAuthor.links.twitter;
-      }
-      return '';
-    },
-    authorFacebookLink() {
-      if (this.authorHasLink) {
-        return this.articleAuthor.links.facebook;
-      }
-      return '';
-    },
-    authorBlogLink() {
-      if (this.authorHasLink) {
-        return this.articleAuthor.links.blog;
-      }
-      return '';
-    },
-    fmAuthorLink() {
-      if (this.authorTwitterLink) {
-        return this.authorTwitterLink;
-      }
-      if (this.authorFacebookLink) {
-        return this.authorFacebookLink;
-      }
-      if (this.authorBlogLink) {
-        return this.authorBlogLink;
+        return this.articleAuthor.link;
       }
       return false;
     },
@@ -130,7 +106,7 @@ export default {
   },
   created() {
     try {
-      if (Object.keys(this.articleAuthor).includes('links')) {
+      if (Object.keys(this.articleAuthor).includes('link')) {
         this.authorHasLink = true;
       }
     } catch (error) {
