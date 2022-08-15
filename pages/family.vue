@@ -1,17 +1,7 @@
 <template>
   <article class="mb-8 md:mb-12">
     <section
-      class="
-        bg-top bg-cover
-        border-b
-        family
-        min-h-250
-        xs:min-h-350
-        sm:min-h-450
-        md:min-h-500
-        lg:min-h-700
-        xl:min-h-900 xl:h-3/4-vh
-      "
+      class="bg-top bg-cover border-b family min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-700 xl:min-h-900 xl:h-3/4-vh"
     ></section>
 
     <section class="container max-w-3xl mx-auto">

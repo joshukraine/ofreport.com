@@ -3,11 +3,22 @@
     <PageHeader title="Hello!" />
 
     <section class="container max-w-xl mx-auto">
-      <p class="mt-0 font-serif text-center">
-        Need to get in touch? Drop us a line!
+      <p class="mt-0 font-serif text-left">
+        Need to get in touch? We welcome you to send us a message using the form
+        below!
       </p>
 
-      <div class="p-4 mt-6 bg-white rounded shadow-md">
+      <p class="font-serif text-left">
+        While we do read every message received, our limited time prevents us
+        from responding to most. We answer only those messages which include
+        concise requests or proposals that are a good fit for our calling as
+        parents and missionaries.
+      </p>
+
+      <p class="font-serif text-left">
+        Thank you for your understanding and interest in our family!
+      </p>
+      <div class="p-4 mt-10 bg-white rounded shadow-md">
         <form class="contact-form" @submit.prevent="validateFinal">
           <div :class="{ invalid: $v.name.$error }">
             <label class="form-label" for="name"> Your Name </label>
@@ -54,12 +65,7 @@
               maxlength="3000"
               name="message"
               placeholder="What would you like to say?"
-              class="
-                placeholder-gray-600
-                resize-none
-                form-input
-                focus:placeholder-gray-400
-              "
+              class="placeholder-gray-600 resize-none form-input focus:placeholder-gray-400"
             />
             <p v-if="$v.message.$error" class="invalid-hint">
               Please enter a message.
@@ -77,15 +83,7 @@
           <button
             type="submit"
             :disabled="submitPending"
-            class="
-              block
-              w-full
-              mt-6
-              outline-none
-              btn btn-blue btn-lg
-              sm:w-auto
-              focus:shadow-outline
-            "
+            class="block w-full mt-6 outline-none btn btn-blue btn-lg sm:w-auto focus:shadow-outline"
           >
             Send
           </button>
