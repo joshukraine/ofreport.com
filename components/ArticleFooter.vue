@@ -1,6 +1,6 @@
 <template>
   <section class="my-8 md:my-12">
-    <div class="max-w-lg mx-auto px-6">
+    <div class="max-w-lg px-6 mx-auto">
       <img
         src="~/assets/svg/to-god-be-the-glory-2021.svg"
         alt="To God be the Glory"

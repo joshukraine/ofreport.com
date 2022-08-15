@@ -5,15 +5,7 @@
       style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)"
     >
       <div
-        class="
-          bg-center bg-cover
-          min-h-250
-          xs:min-h-350
-          sm:min-h-450
-          md:min-h-500
-          lg:min-h-600
-          xl:min-h-3/4-vh
-        "
+        class="bg-center bg-cover min-h-250 xs:min-h-350 sm:min-h-450 md:min-h-500 lg:min-h-600 xl:min-h-3/4-vh"
         :style="{ backgroundImage: 'url(' + coverBgImage + ')' }"
       />
     </div>
@@ -22,13 +14,7 @@
       <div class="max-w-3xl mx-auto">
         <p
           v-if="fm.cover && fm.caption"
-          class="
-            mt-2
-            text-sm
-            font-semibold
-            text-center text-gray-600
-            sm:text-base
-          "
+          class="mt-2 text-sm font-semibold text-center text-gray-600 sm:text-base"
           v-html="renderInlineMd(fm.caption)"
         />
 
@@ -48,24 +34,10 @@
             <div v-for="tag in fm.tags" :key="tag" class="inline-block group">
               <nuxt-link class="text-black" :to="`/tags/${safeTag(tag)}/`">
                 <span
-                  class="
-                    inline-block
-                    px-3
-                    py-1
-                    mb-2
-                    mr-2
-                    text-xs
-                    font-bold
-                    leading-none
-                    text-white
-                    bg-blue-600
-                    rounded-full
-                    opacity-50
-                    md:mb-0
-                    group-hover:opacity-100
-                  "
-                  >{{ tag }}</span
+                  class="inline-block px-3 py-1 mb-2 mr-2 text-xs font-bold leading-none text-white bg-blue-600 rounded-full opacity-50 md:mb-0 group-hover:opacity-100"
                 >
+                  {{ tag }}
+                </span>
               </nuxt-link>
             </div>
           </div>
