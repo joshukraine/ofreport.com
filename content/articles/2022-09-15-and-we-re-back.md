@@ -4,7 +4,7 @@ date: "2022-09-15"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1663231077/OFReport/2022-09-15-and-we-re-back/music-outreach-1-1200x630_n2d3pm.jpg"
 caption: >
-  We don’t get to see sights like this every day, but wow it’s fun when it happens. Ukrainian kids, Ukrainian-language *Good and Evil* books. The Gospel is going out!
+  We don’t get to see sights like this every day, but wow, it’s fun when it happens. Ukrainian kids, Ukrainian-language Good and Evil books. The Gospel is going out!
 preview: >
   Yes, it’s been a while, but today we’re back with lots to report! In this episode, we’ll tell you about our recent music outreach during which we presented the Gospel to around 100 Ukrainian children. We’ll also share family news, our latest take on the war in Ukraine, an update on the *Good and Evil* printing, and much more.
 tags:
@@ -29,7 +29,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 - Pray that we would receive our residency status in Slovakia soon.
 - Pray for speedy delivery and reliable storage for the new *Good and Evil* books.
 - Pray that upon receipt of the *Good and Evil* books, we would be able to distribute them widely, quickly, and effectively. Pray for committed and faithful partners to assist in this effort.
-- Pray for health for our family. (Kids chicken pox, Joshua asthma)
+- Pray for health for our family. (Kids — chicken pox, Joshua — asthma)
 - Pray for peace and liberty in Ukraine. 💙💛
 
 ### Videos
@@ -90,7 +90,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-callout content="Service with Camp Žilina" />
 
-<article-image publicId="OFReport/2022-09-15-and-we-re-back/joshua-train-station_ezevor" width="768" caption="Lately I’ve been driving lots of Ukrainians to train and bus stations as the return to their homeland. These two elderly ladies were headed for a point in the far east of Ukraine. Brave souls. 😬🙏🏻 The guy in the back is Nikita, one of the other volunteers at Camp Žilina." />
+<article-image publicId="OFReport/2022-09-15-and-we-re-back/joshua-train-station_ezevor" width="768" caption="Lately I’ve been driving lots of Ukrainians to train and bus stations as they return to their homeland. These two elderly ladies were headed for a point in the far east of Ukraine. Brave souls. 😬🙏🏻 The guy in the back is Nikita, one of the other volunteers at Camp Žilina." />
 
 <article-image publicId="OFReport/2022-09-15-and-we-re-back/camp-zilina-loading-van_wlruhc" width="768" caption="These folks are leaving the main Camp Žilina facility for somewhat more permanent housing here in the city. Our little blue van has had the privilege of transporting quite a few Ukrainian families in its short life! 🚙🇺🇦" />
 
