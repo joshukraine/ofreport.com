@@ -39,7 +39,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 - [Vinnytsia Attack (facebook.com)](https://www.facebook.com/joshukraine/posts/pfbid0bxUBuzDuQMsYjkh7sHhToPS67UFDy8WEAmm7iaj5Q25htbAocHaNy96xP7X8gkqdl)
 - [The Accidental Superpower by Peter Zeihan (amazon.com)](https://www.amazon.com/gp/product/1455583685/)
 - [The Accidental Superpower Maps (zeihan.com)](https://zeihan.com/the-accidental-superpower-maps/)
-- [Invasion Day 144 – Summary (MilitaryLand.net)](https://militaryland.net/ukraine/invasion-day-144-summary/)
+- [Invasion Day 144 – Summary (MilitaryLand.net)](https://militaryland.net/news/invasion-day-144-summary/)
 - [Deep State Map (deepstatemap.live)](https://deepstatemap.live/en)
 - [U.S.-Provided HIMARS Effective in Ukraine (defense.gov)](https://www.defense.gov/News/News-Stories/Article/Article/3095394/us-provided-himars-effective-in-ukraine/)
 - [Ukraine Gets First M270 Multiple Launch Rocket Systems (thedrive.com)](https://www.thedrive.com/the-war-zone/ukraine-gets-first-m270-multiple-launch-rocket-systems)
