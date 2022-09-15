@@ -6,7 +6,7 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1663231077/OFReport/2
 caption: >
   We don’t get to see sights like this every day, but wow, it’s fun when it happens. Ukrainian kids, Ukrainian-language Good and Evil books. The Gospel is going out!
 preview: >
-  Yes, it’s been a while, but today we’re back with lots to report! In this episode, we’ll tell you about our recent music outreach during which we presented the Gospel to around 100 Ukrainian children. We’ll also share family news, our latest take on the war in Ukraine, an update on the *Good and Evil* printing, and much more.
+  Yes, it’s been a while, but today we’re back with lots to report! In this episode, we’ll tell you about our recent music outreach during which we presented the Gospel to around 100 Ukrainian children. We’ll also share family news, our latest take on the war in Ukraine, an update on the Good and Evil printing, and much more.
 tags:
 - podcast
 - good-and-evil
