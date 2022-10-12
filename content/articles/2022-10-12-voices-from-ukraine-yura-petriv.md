@@ -40,7 +40,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 ### Donations to Yura and Radekhivski Hospodyni
 
-If you would like to donate to support Yura’s work with Radekhivski Hospodyni, you can do so easily by sending funds to Yura via PayPal. (details below) Don’t forget to choose the “family and friends” option so that Yura will receive the full amount of your gift.
+If you would like to donate to support Yura’s work with [Radekhivski Hospodyni](https://www.facebook.com/groups/404821584832741), you can do so easily by sending funds to Yura via PayPal. (details below) Don’t forget to choose the “family and friends” option so that Yura will receive the full amount of your gift.
 
 ❤️ &nbsp;**Donate to Radekhivski Hospodyni (via Yuriy Petriv) on [PayPal](https://www.paypal.com/)!**
 
