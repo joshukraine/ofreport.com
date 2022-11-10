@@ -10,7 +10,6 @@ preview: >
 tags:
 - podcast
 - good-and-evil
-- family
 - photos
 ---
 
@@ -41,7 +40,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 
-<article-image publicId="OFReport/2022-11-10-good-and-evil-books-shipping/tanya-office_ry0wdk" height="768" caption="Tanya handles the registration of new distrubtors, arranges book shipping, and also managaes our Ukrainian branch of Bible First!" />
+<article-image publicId="OFReport/2022-11-10-good-and-evil-books-shipping/tanya-office_ry0wdk" height="768" caption="Tanya handles the registration of new distrubtors, arranges book shipping, and also manages our Ukrainian branch of Bible First!" />
 
 <article-image publicId="OFReport/2022-11-10-good-and-evil-books-shipping/p-vlad-p-misha_jx8lby" height="768" caption="Pastor Vladyslav (left) recently suffered a heart attack. He had previously been helping us a lot with the shipping of *Good and Evil* books. Here he is visited in the hospital by Pastor Mykhaylo (right) who is the head pastor at our church in L’viv. Please pray for a quick and complete recovery for Pastor Vladyslav!" />
 
