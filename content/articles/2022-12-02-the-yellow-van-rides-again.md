@@ -11,7 +11,6 @@ tags:
 - podcast
 - ukraine
 - ministry
-- photos
 ---
 
 After months of waiting, the day has arrived: I’m making a trip back to Ukraine! In this episode, we’ll share more about the purpose of my trip and give an update on the war. We’re also excited to share a brief preview of something new God is doing in our ministry here in Žilina!
