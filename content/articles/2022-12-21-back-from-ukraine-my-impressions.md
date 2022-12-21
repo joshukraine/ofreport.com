@@ -42,10 +42,10 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-lesya_k0lt4m" width="768" caption="Lesya Hayda is another dear friend I was able to visit. Lesya started a daycare for children just before the COVID pandemic, and it survived. Now they face the daily threat of missle strikes, power outages, and a foe that seeks to annihilate them. And Lesya is still in business. Ukrainians are fighters!" />
 
-<article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-lyudmila-ihor_kbe6rs" width="768" caption="During my time at Pancha, it was great to stop in for a visit with our upstairs neighbors, Lyudmila and Ihor. Lyudmila recently commented to me that they miss the sound of all our little kids “pattering around”. I’ve assured her that we will do our best to make sure she hears them again. 🥰" />
+<article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-lyudmila-ihor_kbe6rs" width="768" caption="It was great to stop in for a visit with our upstairs neighbors, Lyudmila and Ihor. Lyudmila recently commented to me that they miss the sound of all our little kids “pattering around”. I’ve assured her that we will do our best to make sure she hears them again. 🥰" />
 
 <article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-oleksiy-meds_rg7diz" height="768" caption="Just before I left L’viv, we got word from Olekciy (right) that their group of soldiers was very low on meds. So on the way to the bus station, Yura and I stopped by a pharmacy and tried to get as much as we could of all the meds he asked for." />
 
 <article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-books-van_ffgddb" height="768" caption="Since I left, Yura has already put the yellow van to good use. We’ve been shipping quite a large number of *Good and Evil* books out to churches for their Christmas outreaches." />
 
-<article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-kelsie-dec-2022_f7uono" width="768" caption="Wheneven I travel alone, I miss this lady the most. Kelsie is the color in my world, my daily reminder of God’s favor! 💖" />
+<article-image publicId="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-kelsie-dec-2022_f7uono" width="768" caption="Whenever I travel alone, I miss this lady the most. Kelsie is the color in my world, my daily reminder of God’s favor! 💖" />
