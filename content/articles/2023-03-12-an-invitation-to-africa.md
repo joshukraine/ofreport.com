@@ -49,7 +49,7 @@ Joshua and I were invited to L’viv to teach a marriage retreat in February, bu
 
 It’s probable we will need to make trips to Ukraine in April and perhaps in May. We feel like the time may also be drawing near for us to return there permanently. The electricity crisis has stabilized, and from everything we know, living in L’viv does not pose a significant threat to the safety of our family. We are praying for God to give us clear guidance in this decision.
 
-<article-image publicId="OFReport/2023-03-12-an-invitation-to-africa/josh-kelsie-lviv_wtfwql" height="768" />
+<article-image publicId="OFReport/2023-03-12-an-invitation-to-africa/josh-kelsie-lviv_wtfwql" height="768" caption="Josh and I after getting our residency permits in L’viv last year." />
 
 ## How You Can Pray
 
