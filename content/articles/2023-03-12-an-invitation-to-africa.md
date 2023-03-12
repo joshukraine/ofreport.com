@@ -6,14 +6,16 @@ cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1678653975/OFReport/2
 caption: >
   God is opening the door for the French translation of *Bible First* to reach West Africa!
 preview: >
-  It’s not every day you have a Zoom meeting with a missionary in West Africa. Early this year, Joshua had just that opportunity. A rousing planning meeting was held with 3 other men: Nate, a missionary to Africa, David, a young man familiar with our *Bible First* lessons and excited about evangelism, and our teammate, Nathan Day. Their mission: to bring *Bible First Online* to West Africa.
+  It’s not every day you have a Zoom meeting with a missionary in West Africa.
 tags:
 - ukraine
 - ministry
 - family
 ---
 
-It’s not every day you have a Zoom meeting with a missionary in West Africa. Early this year, Joshua had just that opportunity. A rousing planning meeting was held with 3 other men: Nate, a missionary to Africa, David, a young man familiar with our *Bible First* lessons and excited about evangelism, and our teammate, Nathan Day. Their mission: to bring *Bible First Online* to West Africa.
+It’s not every day you have a Zoom meeting with a missionary in West Africa.
+
+Early this year, Joshua had just that opportunity. A rousing planning meeting was held with 3 other men: Nate, a missionary to Africa, David, a young man familiar with our *Bible First* lessons and excited about evangelism, and our teammate, Nathan Day. Their mission: to bring *Bible First Online* to West Africa.
 
 Nate, who is on the ground in West Africa, is coordinating a spring outreach along with David and other friends in the U.S. These men believe that *Bible First Online* could be an effective tool for them to communicate the gospel. They first hope to use Facebook ads to find interested readers for *Good and Evil*. Then, to those who click on the ad and read a full chapter of *Good and Evil*, they would like to extend an invitation to *Bible First*.
 
