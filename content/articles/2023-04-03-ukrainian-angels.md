@@ -22,6 +22,18 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <div id="buzzsprout-player-12457213"></div><script src="https://www.buzzsprout.com/1953515/12457213-ukrainian-angels.js?container_id=buzzsprout-player-12457213&player=small" type="text/javascript" charset="utf-8"></script>
 
+## How to Donate to “Hostesses of Radekhiv”
+
+If you would like to donate to “Hostesses of Radekhiv” (Радехівські господині) you can do so directly via SWIFT transfer. For the uninitiated, this can seem a complicated process. We’ve recently used an online service called [Wise](https://wise.com/) for this, and it works very well. If you want to donate and need help, feel free to [contact us](/contact) directly. We’ll walk you through it!
+
+### Banking Data
+
+You can find full [donation details on their Facebook page here](https://www.facebook.com/groups/404821584832741/posts/407531387895094/). There are multiple accounts and currencies, including EUR and USD. Here the essentials for their USD account:
+
+- Account holder: **CHARITABLE ORGANIZATION “CHARITABLE FOUNDATION “RADEKHIVS’KI HOSPODYNI”**
+- IBAN: **UA923257960000026009301090776**
+- SWIFT / BIC code: **COSBUAUKLVI**
+
 ## How You Can Pray
 
 * Pray for soldiers serving in Ukraine. Pray that they would receive not only physical aid, but also the Gospel. These are days to consider eternity.
