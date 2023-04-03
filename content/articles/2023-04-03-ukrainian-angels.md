@@ -35,7 +35,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2023-04-03-ukrainian-angels/kids-van-radekhiv_gu3rev" width="768" caption="On our way out to Radekhiv! We are joined by Yura Petriv (not pictured) and his son, Marko (left)." />
 
-<article-image publicId="OFReport/2023-04-03-ukrainian-angels/weaving-camo-net_ytmlfa" width="768" caption="As we previously reported, the kids got to help weave camo netting while with the volunteers in Radekhiv. They used white since this was still winter time." />
+<article-image publicId="OFReport/2023-04-03-ukrainian-angels/weaving-camo-net_ytmlfa" width="768" caption="As we previously reported, the kids got to help weave camo netting with the volunteers in Radekhiv. They used white since this was still winter time." />
 
 <article-image publicId="OFReport/2023-04-03-ukrainian-angels/school-group-radekhiv_ukydnl" width="768" caption="While we were there, a local teacher brought her school group to help as well. Our kids enjoyed interacting with the Ukrainian kids. Everyone worked together towards a common goal! 💙💛" />
 
