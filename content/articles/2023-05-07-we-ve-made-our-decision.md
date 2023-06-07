@@ -44,7 +44,7 @@ CMO is back for 2023! Time is short, so if you're interested, we need to hear fr
 
 * Pray for our family as we prepare to return to Ukraine. Pray especially for smooth border crossings.
 * Pray for a successful CMO project this summer. Pray that many Ukrainians — both soldiers and civilians – would hear and believe the Gospel.
-* Pray the French-language outreach of Bible First Online.
+* Pray for the French-language outreach of Bible First Online.
 * Praise the Lord for the ongoing success of the *Good and Evil* distribution program in Ukraine.
 * Praise the Lord that we received our new Ukrainian residency cards!
 * Pray for peace and liberty in Ukraine.
