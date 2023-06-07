@@ -51,10 +51,10 @@ CMO is back for 2023! Time is short, so if you're interested, we need to hear fr
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 
-<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/picnic-sweeneys_uodeyi" widt="768" caption="A picnic in Žilina with our UK friends, the Sweeney's" />
+<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/picnic-sweeneys_uodeyi" width="768" caption="A picnic in Žilina with our UK friends, the Sweeney's" />
 
-<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/camo-netting_ekmbut" widt="768" caption="Weaving camo nets in Radekhiv during our recent trip to L'viv" />
+<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/camo-netting_ekmbut" width="768" caption="Weaving camo nets in Radekhiv during our recent trip to L'viv" />
 
-<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/coffee-chmiels_jkkbff" widt="768" caption="Coffee in L'viv with our long-time missionary friends, the Chmiel's" />
+<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/coffee-chmiels_jkkbff" width="768" caption="Coffee in L'viv with our long-time missionary friends, the Chmiel's" />
 
-<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/back-in-ukraine_coeog3" widt="768" caption="Cross the border, get a selfie by the sign! 💙💛" />
+<article-image publicId="OFReport/2023-05-07-we-ve-made-our-decision/back-in-ukraine_coeog3" width="768" caption="Cross the border, get a selfie by the sign! 💙💛" />
