@@ -21,7 +21,7 @@ As I write these words, our friends Vladyslav and Marta are on their way to us, 
 
 Our route will take us north through the mountains towards Krakow, Poland, and from there we’ll drive east to the Ukrainian border. If all goes well, we will arrive at our home in L’viv sometime in the late afternoon.
 
-Please pray specifically for our crossing at the border. We are bringing quite an array of personal belongings — everything from clothes to coffee machines, furniture, kitchenware, computers, and even a large pair of large Yamaha speakers which will be needed for our summer outreach. Pray that the customs officials will not try to charge us some kind of import tax.
+Please pray specifically for our crossing at the border. We are bringing quite an array of personal belongings — everything from clothes to coffee machines, furniture, kitchenware, computers, and even a pair of large Yamaha speakers which will be needed for our summer outreach. Pray that the customs officials will not try to charge us some kind of import tax.
 
 Despite the chaos of an international move, our ministry is moving forward on several fronts. Here are a few of brief updates…
 
@@ -33,7 +33,7 @@ As of this writing, we’ve sent out over 6,500 books to our various distributor
 
 <article-image publicId="OFReport/2023-06-07-countdown/soldiers-good-and-evil-book_rckbzw" width="768" caption="Olya Pukavska distributes *Good and Evil* books to soliders in Kyiv." />
 
-<article-image publicId="OFReport/2023-06-07-countdown/andrii-park-outreach_nts1cr" height="768" caption="Andrii Pukavskyi hands a book to Ukrainian couple at a park." />
+<article-image publicId="OFReport/2023-06-07-countdown/andrii-park-outreach_nts1cr" height="768" caption="Andrii Pukavskyi hands out tracts and *Good and Evil’s* at a park." />
 
 <article-image publicId="OFReport/2023-06-07-countdown/soldier-reading_wf94lk" height="768" caption="A Ukrainian soldier reads his new copy of *Good and Evil*." />
 
@@ -62,9 +62,11 @@ Progress has been slower than hoped — due in large part to the upheaval in our
 
 <article-image publicId="OFReport/2023-06-07-countdown/mia-paja_prmbxb" height="768" caption="Mia has found a special friend: Miss Paya at church. 🥰" />
 
-<article-image publicId="OFReport/2023-06-07-countdown/david-mowing_xhftqp" width="768" caption="Our house in Mojš was the first place we’ve ever lived that had a yard. Great time for David to learn a bit out mowing the grass!" />
+<article-image publicId="OFReport/2023-06-07-countdown/david-mowing_xhftqp" width="768" caption="Our house in Mojš was the first place we’ve ever lived that had a yard. Great time for David to learn a bit about mowing the grass!" />
 
 <article-image publicId="OFReport/2023-06-07-countdown/junk-in-van_a8n2kf" width="768" caption="This is how the back of our van looked for our last stuff-transport trip. Today it’s time for another round!" />
+
+<article-image publicId="OFReport/2023-06-07-countdown/david-furniture-drill_cpfg48" height="768" caption="Most of our furniture will stay in Slovakia, but a few things are being disassembled and taken to Ukraine. David is getting pretty good with that cordless screwgun!" />
 
 <article-image publicId="OFReport/2023-06-07-countdown/family-ukraine-border_fe7i9r" width="768" caption="Our family at the Ukrainian border after a recent crossing" />
 
@@ -75,8 +77,6 @@ Progress has been slower than hoped — due in large part to the upheaval in our
 <article-image publicId="OFReport/2023-06-07-countdown/steeles-pamulas_nrdehh" width="768" caption="During our year in Mojš, God gave us the best neighbors anyone could ask for! Miro, his wife Katka, and their two daughters have helped us numerous times and we are grateful for their friendship!" />
 
 <article-image publicId="OFReport/2023-06-07-countdown/family-summit-stranik_tgmvpk" width="768" caption="We recently did a family hike up to a little mountain called “Stranik” near our house. It offers a great view of our valley!" />
-
-<article-image publicId="OFReport/2023-06-07-countdown/david-furniture-drill_cpfg48" height="768" caption="Most of our furniture will stay in Slovakia, but a few things are being disassembled and taken to Ukraine. David is getting pretty good with that cordless screwgun!" />
 
 <article-image publicId="OFReport/2023-06-07-countdown/rebekah-kelsie-bratislava_ymifgv" width="768" caption="Recently, we took Rebekah to the US Embassy in Bratislava to get her a new passport. We had a fun day together!" />
 
