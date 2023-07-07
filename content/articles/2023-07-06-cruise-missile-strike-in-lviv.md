@@ -25,6 +25,8 @@ During these raids, we rely heavily on Telegram for news. You can actually form 
 
 This morning, we awoke to the news that the night of July 6 was the single largest missile strike in L’viv since the war began. Ten cruise missiles were fired at targets in the city, and seven were intercepted by air defense. Three struck apartment complexes. As of this writing, there are four people confirmed dead and dozens injured. Many have also been left homeless.
 
+<article-callout content="JULY 7 UPDATE: More bodies are still being discovered in the rubble. As of this morning at 7:00 am local time, the death toll has risen to 10." />
+
 <article-image publicId="OFReport/2023-07-06-cruise-missile-strike-in-lviv/debris-top-view_rakkaz" width="768" caption="To my knowledge, this is the first time that an apartment complex inside the L’viv city limits has been hit." />
 
 <article-image publicId="OFReport/2023-07-06-cruise-missile-strike-in-lviv/first-responders-carrying_kbohsy" width="768" caption="First responders carry away a casualty of Russian war crimes." />
