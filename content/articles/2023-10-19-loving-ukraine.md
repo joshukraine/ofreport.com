@@ -4,9 +4,9 @@ date: "2023-10-19"
 author: "Joshua Steele"
 cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1697737974/OFReport/2023-10-19-loving-ukraine/hospital-concert-outside_jssam2.jpg"
 caption: >
-  On a hot day in August, our family along with the CMO team gathered at a hospital for wounded Ukrainian soldiers in L’viv. We room to room, singing Ukrainian songs, and sharing the Gospel.
+  On a hot day in August, our family and the CMO team gathered at a hospital for wounded Ukrainian soldiers in L’viv. We went room to room, singing Ukrainian songs and sharing the Gospel.
 preview: >
-  We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
+  We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but the war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
 tags:
 - podcast
 - ukraine
@@ -14,13 +14,10 @@ tags:
 - family
 ---
 
-We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
+We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but the war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
 
 Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
 
-<article-spacer />
-
-<div id="buzzsprout-player-13810350"></div><script src="https://www.buzzsprout.com/1953515/13810350-loving-ukraine.js?container_id=buzzsprout-player-13810350&player=small" type="text/javascript" charset="utf-8"></script>
 
 ## Links from the Episode
 
@@ -49,14 +46,14 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 * Pray that God would continue to bless our *Good and Evil* distributor program. We’ve now gone through more than half our total stock!
 * Pray that God would grant us strength, courage, wisdom and direction as we continue to serve Him in Ukraine.
 * Pray for safety and stable electricity through the winter months. Pray for protection from Russian missile attacks.
-* Pray for our daughter Abigail as she spends a few months in the US for work and study. She is currently living with Kelsie’s parents.
+* Pray for our daughter, Abigail, as she spends a few months in the US for work and study. She is currently living with Kelsie’s parents.
 * Pray for health and strength for our family.
 * Pray for a swift Ukrainian victory over their oppressors.
 * Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 
-<article-image publicId="OFReport/2023-10-19-loving-ukraine/blue-van-garage_d7qrpt" width="768" caption="To those of you who generously donated to help us by the “New Blue Van”, thank you so much! It runs like a charm, and it has transported Ukrainians, Americans, Belorussians, and Slovaks (and their stuff!) all over Eastern Europe. We are truly grateful for God’s provision!" />
+<article-image publicId="OFReport/2023-10-19-loving-ukraine/blue-van-garage_d7qrpt" width="768" caption="To those of you who generously donated to help us buy the “New Blue Van”, thank you so much! It runs like a charm, and it has transported Ukrainians, Americans, Belorussians, and Slovaks (and their stuff!) all over Eastern Europe. We are truly grateful for God’s provision!" />
 
 <article-image publicId="OFReport/2023-10-19-loving-ukraine/josh-nathan-kels-2023_x9vt7u" width="768" caption="As CMO 2023 began, it was great to have Nathan Day back on the “right side” of the Atlantic! 😁" />
 
@@ -64,7 +61,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2023-10-19-loving-ukraine/hospital-concert-hallway_cwroqt" width="768" caption="During the summer project, we were invited to sing at a local hospital for wounded Ukrainian soldiers." />
 
-<article-image publicId="OFReport/2023-10-19-loving-ukraine/hospital-concert-singing_hf17rc" width="768" caption="Sometimes it was hard to fit everyone in, but sang with joy in our hearts and smiles on our faces. Afterwards, each soldier received a copy of *Good and Evil*." />
+<article-image publicId="OFReport/2023-10-19-loving-ukraine/hospital-concert-singing_hf17rc" width="768" caption="Sometimes it was hard to fit everyone in, but we sang with joy in our hearts and smiles on our faces. Afterwards, each soldier received a copy of *Good and Evil*." />
 
 <article-image publicId="OFReport/2023-10-19-loving-ukraine/hos-nad-bill-team-meeting_vxycwl" width="768" caption="Team meeting in the mountains (CMO 2023)" />
 
