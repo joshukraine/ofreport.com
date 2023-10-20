@@ -78,13 +78,6 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 <article-image publicId="OFReport/2023-10-19-loving-ukraine/potatoes-in-bucha_yyqsrd" height="768" caption="Earlier this year, we collaborated with a man in our church to supply nearly a ton of potatoes to families in Bucha. Each of these families lost loved ones who were murdered by the Russians in the early days of the occupation." />
 
-
-
-
-
-
-
-
 <article-image publicId="OFReport/2023-10-19-loving-ukraine/zilina-steeles-horyoviis_gldruj" width="768" caption="During a recent visit to Slovakia, it was great to see our Ukrainian friends the Horyovii family!" />
 
 <article-image publicId="OFReport/2023-10-19-loving-ukraine/church-kids-prayer_xfa340" width="768" caption="Prayer for the kids at our church in L’viv" />
