@@ -35,7 +35,7 @@ CMO is back for 2023! Time is short, so if you're interested, we need to hear fr
 - Sky News - https://youtu.be/zDIJmhRuVj0
 - The Kyiv Independent - https://kyivindependent.com/
 - Denys Davydov - https://youtu.be/s8l44bxVND0
-- Jake Bro - https://youtu.be/GPC4ifmoMVw
+- Jake Broe - https://youtu.be/GPC4ifmoMVw
 - TLDR News EU - https://youtu.be/_OQdf7HghEo
 - Institute for the Study of War (ISW) - https://www.understandingwar.org/
 - Deep State Map - https://deepstatemap.live/
