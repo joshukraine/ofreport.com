@@ -27,7 +27,7 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 - [Sky News (YouTube)](https://www.youtube.com/playlist?list=PLG8IrydigQfdt7DcwVqs_COZ9RXC6jRUB)
 - [The Kyiv Independent](https://kyivindependent.com/)
 - [Denys Davydov (YouTube)](https://www.youtube.com/@DenysDavydov)
-- [Jake Bro (YouTube)](https://www.youtube.com/@JakeBroe)
+- [Jake Broe (YouTube)](https://www.youtube.com/@JakeBroe)
 - [TLDR News EU (YouTube)](https://www.youtube.com/@TLDRnewsEU)
 - [Ukraine: The Latest (podcast)](https://podcasts.apple.com/gb/podcast/ukraine-the-latest/id1612424182)
 - [Institute for the Study of War (ISW)](https://www.understandingwar.org/)
