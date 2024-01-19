@@ -2,7 +2,7 @@
 title: 'Ministry and Family in Time of War'
 date: '2024-01-19'
 author: 'Joshua Steele'
-cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1705306410/OFReport/DRAFT/marriage-retreat-cover-1200-630_wlomm3.jpg'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1705306410/OFReport/2024-01-19-ministry-and-family-in-time-of-war/marriage-retreat-cover-1200-630_wlomm3.jpg'
 caption: >
   We recently had the wonderful privilege of leading a marriage retreat for
   couples from our church in L’viv.
@@ -100,7 +100,7 @@ silly and fun and everyone got a good laugh. But as I stood to the side,
 watching these married friends of mine, I almost teared up. I was filled with
 joy to see them embracing, to see them laughing, to see them together.
 
-<article-image publicId="OFReport/DRAFT/skittles-game_fzfqxx" height="768" caption="To play the Skittles game, couples had to embrace with one arm while using their free arm to sort the Skittles by color." />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/skittles-game_fzfqxx" height="768" caption="To play the Skittles game, couples had to embrace with one arm while using their free arm to sort the Skittles by color." />
 
 There are so many marriages ending in divorce, and this is a tragedy that
 grieves not only my heart, but God’s. Today, more than ever before, I live by
@@ -122,14 +122,14 @@ Abigail continues to thrive in her new life in Houston. We don’t know how long
 she’ll be there, but for this season, we believe this is God’s direction for
 her.
 
-<article-image publicId="OFReport/DRAFT/IMG_5156_pvcd05" height="768" caption="Abbie with one of her new friends in the US" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/IMG_5156_pvcd05" height="768" caption="Abbie with one of her new friends in the US" />
 
 Back in Ukraine, we now have one extra seat in the van! Our next eldest
 daughters, Rebekah and Hosanna, are growing into lovely, very responsible young
 ladies. I feel more like Potiphar all the time: I’m surrounded by competent
 people who run my household better than I ever could!
 
-<article-image publicId="OFReport/DRAFT/kids-horseback_vikm3v" height="768" caption="One of the highlights of the retreat for our kids was getting to go horseback riding in the Carpathians!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/kids-horseback_vikm3v" height="768" caption="One of the highlights of the retreat for our kids was getting to go horseback riding in the Carpathians!" />
 
 Kathryn, David, and Mia (“the Littles”) are getting bigger all the time. Mia,
 our youngest, is now four, and we are reminded to savor every moment of these
@@ -146,7 +146,7 @@ Since Russia invaded Ukraine in early 2022, we have given away over 11,000
 copies of _Good and Evil_. Often, our distributors send us pictures of their
 work, and we’ve included some highlights below.
 
-<article-image publicId="OFReport/DRAFT/ge-book-collage_vhmyca" width="768" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-collage_vhmyca" width="768" />
 
 ## How You Can Pray
 
@@ -161,32 +161,32 @@ work, and we’ve included some highlights below.
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 
-<article-image publicId="OFReport/DRAFT/retreat-hosanna-guitar_uxrgwl" width="768" caption="The retreat ended on a Sunday, and Hosanna played her guiter for our worship time. She is getting really good!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/retreat-hosanna-guitar_uxrgwl" width="768" caption="The retreat ended on a Sunday, and Hosanna played her guiter for our worship time. She is getting really good!" />
 
-<article-image publicId="OFReport/DRAFT/david-boys-soccer_vupeat" width="768" caption="In true European fashion, David enjoyed playing soccer with the other boys at the retreat." />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/david-boys-soccer_vupeat" width="768" caption="In true European fashion, David enjoyed playing soccer with the other boys at the retreat." />
 
-<article-image publicId="OFReport/DRAFT/shoe-game_gltesu" width="768" caption="Another couples game we played involved shoes. Couples were seated back-to-back, and everyone had to remove their shoes. Couples then exchanged one of their shoes with their spouse, leaving every person holding “his” and “her” shoes. The moderator would ask questions of the group like “Who takes more time in the shower?” or “Who is usually first to apologize?” To answer, you raise his or her shoe. Couples whose answers agreed got a point for that round. It was fun to see how closely the answers aligned!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/shoe-game_gltesu" width="768" caption="Another couples game we played involved shoes. Couples were seated back-to-back, and everyone had to remove their shoes. Couples then exchanged one of their shoes with their spouse, leaving every person holding “his” and “her” shoes. The moderator would ask questions of the group like “Who takes more time in the shower?” or “Who is usually first to apologize?” To answer, you raise his or her shoe. Couples whose answers agreed got a point for that round. It was fun to see how closely the answers aligned!" />
 
-<article-image publicId="OFReport/DRAFT/kathryn-school-play_krnrfs" height="768" caption="Kathryn recently took part in a play done by our church at both the school and the Sunday-morning service. The theme of the play was gratefulness. The verse projected on the wall behind her is 1 Thessalonians 5:18." />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/kathryn-school-play_krnrfs" height="768" caption="Kathryn recently took part in a play done by our church at both the school and the Sunday-morning service. The theme of the play was gratefulness. The verse projected on the wall behind her is 1 Thessalonians 5:18." />
 
-<article-image publicId="OFReport/DRAFT/hosie-13_xugecj" height="768" caption="Our sweet Hosanna is now 13!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/hosie-13_xugecj" height="768" caption="Our sweet Hosanna is now 13!" />
 
-<article-image publicId="OFReport/DRAFT/hosie-party_cfipea" width="768" caption="We had a fun time celebrating her birthday at our local ice-skating rink." />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/hosie-party_cfipea" width="768" caption="We had a fun time celebrating her birthday at our local ice-skating rink." />
 
-<article-image publicId="OFReport/DRAFT/kels-kids-poster_rn2gwt" width="768" caption="Kelsie faithfully reads to the kids every day. When reading Bible stories, she guides them in drawing pictures about what they read, and they really get into it!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/kels-kids-poster_rn2gwt" width="768" caption="Kelsie faithfully reads to the kids every day. When reading Bible stories, she guides them in drawing pictures about what they read, and they really get into it!" />
 
-<article-image publicId="OFReport/DRAFT/daddy-david-fall-2023_qhlfky" width="768" caption="It was David's first time on the ice and he had a blast!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/daddy-david-fall-2023_qhlfky" width="768" caption="It was David's first time on the ice and he had a blast!" />
 
-<article-image publicId="OFReport/DRAFT/ge-book-sasha-table_uzc5vj" height="768" caption="Oleksandr (green cap) is one of our most active distibutors." />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-sasha-table_uzc5vj" height="768" caption="Oleksandr (green cap) is one of our most active distibutors." />
 
-<article-image publicId="OFReport/DRAFT/ge-book-soldier_fya2ws" width="768" caption="It's great to see _Good and Evil_ reaching Ukrainian soldiers!" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-soldier_fya2ws" width="768" caption="It's great to see _Good and Evil_ reaching Ukrainian soldiers!" />
 
-<article-image publicId="OFReport/DRAFT/ge-book-kid-group_fuwlrw" width="768" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-kid-group_fuwlrw" width="768" />
 
-<article-image publicId="OFReport/DRAFT/ge-book-kid-group-2_nryevy" width="768" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-kid-group-2_nryevy" width="768" />
 
-<article-image publicId="OFReport/DRAFT/ge-book-crowd_xe7gjg" width="768" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-crowd_xe7gjg" width="768" />
 
-<article-image publicId="OFReport/DRAFT/ge-book-adult-group_vjvec5" width="768" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-adult-group_vjvec5" width="768" />
 
-<article-image publicId="OFReport/DRAFT/ge-book-girl_ur6xzy" height="768" />
+<article-image publicId="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-girl_ur6xzy" height="768" />
