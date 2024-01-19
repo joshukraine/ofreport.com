@@ -6,6 +6,7 @@ cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1705306410/OFReport/D
 caption: >
   We recently had the wonderful privilege of leading a marriage retreat for
   couples from our church in L’viv.
+pdf: 'OFR-Nov-Dec-2023.pdf'
 preview: >
   There are days when things appear almost peaceful. We move about the city,
   living what seems a normal life, and we almost forget that there’s a war on.
