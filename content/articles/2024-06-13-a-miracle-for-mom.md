@@ -20,7 +20,7 @@ tags:
 ---
 
 _AUTHOR’S NOTE: The text in this article began as a simple blog post but turned
-into more of a journal entry. It’s far longer than most we publish, and maybe
+into more of a journal entry. It’s far longer than most we publish, and may be
 more than you have time to read. But rather than push for brevity, I decided
 this story was worth telling in more detail. I’ve recorded it here for my own
 memory and for the glory of God._
@@ -30,6 +30,8 @@ miraculous recovery. We praise Him for the gift of life and for each new day we
 have together._
 
 <article-divider mb="6" />
+
+## The Journey Home
 
 Six weeks ago, I was begging God for a day—even half a day or just a few hours—a
 chance to see my mom again before she passed into eternity. On the morning of
@@ -50,6 +52,8 @@ My brother and sister-in-law picked us up at the international terminal (we need
 two vehicles these days), and we were off. We took everyone first to my parents’
 home in Azle, where I quickly showered and put on fresh clothes. After a hurried
 snack, Abbie and I jumped in the car and raced downtown to the hospital.
+
+## Face to Face
 
 I’ll never forget walking into Mom’s room. Would she be conscious? Would she
 know me? How long should I stay? Would this be the last time I saw her?
@@ -75,6 +79,8 @@ keep her alive until our family could make it in from Ukraine. But now that was
 behind us, and there was no further point in keeping Mom in the hospital. It was
 time to go home.
 
+## Going Home
+
 Hospice. That was all we had left to offer Mom. As the arrangements were made
 for transport, we were told she likely had mere days to live. She exhibited all
 the signs of a person whose body is shutting down.
@@ -91,6 +97,8 @@ we all expected would be her final journey.
 Minutes later, Mom was installed in her waiting hospice bed. She had requested
 that we place it in the front of the house near a window. This way, she could
 easily see outside and also be near family.
+
+## Final Days?
 
 The next few days were spent singing hymns, administering medications, and
 desperately trying to savor every last moment we had. We even managed a family
@@ -109,6 +117,8 @@ and Dad’s large open kitchen — a silent reminder that we were people who wer
 about to experience deep grief and might need booklets to help us cope. Days
 more passed, and the booklets began to collect dust. And still, the end did not
 come.
+
+## Daring to Hope
 
 In a way, our minds and hearts were refusing to allow us to hope or even to
 explore the subtle signs we were seeing in Mom: a slight improvement in her
@@ -150,6 +160,8 @@ decision was hers and that we would support her regardless.
 Mom asked a couple of questions about her bloodwork and the transfusion and
 then, looking at us through her clear blue eyes, she said, “Let’s do it.”
 
+## A Race Against Time
+
 We all sprang into action, and soon, Mom was speeding down the highway bound for
 the very hospital that days ago had sent her home to die. It was about midnight
 when they got her checked into a room, and later the following morning, she
@@ -162,6 +174,8 @@ finished, and a short time later, they started the second. We waited.
 It was early afternoon when the final drops of the second unit of blood flowed
 into Mom’s veins. About an hour later, they drew a sample, and we waited again.
 Finally, the results came. Hemoglobin: 7.4.
+
+## Recovery
 
 A mere 18 hours after Mom’s decision to do the transfusion, we were back home
 and, more importantly, back in the fight. The days and weeks that followed were
@@ -179,6 +193,8 @@ Soon after the transfusion, she began moving about with a walker, and today, as
 I write these words, she is working in the kitchen, helping Kelsie and the other
 ladies to prepare food for Family Day here at Steele Creek.
 
+## In His Hands
+
 The fight is not over. We are well aware that the cancer is still in her body,
 but we are now even more aware that the Great Physician still lives, still
 loves, and still works miracles.
@@ -189,5 +205,8 @@ is strong, He is good, and with Him, nothing is impossible. I still don’t know
 God’s final plan for Mom’s life or whether He will give her the fifteen years.
 But as I reflect on all He has done for Mom and our family, I’m beginning to
 wish I had asked for thirty.
+
+_“Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all
+thine iniquities; who healeth all thy diseases;” (Psalms 103:2-3)_
 
 <article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/steele-grandkids-2024_jbwdal" width="768" caption="Nana and Granddad together with their 19 grandchildren" />
