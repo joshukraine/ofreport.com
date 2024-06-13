@@ -38,15 +38,16 @@ chance to see my mom again before she passed into eternity. On the morning of
 May 1, as our family prepared to board a plane in Vienna bound for the US, Mom’s
 heart still beat, albeit weakly.
 
-International flights usually offer in-flight wifi, and this time, I planned to
-pay for it. I couldn’t bear the thought of being off-grid when the end came. If
-we couldn’t make it in time, a video call was the next best option to say
-goodbye.
+International flights usually offer in-flight wifi for a fee, and this time, I
+planned to pay for it. I couldn’t bear the thought of being off-grid when the
+end came. If we couldn’t make it in time, a video call was the next best option
+to say goodbye. To my dismay, I soon discovered that the wifi on our flight was
+not working. We would have no contact with our family while in the air.
 
-After about nine hours in the air, we landed in Toronto, where we learned that
-Mom was still alive. A few hours more, and we were pulling up to the gate at DFW
-— a mere 30-minute drive from where Mom lay in the cancer wing of Harris
-Hospital in Fort Worth.
+Nine hours later, we landed in Toronto, where we learned that Mom was still
+alive. A few hours more, and we were pulling up to the gate at DFW — a mere
+30-minute drive from where Mom lay in the cancer wing of Harris Hospital in Fort
+Worth.
 
 My brother and sister-in-law picked us up at the international terminal (we need
 two vehicles these days), and we were off. We took everyone first to my parents’
@@ -66,18 +67,18 @@ After only ten minutes — I feared to exhaust her — we left and returned to t
 car. I told Kelsie later that, had Abbie not been with me, I would have sat in
 the driver’s seat and sobbed.
 
-The next few days were hard. Mom had contracted a virus which, in her weakened
-state, threatened any moment to take her life. I began taking shifts with my
-siblings, sitting up with Mom at the hospital. I listened to the doctors’
-reports, helped Mom take meds, and tried to do what I could to make her
-comfortable. But the numbers from her bloodwork were grim.
+Mom’s final days in the hospital were hard. She had contracted a virus which, in
+her weakened state, threatened any moment to end her life. Prior to our arrival,
+my siblings had been taking shifts, sitting up with Mom at the hospital. They
+listened to the doctors’ reports, helped Mom take her meds, and tried to do what
+they could to make her comfortable. But the numbers from her bloodwork were
+grim.
 
 Finally, her main cancer specialist told us that the end was near. Mom’s body
 was not responding to the treatments, he explained, and her kidneys were
 failing. At one point, they had even discussed putting her on dialysis just to
 keep her alive until our family could make it in from Ukraine. But now that was
-behind us, and there was no further point in keeping Mom in the hospital. It was
-time to go home.
+behind us, and there was no further point in keeping Mom in the hospital.
 
 ## Going Home
 
@@ -126,15 +127,15 @@ color, lucidity returning, hints at improved kidney function, and, most of all,
 no pain. We were all waiting for Mom to die, but the reality unfolding before us
 was that _Mom was getting stronger_.
 
-Finally, my youngest brother Josiah, who is a medical laboratory scientist,
-decided to draw blood and run some tests. What he discovered shocked and
-thrilled us. Mom’s white blood cell count was up, her kidneys were coming back,
-and a host of other markers showed positive movement. In addition, we had by
-that time, received the results of Mom’s two final cancer marker checks. Both
-were trending downward — a sign that the treatments had been working after all!
+Finally, we decided to have Mom’s blood drawn for testing via a third party.
+What we discovered shocked and thrilled us. Mom’s white blood cell count was up,
+her kidneys were coming back, and other markers showed positive movement. In
+addition, we had by that time received the results of Mom’s two final cancer
+marker checks. Both were trending downward — a sign that the treatments had been
+working after all!
 
 There was still one thing that stood out as a concern. Mom’s hemoglobin was
-extremely low — just above 5. (Normal levels for a woman Mom’s age would be
+critically low — just above 5. (Normal levels for a woman Mom’s age would be
 11-13.) We knew already that the low hemoglobin was a direct result of her
 cancer treatments, but the consensus was that, in her weakened state, Mom’s body
 would not be able to recover to normal levels on its own.
@@ -145,15 +146,16 @@ only thing standing between her and recovery was her critically low hemoglobin �
 something easily resolved via transfusion.
 
 All this came to a head late on a Saturday evening, and, knowing that time was
-of the essence, we gathered around Mom’s bed for a family meeting. Josiah
-explained the medical facts of her current condition based on the latest
-bloodwork, and Mom, though very weak, understood the choice she now faced. If we
-did nothing, she would likely fade out peacefully within a couple of days.
-Level-5 hemoglobin (and falling) is not sustainable. On the other hand, we could
-rush her to the ER for a transfusion and a new chance at life.
+of the essence, we gathered around Mom’s bed for a family meeting. My youger
+brother Josiah, who is a medical laboratory scientist, explained the facts of
+her current condition based on the latest bloodwork, and Mom, though very weak,
+understood the choice she now faced. If we did nothing, she would likely fade
+out peacefully within a couple of days. Level-5 hemoglobin (and falling) is not
+sustainable. On the other hand, we could rush her to the ER for a transfusion
+and a new chance at life.
 
-You might think the choice would be obvious, but for someone who has fought the
-pain and exhaustion of chronic disease for years on end, the chance to end the
+You might think the choice would be obvious, but for someone who has spent years
+fighting the pain and exhaustion of chronic disease, the chance to end that
 fight quietly at home with your family is attractive. We assured Mom that the
 decision was hers and that we would support her regardless.
 
@@ -167,8 +169,8 @@ the very hospital that days ago had sent her home to die. It was about midnight
 when they got her checked into a room, and later the following morning, she
 received her first unit of blood.
 
-“We need to get her to 7,” they told us. “It will take two or maybe three units.
-If we can get to 7, then she can go home.” I was on shift as the first unit
+“We need to get her to 7,” they told us. “It will take two or maybe three units,
+but if we can get to 7, then she can go home.” I was on shift as the first unit
 finished, and a short time later, they started the second. We waited.
 
 It was early afternoon when the final drops of the second unit of blood flowed
@@ -195,7 +197,7 @@ ladies to prepare food for Family Day here at Steele Creek.
 
 ## In His Hands
 
-The fight is not over. We are well aware that the cancer is still in her body,
+The fight is not over. We are well aware that the cancer is still in Mom’s body,
 but we are now even more aware that the Great Physician still lives, still
 loves, and still works miracles.
 
