@@ -38,6 +38,8 @@ chance to see my mom again before she passed into eternity. On the morning of
 May 1, as our family prepared to board a plane in Vienna bound for the US, Mom’s
 heart still beat, albeit weakly.
 
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/family-airport_f00slq" width="768" caption="Preparing to board in Vienna" />
+
 International flights usually offer in-flight wifi for a fee, and this time, I
 planned to pay for it. I couldn’t bear the thought of being off-grid when the
 end came. If we couldn’t make it in time, a video call was the next best option
@@ -80,6 +82,8 @@ failing. At one point, they had even discussed putting her on dialysis just to
 keep her alive until our family could make it in from Ukraine. But now that was
 behind us, and there was no further point in keeping Mom in the hospital.
 
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/leaving-hospital_y5fybd" height="768" caption="Time to go home" />
+
 ## Going Home
 
 Hospice. That was all we had left to offer Mom. As the arrangements were made
@@ -99,11 +103,15 @@ Minutes later, Mom was installed in her waiting hospice bed. She had requested
 that we place it in the front of the house near a window. This way, she could
 easily see outside and also be near family.
 
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/smile-in-bed_jko5sc" width="768" />
+
 ## Final Days?
 
 The next few days were spent singing hymns, administering medications, and
 desperately trying to savor every last moment we had. We even managed a family
 picture in the rain! And yet, much as we feared it, the end did not come.
+
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/rain-photo_z6snk0" height="768" />
 
 Close friends and family soon began calling, asking if they could visit. Streams
 of people came through our doors bringing food, gifts, and sometimes medical
@@ -112,12 +120,16 @@ encounter with a dear friend who had touched their lives. There were many
 tearful meetings full of hugs and prayers and gratefulness. And still, the end
 did not come.
 
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/friends-visiting_lxv5jp" width="768" />
+
 A chaplain came by from the hospice service and prayed with us. He left some
 booklets about how to handle grief. They lay at the end of the counter in Mom
 and Dad’s large open kitchen — a silent reminder that we were people who were
 about to experience deep grief and might need booklets to help us cope. Days
 more passed, and the booklets began to collect dust. And still, the end did not
 come.
+
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/tearful-moments_il2n7t" height="768" caption="Tearful moments with Mom" />
 
 ## Daring to Hope
 
@@ -137,8 +149,9 @@ working after all!
 There was still one thing that stood out as a concern. Mom’s hemoglobin was
 critically low — just above 5. (Normal levels for a woman Mom’s age would be
 11-13.) We knew already that the low hemoglobin was a direct result of her
-cancer treatments, but the consensus was that, in her weakened state, Mom’s body
-would not be able to recover to normal levels on its own.
+cancer treatments and kidney failure, but the consensus was that, in her
+weakened state, Mom’s body would not be able to recover to normal levels on its
+own.
 
 Normally, blood transfusions are not a part of the care package for people in
 hospice. And yet, in Mom’s case, it now seemed increasingly apparent that the
@@ -211,4 +224,4 @@ wish I had asked for thirty.
 _“Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all
 thine iniquities; who healeth all thy diseases;” (Psalms 103:2-3)_
 
-<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/steele-grandkids-2024_jbwdal" width="768" caption="Nana and Granddad together with their 19 grandchildren" />
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/mom-dad-grandkids_iyd9fn" width="768" caption="Nana and Granddad together with their 19 grandchildren" />
