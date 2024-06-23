@@ -224,4 +224,4 @@ wish I had asked for thirty.
 _“Bless the LORD, O my soul, and forget not all his benefits: Who forgiveth all
 thine iniquities; who healeth all thy diseases;” (Psalms 103:2-3)_
 
-<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/mom-dad-grandkids_iyd9fn" width="768" caption="Nana and Granddad together with their 19 grandchildren" />
+<article-image publicId="OFReport/2024-06-13-a-miracle-for-mom/mom-dad-grandkids_iyd9fn" width="768" caption="Nana and Granddad together with their 19 grandchildren<br>(one not pictured, one “still in the oven”)" />
