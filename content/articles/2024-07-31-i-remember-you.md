@@ -11,6 +11,23 @@ tags:
   - family
 ---
 
+**PREFACE**
+
+When our precious mother passed into eternity in the early hours of July 27, I
+was rushing back from Ukraine to be with her. I was on a bus at the
+Polish/Ukrainian border when I received the news via text message. I stared at
+the ceiling and choked back tears as I whispered goodbye to Mom.
+
+The sorrow is heavy to bear, and yet we are comforted in the knowledge that God
+is with us. He is merciful, He is faithful, and His grace is sufficient.
+
+Still, this is an incredibly difficult time for all our family, and our hearts
+are breaking. Here I have poured out mine.
+
+<article-divider mb="6" />
+
+**July 31, 2024**
+
 _“Precious in the sight of the LORD is the death of his saints.” (Psalms
 116:15)_
 
