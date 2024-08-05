@@ -43,7 +43,7 @@
     "markdown-it": "^13.0.1",
     "markdown-it-link-attributes": "^4.0.0",
     "markdown-to-json": "^0.5.1",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.12.4",
     "tailwindcss": "^1.9.6",
     "vuejs-paginate": "^2.1.0",
     "vuelidate": "^0.7.4"
