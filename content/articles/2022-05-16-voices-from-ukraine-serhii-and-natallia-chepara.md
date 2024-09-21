@@ -26,9 +26,9 @@ If you would like to bless the Chepara family financially, you can donate to the
 
 Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
 
-<article-spacer />
+<article-callout content="Sorry, this episode has been removed due to security concerns." />
 
-<div id="buzzsprout-player-10626900"></div><script src="https://www.buzzsprout.com/1953515/10626900-voices-from-ukraine-serhii-and-natallia-chepara.js?container_id=buzzsprout-player-10626900&player=small" type="text/javascript" charset="utf-8"></script>
+<article-spacer />
 
 <article-callout content="After you finish the episode, check out the video of Serhii and Natallia’s reunion!" />
 
