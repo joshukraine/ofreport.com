@@ -1,8 +1,8 @@
 ---
 title: 'Of Books, Baptisms, and Blessings'
-date: '2024-09-23'
+date: '2024-09-24'
 author: 'Joshua Steele'
-cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1727100645/OFReport/2024-09-23-of-books-baptisms-and-blessings/books-baptisms-blessings-1200-630_p7uscg.jpg'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1727100645/OFReport/2024-09-24-of-books-baptisms-and-blessings/books-baptisms-blessings-1200-630_p7uscg.jpg'
 preview: >
   One of my most frequent prayers in times of trial is that God would use me up
   to bless my family, to bring souls to Christ, to glorify His name on the
@@ -54,24 +54,38 @@ path they have chosen, and we are excited to see how God will lead their lives
 in the years to come. Please pray for them — and for all the new believers here
 — that God would continue to draw them closer to Himself.
 
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-hosanna_jqd2sa" width="768" caption="Baptizing Hosanna along with Pastor Misha (our head pastor in L'viv)" />
+
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-kathryn_f82nul" height="768" caption="Next up, Kathryn was baptized." />
+
 ## Good and Evil Outreach
 
 Shortly after Russia invaded Ukraine in 2022, No Greater Joy funded a new
 printing (15,000 copies) of the Ukrainian edition of their Good and Evil comic
 book. Knowing that we would now be working at a much larger scale than we had
 done previously, we established our Good and Evil Distributor Program here in
-Ukraine. Today, we have over 100 registered distributors who are helping us get
-this amazing Bible comic book into the hands of Ukrainians everywhere.
-Unfortunately, as of this writing, our supplies are nearly exhausted. We have
-about 900 books left, and new requests come in almost daily. The books are going
-out to the far reaches of the country, often making it to areas hard-hit by the
-horrors of war. When the local school is bombed out, and there’s no electricity
-or internet, a glossy comic book is a real attention grabber. We hope to be able
-to print more books in the future, and we are grateful to everyone who has made
-this ministry possible: donors, distributors, prayer warriors, and, of course,
-Mike and Debi, the creators of Good and Evil. Please pray with us that God would
-continue to use the many thousands of these books that are now in the hands of
-the Ukrainian people and that, if it is His will, we could print more.
+Ukraine.
+
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boys-dads-loading_pea9yc" width="768" caption="For our most recent shipment of *Good and Evil* books, Nathan and I got some help from our boys, David and Jonathan!" />
+
+Today, we have over 100 registered distributors who are helping us get this
+amazing Bible comic book into the hands of Ukrainians everywhere. Unfortunately,
+as of this writing, our supplies are nearly exhausted. We have about 900 books
+left, and new requests come in almost daily. The books are going out to the far
+reaches of the country, often making it to areas hard-hit by the horrors of war.
+When the local school is bombed out, and there’s no electricity or internet, a
+glossy comic book is a real attention grabber.
+
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-group-2_heuoum" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boy-open-book_uv1hzx" width="768" caption="CAPTION" />
+
+We hope to be able to print more books in the future, and we are grateful to
+everyone who has made this ministry possible: donors, distributors, prayer
+warriors, and, of course, Mike and Debi, the creators of Good and Evil. Please
+pray with us that God would continue to use the many thousands of these books
+that are now in the hands of the Ukrainian people and that, if it is His will,
+we could print more.
 
 ## Remembering Mom
 
@@ -82,6 +96,8 @@ lessons Mom taught us live on in our hearts, and we are so grateful for the
 years God gave us together. I wrote recently in a text on our family message
 thread, “These days make me long for eternity so much.” What a reunion we will
 have on that day!
+
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/moms-memorial-service_x8ncwd" width="768" caption="CAPTION" />
 
 ## Bible First, CMO, Etc
 
@@ -119,6 +135,10 @@ it all in! But here are the cliff notes for now…
 - Pray for health, safety, wisdom, and courage for our family.
 - Pray for peace and liberty in Ukraine.
 
+<article-callout content="Keep scrolling for more photos and video! First up, the baptism..." />
+
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-group_lsyi4k" width="768" caption="CAPTION" />
+
 <article-spacer />
 
 <style>
@@ -144,70 +164,62 @@ it all in! But here are the cliff notes for now…
 
 <article-spacer />
 
-<article-callout content="Keep scrolling for more photos from our family and ministry..." />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-hosanna-testimony_mngjvf" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-men-van-group_bf2f1c" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-kathryn-testimony_yxbfjq" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boys-carry_tddvqo" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-church-photo_ieyke4" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-church-photo_ieyke4" width="768" caption="CAPTION" />
+<article-callout content="Next up, some photos from our Good and Evil outreach..." />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-two-stacks-left_xaf65h" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-men-van-group_bf2f1c" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/mom-seat-memorial_yjlx0i" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boys-carry_tddvqo" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-joshua-boys-nova-poshta_so2w6m" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boys-loading_njvqqk" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boys-loading_njvqqk" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-joshua-boys-nova-poshta_so2w6m" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/steele-kids-reunion_vbc7sy" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-two-stacks-left_xaf65h" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/david-mia-picnic_qqgayx" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-group-1_jdwxte" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/kids-table-days-house_uwn6tf" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boy-reading-bench_ckkprw" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/IMG_0517_qjfos5" width="768" caption="CAPTION" />
+<article-callout content="Remembering Mom..." />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-kelsie-bikes-krakow_ikem6r" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/dad-joshua-mom_oueihc" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/moms-memorial-service_x8ncwd" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/mom-graveside_zktbcz" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-group_lsyi4k" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-speaking-memorial_d5dlxv" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-kelsie-20-years_yjb8pt" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/mom-seat-memorial_yjlx0i" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boys-dads-loading_pea9yc" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-dad_w550jf" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-dad_w550jf" width="768" caption="CAPTION" />
+<article-callout content="And finally, some recent photos from our family and friends in Ukraine..." />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/mom-graveside_zktbcz" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/IMG_0517_qjfos5" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/dad-abbie-mom-krakow_xsqoz4" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/david-mia-picnic_qqgayx" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/steele-brothers_oxfi5r" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/daddy-back-home_ezh2wt" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/katelin-nathan-luggage_ooccs6" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/dad-abbie-mom-krakow_xsqoz4" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-speaking-memorial_d5dlxv" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/steele-kids-reunion_vbc7sy" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/daddy-back-home_ezh2wt" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/katelin-nathan-luggage_ooccs6" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/dad-joshua-mom_oueihc" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/kids-table-days-house_uwn6tf" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-kelsie-vira_dhwxsq" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-bikes-krakow_ikem6r" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-group-1_jdwxte" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/steele-brothers_oxfi5r" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/IMG_0479_ac7mtn" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-vira_dhwxsq" width="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-group-2_heuoum" width="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/IMG_0479_ac7mtn" height="768" caption="CAPTION" />
 
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boy-open-book_uv1hzx" width="768" caption="CAPTION" />
-
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-hosanna_jqd2sa" width="768" caption="CAPTION" />
-
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-kathryn-testimony_yxbfjq" height="768" caption="CAPTION" />
-
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-kathryn_f82nul" height="768" caption="CAPTION" />
-
-<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-hosanna-testimony_mngjvf" height="768" caption="CAPTION" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-20-years_yjb8pt" width="768" caption="CAPTION" />
