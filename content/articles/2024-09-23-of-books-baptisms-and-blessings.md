@@ -25,6 +25,8 @@ peace.” The implication was trusting God amid chaos and tribulation. I remembe
 being sobered by that thought and silently hoping things wouldn’t come to that.
 They have.
 
+<article-callout content="OFR-Sep-Oct-2024.pdf" :download="true" />
+
 First, there was COVID, then war broke out in Ukraine. We spent almost a year
 and a half in Slovakia, followed by a return to L’viv in mid-2023. Then, in
 early 2024, Mom’s health began declining sharply as a result of her cancer. I
