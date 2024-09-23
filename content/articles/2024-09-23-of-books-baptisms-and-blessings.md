@@ -118,3 +118,96 @@ it all in! But here are the cliff notes for now…
   future.
 - Pray for health, safety, wisdom, and courage for our family.
 - Pray for peace and liberty in Ukraine.
+
+<article-spacer />
+
+<style>
+  .baptism-video {
+    height: 768px !important; /* Force the height */
+    width: auto !important;   /* Force automatic scaling of width */
+  }
+</style>
+
+<video class="baptism-video mx-auto" controls>
+  <source src="https://d21yo20tm8bmc2.cloudfront.net/2024/hosanna-baptism.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<figcaption class="mx-auto mt-2 font-serif font-semibold text-center">Hosanna's baptism - September 7, 2024</figcaption>
+
+<article-spacer />
+
+<video class="baptism-video mx-auto" controls>
+  <source src="https://d21yo20tm8bmc2.cloudfront.net/2024/kathryn-baptism.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<figcaption class="mx-auto mt-2 font-serif font-semibold text-center">Kathryn's baptism - September 7, 2024</figcaption>
+
+<article-spacer />
+
+<article-callout content="Keep scrolling for more photos from our family and ministry..." />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-men-van-group_bf2f1c" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boys-carry_tddvqo" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-church-photo_ieyke4" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-two-stacks-left_xaf65h" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/mom-seat-memorial_yjlx0i" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-joshua-boys-nova-poshta_so2w6m" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boys-loading_njvqqk" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/steele-kids-reunion_vbc7sy" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/david-mia-picnic_qqgayx" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/kids-table-days-house_uwn6tf" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/IMG_0517_qjfos5" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-kelsie-bikes-krakow_ikem6r" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/moms-memorial-service_x8ncwd" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-group_lsyi4k" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-kelsie-20-years_yjb8pt" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boys-dads-loading_pea9yc" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-dad_w550jf" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/mom-graveside_zktbcz" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/dad-abbie-mom-krakow_xsqoz4" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/steele-brothers_oxfi5r" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/katelin-nathan-luggage_ooccs6" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-speaking-memorial_d5dlxv" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/daddy-back-home_ezh2wt" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/dad-joshua-mom_oueihc" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/joshua-kelsie-vira_dhwxsq" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-group-1_jdwxte" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/IMG_0479_ac7mtn" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-group-2_heuoum" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/ge-boy-open-book_uv1hzx" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-hosanna_jqd2sa" width="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-kathryn-testimony_yxbfjq" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-kathryn_f82nul" height="768" caption="CAPTION" />
+
+<article-image publicId="OFReport/2024-09-23-of-books-baptisms-and-blessings/baptism-hosanna-testimony_mngjvf" height="768" caption="CAPTION" />
