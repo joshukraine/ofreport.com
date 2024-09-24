@@ -97,7 +97,7 @@ years God gave us together. I wrote recently in a text on our family message
 thread, “These days make me long for eternity so much.” What a reunion we will
 have on that day!
 
-<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/mom-graveside_zktbcz" width="768" caption="It was a difficult day when we said our final goodbyes to Mom at the graveside. And yet it was also a comforting reminder of what meant the most to Mom in all the world: her family, gathered together, supporting each other in love." />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/mom-graveside_zktbcz" width="768" caption="It was a difficult day when we said our final goodbyes to Mom at the graveside. And yet it was also a comforting reminder of what meant the most in all the world to Mom: her family, gathered together, supporting each other in love." />
 
 ## Bible First, CMO, Etc
 
@@ -214,7 +214,7 @@ it all in! But here are the cliff notes for now…
 
 <article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/kids-table-days-house_uwn6tf" height="768" caption="Now that they're our neighbors, it's a lot easier to get together for meals and fellowship!" />
 
-<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-bikes-krakow_ikem6r" width="768" caption="While in Krakow to pick up Abbie, Kelsie and I enjoyed a brief getaway for our anniversary. We rented bikes and went for a ride along the beautiful Vistula river. In the background of this photo, you can also see Krakow's famous Wawel Castle." />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-bikes-krakow_ikem6r" width="768" caption="Kelsie and I enjoyed a brief getaway for our anniversary. We rented bikes and went for a ride along the beautiful Vistula river. In the background of this photo, you can also see Krakow's famous Wawel Castle." />
 
 <article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/steele-brothers_oxfi5r" width="768" caption="While I was in the US for Mom's memorial, I got to spend a fun evening with my three brothers. Got to play Pickleball for the first time. 😮" />
 
