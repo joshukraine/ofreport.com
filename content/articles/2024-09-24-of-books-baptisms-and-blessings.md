@@ -61,12 +61,12 @@ in the years to come. Please pray for them — and for all the new believers her
 ## Good and Evil Outreach
 
 Shortly after Russia invaded Ukraine in 2022, No Greater Joy funded a new
-printing (15,000 copies) of the Ukrainian edition of their Good and Evil comic
+printing (15,000 copies) of the Ukrainian edition of their _Good and Evil_ comic
 book. Knowing that we would now be working at a much larger scale than we had
-done previously, we established our Good and Evil Distributor Program here in
+done previously, we established our _Good and Evil_ Distributor Program here in
 Ukraine.
 
-<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boys-dads-loading_pea9yc" width="768" caption="For our most recent shipment of *Good and Evil* books, Nathan and I got some help from our boys, David and Jonathan!" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boys-dads-loading_pea9yc" width="768" caption="For our most recent shipment of _Good and Evil_ books, Nathan and I got some help from our boys, David and Jonathan!" />
 
 Today, we have over 100 registered distributors who are helping us get this
 amazing Bible comic book into the hands of Ukrainians everywhere. Unfortunately,
@@ -76,13 +76,13 @@ reaches of the country, often making it to areas hard-hit by the horrors of war.
 When the local school is bombed out, and there’s no electricity or internet, a
 glossy comic book is a real attention grabber.
 
-<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-group-2_heuoum" width="768" caption="Groups of kids and adults alike are being introduced to Christ through the *Good and Evil* books." />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-group-2_heuoum" width="768" caption="Groups of kids and adults alike are being introduced to Christ through the _Good and Evil_ books." />
 
 <article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boy-open-book_uv1hzx" width="768" />
 
 We hope to be able to print more books in the future, and we are grateful to
 everyone who has made this ministry possible: donors, distributors, prayer
-warriors, and, of course, Mike and Debi, the creators of Good and Evil. Please
+warriors, and, of course, Mike and Debi, the creators of _Good and Evil_. Please
 pray with us that God would continue to use the many thousands of these books
 that are now in the hands of the Ukrainian people and that, if it is His will,
 we could print more.
@@ -122,7 +122,7 @@ it all in! But here are the cliff notes for now…
 
 ## How You Can Pray
 
-- Pray that God will continue to bless our Good and Evil outreach in Ukraine.
+- Pray that God will continue to bless our _Good and Evil_ outreach in Ukraine.
 - Praise the Lord for those in our church family who have believed the Gospel
   and been baptized. Pray for continued growth in Christ.
 - Pray for my dad, Mike, and for all our family as we learn to live without Mom.
@@ -170,7 +170,7 @@ it all in! But here are the cliff notes for now…
 
 <article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-church-photo_ieyke4" width="768" caption="Finally, we gathered outside for a church photo. This is by far not the whole group, but it's everyone who could make it that day. We are blessed to be a part of this amazing body in L'viv!" />
 
-<article-callout content="Next up, some photos from our Good and Evil outreach..." />
+<article-callout content="Next up, some photos from our _Good and Evil_ outreach..." />
 
 <article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-men-van-group_bf2f1c" width="768" caption="For today's shipment, we need to load 56 cases of books (18 per box)." />
 
