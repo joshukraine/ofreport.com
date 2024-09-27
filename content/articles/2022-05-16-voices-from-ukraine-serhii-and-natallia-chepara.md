@@ -1,34 +1,60 @@
 ---
-title: "Voices from Ukraine: Serhii and Natallia Chepara"
-date: "2022-05-16"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1652695308/OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/chepara-family-1200w_x3l6uu.jpg"
+title: 'Voices from Ukraine: Serhii and Natallia Chepara'
+date: '2022-05-16'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1652695308/OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/chepara-family-1200w_x3l6uu.jpg'
 caption: >
-  Serhii Chepara, his wife Natallia, and their two children: Frantsishka (lower right) and Yulian
+  Serhii Chepara, his wife Natallia, and their two children: Frantsishka (lower
+  right) and Yulian
 preview: >
-  Today we’re pleased to introduce a new series on the podcast called Voices from Ukraine. In each episode of the series, we’ll be interviewing people in-country who are serving the Lord and striving to support the Ukrainian people in their struggle for freedom. In today’s episode, we’re excited to bring you the story of Serhii and Natallia Chepara. You’ll hear Serhii share his experiences in his native Ukrainian language, with Kelsie translating into English. Natallia will talk about their long weeks of separation as she and the children evacuated to Germany and adapted to refugee life. Finally, you’ll hear the heart-warming conclusion as their family is reunited in a small Carpathian village. This is an episode you won’t want to miss!
+  Today we’re pleased to introduce a new series on the podcast called Voices
+  from Ukraine. In each episode of the series, we’ll be interviewing people
+  in-country who are serving the Lord and striving to support the Ukrainian
+  people in their struggle for freedom. In today’s episode, we’re excited to
+  bring you the story of Serhii and Natallia Chepara. You’ll hear Serhii share
+  his experiences in his native Ukrainian language, with Kelsie translating into
+  English. Natallia will talk about their long weeks of separation as she and
+  the children evacuated to Germany and adapted to refugee life. Finally, you’ll
+  hear the heart-warming conclusion as their family is reunited in a small
+  Carpathian village. This is an episode you won’t want to miss!
 tags:
-- voices-from-ukraine
-- podcast
-- family
-- photos
+  - voices-from-ukraine
+  - podcast
+  - family
+  - photos
 ---
 
-Today we’re pleased to introduce a new series on the podcast called *Voices from Ukraine*. In each episode of the series, we’ll be interviewing people in-country who are serving the Lord and striving to support the Ukrainian people in their struggle for freedom.
+Today we’re pleased to introduce a new series on the podcast called _Voices from
+Ukraine_. In each episode of the series, we’ll be interviewing people in-country
+who are serving the Lord and striving to support the Ukrainian people in their
+struggle for freedom.
 
-In today’s episode, we’re excited to bring you the story of Serhii and Natallia Chepara. You’ll hear Serhii share his experiences in his native Ukrainian language, with Kelsie translating into English. Natallia will talk about their long weeks of separation as she and the children evacuated to Germany and adapted to refugee life. Finally, you’ll hear the heart-warming conclusion as their family is reunited in a small Carpathian village. This is an episode you won’t want to miss!
+In today’s episode, we’re excited to bring you the story of Serhii and Natallia
+Chepara. You’ll hear Serhii share his experiences in his native Ukrainian
+language, with Kelsie translating into English. Natallia will talk about their
+long weeks of separation as she and the children evacuated to Germany and
+adapted to refugee life. Finally, you’ll hear the heart-warming conclusion as
+their family is reunited in a small Carpathian village. This is an episode you
+won’t want to miss!
 
-If you would like to bless the Chepara family financially, you can donate to them directly via PayPal using Serhii’s email address (see below). And don’t forget to choose the “family and friends” option so that the entire donation will go to the Chepara’s.
+If you would like to bless the Chepara family financially, you can donate to
+them directly via PayPal using Serhii’s email address (see below). And don’t
+forget to choose the “family and friends” option so that the entire donation
+will go to the Chepara’s.
 
-❤️ &nbsp;**Donate directly to the Chepara’s via [PayPal](https://www.paypal.com/)!**
+❤️ &nbsp;**Donate directly to the Chepara’s via
+[PayPal](https://www.paypal.com/)!**
 
-📨 &nbsp;**serhii.chepara@gmail.com**
+📨 &nbsp;**<serhii.chepara@gmail.com>**
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
+
+<article-callout content="Sorry, this episode has been removed due to security concerns." />
 
 <article-spacer />
-
-<div id="buzzsprout-player-10626900"></div><script src="https://www.buzzsprout.com/1953515/10626900-voices-from-ukraine-serhii-and-natallia-chepara.js?container_id=buzzsprout-player-10626900&player=small" type="text/javascript" charset="utf-8"></script>
 
 <article-callout content="After you finish the episode, check out the video of Serhii and Natallia’s reunion!" />
 
@@ -40,11 +66,15 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 - Praise the Lord that we received our Ukrainian residency cards! 🥳
 - Pray for Serhii and Natallia as they navigate difficult days ahead.
-- Pray that God would continue to guide and bless our upcoming printing of 15,000 *Good and Evil* books.
+- Pray that God would continue to guide and bless our upcoming printing of
+  15,000 _Good and Evil_ books.
 - Continue to pray for our residency status in Slovakia.
-- Praise the Lord for improved health for our family! So far, no more rotavirus. 🙏
-- Praise the Lord for the safe arrival of Kelsie’s parents, the Powell’s. It’s such a blessing to have them here!
-- Pray for our Ukrainian outreach here in Žilina in collaboration with New Beginnings church.
+- Praise the Lord for improved health for our family! So far, no more rotavirus.
+  🙏
+- Praise the Lord for the safe arrival of Kelsie’s parents, the Powell’s. It’s
+  such a blessing to have them here!
+- Pray for our Ukrainian outreach here in Žilina in collaboration with New
+  Beginnings church.
 - Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from our life in Eastern Europe!" />
