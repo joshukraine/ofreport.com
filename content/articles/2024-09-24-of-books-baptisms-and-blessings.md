@@ -3,6 +3,9 @@ title: 'Of Books, Baptisms, and Blessings'
 date: '2024-09-24'
 author: 'Joshua Steele'
 cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1727100645/OFReport/2024-09-24-of-books-baptisms-and-blessings/books-baptisms-blessings-1200-630_p7uscg.jpg'
+caption: >
+  2024 has been a year of sorrow. Yet, in the midst of our trials, God has
+  brought joy and new life.
 preview: >
   One of my most frequent prayers in times of trial is that God would use me up
   to bless my family, to bring souls to Christ, to glorify His name on the
