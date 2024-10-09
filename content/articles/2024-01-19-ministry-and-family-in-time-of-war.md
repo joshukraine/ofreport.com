@@ -21,6 +21,7 @@ tags:
   - ministry
   - family
   - photos
+  - good-and-evil
 ---
 
 There are days when things appear almost peaceful. We move about the city,
