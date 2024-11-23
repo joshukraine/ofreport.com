@@ -29,7 +29,6 @@ export default {
       description:
         'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
       image:
-        // 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg',
         'https://res.cloudinary.com/dnkvsijzu/image/upload/c_fill,f_auto,h_630,q_auto:best,w_1200/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg',
       title: 'The Steele Family',
     };
