@@ -29,7 +29,7 @@ export default {
       description:
         'Joshua and Kelsie are missionaries enjoying life as best friends, serving their Savior, and raising up their children to honor Him.',
       image:
-        'https://res.cloudinary.com/dnkvsijzu/image/upload/c_fill,f_auto,h_630,q_auto:best,w_1200/v1572346054/OFReport/assets/steele-family-2018-12-6_sdixdx.jpg',
+        'https://res.cloudinary.com/dnkvsijzu/image/upload/c_fill,f_auto,h_630,q_auto:best,w_1200/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg',
       title: 'The Steele Family',
     };
   },
@@ -66,24 +66,24 @@ export default {
 }
 
 .family {
-  background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_768/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
+  background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_768/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg');
 }
 
 @screen xs {
   .family {
-    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1024/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1024/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg');
   }
 }
 
 @screen md {
   .family {
-    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1500/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_1500/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg');
   }
 }
 
 @screen lg {
   .family {
-    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1607358340/OFReport/assets/steeles-fall-2020_mcp242.jpg');
+    background-image: url('https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg');
   }
 }
 
