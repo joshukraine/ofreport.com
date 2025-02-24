@@ -142,7 +142,7 @@ as God gives me breath.
 
 <article-image publicId="OFReport/2025-02-24-the-november-project/ukrainian-resilience_wp17uh" width="768" caption="An elderly Ukrainian woman slowly makes her way to the meeting. The Russians have destroyed her village, but not her spirit. 💙💛" />
 
-<article-image publicId="OFReport/2025-02-24-the-november-project/joshua-mine-field_pzk4g1" height="768" caption="The sign reads: STOP MINES! These lined roads for miles almost everywhere we went in the southern regions." />
+<article-image publicId="OFReport/2025-02-24-the-november-project/joshua-mine-field_pzk4g1" height="768" caption="The sign reads: STOP! MINES! These lined roads for miles almost everywhere we went in the southern regions." />
 
 <article-image publicId="OFReport/2025-02-24-the-november-project/night-loading-van_t868ms" width="768" caption="Loading bread into the van in preparation for the next day's outreach." />
 
