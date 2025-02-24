@@ -55,9 +55,9 @@ southeast to Mykolaiv and Kherson. Our goal was to bring humanitarian aid and
 preach the Gospel.
 
 Prior to the trip, we coordinated with Oleksandr to assemble 500 humanitarian
-aid boxes containing staples like flour, beans, and pickled meat. Additionally,
-he arranged for fresh bread to be baked at various points along our route, which
-we would distribute with the aid boxes.
+aid boxes containing staples like flour, oil, beans, and pickled meat.
+Additionally, he arranged for fresh bread to be baked at various points along
+our route, which we would distribute with the aid boxes.
 
 <article-image publicId="OFReport/2025-02-24-the-november-project/nathan-loading-van_hvfbqa" width="768" caption="Nathan stacks aid boxes in the van. Most of the boxes were shipped to points ahead of us along the route, and we would reload the van every day as we progressed." />
 
@@ -72,9 +72,9 @@ road. Death was all around us.
 <article-image publicId="OFReport/2025-02-24-the-november-project/team-kherson-obl_b8w3cl" width="768" caption="Pausing for a quick selfie as we enter the Kherson oblast of UKRAINE! 🇺🇦💪🏻 From the left: Joshua, Nathan, Ben, Oleksandr." />
 
 Our first meeting was in New Odesa, just north of Mykolaiv. A large crowd had
-gathered, thanks to Oleksandr’s advance planning. Ben preached the Gospel while
-I translated, and every Ukrainian in attendance received an aid package. Many
-also took home copies of _Good and Evil_.
+gathered thanks to Oleksandr’s advance planning. Ben preached the Gospel while I
+translated, and every Ukrainian in attendance received an aid package. Many also
+took home copies of _Good and Evil_.
 
 <article-image publicId="OFReport/2025-02-24-the-november-project/ben-preaching-van_uzmo6l" width="768" caption="Ben preaches the Gospel in the village of Sadok while Joshua interprets." />
 
@@ -83,10 +83,10 @@ crossed from Mykolaiv into Kherson oblast, drawing ever closer to
 Russian-occupied territory. Each stop revealed the same scenes: open fields
 filled with mines, long dirt roads, bombed-out buildings, and twisted remnants
 of Russian weapons. And in every location, we shared the message of salvation in
-Jesus. Yes, they may have come primarily for the bread and staples we
-offered—and I was amazed by how eager they were for these small gifts. But they
-departed not only with freshly baked bread to nourish their bodies but having
-heard of the Bread of Life.
+Jesus with the people we met. Yes, they may have come primarily for the bread
+and staples we offered—and I was amazed by how eager they were for these small
+gifts. But they departed not only with freshly baked bread to nourish their
+bodies but having heard of the Bread of Life.
 
 With our circuit of towns complete, we began the long journey back to Zhytomyr.
 There, we assisted Oleksandr’s church team with a large Gospel meeting. Dozens
