@@ -23,6 +23,7 @@ preview: >
   Oleksandr Ilchenko.
 tags:
   - newsletter
+  - ukraine
   - photos
   - good-and-evil
 ---
