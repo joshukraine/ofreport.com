@@ -1,8 +1,8 @@
 ---
 title: 'When is Daddy Coming Home?'
-date: '2025-04-08'
+date: '2025-04-07'
 author: 'Joshua Steele'
-cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1744053120/OFReport/2025-04-08-when-is-daddy-coming-home/chepara-cover-2300w_szubsq.jpg'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1744053134/OFReport/2025-04-07-when-is-daddy-coming-home/chepara-cover-2300w_fadwo5.jpg'
 preview: >
   “When is Daddy coming home?” This is a question all children ask, and it
   points to a promise all good parents make. Kelsie and I have said it countless
