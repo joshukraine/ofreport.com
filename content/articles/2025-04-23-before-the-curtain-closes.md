@@ -19,7 +19,16 @@ tags:
 _This article originally appeared on
 [nogreaterjoy.org](https://nogreaterjoy.org/articles/before-the-curtain-closes/)_
 
-<article-spacer />
+<article-divider mt="8" mb="8"/>
+
+**No Greater Joy Ministries is now raising funds for a new printing of _Good and
+Evil_ in Ukrainian! Learn more about our vision in this article, or jump
+straight to the donation page using the button below. Thank you for your
+support! 💙💛**
+
+<article-button text="Donate Now" path="https://nogreaterjoy.org/shop/ministry-gift-ukraine-ge-printing/" :outline="true" :center="true" :external="true" margin="y"/>
+
+<article-divider mt="2" mb="10"/>
 
 Our team of four barely fit into a mid-size Ford van, which we had packed from
 floor to ceiling with supplies: bread, aid boxes, rice, and cases of the Bible
