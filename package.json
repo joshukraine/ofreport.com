@@ -43,14 +43,15 @@
     "markdown-it": "13.0.2",
     "markdown-it-link-attributes": "^4.0.0",
     "markdown-to-json": "^0.5.1",
-    "nuxt": "2.15.8",
+    "nuxt": "2.18.1",
     "tailwindcss": "^1.9.6",
     "vuejs-paginate": "^2.1.0",
     "vuelidate": "^0.7.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/tailwindcss": "3.0.0",
+    "@nuxtjs/tailwindcss": "4.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "^14.2.0",
