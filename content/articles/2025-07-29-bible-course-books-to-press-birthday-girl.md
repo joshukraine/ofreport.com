@@ -1,6 +1,6 @@
 ---
 title: 'Bible Course, Books to Press, and a Birthday Girl!'
-date: '2025-07-28'
+date: '2025-07-29'
 author: 'Kelsie Steele'
 cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1753728030/OFReport/2025-07-28-bible-course-books-to-print-birthday-girl/all-dry_kthijl.jpg'
 preview: >
@@ -48,7 +48,3 @@ Please continue to pray for freedom in Ukraine. Air raids have increased in inte
 <article-image publicId="OFReport/2025-07-28-bible-course-books-to-print-birthday-girl/ukraine-map_kg68se" width="768" caption="This map shows cruise missile and Shahed drone activity (red and yellow respectively) from July 21st." />
 
 <article-image publicId="OFReport/2025-07-28-bible-course-books-to-print-birthday-girl/flag_nmlbyw" height="768" caption="May God bless Ukraine!" />
-
-
-
-
