@@ -2,7 +2,7 @@
 title: 'Announcing Ukraine Gospel Outreach'
 date: '2025-08-31'
 author: 'Joshua Steele'
-cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1756641639/OFReport/2025-08-31-announcing-ukraine-gospel-outreach/UGO-Begins-Cover-3000w_i09fnj.png'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1756660145/OFReport/2025-08-31-announcing-ukraine-gospel-outreach/UGO-Begins-Cover_wlqj5f.png'
 pdf: 'OFR-Jul-Aug-2025.pdf'
 preview: >
   One of the fundamental principles we taught our CMO teams was this: methods
