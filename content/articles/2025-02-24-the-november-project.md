@@ -3,6 +3,7 @@ title: 'The November Project'
 date: '2025-02-24'
 author: 'Joshua Steele'
 cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1739774066/OFReport/2025-02-24-the-november-project/joshua-preaching-zhytomyr-1200-630_sikh8p.jpg'
+pdf: 'OFR-Nov-Dec-2024.pdf'
 caption: >
   Late in 2024, our team had the incredible privilege of traveling to some of
   the areas in Ukraine hardest hit by the war. Amidst minefields and bombed-out
@@ -26,6 +27,7 @@ tags:
   - ukraine
   - photos
   - good-and-evil
+  - ugo
 ---
 
 It all began with a phone call from Ben Sargent. Ben serves on our board of

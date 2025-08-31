@@ -3,6 +3,7 @@ title: 'Of Books, Baptisms, and Blessings'
 date: '2024-09-24'
 author: 'Joshua Steele'
 cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1727100645/OFReport/2024-09-24-of-books-baptisms-and-blessings/books-baptisms-blessings-1200-630_p7uscg.jpg'
+pdf: 'OFR-Sep-Oct-2024.pdf'
 caption: >
   2024 has been a year of sorrow. Yet, in the midst of our trials, God has
   brought joy and new life.
