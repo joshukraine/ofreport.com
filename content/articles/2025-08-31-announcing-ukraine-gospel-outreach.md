@@ -115,8 +115,8 @@ pray for our team as we step into this new chapter of ministry in Ukraine.
 - Pray for the planning and execution of our upcoming UGO project in October.
   Pray for the safety of our team and for divine appointments as we minister to
   the people of Ukraine.
-- Praise the Lord for the generous donations received for the printing of Good
-  and Evil! Pray that the books will arrive in time for our October project.
+- Praise the Lord for the generous donations received for the printing of _Good
+  and Evil_! Pray that the books will arrive in time for our October project.
 - Pray that many new people will enroll in _Bible First_ during the October
   project. _Bible First_ remains at the core of our Gospel ministry in Ukraine.
 - Pray for wisdom and clarity as we continue to develop Ukraine Gospel Outreach

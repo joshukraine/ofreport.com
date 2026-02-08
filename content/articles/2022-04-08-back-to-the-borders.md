@@ -1,22 +1,37 @@
 ---
-title: "Back to the Borders"
-date: "2022-04-08"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1649529085/OFReport/2022-04-08-back-to-the-borders/abby-border-group-1200-800_yncanj.jpg"
+title: 'Back to the Borders'
+date: '2022-04-08'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1649529085/OFReport/2022-04-08-back-to-the-borders/abby-border-group-1200-800_yncanj.jpg'
 caption: >
-  Abigail and her teammates gear up for a 12-hour night shift at the border distributing food and supplies to Ukrainian refugees entering Slovakia.
+  Abigail and her teammates gear up for a 12-hour night shift at the border
+  distributing food and supplies to Ukrainian refugees entering Slovakia.
 preview: >
-  For the first time since our evacuation, Joshua made a trip back into Ukraine to our home in L’viv. Hours before his planned arrival, L’viv was hit by Russian cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She joins us in this episode to share her story! We also have news about a new van for our family, as well as several prayer requests, especially regarding our health.
+  For the first time since our evacuation, Joshua made a trip back into Ukraine
+  to our home in L’viv. Hours before his planned arrival, L’viv was hit by
+  Russian cruise missiles! Meanwhile, our daughter Abigail volunteered for a
+  week with a team distributing humanitarian aid to Ukrainian refugees entering
+  Slovakia. She joins us in this episode to share her story! We also have news
+  about a new van for our family, as well as several prayer requests, especially
+  regarding our health.
 tags:
-- ukraine
-- podcast
-- family
-- photos
+  - ukraine
+  - podcast
+  - family
+  - photos
 ---
 
-For the first time since our evacuation, Joshua made a trip back into Ukraine to our home in L’viv. Hours before his planned arrival, L’viv was hit by Russian cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She joins us in this episode to share her story! We also have news about a new van for our family, as well as several prayer requests, especially regarding our health.
+For the first time since our evacuation, Joshua made a trip back into Ukraine to
+our home in L’viv. Hours before his planned arrival, L’viv was hit by Russian
+cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a
+team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She
+joins us in this episode to share her story! We also have news about a new van
+for our family, as well as several prayer requests, especially regarding our
+health.
 
-Thank you so much for listening to our podcast! Please share this episode with your friends and pray for our family as we minister to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please share this episode with
+your friends and pray for our family as we minister to Ukrainians in Eastern
+Europe.
 
 <article-spacer />
 
@@ -24,11 +39,14 @@ Thank you so much for listening to our podcast! Please share this episode with y
 
 ### How You Can Pray
 
-- Pray for our next trip to L’viv this weekend (Joshua and Kelsie only) and for our Ukrainian residency documents. Also pray for our kids’ wellbeing while we’re away.
+- Pray for our next trip to L’viv this weekend (Joshua and Kelsie only) and for
+  our Ukrainian residency documents. Also pray for our kids’ wellbeing while
+  we’re away.
 - Pray for our new van purchase and delivery to be completed quickly.
 - Pray for direction regarding our residency in Slovakia.
 - Pray for our health! No more stomach viruses please! 😩🙏🏻
-- Pray that God would continue to open doors for our family to bless and minister to Ukrainians.
+- Pray that God would continue to open doors for our family to bless and
+  minister to Ukrainians.
 - Pray for peace and liberty in Ukraine.
 
 ### PayPal in Ukraine

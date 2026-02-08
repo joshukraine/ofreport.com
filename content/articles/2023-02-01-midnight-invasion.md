@@ -1,22 +1,33 @@
 ---
-title: "Midnight Invasion"
-date: "2023-02-01"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1675277575/OFReport/2023-02-01-midnight-invasion/midnight-van_ykueq5.jpg"
+title: 'Midnight Invasion'
+date: '2023-02-01'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1675277575/OFReport/2023-02-01-midnight-invasion/midnight-van_ykueq5.jpg'
 caption: >
-  Trying to enter Ukraine with a Belorussian citizen is not easy in these times of conflict and uncertainty. There were some tense moments, and we thought we might have to spend the whole night on the border...
+  Trying to enter Ukraine with a Belorussian citizen is not easy in these times
+  of conflict and uncertainty. There were some tense moments, and we thought we
+  might have to spend the whole night on the border...
 preview: >
-  Today we’d like to share the story of our most recent trip into Ukraine. Our primary objective was to reunite a Ukrainian family separated by the war. But as you’ll find out in this episode, God led us through a whole string of adventures. As always, He was faithful to guide and protect our way.
+  Today we’d like to share the story of our most recent trip into Ukraine. Our
+  primary objective was to reunite a Ukrainian family separated by the war. But
+  as you’ll find out in this episode, God led us through a whole string of
+  adventures. As always, He was faithful to guide and protect our way.
 tags:
-- podcast
-- ukraine
-- ministry
-- family
+  - podcast
+  - ukraine
+  - ministry
+  - family
 ---
 
-Today we’d like to share the story of our most recent trip into Ukraine. Our primary objective was to reunite a Ukrainian family separated by the war. But as you’ll find out in this episode, God led us through a whole string of adventures. As always, He was faithful to guide and protect our way.
+Today we’d like to share the story of our most recent trip into Ukraine. Our
+primary objective was to reunite a Ukrainian family separated by the war. But as
+you’ll find out in this episode, God led us through a whole string of
+adventures. As always, He was faithful to guide and protect our way.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -24,13 +35,20 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 ## How You Can Pray
 
-* Praise the Lord for granting us success in reuniting Serhii, his wife Natallia and their family.
-* Pray for resilience and strength for Ukrainians as they continue to battle Russia’s invasion of their homeland.
-* Pray that God would continue to bless and prosper our various Gospel outreaches, including Bible First, the *Good and Evil* book, and possibly even a return of CMO in 2023! 😮
-* Pray for safety for me as I prepare for yet another trip to Ukraine on February 8.
-* Pray for Ukraine’s energy infrastructure as millions continue to struggle with power outages, lack of heat, poor Internet and phone access, and other hardships during the winter months.
-* Pray for health, wisdom and courage for our family.
-* Pray for peace and liberty in Ukraine.
+- Praise the Lord for granting us success in reuniting Serhii, his wife Natallia
+  and their family.
+- Pray for resilience and strength for Ukrainians as they continue to battle
+  Russia’s invasion of their homeland.
+- Pray that God would continue to bless and prosper our various Gospel
+  outreaches, including Bible First, the _Good and Evil_ book, and possibly even
+  a return of CMO in 2023! 😮
+- Pray for safety for me as I prepare for yet another trip to Ukraine on
+  February 8.
+- Pray for Ukraine’s energy infrastructure as millions continue to struggle with
+  power outages, lack of heat, poor Internet and phone access, and other
+  hardships during the winter months.
+- Pray for health, wisdom and courage for our family.
+- Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos of our trip..." />
 

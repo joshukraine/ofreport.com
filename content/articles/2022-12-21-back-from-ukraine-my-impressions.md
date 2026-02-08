@@ -1,34 +1,48 @@
 ---
-title: "Back from Ukraine: My Impressions"
-date: "2022-12-21"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1671642434/OFReport/2022-12-21-back-from-ukraine-my-impressions/gg-prayer-for-yura-1200-630_wzah69.jpg"
+title: 'Back from Ukraine: My Impressions'
+date: '2022-12-21'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1671642434/OFReport/2022-12-21-back-from-ukraine-my-impressions/gg-prayer-for-yura-1200-630_wzah69.jpg'
 caption: >
-  During the Sunday I spent at our church, we were blessed to have Yura Chuhay (bearded guy to my right) back from the front lines. He is stationed in the east in a very hot zone. We pray for his safety and a swift end to this terrible war.
+  During the Sunday I spent at our church, we were blessed to have Yura Chuhay
+  (bearded guy to my right) back from the front lines. He is stationed in the
+  east in a very hot zone. We pray for his safety and a swift end to this
+  terrible war.
 preview: >
-  I went to Ukraine and made it back in one piece! It was my first time there in six months. In this episode, I share my impressions from several days spent in L’viv as well as a possible answer to that looming question: “Can we return to Ukraine?”
+  I went to Ukraine and made it back in one piece! It was my first time there in
+  six months. In this episode, I share my impressions from several days spent in
+  L’viv as well as a possible answer to that looming question: “Can we return to
+  Ukraine?”
 tags:
-- podcast
-- ukraine
-- ministry
+  - podcast
+  - ukraine
+  - ministry
 ---
 
-I went to Ukraine and made it back in one piece! It was my first time there in six months. In this episode, I share my impressions from several days spent in L’viv as well as a possible answer to that looming question: “Can we return to Ukraine?”
+I went to Ukraine and made it back in one piece! It was my first time there in
+six months. In this episode, I share my impressions from several days spent in
+L’viv as well as a possible answer to that looming question: “Can we return to
+Ukraine?”
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
 <div id="buzzsprout-player-11912088"></div><script src="https://www.buzzsprout.com/1953515/11912088-back-from-ukraine-my-impressions.js?container_id=buzzsprout-player-11912088&player=small" type="text/javascript" charset="utf-8"></script>
 
 ## How You Can Pray
-* Praise the Lord for a successful trip to Ukraine on December 3–8.
-* Pray for my next trip in a few days (Dec 24). This time I’m taking along three of our kids. More updates to come!
-* Pray for Ukraine’s energy infrastructure as millions face a long, cold winter with limited access to heat and electricity.
-* Pray for our Ukrainian Family Fellowship in Žilina.
-* Pray for health, wisdom and courage for our family.
-* Pray for peace and liberty in Ukraine.
- 
+
+- Praise the Lord for a successful trip to Ukraine on December 3–8.
+- Pray for my next trip in a few days (Dec 24). This time I’m taking along three
+  of our kids. More updates to come!
+- Pray for Ukraine’s energy infrastructure as millions face a long, cold winter
+  with limited access to heat and electricity.
+- Pray for our Ukrainian Family Fellowship in Žilina.
+- Pray for health, wisdom and courage for our family.
+- Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from my trip to Ukraine..." />
 

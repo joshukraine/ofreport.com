@@ -1,22 +1,38 @@
 ---
-title: "Loving Ukraine"
-date: "2023-10-19"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1697737974/OFReport/2023-10-19-loving-ukraine/hospital-concert-outside_jssam2.jpg"
+title: 'Loving Ukraine'
+date: '2023-10-19'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1697737974/OFReport/2023-10-19-loving-ukraine/hospital-concert-outside_jssam2.jpg'
 caption: >
-  On a hot day in August, our family and the CMO team gathered at a hospital for wounded Ukrainian soldiers in L’viv. We went room to room, singing Ukrainian songs and sharing the Gospel.
+  On a hot day in August, our family and the CMO team gathered at a hospital for
+  wounded Ukrainian soldiers in L’viv. We went room to room, singing Ukrainian
+  songs and sharing the Gospel.
 preview: >
-  We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but the war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
+  We’re back with more news from our family and ministry in Ukraine, but also an
+  important announcement. This will be the final episode of the Journey to
+  Ukraine podcast. While we are sad to have reached the end of this chapter,
+  we’re glad that our journey has brought us home to L’viv! Ukraine remains
+  free, but the war is not over, and there are new challenges ahead. Please join
+  us for this special episode as we share what’s next for the Steele family in
+  Ukraine!
 tags:
-- podcast
-- ukraine
-- ministry
-- family
+  - podcast
+  - ukraine
+  - ministry
+  - family
 ---
 
-We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but the war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
+We’re back with more news from our family and ministry in Ukraine, but also an
+important announcement. This will be the final episode of the Journey to Ukraine
+podcast. While we are sad to have reached the end of this chapter, we’re glad
+that our journey has brought us home to L’viv! Ukraine remains free, but the war
+is not over, and there are new challenges ahead. Please join us for this special
+episode as we share what’s next for the Steele family in Ukraine!
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -25,34 +41,32 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 ## Links from the Episode
 
 - News and updates going forward: [OFReport.com](https://ofreport.com/)
-- Subscribe to our blog: [OFReport.com/subscribe](https://ofreport.com/subscribe/)
-- Listen to all our podcast episodes: [OFReport.com/podcast](https://ofreport.com/podcast/)
-- CMO 2023 updates: [euroteamoutreach.org/blog](https://euroteamoutreach.org/blog/)
-- CMO photo albums: [facebook.com](https://www.facebook.com/euroteamoutreach/photos_albums)
-- Krakow photo with Hank/Bill Thompson: [facebook.com](https://www.facebook.com/photo/?fbid=275459658525392&set=a.275241695213855)
+- Subscribe to our blog:
+  [OFReport.com/subscribe](https://ofreport.com/subscribe/)
+- Listen to all our podcast episodes:
+  [OFReport.com/podcast](https://ofreport.com/podcast/)
+- CMO 2023 updates:
+  [euroteamoutreach.org/blog](https://euroteamoutreach.org/blog/)
+- CMO photo albums:
+  [facebook.com](https://www.facebook.com/euroteamoutreach/photos_albums)
+- Krakow photo with Hank/Bill Thompson:
+  [facebook.com](https://www.facebook.com/photo/?fbid=275459658525392&set=a.275241695213855)
 
 ## Ukraine News Sources
 
-- [Sky News (YouTube)](https://www.youtube.com/playlist?list=PLG8IrydigQfdt7DcwVqs_COZ9RXC6jRUB)
-- [The Kyiv Independent](https://kyivindependent.com/)
-- [Denys Davydov (YouTube)](https://www.youtube.com/@DenysDavydov)
-- [Jake Broe (YouTube)](https://www.youtube.com/@JakeBroe)
-- [TLDR News EU (YouTube)](https://www.youtube.com/@TLDRnewsEU)
-- [Ukraine: The Latest (podcast)](https://podcasts.apple.com/gb/podcast/ukraine-the-latest/id1612424182)
-- [Institute for the Study of War (ISW)](https://www.understandingwar.org/)
-- [Deep State Map](https://deepstatemap.live/)
-
-## How You Can Pray
-
-* Praise the Lord for victories this summer during CMO 2023.
-* Pray for the many Ukrainians who heard the Gospel during CMO.
-* Pray that God would continue to bless our *Good and Evil* distributor program. We’ve now gone through more than half our total stock!
-* Pray that God would grant us strength, courage, wisdom and direction as we continue to serve Him in Ukraine.
-* Pray for safety and stable electricity through the winter months. Pray for protection from Russian missile attacks.
-* Pray for our daughter, Abigail, as she spends a few months in the US for work and study. She is currently living with Kelsie’s parents.
-* Pray for health and strength for our family.
-* Pray for a swift Ukrainian victory over their oppressors.
-* Pray for peace and liberty in Ukraine.
+- Praise the Lord for victories this summer during CMO 2023.
+- Pray for the many Ukrainians who heard the Gospel during CMO.
+- Pray that God would continue to bless our _Good and Evil_ distributor program.
+  We’ve now gone through more than half our total stock!
+- Pray that God would grant us strength, courage, wisdom and direction as we
+  continue to serve Him in Ukraine.
+- Pray for safety and stable electricity through the winter months. Pray for
+  protection from Russian missile attacks.
+- Pray for our daughter, Abigail, as she spends a few months in the US for work
+  and study. She is currently living with Kelsie’s parents.
+- Pray for health and strength for our family.
+- Pray for a swift Ukrainian victory over their oppressors.
+- Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 

@@ -1,35 +1,71 @@
 ---
-title: "Countdown"
-date: "2023-06-07"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1686068336/OFReport/2023-06-07-countdown/mojs-valley-1200-630_pifmfi.jpg"
+title: 'Countdown'
+date: '2023-06-07'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1686068336/OFReport/2023-06-07-countdown/mojs-valley-1200-630_pifmfi.jpg'
 caption: >
-  This is the valley in Slovakia where God has kept and blessed our family over the past year. Our village, Mojš, is visible on the far right below the river and above the Kia factory.
+  This is the valley in Slovakia where God has kept and blessed our family over
+  the past year. Our village, Mojš, is visible on the far right below the river
+  and above the Kia factory.
 preview: >
-  It’s hard to believe that it’s been a year and three months since we evacuated from Ukraine on a bitter-cold March morning in 2022. During this time, God has kept and blessed our family in Slovakia. We have connected with a wonderful church family consisting of Slovaks, Ukrainians, Czechs, Americans, and Britons. These people have become very dear to us, and we are keenly aware that we are leaving a piece of our hearts here. Now, the time has come to return to Ukraine and our ministry in L’viv.
+  It’s hard to believe that it’s been a year and three months since we evacuated
+  from Ukraine on a bitter-cold March morning in 2022. During this time, God has
+  kept and blessed our family in Slovakia. We have connected with a wonderful
+  church family consisting of Slovaks, Ukrainians, Czechs, Americans, and
+  Britons. These people have become very dear to us, and we are keenly aware
+  that we are leaving a piece of our hearts here. Now, the time has come to
+  return to Ukraine and our ministry in L’viv.
 tags:
-- ukraine
-- ministry
-- family
+  - ukraine
+  - ministry
+  - family
 ---
 
-It’s hard to believe that it’s been a year and three months since we evacuated from Ukraine on a bitter-cold March morning in 2022. During this time, God has kept and blessed our family in Slovakia. We have connected with a wonderful church family consisting of Slovaks, Ukrainians, Czechs, Americans, and Britons. These people have become very dear to us, and we are keenly aware that we are leaving a piece of our hearts here. Now, the time has come to return to Ukraine and our ministry in L’viv.
+It’s hard to believe that it’s been a year and three months since we evacuated
+from Ukraine on a bitter-cold March morning in 2022. During this time, God has
+kept and blessed our family in Slovakia. We have connected with a wonderful
+church family consisting of Slovaks, Ukrainians, Czechs, Americans, and Britons.
+These people have become very dear to us, and we are keenly aware that we are
+leaving a piece of our hearts here. Now, the time has come to return to Ukraine
+and our ministry in L’viv.
 
-Today is our final day at our rented house in the little village of Mojš. We’re packing suitcases, disassembling furniture, and wrapping our belongings in shrink wrap. Kelsie is doing a masterful job juggling meals and directing the children with their tasks. Our dear friend Kim Shepperson — the lady who helped us rent our first apartment in Žilina — is coming to take the younger children to her house for the day so we can better focus on packing. It’s organized chaos, but by God’s grace, it’s all coming together.
+Today is our final day at our rented house in the little village of Mojš. We’re
+packing suitcases, disassembling furniture, and wrapping our belongings in
+shrink wrap. Kelsie is doing a masterful job juggling meals and directing the
+children with their tasks. Our dear friend Kim Shepperson — the lady who helped
+us rent our first apartment in Žilina — is coming to take the younger children
+to her house for the day so we can better focus on packing. It’s organized
+chaos, but by God’s grace, it’s all coming together.
 
-As I write these words, our friends Vladyslav and Marta are on their way to us, driving the church van from L’viv. They should arrive later this evening, at which time we will pack everything we can fit into their van and our van. Tomorrow morning (June 8) at around 6 am, our little caravan will depart for Ukraine.
+As I write these words, our friends Vladyslav and Marta are on their way to us,
+driving the church van from L’viv. They should arrive later this evening, at
+which time we will pack everything we can fit into their van and our van.
+Tomorrow morning (June 8) at around 6 am, our little caravan will depart for
+Ukraine.
 
-Our route will take us north through the mountains towards Krakow, Poland, and from there we’ll drive east to the Ukrainian border. If all goes well, we will arrive at our home in L’viv sometime in the late afternoon.
+Our route will take us north through the mountains towards Krakow, Poland, and
+from there we’ll drive east to the Ukrainian border. If all goes well, we will
+arrive at our home in L’viv sometime in the late afternoon.
 
-Please pray specifically for our crossing at the border. We are bringing quite an array of personal belongings — everything from clothes to coffee machines, furniture, kitchenware, computers, and even a pair of large Yamaha speakers which will be needed for our summer outreach. Pray that the customs officials will not try to charge us some kind of import tax.
+Please pray specifically for our crossing at the border. We are bringing quite
+an array of personal belongings — everything from clothes to coffee machines,
+furniture, kitchenware, computers, and even a pair of large Yamaha speakers
+which will be needed for our summer outreach. Pray that the customs officials
+will not try to charge us some kind of import tax.
 
-Despite the chaos of an international move, our ministry is moving forward on several fronts. Here are a few of brief updates…
+Despite the chaos of an international move, our ministry is moving forward on
+several fronts. Here are a few of brief updates…
 
 ## 📚 Good and Evil Distribution
 
-We are thrilled to report that the *Good and Evil* distribution project continues to move forward with great success. Recently, we received some pictures from our friends Andrii Pukavskyi and his wife, Olya, who live in Kyiv. They’ve been handing out *Good and Evil* books to Ukrainian soldiers there, and they are excited about the impact they are seeing!
+We are thrilled to report that the _Good and Evil_ distribution project
+continues to move forward with great success. Recently, we received some
+pictures from our friends Andrii Pukavskyi and his wife, Olya, who live in Kyiv.
+They’ve been handing out _Good and Evil_ books to Ukrainian soldiers there, and
+they are excited about the impact they are seeing!
 
-As of this writing, we’ve sent out over 6,500 books to our various distributors across Ukraine.
+As of this writing, we’ve sent out over 6,500 books to our various distributors
+across Ukraine.
 
 <article-image publicId="OFReport/2023-06-07-countdown/soldiers-good-and-evil-book_rckbzw" width="768" caption="Olya Pukavska distributes *Good and Evil* books to soliders in Kyiv." />
 
@@ -39,24 +75,38 @@ As of this writing, we’ve sent out over 6,500 books to our various distributor
 
 ## ⛰️ Carpathian Mountain Outreach 2023
 
-We now have two young men registered for [CMO 2023](https://cmoproject.org/), which will begin on August 8. Nathan Day will be flying over for the project, and several of my kids will also participate. We should have a great team!
+We now have two young men registered for [CMO 2023](https://cmoproject.org/),
+which will begin on August 8. Nathan Day will be flying over for the project,
+and several of my kids will also participate. We should have a great team!
 
-As you might expect, there is a lot to do to get ready, so please keep us in prayer as we try to juggle CMO prep with re-acclimatizing our family to life in Ukraine.
+As you might expect, there is a lot to do to get ready, so please keep us in
+prayer as we try to juggle CMO prep with re-acclimatizing our family to life in
+Ukraine.
 
 ## 🇫🇷 Bible First French
 
-Many of our readers have been excited about the news that *Bible First* will soon be available in French. A few weeks ago, we published a report about our collaboration with some missionaries in Africa who want to use *Bible First* with French speakers there.
+Many of our readers have been excited about the news that _Bible First_ will
+soon be available in French. A few weeks ago, we published a report about our
+collaboration with some missionaries in Africa who want to use _Bible First_
+with French speakers there.
 
-Progress has been slower than hoped — due in large part to the upheaval in our lives right now — but we are steadily moving forward. There is a relatively small amount of work remaining, and we are optimistic that *Bible First* French will be ready for launch very soon. We appreciate your patience and prayers for this ministry!
+Progress has been slower than hoped — due in large part to the upheaval in our
+lives right now — but we are steadily moving forward. There is a relatively
+small amount of work remaining, and we are optimistic that _Bible First_ French
+will be ready for launch very soon. We appreciate your patience and prayers for
+this ministry!
 
 ## How You Can Pray
 
-* Pray for strength and safety as our family departs for Ukraine. Pray especially for smooth border crossings.
-* Praise the Lord for progress being made on various ministry fronts!
-* Pray for a successful CMO project this summer. Pray that many Ukrainians — both soldiers and civilians – would hear and believe the Gospel.
-* Pray for the French-language outreach of *Bible First Online*.
-* Praise the Lord for the ongoing success of the *Good and Evil* distribution program in Ukraine.
-* Pray for peace and liberty in Ukraine.
+- Pray for strength and safety as our family departs for Ukraine. Pray
+  especially for smooth border crossings.
+- Praise the Lord for progress being made on various ministry fronts!
+- Pray for a successful CMO project this summer. Pray that many Ukrainians —
+  both soldiers and civilians – would hear and believe the Gospel.
+- Pray for the French-language outreach of _Bible First Online_.
+- Praise the Lord for the ongoing success of the _Good and Evil_ distribution
+  program in Ukraine.
+- Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 

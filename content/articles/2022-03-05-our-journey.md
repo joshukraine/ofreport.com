@@ -1,20 +1,31 @@
 ---
-title: "Our Journey"
-date: "2022-03-05"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1646512596/OFReport/2022-03-05-our-journey/crossing-slovakia_mbynz1.jpg"
+title: 'Our Journey'
+date: '2022-03-05'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1646512596/OFReport/2022-03-05-our-journey/crossing-slovakia_mbynz1.jpg'
 caption: >
-  As we crest the last hill, we finally see the crossing area come into view. What a welcome sight!
+  As we crest the last hill, we finally see the crossing area come into view.
+  What a welcome sight!
 preview: >
-  On March 1, 2022, our family completed our crossing from Ukraine into Slovakia. This has been a difficult journey, but as always, God has been more than faithful. It’s been a few days since we posted news of our progress, so in this (admittedly longer) audio update, we’d like to bring you up to speed. We’ll talk not only about what has transpired, but about our current position in Slovakia and our plans the future. Thanks for listening!
+  On March 1, 2022, our family completed our crossing from Ukraine into
+  Slovakia. This has been a difficult journey, but as always, God has been more
+  than faithful. It’s been a few days since we posted news of our progress, so
+  in this (admittedly longer) audio update, we’d like to bring you up to speed.
+  We’ll talk not only about what has transpired, but about our current position
+  in Slovakia and our plans the future. Thanks for listening!
 tags:
-- ukraine
-- podcast
-- family
-- photos
+  - ukraine
+  - podcast
+  - family
+  - photos
 ---
 
-On March 1, 2022, our family completed our crossing from Ukraine into Slovakia. This has been a difficult journey, but as always, God has been more than faithful. It’s been a few days since we posted news of our progress, so in this (admittedly longer) audio update, we’d like to bring you up to speed. We’ll talk not only about what has transpired, but about our current position in Slovakia and our plans the future. Thanks for listening!
+On March 1, 2022, our family completed our crossing from Ukraine into Slovakia.
+This has been a difficult journey, but as always, God has been more than
+faithful. It’s been a few days since we posted news of our progress, so in this
+(admittedly longer) audio update, we’d like to bring you up to speed. We’ll talk
+not only about what has transpired, but about our current position in Slovakia
+and our plans the future. Thanks for listening!
 
 <article-spacer />
 

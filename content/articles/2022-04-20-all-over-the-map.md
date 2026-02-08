@@ -1,22 +1,36 @@
 ---
-title: "All Over the Map"
-date: "2022-04-20"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1650541480/OFReport/2022-04-20-all-over-the-map/air-alert-map-ua_wzwxmn.jpg"
+title: 'All Over the Map'
+date: '2022-04-20'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1650541480/OFReport/2022-04-20-all-over-the-map/air-alert-map-ua_wzwxmn.jpg'
 caption: >
-  The website alerts.in.ua publishes a live air-alert map of Ukraine showing which oblasts are currently under threat of aerial bombardment. This is the map we saw in the early morning hours of April 18 when multiple Russian missiles struck our city.
+  The website alerts.in.ua publishes a live air-alert map of Ukraine showing
+  which oblasts are currently under threat of aerial bombardment. This is the
+  map we saw in the early morning hours of April 18 when multiple Russian
+  missiles struck our city.
 preview: >
-  Evacuation life for our family has proven to be anything but boring! In this episode, we’re excited to share our most recent stories with you, including another trip back into Ukraine, new doors opening for ministry to refugees in Slovakia and Poland, family news, and, sadly, a report on Russia’s latest missile strike in L’viv.
+  Evacuation life for our family has proven to be anything but boring! In this
+  episode, we’re excited to share our most recent stories with you, including
+  another trip back into Ukraine, new doors opening for ministry to refugees in
+  Slovakia and Poland, family news, and, sadly, a report on Russia’s latest
+  missile strike in L’viv.
 tags:
-- ukraine
-- podcast
-- family
-- photos
+  - ukraine
+  - podcast
+  - family
+  - photos
 ---
 
-Evacuation life for our family has proven to be anything but boring! In this episode, we’re excited to share our most recent stories with you, including another trip back into Ukraine, new doors opening for ministry to refugees in Slovakia and Poland, family news, and, sadly, a report on Russia’s latest missile strike in L’viv.
+Evacuation life for our family has proven to be anything but boring! In this
+episode, we’re excited to share our most recent stories with you, including
+another trip back into Ukraine, new doors opening for ministry to refugees in
+Slovakia and Poland, family news, and, sadly, a report on Russia’s latest
+missile strike in L’viv.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -24,11 +38,16 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 ### How You Can Pray
 
-- Pray for our next trip to L’viv to pick up residency cards. We expect that some time in early May.
-- Pray for timely and successful completion of the registration process for our new van. 🚌
-- Pray that we would be able to find an inviting organization to act as our “employer” here in Slovakia. This is a critical step for us to obtain residency here.
+- Pray for our next trip to L’viv to pick up residency cards. We expect that
+  some time in early May.
+- Pray for timely and successful completion of the registration process for our
+  new van. 🚌
+- Pray that we would be able to find an inviting organization to act as our
+  “employer” here in Slovakia. This is a critical step for us to obtain
+  residency here.
 - Praise God for improved health for our family! 🥳
-- Pray that God would continue to open doors for our family to bless and minister to Ukrainians.
+- Pray that God would continue to open doors for our family to bless and
+  minister to Ukrainians.
 - Pray for peace and liberty in Ukraine.
 
 ### Resources

@@ -1,22 +1,37 @@
 ---
-title: "Ukrainian Angels"
-date: "2023-04-03"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1680524178/OFReport/2023-04-03-ukrainian-angels/ukrainian-angels-cover1200-630_hfkvrq.jpg"
+title: 'Ukrainian Angels'
+date: '2023-04-03'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1680524178/OFReport/2023-04-03-ukrainian-angels/ukrainian-angels-cover1200-630_hfkvrq.jpg'
 caption: >
-  Milena Slyusarchuk, director of the “Hostesses of Radekhiv”, visits soldiers on the front lines in Ukraine.
+  Milena Slyusarchuk, director of the “Hostesses of Radekhiv”, visits soldiers
+  on the front lines in Ukraine.
 preview: >
-  This interview is long overdue for publishing, but today it’s finally ready. In this episode, we take you once again to the small Ukrainian town of Radekhiv — this time for an interview with the director of the “Hostesses of Radekhiv”, Milena Slyusarchuk. You’ll be sobered, inspired, and I hope challenged by Milena’s story. Listen as she shares her firsthand experiences bringing aid to soldiers on the front lines of Ukraine’s war against Russian tyranny.
+  This interview is long overdue for publishing, but today it’s finally ready.
+  In this episode, we take you once again to the small Ukrainian town of
+  Radekhiv — this time for an interview with the director of the “Hostesses of
+  Radekhiv”, Milena Slyusarchuk. You’ll be sobered, inspired, and I hope
+  challenged by Milena’s story. Listen as she shares her firsthand experiences
+  bringing aid to soldiers on the front lines of Ukraine’s war against Russian
+  tyranny.
 tags:
-- podcast
-- ukraine
-- ministry
-- family
+  - podcast
+  - ukraine
+  - ministry
+  - family
 ---
 
-This interview is long overdue for publishing, but today it’s finally ready. In this episode, we take you once again to the small Ukrainian town of Radekhiv — this time for an interview with the director of the “Hostesses of Radekhiv”, Milena Slyusarchuk. You’ll be sobered, inspired, and I hope challenged by Milena’s story. Listen as she shares her firsthand experiences bringing aid to soldiers on the front lines of Ukraine’s war against Russian tyranny.
+This interview is long overdue for publishing, but today it’s finally ready. In
+this episode, we take you once again to the small Ukrainian town of Radekhiv —
+this time for an interview with the director of the “Hostesses of Radekhiv”,
+Milena Slyusarchuk. You’ll be sobered, inspired, and I hope challenged by
+Milena’s story. Listen as she shares her firsthand experiences bringing aid to
+soldiers on the front lines of Ukraine’s war against Russian tyranny.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -24,24 +39,37 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 ## How to Donate to “Hostesses of Radekhiv”
 
-If you would like to donate to “Hostesses of Radekhiv” (Радехівські господині) you can do so directly via SWIFT transfer. For the uninitiated, this can seem a complicated process. We’ve recently used an online service called [Wise](https://wise.com/) for this, and it works very well. If you want to donate and need help, feel free to [contact us](/contact) directly. We’ll walk you through it!
+If you would like to donate to “Hostesses of Radekhiv” (Радехівські господині)
+you can do so directly via SWIFT transfer. For the uninitiated, this can seem a
+complicated process. We’ve recently used an online service called
+[Wise](https://wise.com/) for this, and it works very well. If you want to
+donate and need help, feel free to [contact us](/contact) directly. We’ll walk
+you through it!
 
 ### Banking Data
 
-You can find full [donation details on their Facebook page here](https://www.facebook.com/groups/404821584832741/posts/407531387895094/). There are multiple accounts and currencies, including EUR and USD. Here the essentials for their USD account:
+You can find full
+[donation details on their Facebook page here](https://www.facebook.com/groups/404821584832741/posts/407531387895094/).
+There are multiple accounts and currencies, including EUR and USD. Here the
+essentials for their USD account:
 
-- Account holder: **CHARITABLE ORGANIZATION “CHARITABLE FOUNDATION “RADEKHIVS’KI HOSPODYNI”**
+- Account holder: **CHARITABLE ORGANIZATION “CHARITABLE FOUNDATION “RADEKHIVS’KI
+  HOSPODYNI”**
 - IBAN: **UA923257960000026009301090776**
 - SWIFT / BIC code: **COSBUAUKLVI**
 
 ## How You Can Pray
 
-* Pray for soldiers serving in Ukraine. Pray that they would receive not only physical aid, but also the Gospel. These are days to consider eternity.
-* Pray for our residency in Ukraine. We have submitted our documents, and we are now waiting to receive our new cards.
-* Praise the Lord for continued progress with our *Good and Evil* book distribution outreach.
-* Pray for God’s direction for our family regarding a permanent return to Ukraine. Decision time soon...
-* Pray for preparations for our CMO project this summer.
-* Pray for peace and liberty in Ukraine.
+- Pray for soldiers serving in Ukraine. Pray that they would receive not only
+  physical aid, but also the Gospel. These are days to consider eternity.
+- Pray for our residency in Ukraine. We have submitted our documents, and we are
+  now waiting to receive our new cards.
+- Praise the Lord for continued progress with our _Good and Evil_ book
+  distribution outreach.
+- Pray for God’s direction for our family regarding a permanent return to
+  Ukraine. Decision time soon...
+- Pray for preparations for our CMO project this summer.
+- Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from our visit to Radekhiv..." />
 

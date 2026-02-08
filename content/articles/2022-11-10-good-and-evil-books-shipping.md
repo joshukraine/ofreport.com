@@ -1,21 +1,36 @@
 ---
-title: "Good and Evil Books Shipping!"
-date: "2022-11-10"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1668093980/OFReport/2022-11-10-good-and-evil-books-shipping/ge-shipping-cover-1200-630_jf8dg1.jpg"
+title: 'Good and Evil Books Shipping!'
+date: '2022-11-10'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1668093980/OFReport/2022-11-10-good-and-evil-books-shipping/ge-shipping-cover-1200-630_jf8dg1.jpg'
 caption: >
-  Our roster of Good and Evil distributors is growing, and books are making their way to Ukrainians across the country! We are so grateful for Tanya, Pastor Vladyslav, Yura, and others who are partnering with us to get the Gospel out!
+  Our roster of Good and Evil distributors is growing, and books are making
+  their way to Ukrainians across the country! We are so grateful for Tanya,
+  Pastor Vladyslav, Yura, and others who are partnering with us to get the
+  Gospel out!
 preview: >
-  In today’s episode, we share new details about the Good and Evil book ministry in Ukraine. We talk about our new distributor program, update you with the latest stats, and introduce you to the Ukrainians who are making this operation possible. You’ll learn some Ukrainian geography along the way as we break out the map and show you exactly where in the country these books are going.
+  In today’s episode, we share new details about the Good and Evil book ministry
+  in Ukraine. We talk about our new distributor program, update you with the
+  latest stats, and introduce you to the Ukrainians who are making this
+  operation possible. You’ll learn some Ukrainian geography along the way as we
+  break out the map and show you exactly where in the country these books are
+  going.
 tags:
-- podcast
-- good-and-evil
-- photos
+  - podcast
+  - good-and-evil
+  - photos
 ---
 
-In today’s episode, we share new details about the *Good and Evil* book ministry in Ukraine. We talk about our new distributor program, update you with the latest stats, and introduce you to the Ukrainians who are making this operation possible. You’ll learn some Ukrainian geography along the way as we break out the map and show you exactly where in the country these books are going.
+In today’s episode, we share new details about the _Good and Evil_ book ministry
+in Ukraine. We talk about our new distributor program, update you with the
+latest stats, and introduce you to the Ukrainians who are making this operation
+possible. You’ll learn some Ukrainian geography along the way as we break out
+the map and show you exactly where in the country these books are going.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -30,12 +45,16 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 ### How You Can Pray
 
-- Pray for quick, efficient, and widespread distribution of *Good and Evil* books in Ukraine. 
+- Pray for quick, efficient, and widespread distribution of _Good and Evil_
+  books in Ukraine.
 - Praise the Lord for a growing number of distributors in Ukraine!
-- Pray for a full and speedy recovery for Pastor Vladyslav after his recent heart attack.
-- Pray for Ukrainians as they face power outages and a lack of heat going into winter.
+- Pray for a full and speedy recovery for Pastor Vladyslav after his recent
+  heart attack.
+- Pray for Ukrainians as they face power outages and a lack of heat going into
+  winter.
 - Pray that we would receive our Slovak residency cards soon.
-- Pray for divine appointments as we continue to minister to displaced Ukrainians in Slovakia.
+- Pray for divine appointments as we continue to minister to displaced
+  Ukrainians in Slovakia.
 - Pray for peace and liberty in Ukraine. 💙💛
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />

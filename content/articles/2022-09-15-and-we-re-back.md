@@ -1,44 +1,65 @@
 ---
-title: "And We’re Back!"
-date: "2022-09-15"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1663231077/OFReport/2022-09-15-and-we-re-back/music-outreach-1-1200x630_n2d3pm.jpg"
+title: 'And We’re Back!'
+date: '2022-09-15'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1663231077/OFReport/2022-09-15-and-we-re-back/music-outreach-1-1200x630_n2d3pm.jpg'
 caption: >
-  We don’t get to see sights like this every day, but wow, it’s fun when it happens. Ukrainian kids, Ukrainian-language Good and Evil books. The Gospel is going out!
+  We don’t get to see sights like this every day, but wow, it’s fun when it
+  happens. Ukrainian kids, Ukrainian-language Good and Evil books. The Gospel is
+  going out!
 preview: >
-  Yes, it’s been a while, but today we’re back with lots to report! In this episode, we’ll tell you about our recent music outreach during which we presented the Gospel to around 100 Ukrainian children. We’ll also share family news, our latest take on the war in Ukraine, an update on the Good and Evil printing, and much more.
+  Yes, it’s been a while, but today we’re back with lots to report! In this
+  episode, we’ll tell you about our recent music outreach during which we
+  presented the Gospel to around 100 Ukrainian children. We’ll also share family
+  news, our latest take on the war in Ukraine, an update on the Good and Evil
+  printing, and much more.
 tags:
-- podcast
-- good-and-evil
-- ukraine
-- family
-- photos
+  - podcast
+  - good-and-evil
+  - ukraine
+  - family
+  - photos
 ---
 
-Yes, it’s been a while, but today we’re back with lots to report! In this episode, we’ll tell you about our recent music outreach during which we presented the Gospel to around 100 Ukrainian children. We’ll also share family news, our latest take on the war in Ukraine, an update on the *Good and Evil* printing, and much more.
+Yes, it’s been a while, but today we’re back with lots to report! In this
+episode, we’ll tell you about our recent music outreach during which we
+presented the Gospel to around 100 Ukrainian children. We’ll also share family
+news, our latest take on the war in Ukraine, an update on the _Good and Evil_
+printing, and much more.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
 <div id="buzzsprout-player-11325975"></div><script src="https://www.buzzsprout.com/1953515/11325975-and-we-re-back.js?container_id=buzzsprout-player-11325975&player=small" type="text/javascript" charset="utf-8"></script>
 
 ### How You Can Pray
-- Pray for salvation for the many children and adults who heard the Gospel at our recent music outreach.
-- Pray for divine appointments as we continue to minister to displaced Ukrainians through our hospitality outreach.
+
+- Pray for salvation for the many children and adults who heard the Gospel at
+  our recent music outreach.
+- Pray for divine appointments as we continue to minister to displaced
+  Ukrainians through our hospitality outreach.
 - Pray that we would receive our residency status in Slovakia soon.
-- Pray for speedy delivery and reliable storage for the new *Good and Evil* books.
-- Pray that upon receipt of the *Good and Evil* books, we would be able to distribute them widely, quickly, and effectively. Pray for committed and faithful partners to assist in this effort.
+- Pray for speedy delivery and reliable storage for the new _Good and Evil_
+  books.
+- Pray that upon receipt of the _Good and Evil_ books, we would be able to
+  distribute them widely, quickly, and effectively. Pray for committed and
+  faithful partners to assist in this effort.
 - Pray for health for our family. (Kids — chicken pox, Joshua — asthma)
 - Pray for peace and liberty in Ukraine. 💙💛
 
 ### Videos
+
 - [The Ukrainians Strike Back](https://youtu.be/iAD684eczq8)
 - [How did Ukraine retake so much territory from Russia so fast?](https://youtu.be/rSLMuMjeZ38)
 - [Russian Military Front Lines Have COLLAPSED](https://youtu.be/bihU0FLH9To)
 - [Ukraine War: Ukrainians calling the shots](https://youtu.be/8OMT6mqItxE)
 
 ### Links
+
 - [Invasion Day 200 – Summary (militaryland.net)](https://militaryland.net/news/invasion-day-200-summary/)
 - [Liberators Greeted With Cheers, Tears Of Joy (thedrive.com)](https://www.thedrive.com/the-war-zone/ukraine-situation-report-liberators-greeted-with-cheers-tears-of-joy)
 - [After Russian Retreat, Witnesses Claim Torture (thedrive.com)](https://www.thedrive.com/the-war-zone/ukraine-situation-report-after-russian-retreat-witnesses-claim-torture)
@@ -56,7 +77,6 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 <article-image publicId="OFReport/2022-09-15-and-we-re-back/good-evil-palette_pjcqxn" height="768" caption="Freshly printed books, ready for trimming" />
 
 <article-image publicId="OFReport/2022-09-15-and-we-re-back/good-evil-book_kgpyhq" height="768" caption="Can’t wait for these to arrive in L’viv and then go out across Ukraine!" />
-
 
 <article-callout content="Next, some fun snaps from family life in Slovakia..." />
 

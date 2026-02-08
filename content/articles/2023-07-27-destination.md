@@ -1,22 +1,29 @@
 ---
-title: "Destination"
-date: "2023-07-27"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1690484663/OFReport/2023-07-27-destination/kids-reunited-1200-630_n7hyuw.jpg"
+title: 'Destination'
+date: '2023-07-27'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1690484663/OFReport/2023-07-27-destination/kids-reunited-1200-630_n7hyuw.jpg'
 caption: >
   At long last, the Steele kids are reunited at our home in Ukraine!
 preview: >
-  At long last, our journey has brought us back to Ukraine! In this episode we’ll talk about moving, missile strikes, Bible First French, and the return of our CMO project this summer.
+  At long last, our journey has brought us back to Ukraine! In this episode
+  we’ll talk about moving, missile strikes, Bible First French, and the return
+  of our CMO project this summer.
 tags:
-- podcast
-- ukraine
-- ministry
-- family
+  - podcast
+  - ukraine
+  - ministry
+  - family
 ---
 
-At long last, our journey has brought us back to Ukraine! In this episode we’ll talk about moving, missile strikes, Bible First French, and the return of our CMO project this summer.
+At long last, our journey has brought us back to Ukraine! In this episode we’ll
+talk about moving, missile strikes, Bible First French, and the return of our
+CMO project this summer.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -35,14 +42,17 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 
 ## How You Can Pray
 
-* Praise the Lord for bringing us safely back to our home in L’viv, Ukraine!
-* Pray for our upcoming outreaches this summer during CMO.
-* Pray for safe travel and fruitful for ministry for the CMO team, including Nathan Day and Bill Thompson.
-* Praise the Lord for the recent launch of Bible First French!
-* Pray for health and strength for our family as we work hard to prepare for our concerts.
-* Pray that God would give us good success in planning concert events this summer.
-* Pray for a swift Ukrainian victory over their oppressors.
-* Pray for peace and liberty in Ukraine.
+- Praise the Lord for bringing us safely back to our home in L’viv, Ukraine!
+- Pray for our upcoming outreaches this summer during CMO.
+- Pray for safe travel and fruitful for ministry for the CMO team, including
+  Nathan Day and Bill Thompson.
+- Praise the Lord for the recent launch of Bible First French!
+- Pray for health and strength for our family as we work hard to prepare for our
+  concerts.
+- Pray that God would give us good success in planning concert events this
+  summer.
+- Pray for a swift Ukrainian victory over their oppressors.
+- Pray for peace and liberty in Ukraine.
 
 <article-callout content="Keep scrolling for more photos from our family and ministry..." />
 

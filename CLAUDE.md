@@ -1,14 +1,18 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with
+code in this repository.
 
 ## Project Overview
 
-OFReport.com is a family blog documenting missionary work in Ukraine. It's built as a Vue.js application using Nuxt.js and deployed as a pre-generated static site on Netlify.
+OFReport.com is a family blog documenting missionary work in Ukraine. It's built
+as a Vue.js application using Nuxt.js and deployed as a pre-generated static
+site on Netlify.
 
 ## Development Commands
 
 ### Environment Setup
+
 ```bash
 # Install dependencies
 yarn install
@@ -18,6 +22,7 @@ echo "PER_PAGE=8" >> .env
 ```
 
 ### Development Workflow
+
 ```bash
 # Start development server (includes markdown processing)
 yarn dev
@@ -34,6 +39,7 @@ yarn lint:fix
 ```
 
 ### Content Management
+
 ```bash
 # Process markdown articles to JSON (automatically run by dev/generate)
 yarn md2json
@@ -42,6 +48,7 @@ yarn md2json
 ## Architecture Overview
 
 ### Core Technologies
+
 - **Nuxt.js 2.x**: Vue.js framework configured for static site generation
 - **Tailwind CSS v1**: Utility-first CSS framework with custom theme
 - **Markdown-it**: Markdown processing with frontmatter-markdown-loader
@@ -50,11 +57,14 @@ yarn md2json
 ### Directory Structure
 
 #### Content System
+
 - `content/articles/*.md`: Blog articles with frontmatter metadata
-- `data/articles.json`: Generated JSON from markdown files (auto-created by `md2json`)
+- `data/articles.json`: Generated JSON from markdown files (auto-created by
+  `md2json`)
 - `content/pages/*.md`: Static page content
 
 #### Application Structure
+
 - `pages/`: Nuxt.js file-based routing
   - `blog/_slug.vue`: Dynamic blog post pages
   - `blog/page/_id.vue`: Paginated blog index
@@ -67,6 +77,7 @@ yarn md2json
   - `head.js`: Meta tags and SEO configuration
 
 #### Build System
+
 - `nuxt.config.js`: Main Nuxt configuration
 - `tailwind.config.js`: Tailwind CSS customization
 - `netlify.toml`: Netlify deployment configuration
@@ -82,17 +93,20 @@ yarn md2json
 
 - **Pagination**: Configured via `PER_PAGE` environment variable (default: 8)
 - **Tag System**: Articles can have multiple tags for categorization
-- **Dynamic Routes**: Generated programmatically for articles, pagination, and tags
+- **Dynamic Routes**: Generated programmatically for articles, pagination, and
+  tags
 - **Static Generation**: Entire site pre-rendered for optimal performance
 
 ### Environment Variables
+
 - `PER_PAGE`: Articles per page for pagination (required)
 - `OFR_RECAPTCHA_SITE_KEY`: reCAPTCHA key for contact forms
 - `NODE_ENV`: Controls robots.txt behavior
 
 ## Deployment
 
-The site is deployed to Netlify with automatic builds triggered by git pushes. Static generation creates the `dist/` folder which is served by Netlify's CDN.
+The site is deployed to Netlify with automatic builds triggered by git pushes.
+Static generation creates the `dist/` folder which is served by Netlify's CDN.
 
 ## Testing and Quality
 

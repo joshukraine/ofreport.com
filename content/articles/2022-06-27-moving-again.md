@@ -1,22 +1,35 @@
 ---
-title: "Moving Again!"
-date: "2022-06-27"
-author: "Joshua Steele"
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1656323330/OFReport/2022-06-27-moving-again/castle-kids-garden-1200-800_w5gqig.jpg"
+title: 'Moving Again!'
+date: '2022-06-27'
+author: 'Joshua Steele'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1656323330/OFReport/2022-06-27-moving-again/castle-kids-garden-1200-800_w5gqig.jpg'
 caption: >
-  David, Mia, and Kathryn enjoy romping through the medieval gardens of the [Castle of Spirits (Bojnice Castle)](https://goo.gl/maps/iBYJrPbEZ7st4DTa6) during our recent family trip.
+  David, Mia, and Kathryn enjoy romping through the medieval gardens of the
+  [Castle of Spirits (Bojnice Castle)](https://goo.gl/maps/iBYJrPbEZ7st4DTa6)
+  during our recent family trip.
 preview: >
-  Our family is moving to a house! The small apartment that has been our home for the past three months has been a God-send, but now it’s time for a bit more space. Additionally, we would like to bring you some new updates on the *Good and Evil* project, our other ETO team members, the *Bible First* program, and our recent family ministry trip to Bratislava.
+  Our family is moving to a house! The small apartment that has been our home
+  for the past three months has been a God-send, but now it’s time for a bit
+  more space. Additionally, we would like to bring you some new updates on the
+  *Good and Evil* project, our other ETO team members, the *Bible First*
+  program, and our recent family ministry trip to Bratislava.
 tags:
-- podcast
-- ukraine
-- family
-- photos
+  - podcast
+  - ukraine
+  - family
+  - photos
 ---
 
-Our family is moving to a house! The small apartment that has been our home for the past three months has been a God-send, but now it’s time for a bit more space. Additionally, we would like to bring you some new updates on the *Good and Evil* project, our other ETO team members, the *Bible First* program, and our recent family ministry trip to Bratislava.
+Our family is moving to a house! The small apartment that has been our home for
+the past three months has been a God-send, but now it’s time for a bit more
+space. Additionally, we would like to bring you some new updates on the _Good
+and Evil_ project, our other ETO team members, the _Bible First_ program, and
+our recent family ministry trip to Bratislava.
 
-Thank you so much for listening to our podcast! Please [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582) with your friends, and pray for our family as we continue ministering to Ukrainians in Eastern Europe.
+Thank you so much for listening to our podcast! Please
+[share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
+with your friends, and pray for our family as we continue ministering to
+Ukrainians in Eastern Europe.
 
 <article-spacer />
 
@@ -27,11 +40,21 @@ Thank you so much for listening to our podcast! Please [share this episode](http
 ### How You Can Pray
 
 - Pray that God would bless our move to the new house!
-- Pray that our fingerprints would be accepted at the FBI and that we would be able to get Slovak residency soon.
-- Continue to pray for the printing of the Ukrainian Freedom Edition of *Good and Evil*. We expect the presses to begin rolling this week! Pray for a quality print, for good storage and shipping options, and for an effective network of volunteers to help us with distribution.
-- Pray for our ETO team as different ones find themselves spread across the globe. Pray that each of us would be faithful to share Christ with those around us.
-- Pray for the development and reach of our *Bible First* program. Despite the onset of war in Ukraine, *Bible First* remains one of our core ministries, and we are eager for even more people to begin studying the Bible during these difficult times.
-- Pray that God would continue to bless, strengthen, encourage, and guide our family as we navigate these uncertain times. He is faithful!
+- Pray that our fingerprints would be accepted at the FBI and that we would be
+  able to get Slovak residency soon.
+- Continue to pray for the printing of the Ukrainian Freedom Edition of _Good
+  and Evil_. We expect the presses to begin rolling this week! Pray for a
+  quality print, for good storage and shipping options, and for an effective
+  network of volunteers to help us with distribution.
+- Pray for our ETO team as different ones find themselves spread across the
+  globe. Pray that each of us would be faithful to share Christ with those
+  around us.
+- Pray for the development and reach of our _Bible First_ program. Despite the
+  onset of war in Ukraine, _Bible First_ remains one of our core ministries, and
+  we are eager for even more people to begin studying the Bible during these
+  difficult times.
+- Pray that God would continue to bless, strengthen, encourage, and guide our
+  family as we navigate these uncertain times. He is faithful!
 - Pray for peace and liberty in Ukraine. 💙💛
 
 <article-callout content="Keep scrolling for more photos!" />
