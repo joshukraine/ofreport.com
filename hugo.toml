@@ -1,3 +1,65 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://ofreport.com/"
+languageCode = "en-us"
+title = "OFReport.com"
+
+# Pagination
+[pagination]
+  pagerSize = 8
+
+# Permalinks — preserve existing URL structure (SEO-critical)
+[permalinks]
+  blog = "/blog/:slug/"
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+
+# RSS output
+[services.rss]
+  limit = 10
+
+[outputFormats.RSS]
+  baseName = "feed"
+
+# Site parameters
+[params]
+  description = "Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine"
+  titleSuffix = "Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine"
+  cloudinaryBase = "https://res.cloudinary.com/dnkvsijzu"
+  pdfBase = "https://d21yo20tm8bmc2.cloudfront.net/ofr/"
+
+# Build stats for Tailwind CSS purging
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+
+# Module mounts for Tailwind CSS integration
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+
+# Markup configuration
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Related content
+[related]
+  includeNewer = true
+  threshold = 80
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10

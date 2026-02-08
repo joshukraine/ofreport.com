@@ -1,0 +1,20 @@
+# Hugo build output
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Node modules
+node_modules/
+
+# Hugo stats (regenerated on build)
+hugo_stats.json
+
+# Tailwind Plus licensed snippets (must not be committed)
+docs/tailwind_plus/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
