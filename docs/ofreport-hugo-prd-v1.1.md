@@ -1038,21 +1038,21 @@ Thumbs.db
   command = "npm install && hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.147.0"
+  HUGO_VERSION = "0.155.2"
   HUGO_ENV = "production"
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
 
 [context.deploy-preview]
   command = "npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.147.0"
+  HUGO_VERSION = "0.155.2"
 
 [context.branch-deploy]
   command = "npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.147.0"
+  HUGO_VERSION = "0.155.2"
 
 # Redirects for SEO continuity
 [[redirects]]

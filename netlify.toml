@@ -5,7 +5,7 @@
 [build.environment]
   HUGO_VERSION = "0.155.2"
   HUGO_ENV = "production"
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"
 
 [context.deploy-preview]
   command = "npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
