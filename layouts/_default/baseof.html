@@ -1,20 +1,19 @@
-{{/* TEMPORARY: Phase 2 verification template — replaced in Phase 3 */}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} | OFReport</title>
+  {{ partial "head.html" . }}
   {{ with (templates.Defer (dict "key" "global")) }}
     {{ partial "css.html" . }}
   {{ end }}
 </head>
-<body class="bg-gray-100 min-h-screen">
-  <main class="max-w-2xl mx-auto p-8">
-    {{ block "main" . }}
-      <h1 class="text-4xl font-bold text-blue-600 mb-4">{{ .Title }}</h1>
-      {{ .Content }}
-    {{ end }}
+<body class="min-h-screen bg-gray-100 font-serif text-gray-900">
+  {{ partial "header.html" . }}
+  <main class="pt-16">
+    {{ block "main" . }}{{ end }}
   </main>
+  {{ partial "footer.html" . }}
+  {{ partial "glightbox.html" . }}
+  {{ partial "analytics.html" . }}
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
 </body>
 </html>

@@ -49,6 +49,36 @@ title = "OFReport.com"
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
 
+# Main navigation menu
+[[menus.main]]
+  name = "Family"
+  pageRef = "/family/"
+  weight = 10
+[[menus.main]]
+  name = "Ministry"
+  pageRef = "/ministry/"
+  weight = 20
+[[menus.main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 30
+[[menus.main]]
+  name = "Podcast"
+  pageRef = "/podcast/"
+  weight = 40
+[[menus.main]]
+  name = "Archives"
+  pageRef = "/archives/"
+  weight = 50
+[[menus.main]]
+  name = "Contact"
+  pageRef = "/contact/"
+  weight = 60
+[[menus.main]]
+  name = "Donate"
+  pageRef = "/donate/"
+  weight = 70
+
 # Markup configuration
 [markup.goldmark.renderer]
   unsafe = true

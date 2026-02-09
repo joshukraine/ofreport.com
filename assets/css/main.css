@@ -1,2 +1,23 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
+
+@theme {
+  /* Blue palette — matches existing OFReport site */
+  --color-blue-50: #e3f8ff;
+  --color-blue-100: #b3ecff;
+  --color-blue-200: #81defd;
+  --color-blue-300: #5ed0fa;
+  --color-blue-400: #40c3f7;
+  --color-blue-500: #2bb0ed;
+  --color-blue-600: #1992d4;
+  --color-blue-700: #127fbf;
+  --color-blue-800: #0b69a3;
+  --color-blue-900: #035388;
+  --color-blue-dark: #024775;
+  --color-blue-footer: #8bccf8;
+
+  /* Font families */
+  --font-header: "Lato", sans-serif;
+  --font-serif: "Noto Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-fancy: "Mate SC", serif;
+}
