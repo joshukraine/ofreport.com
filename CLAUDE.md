@@ -10,6 +10,25 @@ OFReport.com is a missionary family blog (Joshua and Kelsie Steele) being rebuil
 
 This project follows **developer-directed, AI-assisted** development. The developer (Joshua) directs all decisions and seeks to understand each step. **Explain Hugo concepts and rationale before generating code.** Present options with trade-offs and let the developer choose. See PRD Section 2 for details.
 
+## Development Workflow
+
+All work flows through GitHub Issues. The full pipeline is:
+
+1. **Plan**: When discussing new features or multi-step work, the output of planning
+   should be one or more GitHub issues. Each issue needs a clear title, description,
+   and acceptance criteria. Create the issues before starting implementation.
+2. **Implement**: Use `/resolve-issue <number>` to implement each issue on a feature
+   branch with a structured workflow.
+3. **Pull Request**: Use `/create-pr --issue <number>` to open a PR linking to the
+   resolved issue.
+4. **Merge**: PRs should pass build verification (`hugo --gc --minify`) before merging.
+
+Additional conventions:
+- Commit messages use Conventional Commits format but do NOT reference issue numbers.
+  Issue linking happens in the PR description via "Closes #N".
+- Small, unrelated housekeeping changes (typos, README updates) can be committed
+  directly to main without an issue or PR.
+
 ## Build Commands
 
 ```bash
