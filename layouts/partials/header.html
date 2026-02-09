@@ -4,7 +4,7 @@
     {{/* Logo */}}
     <a href="{{ "/" | relURL }}" class="flex shrink-0 items-center" aria-label="{{ site.Title }} — Home">
       {{ with resources.Get "img/ofr-logo.svg" }}
-        <span class="h-8 w-auto text-gray-900">{{ .Content | safeHTML }}</span>
+        <img src="{{ .Permalink }}" alt="{{ site.Title }}" class="h-8 w-auto">
       {{ end }}
     </a>
 
