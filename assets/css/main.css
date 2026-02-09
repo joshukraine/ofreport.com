@@ -21,3 +21,8 @@
   --font-serif: "Noto Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-fancy: "Mate SC", serif;
 }
+
+/* Prevent flash of Alpine.js content before initialization */
+[x-cloak] {
+  display: none !important;
+}
