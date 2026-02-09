@@ -28,6 +28,11 @@ title = "OFReport.com"
   cloudinaryBase = "https://res.cloudinary.com/dnkvsijzu"
   pdfBase = "https://d21yo20tm8bmc2.cloudfront.net/ofr/"
 
+  [params.social]
+    facebook = "https://www.facebook.com/joshukraine"
+    twitter = "https://twitter.com/joshukraine"
+    github = "https://github.com/joshukraine/ofreport.com"
+
 # Build stats for Tailwind CSS purging
 [build]
   [build.buildStats]
@@ -78,6 +83,68 @@ title = "OFReport.com"
   name = "Donate"
   pageRef = "/donate/"
   weight = 70
+
+# Footer menu — Column 1 (internal)
+[[menus.footer_col1]]
+  name = "Family"
+  pageRef = "/family/"
+  weight = 10
+[[menus.footer_col1]]
+  name = "Ministry"
+  pageRef = "/ministry/"
+  weight = 20
+[[menus.footer_col1]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 30
+[[menus.footer_col1]]
+  name = "Archives"
+  pageRef = "/archives/"
+  weight = 40
+
+# Footer menu — Column 2 (internal)
+[[menus.footer_col2]]
+  name = "Podcast"
+  pageRef = "/podcast/"
+  weight = 10
+[[menus.footer_col2]]
+  name = "Subscribe"
+  pageRef = "/subscribe/"
+  weight = 20
+[[menus.footer_col2]]
+  name = "Contact"
+  pageRef = "/contact/"
+  weight = 30
+[[menus.footer_col2]]
+  name = "Donate"
+  pageRef = "/donate/"
+  weight = 40
+
+# Footer menu — Column 3 (external)
+[[menus.footer_col3]]
+  name = "ETO"
+  url = "https://euroteamoutreach.org/"
+  weight = 10
+  [menus.footer_col3.params]
+    external = true
+[[menus.footer_col3]]
+  name = "Bible First"
+  url = "https://getbiblefirst.com/"
+  weight = 20
+  [menus.footer_col3.params]
+    external = true
+[[menus.footer_col3]]
+  name = "CMO"
+  url = "https://cmoproject.org/"
+  weight = 30
+  [menus.footer_col3.params]
+    external = true
+[[menus.footer_col3]]
+  name = "kelsie.me"
+  url = "https://kelsie.me/"
+  weight = 40
+  [menus.footer_col3.params]
+    external = true
 
 # Markup configuration
 [markup.goldmark.renderer]
