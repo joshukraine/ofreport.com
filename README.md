@@ -1,0 +1,70 @@
+# OFReport.com (Hugo Rebuild)
+
+A missionary family blog by Joshua and Kelsie Steele, documenting 17 years of
+ministry work in Ukraine. This is a ground-up rebuild from Nuxt.js 2 to
+[Hugo](https://gohugo.io/).
+
+The site includes 219 blog articles (2008-2025), 5 static pages, and 26 tags.
+
+## Tech Stack
+
+- **Hugo** - Static site generator with Go templates
+- **Tailwind CSS v4** - Utility-first CSS via Hugo's built-in `css.TailwindCSS`
+- **Alpine.js** - Lightweight JS for mobile menu and dropdowns
+- **Cloudinary** - Image hosting and transformation (no local images)
+- **Netlify** - Hosting, forms, and deployment
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server (with drafts)
+hugo server -D
+
+# Production build
+hugo --gc --minify
+```
+
+Requires [Hugo](https://gohugo.io/installation/) (extended edition) and
+[Node.js](https://nodejs.org/) 22 LTS.
+
+## Project Structure
+
+```text
+content/          # Markdown content (blog posts, static pages)
+layouts/          # Go templates (base, partials, shortcodes)
+assets/css/       # Tailwind CSS entry point
+assets/img/       # Site images (logo SVG)
+static/           # Favicons, webmanifest, browserconfig
+data/             # Structured data files (authors, archives)
+docs/             # PRD and project documentation
+```
+
+## Build Phases
+
+Full requirements are in [`docs/ofreport-hugo-prd-v1.1.md`](docs/ofreport-hugo-prd-v1.1.md).
+
+| Phase | Focus | Status |
+|-------|-------|--------|
+| 1 | Project scaffolding & configuration | Done |
+| 2 | Tailwind CSS v4 integration | Done |
+| 3 | Base layout & navigation | Done |
+| 4 | Blog listing with pagination | Up next |
+| 5 | Single article template | - |
+| 6 | Shortcodes | - |
+| 7 | Tag taxonomy | - |
+| 8 | Static pages | - |
+| 9 | RSS feed | - |
+| 10 | SEO & meta tags | - |
+| 11 | Contact form (Netlify Forms) | - |
+| 12 | Newsletter integration | - |
+| 13 | Lightbox integration | - |
+| 14 | Analytics | - |
+| 15 | Content migration | - |
+| 16 | Deployment | - |
+
+## License
+
+Content is copyright Joshua and Kelsie Steele. All rights reserved.
