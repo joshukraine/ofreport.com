@@ -7,32 +7,32 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 1: Project Scaffolding & Configuration
 
-- [ ] Hugo project initialized (`hugo new site`)
-- [ ] `hugo.toml` configured (see [`03-site-structure.md`](./03-site-structure.md))
-- [ ] Content directory structure created (see [`03-site-structure.md`](./03-site-structure.md))
-- [ ] `package.json` with npm dependencies
-- [ ] `.gitignore` configured (see [`07-deployment.md`](./07-deployment.md))
-- [ ] Git repo initialized and first commit
+- [x] Hugo project initialized (`hugo new site`)
+- [x] `hugo.toml` configured (see [`03-site-structure.md`](./03-site-structure.md))
+- [x] Content directory structure created (see [`03-site-structure.md`](./03-site-structure.md))
+- [x] `package.json` with npm dependencies
+- [x] `.gitignore` configured (see [`07-deployment.md`](./07-deployment.md))
+- [x] Git repo initialized and first commit
 
 **Key learning:** Hugo project structure, `hugo.toml` config, content organization
 
 ## Phase 2: Tailwind CSS v4 Integration
 
-- [ ] Tailwind CSS v4 installed and configured (see [`01-architecture.md`](./01-architecture.md))
-- [ ] `assets/css/main.css` entry point created
-- [ ] `partials/css.html` with `css.TailwindCSS` pipeline
-- [ ] `buildStats` and cache busters in `hugo.toml`
-- [ ] Verified: Tailwind classes render in dev server
+- [x] Tailwind CSS v4 installed and configured (see [`01-architecture.md`](./01-architecture.md))
+- [x] `assets/css/main.css` entry point created
+- [x] `partials/css.html` with `css.TailwindCSS` pipeline
+- [x] `buildStats` and cache busters in `hugo.toml`
+- [x] Verified: Tailwind classes render in dev server
 
 **Key learning:** `css.TailwindCSS`, Hugo asset pipeline, `buildStats`
 
 ## Phase 3: Base Layout & Navigation
 
-- [ ] `baseof.html` base template (see [`04-templates.md`](./04-templates.md))
-- [ ] `partials/head.html` — meta, CSS, favicons
-- [ ] `partials/header.html` — site header with Alpine.js mobile menu (see [`01-architecture.md`](./01-architecture.md))
-- [ ] `partials/footer.html` — footer with links, social icons, copyright
-- [ ] Alpine.js loaded and functional
+- [x] `baseof.html` base template (see [`04-templates.md`](./04-templates.md))
+- [x] `partials/head.html` — meta, CSS, favicons
+- [x] `partials/header.html` — site header with Alpine.js mobile menu (see [`01-architecture.md`](./01-architecture.md))
+- [x] `partials/footer.html` — footer with links, social icons, copyright
+- [x] Alpine.js loaded and functional
 
 **Key learning:** Go templates, partials, base template inheritance
 
