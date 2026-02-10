@@ -44,7 +44,7 @@ docs/             # PRD and project documentation
 
 ## Build Phases
 
-Full requirements are in [`docs/ofreport-hugo-prd-v1.1.md`](docs/ofreport-hugo-prd-v1.1.md).
+Full requirements are in the [`docs/prd/`](docs/prd/) directory (start with [`00-overview.md`](docs/prd/00-overview.md); see [`ROADMAP.md`](docs/prd/ROADMAP.md) for build phases).
 
 | Phase | Focus | Status |
 |-------|-------|--------|
