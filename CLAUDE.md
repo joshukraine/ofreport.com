@@ -24,6 +24,7 @@ All work flows through GitHub Issues. The full pipeline is:
 4. **Merge**: PRs should pass build verification (`hugo --gc --minify`) before merging.
 
 Additional conventions:
+
 - Commit messages use Conventional Commits format but do NOT reference issue numbers.
   Issue linking happens in the PR description via "Closes #N".
 - Small, unrelated housekeeping changes (typos, README updates) can be committed
@@ -101,6 +102,7 @@ slug: "2024-06-13-original-slug"
 ### Tailwind CSS v4 Integration
 
 Uses Hugo's `css.TailwindCSS` function with deferred template execution. Requires:
+
 - `[build.buildStats]` enabled in `hugo.toml` for class purging
 - `assets/css/main.css` as entry point with `@import "tailwindcss"` and `@source "hugo_stats.json"`
 - `layouts/partials/css.html` partial with `templates.Defer` in the `<head>`
@@ -109,6 +111,7 @@ Uses Hugo's `css.TailwindCSS` function with deferred template execution. Require
 ### Cloudinary Image Handling
 
 All images are on Cloudinary — no local image processing. The `partials/cloudinary-url.html` partial constructs optimized URLs with context-specific transformations:
+
 - Article display: `c_scale,f_auto,q_auto:best`
 - OG/social: `c_fill,f_auto,h_630,q_auto,w_1200`
 - RSS: `c_scale,f_auto,q_auto,w_560`
@@ -136,6 +139,7 @@ The developer has a Tailwind Plus subscription. Licensed snippets go in `docs/ta
 ## Content Migration
 
 A Ruby migration script will convert 219 articles from the Nuxt source repo. Key transformations:
+
 - Vue components (`<article-image>`, `<article-callout>`, etc.) → Hugo shortcodes
 - `preview` frontmatter → `description` (markdown stripped)
 - Tag `good and evil` → `good-and-evil`

@@ -4,7 +4,7 @@ This report documents the full scope and technical architecture of
 [OFReport.com](https://ofreport.com), a missionary family blog built with
 Nuxt.js 2. Its purpose is to inform a PRD for rebuilding the site in Hugo.
 
-### Important: Rebuild, Not Migration
+## Important: Rebuild, Not Migration
 
 This is **not** a line-by-line port. The new Hugo site should be built in
 whatever way makes the most sense for the Hugo framework and modern web
