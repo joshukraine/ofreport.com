@@ -9,7 +9,7 @@ in a lightbox-compatible link.
 
 **Usage:**
 
-```
+```text
 {{< figure src="cloudinary-public-id-or-full-url" caption="Optional caption"
     alt="Alt text" >}}
 ```
@@ -47,7 +47,7 @@ links.
 
 **Usage:**
 
-```
+```text
 {{< callout >}}
 Important information goes here.
 {{< /callout >}}
@@ -79,7 +79,7 @@ Get the full newsletter PDF.
 
 **Usage:**
 
-```
+```text
 {{< button href="/donate/" text="Support Our Ministry" >}}
 {{< button href="https://example.com" text="Visit Site" external=true >}}
 ```
@@ -92,7 +92,7 @@ Get the full newsletter PDF.
 
 **Usage:**
 
-```
+```text
 {{< svg name="bible-first-logo" >}}
 ```
 

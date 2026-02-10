@@ -4,7 +4,7 @@
 
 ## Base Layout (`baseof.html`)
 
-```
+```go-html-template
 <!DOCTYPE html>
 <html lang="en">
 <head>

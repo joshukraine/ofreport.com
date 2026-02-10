@@ -69,11 +69,14 @@ function.
 
 1. Install dependencies: `npm install --save-dev tailwindcss @tailwindcss/cli`
 2. Create `assets/css/main.css`:
+
    ```css
    @import "tailwindcss";
    @source "hugo_stats.json";
    ```
+
 3. Add to `hugo.toml`:
+
    ```toml
    [build]
      [build.buildStats]
@@ -93,7 +96,9 @@ function.
        source = 'hugo_stats.json'
        target = 'assets/notwatching/hugo_stats.json'
    ```
+
 4. Create `layouts/partials/css.html`:
+
    ```go-html-template
    {{ with resources.Get "css/main.css" }}
      {{ $opts := dict "minify" (not hugo.IsDevelopment) }}
@@ -109,7 +114,9 @@ function.
      {{ end }}
    {{ end }}
    ```
+
 5. Include in base template with deferred execution:
+
    ```go-html-template
    <head>
      {{ with (templates.Defer (dict "key" "global")) }}
@@ -146,12 +153,14 @@ JavaScript framework.
 - Install via npm: `npm install --save-dev alpinejs`
 - Load via Hugo's `js.Build` pipe or from CDN
 - Initialize in the base layout before `</body>`:
+
   ```html
   <script
     defer
     src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"
   ></script>
   ```
+
 - Use inline `x-data`, `@click`, `x-show` attributes in templates
 
 **Example — hamburger menu:**
@@ -298,6 +307,7 @@ forms only — no popup.
 
 - Load CSS and JS from CDN (cdnjs.cloudflare.com) in the base layout, only
   on article pages:
+
   ```html
   <link
     rel="stylesheet"
@@ -305,11 +315,15 @@ forms only — no popup.
   />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/js/glightbox.min.js"></script>
   ```
+
 - Initialize in a small inline script:
+
   ```javascript
   const lightbox = GLightbox({ selector: ".glightbox" });
   ```
+
 - The figure shortcode outputs lightbox-compatible HTML:
+
   ```html
   <figure>
     <a
@@ -323,6 +337,7 @@ forms only — no popup.
     <figcaption>{caption}</figcaption>
   </figure>
   ```
+
 - The `href` points to a larger Cloudinary transformation for the lightbox
   view, while `src` uses a smaller transformation for in-page display
 

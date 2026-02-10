@@ -35,7 +35,7 @@ than the separate-repo approach.
 
 Key entries for the Hugo project:
 
-```
+```text
 # Hugo build output
 public/
 resources/_gen/

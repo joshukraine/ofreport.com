@@ -4,7 +4,7 @@
 
 ## Content Organization
 
-```
+```text
 ofreport.com/
 ├── archetypes/
 │   └── blog.md                  # Template for new blog posts
