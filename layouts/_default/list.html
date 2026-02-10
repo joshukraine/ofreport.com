@@ -1,41 +1,19 @@
 {{ define "main" }}
-  <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:max-w-4xl">
-        <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl font-header">
-          {{ .Title }}
-        </h1>
-        {{- with .Content }}
-          <div class="mt-2 text-lg/8 text-gray-600">{{ . }}</div>
+  <div class="mx-auto max-w-4xl px-4 py-8">
+    <h1 class="font-header text-4xl font-bold text-gray-900">{{ .Title }}</h1>
+    {{- with .Content }}
+      <div class="prose mt-4 max-w-none">{{ . }}</div>
+    {{- end }}
+    {{- if .Pages }}
+      <ul class="mt-8 space-y-4">
+        {{- range .Pages }}
+          <li>
+            <a href="{{ .Permalink }}" class="text-blue-700 hover:text-blue-900 hover:underline">
+              {{ .Title }}
+            </a>
+          </li>
         {{- end }}
-
-        {{- $pages := .Pages -}}
-        {{- $isFirstPage := not .Paginator.HasPrev -}}
-
-        <div class="mt-16 space-y-20 lg:mt-20">
-          {{- if and $isFirstPage $pages }}
-            {{/* Featured first article on page 1 */}}
-            {{ partial "article-card.html" (dict "page" (index $pages 0) "featured" true) }}
-
-            {{/* Remaining articles in 2-column grid */}}
-            {{- $rest := after 1 $pages -}}
-            {{- if $rest }}
-              <div class="grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2">
-                {{- range $rest }}
-                  {{ partial "article-card.html" (dict "page" . "featured" false) }}
-                {{- end }}
-              </div>
-            {{- end }}
-          {{- else }}
-            {{/* Pages 2+ — all articles in grid, no featured */}}
-            <div class="grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2">
-              {{- range $pages }}
-                {{ partial "article-card.html" (dict "page" . "featured" false) }}
-              {{- end }}
-            </div>
-          {{- end }}
-        </div>
-      </div>
-    </div>
+      </ul>
+    {{- end }}
   </div>
 {{ end }}
