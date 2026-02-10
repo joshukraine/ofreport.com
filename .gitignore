@@ -12,6 +12,9 @@ hugo_stats.json
 # Tailwind Plus licensed snippets (must not be committed)
 docs/tailwind_plus/
 
+# Temporary working files
+tmp/
+
 # OS files
 .DS_Store
 Thumbs.db
