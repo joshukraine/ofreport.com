@@ -93,19 +93,19 @@ committed to the repository.
 
 This PRD is split across multiple files for easier navigation:
 
-| File                                                  | Focus                                            |
-| ----------------------------------------------------- | ------------------------------------------------ |
-| `00-overview.md`                                      | Project goals, development approach (this file)  |
-| [`01-architecture.md`](./01-architecture.md)          | Architectural decisions                          |
-| [`02-design.md`](./02-design.md)                      | Design philosophy and visual identity            |
-| [`03-site-structure.md`](./03-site-structure.md)      | Content organization, URLs, Hugo configuration   |
-| [`04-templates.md`](./04-templates.md)                | Layout and template specifications               |
-| [`05-shortcodes.md`](./05-shortcodes.md)              | Hugo shortcode specifications                    |
-| [`06-content-migration.md`](./06-content-migration.md)| Migration script, legacy articles, checklist     |
-| [`07-deployment.md`](./07-deployment.md)              | Source control, Netlify config, deployment        |
-| [`08-risks-and-future.md`](./08-risks-and-future.md)  | New features, risks, out-of-scope items          |
-| [`ROADMAP.md`](./ROADMAP.md)                          | Build phases and progress tracking               |
-| [`appendix.md`](./appendix.md)                        | Reference links and existing data files          |
+| File                                                   | Focus                                           |
+| ------------------------------------------------------ | ----------------------------------------------- |
+| `00-overview.md`                                       | Project goals, development approach (this file) |
+| [`01-architecture.md`](./01-architecture.md)           | Architectural decisions                         |
+| [`02-design.md`](./02-design.md)                       | Design philosophy and visual identity           |
+| [`03-site-structure.md`](./03-site-structure.md)       | Content organization, URLs, Hugo configuration  |
+| [`04-templates.md`](./04-templates.md)                 | Layout and template specifications              |
+| [`05-shortcodes.md`](./05-shortcodes.md)               | Hugo shortcode specifications                   |
+| [`06-content-migration.md`](./06-content-migration.md) | Migration script, legacy articles, checklist    |
+| [`07-deployment.md`](./07-deployment.md)               | Source control, Netlify config, deployment      |
+| [`08-risks-and-future.md`](./08-risks-and-future.md)   | New features, risks, out-of-scope items         |
+| [`ROADMAP.md`](./ROADMAP.md)                           | Build phases and progress tracking              |
+| [`appendix.md`](./appendix.md)                         | Reference links and existing data files         |
 
 The [Hugo Migration Brief](../hugo-migration-brief.md) documents the existing
 Nuxt site and serves as a reference for understanding the current content,
