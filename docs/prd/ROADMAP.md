@@ -1,0 +1,188 @@
+# OFReport.com Hugo Rebuild — Roadmap
+
+This document tracks implementation progress across build phases. Each item
+links to the relevant PRD document for full requirements.
+
+---
+
+## Phase 1: Project Scaffolding & Configuration
+
+- [ ] Hugo project initialized (`hugo new site`)
+- [ ] `hugo.toml` configured (see [`03-site-structure.md`](./03-site-structure.md))
+- [ ] Content directory structure created (see [`03-site-structure.md`](./03-site-structure.md))
+- [ ] `package.json` with npm dependencies
+- [ ] `.gitignore` configured (see [`07-deployment.md`](./07-deployment.md))
+- [ ] Git repo initialized and first commit
+
+**Key learning:** Hugo project structure, `hugo.toml` config, content organization
+
+## Phase 2: Tailwind CSS v4 Integration
+
+- [ ] Tailwind CSS v4 installed and configured (see [`01-architecture.md`](./01-architecture.md))
+- [ ] `assets/css/main.css` entry point created
+- [ ] `partials/css.html` with `css.TailwindCSS` pipeline
+- [ ] `buildStats` and cache busters in `hugo.toml`
+- [ ] Verified: Tailwind classes render in dev server
+
+**Key learning:** `css.TailwindCSS`, Hugo asset pipeline, `buildStats`
+
+## Phase 3: Base Layout & Navigation
+
+- [ ] `baseof.html` base template (see [`04-templates.md`](./04-templates.md))
+- [ ] `partials/head.html` — meta, CSS, favicons
+- [ ] `partials/header.html` — site header with Alpine.js mobile menu (see [`01-architecture.md`](./01-architecture.md))
+- [ ] `partials/footer.html` — footer with links, social icons, copyright
+- [ ] Alpine.js loaded and functional
+
+**Key learning:** Go templates, partials, base template inheritance
+
+## Phase 4: Blog Listing with Pagination
+
+- [ ] `blog/list.html` — featured article + grid layout (see [`04-templates.md`](./04-templates.md))
+- [ ] `partials/article-card.html` — preview card component
+- [ ] `partials/pagination.html` — pagination navigation
+- [ ] Page 1 vs. page 2+ behavior working
+- [ ] Pagination URLs: `/blog/`, `/blog/page/2/`, etc.
+
+**Key learning:** Hugo's pagination system, list templates, `range`/`where` functions
+
+## Phase 5: Single Article Template
+
+- [ ] `blog/single.html` — full article page (see [`04-templates.md`](./04-templates.md))
+- [ ] Cover image with Cloudinary optimization
+- [ ] Meta line: author, date, reading time (see [`08-risks-and-future.md`](./08-risks-and-future.md))
+- [ ] Tag badges
+- [ ] Previous/next article navigation
+- [ ] `partials/cloudinary-url.html` — URL builder (see [`01-architecture.md`](./01-architecture.md))
+
+**Key learning:** Single page templates, frontmatter access, date formatting
+
+## Phase 6: Shortcodes
+
+- [ ] `figure.html` — image with caption + lightbox (see [`05-shortcodes.md`](./05-shortcodes.md))
+- [ ] `callout.html` — highlighted box with optional CTA
+- [ ] `button.html` — styled CTA link
+- [ ] `svg.html` — inline SVG from assets
+- [ ] All shortcodes tested with sample content
+
+**Key learning:** Custom shortcodes for images, callouts, buttons
+
+## Phase 7: Tag Taxonomy
+
+- [ ] `taxonomy/tags.html` — all tags listing with article counts
+- [ ] `taxonomy/tag.html` — articles filtered by tag with pagination
+- [ ] Tag badges link to tag pages
+- [ ] Tag URLs: `/tags/`, `/tags/{tag}/`, `/tags/{tag}/page/2/`
+
+**Key learning:** Hugo taxonomies, taxonomy list/term templates
+
+## Phase 8: Static Pages
+
+- [ ] Family page (`/family/`)
+- [ ] Ministry page (`/ministry/`) with SVG logos
+- [ ] Podcast page (`/podcast/`) with Buzzsprout embed
+- [ ] Archives page (`/archives/`) using `data/archives.json`
+- [ ] Donate page (`/donate/`)
+- [ ] Subscribe page (`/subscribe/`) with Mailchimp form
+
+**Key learning:** Content sections, page-specific templates
+
+## Phase 9: RSS Feed
+
+- [ ] Custom RSS template at `/feed.xml` (see [`01-architecture.md`](./01-architecture.md))
+- [ ] Cover images with Cloudinary transformations
+- [ ] HTML-rendered content in feed items
+- [ ] Mailchimp compatibility verified
+
+**Key learning:** Custom RSS template, Hugo output formats
+
+## Phase 10: SEO & Meta Tags
+
+- [ ] `partials/seo.html` — Open Graph, Twitter Cards (see [`04-templates.md`](./04-templates.md))
+- [ ] Title template with suffix
+- [ ] Canonical URLs
+- [ ] Robots meta (production vs. non-production)
+- [ ] Sitemap at `/sitemap.xml`
+- [ ] Favicons (apple-touch-icon, Android Chrome, Safari pinned tab)
+
+**Key learning:** Head partial, Open Graph, Twitter Cards, sitemap
+
+## Phase 11: Contact Form (Netlify Forms)
+
+- [ ] `partials/contact-form.html` (see [`01-architecture.md`](./01-architecture.md))
+- [ ] Contact page (`/contact/`)
+- [ ] Thank-you page (`/thank-you/`)
+- [ ] Honeypot spam prevention
+- [ ] Form submission tested on Netlify
+
+**Key learning:** Static form handling, Netlify integration
+
+## Phase 12: Newsletter Integration
+
+- [ ] `partials/mailchimp-form.html` (see [`01-architecture.md`](./01-architecture.md))
+- [ ] Form placed on homepage, article footer, `/subscribe/` page
+- [ ] Styled with Tailwind to match site design
+
+**Key learning:** Mailchimp embedded forms
+
+## Phase 13: Lightbox Integration
+
+- [ ] GLightbox CSS/JS loaded (see [`01-architecture.md`](./01-architecture.md))
+- [ ] `partials/glightbox.html` — conditional loading on article pages
+- [ ] Figure shortcode outputs lightbox-compatible HTML
+- [ ] Tested with actual Cloudinary images
+
+**Key learning:** GLightbox setup, shortcode enhancement
+
+## Phase 14: Analytics
+
+- [ ] `partials/analytics.html` — swappable analytics partial (see [`01-architecture.md`](./01-architecture.md))
+- [ ] Conditional loading (production only)
+- [ ] Analytics tool selected and configured
+
+**Key learning:** Privacy-friendly analytics partial
+
+## Phase 15: Content Migration
+
+- [ ] Ruby migration script written (see [`06-content-migration.md`](./06-content-migration.md))
+- [ ] All 219 articles converted
+- [ ] Frontmatter transformed (preview → description, slug added, etc.)
+- [ ] Vue components converted to Hugo shortcodes
+- [ ] Duplicate tag consolidated (`good-and-evil`)
+- [ ] Validation pass: no remaining `<article-` patterns
+- [ ] Legacy WordPress articles reviewed and fixed
+- [ ] Static pages created
+- [ ] Data files migrated (`authors.json`, `archives.json`)
+
+**Key learning:** Migration scripting, validation, content testing
+
+## Phase 16: Deployment
+
+- [ ] `netlify.toml` configured (see [`07-deployment.md`](./07-deployment.md))
+- [ ] Redirects for SEO continuity
+- [ ] Security headers
+- [ ] Deploy preview tested
+- [ ] Production deployment
+- [ ] DNS/domain verified (no changes needed)
+- [ ] Lighthouse audit passed
+- [ ] Old repo archived
+
+**Key learning:** Netlify configuration, redirects, final testing
+
+---
+
+## Future / Unscheduled
+
+Items that are out of scope for the initial rebuild but may be added later
+(see [`08-risks-and-future.md`](./08-risks-and-future.md)):
+
+- Comments system (Disqus, giscus, etc.)
+- Dark mode
+- Multilingual content
+- CMS integration (Decap CMS)
+- Image migration to local (Hugo page bundles)
+- Client-side search (Pagefind)
+
+> **Adding new features:** Create a new numbered PRD document (e.g.,
+> `09-search.md`) and add an entry here under the appropriate phase or
+> under Future.
