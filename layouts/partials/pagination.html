@@ -26,13 +26,9 @@
       {{- range $paginator.Pagers -}}
         {{- $pageNum := .PageNumber -}}
 
-        {{/* Show first page */}}
+        {{/* Show first page (always non-current — windowStart > 1 requires current >= 4) */}}
         {{- if and (eq $pageNum 1) (gt $windowStart 1) }}
-          {{- if eq $current 1 }}
-            <a href="{{ .URL }}" aria-current="page" class="inline-flex items-center border-t-2 border-blue-500 px-4 pt-4 text-sm font-medium text-blue-600">1</a>
-          {{- else }}
-            <a href="{{ .URL }}" class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">1</a>
-          {{- end }}
+          <a href="{{ .URL }}" class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">1</a>
           {{- if gt $windowStart 2 }}
             <span class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500">&hellip;</span>
           {{- end }}
@@ -52,11 +48,8 @@
           {{- if lt $windowEnd (sub $total 1) }}
             <span class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500">&hellip;</span>
           {{- end }}
-          {{- if eq $current $total }}
-            <a href="{{ .URL }}" aria-current="page" class="inline-flex items-center border-t-2 border-blue-500 px-4 pt-4 text-sm font-medium text-blue-600">{{ $total }}</a>
-          {{- else }}
-            <a href="{{ .URL }}" class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">{{ $total }}</a>
-          {{- end }}
+          {{/* Always non-current — windowEnd < total requires current < total-2 */}}
+          <a href="{{ .URL }}" class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">{{ $total }}</a>
         {{- end }}
       {{- end }}
     </div>
