@@ -38,11 +38,11 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 4: Blog Listing with Pagination
 
-- [ ] `blog/list.html` — featured article + grid layout (see [`04-templates.md`](./04-templates.md))
-- [ ] `partials/article-card.html` — preview card component
-- [ ] `partials/pagination.html` — pagination navigation
-- [ ] Page 1 vs. page 2+ behavior working
-- [ ] Pagination URLs: `/blog/`, `/blog/page/2/`, etc.
+- [x] `blog/list.html` — featured article + grid layout (see [`04-templates.md`](./04-templates.md))
+- [x] `partials/article-card.html` — preview card component
+- [x] `partials/pagination.html` — pagination navigation
+- [x] Page 1 vs. page 2+ behavior working
+- [x] Pagination URLs: `/blog/`, `/blog/page/2/`, etc.
 
 **Key learning:** Hugo's pagination system, list templates, `range`/`where` functions
 
