@@ -1,22 +1,23 @@
 {{- $src := .src -}}
 {{- $preset := .preset -}}
+{{- $result := "" -}}
 
-{{- if not $src -}}
-  {{- return "" -}}
+{{- if $src -}}
+  {{- $presets := dict
+    "featured" "c_scale,f_auto,q_auto,w_740"
+    "regular"  "c_scale,f_auto,q_auto,w_610"
+    "article"  "c_scale,f_auto,q_auto:best"
+    "og"       "c_fill,f_auto,h_630,q_auto,w_1200"
+    "rss"      "c_scale,f_auto,q_auto,w_560"
+  -}}
+
+  {{- $transforms := index $presets $preset -}}
+
+  {{- if $transforms -}}
+    {{- $result = replace $src "/upload/" (printf "/upload/%s/" $transforms) -}}
+  {{- else -}}
+    {{- $result = $src -}}
+  {{- end -}}
 {{- end -}}
 
-{{- $presets := dict
-  "featured" "c_scale,f_auto,q_auto,w_740"
-  "regular"  "c_scale,f_auto,q_auto,w_610"
-  "article"  "c_scale,f_auto,q_auto:best"
-  "og"       "c_fill,f_auto,h_630,q_auto,w_1200"
-  "rss"      "c_scale,f_auto,q_auto,w_560"
--}}
-
-{{- $transforms := index $presets $preset -}}
-
-{{- if $transforms -}}
-  {{- return (replace $src "/upload/" (printf "/upload/%s/" $transforms)) -}}
-{{- else -}}
-  {{- return $src -}}
-{{- end -}}
+{{- return $result -}}

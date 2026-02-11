@@ -1,8 +1,19 @@
 {{ define "main" }}
   <div class="mx-auto max-w-4xl px-4 py-8">
     <h1 class="font-header text-4xl font-bold text-gray-900">{{ .Title }}</h1>
-    <div class="prose mt-4 max-w-none">
-      {{ .Content }}
-    </div>
+    {{- with .Content }}
+      <div class="prose mt-4 max-w-none">{{ . }}</div>
+    {{- end }}
+    {{- if .Pages }}
+      <ul class="mt-8 space-y-4">
+        {{- range .Pages }}
+          <li>
+            <a href="{{ .Permalink }}" class="text-blue-700 hover:text-blue-900 hover:underline">
+              {{ .Title }}
+            </a>
+          </li>
+        {{- end }}
+      </ul>
+    {{- end }}
   </div>
 {{ end }}
