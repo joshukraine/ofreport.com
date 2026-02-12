@@ -95,3 +95,6 @@ static/feed.xml
 
 # Local Netlify folder
 .netlify
+
+# Claude Code local settings (personal overrides)
+.claude/settings.local.json
