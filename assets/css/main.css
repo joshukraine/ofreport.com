@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
+@plugin "@tailwindcss/typography";
 
 @theme {
   /* Blue palette — matches existing OFReport site */
