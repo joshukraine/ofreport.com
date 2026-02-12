@@ -21,3 +21,6 @@ Thumbs.db
 
 # Environment files
 .env
+
+# Claude Code local settings (personal overrides)
+.claude/settings.local.json
