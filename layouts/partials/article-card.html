@@ -18,7 +18,8 @@
 
   <div>
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
-      <time datetime="{{ $page.Date.Format "2006-01-02" }}" class="text-gray-500">
+      {{- $isoDate := $page.Date.Format "2006-01-02" -}}
+      <time datetime="{{ $isoDate }}" class="text-gray-500">
         {{- $page.Date.Format "January 2, 2006" -}}
       </time>
       {{- range $page.Params.tags }}
