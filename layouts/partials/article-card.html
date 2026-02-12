@@ -2,7 +2,7 @@
 {{- $featured := default false .featured -}}
 {{- $preset := cond $featured "featured" "regular" -}}
 
-<article class="{{ if $featured }}relative isolate flex flex-col gap-8 lg:flex-row{{ else }}relative isolate flex flex-col{{ end }}">
+<article class="{{ if $featured }}relative isolate flex flex-col gap-8 lg:flex-row{{ else }}relative isolate flex flex-col gap-6{{ end }}">
   {{- with $page.Params.cover }}
     {{- $imgURL := partial "cloudinary-url.html" (dict "src" . "preset" $preset) }}
     <div class="{{ if $featured }}relative aspect-video sm:aspect-2/1 lg:aspect-square lg:w-64 lg:shrink-0{{ else }}relative aspect-video{{ end }}">
