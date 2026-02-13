@@ -54,6 +54,38 @@
         {{ .Content }}
       </div>
 
+      {{/* Previous/next article navigation */}}
+      {{- $older := .NextInSection -}}
+      {{- $newer := .PrevInSection -}}
+      {{- if or $older $newer }}
+        <nav class="mt-16 border-t border-gray-200 pt-8" aria-label="Previous and next articles">
+          <div class="flex flex-col gap-6 sm:flex-row sm:justify-between">
+            {{- if $older }}
+              <a href="{{ $older.RelPermalink }}" class="group flex-1">
+                <span class="flex items-center gap-1 text-sm font-medium text-gray-500 group-hover:text-blue-700 transition-colors">
+                  <span aria-hidden="true">&larr;</span> Previous
+                </span>
+                <span class="mt-1 block text-base font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">
+                  {{- $older.Title -}}
+                </span>
+              </a>
+            {{- else }}
+              <div class="flex-1"></div>
+            {{- end }}
+            {{- if $newer }}
+              <a href="{{ $newer.RelPermalink }}" class="group flex-1 sm:text-right">
+                <span class="flex items-center gap-1 text-sm font-medium text-gray-500 group-hover:text-blue-700 transition-colors sm:justify-end">
+                  Next <span aria-hidden="true">&rarr;</span>
+                </span>
+                <span class="mt-1 block text-base font-semibold text-gray-900 group-hover:text-blue-700 transition-colors">
+                  {{- $newer.Title -}}
+                </span>
+              </a>
+            {{- end }}
+          </div>
+        </nav>
+      {{- end }}
+
     </div>
   </article>
 {{ end }}
