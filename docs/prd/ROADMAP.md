@@ -48,12 +48,12 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 5: Single Article Template
 
-- [ ] `blog/single.html` — full article page (see [`04-templates.md`](./04-templates.md))
-- [ ] Cover image with Cloudinary optimization
-- [ ] Meta line: author, date, reading time (see [`08-risks-and-future.md`](./08-risks-and-future.md))
-- [ ] Tag badges
-- [ ] Previous/next article navigation
-- [ ] `partials/cloudinary-url.html` — URL builder (see [`01-architecture.md`](./01-architecture.md))
+- [x] `blog/single.html` — full article page (see [`04-templates.md`](./04-templates.md))
+- [x] Cover image with Cloudinary optimization
+- [x] Meta line: author, date, reading time (see [`08-risks-and-future.md`](./08-risks-and-future.md))
+- [x] Tag badges linked to tag pages
+- [x] Previous/next article navigation
+- [x] `partials/cloudinary-url.html` — URL builder (see [`01-architecture.md`](./01-architecture.md))
 
 **Key learning:** Single page templates, frontmatter access, date formatting
 
