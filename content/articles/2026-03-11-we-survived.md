@@ -34,9 +34,7 @@ videos as the project unfolded. We have a ton of pictures and stories to share
 from that trip — stay tuned. In the meantime, you can view those update videos
 at this YouTube playlist:
 
-<!-- TODO: Add YouTube playlist link -->
-
-<article-button text="Check out the UGO playlist" path="#" :outline="true" :center="true" :external="true" margin="y"/>
+<article-button text="Check out the UGO playlist" path="https://youtube.com/playlist?list=PLwBim7LWPkXWNlbUWqyRbQACx3p7EG4Wt&si=n6eDY7FKha1pCBXC" :outline="true" :center="true" :external="true" margin="y"/>
 
 Our _Good and Evil_ distributor program is also revving up, and we're excited
 about what's ahead on that front. More details coming soon.
@@ -45,6 +43,8 @@ In January, our family and the music team from our church had the opportunity to
 minister at a local hospital to wounded vets back from the front. It was an
 amazing experience that we look forward to telling you more about.
 
+<article-image publicId="OFReport/2026-03-11-we-survived/IMG_3954-cropped_x5cvyd" width="768" caption="Ministering to wounded soldiers at a hospital in Lviv" />
+
 ## Local Church
 
 It seems the war is taking more and more of our men, and as several team members
@@ -52,15 +52,17 @@ at our church have recently been mobilized, our family has been stepping in to
 fill the gaps. While we miss our guys, it's been wonderful to be more deeply
 involved with the local church here in Lviv. I preach regularly on Sunday
 mornings, almost our entire family is now involved in the music ministry, and
-we've recently launched a new Bible school that we're very excited about.
+the church recently launched a new Bible school that we're very excited about.
 
 ## Family
 
 One reason we've found it challenging to make time for updates is the flurry of
 family activity. We were overjoyed to welcome my dad and our pastor from the
 States for a visit in September. Our oldest daughter, Abigail, came for about
-three weeks over Christmas, and as Rebekah is turning 18, we had to take her to
-the Ukrainian embassy in Poland to apply for her visa.
+three weeks over Christmas, and we had a marvelous time reconnecting with her.
+Rebekah celebrated a big milestone in January: her 18th birthday! This also
+meant a trip to the Ukrainian Embassy in Poland to begin the document process
+for her temporary residency.
 
 ## The War
 
