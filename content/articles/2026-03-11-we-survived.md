@@ -27,8 +27,8 @@ here's what we've been up to and what God has been doing in our ministry.
 
 ## Outreach
 
-The last major update on our blog was about the launch of our new Ukraine Gospel
-Outreach initiative. That was followed by a major outreach project in October,
+The last major update on our blog was about the launch of our new [Ukraine Gospel
+Outreach](https://ugoproject.org/) initiative. That was followed by a major outreach project in October,
 during which we posted daily update videos as the project unfolded. We have a
 ton of pictures and stories to share from that trip — stay tuned. In the
 meantime, you can view those update videos at this YouTube playlist.
