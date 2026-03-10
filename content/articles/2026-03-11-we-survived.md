@@ -31,7 +31,7 @@ The last major update on our blog was about the launch of our new [Ukraine Gospe
 Outreach](https://ugoproject.org/) initiative. That was followed by a major outreach project in October,
 during which we posted daily update videos as the project unfolded. We have a
 ton of pictures and stories to share from that trip — stay tuned. In the
-meantime, you can view those update videos at this YouTube playlist.
+meantime, you can view those update videos at this YouTube playlist. <!-- TODO: Add YouTube playlist link -->
 
 Our _Good and Evil_ distributor program is also revving up, and we're excited
 about what's ahead on that front. More details coming soon.
