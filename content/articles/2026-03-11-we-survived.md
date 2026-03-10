@@ -42,8 +42,8 @@ Our _Good and Evil_ distributor program is also revving up, and we're excited
 about what's ahead on that front. More details coming soon.
 
 In January, our family and the music team from our church had the opportunity to
-minister at a local hospital to wounded vets back from the front. It was a
-powerful and moving experience that we look forward to telling you more about.
+minister at a local hospital to wounded vets back from the front. It was an
+amazing experience that we look forward to telling you more about.
 
 ## Local Church
 
