@@ -10,6 +10,9 @@ preview: >
   several months. A more detailed newsletter is in the works, but in the
   meantime, here's what we've been up to and what God has been doing in our
   ministry.
+caption: >
+  Even in the midst of war, God gives happy moments when we are reminded of His
+  faithfulness!
 tags:
   - ukraine
   - ministry
