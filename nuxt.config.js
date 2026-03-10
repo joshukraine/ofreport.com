@@ -24,7 +24,7 @@ export default {
     '~/plugins/vuelidate.js',
   ],
 
-  buildModules: ['@nuxtjs/google-analytics', '@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss'],
 
   modules: [
     '@nuxtjs/axios',
@@ -65,11 +65,6 @@ export default {
     path: '/sitemap.xml',
     hostname: 'https://ofreport.com',
     gzip: true,
-  },
-
-  googleAnalytics: {
-    id: 'UA-22952661-1',
-    dev: false,
   },
 
   build,

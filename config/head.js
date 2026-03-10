@@ -71,4 +71,14 @@ export default {
       href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap',
     },
   ],
+  script:
+    process.env.NODE_ENV === 'production'
+      ? [
+          {
+            src: 'https://lens.euroteamoutreach.org/script.js',
+            'data-website-id': '34d2cfa4-e623-418a-936d-670c9d163ead',
+            defer: true,
+          },
+        ]
+      : [],
 };
