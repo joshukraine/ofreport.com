@@ -22,7 +22,7 @@ including the following:
 
 ## Requirements
 
-- [Node >= 14.x][node]
+- [Node 20.x][node]
 - [Yarn 1.x][yarn]
 
 ## Setup
@@ -124,17 +124,19 @@ and [eslint-config-airbnb-base][eslint-config-airbnb-base].
 
 Code formatting is done with [Prettier][prettier].
 
-I use [Neovim][neovim] as my editor along with the [coc.nvim][coc-nvim] plugin
-for code completion and asynchronous linting.
+Pre-commit hooks via [Husky][husky] and [lint-staged][lint-staged] automatically lint and format staged files before each commit.
+
+## Analytics
+
+Site analytics are provided by [Umami][umami], a cookieless, privacy-focused analytics platform. The tracking script is self-hosted at `lens.euroteamoutreach.org` and loads only in production.
 
 ## Legal
 
-Copyright © 2003–2021 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
+Copyright © 2003–2026 Joshua and Kelsie Steele. Software is licensed under [MIT][license].
 
 [airbnb]: https://github.com/airbnb/javascript
 [bundle-treemap]: https://res.cloudinary.com/dnkvsijzu/image/upload/c_scale,f_auto,q_auto,w_1000/v1573627005/OFReport/assets/nuxt_stats_client.html_wpbbpp.png
 [cloudinary]: https://cloudinary.com/invites/lpov9zyyucivvxsnalc5/ck3hvrdcnvaeftjds7ep
-[coc-nvim]: https://github.com/neoclide/coc.nvim
 [eslint-config-airbnb-base]: https://yarnpkg.com/en/package/eslint-config-airbnb-base
 [eslint-vue]: https://yarnpkg.com/en/package/eslint-plugin-vue
 [fml]: https://hmsk.github.io/frontmatter-markdown-loader/
@@ -142,17 +144,18 @@ Copyright © 2003–2021 Joshua and Kelsie Steele. Software is licensed under [M
 [http-server]: https://yarnpkg.com/en/package/http-server
 [license]: https://github.com/joshukraine/ofreport.com/blob/master/LICENSE
 [markdown-it]: https://yarnpkg.com/en/package/markdown-it
-[neovim]: https://neovim.io/
+[husky]: https://typicode.github.io/husky/
+[lint-staged]: https://github.com/lint-staged/lint-staged
 [netlify]: https://www.netlify.com/
 [node]: https://nodejs.org/en/
-[nuxt-analyze]: https://nuxtjs.org/api/configuration-build/#analyze
-[nuxt-assets]: https://nuxtjs.org/guide/assets
-[nuxt-faq]: https://nuxtjs.org/faq
-[nuxt-netlify-deploy]: https://nuxtjs.org/faq/netlify-deployment
-[nuxt]: https://nuxtjs.org/
+[nuxt-analyze]: https://v2.nuxt.com/docs/configuration-glossary/configuration-build/#analyze
+[nuxt-assets]: https://v2.nuxt.com/docs/directory-structure/assets
+[nuxt-faq]: https://v2.nuxt.com/docs/get-started/commands
+[nuxt-netlify-deploy]: https://v2.nuxt.com/deployments/netlify
+[nuxt]: https://v2.nuxt.com/
 [prettier]: https://prettier.io/
 [screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1596887906/OFReport/assets/ofreport.com_screenshot_ejueay.png
-[static-gen]: https://www.staticgen.com/nuxt
+[static-gen]: https://v2.nuxt.com/deployments/static-hosting
 [tailwind]: https://v1.tailwindcss.com/
 [vue]: https://vuejs.org/
 [vuejs-paginate]: https://yarnpkg.com/en/package/vuejs-paginate
@@ -160,3 +163,4 @@ Copyright © 2003–2021 Joshua and Kelsie Steele. Software is licensed under [M
 [yarn]: https://yarnpkg.com/en/docs/install
 [netlify-edge]: https://www.netlify.com/products/edge/
 [netlify-ssl]: https://docs.netlify.com/domains-https/https-ssl/
+[umami]: https://umami.is/
