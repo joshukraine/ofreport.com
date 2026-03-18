@@ -124,8 +124,9 @@ completed. 5,000 copies are delivered in January 2009.
 
 ### 2010
 
-CMO 2010 — our fifth project in a row — is held. Our third child, Hosanna, is
-born in November.
+CMO 2010 — our fifth project in a row — is held.
+
+Our third child, Hosanna, is born in November.
 
 ### 2011
 
@@ -213,7 +214,7 @@ updates and spread awareness about what is happening in Ukraine.
 
 New donations come in for the printing of _Good and Evil_, and we print 15,000
 copies in a special full-color edition. Armed with these new books, we launch
-our _Good and Evil_ distributor network, resulting in the broad distribution of
+our Good and Evil Distributor Network, resulting in the broad distribution of
 the _Good and Evil_ book all across Ukraine, even in areas hardest hit by the
 war.
 
