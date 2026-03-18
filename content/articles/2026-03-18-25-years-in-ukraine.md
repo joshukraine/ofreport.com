@@ -147,7 +147,7 @@ total to twenty. _Bible First_ remains at the core of our ministry today.
 
 ### 2014
 
-The Maidan revolution begins in Ukraine, followed by Russia's invasion and
+The Maidan Revolution begins in Ukraine, followed by russia's invasion and
 subsequent annexation of Crimea, as well as large portions of the Donbas region.
 
 Our fourth daughter, Kathryn, is born in December.
@@ -206,7 +206,7 @@ transportation has been shut down due to quarantine restrictions.
 
 ### 2022
 
-Russia invades Ukraine on February 24. Three days later, our family evacuates to
+russia invades Ukraine on February 24. Three days later, our family evacuates to
 Slovakia, where we stay for 16 months. We become heavily involved in ministering
 to Ukrainian refugees. We launch a podcast called Journey to Ukraine to share
 updates and spread awareness about what is happening in Ukraine.
@@ -230,7 +230,7 @@ In the summer, we host our final CMO project.
 
 Nathan and I, along with Ben Sargent, join up with Ukrainian missionary
 Oleksandr Ilchenko for our first trip to the southern regions of Ukraine,
-ministering in villages recently liberated from Russian occupation. The things
+ministering in villages recently liberated from russian occupation. The things
 we learn during this project lead to the establishment of a new ministry:
 Ukraine Gospel Outreach (UGO).
 
