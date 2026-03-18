@@ -236,7 +236,7 @@ Ukraine Gospel Outreach (UGO).
 
 Kelsie and I celebrate 20 years of marriage.
 
-<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-20-years_yjb8pt" width="768" caption="More in love than ever!" />
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-20-years_yjb8pt" width="768" caption="More in love than ever! 💞" />
 
 ### 2025
 
