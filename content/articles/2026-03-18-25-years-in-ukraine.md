@@ -246,7 +246,7 @@ place in October.
 Funding is provided for our fourth full-color printing of _Good and Evil_,
 enabling us to continue our Good and Evil Distributor Network.
 
-<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/IMG_7695_yrdvwy" width="768" caption="Ministering the Gospel in Zhytomry at the conclusion of our 2025 UGO project" />
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/IMG_7695_yrdvwy" width="768" caption="Ministering the Gospel in Zhytomyr at the conclusion of our 2025 UGO project" />
 
 ## Conclusion
 
