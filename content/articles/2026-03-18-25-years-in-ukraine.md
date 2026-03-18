@@ -50,6 +50,8 @@ Now, in the early morning hours of March 19, 2001, after an overnight train trip
 from Kyiv, I arrived in the city that would be my home for decades to come, the
 city where I still live with my family today: Lviv.
 
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/dad-joshua-mom_oueihc" width="768" caption="No reflection on my time in Ukraine could be complete without acknowledging the incredible debt of gratitude I owe to my precious parents, Mike and Cathy Steele. Thank you, Mom and Dad, for training me, for believing in me, and for having the courage to let me go to the ends of the earth." />
+
 ## The Early Years (2001–2006)
 
 ### 2001
@@ -71,7 +73,7 @@ serve with us in Lviv today.
 
 After my return from Thailand, Nathan Day, Jessie Beal, and I decide to work
 together as a team, training young men in missions as we share the Gospel with
-Ukrainians. In time, we call adopt the name _Euro Team Outreach_.
+Ukrainians. In time, we adopt the name _Euro Team Outreach_.
 
 On September 18th, Kelsie and I are married in Texas, and after a few weeks of
 preparation, we return to Ukraine together.
@@ -95,7 +97,7 @@ Carpathian Mountain Outreach launches in May and lasts a full four months. What
 we envisioned as a one-off project becomes an annual event spanning 17 years
 that trains over 60 men in hands-on foreign mission work.
 
-The first lessons of our Bible First course are written and distributed to
+The first lessons of our _Bible First_ course are written and distributed to
 people responding to our summer outreach (CMO 2006).
 
 Our nonprofit, Euro Team Outreach, is incorporated in the State of Texas, with
@@ -107,18 +109,18 @@ Jessie, Nathan, and me serving as board members.
 
 During these years, we see our ministry solidify around three primary branches:
 
-1. Our Bible First correspondence course
+1. Our _Bible First_ correspondence course
 2. Our annual CMO projects
-3. The printing and distribution of the Good and Evil book in Ukrainian
+3. The printing and distribution of the _Good and Evil_ book in Ukrainian
 
 ### 2008
 
 Our second child, Rebekah, is born in January.
 
-The translation of the Good and Evil book into the Ukrainian language is
+The translation of the _Good and Evil_ book into the Ukrainian language is
 completed. 5,000 copies are delivered in January 2009.
 
-<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/dsc_4266_qic6hy" width="768" caption="Serhii Chepara helps me unload the shipment of 5,000 Good and Evil books." />
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/dsc_4266_qic6hy" width="768" caption="Serhii Chepara helps me unload the shipment of 5,000 _Good and Evil_ books." />
 
 ### 2010
 
@@ -128,18 +130,18 @@ born in November.
 ### 2011
 
 For the first time in five years, we take a year off from CMO to focus more
-heavily on the development and writing of our Bible First lessons.
+heavily on the development and writing of our _Bible First_ lessons.
 
 ### 2012
 
 My brother Jonathan joins us for CMO — his third trip to Ukraine — and films a
-short promotional video about CMO, which we affectionately call "The CMO Movie."
-[LINK TO WATCH]
+short promotional video about CMO, which we affectionately call
+[The CMO Movie](https://cmoproject.org/movie/).
 
 ### 2013
 
-The final two lessons of our Bible First course are complete, bringing the total
-to twenty. Bible First remains at the core of our ministry today.
+The final two lessons of our _Bible First_ course are complete, bringing the
+total to twenty. _Bible First_ remains at the core of our ministry today.
 
 <article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/IMG_1623_g9e0wb_e9hgsz" width="768" caption="Filming Bible teaching videos in Ukrainian" />
 
@@ -152,8 +154,8 @@ Our fourth daughter, Kathryn, is born in December.
 
 ### 2015
 
-Development begins on our web-based Bible First platform, enabling students for
-the first time to progress through our Bible lessons online.
+Development begins on our web-based _Bible First_ platform, enabling students
+for the first time to progress through our Bible lessons online.
 
 Ben Sargent, who would later join our staff team, travels to Ukraine and attends
 CMO for the first time.
@@ -169,15 +171,15 @@ development of Bible First Online.
 
 Our fifth child and first son, David, is born in January.
 
-Once again, we take a break from CMO to focus on the development of our Bible
-First course.
+Once again, we take a break from CMO to focus on the development of our _Bible
+First_ course.
 
 <article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/hackers-for-christ-2000w_ilvvag" width="768" caption="Trevor Brown travels to Ukraine to help us with coding Bible First Online." />
 
 ### 2018
 
 Working with a professional Ukrainian philologist, we complete a thorough
-updated translation of Good and Evil in Ukrainian. New donations come in,
+updated translation of _Good and Evil_ in Ukrainian. New donations come in,
 enabling us to print 5,000 copies — this time in full color.
 
 Ben Sargent joins ETO's Board of Directors.
@@ -209,12 +211,13 @@ Slovakia, where we stay for 16 months. We become heavily involved in ministering
 to Ukrainian refugees. We launch a podcast called Journey to Ukraine to share
 updates and spread awareness about what is happening in Ukraine.
 
-New donations come in for the printing of Good and Evil, and we print 15,000
+New donations come in for the printing of _Good and Evil_, and we print 15,000
 copies in a special full-color edition. Armed with these new books, we launch
-our Good and Evil distributor network, resulting in the broad distribution of
-the Good and Evil book all across Ukraine, even in areas hardest hit by the war.
+our _Good and Evil_ distributor network, resulting in the broad distribution of
+the _Good and Evil_ book all across Ukraine, even in areas hardest hit by the
+war.
 
-<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/ge-print-blend_osqrye_ydn2xf" width="768" caption="Thanks to the generosity of No Greater Joy Ministries and many individual donors, 15,000 copies of a special edition of Good and Evil are printed." />
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/ge-print-blend_osqrye_ydn2xf" width="768" caption="Thanks to the generosity of No Greater Joy Ministries and many individual donors, 15,000 copies of a special edition of _Good and Evil_ are printed." />
 
 ### 2023
 
@@ -240,7 +243,7 @@ Kelsie and I celebrate 20 years of marriage.
 Ukraine Gospel Outreach is formally announced, with our second project taking
 place in October.
 
-Funding is provided for our fourth full-color printing of Good and Evil,
+Funding is provided for our fourth full-color printing of _Good and Evil_,
 enabling us to continue our Good and Evil Distributor Network.
 
 <article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/IMG_7695_yrdvwy" width="768" caption="Ministering the Gospel in Zhytomry at the conclusion of our 2025 UGO project" />
