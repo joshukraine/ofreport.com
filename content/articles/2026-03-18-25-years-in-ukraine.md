@@ -76,6 +76,8 @@ Ukrainians. In time, we call adopt the name _Euro Team Outreach_.
 On September 18th, Kelsie and I are married in Texas, and after a few weeks of
 preparation, we return to Ukraine together.
 
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/joshua-kelsie-wedding_ynacqc" width="768" caption="No single person has had a greater impact on my life and ministry in Ukraine than the beautiful bride God brought me, my precious Kelsie. ❤️" />
+
 ### 2005
 
 Nathan and I make our first scouting trip to the Carpathians to plan a new
@@ -99,6 +101,8 @@ people responding to our summer outreach (CMO 2006).
 Our nonprofit, Euro Team Outreach, is incorporated in the State of Texas, with
 Jessie, Nathan, and me serving as board members.
 
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/cmo-2006-team-picture_veueqk" width="768" caption="The original CMO team, 2006" />
+
 ## Expansion: Bible First, CMO, Good and Evil (2007–2019)
 
 During these years, we see our ministry solidify around three primary branches:
@@ -113,6 +117,8 @@ Our second child, Rebekah, is born in January.
 
 The translation of the Good and Evil book into the Ukrainian language is
 completed. 5,000 copies are delivered in January 2009.
+
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/dsc_4266_qic6hy" width="768" caption="Serhii Chepara helps me unload the shipment of 5,000 Good and Evil books." />
 
 ### 2010
 
@@ -134,6 +140,8 @@ short promotional video about CMO, which we affectionately call "The CMO Movie."
 
 The final two lessons of our Bible First course are complete, bringing the total
 to twenty. Bible First remains at the core of our ministry today.
+
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/IMG_1623_g9e0wb_e9hgsz" width="768" caption="Filming Bible teaching videos in Ukrainian" />
 
 ### 2014
 
@@ -164,6 +172,8 @@ Our fifth child and first son, David, is born in January.
 Once again, we take a break from CMO to focus on the development of our Bible
 First course.
 
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/hackers-for-christ-2000w_ilvvag" width="768" caption="Trevor Brown travels to Ukraine to help us with coding Bible First Online." />
+
 ### 2018
 
 Working with a professional Ukrainian philologist, we complete a thorough
@@ -190,6 +200,8 @@ in a local initiative called Lviv Angels, where Christian drivers help doctors
 and nurses get to hospitals every day. This is needful because public
 transportation has been shut down due to quarantine restrictions.
 
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/drivers-books_ylteqh_bmaf5z" width="768" caption="Driving doctors and passing out Bible literature as the pandemic rages." />
+
 ### 2022
 
 Russia invades Ukraine on February 24. Three days later, our family evacuates to
@@ -201,6 +213,8 @@ New donations come in for the printing of Good and Evil, and we print 15,000
 copies in a special full-color edition. Armed with these new books, we launch
 our Good and Evil distributor network, resulting in the broad distribution of
 the Good and Evil book all across Ukraine, even in areas hardest hit by the war.
+
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/ge-print-blend_osqrye_ydn2xf" width="768" caption="Thanks to the generosity of No Greater Joy Ministries and many individual donors, 15,000 copies of a special edition of Good and Evil are printed." />
 
 ### 2023
 
@@ -219,6 +233,8 @@ Ukraine Gospel Outreach (UGO).
 
 Kelsie and I celebrate 20 years of marriage.
 
+<article-image publicId="OFReport/2024-09-24-of-books-baptisms-and-blessings/joshua-kelsie-20-years_yjb8pt" width="768" caption="More in love than ever!" />
+
 ### 2025
 
 Ukraine Gospel Outreach is formally announced, with our second project taking
@@ -226,6 +242,8 @@ place in October.
 
 Funding is provided for our fourth full-color printing of Good and Evil,
 enabling us to continue our Good and Evil Distributor Network.
+
+<article-image publicId="OFReport/2026-03-18-25-years-in-ukraine/IMG_7695_yrdvwy" width="768" caption="Ministering the Gospel in Zhytomry at the conclusion of our 2025 UGO project" />
 
 ## Conclusion
 
