@@ -42,7 +42,7 @@ hours without electricity. Late on January 8th, the sirens went off, and we
 began making our way to the hall for shelter. No sooner had we gathered the kids
 together than we started hearing explosions…
 
-Click here to continue reading
+<article-button text="Click here to continue reading" path="#" :outline="true" :center="true" :external="true" margin="y"/>
 
 Thank you for reading and for caring,
 
