@@ -47,10 +47,12 @@
             <a href="https://getbiblefirst.com/" target="_blank">Bible First</a>
           </li>
           <li>
-            <a href="https://cmoproject.org/" target="_blank">CMO</a>
+            <a href="https://ugoproject.org/" target="_blank">UGO</a>
           </li>
           <li>
-            <a href="https://kelsie.me/" target="_blank">kelsie.me</a>
+            <a href="https://kelsiesteele.substack.com/" target="_blank"
+              >Kelsie's Substack</a
+            >
           </li>
         </ul>
       </div>
