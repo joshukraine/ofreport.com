@@ -1,8 +1,8 @@
 ---
 title: 'Family Update and New Substack'
-date: '2026-03-30'
+date: '2026-03-31'
 author: 'Joshua Steele'
-cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1774889043/OFReport/2026-03-30-family-update-and-new-substack/IMG_3627_hs3fbo.jpg'
+cover: 'https://res.cloudinary.com/dnkvsijzu/image/upload/v1774889043/OFReport/2026-03-31-family-update-and-new-substack/IMG_3627_hs3fbo.jpg'
 preview: >-
   We’re excited about a new project Kelsie is launching over on Substack, where
   she plans to write on a monthly basis. She would be excited and honored if our
