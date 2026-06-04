@@ -85,7 +85,7 @@ links to the relevant PRD document for full requirements.
 - [ ] `figure.html` — image with caption + lightbox (see [`05-shortcodes.md`](./05-shortcodes.md))
 - [ ] `callout.html` — highlighted box with optional CTA
 - [x] `button.html` — styled CTA link
-- [ ] `svg.html` — inline SVG from assets
+- [x] `svg.html` — inline SVG from assets
 - [ ] All shortcodes tested with sample content
 
 **Key learning:** Custom shortcodes for images, callouts, buttons
