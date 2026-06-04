@@ -129,7 +129,7 @@ All images are on Cloudinary — no local image processing. The `partials/cloudi
 |-----------|-------|
 | `figure`  | `{{</* figure src="..." caption="..." alt="..." */>}}` — Cloudinary image with GLightbox |
 | `callout` | `{{</* callout pdf="file.pdf" */>}}Content{{</* /callout */>}}` — highlighted box with optional PDF link |
-| `button`  | `{{</* button href="..." text="..." */>}}` — styled CTA link |
+| `button`  | `{{</* button href="..." text="..." */>}}` — CTA link; `outline=true` for the secondary variant, `external=true` for a new tab, `align="left"` to opt out of centering (centered by default) |
 | `svg`     | `{{</* svg name="logo-name" */>}}` — inline SVG from `assets/img/` |
 
 ## Tailwind Plus Workflow

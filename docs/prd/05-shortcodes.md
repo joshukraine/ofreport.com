@@ -88,14 +88,31 @@ Get the full newsletter PDF.
 
 ## Button Shortcode
 
-**Purpose:** Styled CTA link.
+**Purpose:** Styled CTA link, in a filled-primary or outline/secondary variant.
 
 **Usage:**
 
 ```text
 {{< button href="/donate/" text="Support Our Ministry" >}}
-{{< button href="https://example.com" text="Visit Site" external=true >}}
+{{< button href="https://example.com" text="Visit Site" outline=true external=true >}}
+{{< button href="/blog/" text="Read more" align="left" >}}
 ```
+
+**Params:**
+
+- `href` (required) — destination URL
+- `text` (required) — visible label
+- `outline` — `true` renders the outline/secondary variant (default is filled primary)
+- `external` — `true` opens in a new tab (adds `rel="noopener noreferrer"`, an external-link icon, and a screen-reader "opens in a new tab" note)
+- `align` — `left` left-aligns the button (centered by default)
+
+**Notes:**
+
+- A layout wrapper `<div>` owns placement — standalone CTAs are centered with
+  vertical spacing (`my-6 md:my-8`) by default; `align="left"` opts out. The
+  button's appearance (variant) lives on the `<a>`. (The legacy `<article-button>`
+  Vue component's per-instance `margin`/`center` props are lifted into these
+  defaults; see `06-content-migration.md`.)
 
 ---
 
