@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-OFReport.com is a missionary family blog (Joshua and Kelsie Steele) being rebuilt from Nuxt.js 2 to Hugo. The site has 219 blog articles spanning 2008–2025, 5+ static pages, and 26 tags. Full requirements are in the `docs/prd/` directory (start with `00-overview.md`; see `ROADMAP.md` for build phases).
+OFReport.com is a missionary family blog (Joshua and Kelsie Steele) being rebuilt from Nuxt.js 2 to Hugo. The site has 219 blog articles spanning 2008–2025, 5+ static pages, and 26 tags. Full requirements are in the `docs/prd/` directory (start with `README.md`; see `ROADMAP.md` for build phases).
 
 ## Development Approach
 
