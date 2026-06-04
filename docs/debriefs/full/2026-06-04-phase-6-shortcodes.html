@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OFReport.com Hugo Rebuild — Debrief: Phase 6 — Shortcodes</title>
+<style>
+  :root {
+    --bg:#f1f5f9; --surface:#ffffff; --surface-2:#f8fafc; --border:#e2e8f0;
+    --strong:#1e293b; --text:#334155; --muted:#64748b;
+    --accent:#1992d4; --accent-bright:#2bb0ed; --accent-deep:#0f2847;
+    --accent-code:#024775; --accent-soft:#e0f2fe; --heading:#0f2847;
+    --hero-from:#024775; --hero-to:#0f2847;
+    --good:#15803d; --warn:#b45309; --bad:#b91c1c;
+    --cal-info-rule:#1992d4; --cal-info-fill:#dbeafe;
+    --cal-warn-rule:#f59e0b; --cal-warn-fill:#fef3c7;
+    --cal-bad-rule:#dc2626;  --cal-bad-fill:#fee2e2;
+    --cal-good-fill:#dcfce7;
+    --pre-bg:#0f2847; --pre-text:#e2e8f0;
+    --tok-c:#64748b; --tok-k:#7dd3fc; --tok-s:#fcd34d;
+    --radius: 12px; --radius-sm: 8px;
+    --shadow: 0 1px 3px rgba(15,40,71,0.06);
+    --shadow-hero: 0 2px 14px rgba(15,40,71,0.25);
+    --maxw: 1160px;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#0b1622; --surface:#111f30; --surface-2:#16273b; --border:#243b53;
+      --strong:#e6eef7; --text:#b7c5d6; --muted:#7e93ab;
+      --accent:#38bdf8; --accent-bright:#5cc6f5; --accent-deep:#0e2a4a;
+      --accent-code:#7dd3fc; --accent-soft:#0c2a44; --heading:#cfe0f2;
+      --hero-from:#024775; --hero-to:#07223f;
+      --good:#4ade80; --warn:#fbbf24; --bad:#f87171;
+      --cal-info-rule:#38bdf8; --cal-info-fill:#0e2438;
+      --cal-warn-rule:#fbbf24; --cal-warn-fill:#2c2310;
+      --cal-bad-rule:#f87171;  --cal-bad-fill:#371718;
+      --cal-good-fill:#0e2a1a;
+      --pre-bg:#081522; --pre-text:#d6e2f0;
+      --tok-c:#6b7d91; --tok-k:#7dd3fc; --tok-s:#fcd34d;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: var(--sans); line-height: 1.6; font-size: 16px;
+  }
+  strong, b { color: var(--strong); }
+  header.hero {
+    background: linear-gradient(135deg, var(--hero-from) 0%, var(--hero-to) 100%);
+    color: #fff; padding: 44px 0 38px; margin-bottom: 36px; box-shadow: var(--shadow-hero);
+  }
+  header.hero .hero-inner { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+  header.hero h1 { font-size: 34px; line-height: 1.15; font-weight: 800; letter-spacing: -.01em; margin: 0 0 14px; color: #fff; }
+  header.hero .eyebrow { color: var(--accent-bright); }
+  header.hero .sub { color: #cfe6f6; font-size: 16px; margin: -4px 0 16px; }
+  header.hero dl.meta dt { color: #9fc6e6; }
+  header.hero dl.meta dd { color: #eaf6ff; }
+  header.hero dl.meta a { color: #eaf6ff; text-decoration: underline; }
+  header.hero code { background: rgba(255,255,255,0.12); border-color: transparent; color: #eaf6ff; }
+  .eyebrow { color: var(--accent); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; margin: 0 0 8px; }
+  .wrap { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 46px; max-width: var(--maxw); margin: 0 auto; padding: 8px 24px 96px; }
+  nav.toc { position: sticky; top: 24px; align-self: start; font-size: 14px; max-height: calc(100vh - 48px); overflow-y: auto; }
+  nav.toc h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 12px; }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; }
+  nav.toc li { margin: 0 0 8px; }
+  nav.toc a { color: var(--muted); text-decoration: none; display: block; padding: 5px 11px; border-left: 2px solid transparent; border-radius: 0 6px 6px 0; }
+  nav.toc a:hover { background: var(--surface); border-left-color: var(--accent); color: var(--accent); }
+  nav.toc .crumb { font-size: 11.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); margin: 0 0 4px; padding: 0; border-left: 0; }
+  nav.toc .ttl { font-size: 17px; font-weight: 700; line-height: 1.25; margin: 0 0 16px; color: var(--strong); }
+  nav.toc a .n { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
+  .srcbox { font-size: 12.5px; color: var(--muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 9px; padding: 11px 13px; margin-top: 16px; }
+  .srcbox b { color: var(--strong); }
+  .srcbox code { font-family: var(--mono); font-size: 12px; }
+  main { min-width: 0; }
+  dl.meta { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 0; font-size: 14px; }
+  dl.meta dt { color: var(--muted); font-weight: 600; }
+  dl.meta dd { margin: 0; }
+  .sub { color: var(--muted); }
+  .metrics { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin: 0 0 26px; }
+  .metric { border: 1px solid var(--border); border-radius: var(--radius); padding: 13px 15px; background: var(--surface); box-shadow: var(--shadow); }
+  .metric .v { font-size: 24px; font-weight: 700; line-height: 1; color: var(--heading); }
+  .metric .k { font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.3; }
+  details.section { margin: 30px 0; }
+  details.section > summary {
+    cursor: pointer; list-style: none; font-size: 20px; font-weight: 700; color: var(--heading);
+    padding: 0 0 8px; border-bottom: 2px solid var(--border);
+    display: flex; align-items: center; gap: 12px; letter-spacing: -.01em;
+  }
+  details.section > summary::-webkit-details-marker { display: none; }
+  details.section > summary::before {
+    content: "›"; display: inline-block; transition: transform .15s ease;
+    color: var(--accent-bright); font-size: 19px; line-height: 1; font-weight: 700;
+  }
+  details.section[open] > summary::before { transform: rotate(90deg); }
+  details.section > summary .badge { margin-left: auto; font-family: var(--mono); font-size: 11.5px; font-weight: 600; color: var(--muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; }
+  .section-body { padding: 16px 0 0; }
+  h3 { font-size: 17px; margin: 24px 0 9px; letter-spacing: -.01em; color: var(--strong); }
+  h4 { font-size: 13px; margin: 20px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  p { margin: 14px 0; }
+  a { color: var(--accent); }
+  code { font-family: var(--mono); font-size: 13px; background: var(--bg); border: 1px solid var(--border); padding: 1px 6px; border-radius: 5px; color: var(--accent-code); }
+  pre { background: var(--pre-bg); color: var(--pre-text); border-radius: var(--radius); padding: 16px 18px; overflow-x: auto; font-size: 13.5px; line-height: 1.6; box-shadow: var(--shadow); }
+  pre code { background: none; border: 0; padding: 0; font-size: inherit; color: inherit; }
+  pre .c { color: var(--tok-c); }
+  pre .k { color: var(--tok-k); }
+  pre .s { color: var(--tok-s); }
+  table { border-collapse: separate; border-spacing: 0; width: 100%; margin: 18px 0; font-size: 14.5px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  thead th { background: var(--accent-deep); color: #fff; text-align: left; padding: 12px 14px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+  tbody td { text-align: left; padding: 13px 14px; border-top: 1px solid var(--border); vertical-align: top; }
+  tbody tr:nth-child(even) { background: var(--surface-2); }
+  .callout { border-left: 4px solid var(--cal-info-rule); background: var(--cal-info-fill); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 14px 18px; margin: 20px 0; }
+  .callout.warn { border-left-color: var(--cal-warn-rule); background: var(--cal-warn-fill); }
+  .callout.flag { border-left-color: var(--cal-bad-rule); background: var(--cal-bad-fill); }
+  .callout .label { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; display: block; margin-bottom: 5px; color: var(--strong); }
+  .rundown { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); padding: 2px 22px; margin: 20px 0; }
+  .rundown .item { display: flex; gap: 14px; padding: 15px 0; border-bottom: 1px solid var(--border); }
+  .rundown .item:last-child { border-bottom: none; }
+  .rundown .ico { flex: none; width: 24px; text-align: center; font-size: 17px; line-height: 1.55; }
+  .rundown .item:not(:has(.ico)) .body { position: relative; padding-left: 20px; }
+  .rundown .item:not(:has(.ico)) .body::before { content: ""; position: absolute; left: 0; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-bright); }
+  .rundown .item .body { color: var(--text); }
+  .story { border: 1px solid var(--border); border-radius: var(--radius); margin: 20px 0; overflow: hidden; background: var(--surface); box-shadow: var(--shadow); }
+  .story > .story-head { background: var(--surface-2); padding: 12px 18px; font-weight: 600; font-size: 16px; color: var(--strong); border-bottom: 1px solid var(--border); }
+  .story .role-pill { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 2px 11px; margin-left: 8px; }
+  .story ol { margin: 12px 0; padding-left: 28px; }
+  .story ol li { margin: 8px 0; }
+  .story .expect { color: var(--good); font-weight: 500; }
+  .story-body { padding: 4px 18px 16px; }
+  figure.diagram { margin: 22px 0; text-align: center; }
+  figure.diagram svg { max-width: 100%; height: auto; }
+  figure.diagram figcaption { color: var(--muted); font-size: 13px; margin-top: 9px; }
+  .tag { font-size: 11.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: .04em; }
+  .tag.good { color: var(--good); background: var(--cal-good-fill); }
+  .tag.warn { color: var(--warn); background: var(--cal-warn-fill); }
+  .tag.bad { color: var(--bad); background: var(--cal-bad-fill); }
+  .copy { cursor: pointer; border: 1px solid var(--border); background: var(--surface-2); color: inherit; font-family: var(--mono); font-size: 0.85em; padding: 0.12em 0.55em; border-radius: 6px; display: inline-flex; align-items: center; gap: 0.4em; user-select: none; vertical-align: baseline; transition: background .12s ease, border-color .12s ease, color .12s ease; }
+  .copy:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .copy::after { content: "\29C9"; opacity: 0.55; font-size: 0.9em; }
+  .copy.copied { color: var(--good); border-color: var(--good); }
+  .copy.copied::after { content: "\2713"; opacity: 1; }
+  .btn { display: inline-block; cursor: pointer; font-family: var(--sans); font-size: 15px; font-weight: 600; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: var(--radius-sm); padding: 9px 17px; text-decoration: none; }
+  .btn:hover { filter: brightness(1.08); }
+  ul.checklist { list-style: none; margin: 14px 0; padding: 0; }
+  ul.checklist li { margin: 10px 0; }
+  ul.checklist label { display: flex; gap: 9px; align-items: flex-start; cursor: pointer; }
+  ul.checklist input { margin-top: 5px; flex: none; accent-color: var(--accent); }
+  footer.doc { margin-top: 46px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13.5px; }
+  .kw { font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: .04em; padding: 1px 8px; border-radius: 5px; background: var(--cal-warn-fill); color: var(--warn); border: 1px solid var(--cal-warn-rule); }
+  .pill { font-family: var(--mono); font-size: 11.5px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); white-space: nowrap; }
+  .req { color: var(--bad); font-size: 11.5px; font-weight: 700; }
+  .opt { color: var(--muted); font-size: 11.5px; }
+  @media (max-width: 820px) {
+    header.hero { padding: 32px 0 28px; margin-bottom: 24px; }
+    header.hero .hero-inner { padding: 0 16px; }
+    header.hero h1 { font-size: 27px; }
+    .wrap { grid-template-columns: 1fr; gap: 18px; padding: 4px 16px 64px; }
+    nav.toc { position: static; max-height: none; border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 18px; background: var(--surface); }
+    .metrics { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">OFReport.com Hugo Rebuild · Debrief</p>
+    <h1>Phase 6 — Shortcodes</h1>
+    <p class="sub">The four in-content building blocks: button, svg, callout, figure.</p>
+    <dl class="meta">
+      <dt>Date</dt><dd>2026-06-04</dd>
+      <dt>Scope</dt><dd>PRD Phase 6 (Shortcodes) — feature-complete</dd>
+      <dt>PRs</dt><dd>#45, #46, #47, #48 (all merged)</dd>
+      <dt>Issues</dt><dd>#41, #42, #43, #44 (all closed)</dd>
+      <dt>PRD refs</dt><dd><code>05-shortcodes.md</code>, <code>06-content-migration.md</code></dd>
+    </dl>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#built"><span class="n">1</span>What We Built</a></li>
+      <li><a href="#architecture"><span class="n">2</span>Architecture &amp; Decisions</a></li>
+      <li><a href="#tests"><span class="n">3</span>Test Coverage</a></li>
+      <li><a href="#tour"><span class="n">4</span>Product Tour</a></li>
+    </ol>
+    <div class="srcbox">
+      <b>Source of truth:</b> the shortcodes live in <code>layouts/shortcodes/</code>; URL construction in <code>layouts/partials/cloudinary-url.html</code>.
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="metrics">
+      <div class="metric"><div class="v">4</div><div class="k">Shortcodes shipped</div></div>
+      <div class="metric"><div class="v">4 / 4</div><div class="k">Issues closed (#41–#44)</div></div>
+      <div class="metric"><div class="v">29</div><div class="k">Pages built</div></div>
+      <div class="metric"><div class="v">0</div><div class="k">Build errors</div></div>
+      <div class="metric"><div class="v">2</div><div class="k">Cloudinary presets added</div></div>
+      <div class="metric"><div class="v">1</div><div class="k">Deviation logged &amp; folded</div></div>
+    </div>
+
+    <details class="section" id="built" open>
+      <summary>1 · What We Built (and Why It Matters)</summary>
+      <div class="section-body">
+        <p>Phase 6 delivers the four custom Hugo <strong>shortcodes</strong> that article content is built from — the reusable components authors (and the Phase 15 migration script) drop into markdown. This is the layer that sits on top of the page scaffolding from Phases 1–5: the site already has a base layout, blog listing, and single-article template, so these shortcodes are the pieces that go <em>inside</em> an article.</p>
+
+        <p>All four are implemented, verified, and merged:</p>
+
+        <table>
+          <thead><tr><th>Shortcode</th><th>Purpose</th><th>Issue / PR</th></tr></thead>
+          <tbody>
+            <tr><td><code>button</code></td><td>Filled-primary CTA link; optional new-tab handling with a11y affordance</td><td>#41 / #45</td></tr>
+            <tr><td><code>svg</code></td><td>Inline an SVG asset from <code>assets/img/</code> (CSS-styleable)</td><td>#42 / #46</td></tr>
+            <tr><td><code>callout</code></td><td>Highlighted box for info / CTAs, optional PDF download</td><td>#43 / #47</td></tr>
+            <tr><td><code>figure</code></td><td>Inline Cloudinary image, click-to-zoom lightbox markup</td><td>#44 / #48</td></tr>
+          </tbody>
+        </table>
+
+        <p>These map directly to the legacy Vue components the migration converts — <code>&lt;article-button&gt;</code>, <code>&lt;article-svg&gt;</code>, <code>&lt;article-callout&gt;</code>, <code>&lt;article-image&gt;</code> (see <code>06-content-migration.md §"Migration Script"</code>) — so Phase 6 is a hard prerequisite for the content migration.</p>
+
+        <h3>Scope: in vs. deferred</h3>
+        <div class="rundown">
+          <div class="item"><div class="ico">✅</div><div class="body"><strong>In:</strong> all four shortcodes, each verified against sample content (per <code>05-shortcodes.md</code>), plus two new Cloudinary presets and a public-ID upgrade to the shared URL partial.</div></div>
+          <div class="item"><div class="ico">⏳</div><div class="body"><strong>Deferred — GLightbox activation (Phase 13):</strong> <code>figure</code> emits lightbox-compatible markup, but the CSS/JS that makes it <em>open</em> isn't loaded yet. The markup is forward-compatible.</div></div>
+          <div class="item"><div class="ico">⏳</div><div class="body"><strong>Deferred — real content (Phase 15):</strong> no committed article uses these yet; the migration script will emit them across all 219 articles.</div></div>
+          <div class="item"><div class="ico">⏳</div><div class="body"><strong>Deferred — ministry SVGs (Phase 8):</strong> only <code>ofr-logo.svg</code> exists today; <code>svg</code> is ready for the logos that arrive with the static pages.</div></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="section" id="architecture">
+      <summary>2 · Architecture &amp; Design Decisions</summary>
+      <div class="section-body">
+        <p>The four were built simplest-first (<code>button → svg → callout → figure</code>) so each introduced one new Hugo concept and the last could compose the rest. They share a deliberate house pattern.</p>
+
+        <h3>The shared shortcode pattern</h3>
+        <p>Every shortcode reads named params with <code>.Get</code>, fails the build loudly on a missing <em>required</em> param via <code>errorf</code> (with <code>.Position</code> for a <code>file:line</code> pointer), and emits Tailwind-styled markup. Establishing this in <code>button.html</code> first meant the next three were variations on a known theme rather than four bespoke designs.</p>
+
+        <table>
+          <thead><tr><th>Shortcode</th><th>Notable decision</th></tr></thead>
+          <tbody>
+            <tr><td><code>button</code></td><td>Hugo parses unquoted <code>external=true</code> as a <em>bool</em>, not a string — normalized with <code>printf "%v"</code> so both <code>external=true</code> and <code>external="true"</code> work. External links also get an icon plus a visually-hidden "(opens in a new tab)" note for screen readers.</td></tr>
+            <tr><td><code>svg</code></td><td>Two distinct failure modes: missing <code>name</code> param → <code>errorf</code> (author error, fail the build); missing <em>file</em> → <code>warnf</code> (Phase 8 logos legitimately don't exist yet, so don't break the build). Inlines via <code>.Content | safeHTML</code> so the SVG is CSS-styleable.</td></tr>
+            <tr><td><code>callout</code></td><td>First <em>paired</em> shortcode. <code>.Inner</code> is raw, rendered with <code>.Page.RenderString (dict "display" "block")</code> — block display is the key detail (the default is inline, which wouldn't wrap paragraphs). The <code>[&amp;&gt;:first-child]:mt-0</code> utilities reset prose margins so the box padding stays even.</td></tr>
+            <tr><td><code>figure</code></td><td>Two sized URLs from one <code>src</code>; <code>not-prose</code> to match the cover figure; centered caption; lightbox-compatible markup. See the data flow below.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>The architecturally significant call: where public-ID handling lives</h3>
+        <p>The <code>figure</code> shortcode accepts <code>src</code> as either a full Cloudinary URL or a bare public ID. My first cut detected the bare ID and built the full URL <em>in the shortcode</em> (hardcoding Cloudinary's <code>/image/upload/</code> path), then handed off to the <code>cloudinary-url.html</code> partial to apply the size transform. The <code>/simplify</code> pass flagged this, and I moved the expansion <em>into the partial</em>.</p>
+        <p>Two reasons it belongs there: (1) <code>cloudinary-url.html</code> is the single owner of Cloudinary URL construction — the shortcode shouldn't know Cloudinary's URL format; and (2) the partial previously <em>silently no-op'd</em> on a bare public ID (its <code>replace "/upload/"</code> found nothing and returned the ID unchanged — a broken URL with no warning). Centralizing the expansion fixes that footgun for every caller. The change is backward-compatible: full <code>https://</code> URLs hit <code>hasPrefix "http"</code> and skip the new branch, so the two existing cover callers (<code>single.html</code>, <code>article-card.html</code>) render byte-identical URLs.</p>
+
+        <figure class="diagram">
+          <svg viewBox="0 0 760 200" role="img" aria-label="Figure shortcode data flow: src into the shared partial, two sized URLs out">
+            <defs>
+              <marker id="arr" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="var(--muted)"/>
+              </marker>
+            </defs>
+            <rect x="6" y="72" width="150" height="58" rx="8" fill="var(--surface)" stroke="var(--border)"/>
+            <text x="81" y="96" text-anchor="middle" font-size="13" font-weight="700" fill="var(--strong)">src</text>
+            <text x="81" y="114" text-anchor="middle" font-size="11" fill="var(--muted)">URL or public ID</text>
+            <line x1="156" y1="101" x2="203" y2="101" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arr)"/>
+            <rect x="206" y="61" width="212" height="80" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/>
+            <text x="312" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="var(--strong)">cloudinary-url.html</text>
+            <text x="312" y="107" text-anchor="middle" font-size="11" fill="var(--muted)">expand bare public ID</text>
+            <text x="312" y="123" text-anchor="middle" font-size="11" fill="var(--muted)">apply preset transform</text>
+            <line x1="418" y1="88" x2="466" y2="56" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arr)"/>
+            <line x1="418" y1="114" x2="466" y2="146" stroke="var(--muted)" stroke-width="1.5" marker-end="url(#arr)"/>
+            <rect x="469" y="26" width="285" height="56" rx="8" fill="var(--surface)" stroke="var(--border)"/>
+            <text x="611" y="48" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--strong)">&lt;img&gt; display</text>
+            <text x="611" y="66" text-anchor="middle" font-size="11" fill="var(--muted)">figure preset · w_768 · loading=lazy</text>
+            <rect x="469" y="120" width="285" height="56" rx="8" fill="var(--surface)" stroke="var(--border)"/>
+            <text x="611" y="142" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--strong)">&lt;a class="glightbox"&gt;</text>
+            <text x="611" y="160" text-anchor="middle" font-size="11" fill="var(--muted)">lightbox preset · w_1600</text>
+          </svg>
+          <figcaption>Figure shortcode: one <code>src</code> in, two sized Cloudinary URLs out, via the shared partial.</figcaption>
+        </figure>
+
+        <div class="callout">
+          <span class="label">POODR · Single Responsibility</span>
+          <p style="margin-top:0"><code>cloudinary-url.html</code> has one job: turn a Cloudinary <code>src</code> + preset into an optimized URL. The first cut of <code>figure</code> <em>smeared</em> that job across two files — the shortcode knew Cloudinary's <code>/image/upload/</code> structure and built part of the URL, then the partial finished it. Moving the public-ID expansion into the partial restores the single responsibility: the partial owns every step of "construct a Cloudinary URL," and <code>figure</code> depends only on the abstraction ("give me a URL for this src and preset"), not on Cloudinary's URL format. The payoff is concrete — any future caller that passes a bare public ID is correct for free, and the silent-no-op footgun is gone. This is SRP and dependency-direction working together: the high-level shortcode no longer depends on a low-level URL detail.</p>
+        </div>
+
+        <h3>Sizing — the one PRD deviation</h3>
+        <p>The issue note for <code>figure</code> said the display image should use the existing <code>article</code> preset. But <code>article</code> is width-<em>uncapped</em> (it serves the full original), which both contradicts the established ~768px inline-body-image convention and makes "a <em>larger</em> lightbox" impossible. After confirming the convention against the current Nuxt blog, I added a capped <code>figure</code> preset (<code>w_768</code>) for the inline image and a <code>lightbox</code> preset (<code>w_1600</code>) for the zoom — the correct click-to-zoom pattern. The cover image (separate, in <code>single.html</code>) still uses <code>article</code> and is unaffected. This was logged in <code>CHANGELOG.md</code> and has since been folded into <code>05-shortcodes.md §"Figure/Image Shortcode"</code>.</p>
+
+        <h3>Alternatives considered and rejected</h3>
+        <div class="rundown">
+          <div class="item"><div class="ico">🔁</div><div class="body"><strong><code>markdownify</code> for callout inner content</strong> → chose <code>.Page.RenderString</code>: it respects site render hooks and renders in the page's context (so relative links resolve).</div></div>
+          <div class="item"><div class="ico">🎨</div><div class="body"><strong>Override prose styles on the figure</strong> → chose <code>not-prose</code>: cleaner and matches the cover figure exactly. Note the principled split — <code>callout</code> <em>keeps</em> prose (it renders a markdown body), <code>figure</code> <em>opts out</em> (it's a structural image).</div></div>
+          <div class="item"><div class="ico">🧭</div><div class="body"><strong>Keep public-ID logic in the shortcode</strong> (the "rule of three" reading) → chose to centralize: this completes an existing helper's contract rather than minting a new abstraction, so the rule-of-three guard doesn't apply.</div></div>
+        </div>
+      </div>
+    </details>
+
+    <details class="section" id="tests">
+      <summary>3 · Test Coverage &amp; Quality</summary>
+      <div class="section-body">
+        <p>This is a Hugo static site — there's no unit-test suite. The meaningful checks are the <strong>production build</strong> (does every template compile and render?) and <strong>manual inspection of rendered HTML</strong> (does each shortcode emit the right markup across its variants?). My approach this phase: for each shortcode, drop a temporary <em>draft</em> article exercising every variant, build, inspect the generated HTML, then delete the draft. Sample content was folded into each issue's acceptance criteria rather than committed as a permanent fixture.</p>
+
+        <h4>Build result</h4>
+        <pre><span class="c"># production build — all four shortcodes present</span>
+hugo --gc --minify
+  Pages: <span class="s">29</span>   ·   Build errors: <span class="s">0</span>   ·   Total in <span class="s">427 ms</span></pre>
+
+        <h4>What each shortcode's verification covered</h4>
+        <table>
+          <thead><tr><th>Shortcode</th><th>Verified</th></tr></thead>
+          <tbody>
+            <tr><td><code>button</code></td><td>internal (no <code>target</code>/<code>rel</code>), external (adds them + icon + sr-only note), missing <code>href</code> → build fails with <code>file:line</code></td></tr>
+            <tr><td><code>svg</code></td><td>existing file inlines unescaped <code>&lt;svg&gt;</code>; missing file → <code>WARN</code>, build succeeds; missing <code>name</code> → build fails</td></tr>
+            <tr><td><code>callout</code></td><td>single &amp; multi-paragraph (block render), inline markdown, with/without <code>pdf</code>; verified the arbitrary-variant margin-reset CSS is generated and out-specifies prose</td></tr>
+            <tr><td><code>figure</code></td><td>full URL &amp; bare public ID both → correct <code>w_768</code>/<code>w_1600</code> URLs; caption present/absent (figcaption + <code>data-description</code> conditional); <code>alt</code> fallback; existing cover callers unaffected</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <span class="label">Caught by verification</span>
+          <p style="margin-top:0">The <code>button</code> external variant first rendered <em>without</em> <code>target</code>/<code>rel</code>: Hugo handed back a bool where the code compared against the string <code>"true"</code>. Only inspecting the rendered HTML surfaced it — fixed before the PR. It's the reason the verify-by-reading-output step earns its keep.</p>
+        </div>
+
+        <h4>Known gaps</h4>
+        <div class="rundown">
+          <div class="item"><div class="body">No committed content uses these shortcodes yet, so the minifier hasn't processed them on a real page — the first real exercise is the Phase 15 migration.</div></div>
+          <div class="item"><div class="body">GLightbox behavior (does the image actually open in a lightbox?) can't be tested until Phase 13 loads the library; only the emitted markup is verified now.</div></div>
+        </div>
+
+        <h4>Verify it yourself</h4>
+        <pre><span class="c"># production build — should report 0 errors</span>
+hugo --gc --minify
+
+<span class="c"># dev server with drafts — for the Product Tour below</span>
+hugo server -D</pre>
+      </div>
+    </details>
+
+    <details class="section" id="tour" open>
+      <summary>4 · Product Tour — Try It Yourself</summary>
+      <div class="section-body">
+        <p>These shortcodes aren't used by any committed article yet, so the tour is: spin up the dev server, drop in a scratch draft that exercises all four, and look at the result. Three short stories.</p>
+
+        <div class="story">
+          <div class="story-head">See all four shortcodes render <span class="role-pill">Author / Dev</span></div>
+          <div class="story-body">
+            <ol>
+              <li>Start the dev server (drafts on):
+                <button type="button" class="copy" data-copy="hugo server -D">hugo server -D</button></li>
+              <li>Create <code>content/blog/zzz-tour.md</code> with this body:
+                <pre><span class="c">---</span>
+<span class="k">title</span>: <span class="s">"Shortcode Tour"</span>
+<span class="k">date</span>: 2026-06-04
+<span class="k">slug</span>: <span class="s">"zzz-tour"</span>
+<span class="k">draft</span>: true
+<span class="c">---</span>
+
+{{&lt; button href="/donate/" text="Support Our Ministry" &gt;}}
+
+{{&lt; svg name="ofr-logo" &gt;}}
+
+{{&lt; callout pdf="OFR-Jul-Aug-2025.pdf" &gt;}}
+Our latest newsletter is ready to read.
+{{&lt; /callout &gt;}}
+
+{{&lt; figure src="OFReport/2024-08-20-summer-in-the-carpathians/carpathian-hiking-trail"
+    caption="A trail in the Carpathians" alt="Mountain trail" &gt;}}</pre>
+              </li>
+              <li>Visit
+                <button type="button" class="copy" data-copy="http://localhost:1313/blog/zzz-tour/">http://localhost:1313/blog/zzz-tour/</button>
+                <span class="expect">Expected: a solid blue "Support Our Ministry" button; the inline OFReport logo; a blue accent-bar callout with a "Download PDF" link; and a rounded Cloudinary photo with a centered caption.</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="story">
+          <div class="story-head">Inspect the figure: sizing, lazy-load, lightbox markup <span class="role-pill">Dev</span></div>
+          <div class="story-body">
+            <ol>
+              <li>On the same page, right-click the inline photo → <strong>Inspect</strong>.</li>
+              <li>Read the markup.
+                <span class="expect">Expected: the <code>&lt;img&gt;</code> <code>src</code> contains <code>/c_scale,f_auto,q_auto,w_768/</code> and <code>loading="lazy"</code>; it's wrapped in <code>&lt;a class="glightbox" data-gallery="article" … href="…/w_1600/…"&gt;</code>.</span></li>
+              <li>Click the image.
+                <span class="expect">Expected (for now): it navigates to the full-size image — it does <em>not</em> open an overlay. GLightbox is wired up in Phase 13; the markup here is forward-compatible.</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="story">
+          <div class="story-head">Trip the build-time guards <span class="role-pill">Dev</span></div>
+          <div class="story-body">
+            <ol>
+              <li>Add a malformed button to the draft: <code>{{&lt; button text="No href" &gt;}}</code>.
+                <span class="expect">Expected: the build fails with <code>ERROR … button shortcode: 'href' param is required (…zzz-tour.md:LINE)</code>.</span></li>
+              <li>Replace it with a missing SVG: <code>{{&lt; svg name="does-not-exist" &gt;}}</code>.
+                <span class="expect">Expected: a <code>WARN … file not found: assets/img/does-not-exist.svg</code> — but the build <em>succeeds</em> (missing assets are tolerated; missing required params are not).</span></li>
+              <li>Delete <code>content/blog/zzz-tour.md</code> when you're done — it's a throwaway.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <footer class="doc">
+      Generated by the <code>/debrief</code> skill · 2026-06-04 · Phase 6 complete, Phase 7 (Tag Taxonomy) up next.
+    </footer>
+  </main>
+</div>
+<script>
+  (function () {
+    function flash(el) {
+      el.classList.add("copied");
+      clearTimeout(el._copyTimer);
+      el._copyTimer = setTimeout(function () { el.classList.remove("copied"); }, 1200);
+    }
+    function legacyCopy(text, el) {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "absolute";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); flash(el); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    document.addEventListener("click", function (e) {
+      var el = e.target.closest("[data-copy]");
+      if (!el) return;
+      var text = el.getAttribute("data-copy") || el.textContent.trim();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { flash(el); },
+          function () { legacyCopy(text, el); });
+      } else {
+        legacyCopy(text, el);
+      }
+    });
+  })();
+</script>
+</body>
+</html>
