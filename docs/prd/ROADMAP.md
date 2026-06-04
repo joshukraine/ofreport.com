@@ -15,7 +15,7 @@ links to the relevant PRD document for full requirements.
 | 4 | Blog Listing with Pagination | Phase 3 | Complete |
 | 5 | Single Article Template | Phase 3 | Complete |
 | 6 | Shortcodes | Phase 5 | Complete |
-| 7 | Tag Taxonomy | Phase 4 | Not started |
+| 7 | Tag Taxonomy | Phase 4 | Complete |
 | 8 | Static Pages | Phase 3 | Not started |
 | 9 | RSS Feed | Phase 5 | Not started |
 | 10 | SEO & Meta Tags | Phase 3 | Not started |
@@ -92,7 +92,7 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 7: Tag Taxonomy
 
-- [ ] `taxonomy/taxonomy.html` — all tags listing with article counts
+- [x] `taxonomy/taxonomy.html` — all tags listing with article counts
 - [x] `taxonomy/term.html` — articles filtered by tag with pagination
 - [x] Tag badges link to tag pages
 - [x] Tag URLs: `/tags/`, `/tags/{tag}/`, `/tags/{tag}/page/2/`
