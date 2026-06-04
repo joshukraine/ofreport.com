@@ -146,7 +146,7 @@ aligns with how Hugo works by default.
 
 ```toml
 baseURL = "https://ofreport.com/"
-languageCode = "en-us"
+locale = "en-US"
 title = "OFReport.com"
 
 # Pagination
