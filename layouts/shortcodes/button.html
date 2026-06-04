@@ -1,15 +1,24 @@
 {{- /*
-  button — styled CTA link (filled primary).
+  button — styled CTA link.
+
+  Filled-primary by default, or an outline/secondary variant with outline=true.
+  A layout wrapper <div> owns placement: standalone CTAs almost always want
+  vertical breathing room and centering, so both are defaults — use align="left"
+  to opt out of centering. (The button's appearance lives on the <a>; its
+  placement lives on the wrapper.)
 
   Params:
     href     (required) destination URL
     text     (required) visible label
+    outline  (optional) "true" renders the outline/secondary variant
     external (optional) "true" opens in a new tab — adds rel="noopener noreferrer",
                         an external-link icon, and a screen-reader "opens in a new tab" note
+    align    (optional) "left" left-aligns the button (centered by default)
 
   Usage:
     {{< button href="/donate/" text="Support Our Ministry" >}}
-    {{< button href="https://example.com" text="Visit Site" external=true >}}
+    {{< button href="https://example.com" text="Visit Site" outline=true external=true >}}
+    {{< button href="/blog/" text="Read more" align="left" >}}
 */ -}}
 {{- $href := .Get "href" -}}
 {{- $text := .Get "text" -}}
@@ -19,15 +28,20 @@
 {{- if not $text -}}
   {{- errorf "button shortcode: 'text' param is required (%s)" .Position -}}
 {{- end -}}
-{{- /* Hugo parses unquoted external=true as a bool; normalize to compare either form. */ -}}
+{{- /* Hugo parses an unquoted true as a bool; normalize to compare either form. */ -}}
+{{- $outline := eq (printf "%v" (.Get "outline")) "true" -}}
 {{- $external := eq (printf "%v" (.Get "external")) "true" -}}
-<a
-  href="{{ $href }}"
-  class="inline-flex items-center gap-1.5 rounded-md bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white no-underline shadow-sm transition-colors hover:bg-blue-700"
-  {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
->
-  {{- $text -}}
-  {{- if $external -}}
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg><span class="sr-only">(opens in a new tab)</span>
-  {{- end -}}
-</a>
+{{- $center := ne (.Get "align") "left" -}}
+{{- $variant := cond $outline "text-blue-700 ring-1 ring-inset ring-blue-700/30 hover:bg-blue-50" "bg-blue-600 text-white shadow-sm hover:bg-blue-700" -}}
+<div class="my-6 md:my-8{{ if $center }} text-center{{ end }}">
+  <a
+    href="{{ $href }}"
+    class="inline-flex items-center gap-1.5 rounded-md px-4 py-2.5 text-sm font-semibold no-underline transition-colors {{ $variant }}"
+    {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
+  >
+    {{- $text -}}
+    {{- if $external -}}
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg><span class="sr-only">(opens in a new tab)</span>
+    {{- end -}}
+  </a>
+</div>
