@@ -3,6 +3,29 @@
 This document tracks implementation progress across build phases. Each item
 links to the relevant PRD document for full requirements.
 
+**Progress key:** `[ ]` Not started · `[~]` In progress · `[x]` Complete · `[—]` Deferred / descoped
+
+## Phase Overview
+
+| Phase | Name | Dependencies | Status |
+| ----- | ---- | ------------ | ------ |
+| 1 | Project Scaffolding & Configuration | — | Complete |
+| 2 | Tailwind CSS v4 Integration | Phase 1 | Complete |
+| 3 | Base Layout & Navigation | Phase 2 | Complete |
+| 4 | Blog Listing with Pagination | Phase 3 | Complete |
+| 5 | Single Article Template | Phase 3 | Complete |
+| 6 | Shortcodes | Phase 5 | Not started |
+| 7 | Tag Taxonomy | Phase 4 | Not started |
+| 8 | Static Pages | Phase 3 | Not started |
+| 9 | RSS Feed | Phase 5 | Not started |
+| 10 | SEO & Meta Tags | Phase 3 | Not started |
+| 11 | Contact Form (Netlify Forms) | Phase 8 | Not started |
+| 12 | Newsletter Integration | Phase 3 | Not started |
+| 13 | Lightbox Integration | Phase 6 | Not started |
+| 14 | Analytics | Phase 3 | Not started |
+| 15 | Content Migration | Phase 6 | Not started |
+| 16 | Deployment | Phase 15 | Not started |
+
 ---
 
 ## Phase 1: Project Scaffolding & Configuration
