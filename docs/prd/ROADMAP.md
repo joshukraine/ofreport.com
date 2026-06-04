@@ -92,10 +92,10 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 7: Tag Taxonomy
 
-- [ ] `taxonomy/tags.html` — all tags listing with article counts
-- [ ] `taxonomy/tag.html` — articles filtered by tag with pagination
-- [ ] Tag badges link to tag pages
-- [ ] Tag URLs: `/tags/`, `/tags/{tag}/`, `/tags/{tag}/page/2/`
+- [ ] `taxonomy/taxonomy.html` — all tags listing with article counts
+- [x] `taxonomy/term.html` — articles filtered by tag with pagination
+- [x] Tag badges link to tag pages
+- [x] Tag URLs: `/tags/`, `/tags/{tag}/`, `/tags/{tag}/page/2/`
 
 **Key learning:** Hugo taxonomies, taxonomy list/term templates
 
