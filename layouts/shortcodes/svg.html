@@ -1,0 +1,23 @@
+{{- /*
+  svg — embed an SVG file from assets/img/ inline.
+
+  Inlining the markup (vs. an <img> tag) lets the SVG be styled and animated
+  with CSS — currentColor, hover states, etc. Assets are first-party, so
+  safeHTML is appropriate here.
+
+  Params:
+    name (required) base filename without extension; reads assets/img/{name}.svg
+
+  Usage:
+    {{< svg name="ofr-logo" >}}
+*/ -}}
+{{- $name := .Get "name" -}}
+{{- if not $name -}}
+  {{- errorf "svg shortcode: 'name' param is required (%s)" .Position -}}
+{{- end -}}
+{{- $path := printf "img/%s.svg" $name -}}
+{{- with resources.Get $path -}}
+  {{- .Content | safeHTML -}}
+{{- else -}}
+  {{- warnf "svg shortcode: file not found: assets/%s (%s)" $path .Position -}}
+{{- end -}}
