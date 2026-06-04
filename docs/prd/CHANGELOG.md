@@ -34,7 +34,13 @@ Each entry records one deviation or decision:
 
 ## Entries
 
-*No open entries — all deviations through Phase 6 have been folded back into the PRD.*
+### 2026-06-04 — `docs/prd/03-site-structure.md`, `docs/prd/ROADMAP.md`
+
+**What changed:** Renamed the Phase 7 taxonomy templates from `taxonomy/tags.html` / `taxonomy/tag.html` to `taxonomy/taxonomy.html` (all-tags index) and `taxonomy/term.html` (single-tag list).
+
+**Why:** The original names don't match Hugo's template lookup. `tags.html` (plural) is never looked up and would silently fall through to `_default/list.html`; `tag.html` (singular) is ambiguous because it matches both the `taxonomy` and `term` page kinds, so one file can't reliably render both the index and the per-tag pages. `taxonomy.html` (taxonomy kind) and `term.html` (term kind) are the correct, unambiguous Hugo names.
+
+**Category:** Correction
 
 <!--
   Folded into the PRD on 2026-06-04 (end of Phase 6):

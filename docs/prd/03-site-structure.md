@@ -59,8 +59,8 @@ ofreport.com/
 │   │   ├── button.html          # Styled CTA link
 │   │   └── svg.html             # Inline SVG from assets
 │   ├── taxonomy/
-│   │   ├── tag.html             # Single tag page (articles with that tag)
-│   │   └── tags.html            # All tags listing page
+│   │   ├── taxonomy.html        # All tags listing page (taxonomy kind)
+│   │   └── term.html            # Single tag page (articles with that tag)
 │   └── 404.html                 # Custom 404 page
 ├── static/
 │   ├── favicon.ico
