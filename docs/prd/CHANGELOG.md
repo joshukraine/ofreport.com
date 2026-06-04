@@ -41,4 +41,3 @@ Each entry records one deviation or decision:
   - figure shortcode sizing (figure `w_768` display / `lightbox` `w_1600`, not the
     uncapped `article` preset) → 05-shortcodes.md "Figure/Image Shortcode" Notes.
 -->
-
