@@ -39,7 +39,8 @@ spacing). All PRs passed CI. Phase 5 is complete.
 - CI: all 5 PRs passed (Hugo Build + Markdown Lint)
 - Prev/next navigation verified across full article set
 - Tag badge click targets verified on article cards (z-index stacking)
-- Gap: tag links 404 until Phase 7 (expected), visual testing is manual only
+- Gap: tag links render via the unstyled `_default/list.html` placeholder
+  until Phase 7 (HTTP 200, not a 404), visual testing is manual only
 
 ## Follow-Up Items
 

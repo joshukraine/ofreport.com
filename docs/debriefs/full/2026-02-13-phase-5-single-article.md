@@ -26,8 +26,9 @@ RSS clicks.
 - **Previous/next article navigation** — chronological nav at the bottom of
   each article, with arrow indicators and hover states.
 - **Linked tag badges** — tag badges on both article cards and single articles
-  are now `<a>` links pointing to `/tags/{tag}/` (tag pages don't exist yet;
-  that's Phase 7).
+  are now `<a>` links pointing to `/tags/{tag}/`. These resolve (HTTP 200) to
+  the unstyled `_default/list.html` placeholder until the styled tag pages
+  arrive in Phase 7.
 - **Two Phase 4 bug fixes** — nested quote issue in article card date
   formatting (#25) and missing gap between cover image and tags (#26).
 
@@ -38,7 +39,7 @@ RSS clicks.
 | Cover image lightbox | Phase 13 (GLightbox) | Needs GLightbox JS loaded first |
 | PDF download callout | Phase 6 (Shortcodes) | The `callout` shortcode doesn't exist yet |
 | Mailchimp signup form | Phase 12 | Separate integration concern |
-| Tag taxonomy pages | Phase 7 | Tag links will 404 until then — that's expected |
+| Tag taxonomy pages | Phase 7 | Tag links render via the unstyled `_default/list.html` placeholder until then (HTTP 200, not a 404) |
 
 These deferrals are all correct. Each depends on infrastructure that hasn't
 been built yet. The single template has clean extension points for all of them.
@@ -184,7 +185,8 @@ hugo server -D
 - No automated visual regression testing — all styling verification is manual
 - Prev/next navigation should be spot-checked after content migration (Phase
   15) with 219 articles to ensure correct ordering at scale
-- Tag links currently 404 (expected until Phase 7)
+- Tag links resolve to the unstyled `_default/list.html` placeholder, not a
+  404 — the styled tag pages come in Phase 7
 
 ---
 
@@ -230,8 +232,9 @@ hugo server -D
 1. Go back to **http://localhost:1313/blog/**
 2. On any article card, hover over a **tag badge** (e.g., "newsletter",
    "family") — notice it highlights with a lighter blue background
-3. **Click the tag badge** — it navigates to `/tags/{tag}/` (will 404 until
-   Phase 7, but the link works correctly)
+3. **Click the tag badge** — it navigates to `/tags/{tag}/`, which renders via
+   the unstyled `_default/list.html` placeholder (the styled tag page arrives
+   in Phase 7)
 4. **Important:** notice the tag badge is independently clickable even though
    the entire card is also clickable. The tag and the card are separate click
    targets. Compare this to clicking the card's title or image, which navigates
@@ -242,7 +245,8 @@ hugo server -D
 1. Visit **http://localhost:1313/blog/2024-07-30-july-ministry-report/**
 2. Below the meta line, you'll see tag badges (e.g., "newsletter")
 3. Hover — same blue highlight effect
-4. Click — navigates to `/tags/newsletter/` (will 404 for now)
+4. Click — navigates to `/tags/newsletter/`, rendered by the unstyled
+   `_default/list.html` placeholder for now
 
 ### Story 5: Article without a cover image
 
