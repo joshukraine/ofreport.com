@@ -1,0 +1,27 @@
+{{- /*
+  button — styled CTA link (filled primary).
+
+  Params:
+    href     (required) destination URL
+    text     (required) visible label
+    external (optional) "true" opens in a new tab with rel="noopener noreferrer"
+
+  Usage:
+    {{< button href="/donate/" text="Support Our Ministry" >}}
+    {{< button href="https://example.com" text="Visit Site" external=true >}}
+*/ -}}
+{{- $href := .Get "href" -}}
+{{- $text := .Get "text" -}}
+{{- if not $href -}}
+  {{- errorf "button shortcode: 'href' param is required (%s)" .Position -}}
+{{- end -}}
+{{- if not $text -}}
+  {{- errorf "button shortcode: 'text' param is required (%s)" .Position -}}
+{{- end -}}
+{{- /* Hugo parses unquoted external=true as a bool; normalize to compare either form. */ -}}
+{{- $external := eq (printf "%v" (.Get "external")) "true" -}}
+<a
+  href="{{ $href }}"
+  class="inline-flex items-center rounded-md bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white no-underline shadow-sm transition-colors hover:bg-blue-700"
+  {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
+>{{ $text }}</a>
