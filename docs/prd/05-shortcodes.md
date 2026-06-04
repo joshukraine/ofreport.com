@@ -32,11 +32,24 @@ in a lightbox-compatible link.
 
 **Notes:**
 
-- Evaluate whether Hugo's built-in `figure` shortcode can handle Cloudinary
-  URLs and lightbox attributes, or if a custom shortcode is needed
-- The shortcode should accept both full Cloudinary URLs and public IDs
-- Apply appropriate Cloudinary transformations for display size vs. lightbox
-  size
+- Implemented as a custom shortcode (`layouts/shortcodes/figure.html`); Hugo's
+  built-in `figure` doesn't build Cloudinary URLs or emit lightbox attributes.
+- `src` accepts both a full Cloudinary URL and a bare public ID. The
+  `cloudinary-url.html` partial expands a bare public ID to
+  `{cloudinaryBase}/image/upload/{id}` before applying transforms, so every
+  caller of that partial gets this for free.
+- **Sizing:** the inline display `<img>` uses the `figure` preset
+  (`c_scale,f_auto,q_auto,w_768`) — the article body width — to keep pages
+  light, while the lightbox `<a href>` uses the `lightbox` preset
+  (`c_scale,f_auto,q_auto,w_1600`) for a larger zoom view. Display is
+  intentionally *not* the uncapped `article` preset, which is reserved for the
+  full-width cover image in `blog/single.html`.
+- Rendered with `not-prose` so it matches the cover-image figure styling
+  (`rounded-xl`, `loading="lazy"`); the caption is centered. `figcaption` and
+  `data-description` are emitted only when `caption` is provided, and `alt`
+  falls back to `caption`.
+- GLightbox CSS/JS activation is **Phase 13** — this shortcode emits
+  lightbox-compatible markup now and is forward-compatible.
 
 ---
 

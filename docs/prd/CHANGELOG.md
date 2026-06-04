@@ -34,10 +34,11 @@ Each entry records one deviation or decision:
 
 ## Entries
 
-### 2026-06-04 — `layouts/shortcodes/figure.html`, `layouts/partials/cloudinary-url.html`
+*No open entries — all deviations through Phase 6 have been folded back into the PRD.*
 
-**What changed:** The figure shortcode serves its inline display image from a new width-capped `figure` Cloudinary preset (`w_768`) and its lightbox link from a new larger `lightbox` preset (`w_1600`), instead of the uncapped `article` preset named in the issue #44 technical note (`05-shortcodes.md`).
+<!--
+  Folded into the PRD on 2026-06-04 (end of Phase 6):
+  - figure shortcode sizing (figure `w_768` display / `lightbox` `w_1600`, not the
+    uncapped `article` preset) → 05-shortcodes.md "Figure/Image Shortcode" Notes.
+-->
 
-**Why:** The `article` preset is width-uncapped (it serves the full original), which contradicts the established convention of ~768px inline body images — confirmed by Joshua against the current Nuxt blog — that keeps article bodies from loading huge files. "Display = article + a larger lightbox" was self-contradictory, since `article` is already full-size. A capped display (`w_768`, covering the `max-w-2xl` ≈ 672px article column) plus a larger lightbox (`w_1600`) is the correct click-to-zoom pattern. The cover image (handled separately in `blog/single.html`) is unaffected.
-
-**Category:** Correction
