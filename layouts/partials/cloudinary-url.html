@@ -3,10 +3,17 @@
 {{- $result := "" -}}
 
 {{- if $src -}}
+  {{- /* Accept a bare public ID by expanding it to a full Cloudinary URL. */ -}}
+  {{- if not (hasPrefix $src "http") -}}
+    {{- $src = printf "%s/image/upload/%s" site.Params.cloudinaryBase $src -}}
+  {{- end -}}
+
   {{- $presets := dict
     "featured" "c_scale,f_auto,q_auto,w_740"
     "regular"  "c_scale,f_auto,q_auto,w_610"
+    "figure"   "c_scale,f_auto,q_auto,w_768"
     "article"  "c_scale,f_auto,q_auto:best"
+    "lightbox" "c_scale,f_auto,q_auto,w_1600"
     "og"       "c_fill,f_auto,h_630,q_auto,w_1200"
     "rss"      "c_scale,f_auto,q_auto,w_560"
   -}}

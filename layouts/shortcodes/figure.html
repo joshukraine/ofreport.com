@@ -1,0 +1,36 @@
+{{- /*
+  figure — inline Cloudinary image, clickable to a larger lightbox view.
+
+  Inline <img> is served at ~768px (the article body width) so pages stay light;
+  the wrapping <a> points at a larger version for the lightbox zoom. GLightbox
+  itself is wired up in Phase 13 — this only emits the compatible markup
+  (class="glightbox", data-gallery, data-description), which is forward-compatible.
+
+  not-prose keeps the typography plugin from styling the figure/img/figcaption,
+  so it matches the cover figure in blog/single.html exactly.
+
+  Params:
+    src     (required) full Cloudinary URL OR a bare public ID
+    caption (optional) shown below the image and as the lightbox description
+    alt     (optional) image alt text; falls back to caption when omitted
+
+  Usage:
+    {{< figure src="OFReport/2025-01/photo" caption="A caption" alt="Alt text" >}}
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- if not $src -}}
+  {{- errorf "figure shortcode: 'src' param is required (%s)" .Position -}}
+{{- end -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := or (.Get "alt") $caption -}}
+{{- /* src may be a full Cloudinary URL or a bare public ID; cloudinary-url.html handles both. */ -}}
+{{- $display := partial "cloudinary-url.html" (dict "src" $src "preset" "figure") -}}
+{{- $lightbox := partial "cloudinary-url.html" (dict "src" $src "preset" "lightbox") -}}
+<figure class="not-prose my-8">
+  <a href="{{ $lightbox }}" class="glightbox" data-gallery="article"{{ with $caption }} data-description="{{ . }}"{{ end }}>
+    <img src="{{ $display }}" alt="{{ $alt }}" loading="lazy" class="w-full rounded-xl bg-gray-50">
+  </a>
+  {{- with $caption }}
+  <figcaption class="mt-3 text-center text-sm/6 text-gray-500">{{ . }}</figcaption>
+  {{- end }}
+</figure>
