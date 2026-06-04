@@ -3,7 +3,7 @@
   command = "npm ci && hugo --gc --minify"
 
 [build.environment]
-  HUGO_VERSION = "0.155.2"
+  HUGO_VERSION = "0.162.1"
   HUGO_ENV = "production"
   NODE_VERSION = "22"
 
@@ -11,13 +11,13 @@
   command = "npm ci && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.155.2"
+  HUGO_VERSION = "0.162.1"
 
 [context.branch-deploy]
   command = "npm ci && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.155.2"
+  HUGO_VERSION = "0.162.1"
 
 # Redirects for SEO continuity
 [[redirects]]
