@@ -105,7 +105,7 @@ links to the relevant PRD document for full requirements.
 - [ ] Ministry page (`/ministry/`) with SVG logos
 - [ ] Podcast page (`/podcast/`) with Buzzsprout embed
 - [ ] Archives page (`/archives/`) using `data/archives.json`
-- [ ] Donate page (`/donate/`)
+- [x] Donate page (`/donate/`)
 - [ ] Subscribe page (`/subscribe/`) with Mailchimp form
 
 **Key learning:** Content sections, page-specific templates
