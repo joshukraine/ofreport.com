@@ -19,7 +19,7 @@
       {{- end }}
 
       {{/* Article title */}}
-      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-header sm:text-5xl">
+      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-sans sm:text-5xl">
         {{- .Title -}}
       </h1>
 
@@ -50,7 +50,7 @@
       {{- end }}
 
       {{/* Article content */}}
-      <div class="mt-10 max-w-2xl prose prose-gray prose-a:text-blue-700 prose-a:hover:text-blue-900">
+      <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900">
         {{ .Content }}
       </div>
 
