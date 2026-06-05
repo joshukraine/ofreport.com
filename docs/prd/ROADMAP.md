@@ -104,7 +104,7 @@ links to the relevant PRD document for full requirements.
 - [x] Family page (`/family/`)
 - [x] Ministry page (`/ministry/`) with SVG logos
 - [x] Podcast page (`/podcast/`) with Buzzsprout embed
-- [ ] Archives page (`/archives/`) using `data/archives.json`
+- [x] Archives page (`/archives/`) using `data/archives.json`
 - [x] Donate page (`/donate/`)
 - [ ] Subscribe page (`/subscribe/`) with Mailchimp form
 
