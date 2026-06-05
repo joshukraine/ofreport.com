@@ -5,7 +5,7 @@
       {{/* Page title — an optional "heading" frontmatter field overrides .Title
            (and may contain inline HTML such as <br>); "centered: true" centers
            the header and body to match pages like Ministry. */}}
-      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-sans sm:text-5xl{{ if .Params.centered }} text-center{{ end }}">
+      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-ink font-sans sm:text-5xl{{ if .Params.centered }} text-center{{ end }}">
         {{- with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end -}}
       </h1>
 

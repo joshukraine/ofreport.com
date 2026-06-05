@@ -5,7 +5,7 @@
       {{/* Display heading "Through the Years" comes from the `heading` frontmatter
            (matches the original PageHeader); .Title ("Archives") stays the SEO/tab
            title. Centered to match the original design. */}}
-      <h1 class="text-center text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-sans sm:text-5xl">
+      <h1 class="text-center text-4xl font-semibold tracking-tight text-pretty text-ink font-sans sm:text-5xl">
         {{- with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end -}}
       </h1>
 

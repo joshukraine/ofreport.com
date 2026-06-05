@@ -17,6 +17,9 @@
   --color-blue-dark: #024775;
   --color-blue-footer: #8bccf8;
 
+  /* Ink — the slate used for page headings, matching the original site (Tailwind v1 gray-800). */
+  --color-ink: #2d3748;
+
   /* Font families — sans (Lato) is the default for UI, headings, and body;
      serif (Noto Serif) is opt-in for long-form copy; fancy (Mate SC) is decorative. */
   --font-sans: "Lato", sans-serif;
