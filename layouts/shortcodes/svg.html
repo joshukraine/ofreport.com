@@ -6,18 +6,30 @@
   safeHTML is appropriate here.
 
   Params:
-    name (required) base filename without extension; reads assets/img/{name}.svg
+    name  (required) base filename without extension; reads assets/img/{name}.svg
+    class (optional) classes applied to the root <svg> element — use for sizing
+                     (e.g. "block w-[200px] max-w-full h-auto") or color. The
+                     <svg> is inline by default, so include "block"/"inline-block"
+                     for width utilities to take effect. Assumes the file's root
+                     tag starts with "<svg " and has no existing class attribute
+                     (true for all first-party assets in assets/img/).
 
   Usage:
     {{< svg name="ofr-logo" >}}
+    {{< svg name="eto-logo" class="block w-[200px] max-w-full h-auto" >}}
 */ -}}
 {{- $name := .Get "name" -}}
+{{- $class := .Get "class" -}}
 {{- if not $name -}}
   {{- errorf "svg shortcode: 'name' param is required (%s)" .Position -}}
 {{- end -}}
 {{- $path := printf "img/%s.svg" $name -}}
 {{- with resources.Get $path -}}
-  {{- .Content | safeHTML -}}
+  {{- $svg := .Content -}}
+  {{- with $class -}}
+    {{- $svg = replaceRE "<svg " (printf "<svg class=%q " .) $svg 1 -}}
+  {{- end -}}
+  {{- $svg | safeHTML -}}
 {{- else -}}
   {{- warnf "svg shortcode: file not found: assets/%s (%s)" $path .Position -}}
 {{- end -}}
