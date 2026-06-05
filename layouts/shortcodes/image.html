@@ -1,0 +1,25 @@
+{{- /*
+  image — plain Cloudinary <img>, with no lightbox or caption.
+
+  For logos and images that shouldn't be click-to-zoom — that's what the figure
+  shortcode is for. The URL is built through cloudinary-url.html so the transform
+  stays centralized and no hardcoded Cloudinary URLs leak into content.
+
+  Sizing/placement is left to the caller via class (prose supplies the vertical
+  margins), the same way ministry.md sizes its inline SVGs.
+
+  Params:
+    src   (required) full Cloudinary URL OR a bare public ID
+    alt   (optional) alt text; defaults to ""
+    class (optional) utility classes on the <img>
+
+  Usage:
+    {{< image src="OFReport/assets/logo.png" alt="Logo" class="mx-auto block w-[480px] max-w-full" >}}
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- if not $src -}}
+  {{- errorf "image shortcode: 'src' param is required (%s)" .Position -}}
+{{- end -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $url := partial "cloudinary-url.html" (dict "src" $src "preset" "figure") -}}
+<img src="{{ $url }}" alt="{{ $alt }}" loading="lazy"{{ with .Get "class" }} class="{{ . }}"{{ end }}>
