@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-3xl px-6 lg:px-8">
+
+      {{/* Page title */}}
+      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-header sm:text-5xl">
+        {{- .Title -}}
+      </h1>
+
+      {{/* Page content */}}
+      <div class="mt-10 max-w-2xl prose prose-gray prose-a:text-blue-700 prose-a:hover:text-blue-900">
+        {{ .Content }}
+      </div>
+
+    </div>
+  </div>
+{{ end }}
