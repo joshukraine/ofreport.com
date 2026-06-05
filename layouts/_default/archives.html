@@ -1,0 +1,42 @@
+{{ define "main" }}
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-3xl px-6 lg:px-8">
+
+      {{/* Page title — mirrors single.html so the chrome matches the other static pages. */}}
+      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-header sm:text-5xl">
+        {{- .Title -}}
+      </h1>
+
+      {{/* Intro prose lives in .Content; the year loop below lives in this template
+           because markdown can't iterate a data file. */}}
+      <div class="mt-10 max-w-2xl prose prose-gray prose-a:text-blue-700 prose-a:hover:text-blue-900">
+        {{ .Content }}
+
+        {{/* data/archives.json → hugo.Data.archives is a map keyed by year string.
+             Hugo ranges map keys ascending, so collect the keys and sort them
+             descending to list newest issues first (replaces the old site's
+             Object.keys(archives).reverse()). */}}
+        {{ $archives := hugo.Data.archives }}
+        {{ $years := slice }}
+        {{ range $year, $_ := $archives }}
+          {{ $years = $years | append $year }}
+        {{ end }}
+
+        {{ range sort $years "value" "desc" }}
+          {{ $issues := index $archives . }}
+          <h2>{{ . }}</h2>
+          <ul>
+            {{ range $issues }}
+              <li>
+                <a href="{{ site.Params.pdfBase }}{{ .file }}" target="_blank" rel="noopener noreferrer">
+                  {{ .title }} ({{ .issue }})
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+{{ end }}
