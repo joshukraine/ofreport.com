@@ -102,7 +102,7 @@ links to the relevant PRD document for full requirements.
 ## Phase 8: Static Pages
 
 - [x] Family page (`/family/`)
-- [ ] Ministry page (`/ministry/`) with SVG logos
+- [x] Ministry page (`/ministry/`) with SVG logos
 - [ ] Podcast page (`/podcast/`) with Buzzsprout embed
 - [ ] Archives page (`/archives/`) using `data/archives.json`
 - [x] Donate page (`/donate/`)
