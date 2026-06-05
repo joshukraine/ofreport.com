@@ -2,13 +2,15 @@
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-3xl px-6 lg:px-8">
 
-      {{/* Page title */}}
-      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-header sm:text-5xl">
-        {{- .Title -}}
+      {{/* Page title — an optional "heading" frontmatter field overrides .Title
+           (and may contain inline HTML such as <br>); "centered: true" centers
+           the header and body to match pages like Ministry. */}}
+      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 font-header sm:text-5xl{{ if .Params.centered }} text-center{{ end }}">
+        {{- with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end -}}
       </h1>
 
       {{/* Page content */}}
-      <div class="mt-10 max-w-2xl prose prose-gray prose-a:text-blue-700 prose-a:hover:text-blue-900">
+      <div class="mt-10 max-w-2xl prose prose-gray prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center{{ end }}">
         {{ .Content }}
       </div>
 
