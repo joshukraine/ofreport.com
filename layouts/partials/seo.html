@@ -1,0 +1,44 @@
+{{- /*
+  Centralized SEO + social metadata: title, description, canonical, robots,
+  Open Graph, and Twitter Cards. This partial is the single source of truth
+  for these tags — head.html includes it and defines nothing of its own here.
+
+  OG image: a page's own `cover` if present, otherwise the site-wide fallback
+  (params.ogImage, the front-page hero). Both run through the cloudinary-url
+  "og" preset (c_fill,f_auto,h_630,q_auto,w_1200).
+*/ -}}
+{{- $title := cond .IsHome site.Params.titleSuffix (printf "%s | %s" .Title site.Params.titleSuffix) -}}
+{{- $description := or .Description site.Params.description -}}
+{{- $socialTitle := cond .IsHome site.Title .Title -}}
+{{- $ogType := cond (and .IsPage (eq .Section "blog")) "article" "website" -}}
+{{- $imageSrc := or .Params.cover site.Params.ogImage -}}
+{{- $ogImage := partial "cloudinary-url.html" (dict "src" $imageSrc "preset" "og") -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{- if hugo.IsProduction }}
+<meta name="robots" content="index,follow">
+{{- else }}
+<meta name="robots" content="noindex,nofollow">
+{{- end }}
+
+{{/* Open Graph */}}
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:title" content="{{ $socialTitle }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+{{- with $ogImage }}
+<meta property="og:image" content="{{ . }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{{- end }}
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $socialTitle }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{- with $ogImage }}
+<meta name="twitter:image" content="{{ . }}">
+{{- end }}
