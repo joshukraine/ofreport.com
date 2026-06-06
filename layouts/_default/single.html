@@ -2,14 +2,15 @@
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-3xl px-6 lg:px-8">
 
-      {{/* Page title — an optional "heading" frontmatter field overrides .Title
-           (and may contain inline HTML such as <br>); "centered: true" centers
-           the header and body to match pages like Ministry. */}}
-      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-ink font-sans sm:text-5xl{{ if .Params.centered }} text-center{{ end }}">
+      {{/* Page title — always centered, matching the old design's PageHeader.
+           An optional "heading" frontmatter field overrides .Title (and may
+           contain inline HTML such as <br>). */}}
+      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-ink font-sans text-center sm:text-5xl">
         {{- with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end -}}
       </h1>
 
-      {{/* Page content */}}
+      {{/* Page content — "centered: true" centers the body (e.g. Ministry);
+           otherwise it stays left-aligned. */}}
       <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center{{ end }}">
         {{ .Content }}
       </div>
