@@ -1,0 +1,49 @@
+{{- /*
+  mailchimp-form.html — inline Mailchimp newsletter signup form.
+
+  Ported from the old McSubscribeForm.vue component. Posts directly to the
+  Mailchimp list endpoint (no Mailchimp JavaScript), opening the confirmation
+  in a new tab. Styled with Tailwind to match the site's button: the email
+  input and Subscribe button stack on mobile and join into a pill from sm up.
+
+  The hidden honeypot field named b_<u>_<id> MUST stay — Mailchimp uses it to
+  trap bots, and removing it invites spam signups.
+*/ -}}
+<div id="mc_embed_signup" class="not-prose">
+  <form
+    id="mc-embedded-subscribe-form"
+    action="https://OFReport.us6.list-manage.com/subscribe/post?u=1e0c65850b60905f65b151819&amp;id=97b9f6a559"
+    method="post"
+    name="mc-embedded-subscribe-form"
+    target="_blank"
+    novalidate
+    class="flex flex-col gap-3 sm:flex-row sm:gap-0"
+  >
+    <label for="mce-EMAIL" class="sr-only">Email address</label>
+    <input
+      id="mce-EMAIL"
+      type="email"
+      name="EMAIL"
+      value=""
+      placeholder="you@example.com"
+      autocomplete="email"
+      required
+      class="w-full rounded-full border border-gray-400 px-4 py-2.5 font-sans text-sm placeholder:text-gray-500 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:rounded-r-none sm:border-r-0"
+    />
+
+    {{- /* Honeypot — real visitors never see or fill this; bots that do get
+           dropped by Mailchimp. Off-screen and hidden from a11y tools. Do not
+           remove. */ -}}
+    <div class="absolute -left-[5000px]" aria-hidden="true">
+      <input type="text" name="b_1e0c65850b60905f65b151819_97b9f6a559" tabindex="-1" value="" />
+    </div>
+
+    <input
+      id="mc-embedded-subscribe"
+      type="submit"
+      name="subscribe"
+      value="Subscribe"
+      class="cursor-pointer rounded-full bg-blue-600 px-6 py-2.5 font-sans text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:rounded-l-none"
+    />
+  </form>
+</div>
