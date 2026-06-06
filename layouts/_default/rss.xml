@@ -1,0 +1,58 @@
+{{- /*
+  Custom RSS 2.0 feed for the blog, tuned for Mailchimp RSS-to-email.
+
+  Design (see docs/prd/CHANGELOG.md, 2026-06-06):
+    - Excerpt model: <description> carries the curated frontmatter summary,
+      not the full article. This drives readers to the site (where the
+      lightbox galleries, donate/subscribe CTAs, and podcast live) and keeps
+      emails small enough to dodge Gmail's ~102KB clipping. The "Read more"
+      button is added in the Mailchimp campaign via the RSSITEM:URL merge tag.
+    - One cover image per item via <enclosure> (Cloudinary rss preset, w_560)
+      as the email's visual hook. Email clients can't lazy-load, so a post's
+      full set of images never belongs in the feed.
+    - Restricted to the blog section, so static pages never leak into the feed.
+    - <dc:creator> for the author name (RSS <author> expects an email).
+*/ -}}
+{{- $pages := where site.RegularPages "Section" "blog" -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+  {{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ site.Title | transform.XMLEscape | safeHTML }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ site.Params.description | transform.XMLEscape | safeHTML }}</description>
+    <generator>Hugo</generator>
+    {{- with site.Language.Locale }}
+    <language>{{ . }}</language>
+    {{- end }}
+    {{- with site.Copyright }}
+    <copyright>{{ . | transform.XMLEscape | safeHTML }}</copyright>
+    {{- end }}
+    {{- with (index $pages 0) }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}
+    {{- with .OutputFormats.Get "rss" }}
+    <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
+    {{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title | transform.XMLEscape | safeHTML }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{- with .Params.author }}
+      <dc:creator>{{ . | transform.XMLEscape | safeHTML }}</dc:creator>
+      {{- end }}
+      <guid>{{ .Permalink }}</guid>
+      {{- with .Description }}
+      <description>{{ . | transform.XMLEscape | safeHTML }}</description>
+      {{- end }}
+      {{- with .Params.cover }}
+      <enclosure url="{{ partial "cloudinary-url.html" (dict "src" . "preset" "rss") }}" length="0" type="image/jpeg" />
+      {{- end }}
+    </item>
+    {{- end }}
+  </channel>
+</rss>
