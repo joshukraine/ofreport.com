@@ -17,7 +17,7 @@ links to the relevant PRD document for full requirements.
 | 6 | Shortcodes | Phase 5 | Complete |
 | 7 | Tag Taxonomy | Phase 4 | Complete |
 | 8 | Static Pages | Phase 3 | Complete |
-| 9 | RSS Feed | Phase 5 | Not started |
+| 9 | RSS Feed | Phase 5 | Complete |
 | 10 | SEO & Meta Tags | Phase 3 | Not started |
 | 11 | Contact Form (Netlify Forms) | Phase 8 | Not started |
 | 12 | Newsletter Integration | Phase 3 | Not started |
@@ -112,10 +112,10 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 9: RSS Feed
 
-- [ ] Custom RSS template at `/feed.xml` (see [`01-architecture.md`](./01-architecture.md))
-- [ ] Cover images with Cloudinary transformations
-- [ ] HTML-rendered content in feed items
-- [ ] Mailchimp compatibility verified
+- [x] Custom RSS template at `/feed.xml` (see [`01-architecture.md`](./01-architecture.md))
+- [x] Cover images with Cloudinary transformations (cover `<enclosure>`, `w_560` rss preset)
+- [x] Curated excerpt in feed items (excerpt model, not full HTML — see [`CHANGELOG.md`](./CHANGELOG.md), 2026-06-06)
+- [—] Mailchimp compatibility verified (deferred — needs a live, publicly-pollable feed; verify during Phase 16 deploy)
 
 **Key learning:** Custom RSS template, Hugo output formats
 
