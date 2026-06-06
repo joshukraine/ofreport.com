@@ -1,5 +1,6 @@
 ---
 title: "Donate"
+heading: "How to Donate"
 description: >-
   If you would like to make a financial contribution, please choose from one
   of the options below. We are grateful for your kindness and generosity!
