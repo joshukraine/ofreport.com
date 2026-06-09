@@ -1,0 +1,14 @@
+{{- /*
+  robots.txt — crawl rules mirror the robots meta logic in partials/seo.html:
+  production allows crawling and advertises the sitemap; any non-production
+  build (hugo server, or a Netlify preview/branch deploy once HUGO_ENVIRONMENT
+  is set per #80) disallows everything. The sitemap URL is built with absURL so
+  it follows baseURL rather than hardcoding the domain.
+*/ -}}
+User-agent: *
+{{ if hugo.IsProduction -}}
+Allow: /
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- else -}}
+Disallow: /
+{{- end }}

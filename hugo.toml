@@ -2,6 +2,7 @@ baseURL = "https://ofreport.com/"
 locale = "en-US"
 title = "OFReport.com"
 copyright = "© 2026 Joshua and Kelsie Steele"
+enableRobotsTXT = true
 
 # Pagination
 [pagination]
