@@ -124,7 +124,7 @@ links to the relevant PRD document for full requirements.
 - [x] `partials/seo.html` — Open Graph, Twitter Cards (see [`04-templates.md`](./04-templates.md))
 - [x] Title template with suffix
 - [x] Canonical URLs
-- [x] Robots meta (production vs. non-production) — template logic done; per-context env wiring for deploy previews tracked in #80
+- [x] Robots meta (production vs. non-production) — `seo.html` logic + Netlify per-context env wiring (preview/branch deploys render noindex)
 - [x] Sitemap at `/sitemap.xml` — verified Hugo's default output; no custom template needed
 - [x] Favicons (apple-touch-icon, Android Chrome, Safari pinned tab)
 
