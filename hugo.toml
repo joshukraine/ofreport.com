@@ -28,6 +28,9 @@ copyright = "© 2026 Joshua and Kelsie Steele"
   titleSuffix = "Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine"
   cloudinaryBase = "https://res.cloudinary.com/dnkvsijzu"
   pdfBase = "https://d21yo20tm8bmc2.cloudfront.net/ofr/"
+  # Default social/OG image (front-page hero) for pages without a cover.
+  # Stored untransformed; the cloudinary-url "og" preset is applied at render.
+  ogImage = "https://res.cloudinary.com/dnkvsijzu/image/upload/v1574408895/OFReport/assets/ofr-home-page-12-6_dk4tai.jpg"
 
   [params.social]
     facebook = "https://www.facebook.com/joshukraine"

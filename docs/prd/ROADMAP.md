@@ -18,7 +18,7 @@ links to the relevant PRD document for full requirements.
 | 7 | Tag Taxonomy | Phase 4 | Complete |
 | 8 | Static Pages | Phase 3 | Complete |
 | 9 | RSS Feed | Phase 5 | Complete |
-| 10 | SEO & Meta Tags | Phase 3 | Not started |
+| 10 | SEO & Meta Tags | Phase 3 | In progress |
 | 11 | Contact Form (Netlify Forms) | Phase 8 | Not started |
 | 12 | Newsletter Integration | Phase 3 | Not started |
 | 13 | Lightbox Integration | Phase 6 | Not started |
@@ -121,10 +121,10 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 10: SEO & Meta Tags
 
-- [ ] `partials/seo.html` — Open Graph, Twitter Cards (see [`04-templates.md`](./04-templates.md))
-- [ ] Title template with suffix
-- [ ] Canonical URLs
-- [ ] Robots meta (production vs. non-production)
+- [x] `partials/seo.html` — Open Graph, Twitter Cards (see [`04-templates.md`](./04-templates.md))
+- [x] Title template with suffix
+- [x] Canonical URLs
+- [x] Robots meta (production vs. non-production) — template logic done; per-context env wiring for deploy previews tracked in #80
 - [ ] Sitemap at `/sitemap.xml`
 - [ ] Favicons (apple-touch-icon, Android Chrome, Safari pinned tab)
 
