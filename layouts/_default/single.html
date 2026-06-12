@@ -1,10 +1,12 @@
 {{ define "main" }}
   {{/* Optional faded full-bleed background — Cloudinary public ID in the
-       `bgImage` frontmatter. The image paints onto the white wrapper from the
-       sm breakpoint up and fades into white below; mobile stays plain. */}}
+       `bgImage` frontmatter. When set, the wrapper uses the `page-bg` class
+       (its background color is the exact gray the photos fade to) and paints
+       the image from the sm breakpoint up; mobile shows the flat color. Without
+       it, the wrapper keeps its plain white background. */}}
   {{ $bg := "" }}
   {{ with .Params.bgImage }}{{ $bg = partial "cloudinary-url.html" (dict "src" . "preset" "bg") }}{{ end }}
-  <div class="bg-white py-24 sm:py-32{{ with $bg }} page-bg{{ end }}"{{ with $bg }} style="--page-bg-image: url('{{ . }}')"{{ end }}>
+  <div class="{{ if $bg }}page-bg{{ else }}bg-white{{ end }} py-24 sm:py-32"{{ with $bg }} style="--page-bg-image: url('{{ . }}')"{{ end }}>
     <div class="mx-auto max-w-3xl px-6 lg:px-8">
 
       {{/* Page title — always centered, matching the old design's PageHeader.
