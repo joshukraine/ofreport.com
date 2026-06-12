@@ -1,5 +1,10 @@
 {{ define "main" }}
-  <div class="bg-white py-24 sm:py-32">
+  {{/* Optional faded full-bleed background — Cloudinary public ID in the
+       `bgImage` frontmatter. The image paints onto the white wrapper from the
+       sm breakpoint up and fades into white below; mobile stays plain. */}}
+  {{ $bg := "" }}
+  {{ with .Params.bgImage }}{{ $bg = partial "cloudinary-url.html" (dict "src" . "preset" "bg") }}{{ end }}
+  <div class="bg-white py-24 sm:py-32{{ with $bg }} page-bg{{ end }}"{{ with $bg }} style="--page-bg-image: url('{{ . }}')"{{ end }}>
     <div class="mx-auto max-w-3xl px-6 lg:px-8">
 
       {{/* Page title — always centered, matching the old design's PageHeader.
