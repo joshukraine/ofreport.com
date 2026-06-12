@@ -1,0 +1,86 @@
+{{- /*
+  contact-form.html — Netlify Forms contact form.
+
+  Replaces the old AWS Lambda + reCAPTCHA pipeline (the Nuxt site's
+  contact.vue) with Netlify's built-in form handling. Netlify's build bot
+  detects this server-rendered form via the data-netlify attribute, so no
+  client JavaScript is needed.
+
+  Key Netlify wiring (do not remove):
+    - name="contact" + the hidden form-name input let Netlify associate
+      submissions with the named form.
+    - netlify-honeypot="bot-field" plus the visually-hidden bot-field input
+      trap bots; real visitors never see or fill it.
+    - action="/thank-you/" sends successful submissions to our confirmation
+      page instead of Netlify's default success screen.
+
+  Netlify Forms only activate on actual Netlify deploys — local `hugo server`
+  renders the markup but cannot accept submissions.
+*/ -}}
+{{- $labelClass := "block text-xs font-bold tracking-wide text-gray-700 uppercase" -}}
+{{- $inputClass := "mt-2 block w-full rounded-lg border border-gray-400 px-4 py-2.5 font-sans text-sm placeholder:text-gray-500 focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500" -}}
+<form
+  name="contact"
+  method="POST"
+  action="/thank-you/"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="mt-10 space-y-6 rounded-lg bg-white p-6 shadow-md sm:p-8"
+>
+  {{- /* Netlify matches the POST to the "contact" form via this hidden field. */ -}}
+  <input type="hidden" name="form-name" value="contact" />
+
+  {{- /* Honeypot — hidden from real visitors; bots that fill it are dropped by
+         Netlify. Do not remove. */ -}}
+  <p class="hidden" aria-hidden="true">
+    <label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field" tabindex="-1" /></label>
+  </p>
+
+  <div>
+    <label for="name" class="{{ $labelClass }}">Your Name</label>
+    <input
+      id="name"
+      type="text"
+      name="name"
+      maxlength="100"
+      placeholder="Jane Doe"
+      autocomplete="name"
+      required
+      class="{{ $inputClass }}"
+    />
+  </div>
+
+  <div>
+    <label for="email" class="{{ $labelClass }}">Your Email</label>
+    <input
+      id="email"
+      type="email"
+      name="email"
+      maxlength="100"
+      placeholder="you@example.com"
+      autocomplete="email"
+      required
+      class="{{ $inputClass }}"
+    />
+  </div>
+
+  <div>
+    <label for="message" class="{{ $labelClass }}">Your Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="8"
+      maxlength="3000"
+      placeholder="What would you like to say?"
+      required
+      class="{{ $inputClass }} resize-y"
+    ></textarea>
+  </div>
+
+  <button
+    type="submit"
+    class="w-full cursor-pointer rounded-full bg-blue-600 px-6 py-2.5 font-sans text-sm font-semibold text-white shadow-sm transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 sm:w-auto"
+  >
+    Send Message
+  </button>
+</form>
