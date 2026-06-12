@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 OFReport.com is a missionary family blog (Joshua and Kelsie Steele) being rebuilt from Nuxt.js 2 to Hugo. The site has 219 blog articles spanning 2008–2025, 5+ static pages, and 26 tags. Full requirements are in the `docs/prd/` directory (start with `README.md`; see `ROADMAP.md` for build phases).
 
+The original Nuxt.js 2 source lives in the sibling directory `../ofreport.com-nuxt2/` (relative to this repo root). Consult it when matching the old site's design or migrating content — e.g. `pages/` for page layouts, `components/` for Vue components being ported to shortcodes, and `tailwind.config.js` for the old custom utility values.
+
 ## Development Approach
 
 This project follows **developer-directed, AI-assisted** development. The developer (Joshua) directs all decisions and seeks to understand each step. **Explain Hugo concepts and rationale before generating code.** Present options with trade-offs and let the developer choose. See `docs/prd/00-overview.md` for details.
