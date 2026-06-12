@@ -2,6 +2,7 @@
 title: "Ministry"
 heading: "We live to serve<br>Jesus Christ."
 centered: true
+bgImage: "OFReport/assets/abby-beka-ministry-bg-fade_lwhwyj"
 description: >-
   Our highest purpose in life is to follow our Savior, the Lord Jesus Christ.
   We are raising our family in Ukraine, and striving to share the Gospel with

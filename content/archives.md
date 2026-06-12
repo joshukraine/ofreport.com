@@ -2,6 +2,7 @@
 title: "Archives"
 heading: "Through the Years"
 layout: archives
+bgImage: "OFReport/assets/selfie-family-bg-fade_qkqb9u"
 description: >-
   Since 2003 we have published Overseas Field Report, a newsletter chronicling
   the history of our ministry overseas. Browse and download every issue here.
