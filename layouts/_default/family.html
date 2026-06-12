@@ -8,7 +8,13 @@
        photo gets real alt text and the browser picks the right width. The widths
        (768/1024/1500/2000) and version-pinned public ID match the old site.
        URLs are built inline because the shared cloudinary-url partial only emits
-       fixed-width presets, not a multi-width srcset. */}}
+       fixed-width presets, not a multi-width srcset.
+
+       Heights are FIXED (not min-heights) so the photo behaves like the old
+       bg-cover section instead of stretching to the image's intrinsic ratio.
+       max-h-[75vh] mirrors the original's xl:h-3/4-vh (75vh) constraint, applied
+       at every breakpoint so the photo never fills the viewport and the tagline
+       below it stays visible. */}}
   {{ $id := "v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg" }}
   {{ $widths := slice 768 1024 1500 2000 }}
   {{ $srcset := slice }}
@@ -27,7 +33,7 @@
     {{ printf "srcset=%q" (delimit $srcset ", ") | safeHTMLAttr }}
     sizes="100vw"
     alt="The Steele Family"
-    class="w-full border-b border-gray-200 object-cover object-top min-h-[250px] sm:min-h-[450px] md:min-h-[500px] lg:min-h-[700px] xl:min-h-[900px]"
+    class="w-full border-b border-gray-200 object-cover object-top h-[250px] sm:h-[450px] md:h-[500px] lg:h-[700px] xl:h-[900px] max-h-[75vh]"
   />
 
   <div class="mx-auto max-w-3xl px-6 lg:px-8">
