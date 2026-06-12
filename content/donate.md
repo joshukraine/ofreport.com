@@ -1,6 +1,7 @@
 ---
 title: "Donate"
 heading: "How to Donate"
+bgImage: "OFReport/assets/full-family-bg-fade_b2lc3m"
 description: >-
   If you would like to make a financial contribution, please choose from one
   of the options below. We are grateful for your kindness and generosity!

@@ -31,3 +31,20 @@
 [x-cloak] {
   display: none !important;
 }
+
+/* Faded full-bleed page background for static pages (see #69). The per-page
+   Cloudinary URL is injected via the --page-bg-image custom property on a
+   .page-bg element. The background color is the exact light gray the photos'
+   gradient fades to (#f7fafc — the old site's Tailwind v1 gray-100 body color),
+   so the fade is seamless instead of meeting a hard edge against white. The
+   image applies from the sm breakpoint up (640px); mobile shows the flat color. */
+.page-bg {
+  background-color: #f7fafc;
+}
+@media (min-width: 640px) {
+  .page-bg {
+    background-image: var(--page-bg-image);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+}
