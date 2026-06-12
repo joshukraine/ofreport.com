@@ -1,0 +1,47 @@
+{{ define "main" }}
+  {{/* Family page — opens with a full-bleed cover hero (no "Family" <h1>),
+       followed by a centered intro tagline and the left-aligned bio. Mirrors
+       the original family.vue design. */}}
+
+  {{/* Cover hero. The original used a CSS background (bg-cover bg-top) across
+       four responsive widths; we use a responsive <img> with object-cover so the
+       photo gets real alt text and the browser picks the right width. The widths
+       (768/1024/1500/2000) and version-pinned public ID match the old site.
+       URLs are built inline because the shared cloudinary-url partial only emits
+       fixed-width presets, not a multi-width srcset. */}}
+  {{ $id := "v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg" }}
+  {{ $widths := slice 768 1024 1500 2000 }}
+  {{ $srcset := slice }}
+  {{ range $widths }}
+    {{ $url := printf "%s/image/upload/c_scale,f_auto,q_auto:best,w_%d/%s" site.Params.cloudinaryBase . $id }}
+    {{ $srcset = $srcset | append (printf "%s %dw" $url .) }}
+  {{ end }}
+  {{ $fallback := printf "%s/image/upload/c_scale,f_auto,q_auto:best,w_1024/%s" site.Params.cloudinaryBase $id }}
+
+  {{/* Emit srcset as a safe attribute: the Cloudinary transforms contain commas
+       (c_scale,f_auto,…) that Go's srcset escaper would otherwise split on,
+       mangling q_auto:best into #ZgotmplZ. Browsers parse the comma-containing
+       URLs correctly. */}}
+  <img
+    src="{{ $fallback }}"
+    {{ printf "srcset=%q" (delimit $srcset ", ") | safeHTMLAttr }}
+    sizes="100vw"
+    alt="The Steele Family"
+    class="w-full border-b border-gray-200 object-cover object-top min-h-[250px] sm:min-h-[450px] md:min-h-[500px] lg:min-h-[700px] xl:min-h-[900px]"
+  />
+
+  <div class="mx-auto max-w-3xl px-6 lg:px-8">
+
+    {{/* Centered intro tagline (line break after "Steele Family:"). */}}
+    <p class="mt-2 text-center text-sm font-semibold text-ink sm:text-base">
+      Pleased to meet you! We&rsquo;re the Steele Family:<br />
+      Joshua, Kelsie, Abigail, Rebekah, Hosanna, Kathryn, David, and Mia
+    </p>
+
+    {{/* Bio body — left-aligned prose authored in content/family.md. */}}
+    <div class="mt-8 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900 sm:mt-12 md:mt-16">
+      {{ .Content }}
+    </div>
+
+  </div>
+{{ end }}

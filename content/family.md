@@ -1,5 +1,7 @@
 ---
 title: "Family"
+layout: family
+cover: "v1732215040/OFReport/assets/family-2024-cropped_inq8ir.jpg"
 description: >-
   Joshua and Kelsie are missionaries enjoying life as best friends, serving
   their Savior, and raising up their children to honor Him.
