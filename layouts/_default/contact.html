@@ -1,0 +1,28 @@
+{{ define "main" }}
+  {{/* Faded full-bleed background — same mechanism as _default/single.html.
+       The `bgImage` frontmatter holds a Cloudinary public ID; the page-bg
+       class paints it from the sm breakpoint up over the page's flat gray,
+       while mobile shows the flat color. */}}
+  {{ $bg := "" }}
+  {{ with .Params.bgImage }}{{ $bg = partial "cloudinary-url.html" (dict "src" . "preset" "bg") }}{{ end }}
+  <div class="{{ if $bg }}page-bg {{ end }}py-24 sm:py-32"{{ with $bg }} style="--page-bg-image: url('{{ . }}')"{{ end }}>
+    <div class="mx-auto max-w-2xl px-6 lg:px-8">
+
+      {{/* Page header — always centered, matching the other static pages. An
+           optional `heading` frontmatter field overrides .Title (which doubles
+           as the SEO/tab title). */}}
+      <h1 class="text-center text-4xl font-semibold tracking-tight text-pretty text-ink font-sans sm:text-5xl">
+        {{- with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end -}}
+      </h1>
+
+      {{/* Intro copy authored in content/contact.md */}}
+      <div class="mt-10 prose prose-gray font-serif prose-a:text-blue-700 prose-a:hover:text-blue-900">
+        {{ .Content }}
+      </div>
+
+      {{/* Netlify contact form */}}
+      {{ partial "contact-form.html" . }}
+
+    </div>
+  </div>
+{{ end }}
