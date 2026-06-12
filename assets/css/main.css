@@ -20,6 +20,12 @@
   /* Ink — the slate used for page headings, matching the original site (Tailwind v1 gray-800). */
   --color-ink: #2d3748;
 
+  /* Page background — the light gray applied to <body> site-wide, matching the
+     original site (Tailwind v1 gray-100). Tailwind v4's bg-gray-100 is #f3f4f6,
+     a different value, so we name this explicitly instead. Generates the bg-page
+     utility and is also referenced as var(--color-page) by the .page-bg rule. */
+  --color-page: #f7fafc;
+
   /* Font families — sans (Lato) is the default for UI, headings, and body;
      serif (Noto Serif) is opt-in for long-form copy; fancy (Mate SC) is decorative. */
   --font-sans: "Lato", sans-serif;
@@ -34,12 +40,12 @@
 
 /* Faded full-bleed page background for static pages (see #69). The per-page
    Cloudinary URL is injected via the --page-bg-image custom property on a
-   .page-bg element. The background color is the exact light gray the photos'
-   gradient fades to (#f7fafc — the old site's Tailwind v1 gray-100 body color),
-   so the fade is seamless instead of meeting a hard edge against white. The
-   image applies from the sm breakpoint up (640px); mobile shows the flat color. */
+   .page-bg element. The background color is the site-wide page gray (the exact
+   light gray the photos' gradient fades to), so the fade is seamless instead of
+   meeting a hard edge against white. The image applies from the sm breakpoint up
+   (640px); mobile shows the flat color. */
 .page-bg {
-  background-color: #f7fafc;
+  background-color: var(--color-page);
 }
 @media (min-width: 640px) {
   .page-bg {
