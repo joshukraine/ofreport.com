@@ -19,7 +19,7 @@ links to the relevant PRD document for full requirements.
 | 8 | Static Pages | Phase 3 | Complete |
 | 9 | RSS Feed | Phase 5 | Complete |
 | 10 | SEO & Meta Tags | Phase 3 | Complete |
-| 11 | Contact Form (Netlify Forms) | Phase 8 | Not started |
+| 11 | Contact Form (Netlify Forms) | Phase 8 | In progress |
 | 12 | Newsletter Integration | Phase 3 | Not started |
 | 13 | Lightbox Integration | Phase 6 | Not started |
 | 14 | Analytics | Phase 3 | Not started |
@@ -132,11 +132,11 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 11: Contact Form (Netlify Forms)
 
-- [ ] `partials/contact-form.html` (see [`01-architecture.md`](./01-architecture.md))
-- [ ] Contact page (`/contact/`)
-- [ ] Thank-you page (`/thank-you/`)
-- [ ] Honeypot spam prevention
-- [ ] Form submission tested on Netlify
+- [x] `partials/contact-form.html` (see [`01-architecture.md`](./01-architecture.md))
+- [x] Contact page (`/contact/`)
+- [x] Thank-you page (`/thank-you/`)
+- [x] Honeypot spam prevention
+- [ ] Form submission tested on Netlify (verify on this PR's deploy preview)
 
 **Key learning:** Static form handling, Netlify integration
 
