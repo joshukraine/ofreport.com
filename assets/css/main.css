@@ -54,3 +54,16 @@
     background-size: 100% auto;
   }
 }
+
+/* Cover variant of .page-bg — the faded background fills the whole section
+   (background-size: cover, centered) instead of sitting full-width at the top.
+   Used by the homepage "Read the News" section to match the original's
+   bg-cover/bg-center. Pair with .page-bg; applies from sm up, mobile stays flat
+   gray. Declared after .page-bg so it overrides background-size at equal
+   specificity. */
+@media (min-width: 640px) {
+  .page-bg-cover {
+    background-size: cover;
+    background-position: center;
+  }
+}
