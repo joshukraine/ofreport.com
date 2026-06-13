@@ -96,15 +96,15 @@
          left-justified in the right column beside it (the heading sits above the
          body, to the right of the image). The big cover shows from sm up; on
          mobile a smaller cover sits inline to the left of the heading + copy. */}}
-    <div class="mx-auto flex max-w-3xl justify-between px-6 lg:px-8">
+    <div class="mx-auto flex max-w-3xl px-6 lg:px-8">
       <figure class="hidden shrink-0 sm:block">
-        <img src="{{ $cover }}" width="200" alt="Overseas Field Report newsletter cover" class="w-[150px] rounded shadow-lg md:w-[200px]" />
+        <img src="{{ $cover }}" width="200" alt="Overseas Field Report newsletter cover" loading="lazy" class="w-[150px] rounded shadow-lg md:w-[200px]" />
       </figure>
 
       <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
         <div class="flex">
           <figure class="mr-4 shrink-0 sm:hidden">
-            <img src="{{ $cover }}" width="100" alt="Overseas Field Report newsletter cover" class="w-[100px] rounded shadow-md" />
+            <img src="{{ $cover }}" width="100" alt="Overseas Field Report newsletter cover" loading="lazy" class="w-[100px] rounded shadow-md" />
           </figure>
 
           <div class="flex-1">
