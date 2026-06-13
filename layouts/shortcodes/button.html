@@ -32,7 +32,7 @@
 {{- $outline := eq (printf "%v" (.Get "outline")) "true" -}}
 {{- $external := eq (printf "%v" (.Get "external")) "true" -}}
 {{- $center := ne (.Get "align") "left" -}}
-{{- $variant := cond $outline "text-blue-700 ring-1 ring-inset ring-blue-700/30 hover:bg-blue-50" "bg-blue-600 text-white shadow-sm hover:bg-blue-700" -}}
+{{- $variant := cond $outline "text-blue-700 ring-1 ring-inset ring-blue-700/30 hover:bg-blue-50" "bg-blue-800 text-white shadow-sm hover:bg-blue-900" -}}
 <div class="my-6 md:my-8{{ if $center }} text-center{{ end }}">
   <a
     href="{{ $href }}"
