@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-13 — `layouts/partials/page-shell-open.html`, `layouts/partials/page-shell-close.html`, `layouts/_default/{single,contact,subscribe,archives}.html`
+
+**What changed:** Extracted the shared static-page "shell" (the faded `bgImage` background wrapper + centered page `<h1>`) into a `page-shell-open.html` / `page-shell-close.html` partial pair that `single`, `contact`, `subscribe`, and `archives` now consume (issue #92). In doing so, the shared `<h1>` standardized on the `text-center`-first class order used by 3 of the 4 layouts, which reorders the class attribute on pages rendered through `single.html` (`ministry`, `donate`, `thank-you`, `podcast`).
+
+**Why:** Issue #92 set "rendered HTML is byte-equivalent" as the bar, but `single.html`'s `<h1>` already listed its utility classes in a different order than the other three layouts, so a single shared header cannot be byte-identical to all four at once. Standardizing on the majority order changes only one layout's output, and the change is a pure class **reorder** (identical class set) — verified visually inert since Tailwind applies utility CSS by stylesheet source order, not class-attribute order. A full recursive `public/` diff confirmed every other page (including the byte-identical `contact`/`subscribe`/`archives`) is unchanged. Chose a partial pair over a `baseof` block because `family.html` shares Hugo's default `type = "page"` but uses a divergent cover-hero design that a type-level base block would wrongly wrap.
+
+**Category:** Discovery
+
 ### 2026-06-06 — `docs/prd/01-architecture.md` §"RSS Feed", `docs/prd/ROADMAP.md` Phase 9
 
 **What changed:** The custom RSS feed sends a curated excerpt (`<description>`) plus a single cover-image `<enclosure>` per item, rather than the full HTML-rendered article the PRD called for ("include HTML-rendered description/content").
