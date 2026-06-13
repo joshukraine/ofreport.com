@@ -1,0 +1,27 @@
+{{- /* Shared scaffolding for the centered static-page layouts (single, contact,
+       subscribe, archives). Renders the optional faded full-bleed background
+       wrapper, the centered max-width container, and the centered page header.
+       Always pair a call to this with page-shell-close.html.
+
+       Params:
+         page      the page context (`.`) — read for .Params.bgImage,
+                   .Params.heading, and .Title
+         maxWidth  the container max-width utility class, e.g. "max-w-3xl"
+                   (pass the full class name so Tailwind's purge can see it)
+
+       Optional faded full-bleed background — a Cloudinary public ID in the
+       `bgImage` frontmatter. When set, the wrapper uses the `page-bg` class (its
+       background color is the exact gray the photos fade to) and paints the image
+       from the sm breakpoint up; mobile shows the flat color. Without it the
+       wrapper is transparent and the body's page gray shows through. */ -}}
+{{- $bg := "" -}}
+{{- with .page.Params.bgImage }}{{ $bg = partial "cloudinary-url.html" (dict "src" . "preset" "bg") }}{{ end -}}
+<div class="{{ if $bg }}page-bg {{ end }}py-24 sm:py-32"{{ with $bg }} style="--page-bg-image: url('{{ . }}')"{{ end }}>
+  <div class="mx-auto {{ .maxWidth }} px-6 lg:px-8">
+
+    {{/* Page title — always centered, matching the old design's PageHeader. An
+         optional `heading` frontmatter field overrides .Title (and may contain
+         inline HTML such as <br>); .Title still doubles as the SEO/tab title. */}}
+    <h1 class="text-center text-4xl font-semibold tracking-tight text-pretty text-ink font-sans sm:text-5xl">
+      {{- with .page.Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.page.Title }}{{ end -}}
+    </h1>

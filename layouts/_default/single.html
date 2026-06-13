@@ -1,27 +1,11 @@
 {{ define "main" }}
-  {{/* Optional faded full-bleed background — Cloudinary public ID in the
-       `bgImage` frontmatter. When set, the wrapper uses the `page-bg` class
-       (its background color is the exact gray the photos fade to) and paints
-       the image from the sm breakpoint up; mobile shows the flat color. Without
-       it, the wrapper is transparent and the body's page gray shows through. */}}
-  {{ $bg := "" }}
-  {{ with .Params.bgImage }}{{ $bg = partial "cloudinary-url.html" (dict "src" . "preset" "bg") }}{{ end }}
-  <div class="{{ if $bg }}page-bg {{ end }}py-24 sm:py-32"{{ with $bg }} style="--page-bg-image: url('{{ . }}')"{{ end }}>
-    <div class="mx-auto max-w-3xl px-6 lg:px-8">
+  {{ partial "page-shell-open.html" (dict "page" . "maxWidth" "max-w-3xl") }}
 
-      {{/* Page title — always centered, matching the old design's PageHeader.
-           An optional "heading" frontmatter field overrides .Title (and may
-           contain inline HTML such as <br>). */}}
-      <h1 class="text-4xl font-semibold tracking-tight text-pretty text-ink font-sans text-center sm:text-5xl">
-        {{- with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.Title }}{{ end -}}
-      </h1>
-
-      {{/* Page content — "centered: true" centers the body (e.g. Ministry);
-           otherwise it stays left-aligned. */}}
-      <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center{{ end }}">
-        {{ .Content }}
-      </div>
-
+    {{/* Page content — "centered: true" centers the body (e.g. Ministry);
+         otherwise it stays left-aligned. */}}
+    <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center{{ end }}">
+      {{ .Content }}
     </div>
-  </div>
+
+  {{ partial "page-shell-close.html" . }}
 {{ end }}
