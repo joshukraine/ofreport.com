@@ -66,8 +66,17 @@ The server exposes roughly 40 tools by default; the fuller catalog is around 47 
 2. On the next Claude Code session **in this project**, approve the trust prompt for the new `chrome-devtools` MCP server (a one-time Claude Code safeguard for project-scoped servers). The tools then load only in this repo.
 3. Ask the agent to use the tools, for example:
    - "Run a Lighthouse audit on the home page and summarize the accessibility issues."
-   - "Trace the article page load and find the largest layout shifts."
+   - "Trace the article page load **on a production build** and find the largest layout shifts."
    - "Emulate an iPhone and a slow 4G connection, then screenshot the blog list."
+
+### Which audits are trustworthy against the dev server
+
+The dev server (`hugo server -D`) is **not** representative of production, so split audits by type:
+
+- **Accessibility, SEO, best-practices** — run freely against `http://localhost:1313/`. These are structural checks (alt text, heading order, meta tags, contrast) that don't depend on how assets are built or served.
+- **Performance / Core Web Vitals / LCP** — do **not** trust dev-server numbers. `hugo server -D` serves unminified assets, injects a LiveReload script that is absent from production, includes drafts, and applies no compression, CDN, or cache headers — whereas Netlify serves the `hugo --gc --minify` output from an edge with Brotli/gzip and far-future caching on fingerprinted assets. Run performance audits against either a local **production build** (`hugo --gc --minify`, then serve the `public/` directory with e.g. `npx serve public`) or the live `https://ofreport.com` URL (removing `--no-performance-crux` to pick up real-world CrUX field data — see below).
+
+Layout shift (CLS) is the one performance-adjacent metric worth a glance on dev too, since it's usually caused by missing image dimensions or font swaps that exist regardless of build. Even so, confirm any CLS finding against a production build before acting on it.
 
 ### When to flip a flag back
 
