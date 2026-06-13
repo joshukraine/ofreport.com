@@ -54,6 +54,9 @@
         {{ .Content }}
       </div>
 
+      {{/* Article footer: "To God be the Glory" wordmark + newsletter signup */}}
+      {{ partial "article-footer.html" . }}
+
       {{/* Previous/next article navigation */}}
       {{- $older := .NextInSection -}}
       {{- $newer := .PrevInSection -}}

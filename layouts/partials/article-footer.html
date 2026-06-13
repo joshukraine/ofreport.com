@@ -1,0 +1,38 @@
+{{- /*
+  article-footer.html — the standard footer block at the bottom of every blog
+  post (Phase 12). Ports the original ArticleFooter.vue: a "To God be the Glory"
+  script wordmark, a thick divider, then the "Like what you're reading?" headline
+  and the inline Mailchimp signup form.
+
+  Blog-only by virtue of where it's called (layouts/blog/single.html), matching
+  the original site where ArticleFooter rendered only on article pages. The form
+  is the shared mailchimp-form.html partial (also used on the homepage and
+  /subscribe/), so no form markup is duplicated here.
+*/ -}}
+<section class="mt-16">
+  {{/* "To God be the Glory" script wordmark. Decorative lettering, so it carries
+       its words as an accessible label rather than being hidden. The wide (≈7:1)
+       SVG scales to the centered max-w-lg column, mirroring the original's
+       <img class="w-full">. */}}
+  <div class="mx-auto max-w-lg">
+    {{ with resources.Get "img/to-god-be-the-glory-2021.svg" }}
+      {{ replaceRE "<svg " "<svg class=\"mx-auto block h-auto w-full\" role=\"img\" aria-label=\"To God be the Glory\" " .Content 1 | safeHTML }}
+    {{ end }}
+  </div>
+
+  {{/* Thick divider — a recurring site design element. Spans the full article
+       column (max-w-3xl, set in single.html), wider than the max-w-lg blocks it
+       sits between. */}}
+  <hr class="my-10 border-t-4 border-gray-200" />
+
+  {{/* Newsletter CTA — centered two-line headline above the shared inline signup
+       form. */}}
+  <div class="mx-auto max-w-lg">
+    <h2 class="text-center text-2xl font-semibold tracking-tight text-ink font-sans md:text-3xl">
+      Like what you&rsquo;re reading?<br />Let&rsquo;s keep in touch!
+    </h2>
+    <div class="mt-6">
+      {{ partial "mailchimp-form.html" . }}
+    </div>
+  </div>
+</section>
