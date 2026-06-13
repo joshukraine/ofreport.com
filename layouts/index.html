@@ -1,0 +1,74 @@
+{{ define "main" }}
+  {{/* Homepage hero — ports the original Alpha.vue. A full-bleed cover photo
+       sits behind a centered content column.
+
+       The photo is art-directed: a portrait crop on mobile, the wide cover from
+       sm up. Because these are different images (not just widths), it uses
+       <picture> with a media-switched <source> rather than a srcset. A dark-navy
+       gradient sits on the section as a load-time fallback, matching the
+       original's inline gradient exactly.
+
+       Height: the fixed h-16 header is offset by main's pt-16, so the hero fills
+       the rest of the viewport with min-h-[calc(100vh-4rem)] on mobile; from md
+       up it relaxes to 75vh, mirroring the old md:min-h-3/4-vh. (calc needs
+       spaces around the minus; underscores become spaces in the arbitrary
+       value.) */}}
+
+  {{ $base := site.Params.cloudinaryBase }}
+  {{ $bgMobile := printf "%s/image/upload/c_scale,f_auto,q_auto:best,w_640/v1571750972/OFReport/assets/joshandkels-OFReport.com-cover-mobile_wry9lu.jpg" $base }}
+  {{ $bgDesktop := printf "%s/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1571770785/OFReport/assets/joshandkels-OFReport.com-cover_hrc85f.jpg" $base }}
+
+  <section
+    class="relative flex min-h-[calc(100vh_-_4rem)] items-center overflow-hidden md:min-h-[75vh]"
+    style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)"
+  >
+    {{/* Full-bleed background photo. The object-position steps keep the family
+         framed as the aspect ratio changes, mirroring the original's
+         bg-top / sm:bg-left-top / md:bg-left / lg:bg-top. (Tailwind v4 renamed
+         bg-left-top's object equivalent to object-top-left.) */}}
+    <picture>
+      {{/* Emit srcset as a safe attribute: the Cloudinary transforms contain a
+           colon (q_auto:best) and commas that Go's srcset sanitizer mangles into
+           #ZgotmplZ. Browsers parse the URL fine. (Same fix as family.html.) */}}
+      <source media="(min-width: 640px)" {{ printf "srcset=%q" $bgDesktop | safeHTMLAttr }} />
+      <img
+        src="{{ $bgMobile }}"
+        alt="Joshua and Kelsie Steele with their children in Ukraine"
+        class="absolute inset-0 h-full w-full object-cover object-top sm:object-top-left md:object-left lg:object-top"
+        loading="eager"
+        fetchpriority="high"
+      />
+    </picture>
+
+    {{/* Content column. Centered on mobile, pushed right on desktop (the family
+         sits on the left of the photo). `relative` lifts it above the absolute
+         image without needing a negative z-index. Paddings mirror the original
+         Alpha layout (w-11/12 wrapper + pushed-down column on small screens,
+         vertically centered from md up). */}}
+    <div class="relative mx-auto w-11/12 pb-10 sm:pb-0 md:py-24">
+      <div class="flex justify-center pt-16 sm:pt-32 md:justify-end md:pt-0 lg:px-10">
+        <div class="px-8 text-center md:w-2/5 md:px-0">
+          {{/* josh-and-kels wordmark — inlined (a self-contained white SVG) so it
+               scales to the column width like the original's <img class="w-full">. */}}
+          {{ with resources.Get "img/josh-and-kels.svg" }}
+            {{ replaceRE "<svg " "<svg class=\"mx-auto block h-auto w-full\" " .Content 1 | safeHTML }}
+          {{ end }}
+
+          <p class="mt-2 mb-8 font-sans text-base text-white md:mb-12">Est. 2004</p>
+
+          <p class="mb-8 font-serif text-lg text-white md:mb-12 md:text-xl xl:text-2xl">
+            We live in Ukraine where we strive to tell others about God&rsquo;s gift
+            of eternal life through <span class="whitespace-nowrap">Jesus Christ.</span>
+          </p>
+
+          <a
+            href="/family/"
+            class="inline-flex items-center rounded-full bg-blue-800 px-6 py-3 font-sans text-base font-semibold text-white shadow-sm transition-colors hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+          >
+            Meet our Family
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
