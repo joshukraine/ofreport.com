@@ -48,11 +48,16 @@
     <div class="relative mx-auto w-11/12 pb-10 sm:pb-0 md:py-24">
       <div class="flex justify-center pt-16 sm:pt-32 md:justify-end md:pt-0 lg:px-10">
         <div class="px-8 text-center md:w-2/5 md:px-0">
-          {{/* josh-and-kels wordmark — inlined (a self-contained white SVG) so it
-               scales to the column width like the original's <img class="w-full">. */}}
-          {{ with resources.Get "img/josh-and-kels.svg" }}
-            {{ replaceRE "<svg " "<svg class=\"mx-auto block h-auto w-full\" " .Content 1 | safeHTML }}
-          {{ end }}
+          {{/* josh-and-kels wordmark — the page's semantic h1. The inlined SVG is
+               purely decorative (aria-hidden), so the accessible name comes from
+               the visually-hidden text; the SVG itself scales to the column width
+               like the original's <img class="w-full">. */}}
+          <h1>
+            <span class="sr-only">Joshua &amp; Kelsie Steele</span>
+            {{ with resources.Get "img/josh-and-kels.svg" }}
+              {{ replaceRE "<svg " "<svg class=\"mx-auto block h-auto w-full\" aria-hidden=\"true\" " .Content 1 | safeHTML }}
+            {{ end }}
+          </h1>
 
           <p class="mt-2 mb-8 font-sans text-base text-white md:mb-12">Est. 2004</p>
 
@@ -68,6 +73,55 @@
             Meet our Family
           </a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* Newsletter section — "Read the News". Ports the original ReadTheNews.vue
+       and mirrors the /subscribe/ page's cover + copy + form + archives row
+       (layouts/_default/subscribe.html), dropping the subscribe-only unsubscribe
+       block. The markup is intentionally duplicated rather than shared: the
+       placements differ enough that a shared partial was deferred.
+
+       Faded full-bleed background: the original used the ofr-logo-faded-bg image
+       (applied from sm up; flat gray on mobile). We reproduce that with the
+       shared `.page-bg` treatment (#87) — same mechanism the static pages use via
+       page-shell — by setting --page-bg-image; main.css paints it from sm up over
+       the page-gray base color. */}}
+  {{ $cover := partial "cloudinary-url.html" (dict "src" "OFReport/assets/OFR-Aug-Dec-2020_dxpdvm.jpg" "preset" "cover") }}
+  {{ $sectionBg := partial "cloudinary-url.html" (dict "src" "OFReport/assets/ofr-logo-faded-bg_w6uvhk" "preset" "bg") }}
+  <section class="page-bg page-bg-cover py-16 sm:py-24" style="--page-bg-image: url('{{ $sectionBg }}')">
+    {{/* Two-column row mirroring the original ReadTheNews: the cover sits in the
+         left column, with the heading, copy, form, and archives link all
+         left-justified in the right column beside it (the heading sits above the
+         body, to the right of the image). The big cover shows from sm up; on
+         mobile a smaller cover sits inline to the left of the heading + copy. */}}
+    <div class="mx-auto flex max-w-3xl px-6 lg:px-8">
+      <figure class="hidden shrink-0 sm:block">
+        <img src="{{ $cover }}" width="200" alt="Overseas Field Report newsletter cover" loading="lazy" class="w-[150px] rounded shadow-lg md:w-[200px]" />
+      </figure>
+
+      <div class="flex-1 sm:ml-6 md:ml-10 lg:ml-12">
+        <div class="flex">
+          <figure class="mr-4 shrink-0 sm:hidden">
+            <img src="{{ $cover }}" width="100" alt="Overseas Field Report newsletter cover" loading="lazy" class="w-[100px] rounded shadow-md" />
+          </figure>
+
+          <div class="flex-1">
+            <h2 class="text-3xl font-semibold tracking-tight text-ink font-sans sm:text-4xl">Read the News</h2>
+            <div class="mt-4 prose prose-gray font-serif prose-a:text-blue-700 prose-a:hover:text-blue-900">
+              <p><em>Overseas Field Report</em> is our bi-monthly newsletter containing updates on our family and ministry here in Ukraine. We&rsquo;d be tickled if you&rsquo;d subscribe and pray for us!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          {{ partial "mailchimp-form.html" . }}
+        </div>
+
+        <p class="mt-6 font-serif">
+          You can also access previous issues in our <a href="/archives/" class="text-blue-700 hover:text-blue-900">Archives</a>.
+        </p>
       </div>
     </div>
   </section>

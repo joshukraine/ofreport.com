@@ -53,4 +53,14 @@
     background-repeat: no-repeat;
     background-size: 100% auto;
   }
+
+  /* Cover variant — the faded background fills the whole section
+     (background-size: cover, centered) instead of sitting full-width at the top.
+     Used by the homepage "Read the News" section to match the original's
+     bg-cover/bg-center. The compound selector outranks .page-bg, so the override
+     holds regardless of source order. */
+  .page-bg.page-bg-cover {
+    background-size: cover;
+    background-position: center;
+  }
 }
