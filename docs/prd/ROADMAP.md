@@ -20,7 +20,7 @@ links to the relevant PRD document for full requirements.
 | 9 | RSS Feed | Phase 5 | Complete |
 | 10 | SEO & Meta Tags | Phase 3 | Complete |
 | 11 | Contact Form (Netlify Forms) | Phase 8 | Complete |
-| 12 | Newsletter Integration | Phase 3 | Not started |
+| 12 | Newsletter Integration | Phase 3 | Complete |
 | 13 | Lightbox Integration | Phase 6 | Not started |
 | 14 | Analytics | Phase 3 | Not started |
 | 15 | Content Migration | Phase 6 | Not started |
@@ -142,9 +142,9 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 12: Newsletter Integration
 
-- [ ] `partials/mailchimp-form.html` (see [`01-architecture.md`](./01-architecture.md))
-- [ ] Form placed on homepage, article footer, `/subscribe/` page
-- [ ] Styled with Tailwind to match site design
+- [x] `partials/mailchimp-form.html` (see [`01-architecture.md`](./01-architecture.md))
+- [x] Form placed on homepage, article footer, `/subscribe/` page
+- [x] Styled with Tailwind to match site design
 
 **Key learning:** Mailchimp embedded forms
 

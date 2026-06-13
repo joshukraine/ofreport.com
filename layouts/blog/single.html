@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <article class="py-24 sm:py-32">
+  <article class="pt-24 pb-16 sm:pt-32 sm:pb-20">
     <div class="mx-auto max-w-3xl px-6 lg:px-8">
 
       {{/* Cover image */}}
@@ -53,6 +53,9 @@
       <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900">
         {{ .Content }}
       </div>
+
+      {{/* Article footer: "To God be the Glory" wordmark + newsletter signup */}}
+      {{ partial "article-footer.html" . }}
 
       {{/* Previous/next article navigation */}}
       {{- $older := .NextInSection -}}
