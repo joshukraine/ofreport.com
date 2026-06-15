@@ -197,25 +197,37 @@ JavaScript framework.
 
 ---
 
-## Analytics: Free, Privacy-Friendly (Deferred)
+## Analytics: Umami
 
-**Decision:** Use a free, privacy-friendly analytics tool. The specific tool
-will be chosen later in the project.
+**Decision:** Use [Umami](https://umami.is) for privacy-friendly, cookie-free
+analytics.
 
-**Candidates:**
+**Rationale:**
 
-- **GoatCounter** — free for non-commercial use, open source, lightweight
-- **Umami** — open source, self-hostable on free-tier platforms
-- **Plausible Community Edition** — open source, self-hosted
+- Umami is now the standard analytics tool across all of the developer's
+  projects (personal and Euro Team Outreach), so OFReport.com follows suit for
+  a single operational surface and dashboard
+- Privacy-friendly and cookie-free — no consent banner required
+- Open source and self-hostable; lightweight tracking script
+- Reference deployment to mirror for the snippet and instance pattern:
+  [`euroteamoutreach/lens.euroteamoutreach.org`](https://github.com/euroteamoutreach/lens.euroteamoutreach.org)
+
+GoatCounter and Plausible Community Edition were the other candidates
+considered; Umami won on cross-project standardization.
 
 **Implementation:**
 
-- Create a swappable partial (`partials/analytics.html`) that contains the
-  analytics script tag
-- The partial is included in the base layout's `<head>` or before `</body>`
-- Designed so switching tools means changing only this one file
-- Conditional loading: only in production
+- Fill in the swappable partial (`partials/analytics.html`) with the Umami
+  tracking `<script>` (async, with `data-website-id` and the script `src` from
+  the Umami instance)
+- The partial is already included before `</body>` in `baseof.html`; switching
+  or removing analytics means changing only this one file
+- Make the website ID and script `src` configurable via `hugo.toml [params]`
+  rather than hard-coding them in the partial
+- Conditional loading: production only
   (`{{ if hugo.IsProduction }}...{{ end }}`)
+- Best implemented alongside Phase 16 (Deployment) — verification requires a
+  live production URL plus the Umami instance URL and website ID
 
 ---
 
