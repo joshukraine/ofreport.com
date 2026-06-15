@@ -1,1 +1,33 @@
-{{/* GLightbox CSS/JS — implemented in Phase 13 */}}
+{{- /*
+  GLightbox — click-to-enlarge for article images.
+
+  Loaded only on pages that actually contain zoomable images, so text-only
+  pages stay JS/CSS-free. Today that means pages using the figure shortcode;
+  cover-image support extends this condition in a companion change (#109).
+
+  The figure shortcode already emits the lightbox-compatible markup
+  (class="glightbox", data-gallery, data-description) with the <a href> pointing
+  at a larger Cloudinary "lightbox" preset, so this partial only loads the
+  library and initializes it — no per-image glue needed.
+
+  Library: GLightbox 3.3.1 from cdnjs, pinned with SRI integrity hashes. The
+  script is deferred; the inline init runs on DOMContentLoaded, which fires
+  after deferred scripts execute, so GLightbox is defined by the time it runs.
+*/ -}}
+{{- if .HasShortcode "figure" -}}
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css"
+    integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+    crossorigin="anonymous">
+  <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/js/glightbox.min.js"
+    integrity="sha512-XL54SjceXZFzblziNnaFFaXggzqCuZrFS4loWPpvPJ6Kg0kc2HyL89+cPeH0GMq0sKL2SegzUmA8Lx9a0st2ow=="
+    crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      GLightbox({ selector: '.glightbox' });
+    });
+  </script>
+{{- end -}}
