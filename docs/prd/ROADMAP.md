@@ -21,7 +21,7 @@ links to the relevant PRD document for full requirements.
 | 10 | SEO & Meta Tags | Phase 3 | Complete |
 | 11 | Contact Form (Netlify Forms) | Phase 8 | Complete |
 | 12 | Newsletter Integration | Phase 3 | Complete |
-| 13 | Lightbox Integration | Phase 6 | Not started |
+| 13 | Lightbox Integration | Phase 6 | In progress |
 | 14 | Analytics | Phase 3 | Not started |
 | 15 | Content Migration | Phase 6 | Not started |
 | 16 | Deployment | Phase 15 | Not started |
@@ -150,10 +150,11 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 13: Lightbox Integration
 
-- [ ] GLightbox CSS/JS loaded (see [`01-architecture.md`](./01-architecture.md))
-- [ ] `partials/glightbox.html` — conditional loading on article pages
-- [ ] Figure shortcode outputs lightbox-compatible HTML
-- [ ] Tested with actual Cloudinary images
+- [x] GLightbox CSS/JS loaded (see [`01-architecture.md`](./01-architecture.md))
+- [x] `partials/glightbox.html` — conditional loading on article pages
+- [x] Figure shortcode outputs lightbox-compatible HTML
+- [x] Tested with actual Cloudinary images
+- [ ] Article cover image is lightbox-enabled (cover joins the figure gallery — #109)
 
 **Key learning:** GLightbox setup, shortcode enhancement
 
