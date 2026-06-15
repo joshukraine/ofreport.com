@@ -2,19 +2,22 @@
   GLightbox — click-to-enlarge for article images.
 
   Loaded only on pages that actually contain zoomable images, so text-only
-  pages stay JS/CSS-free. Today that means pages using the figure shortcode;
-  cover-image support extends this condition in a companion change (#109).
+  pages stay JS/CSS-free. Two cases qualify:
+    1. Any page that uses the figure shortcode (it emits .glightbox anchors).
+    2. A single blog article with a cover image — blog/single.html wraps the
+       cover in a .glightbox anchor. Scoped to blog singles so cover-bearing
+       pages outside the blog (e.g. the Family cover hero) don't false-load.
 
-  The figure shortcode already emits the lightbox-compatible markup
-  (class="glightbox", data-gallery, data-description) with the <a href> pointing
-  at a larger Cloudinary "lightbox" preset, so this partial only loads the
-  library and initializes it — no per-image glue needed.
+  Both the figure shortcode and the cover anchor emit the same lightbox-
+  compatible markup (class="glightbox", data-gallery, data-description) with the
+  <a href> pointing at a larger Cloudinary "lightbox" preset, so this partial
+  only loads the library and initializes it — no per-image glue needed.
 
   Library: GLightbox 3.3.1 from cdnjs, pinned with SRI integrity hashes. The
   script is deferred; the inline init runs on DOMContentLoaded, which fires
   after deferred scripts execute, so GLightbox is defined by the time it runs.
 */ -}}
-{{- if .HasShortcode "figure" -}}
+{{- if or (.HasShortcode "figure") (and (eq .Kind "page") (eq .Section "blog") .Params.cover) -}}
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css"
