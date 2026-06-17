@@ -22,7 +22,7 @@ links to the relevant PRD document for full requirements.
 | 11 | Contact Form (Netlify Forms) | Phase 8 | Complete |
 | 12 | Newsletter Integration | Phase 3 | Complete |
 | 13 | Lightbox Integration | Phase 6 | Complete |
-| 14 | Analytics | Phase 3 | Not started |
+| 14 | Analytics | Phase 3 | Complete (credentials deferred to Phase 16) |
 | 15 | Content Migration | Phase 6 | Not started |
 | 16 | Deployment | Phase 15 | Not started |
 
@@ -160,9 +160,10 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 14: Analytics
 
-- [ ] `partials/analytics.html` — swappable analytics partial (see [`01-architecture.md`](./01-architecture.md))
-- [ ] Conditional loading (production only)
-- [ ] Analytics tool selected and configured
+- [x] `partials/analytics.html` — swappable analytics partial (see [`01-architecture.md`](./01-architecture.md))
+- [x] Conditional loading (production only, double-gated on `hugo.IsProduction` + configured website ID)
+- [x] Analytics tool selected and configured (Umami; `[params.umami]` left empty)
+- [—] Live credentials populated (deferred to Phase 16 — go-live flip; reuses the existing OFReport.com Umami website ID)
 
 **Key learning:** Privacy-friendly analytics partial
 
