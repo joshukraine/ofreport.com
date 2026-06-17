@@ -17,10 +17,10 @@
       {{ range site.Menus.main }}
         <a href="{{ .URL }}"
            class="relative font-header text-xl font-semibold transition-colors duration-150
-                  before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-blue-600 before:transition-transform before:duration-200 before:content-['']
+                  before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-full before:origin-center before:scale-x-0 before:bg-blue-600 before:transition-transform before:duration-200 before:content-['']
                   hover:before:scale-x-100
                   {{ if $currentPage.IsMenuCurrent "main" . }}
-                    text-blue-700 before:scale-x-100
+                    text-blue-700
                   {{ else }}
                     text-slate-400 hover:text-blue-600
                   {{ end }}">
@@ -65,7 +65,7 @@
                   {{ if $currentPage.IsMenuCurrent "main" . }}
                     bg-blue-50 text-blue-900
                   {{ else }}
-                    text-gray-700 hover:bg-gray-50 hover:text-blue-900
+                    text-slate-400 hover:bg-gray-50 hover:text-blue-900
                   {{ end }}">
           {{ .Name }}
         </a>
