@@ -3,7 +3,7 @@
 
     {{/* Page content — "centered: true" centers the body (e.g. Ministry);
          otherwise it stays left-aligned. */}}
-    <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-header prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center{{ end }}">
+    <div class="mt-10 max-w-2xl prose prose-gray sm:prose-lg font-serif prose-headings:font-header prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center{{ end }}">
       {{ .Content }}
     </div>
 
