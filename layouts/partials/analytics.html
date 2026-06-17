@@ -1,1 +1,16 @@
-{{/* Analytics script — implemented in Phase 14 */}}
+{{/*
+  Umami analytics — swappable partial, included before </body> in baseof.html.
+  Double-gated so it stays inert until the Phase 16 production cutover:
+    1. hugo.IsProduction — Netlify sets HUGO_ENVIRONMENT=preview for deploy
+       previews and branch deploys, so they never emit (same gate as seo.html).
+    2. A configured scriptUrl + websiteId — both are blank until go-live.
+  data-domains scopes tracking to the canonical host as a final safeguard, so a
+  stray *.netlify.app load can never pollute the OFReport.com record.
+*/}}
+{{- if hugo.IsProduction }}
+  {{- with site.Params.umami }}
+    {{- if and .scriptUrl .websiteId }}
+<script defer src="{{ .scriptUrl }}" data-website-id="{{ .websiteId }}" data-domains="ofreport.com"></script>
+    {{- end }}
+  {{- end }}
+{{- end }}

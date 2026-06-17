@@ -215,19 +215,30 @@ analytics.
 GoatCounter and Plausible Community Edition were the other candidates
 considered; Umami won on cross-project standardization.
 
-**Implementation:**
+**Implementation (Phase 14 — done):**
 
-- Fill in the swappable partial (`partials/analytics.html`) with the Umami
-  tracking `<script>` (async, with `data-website-id` and the script `src` from
-  the Umami instance)
-- The partial is already included before `</body>` in `baseof.html`; switching
-  or removing analytics means changing only this one file
-- Make the website ID and script `src` configurable via `hugo.toml [params]`
-  rather than hard-coding them in the partial
-- Conditional loading: production only
-  (`{{ if hugo.IsProduction }}...{{ end }}`)
-- Best implemented alongside Phase 16 (Deployment) — verification requires a
-  live production URL plus the Umami instance URL and website ID
+- `partials/analytics.html` emits the Umami tracking `<script>` (deferred, with
+  `data-website-id` and the script `src`), double-gated so it stays inert until
+  go-live: `hugo.IsProduction` **and** a non-empty `scriptUrl` + `websiteId`.
+- The partial is included before `</body>` in `baseof.html`; switching or
+  removing analytics means changing only this one file.
+- The website ID and script `src` are configured via `hugo.toml`
+  `[params.umami]` rather than hard-coded — **left empty in Phase 14**, so no
+  script is emitted on any build.
+- `data-domains="ofreport.com"` scopes tracking to the canonical host, so a
+  stray `*.netlify.app` load during pre-cutover testing cannot pollute the
+  production record.
+
+**Deferred to Phase 16 (Deployment):**
+
+- Populate `[params.umami]` with the live `scriptUrl`
+  (`https://lens.euroteamoutreach.org/script.js`) and `websiteId`
+  (`34d2cfa4-e623-418a-936d-670c9d163ead`) — the actual go-live flip.
+- **Reuse the existing OFReport.com Umami website ID** (the same one the Nuxt
+  site uses) so pageviews keep appending to the existing dashboard record — do
+  not create a new Umami website.
+- Verify pageviews land on the existing record once the Hugo site serves the
+  live domain.
 
 ---
 

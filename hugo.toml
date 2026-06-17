@@ -38,6 +38,16 @@ enableRobotsTXT = true
     twitter = "https://twitter.com/joshukraine"
     github = "https://github.com/joshukraine/ofreport.com"
 
+  # Umami analytics. Left empty until the Phase 16 production cutover; the
+  # analytics.html partial emits nothing while these are blank, so it stays
+  # inert on every build. At go-live, reuse the EXISTING OFReport.com website
+  # so Umami keeps appending to the same dashboard record (no new entry):
+  #   scriptUrl = "https://lens.euroteamoutreach.org/script.js"
+  #   websiteId = "34d2cfa4-e623-418a-936d-670c9d163ead"
+  [params.umami]
+    scriptUrl = ""
+    websiteId = ""
+
 # Build stats for Tailwind CSS purging
 [build]
   [build.buildStats]
