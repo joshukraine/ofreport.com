@@ -26,9 +26,15 @@
      utility and is also referenced as var(--color-page) by the .page-bg rule. */
   --color-page: #f7fafc;
 
-  /* Font families — sans (Lato) is the default for UI, headings, and body;
-     serif (Noto Serif) is opt-in for long-form copy; fancy (Mate SC) is decorative. */
-  --font-sans: "Lato", sans-serif;
+  /* Font families:
+     - sans (Inter) — default for body, UI, nav, buttons, forms. An SF-style
+       neutral sans that renders consistently across every platform (the original
+       site used the OS system font here, which varied per device).
+     - header (Lato) — headings only, matching the original site's heading font.
+     - serif (Noto Serif) — long-form / article copy.
+     - fancy (Mate SC) — decorative (the "Joshua & Kelsie" wordmark, footer). */
+  --font-sans: "Inter", sans-serif;
+  --font-header: "Lato", sans-serif;
   --font-serif: "Noto Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-fancy: "Mate SC", serif;
 }

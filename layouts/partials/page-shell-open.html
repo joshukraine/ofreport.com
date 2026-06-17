@@ -22,6 +22,6 @@
     {{/* Page title — always centered, matching the old design's PageHeader. An
          optional `heading` frontmatter field overrides .Title (and may contain
          inline HTML such as <br>); .Title still doubles as the SEO/tab title. */}}
-    <h1 class="text-center text-4xl font-semibold tracking-tight text-pretty text-ink font-sans sm:text-5xl">
+    <h1 class="text-center text-4xl font-bold tracking-tight text-pretty text-ink font-header sm:text-5xl">
       {{- with .page.Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.page.Title }}{{ end -}}
     </h1>
