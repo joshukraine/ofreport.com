@@ -2,7 +2,7 @@
   {{ partial "page-shell-open.html" (dict "page" . "maxWidth" "max-w-3xl") }}
 
     {{/* Intro prose (left-aligned), authored in archives.md. */}}
-    <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-sans prose-a:text-blue-700 prose-a:hover:text-blue-900">
+    <div class="mt-10 max-w-2xl prose prose-gray font-serif prose-headings:font-header prose-a:text-blue-700 prose-a:hover:text-blue-900">
       {{ .Content }}
     </div>
 
@@ -22,7 +22,7 @@
     <div class="mt-10 max-w-2xl">
       {{ range sort $years "value" "desc" }}
         <div class="flex border-b border-gray-200 pb-6 mb-6 last:mb-0 last:border-b-0 last:pb-0 sm:pb-8 sm:mb-8">
-          <h2 class="shrink-0 pr-4 font-sans text-2xl/none font-semibold text-gray-700 sm:pr-6 md:pr-10 md:text-3xl/none">{{ . }}</h2>
+          <h2 class="shrink-0 pr-4 font-header text-2xl/none font-bold text-gray-700 sm:pr-6 md:pr-10 md:text-3xl/none">{{ . }}</h2>
           <ul class="space-y-2 md:space-y-4">
             {{ range (index $archives .) }}
               <li class="flex items-start gap-2">
