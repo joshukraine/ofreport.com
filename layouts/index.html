@@ -12,14 +12,19 @@
        the rest of the viewport with min-h-[calc(100vh-4rem)] on mobile; from md
        up it relaxes to 75vh, mirroring the old md:min-h-3/4-vh. (calc needs
        spaces around the minus; underscores become spaces in the arbitrary
-       value.) */}}
+       value.)
+
+       sm:p-10 reproduces the original Alpha.vue section padding (40px from sm
+       up). It only insets the content column — the absolute cover image is
+       positioned independently and stays full-bleed — restoring the original's
+       content-column width (the md:w-2/5 column was ~6% too wide without it). */}}
 
   {{ $base := site.Params.cloudinaryBase }}
   {{ $bgMobile := printf "%s/image/upload/c_scale,f_auto,q_auto:best,w_640/v1571750972/OFReport/assets/joshandkels-OFReport.com-cover-mobile_wry9lu.jpg" $base }}
   {{ $bgDesktop := printf "%s/image/upload/c_scale,f_auto,q_auto:best,w_2000/v1571770785/OFReport/assets/joshandkels-OFReport.com-cover_hrc85f.jpg" $base }}
 
   <section
-    class="relative flex min-h-[calc(100vh_-_4rem)] items-center overflow-hidden md:min-h-[75vh]"
+    class="relative flex min-h-[calc(100vh_-_4rem)] items-center overflow-hidden sm:p-10 md:min-h-[75vh]"
     style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)"
   >
     {{/* Full-bleed background photo. The object-position steps keep the family
