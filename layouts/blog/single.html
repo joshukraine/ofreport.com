@@ -28,15 +28,27 @@
       </div>
     {{- end }}
 
-    <div class="mx-auto max-w-3xl px-6 lg:px-8 {{ if .Params.cover }}pt-6 sm:pt-8{{ else }}pt-24 sm:pt-32{{ end }}">
+    <div class="mx-auto max-w-3xl px-6 lg:px-8 {{ if not .Params.cover }}pt-24 sm:pt-32{{ end }}">
 
-      {{/* Caption — centered + semibold beneath the full-bleed cover (original). */}}
+      {{/* Caption — sits tight under the cover (mt-2) and well clear of the
+           title (which carries the larger top margin below), grouping it with
+           the photo as in the original. Color is gray-500: lighter than the body
+           text for visual separation, but still ~4.6:1 on the page bg (WCAG AA
+           pass — the original's #718096 was only 3.83:1). */}}
+      {{- $titleMargin := "" -}}
+      {{- if .Params.cover -}}
+        {{- if .Params.caption -}}
+          {{- $titleMargin = "mt-8 sm:mt-12 lg:mt-14" -}}
+        {{- else -}}
+          {{- $titleMargin = "mt-6 sm:mt-8" -}}
+        {{- end -}}
+      {{- end -}}
       {{- if and .Params.cover .Params.caption }}
-        <p class="mt-2 text-center text-sm font-semibold text-gray-600 sm:text-base">{{ .Params.caption }}</p>
+        <p class="mt-2 text-center text-sm font-semibold text-gray-500 sm:text-base">{{ .Params.caption }}</p>
       {{- end }}
 
       {{/* Article title */}}
-      <h1 class="mt-3 text-4xl font-bold tracking-tight text-pretty text-ink font-header sm:mt-6 sm:text-5xl lg:mt-8">
+      <h1 class="{{ $titleMargin }} text-4xl font-bold tracking-tight text-pretty text-ink font-header sm:text-5xl">
         {{- .Title -}}
       </h1>
 
