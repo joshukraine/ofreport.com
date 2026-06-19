@@ -1,43 +1,45 @@
 {{ define "main" }}
-  <div class="py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:max-w-4xl">
-        <h1 class="text-4xl font-bold tracking-tight text-pretty text-ink sm:text-5xl font-header">
-          {{ .Title }}
-        </h1>
-        {{- with .Content }}
-          <div class="mt-2 text-lg/8 text-gray-600">{{ . }}</div>
-        {{- end }}
+  {{/* Blog listing — ports the original ArticlesList.vue: a centered max-w-3xl
+       column with a full-width featured card on page 1, followed by a 2-column
+       grid of preview cards. White cards sit on the page-gray (#f7fafc) body, so
+       no section background is needed.
 
-        {{- $paginator := .Paginate .Pages -}}
-        {{- $isFirstPage := not $paginator.HasPrev -}}
+       Spacing matches the original: cards open mt-6 below the nav (md:mt-10), the
+       grid uses a 32px column gutter (gap-x-8) and 24px→40px row gap (gap-y-6
+       md:gap-y-10), mirroring the old md:mx-4 + mt-6/md:mt-10 rhythm.
 
-        <div class="mt-16 space-y-20 lg:mt-20">
-          {{- if and $isFirstPage $paginator.Pages }}
-            {{/* Featured first article on page 1 */}}
-            {{ partial "article-card.html" (dict "page" (index $paginator.Pages 0) "featured" true) }}
+       The original blog index had no visible page heading (it went straight to
+       cards); we keep that but add a visually-hidden h1 so the page still has a
+       top-level heading for assistive tech and SEO. */}}
+  <div class="mx-auto max-w-3xl px-4 pb-16">
+    <h1 class="sr-only">{{ .Title }}</h1>
 
-            {{/* Remaining articles in 2-column grid */}}
-            {{- $rest := after 1 $paginator.Pages -}}
-            {{- if $rest }}
-              <div class="grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2">
-                {{- range $rest }}
-                  {{ partial "article-card.html" (dict "page" . "featured" false) }}
-                {{- end }}
-              </div>
-            {{- end }}
-          {{- else }}
-            {{/* Pages 2+ — all articles in grid, no featured */}}
-            <div class="grid grid-cols-1 gap-x-8 gap-y-20 md:grid-cols-2">
-              {{- range $paginator.Pages }}
-                {{ partial "article-card.html" (dict "page" . "featured" false) }}
-              {{- end }}
-            </div>
+    {{- $paginator := .Paginate .Pages -}}
+    {{- $isFirstPage := not $paginator.HasPrev -}}
+
+    {{- if and $isFirstPage $paginator.Pages }}
+      {{/* Featured first article (page 1 only), full width */}}
+      <div class="mt-6 md:mt-10">
+        {{ partial "article-card.html" (dict "page" (index $paginator.Pages 0) "featured" true) }}
+      </div>
+
+      {{- $rest := after 1 $paginator.Pages -}}
+      {{- if $rest }}
+        <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-6 md:mt-10 md:grid-cols-2 md:gap-y-10">
+          {{- range $rest }}
+            {{ partial "article-card.html" (dict "page" . "featured" false) }}
           {{- end }}
         </div>
-
-        {{ partial "pagination.html" . }}
+      {{- end }}
+    {{- else }}
+      {{/* Pages 2+ — all articles in the grid, no featured */}}
+      <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-6 md:mt-10 md:grid-cols-2 md:gap-y-10">
+        {{- range $paginator.Pages }}
+          {{ partial "article-card.html" (dict "page" . "featured" false) }}
+        {{- end }}
       </div>
-    </div>
+    {{- end }}
+
+    {{ partial "pagination.html" . }}
   </div>
 {{ end }}
