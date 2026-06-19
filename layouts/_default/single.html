@@ -3,7 +3,7 @@
 
     {{/* Page content — "centered: true" centers the body (e.g. Ministry);
          otherwise it stays left-aligned. */}}
-    <div class="{{ if not .Params.hideHeading }}mt-10 {{ end }}max-w-2xl prose prose-gray sm:prose-lg font-serif prose-headings:font-header prose-a:text-blue-700 prose-a:hover:text-blue-900{{ if .Params.centered }} mx-auto text-center sm:px-8{{ end }}">
+    <div class="{{ if not .Params.hideHeading }}mt-10 {{ end }}max-w-2xl prose prose-gray sm:prose-lg font-serif prose-headings:font-header{{ if .Params.centered }} mx-auto text-center sm:px-8{{ end }}">
       {{ .Content }}
     </div>
 
