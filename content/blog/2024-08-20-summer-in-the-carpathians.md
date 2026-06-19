@@ -8,7 +8,7 @@ description: >-
 tags:
   - family
   - photos
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2024-08-20-summer-in-the-carpathians/carpathian-hiking-trail.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573400861/OFReport/2017-06-29-lviv-rope-course/rope-course-12-6_xxdjsy.jpg"
 caption: "Hiking through the Carpathian Mountains with the family"
 slug: "2024-08-20-summer-in-the-carpathians"
 ---

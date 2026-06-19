@@ -7,7 +7,7 @@ description: >-
   new small groups, and the search for a permanent meeting location.
 tags:
   - ministry
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2024-09-15-church-plant-update/church-meeting-room.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571908092/OFReport/2018-09-30-vision-to-reality/dobro-zlo-group-12-6_eitj7q.jpg"
 caption: "Our Sunday gathering in the rented meeting hall"
 pdf: "OFR-Sep-Oct-2024.pdf"
 slug: "2024-09-15-church-plant-update"

@@ -8,7 +8,7 @@ description: >-
 tags:
   - newsletter
   - ministry
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2024-11-30-fall-outreach-report/outreach-team-village.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571908949/OFReport/2018-06-24-sharpening-arrows/teaching-forum-mall-12-6_vbjilu.jpg"
 caption: "Our outreach team visiting a nearby village"
 pdf: "OFR-Nov-Dec-2024.pdf"
 slug: "2024-11-30-fall-outreach-report"

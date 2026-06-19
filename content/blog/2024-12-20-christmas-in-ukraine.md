@@ -8,7 +8,7 @@ description: >-
 tags:
   - family
   - photos
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2024-12-20-christmas-in-ukraine/christmas-church-service.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1571938781/OFReport/2017-12-21-one-sunday-afternoon/kids-in-snow-12-6_ot5lzj.jpg"
 caption: "Our church family gathered for the Christmas service"
 slug: "2024-12-20-christmas-in-ukraine"
 ---

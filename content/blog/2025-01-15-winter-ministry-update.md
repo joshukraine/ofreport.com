@@ -8,7 +8,7 @@ description: >-
 tags:
   - newsletter
   - ministry
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2025-01-15-winter-ministry-update/winter-town-square.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573557624/OFReport/2015-09-01-gaining-ground/06-IMG_6462_r7jny1.jpg"
 caption: "A quiet winter morning in our town square"
 pdf: "OFR-Jan-Feb-2025.pdf"
 slug: "2025-01-15-winter-ministry-update"

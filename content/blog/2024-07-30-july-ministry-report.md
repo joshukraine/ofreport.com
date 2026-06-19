@@ -7,7 +7,7 @@ description: >-
   Bible study groups, and partnership development.
 tags:
   - newsletter
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2024-07-30-july-ministry-report/summer-bible-study.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573555930/OFReport/2016-09-22-platform-rising/josh-preaching-cmo-2016_ulanjs.jpg"
 caption: "Our summer evening Bible study group"
 pdf: "OFR-Jul-Aug-2024.pdf"
 slug: "2024-07-30-july-ministry-report"
