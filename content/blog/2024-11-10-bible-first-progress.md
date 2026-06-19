@@ -7,7 +7,7 @@ description: >-
   enrollment numbers, student testimonies, and plans for new lessons.
 tags:
   - ministry
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2024-11-10-bible-first-progress/bible-first-lesson-stack.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573401900/OFReport/2017-06-13-bible-first-kids/bible-first-kids-12-6_og2mea.jpg"
 caption: "A stack of Bible First lessons ready for mailing"
 slug: "2024-11-10-bible-first-progress"
 ---

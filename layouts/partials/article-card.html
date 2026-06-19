@@ -1,69 +1,61 @@
+{{- /* Blog preview card — ports the original ArticlePreview.vue. A white card
+       (rounded-lg + shadow-md) with the cover image bleeding to the top/side
+       edges, then title, author·date, a serif preview, and a footer with a
+       "Read more" link and an optional PDF icon.
+
+       The card is `flex flex-col justify-between h-full` so that, in a grid row,
+       shorter cards stretch to the tallest and their footers stay bottom-aligned
+       (the original's equal-height-row effect). The image bleeds via -mx-4 -mt-4
+       (cancelling the card's p-4); the card's overflow-hidden + rounded-lg clips
+       the image's top corners, so the <img> itself needs no radius.
+
+       `featured` only switches the Cloudinary width preset (740 vs 610), exactly
+       like the original's customWidth — the layout/typography is identical for
+       featured and regular cards. */ -}}
 {{- $page := .page -}}
 {{- $featured := default false .featured -}}
 {{- $preset := cond $featured "featured" "regular" -}}
 
-<article class="{{ if $featured }}relative isolate flex flex-col gap-8 lg:flex-row{{ else }}relative isolate flex flex-col gap-6{{ end }}">
-  {{- with $page.Params.cover }}
-    {{- $imgURL := partial "cloudinary-url.html" (dict "src" . "preset" $preset) }}
-    <div class="{{ if $featured }}relative aspect-video sm:aspect-2/1 lg:aspect-square lg:w-64 lg:shrink-0{{ else }}relative aspect-video{{ end }}">
-      <img
-        src="{{ $imgURL }}"
-        alt="{{ $page.Title }}"
-        class="absolute inset-0 size-full rounded-2xl bg-gray-50 object-cover"
-        loading="lazy"
-      >
-      <div class="absolute inset-0 rounded-2xl inset-ring inset-ring-gray-900/10"></div>
-    </div>
-  {{- end }}
-
+<article class="flex h-full flex-col justify-between overflow-hidden rounded-lg bg-white p-4 shadow-md">
   <div>
-    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
-      {{- $isoDate := $page.Date.Format "2006-01-02" -}}
-      <time datetime="{{ $isoDate }}" class="text-gray-500">
-        {{- $page.Date.Format "January 2, 2006" -}}
-      </time>
-      {{- range $page.Params.tags }}
-        <a
-          href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
-          class="relative z-10 inline-flex items-center rounded-full bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 inset-ring inset-ring-blue-700/10 hover:bg-blue-100 transition-colors"
+    {{- with $page.Params.cover }}
+      {{- $imgURL := partial "cloudinary-url.html" (dict "src" . "preset" $preset) }}
+      <div class="-mx-4 -mt-4 mb-4">
+        <img
+          src="{{ $imgURL }}"
+          alt="{{ with $page.Params.caption }}{{ . }}{{ end }}"
+          class="block w-full"
+          loading="lazy"
         >
-          {{- . -}}
-        </a>
-      {{- end }}
-    </div>
-
-    <div class="group relative max-w-xl">
-      <h3 class="mt-3 text-lg/6 font-bold font-header text-gray-900 group-hover:text-gray-600">
-        <a href="{{ $page.Permalink }}">
-          <span class="absolute inset-0"></span>
-          {{ $page.Title }}
-        </a>
-      </h3>
-      {{- with $page.Description }}
-        <p class="mt-5 text-sm/6 text-gray-600">{{ . }}</p>
-      {{- end }}
-    </div>
-
-    <div class="mt-6 flex items-center border-t border-gray-900/5 pt-6">
-      <div class="text-sm/6">
-        {{- with $page.Params.author }}
-          <p class="font-semibold text-gray-900">{{ . }}</p>
-        {{- end }}
       </div>
-      {{- with $page.Params.pdf }}
-        <a
-          href="{{ site.Params.pdfBase }}{{ . }}"
-          class="relative z-10 ml-auto flex items-center gap-1 text-xs font-medium text-gray-500 hover:text-blue-700"
-          title="Download PDF"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m.75 12 3 3m0 0 3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
-          </svg>
-          <span>PDF</span>
-        </a>
-      {{- end }}
-    </div>
+    {{- end }}
+
+    <h2 class="mt-0 font-header text-4xl leading-tight font-bold">
+      <a href="{{ $page.RelPermalink }}" class="text-gray-900 hover:text-blue-600">{{ $page.Title }}</a>
+    </h2>
+
+    <p class="mt-1 text-sm text-gray-500">
+      {{- with $page.Params.author }}<span>{{ . }}</span> {{ end }}<span>&middot; {{ $page.Date.Format "January 2, 2006" }}</span>
+    </p>
+
+    {{- with $page.Description }}
+      <p class="mt-4 font-serif text-base text-ink">{{ . }}</p>
+    {{- end }}
+  </div>
+
+  <div class="mt-6 flex items-center justify-between border-t border-gray-200 pt-2">
+    <a href="{{ $page.RelPermalink }}" class="text-base text-blue-600 hover:text-blue-800">Read more</a>
+    {{- with $page.Params.pdf }}
+      <a
+        href="{{ site.Params.pdfBase }}{{ . }}"
+        title="Download PDF Newsletter"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-opacity hover:opacity-70"
+      >
+        <span class="sr-only">Download PDF</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 text-[#e53e3e]" aria-hidden="true"><path fill-rule="evenodd" d="M5.625 1.5H9a3.75 3.75 0 0 1 3.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 0 1 3.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 0 1-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875Zm5.845 17.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V12a.75.75 0 0 0-1.5 0v4.19l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3Z" clip-rule="evenodd" /><path d="M14.25 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 16.5 7.5h-1.875a.375.375 0 0 1-.375-.375V5.25Z" /></svg>
+      </a>
+    {{- end }}
   </div>
 </article>

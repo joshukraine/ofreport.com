@@ -7,7 +7,7 @@ description: >-
   our family and ministry in the new year.
 tags:
   - family
-cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1629283967/OFReport/2025-01-02-new-year-reflections/family-new-year.jpg"
+cover: "https://res.cloudinary.com/dnkvsijzu/image/upload/v1573559996/OFReport/2014-05-23-baby-way/steele-2014-12-6_s3iuym.jpg"
 caption: "Our family ringing in the new year together"
 slug: "2025-01-02-new-year-reflections"
 ---
