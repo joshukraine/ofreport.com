@@ -3,12 +3,17 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:max-w-4xl">
         {{- $count := len .Pages -}}
-        <p class="text-base/7 font-semibold text-blue-600">Tag</p>
+        <p class="text-base/7 font-semibold text-gray-600">Tag</p>
         <h1 class="mt-2 text-4xl font-bold tracking-tight text-pretty text-ink sm:text-5xl font-header">
           {{ .Title }}
         </h1>
         <p class="mt-2 text-lg/8 text-gray-600">
           {{ $count }} {{ cond (eq $count 1) "article" "articles" }} tagged &ldquo;{{ .Data.Term }}&rdquo;.
+        </p>
+        <p class="mt-4">
+          <a href="{{ "/tags/" | relURL }}" class="text-base/7 font-semibold text-blue-600 transition-colors hover:text-blue-800">
+            View all tags <span aria-hidden="true">&rarr;</span>
+          </a>
         </p>
 
         {{- $paginator := .Paginate .Pages -}}
