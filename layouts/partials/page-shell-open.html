@@ -25,6 +25,6 @@
          Pages that supply their own visual header (e.g. Podcast's logo) set
          `hideHeading: true` to render this sr-only — keeping an <h1> for SEO and
          assistive tech while matching the original's heading-less layout. */}}
-    <h1 class="{{ if .page.Params.hideHeading }}sr-only{{ else }}text-center text-4xl font-bold tracking-tight text-pretty text-ink font-header sm:text-5xl{{ end }}">
+    <h1 class="{{ if .page.Params.hideHeading }}sr-only{{ else }}text-center text-5xl font-bold tracking-tight text-pretty text-ink font-header leading-tight sm:text-6xl{{ end }}">
       {{- with .page.Params.heading }}{{ . | safeHTML }}{{ else }}{{ $.page.Title }}{{ end -}}
     </h1>

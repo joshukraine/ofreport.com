@@ -11,7 +11,7 @@ description: >-
 
 Our highest purpose in life is to follow our Savior, the Lord Jesus Christ. We are raising our family in Ukraine, and striving to share the Gospel with those around us. If you’d like to learn more about how we minister, read on!
 
-{{< svg name="eto-logo" class="mx-auto block mb-6 h-auto w-[200px] max-w-full" >}}
+{{< svg name="eto-logo" class="mx-auto mt-16 block mb-6 h-auto w-[200px] max-w-full" >}}
 
 Our family serves with a group of missionaries known as Euro Team Outreach (ETO). ETO is a nonprofit organization dedicated to the advancement of the Gospel of Jesus Christ.
 
