@@ -52,6 +52,26 @@
   content: "";
 }
 
+/* Inline links in prose/body content. The original site styled all links
+   globally (blue-600, semibold); we centralize the rebuild's equivalent here
+   rather than repeating `prose-a:*` utilities on every template — so the articles
+   migrated in Phase 15 inherit it automatically. Color is set via the Typography
+   plugin's --tw-prose-links variable (so a per-link text-* utility still wins
+   when needed); weight and hover have no plugin variable, so they're explicit
+   rules mirroring the plugin's own :where()/not-prose selector. The plugin's
+   default underline is intentionally kept — it's the clearest link affordance (a
+   deliberate divergence from the original, which had none). Hover darkens to
+   blue-800, matching the site's buttons/nav (not the original's lighten-on-hover). */
+.prose {
+  --tw-prose-links: var(--color-blue-600);
+}
+.prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  font-weight: 600;
+}
+.prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)):hover {
+  color: var(--color-blue-800);
+}
+
 /* Faded full-bleed page background for static pages (see #69). The per-page
    Cloudinary URL is injected via the --page-bg-image custom property on a
    .page-bg element. The background color is the site-wide page gray (the exact
