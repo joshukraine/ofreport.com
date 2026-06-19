@@ -33,11 +33,6 @@ enableRobotsTXT = true
   # Stored untransformed; the cloudinary-url "og" preset is applied at render.
   ogImage = "https://res.cloudinary.com/dnkvsijzu/image/upload/v1574408895/OFReport/assets/ofr-home-page-12-6_dk4tai.jpg"
 
-  [params.social]
-    facebook = "https://www.facebook.com/joshukraine"
-    twitter = "https://twitter.com/joshukraine"
-    github = "https://github.com/joshukraine/ofreport.com"
-
   # Umami analytics. Left empty until the Phase 16 production cutover; the
   # analytics.html partial emits nothing while these are blank, so it stays
   # inert on every build. At go-live, reuse the EXISTING OFReport.com website
@@ -160,6 +155,46 @@ enableRobotsTXT = true
   weight = 40
   [menus.footer_col3.params]
     external = true
+
+# Footer social icons. Each entry's `icon` param maps to assets/img/social-{icon}.svg
+# (Simple Icons — single-path, monochrome, one consistent style). YouTube and
+# Bluesky SVGs already live in assets/img as a reserve set; uncomment an entry to
+# display it. `label` is the link's aria-label.
+[[menus.footer_social]]
+  name = "Facebook"
+  url = "https://www.facebook.com/joshukraine"
+  weight = 10
+  [menus.footer_social.params]
+    icon = "facebook"
+    label = "Joshua on Facebook"
+[[menus.footer_social]]
+  name = "X"
+  url = "https://x.com/joshukraine"
+  weight = 20
+  [menus.footer_social.params]
+    icon = "x"
+    label = "Joshua on X"
+[[menus.footer_social]]
+  name = "GitHub"
+  url = "https://github.com/joshukraine/ofreport.com"
+  weight = 30
+  [menus.footer_social.params]
+    icon = "github"
+    label = "View source on GitHub"
+# [[menus.footer_social]]
+#   name = "YouTube"
+#   url = "https://www.youtube.com/@journeytoukraine"
+#   weight = 40
+#   [menus.footer_social.params]
+#     icon = "youtube"
+#     label = "Journey to Ukraine on YouTube"
+# [[menus.footer_social]]
+#   name = "Bluesky"
+#   url = "https://bsky.app/profile/joshukraine.bsky.social"
+#   weight = 50
+#   [menus.footer_social.params]
+#     icon = "bluesky"
+#     label = "Joshua on Bluesky"
 
 # Markup configuration
 [markup.goldmark.renderer]
