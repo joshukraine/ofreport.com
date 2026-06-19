@@ -1,33 +1,61 @@
 {{ define "main" }}
-  <article class="pt-24 pb-16 sm:pt-32 sm:pb-20">
-    <div class="mx-auto max-w-3xl px-6 lg:px-8">
+  <article class="pb-16 sm:pb-20">
 
-      {{/* Cover image */}}
-      {{- with .Params.cover }}
-        {{- $imgURL := partial "cloudinary-url.html" (dict "src" . "preset" "article") }}
-        {{- $lightbox := partial "cloudinary-url.html" (dict "src" . "preset" "lightbox") }}
-        <figure class="mb-10">
-          <a href="{{ $lightbox }}" class="glightbox" data-gallery="article"{{ with $.Params.caption }} data-description="{{ . }}"{{ end }}>
-            <img
-              src="{{ $imgURL }}"
-              alt="{{ $.Title }}"
-              class="aspect-video w-full rounded-xl bg-gray-50 object-cover"
-              loading="eager"
-            >
-          </a>
-          {{- with $.Params.caption }}
-            <figcaption class="mt-3 text-sm/6 text-gray-500">{{ . }}</figcaption>
-          {{- end }}
-        </figure>
+    {{/* Full-bleed cover hero — ports the original _slug.vue banner: an
+         edge-to-edge image on a navy gradient (the gradient shows as a load-time
+         fallback), using the original's responsive height scale
+         (250 → 450 → 500 → 600px → 75vh). We keep it lightbox-able (#110/#111) by
+         wrapping the <img> in a GLightbox link rather than using a CSS
+         background. The xs (460px) step from the original is omitted per the
+         #114 breakpoint decision (lean on v4 defaults). */}}
+    {{- with .Params.cover }}
+      {{- $hero := partial "cloudinary-url.html" (dict "src" . "preset" "hero") }}
+      {{- $lightbox := partial "cloudinary-url.html" (dict "src" . "preset" "lightbox") }}
+      <div style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)">
+        <a
+          href="{{ $lightbox }}"
+          class="glightbox block"
+          data-gallery="article"
+          {{- with $.Params.caption }} data-description="{{ . }}"{{ end }}
+        >
+          <img
+            src="{{ $hero }}"
+            alt="{{ $.Title }}"
+            class="block w-full object-cover min-h-[250px] sm:min-h-[450px] md:min-h-[500px] lg:min-h-[600px] xl:min-h-[75vh]"
+            loading="eager"
+          >
+        </a>
+      </div>
+    {{- end }}
+
+    <div class="mx-auto max-w-3xl px-6 lg:px-8 {{ if not .Params.cover }}pt-24 sm:pt-32{{ end }}">
+
+      {{/* Caption — sits tight under the cover (mt-2) and well clear of the
+           title (which carries the larger top margin below), grouping it with
+           the photo as in the original. Color is gray-500: lighter than the body
+           text for visual separation, but still ~4.6:1 on the page bg (WCAG AA
+           pass — the original's #718096 was only 3.83:1). */}}
+      {{- $titleMargin := "" -}}
+      {{- if .Params.cover -}}
+        {{- if .Params.caption -}}
+          {{- $titleMargin = "mt-8 sm:mt-12 lg:mt-14" -}}
+        {{- else -}}
+          {{- $titleMargin = "mt-6 sm:mt-8" -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if and .Params.cover .Params.caption }}
+        <p class="mt-2 text-center text-sm font-semibold text-gray-500 sm:text-base">{{ .Params.caption }}</p>
       {{- end }}
 
       {{/* Article title */}}
-      <h1 class="text-4xl font-bold tracking-tight text-pretty text-ink font-header sm:text-5xl">
+      <h1 class="{{ $titleMargin }} text-4xl font-bold tracking-tight text-pretty text-ink font-header sm:text-5xl">
         {{- .Title -}}
       </h1>
 
-      {{/* Meta line: author, date, reading time */}}
-      <div class="mt-4 flex flex-wrap items-center gap-x-3 text-sm/6 text-gray-500">
+      {{/* Meta line: author, date, reading time. mt-1 keeps the byline tight to
+           the title (the original's 4px), grouped with it rather than drifting
+           toward the tags below (which keep their mt-4 / 16px separation). */}}
+      <div class="mt-1 flex flex-wrap items-center gap-x-3 text-sm/6 text-gray-500">
         {{- with .Params.author }}
           <span>{{ . }}</span>
           <span aria-hidden="true">&middot;</span>
@@ -38,13 +66,13 @@
         <span>{{ .ReadingTime }} min read</span>
       </div>
 
-      {{/* Tag badges */}}
+      {{/* Tags — filled blue pills (original), translucent until hover */}}
       {{- with .Params.tags }}
         <div class="mt-4 flex flex-wrap gap-2">
           {{- range . }}
             <a
               href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
-              class="inline-flex items-center rounded-full bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-700 inset-ring inset-ring-blue-700/10 hover:bg-blue-100 transition-colors"
+              class="inline-flex items-center rounded-full bg-blue-600 px-3 py-1 text-xs font-bold leading-none text-white opacity-50 transition-opacity hover:opacity-100"
             >
               {{- . -}}
             </a>
