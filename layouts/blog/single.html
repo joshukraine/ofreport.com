@@ -52,8 +52,10 @@
         {{- .Title -}}
       </h1>
 
-      {{/* Meta line: author, date, reading time */}}
-      <div class="mt-4 flex flex-wrap items-center gap-x-3 text-sm/6 text-gray-500">
+      {{/* Meta line: author, date, reading time. mt-1 keeps the byline tight to
+           the title (the original's 4px), grouped with it rather than drifting
+           toward the tags below (which keep their mt-4 / 16px separation). */}}
+      <div class="mt-1 flex flex-wrap items-center gap-x-3 text-sm/6 text-gray-500">
         {{- with .Params.author }}
           <span>{{ . }}</span>
           <span aria-hidden="true">&middot;</span>
