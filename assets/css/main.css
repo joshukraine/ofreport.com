@@ -44,6 +44,14 @@
   display: none !important;
 }
 
+/* The Typography plugin wraps blockquotes in curly quotation marks via
+   ::before/::after. The original site never did this, and it reads as stray
+   punctuation around content like the Donate mailing address, so suppress it. */
+.prose blockquote p:first-of-type::before,
+.prose blockquote p:last-of-type::after {
+  content: "";
+}
+
 /* Faded full-bleed page background for static pages (see #69). The per-page
    Cloudinary URL is injected via the --page-bg-image custom property on a
    .page-bg element. The background color is the site-wide page gray (the exact
