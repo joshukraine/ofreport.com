@@ -1,5 +1,6 @@
 ---
 title: "Podcast"
+hideHeading: true
 description: >-
   Journey to Ukraine is a podcast by Joshua and Kelsie Steele, sharing stories
   of serving God and ministering to Ukrainians affected by the war.
