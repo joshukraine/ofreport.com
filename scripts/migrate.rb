@@ -479,8 +479,6 @@ module Migrate
     report(source: source, dest: dest, dry_run: dry_run, force: force,
            total: files.size, results: results, written: written,
            skipped: skipped, errors: errors)
-
-    errors.empty?
   end
 
   def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:)
@@ -498,10 +496,22 @@ module Migrate
     puts "Errors          : #{errors.size}"
     puts
 
-    # Baseline validation: every input must produce one output (written or skipped).
+    # Hard assertions (issue #128): any FAIL exits the run non-zero. These are the
+    # invariants the migration must never violate; the detail sections below name
+    # the offending files. Soft signals (residual raw HTML, missing covers, etc.)
+    # are triage items, reported but non-fatal.
     accounted = written.size + skipped.size + errors.size
-    ok = errors.empty? && accounted == total
-    puts "Validation: input #{total} == accounted #{accounted}  ->  #{ok ? 'OK' : 'MISMATCH'}"
+    assertions = [
+      ["Article count: input #{total} == accounted #{accounted}", errors.empty? && accounted == total],
+      ["All required frontmatter present", results.all? { |r| r[:missing_required].empty? }],
+      ["Zero unconverted <article-*> components", results.all? { |r| r[:leftover_components].empty? }],
+      ["Zero conversion gaps (<img>/<nuxt-link>/<iframe>)", results.all? { |r| r[:gaps].empty? }],
+      ["Tag 'good and evil' fully consolidated", results.all? { |r| r[:bad_tags].empty? }]
+    ]
+    all_passed = assertions.all? { |_, pass| pass }
+
+    puts "VALIDATION (hard assertions — run fails on any FAIL):"
+    assertions.each { |name, pass| puts "  [#{pass ? 'PASS' : 'FAIL'}] #{name}" }
     puts
 
     unless errors.empty?
@@ -547,6 +557,7 @@ module Migrate
     end
 
     puts bar
+    all_passed
   end
 end
 
