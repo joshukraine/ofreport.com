@@ -19,7 +19,8 @@
   {{- end -}}
   {{- if not (hasPrefix $src "http") -}}
     {{- $src = printf "%s/image/upload/%s" site.Params.cloudinaryBase $src -}}
-  {{- else if not (in $src "res.cloudinary.com") -}}
+  {{- else if not (hasPrefix $src site.Params.cloudinaryBase) -}}
+    {{- /* a full http URL that is not under our own Cloudinary base -> fetch */ -}}
     {{- $isRemote = true -}}
   {{- end -}}
 

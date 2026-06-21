@@ -69,10 +69,7 @@ inconsistencies.
 
 ### Raw-HTML normalization (issue #127)
 
-After the `<article-*>` conversion, the migration script normalizes the
-pervasive raw HTML left over from the WordPress → Middleman → Nuxt lineage.
-Because `[markup.goldmark.renderer] unsafe = true` is set, this HTML already
-*renders*; the goal is consistency, not rescue. Per-type handling:
+After the `<article-*>` conversion, the migration script normalizes the pervasive raw HTML left over from the WordPress → Middleman → Nuxt lineage. Because `[markup.goldmark.renderer] unsafe = true` is set, this HTML already *renders*; the goal is consistency, not rescue. Per-type handling:
 
 | Source markup | Handling | Notes |
 |---|---|---|
@@ -85,17 +82,9 @@ Because `[markup.goldmark.renderer] unsafe = true` is set, this HTML already
 | `<strong>` | **kept raw** | Already renders bold; some sit inside `<p>` blocks where `**` would render as literal asterisks. |
 | underline `<span>`, stray `<div>`/`<br>`/`<sup>`/`<figcaption>`, in-page skip-link, genuine `<a>` links | **kept raw, flagged** | Surfaced in the migration's RESIDUAL RAW HTML report for the manual fix pass. |
 
-**Image hosting decision (option a):** legacy WordPress images stay on the old
-CloudFront distribution but are delivered through **Cloudinary fetch**
-(`/image/fetch/<transforms>/<remote-url>`) by `partials/cloudinary-url.html`, so
-they get `f_auto`/`q_auto` optimization and lightbox sizing without re-uploading
-all 316 images. **Operational note:** Cloudinary's "fetched URL" delivery must be
-enabled/unrestricted in the account's Security settings for these URLs to
-resolve in production.
+**Image hosting decision (option a):** legacy WordPress images stay on the old CloudFront distribution but are delivered through **Cloudinary fetch** (`/image/fetch/<transforms>/<remote-url>`) by `partials/cloudinary-url.html`, so they get `f_auto`/`q_auto` optimization and lightbox sizing without re-uploading all 316 images. **Operational note:** Cloudinary's "fetched URL" delivery must be enabled/unrestricted in the account's Security settings for these URLs to resolve in production. A later, optional hardening step may upload the bytes into Cloudinary's Media Library so the image layer no longer depends on CloudFront as an origin (tracked separately).
 
-The script distinguishes two report buckets: **CONVERSION GAPS** (`<img>`,
-`<nuxt-link>`, `<iframe>` that survived — a bug, should be empty) and **RESIDUAL
-RAW HTML** (intentionally-raw embeds + manual-review one-offs).
+The script distinguishes two report buckets: **CONVERSION GAPS** (`<img>`, `<nuxt-link>`, `<iframe>` that survived — a bug, should be empty) and **RESIDUAL RAW HTML** (intentionally-raw embeds + manual-review one-offs).
 
 ---
 
