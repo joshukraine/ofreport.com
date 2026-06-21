@@ -30,6 +30,21 @@
 #     one in-page skip-link, genuine <a> links) is left as-is and surfaced in the
 #     RESIDUAL RAW HTML report for the manual fix pass.
 #
+# Scope (issue #128, validation + content-audit report). On top of the #126/#127
+# transforms, the script now:
+#   * Hardens validation into explicit PASS/FAIL assertions that FAIL THE RUN
+#     (exit 1): input==output count, all required frontmatter present, zero
+#     leftover <article-*>, zero CONVERSION GAPS, and "good and evil" fully
+#     consolidated to "good-and-evil".
+#   * Writes a machine-readable content-audit CSV (default tmp/migration-audit.csv)
+#     — the triage hand-off for the manual fix pass (#129) and graceful display
+#     (#135). One row per article: cover status/width, missing description /
+#     caption / figure alt, residual raw HTML by type, conversion gaps, legacy
+#     HTML entities, bare-angle-bracket URLs, and per-file notes.
+#   * Optionally probes each cover's pixel width via Cloudinary's fl_getinfo flag
+#     (--probe-covers) to flag legacy thumbnails below SMALL_COVER_WIDTH. Off by
+#     default so the normal run stays fast, offline, and deterministic.
+#
 # Re-runnability (per Joshua's 2026-06-21 decision): the default guard is
 # SKIP-IF-EXISTS. A normal re-run writes only NEW files (late-arriving posts) and
 # never clobbers a target that already exists — so hand-edits made after a prior
@@ -37,18 +52,25 @@
 # DOES overwrite, including hand-edits); use it when an upstream correction to an
 # already-migrated post needs to be re-pulled.
 #
-# Dependencies: Ruby stdlib only (yaml, fileutils, optparse, date). No gems.
+# Dependencies: Ruby stdlib only (yaml, fileutils, optparse, date, csv, json,
+# net/http, uri). No gems.
 #
 # Usage:
 #   ruby scripts/migrate.rb              # migrate new files into content/blog/
 #   ruby scripts/migrate.rb --dry-run    # transform + validate + report, write nothing
 #   ruby scripts/migrate.rb --force      # re-migrate ALL files (overwrites)
+#   ruby scripts/migrate.rb --probe-covers   # also probe cover widths (network)
+#   ruby scripts/migrate.rb --audit PATH     # audit CSV path (default tmp/migration-audit.csv)
 #   ruby scripts/migrate.rb --source PATH --dest PATH
 
 require "yaml"
 require "fileutils"
 require "optparse"
 require "date"
+require "csv"
+require "json"
+require "net/http"
+require "uri"
 
 module Migrate
   # Frontmatter field order in the output, matching archetypes/blog.md. Optional
@@ -78,6 +100,35 @@ module Migrate
     "genuine <a> link"         => /<a\s/i,
     "<sup>/<figcaption>/<br>"  => /<(sup|figcaption|br)\b/i
   }.freeze
+
+  # --- content-audit constants (issue #128) --------------------------------
+
+  # Our Cloudinary delivery base, used to build a fetch fl_getinfo URL for any
+  # remote (non-Cloudinary) cover. Mirrors hugo.toml [params] cloudinaryBase.
+  CLOUDINARY_BASE = "https://res.cloudinary.com/dnkvsijzu"
+
+  # Covers narrower than this (px) are flagged "small" — a legacy thumbnail that
+  # can't fill the modern hero/OG display crisply. Tunable; 1200 = the OG width.
+  SMALL_COVER_WIDTH = 1200
+
+  # The cover-status vocabulary, in summary display order. Single source of truth
+  # for both cover_status (which returns one of these) and the report roll-up.
+  COVER_STATUSES = %w[ok small unprobed broken missing].freeze
+
+  # Legacy HTML entities left over from the WordPress lineage (e.g. "&nbsp;",
+  # "Q&amp;A", "&#39;"). They render, but should be real characters — surfaced
+  # for the manual fix pass. The catch-all "&word;" alternative is last so the
+  # named/numeric forms are reported by their exact spelling.
+  LEGACY_TOKEN_RE = /&nbsp;|&amp;|&#\d+;|&[a-z]+;/i
+
+  # Bare-angle-bracket autolinks like <https://…>. They render under goldmark,
+  # but are often a youtu.be link that should be an embed — surfaced for review.
+  BARE_ANGLE_URL_RE = %r{<https?://[^>\s]+>}i
+
+  # A migrated {{< figure >}}; group 1 is its parameter string. Used to count
+  # figures carrying neither alt= nor caption= (a real a11y gap — no fallback
+  # text), distinct from the common alt-falls-back-to-caption case.
+  FIGURE_RE = /\{\{<\s*figure\s+(.*?)\s*>}}/m
 
   # Precompiled once (rather than per file): each regex matches a single
   # <name …> tag, tolerating ">" inside quoted attribute values (some captions
@@ -371,13 +422,31 @@ module Migrate
     yaml = YAML.dump(new_fm, line_width: -1).sub(/\A---\s*\n/, "")
     content = "---\n#{yaml}---\n\n#{new_body}"
 
+    cover = new_fm["cover"]
+    # Figures with neither alt nor caption — no fallback text at all. parse_attrs
+    # keys on real attribute names, so a value that merely contains "alt="
+    # (e.g. a URL query param) can't be mistaken for an alt parameter.
+    figs_no_alt = new_body.scan(FIGURE_RE).count do |params,|
+      attrs = parse_attrs(params)
+      !attrs.key?("alt") && !attrs.key?("caption")
+    end
+
     {
       slug: slug,
       content: content,
+      date: new_fm["date"].to_s,
+      cover: cover,
+      cover_width: nil, # filled by the optional --probe-covers pass
       missing_required: REQUIRED_FIELDS.reject { |f| present?(new_fm[f]) },
       leftover_components: new_body.scan(/<article-[\w-]+/).uniq,
       gaps: GAP_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
       residual: RESIDUAL_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
+      description_empty: !present?(new_fm["description"]),
+      missing_caption: present?(cover) && !present?(new_fm["caption"]),
+      figures_missing_alt: figs_no_alt,
+      legacy_tokens: new_body.scan(LEGACY_TOKEN_RE).map(&:downcase).uniq.sort,
+      bare_angle_urls: new_body.scan(BARE_ANGLE_URL_RE).size,
+      bad_tags: Array(new_fm["tags"]).select { |t| t == "good and evil" },
       flags: fm_flags + warnings
     }
   end
@@ -386,9 +455,115 @@ module Migrate
     !value.nil? && !value.to_s.strip.empty? && value != []
   end
 
+  # --- cover-width probe (issue #128, opt-in via --probe-covers) -----------
+
+  # Fill each result's :cover_width by probing Cloudinary. Sequential and
+  # network-bound (~one request per cover), which is why it is opt-in; progress
+  # goes to stderr so the report on stdout stays clean.
+  def probe_covers(results)
+    coverable = results.select { |r| present?(r[:cover]) }
+    warn "Probing #{coverable.size} cover widths via Cloudinary fl_getinfo…"
+    coverable.each_with_index do |r, i|
+      r[:cover_width] = probe_cover_width(r[:cover])
+      warn "  …#{i + 1}/#{coverable.size}" if ((i + 1) % 25).zero?
+    end
+  end
+
+  # Probe one cover's pixel width via Cloudinary's fl_getinfo delivery flag,
+  # which returns image metadata as JSON without auth (verified against this
+  # account). Returns the integer width, or nil on any failure (non-Cloudinary
+  # path, network error, unexpected payload) — width is a best-effort triage
+  # signal, never fatal.
+  def probe_cover_width(url)
+    info = getinfo_url(url)
+    return nil unless info
+
+    uri = URI(info)
+    res = Net::HTTP.start(uri.host, uri.port, use_ssl: true,
+                          open_timeout: 8, read_timeout: 8) do |http|
+      http.get(uri.request_uri)
+    end
+    return nil unless res.is_a?(Net::HTTPSuccess)
+
+    data  = JSON.parse(res.body)
+    width = data.dig("input", "width") || data.dig("output", "width")
+    width&.to_i
+  rescue StandardError
+    nil
+  end
+
+  # Insert the fl_getinfo flag for a cover URL. Handles the two Cloudinary
+  # delivery shapes (upload + fetch) and wraps any other remote http URL in a
+  # fetch call; returns nil for relative legacy paths (nothing probeable).
+  def getinfo_url(url)
+    u = url.to_s
+    return nil unless u.start_with?("http")
+
+    if u.include?("/image/upload/")
+      u.sub("/image/upload/", "/image/upload/fl_getinfo/")
+    elsif u.include?("/image/fetch/")
+      u.sub("/image/fetch/", "/image/fetch/fl_getinfo/")
+    else
+      "#{CLOUDINARY_BASE}/image/fetch/fl_getinfo/#{u}"
+    end
+  end
+
+  # --- content-audit report (issue #128) -----------------------------------
+
+  # Triage status for a cover given its (optionally probed) width. Returns one of
+  # COVER_STATUSES:
+  #   missing  — no cover at all              broken — relative legacy path
+  #   unprobed — has a cover, width unknown   small  — width < SMALL_COVER_WIDTH
+  #   ok       — width >= SMALL_COVER_WIDTH
+  def cover_status(result)
+    cover = result[:cover]
+    return "missing" unless present?(cover)
+    return "broken"  if cover.start_with?("/") && !cover.start_with?("//")
+
+    width = result[:cover_width]
+    return "unprobed" if width.nil?
+
+    width < SMALL_COVER_WIDTH ? "small" : "ok"
+  end
+
+  AUDIT_HEADERS = %w[
+    slug date cover_status cover_width cover_url description_empty
+    missing_caption figures_missing_alt residual_html conversion_gaps
+    legacy_tokens bare_angle_urls notes
+  ].freeze
+
+  # Write the per-article content-audit CSV — the triage hand-off for the manual
+  # fix pass (#129) and graceful display (#135). One row per article (full
+  # inventory; consumers filter/sort), sorted by slug, multi-value cells
+  # semicolon-joined. Written regardless of --dry-run: it is a tmp/ artifact, not
+  # site content.
+  def write_audit(path, results)
+    FileUtils.mkdir_p(File.dirname(path))
+    CSV.open(path, "w") do |csv|
+      csv << AUDIT_HEADERS
+      results.sort_by { |r| r[:slug] }.each do |r|
+        csv << [
+          r[:slug],
+          r[:date],
+          cover_status(r),
+          r[:cover_width],
+          r[:cover],
+          r[:description_empty] ? "yes" : "",
+          r[:missing_caption] ? "yes" : "",
+          r[:figures_missing_alt].positive? ? r[:figures_missing_alt] : "",
+          r[:residual].join("; "),
+          r[:gaps].join("; "),
+          r[:legacy_tokens].join("; "),
+          r[:bare_angle_urls].positive? ? r[:bare_angle_urls] : "",
+          r[:flags].join("; ")
+        ]
+      end
+    end
+  end
+
   # --- runner --------------------------------------------------------------
 
-  def run(source:, dest:, dry_run:, force:)
+  def run(source:, dest:, dry_run:, force:, probe:, audit:)
     files = Dir.glob(File.join(source, "*.md")).sort
     abort "No source articles found in #{source}" if files.empty?
 
@@ -415,17 +590,18 @@ module Migrate
       errors << { slug: File.basename(path, ".md"), message: e.message }
     end
 
+    probe_covers(results) if probe
+    write_audit(audit, results)
+
     report(source: source, dest: dest, dry_run: dry_run, force: force,
            total: files.size, results: results, written: written,
-           skipped: skipped, errors: errors)
-
-    errors.empty?
+           skipped: skipped, errors: errors, probe: probe, audit: audit)
   end
 
-  def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:)
+  def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:, probe:, audit:)
     bar = "=" * 70
     puts bar
-    puts "Migration #{dry_run ? '(dry run — nothing written)' : 'complete'}"
+    puts "Migration #{dry_run ? '(dry run — no content written; audit CSV still written)' : 'complete'}"
     puts bar
     puts "Source : #{source}"
     puts "Dest   : #{dest}"
@@ -437,10 +613,22 @@ module Migrate
     puts "Errors          : #{errors.size}"
     puts
 
-    # Baseline validation: every input must produce one output (written or skipped).
+    # Hard assertions (issue #128): any FAIL exits the run non-zero. These are the
+    # invariants the migration must never violate; the detail sections below name
+    # the offending files. Soft signals (residual raw HTML, missing covers, etc.)
+    # are triage items, reported but non-fatal.
     accounted = written.size + skipped.size + errors.size
-    ok = errors.empty? && accounted == total
-    puts "Validation: input #{total} == accounted #{accounted}  ->  #{ok ? 'OK' : 'MISMATCH'}"
+    assertions = [
+      ["Article count: input #{total} == accounted #{accounted}", errors.empty? && accounted == total],
+      ["All required frontmatter present", results.all? { |r| r[:missing_required].empty? }],
+      ["Zero unconverted <article-*> components", results.all? { |r| r[:leftover_components].empty? }],
+      ["Zero conversion gaps (<img>/<nuxt-link>/<iframe>)", results.all? { |r| r[:gaps].empty? }],
+      ["Tag 'good and evil' fully consolidated", results.all? { |r| r[:bad_tags].empty? }]
+    ]
+    all_passed = assertions.all? { |_, pass| pass }
+
+    puts "VALIDATION (hard assertions — run fails on any FAIL):"
+    assertions.each { |name, pass| puts "  [#{pass ? 'PASS' : 'FAIL'}] #{name}" }
     puts
 
     unless errors.empty?
@@ -485,7 +673,29 @@ module Migrate
       puts
     end
 
+    # Roll-up: per-category counts for triage at a glance. The per-article detail
+    # lives in the audit CSV; these are the headline numbers the issue/PRD track.
+    cover_counts = results.group_by { |r| cover_status(r) }.transform_values(&:size)
+    cover_line = COVER_STATUSES
+                 .filter_map { |k| "#{k} #{cover_counts[k]}" if cover_counts[k] }
+                 .join(" | ")
+    figs_total = results.sum { |r| r[:figures_missing_alt] }
+    figs_files = results.count { |r| r[:figures_missing_alt].positive? }
+
+    puts "CONTENT-AUDIT SUMMARY (n=#{results.size}):"
+    puts "  covers (#{probe ? 'probed' : 'widths not probed — use --probe-covers'}): #{cover_line}"
+    puts "  empty description       : #{results.count { |r| r[:description_empty] }}"
+    puts "  cover without caption   : #{results.count { |r| r[:missing_caption] }}"
+    puts "  figures missing alt     : #{figs_total} across #{figs_files} articles"
+    puts "  legacy HTML entities    : #{results.count { |r| !r[:legacy_tokens].empty? }} articles"
+    puts "  bare-angle-bracket URLs : #{results.count { |r| r[:bare_angle_urls].positive? }} articles"
+    puts "  residual raw HTML       : #{residual.size} articles"
+    puts "  conversion gaps         : #{gaps.size} articles (must be 0)"
+    puts "  → audit CSV written     : #{audit}"
+    puts
+
     puts bar
+    all_passed
   end
 end
 
@@ -497,7 +707,9 @@ if __FILE__ == $PROGRAM_NAME
     source: File.expand_path("../ofreport.com-nuxt2/content/articles", repo_root),
     dest: File.join(repo_root, "content", "blog"),
     dry_run: false,
-    force: false
+    force: false,
+    probe: false,
+    audit: File.join(repo_root, "tmp", "migration-audit.csv")
   }
 
   OptionParser.new do |opts|
@@ -506,6 +718,8 @@ if __FILE__ == $PROGRAM_NAME
     opts.on("--dest PATH", "Destination dir (Hugo content/blog)") { |v| options[:dest] = File.expand_path(v) }
     opts.on("--dry-run", "Transform + validate + report; write nothing") { options[:dry_run] = true }
     opts.on("--force", "Overwrite existing files (re-migrate all)") { options[:force] = true }
+    opts.on("--probe-covers", "Probe cover widths via Cloudinary (network)") { options[:probe] = true }
+    opts.on("--audit PATH", "Audit CSV path (default tmp/migration-audit.csv)") { |v| options[:audit] = File.expand_path(v) }
     opts.on("-h", "--help", "Show this help") { puts opts; exit }
   end.parse!
 
