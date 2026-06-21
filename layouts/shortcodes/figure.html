@@ -34,6 +34,6 @@
   </a>
   {{- with $caption }}
   {{- /* markdownify renders inline markdown and (via unsafe=true) inline HTML like <br>; single-line captions stay unwrapped (no <p>). */ -}}
-  <figcaption class="mx-auto mt-2 font-serif font-semibold text-center">{{ . | markdownify }}</figcaption>
+  <figcaption class="mx-auto mt-2 text-base font-serif font-semibold text-center">{{ . | markdownify }}</figcaption>
   {{- end }}
 </figure>
