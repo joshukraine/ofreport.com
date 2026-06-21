@@ -169,7 +169,7 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 15: Content Migration
 
-- [ ] Ruby migration script written (see [`06-content-migration.md`](./06-content-migration.md))
+- [x] Ruby migration script written (see [`06-content-migration.md`](./06-content-migration.md))
 - [ ] All 223 articles converted
 - [ ] Frontmatter transformed (preview → description, slug added, etc.)
 - [ ] Vue components converted to Hugo shortcodes
