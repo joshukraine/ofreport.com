@@ -157,12 +157,10 @@ module Migrate
 
   # <article-image> -> {{< figure >}}. width/height/border are intentionally
   # dropped: the figure shortcode is responsive-by-preset and only accepts
-  # src/caption/alt (alt falls back to caption inside the shortcode).
+  # src/caption/alt (alt falls back to caption inside the shortcode). Emission is
+  # delegated to figure_shortcode, shared with the WordPress-image conversion.
   def convert_image(attrs)
-    parts = ["src=#{quote(attrs['publicId'])}"]
-    caption = attrs["caption"]
-    parts << "caption=#{quote(caption)}" if present?(caption)
-    "{{< figure #{parts.join(' ')} >}}"
+    figure_shortcode(attrs["publicId"], attrs["caption"], nil)
   end
 
   # <article-callout> -> {{< callout >}}. Three shapes:
@@ -219,8 +217,10 @@ module Migrate
   end
 
   # Emit a {{< figure >}} from a resolved image source + optional caption/alt.
-  # alt is only emitted when it differs from the caption (the shortcode already
-  # falls back to caption when alt is absent).
+  # Shared by both convert_image (<article-image>) and convert_wp_image. caption
+  # may be nil (the article-image path passes it straight through), so it is
+  # coerced before comparison. alt is only emitted when it differs from the
+  # caption (the shortcode already falls back to caption when alt is absent).
   def figure_shortcode(src, caption, alt)
     parts = ["src=#{quote(src)}"]
     parts << "caption=#{quote(caption)}" if present?(caption)
