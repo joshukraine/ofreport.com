@@ -500,9 +500,61 @@ module Migrate
     end
   end
 
+  # --- content-audit report (issue #128) -----------------------------------
+
+  # Triage status for a cover given its (optionally probed) width.
+  #   missing  — no cover at all              broken — relative legacy path
+  #   unprobed — has a cover, width unknown   small  — width < SMALL_COVER_WIDTH
+  #   ok       — width >= SMALL_COVER_WIDTH
+  def cover_status(result)
+    cover = result[:cover]
+    return "missing" unless present?(cover)
+    return "broken"  if cover.start_with?("/") && !cover.start_with?("//")
+
+    width = result[:cover_width]
+    return "unprobed" if width.nil?
+
+    width < SMALL_COVER_WIDTH ? "small" : "ok"
+  end
+
+  AUDIT_HEADERS = %w[
+    slug date cover_status cover_width cover_url description_empty
+    missing_caption figures_missing_alt residual_html conversion_gaps
+    legacy_tokens bare_angle_urls notes
+  ].freeze
+
+  # Write the per-article content-audit CSV — the triage hand-off for the manual
+  # fix pass (#129) and graceful display (#135). One row per article (full
+  # inventory; consumers filter/sort), sorted by slug, multi-value cells
+  # semicolon-joined. Written regardless of --dry-run: it is a tmp/ artifact, not
+  # site content.
+  def write_audit(path, results)
+    FileUtils.mkdir_p(File.dirname(path))
+    CSV.open(path, "w") do |csv|
+      csv << AUDIT_HEADERS
+      results.sort_by { |r| r[:slug] }.each do |r|
+        csv << [
+          r[:slug],
+          r[:date],
+          cover_status(r),
+          r[:cover_width],
+          r[:cover],
+          r[:description_empty] ? "yes" : "",
+          r[:missing_caption] ? "yes" : "",
+          r[:figures_missing_alt].positive? ? r[:figures_missing_alt] : "",
+          r[:residual].join("; "),
+          r[:gaps].join("; "),
+          r[:legacy_tokens].join("; "),
+          r[:bare_angle_urls].positive? ? r[:bare_angle_urls] : "",
+          r[:flags].join("; ")
+        ]
+      end
+    end
+  end
+
   # --- runner --------------------------------------------------------------
 
-  def run(source:, dest:, dry_run:, force:, probe:)
+  def run(source:, dest:, dry_run:, force:, probe:, audit:)
     files = Dir.glob(File.join(source, "*.md")).sort
     abort "No source articles found in #{source}" if files.empty?
 
@@ -530,13 +582,14 @@ module Migrate
     end
 
     probe_covers(results) if probe
+    write_audit(audit, results)
 
     report(source: source, dest: dest, dry_run: dry_run, force: force,
            total: files.size, results: results, written: written,
-           skipped: skipped, errors: errors)
+           skipped: skipped, errors: errors, probe: probe, audit: audit)
   end
 
-  def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:)
+  def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:, probe:, audit:)
     bar = "=" * 70
     puts bar
     puts "Migration #{dry_run ? '(dry run — nothing written)' : 'complete'}"
@@ -611,6 +664,27 @@ module Migrate
       puts
     end
 
+    # Roll-up: per-category counts for triage at a glance. The per-article detail
+    # lives in the audit CSV; these are the headline numbers the issue/PRD track.
+    cover_counts = results.group_by { |r| cover_status(r) }.transform_values(&:size)
+    cover_line = %w[ok small unprobed broken missing]
+                 .select { |k| cover_counts[k] }
+                 .map { |k| "#{k} #{cover_counts[k]}" }.join(" | ")
+    figs_total = results.sum { |r| r[:figures_missing_alt] }
+    figs_files = results.count { |r| r[:figures_missing_alt].positive? }
+
+    puts "CONTENT-AUDIT SUMMARY (n=#{results.size}):"
+    puts "  covers (#{probe ? 'probed' : 'widths not probed — use --probe-covers'}): #{cover_line}"
+    puts "  empty description       : #{results.count { |r| r[:description_empty] }}"
+    puts "  cover without caption   : #{results.count { |r| r[:missing_caption] }}"
+    puts "  figures missing alt     : #{figs_total} across #{figs_files} articles"
+    puts "  legacy HTML entities    : #{results.count { |r| !r[:legacy_tokens].empty? }} articles"
+    puts "  bare-angle-bracket URLs : #{results.count { |r| r[:bare_angle_urls].positive? }} articles"
+    puts "  residual raw HTML       : #{residual.size} articles"
+    puts "  conversion gaps         : #{gaps.size} articles (must be 0)"
+    puts "  → audit CSV written     : #{audit}"
+    puts
+
     puts bar
     all_passed
   end
@@ -625,7 +699,8 @@ if __FILE__ == $PROGRAM_NAME
     dest: File.join(repo_root, "content", "blog"),
     dry_run: false,
     force: false,
-    probe: false
+    probe: false,
+    audit: File.join(repo_root, "tmp", "migration-audit.csv")
   }
 
   OptionParser.new do |opts|
@@ -635,6 +710,7 @@ if __FILE__ == $PROGRAM_NAME
     opts.on("--dry-run", "Transform + validate + report; write nothing") { options[:dry_run] = true }
     opts.on("--force", "Overwrite existing files (re-migrate all)") { options[:force] = true }
     opts.on("--probe-covers", "Probe cover widths via Cloudinary (network)") { options[:probe] = true }
+    opts.on("--audit PATH", "Audit CSV path (default tmp/migration-audit.csv)") { |v| options[:audit] = File.expand_path(v) }
     opts.on("-h", "--help", "Show this help") { puts opts; exit }
   end.parse!
 
