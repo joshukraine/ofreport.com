@@ -12,9 +12,12 @@
       {{- $hero := partial "cloudinary-url.html" (dict "src" . "preset" "hero") }}
       {{- $lightbox := partial "cloudinary-url.html" (dict "src" . "preset" "lightbox") }}
       <div style="background: linear-gradient(to bottom, #1f415c 0%, #0f2847 100%)">
+        {{- /* data-type="image": cover URLs may lack a file extension (Cloudinary f_auto),
+               which GLightbox would otherwise treat as external and show as a blank box. */}}
         <a
           href="{{ $lightbox }}"
           class="glightbox block"
+          data-type="image"
           data-gallery="article"
           {{- with $.Params.caption }} data-description="{{ . }}"{{ end }}
         >
