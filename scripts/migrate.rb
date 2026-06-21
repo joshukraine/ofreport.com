@@ -111,6 +111,10 @@ module Migrate
   # can't fill the modern hero/OG display crisply. Tunable; 1200 = the OG width.
   SMALL_COVER_WIDTH = 1200
 
+  # The cover-status vocabulary, in summary display order. Single source of truth
+  # for both cover_status (which returns one of these) and the report roll-up.
+  COVER_STATUSES = %w[ok small unprobed broken missing].freeze
+
   # Legacy HTML entities left over from the WordPress lineage (e.g. "&nbsp;",
   # "Q&amp;A", "&#39;"). They render, but should be real characters — surfaced
   # for the manual fix pass. The catch-all "&word;" alternative is last so the
@@ -420,8 +424,8 @@ module Migrate
 
     cover = new_fm["cover"]
     # Figures with neither alt= nor caption= — no fallback text at all.
-    figs_no_alt = new_body.scan(FIGURE_RE).flatten
-                          .count { |params| !params.include?("alt=") && !params.include?("caption=") }
+    figs_no_alt = new_body.scan(FIGURE_RE)
+                          .count { |params,| !params.include?("alt=") && !params.include?("caption=") }
 
     {
       slug: slug,
@@ -502,7 +506,8 @@ module Migrate
 
   # --- content-audit report (issue #128) -----------------------------------
 
-  # Triage status for a cover given its (optionally probed) width.
+  # Triage status for a cover given its (optionally probed) width. Returns one of
+  # COVER_STATUSES:
   #   missing  — no cover at all              broken — relative legacy path
   #   unprobed — has a cover, width unknown   small  — width < SMALL_COVER_WIDTH
   #   ok       — width >= SMALL_COVER_WIDTH
@@ -667,9 +672,9 @@ module Migrate
     # Roll-up: per-category counts for triage at a glance. The per-article detail
     # lives in the audit CSV; these are the headline numbers the issue/PRD track.
     cover_counts = results.group_by { |r| cover_status(r) }.transform_values(&:size)
-    cover_line = %w[ok small unprobed broken missing]
-                 .select { |k| cover_counts[k] }
-                 .map { |k| "#{k} #{cover_counts[k]}" }.join(" | ")
+    cover_line = COVER_STATUSES
+                 .filter_map { |k| "#{k} #{cover_counts[k]}" if cover_counts[k] }
+                 .join(" | ")
     figs_total = results.sum { |r| r[:figures_missing_alt] }
     figs_files = results.count { |r| r[:figures_missing_alt].positive? }
 
