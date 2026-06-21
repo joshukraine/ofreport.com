@@ -7,11 +7,28 @@
 #   * Frontmatter transforms (preview -> description, add slug, image -> cover,
 #     tag fix, drop build-only fields).
 #   * The six <article-*> component conversions to Hugo shortcodes.
-#   * Baseline validation + a flag list of legacy raw HTML for the follow-up issue.
 #
-# Explicitly NOT in scope (separate follow-up issues):
-#   * Converting raw <img>/<nuxt-link>/<iframe>/embeds (flagged here, fixed there).
-#   * The rich content-audit report.
+# Scope (issue #127, legacy raw-HTML normalization — the PR #93 class of work,
+# scaled across the whole archive). Applied AFTER the <article-*> pass, so only
+# true legacy raw HTML remains to handle. Per-type handling:
+#   * WordPress <a href="full"><img src="thumb"></a> (+ caption line) -> {{< figure >}}.
+#     The full-size <a href> is the image source; it is delivered through
+#     Cloudinary fetch (see partials/cloudinary-url.html) for f_auto/q_auto +
+#     GLightbox zoom. A caption on the immediately-following line is absorbed;
+#     otherwise the img `alt` becomes the caption.
+#   * <nuxt-link to="/path/">text</nuxt-link> -> markdown [text](/path/).
+#     (Safe: none of the source nuxt-links sit inside a raw HTML block, where
+#     emitted markdown would not be parsed.)
+#   * YouTube / Vimeo <iframe> -> {{< youtube ID >}} / {{< vimeo ID >}} (responsive).
+#     The Nuxt <div class="videoWrapper"> wrapper around such iframes is unwrapped.
+#   * KEPT RAW (render fine under goldmark unsafe=true; no clean shortcode win):
+#     Buzzsprout <div id><script> podcast players, the Instagram <blockquote>
+#     embed, and self-hosted <video>/<audio>/<source> players. <strong> is also
+#     left raw — it already renders bold, and several instances sit inside <p>
+#     blocks where a "**" would render as literal asterisks.
+#   * Everything else (underline <span>, stray <div>/<br>/<sup>/<figcaption>, the
+#     one in-page skip-link, genuine <a> links) is left as-is and surfaced in the
+#     RESIDUAL RAW HTML report for the manual fix pass.
 #
 # Re-runnability (per Joshua's 2026-06-21 decision): the default guard is
 # SKIP-IF-EXISTS. A normal re-run writes only NEW files (late-arriving posts) and
@@ -40,15 +57,26 @@ module Migrate
   FIELD_ORDER = %w[title date author description tags cover caption pdf slug].freeze
   REQUIRED_FIELDS = %w[title date author description slug].freeze
 
-  # Patterns that indicate legacy raw markup left for the follow-up issue. The
-  # migration does not touch these; it only reports which files still contain them.
-  LEGACY_PATTERNS = {
-    "raw <img>"     => /<img\b/i,
-    "<nuxt-link>"   => /<nuxt-link\b/i,
-    "<iframe>"      => /<iframe\b/i,
-    "raw <div>"     => /<div\b/i,
-    "raw <span>"    => /<span\b/i,
-    "raw <a>"       => /<a\s/i
+  # Tags the normalization pass is expected to ELIMINATE. If any survive into the
+  # output it means a conversion missed a shape — a real bug, reported loudly.
+  GAP_PATTERNS = {
+    "<img>"       => /<img\b/i,
+    "<nuxt-link>" => /<nuxt-link\b/i,
+    "<iframe>"    => /<iframe\b/i
+  }.freeze
+
+  # Tags intentionally left as raw HTML (embeds that work under unsafe=true) or
+  # genuinely one-off markup for the manual fix pass. Reported for visibility,
+  # not as errors.
+  RESIDUAL_PATTERNS = {
+    "<script> (podcast/embed)" => /<script\b/i,
+    "<video>/<audio> (self-hosted)" => /<(video|audio)\b/i,
+    "<blockquote> (instagram)" => /<blockquote\b/i,
+    "stray <div>"              => /<div\b/i,
+    "<strong> (renders bold as-is)" => /<strong\b/i,
+    "underline/styling <span>" => /<span\b/i,
+    "genuine <a> link"         => /<a\s/i,
+    "<sup>/<figcaption>/<br>"  => /<(sup|figcaption|br)\b/i
   }.freeze
 
   # Precompiled once (rather than per file): each regex matches a single
@@ -60,6 +88,34 @@ module Migrate
   TAG_REGEX = COMPONENT_TAGS.to_h { |name|
     [name, /<#{name}\b((?:[^>"']|"[^"]*"|'[^']*')*)\/?>/m]
   }.freeze
+
+  # --- legacy raw-HTML patterns (issue #127) -------------------------------
+
+  # The Nuxt "videoWrapper" div wraps a single (usually YouTube) iframe for
+  # responsive sizing. Hugo's youtube/vimeo shortcodes are responsive on their
+  # own, so the wrapper is stripped and its inner iframe handled below.
+  VIDEOWRAPPER_RE = %r{<div\s+class="videoWrapper">\s*(<iframe\b.*?</iframe>)\s*</div>}im
+
+  # WordPress gallery image: an <a href="full"> wrapping an <img src="thumb">,
+  # optionally trailed by a single caption line (no blank line between).
+  #   g1/g2 = href (double/single quoted)  g3 = <img> attrs  g4 = caption line
+  ANCHOR_IMG_RE =
+    %r{<a\b[^>]*?\bhref\s*=\s*(?:"([^"]*)"|'([^']*)')[^>]*>\s*<img\b([^>]*?)/?>\s*</a>(?:[ \t]*\n[ \t]*([^\n<][^\n]*))?}im
+
+  # A bare <img> (not anchor-wrapped); same optional trailing caption line.
+  #   g1 = <img> attrs  g2 = caption line
+  BARE_IMG_RE = %r{<img\b([^>]*?)/?>(?:[ \t]*\n[ \t]*([^\n<][^\n]*))?}im
+
+  # <nuxt-link to="/path/">text</nuxt-link>.  g1/g2 = to=  g3 = inner text
+  NUXT_LINK_RE =
+    %r{<nuxt-link\b[^>]*?\bto\s*=\s*(?:"([^"]*)"|'([^']*)')[^>]*>(.*?)</nuxt-link>}im
+
+  # <iframe ... src="..."></iframe>.  g1/g2 = src
+  IFRAME_RE = %r{<iframe\b[^>]*?\bsrc\s*=\s*(?:"([^"]*)"|'([^']*)')[^>]*>\s*</iframe>}im
+
+  # A bare <img>/<a href> is only treated as an image source when it points at
+  # an actual image file.
+  IMAGE_EXT_RE = /\.(?:jpe?g|png|gif|webp|avif)\b/i
 
   module_function
 
@@ -101,12 +157,10 @@ module Migrate
 
   # <article-image> -> {{< figure >}}. width/height/border are intentionally
   # dropped: the figure shortcode is responsive-by-preset and only accepts
-  # src/caption/alt (alt falls back to caption inside the shortcode).
+  # src/caption/alt (alt falls back to caption inside the shortcode). Emission is
+  # delegated to figure_shortcode, shared with the WordPress-image conversion.
   def convert_image(attrs)
-    parts = ["src=#{quote(attrs['publicId'])}"]
-    caption = attrs["caption"]
-    parts << "caption=#{quote(caption)}" if present?(caption)
-    "{{< figure #{parts.join(' ')} >}}"
+    figure_shortcode(attrs["publicId"], attrs["caption"], nil)
   end
 
   # <article-callout> -> {{< callout >}}. Three shapes:
@@ -154,6 +208,55 @@ module Migrate
     "{{< svg name=#{quote(attrs['name'])} class=#{quote(classes.join(' '))} >}}"
   end
 
+  # --- legacy raw-HTML conversions (issue #127) ---------------------------
+
+  # Protocol-relative ("//host/…") legacy URLs become https; everything else is
+  # passed through untouched so already-absolute URLs survive.
+  def normalize_url(url)
+    url.to_s.strip.sub(%r{\A//}, "https://")
+  end
+
+  # Emit a {{< figure >}} from a resolved image source + optional caption/alt.
+  # Shared by both convert_image (<article-image>) and convert_wp_image. caption
+  # may be nil (the article-image path passes it straight through), so it is
+  # coerced before comparison. alt is only emitted when it differs from the
+  # caption (the shortcode already falls back to caption when alt is absent).
+  def figure_shortcode(src, caption, alt)
+    parts = ["src=#{quote(src)}"]
+    parts << "caption=#{quote(caption)}" if present?(caption)
+    parts << "alt=#{quote(alt)}" if present?(alt) && alt.strip != caption.to_s.strip
+    "{{< figure #{parts.join(' ')} >}}"
+  end
+
+  # Convert one WordPress image to a figure. `href` is the wrapping <a> target
+  # (nil for a bare <img>); the full-size href wins as the source when it is an
+  # image URL, otherwise the <img src> is used. A trailing caption line, when
+  # present, takes precedence over the img alt for the visible caption.
+  def convert_wp_image(href, img_attrs, caption_line)
+    attrs   = parse_attrs(img_attrs)
+    img_src = normalize_url(attrs["src"])
+    full    = normalize_url(href)
+    source  = present?(href) && full.match?(IMAGE_EXT_RE) ? full : img_src
+    alt     = attrs["alt"].to_s.strip
+    caption = caption_line.to_s.rstrip
+    caption = alt if caption.empty?
+    figure_shortcode(source, caption, alt)
+  end
+
+  # YouTube/Vimeo <iframe> -> shortcode. Returns nil for anything else so the
+  # caller can leave the original markup untouched.
+  def convert_iframe(src, warn)
+    url = src.to_s
+    if (id = url[%r{youtube\.com/embed/([\w-]+)}, 1] || url[%r{youtu\.be/([\w-]+)}, 1])
+      "{{< youtube #{id} >}}"
+    elsif (id = url[%r{(?:player\.)?vimeo\.com/(?:video/)?(\d+)}, 1])
+      "{{< vimeo #{id} >}}"
+    else
+      warn.call("<iframe src=#{url.inspect}> not youtube/vimeo — kept raw, review")
+      nil
+    end
+  end
+
   # Apply every component conversion to the body. `warn` collects per-file notes.
   def transform_body(body, warn)
     out = body.dup
@@ -163,6 +266,16 @@ module Migrate
     out = out.gsub(TAG_REGEX["article-svg"])      { convert_svg(parse_attrs($1), warn) }
     out = out.gsub(TAG_REGEX["article-divider"])  { "\n\n---\n\n" }
     out = out.gsub(TAG_REGEX["article-spacer"])   { "" }
+
+    # Legacy raw-HTML normalization (issue #127). Order matters: unwrap the
+    # videoWrapper div before the iframe pass; handle anchor-wrapped <img> before
+    # bare <img> so the wrapping <a> is consumed rather than left dangling.
+    out = out.gsub(VIDEOWRAPPER_RE) { $1 }
+    out = out.gsub(ANCHOR_IMG_RE)   { convert_wp_image($1 || $2, $3, $4) }
+    out = out.gsub(BARE_IMG_RE)     { convert_wp_image(nil, $1, $2) }
+    out = out.gsub(NUXT_LINK_RE)    { "[#{$3.strip}](#{$1 || $2})" }
+    out = out.gsub(IFRAME_RE)       { |m| convert_iframe($1 || $2, warn) || m }
+
     # Collapse the blank-line runs left behind by removed spacers/dividers.
     out.gsub(/\n{3,}/, "\n\n").strip + "\n"
   end
@@ -263,7 +376,8 @@ module Migrate
       content: content,
       missing_required: REQUIRED_FIELDS.reject { |f| present?(new_fm[f]) },
       leftover_components: new_body.scan(/<article-[\w-]+/).uniq,
-      legacy: LEGACY_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
+      gaps: GAP_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
+      residual: RESIDUAL_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
       flags: fm_flags + warnings
     }
   end
@@ -356,11 +470,18 @@ module Migrate
       puts
     end
 
-    legacy = results.reject { |r| r[:legacy].empty? }
-    unless legacy.empty?
-      puts "LEGACY RAW HTML — for the follow-up issue (#{legacy.size} files):"
-      legacy.first(40).each { |r| puts "  - #{r[:slug]}: #{r[:legacy].join(', ')}" }
-      puts "  …and #{legacy.size - 40} more" if legacy.size > 40
+    gaps = results.reject { |r| r[:gaps].empty? }
+    unless gaps.empty?
+      puts "CONVERSION GAPS — normalization missed these (should be none):"
+      gaps.each { |r| puts "  - #{r[:slug]}: #{r[:gaps].join(', ')}" }
+      puts
+    end
+
+    residual = results.reject { |r| r[:residual].empty? }
+    unless residual.empty?
+      puts "RESIDUAL RAW HTML — kept raw / manual fix pass (#{residual.size} files):"
+      residual.first(40).each { |r| puts "  - #{r[:slug]}: #{r[:residual].join(', ')}" }
+      puts "  …and #{residual.size - 40} more" if residual.size > 40
       puts
     end
 
