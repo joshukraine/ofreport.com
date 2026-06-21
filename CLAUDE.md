@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-OFReport.com is a missionary family blog (Joshua and Kelsie Steele) being rebuilt from Nuxt.js 2 to Hugo. The site has 219 blog articles spanning 2008–2025, 5+ static pages, and 26 tags. Full requirements are in the `docs/prd/` directory (start with `README.md`; see `ROADMAP.md` for build phases).
+OFReport.com is a missionary family blog (Joshua and Kelsie Steele) being rebuilt from Nuxt.js 2 to Hugo. The site has 223 blog articles spanning 2008–2026, 5+ static pages, and 26 tags. Full requirements are in the `docs/prd/` directory (start with `README.md`; see `ROADMAP.md` for build phases).
 
 The original Nuxt.js 2 source lives in the sibling directory `../ofreport.com-nuxt2/` (relative to this repo root). Consult it when matching the old site's design or migrating content — e.g. `pages/` for page layouts, `components/` for Vue components being ported to shortcodes, and `tailwind.config.js` for the old custom utility values.
 
@@ -140,7 +140,7 @@ The developer has a Tailwind Plus subscription. Licensed snippets go in `docs/ta
 
 ## Content Migration
 
-A Ruby migration script will convert 219 articles from the Nuxt source repo. Key transformations:
+A Ruby migration script will convert 223 articles from the Nuxt source repo. Key transformations:
 
 - Vue components (`<article-image>`, `<article-callout>`, etc.) → Hugo shortcodes
 - `preview` frontmatter → `description` (markdown stripped)

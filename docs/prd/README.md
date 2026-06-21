@@ -22,7 +22,7 @@ The [Hugo Migration Brief](../hugo-migration-brief.md) documents the existing Nu
 | `03-site-structure.md` | Content organization, URL structure, Hugo configuration | Adding content types, touching `hugo.toml`, or changing URLs |
 | `04-templates.md` | Layout and template specifications | Building or editing a layout, partial, or list/single template |
 | `05-shortcodes.md` | Hugo shortcode specifications | Implementing or changing a shortcode (figure, callout, button, svg) |
-| `06-content-migration.md` | Migration script, legacy articles, validation checklist | Migrating the 219 Nuxt articles or debugging converted content |
+| `06-content-migration.md` | Migration script, legacy articles, validation checklist | Migrating the 223 Nuxt articles or debugging converted content |
 | `07-deployment.md` | Source control, Netlify config, deployment | Configuring Netlify, redirects, headers, or the production deploy |
 | `08-risks-and-future.md` | New features, risks, out-of-scope items | Scoping a future enhancement or weighing a known risk |
 | `appendix.md` | Reference links and existing data files | Looking up a source reference or data file detail |

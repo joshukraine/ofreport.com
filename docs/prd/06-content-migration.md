@@ -56,7 +56,7 @@ inconsistencies.
 
 **Approach for the Hugo migration:**
 
-- The migration script should process all 219 articles consistently
+- The migration script should process all 223 articles consistently
 - After migration, a manual review pass should identify articles with
   formatting issues (inconsistent headings, raw HTML, missing images, broken
   layout patterns)
@@ -71,7 +71,7 @@ inconsistencies.
 
 ## Migration Checklist
 
-- [ ] All 219 articles converted
+- [ ] All 223 articles converted
 - [ ] All 5 static pages created in Hugo
 - [ ] Frontmatter schema matches Hugo expectations
 - [ ] All Vue component syntax converted to shortcodes
