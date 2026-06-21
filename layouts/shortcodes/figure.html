@@ -29,7 +29,8 @@
 {{- $display := partial "cloudinary-url.html" (dict "src" $src "preset" "figure") -}}
 {{- $lightbox := partial "cloudinary-url.html" (dict "src" $src "preset" "lightbox") -}}
 <figure class="not-prose my-10 md:my-16">
-  <a href="{{ $lightbox }}" class="glightbox" data-gallery="article"{{ with $captionPlain }} data-description="{{ . }}"{{ end }}>
+  {{- /* data-type="image" is required: Cloudinary f_auto URLs have no file extension, so GLightbox's auto-detection would treat them as external (iframe) and show a blank box. */ -}}
+  <a href="{{ $lightbox }}" class="glightbox" data-type="image" data-gallery="article"{{ with $captionPlain }} data-description="{{ . }}"{{ end }}>
     <img src="{{ $display }}" alt="{{ $alt }}" loading="lazy" class="w-full rounded-xl bg-gray-50">
   </a>
   {{- with $caption }}
