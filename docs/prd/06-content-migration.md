@@ -67,6 +67,36 @@ inconsistencies.
 - PR #93 from the existing repo should be consulted as a reference for known
   problem articles
 
+### Raw-HTML normalization (issue #127)
+
+After the `<article-*>` conversion, the migration script normalizes the
+pervasive raw HTML left over from the WordPress → Middleman → Nuxt lineage.
+Because `[markup.goldmark.renderer] unsafe = true` is set, this HTML already
+*renders*; the goal is consistency, not rescue. Per-type handling:
+
+| Source markup | Handling | Notes |
+|---|---|---|
+| WordPress `<a href="full"><img src="thumb"></a>` (+ caption line) | → `{{< figure >}}` | Full-size `<a href>` is the source; a caption on the immediately-following line is absorbed, otherwise the img `alt` becomes the caption. |
+| `<nuxt-link to="/path/">text</nuxt-link>` | → markdown `[text](/path/)` | `to=` is Vue-only; targets resolve under Hugo's URL structure. |
+| YouTube / Vimeo `<iframe>` | → `{{< youtube ID >}}` / `{{< vimeo ID >}}` | Responsive. The Nuxt `<div class="videoWrapper">` wrapper is unwrapped. |
+| Buzzsprout `<div id><script>` podcast player | **kept raw** | Needs the div + script together; works under `unsafe=true`. |
+| Instagram `<blockquote><script>` embed | **kept raw** | Self-contained embed. |
+| Self-hosted `<video>`/`<audio>`/`<source>` | **kept raw** | HTML5 players (CloudFront media). |
+| `<strong>` | **kept raw** | Already renders bold; some sit inside `<p>` blocks where `**` would render as literal asterisks. |
+| underline `<span>`, stray `<div>`/`<br>`/`<sup>`/`<figcaption>`, in-page skip-link, genuine `<a>` links | **kept raw, flagged** | Surfaced in the migration's RESIDUAL RAW HTML report for the manual fix pass. |
+
+**Image hosting decision (option a):** legacy WordPress images stay on the old
+CloudFront distribution but are delivered through **Cloudinary fetch**
+(`/image/fetch/<transforms>/<remote-url>`) by `partials/cloudinary-url.html`, so
+they get `f_auto`/`q_auto` optimization and lightbox sizing without re-uploading
+all 316 images. **Operational note:** Cloudinary's "fetched URL" delivery must be
+enabled/unrestricted in the account's Security settings for these URLs to
+resolve in production.
+
+The script distinguishes two report buckets: **CONVERSION GAPS** (`<img>`,
+`<nuxt-link>`, `<iframe>` that survived — a bug, should be empty) and **RESIDUAL
+RAW HTML** (intentionally-raw embeds + manual-review one-offs).
+
 ---
 
 ## Migration Checklist
