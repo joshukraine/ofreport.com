@@ -51,16 +51,19 @@ module Migrate
     "raw <a>"       => /<a\s/i
   }.freeze
 
+  # Precompiled once (rather than per file): each regex matches a single
+  # <name …> tag, tolerating ">" inside quoted attribute values (some captions
+  # contain ">"). The attribute string is captured in group 1.
+  COMPONENT_TAGS = %w[
+    article-image article-callout article-button article-svg article-divider article-spacer
+  ].freeze
+  TAG_REGEX = COMPONENT_TAGS.to_h { |name|
+    [name, /<#{name}\b((?:[^>"']|"[^"]*"|'[^']*')*)\/?>/m]
+  }.freeze
+
   module_function
 
   # --- attribute parsing ---------------------------------------------------
-
-  # Build a regex that matches a single <name ...> tag, tolerating ">" inside
-  # quoted attribute values (some captions contain ">"). The attribute string is
-  # captured in group 1.
-  def tag_regex(name)
-    /<#{name}\b((?:[^>"']|"[^"]*"|'[^']*')*)\/?>/m
-  end
 
   # Parse an attribute string into a hash. Handles double- and single-quoted
   # values and Vue's bound-prop ":" prefix (`:outline="true"`). The colon is
@@ -102,7 +105,7 @@ module Migrate
   def convert_image(attrs)
     parts = ["src=#{quote(attrs['publicId'])}"]
     caption = attrs["caption"]
-    parts << "caption=#{quote(caption)}" if caption && !caption.empty?
+    parts << "caption=#{quote(caption)}" if present?(caption)
     "{{< figure #{parts.join(' ')} >}}"
   end
 
@@ -142,11 +145,11 @@ module Migrate
   def convert_svg(attrs, warn)
     classes = ["block"]
     width = attrs["width"]
-    classes << "w-[#{width}px]" if width && !width.empty?
+    classes << "w-[#{width}px]" if present?(width)
     classes.push("max-w-full", "h-auto")
 
     warn.call("<article-svg> link=#{attrs['link'].inspect} not supported by svg shortcode") \
-      if attrs["link"] && !attrs["link"].empty?
+      if present?(attrs["link"])
 
     "{{< svg name=#{quote(attrs['name'])} class=#{quote(classes.join(' '))} >}}"
   end
@@ -154,12 +157,12 @@ module Migrate
   # Apply every component conversion to the body. `warn` collects per-file notes.
   def transform_body(body, warn)
     out = body.dup
-    out = out.gsub(tag_regex("article-image"))   { convert_image(parse_attrs($1)) }
-    out = out.gsub(tag_regex("article-callout"))  { convert_callout(parse_attrs($1)) }
-    out = out.gsub(tag_regex("article-button"))   { convert_button(parse_attrs($1)) }
-    out = out.gsub(tag_regex("article-svg"))      { convert_svg(parse_attrs($1), warn) }
-    out = out.gsub(tag_regex("article-divider"))  { "\n\n---\n\n" }
-    out = out.gsub(tag_regex("article-spacer"))   { "" }
+    out = out.gsub(TAG_REGEX["article-image"])    { convert_image(parse_attrs($1)) }
+    out = out.gsub(TAG_REGEX["article-callout"])  { convert_callout(parse_attrs($1)) }
+    out = out.gsub(TAG_REGEX["article-button"])   { convert_button(parse_attrs($1)) }
+    out = out.gsub(TAG_REGEX["article-svg"])      { convert_svg(parse_attrs($1), warn) }
+    out = out.gsub(TAG_REGEX["article-divider"])  { "\n\n---\n\n" }
+    out = out.gsub(TAG_REGEX["article-spacer"])   { "" }
     # Collapse the blank-line runs left behind by removed spacers/dividers.
     out.gsub(/\n{3,}/, "\n\n").strip + "\n"
   end
@@ -222,8 +225,8 @@ module Migrate
 
     # Folded YAML scalars carry a trailing newline; strip so caption stays a
     # clean single-line value rather than a multi-line block in the output.
-    out["caption"] = fm["caption"].to_s.strip unless fm["caption"].to_s.strip.empty?
-    out["pdf"]     = fm["pdf"].to_s.strip     unless fm["pdf"].to_s.strip.empty?
+    out["caption"] = fm["caption"].to_s.strip if present?(fm["caption"])
+    out["pdf"]     = fm["pdf"].to_s.strip     if present?(fm["pdf"])
     out["slug"]    = slug
 
     # Order canonically and drop nils.
@@ -277,19 +280,14 @@ module Migrate
 
     FileUtils.mkdir_p(dest) unless dry_run
 
+    results = []
     written = []
     skipped = []
     errors = []
-    flagged = []
-    legacy = []
 
     files.each do |path|
       result = process_file(path)
-
-      flagged << result if result[:flags].any? ||
-                           result[:missing_required].any? ||
-                           result[:leftover_components].any?
-      legacy << result if result[:legacy].any?
+      results << result
 
       target = File.join(dest, "#{result[:slug]}.md")
       if File.exist?(target) && !force
@@ -304,13 +302,13 @@ module Migrate
     end
 
     report(source: source, dest: dest, dry_run: dry_run, force: force,
-           total: files.size, written: written, skipped: skipped,
-           errors: errors, flagged: flagged, legacy: legacy)
+           total: files.size, results: results, written: written,
+           skipped: skipped, errors: errors)
 
     errors.empty?
   end
 
-  def report(source:, dest:, dry_run:, force:, total:, written:, skipped:, errors:, flagged:, legacy:)
+  def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:)
     bar = "=" * 70
     puts bar
     puts "Migration #{dry_run ? '(dry run — nothing written)' : 'complete'}"
@@ -337,27 +335,28 @@ module Migrate
       puts
     end
 
-    missing = flagged.reject { |r| r[:missing_required].empty? }
+    missing = results.reject { |r| r[:missing_required].empty? }
     unless missing.empty?
       puts "MISSING REQUIRED FRONTMATTER:"
       missing.each { |r| puts "  - #{r[:slug]}: #{r[:missing_required].join(', ')}" }
       puts
     end
 
-    leftover = flagged.reject { |r| r[:leftover_components].empty? }
+    leftover = results.reject { |r| r[:leftover_components].empty? }
     unless leftover.empty?
       puts "UNCONVERTED <article-*> COMPONENTS (should be none):"
       leftover.each { |r| puts "  - #{r[:slug]}: #{r[:leftover_components].join(', ')}" }
       puts
     end
 
-    notes = flagged.reject { |r| r[:flags].empty? }
+    notes = results.reject { |r| r[:flags].empty? }
     unless notes.empty?
       puts "NOTES (per-file decisions / manual-review items):"
       notes.each { |r| r[:flags].each { |f| puts "  - #{r[:slug]}: #{f}" } }
       puts
     end
 
+    legacy = results.reject { |r| r[:legacy].empty? }
     unless legacy.empty?
       puts "LEGACY RAW HTML — for the follow-up issue (#{legacy.size} files):"
       legacy.first(40).each { |r| puts "  - #{r[:slug]}: #{r[:legacy].join(', ')}" }
