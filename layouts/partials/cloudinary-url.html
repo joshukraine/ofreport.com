@@ -3,9 +3,24 @@
 {{- $result := "" -}}
 
 {{- if $src -}}
-  {{- /* Accept a bare public ID by expanding it to a full Cloudinary URL. */ -}}
+  {{- /*
+    Three source shapes are supported:
+      1. bare public ID            -> expand to a full Cloudinary /upload/ URL
+      2. full Cloudinary URL       -> inject transforms after /upload/
+      3. any other remote http URL -> deliver via Cloudinary fetch
+                                      (/image/fetch/<transforms>/<remote-url>)
+    Shape 3 is how legacy WordPress images (still hosted on the old CloudFront
+    distribution) get optimized + lightbox-ready without re-uploading them.
+  */ -}}
+  {{- $isRemote := false -}}
+  {{- if hasPrefix $src "//" -}}
+    {{- /* normalize protocol-relative URLs to https before anything else */ -}}
+    {{- $src = printf "https:%s" $src -}}
+  {{- end -}}
   {{- if not (hasPrefix $src "http") -}}
     {{- $src = printf "%s/image/upload/%s" site.Params.cloudinaryBase $src -}}
+  {{- else if not (in $src "res.cloudinary.com") -}}
+    {{- $isRemote = true -}}
   {{- end -}}
 
   {{- $presets := dict
@@ -23,7 +38,14 @@
 
   {{- $transforms := index $presets $preset -}}
 
-  {{- if $transforms -}}
+  {{- if $isRemote -}}
+    {{- /* Cloudinary fetch: the remote URL is appended raw after the transforms. */ -}}
+    {{- if $transforms -}}
+      {{- $result = printf "%s/image/fetch/%s/%s" site.Params.cloudinaryBase $transforms $src -}}
+    {{- else -}}
+      {{- $result = printf "%s/image/fetch/%s" site.Params.cloudinaryBase $src -}}
+    {{- end -}}
+  {{- else if $transforms -}}
     {{- $result = replace $src "/upload/" (printf "/upload/%s/" $transforms) -}}
   {{- else -}}
     {{- $result = $src -}}
