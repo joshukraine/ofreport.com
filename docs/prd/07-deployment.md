@@ -103,7 +103,7 @@ Thumbs.db
 
 ## Build Performance
 
-Hugo builds are near-instant for 219 articles. Expected build time: under 1
+Hugo builds are near-instant for 223 articles. Expected build time: under 1
 second for Hugo itself, plus a few seconds for Tailwind CSS processing.
 
 ---

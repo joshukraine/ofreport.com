@@ -4,7 +4,7 @@ A missionary family blog by Joshua and Kelsie Steele, documenting 17 years of
 ministry work in Ukraine. This is a ground-up rebuild from Nuxt.js 2 to
 [Hugo](https://gohugo.io/).
 
-The site includes 219 blog articles (2008-2025), 5 static pages, and 26 tags.
+The site includes 223 blog articles (2008-2026), 5 static pages, and 26 tags.
 
 ## Tech Stack
 

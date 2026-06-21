@@ -11,14 +11,14 @@
 
 Rebuild [OFReport.com](https://ofreport.com), a missionary family blog
 documenting 17 years of ministry work in Ukraine, from Nuxt.js 2 to Hugo. The
-site has 219 blog articles, 5 static pages, and 26 tags spanning October 2008
-to August 2025.
+site has 223 blog articles, 5 static pages, and 26 tags spanning October 2008
+to May 2026.
 
 ---
 
 ## Goals
 
-- **Preserve all existing content** — 219 articles, static pages, PDFs, images,
+- **Preserve all existing content** — 223 articles, static pages, PDFs, images,
   and PDF newsletter archives
 - **Preserve key URL structures** for SEO continuity (`/blog/{slug}/`,
   `/tags/{tag}/`)
