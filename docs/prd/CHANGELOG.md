@@ -34,6 +34,24 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-21 — `scripts/migrate.rb` (new)
+
+**What changed:** Added the Ruby migration script (issue #126) covering frontmatter transforms, the six `<article-*>` → shortcode conversions, and the tag fix. Several details depart from or refine the spec in `06-content-migration.md`:
+
+- **`basename` / `iso8601Date` removal is a no-op.** Spec step 2 says to remove these fields; neither is present in any of the 223 source files, so the script does not handle them. Confirmed and skipped.
+- **`<article-image>` drops `width` / `height` / `border`.** The Hugo `figure` shortcode is responsive-by-preset and only accepts `src` / `caption` / `alt`, so those Vue props are not carried over (a design decision baked into the shortcode when it was built). `alt` falls back to `caption` inside the shortcode.
+- **`<article-button>` drops `margin`; `<article-svg>` drops `alt` / `margin` and cannot wrap a `link`.** The target shortcodes don't expose those knobs. The single `<article-svg link=…>` instance (`2019-12-23-kade-to-ukraine`) is flagged by the report for manual review.
+- **`<article-callout :link="{…}">` becomes a markdown link line** appended inside the callout body (the new `callout` shortcode has no `link` param). External links therefore lose `target="_blank"`.
+- **Missing-`preview` fallback** (1 file, `2008-12-23-in-him-was-life`): `description` is generated from the first body paragraph (markdown-stripped, truncated on a word boundary) and flagged.
+- **`image:` → `cover:`** (1 file, `2012-11-04-today-fly`): the key is renamed per spec, but the value is a legacy WordPress relative path, not a Cloudinary URL — flagged for the legacy cleanup issue. Its `date` also carried a time component (`2012-11-04 20:43:37`), so dates are normalized to `YYYY-MM-DD`.
+- **Re-runnability guard = skip-if-exists** (per Joshua's 2026-06-21 decision), with `--force` to re-migrate all and `--dry-run` to validate without writing. A normal re-run writes only new (late-arriving) files and never clobbers existing ones, so post-migration hand-edits are safe; the trade-off is that an upstream correction to an already-migrated post needs `--force`.
+
+This PR commits the **script + this entry only** — it does not yet write the 223 articles into `content/blog/`. The source bodies still contain unconverted raw HTML (`<img>`/`<nuxt-link>`/`<iframe>`; 142 files flagged by the script's report), which is the next issue's scope. Committing clean content once, after that pass, keeps `main` shippable.
+
+**Why:** "Never silently deviate" — these mappings are forced by the existing shortcode signatures rather than the spec's prose, and the two frontmatter outliers + the legacy-HTML residue needed documented, deliberate choices. The deferred content drop was confirmed with Joshua.
+
+**Category:** Discovery
+
 ### 2026-06-21 — `docs/prd/00-overview.md`, `docs/prd/06-content-migration.md`, `docs/prd/07-deployment.md`, `docs/prd/README.md`, `docs/prd/ROADMAP.md`, `CLAUDE.md`, `README.md`
 
 **What changed:** Corrected the article count from 219 → 223 and the date range from 2008–2025 → 2008–2026 across all PRD and project docs (issue #125, Phase 15 pre-flight). Also recorded that the lone file in the Nuxt repo's `content/drafts/` is the `COPY-ME-YYYY-MM-DD-catchy-article-title.md` authoring scaffold (Lorem ipsum, not real content) and is therefore excluded from the migration.
