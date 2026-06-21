@@ -1,0 +1,20 @@
+{{- /*
+  button-classes — single source of truth for the filled-primary / outline button styling.
+
+  Returns the shared base classes (shape, color, hover, focus ring, font) for a
+  button-like control, WITHOUT size or layout classes — call sites add their own
+  padding, width, display, etc. Works from both templates and shortcodes: a shortcode
+  can't be called from a template, but a partial can, so this bridges the hero CTA
+  (template) and the {{< button >}} shortcode (content) without duplication.
+
+  Param:
+    variant  "filled" (default) | "outline"
+
+  Usage:
+    class="inline-flex items-center px-6 py-3 text-base {{ partial "button-classes.html" (dict "variant" "filled") }}"
+*/ -}}
+{{- $variant := .variant | default "filled" -}}
+{{- $base := "rounded-full font-sans font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" -}}
+{{- $filled := "bg-blue-800 text-white shadow-sm hover:bg-blue-900" -}}
+{{- $outline := "text-blue-600 ring-1 ring-inset ring-blue-600/30 hover:bg-blue-50" -}}
+{{- printf "%s %s" $base (cond (eq $variant "outline") $outline $filled) -}}
