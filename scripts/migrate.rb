@@ -423,9 +423,13 @@ module Migrate
     content = "---\n#{yaml}---\n\n#{new_body}"
 
     cover = new_fm["cover"]
-    # Figures with neither alt= nor caption= — no fallback text at all.
-    figs_no_alt = new_body.scan(FIGURE_RE)
-                          .count { |params,| !params.include?("alt=") && !params.include?("caption=") }
+    # Figures with neither alt nor caption — no fallback text at all. parse_attrs
+    # keys on real attribute names, so a value that merely contains "alt="
+    # (e.g. a URL query param) can't be mistaken for an alt parameter.
+    figs_no_alt = new_body.scan(FIGURE_RE).count do |params,|
+      attrs = parse_attrs(params)
+      !attrs.key?("alt") && !attrs.key?("caption")
+    end
 
     {
       slug: slug,
@@ -597,7 +601,7 @@ module Migrate
   def report(source:, dest:, dry_run:, force:, total:, results:, written:, skipped:, errors:, probe:, audit:)
     bar = "=" * 70
     puts bar
-    puts "Migration #{dry_run ? '(dry run — nothing written)' : 'complete'}"
+    puts "Migration #{dry_run ? '(dry run — no content written; audit CSV still written)' : 'complete'}"
     puts bar
     puts "Source : #{source}"
     puts "Dest   : #{dest}"
