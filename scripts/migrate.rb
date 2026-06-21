@@ -447,9 +447,62 @@ module Migrate
     !value.nil? && !value.to_s.strip.empty? && value != []
   end
 
+  # --- cover-width probe (issue #128, opt-in via --probe-covers) -----------
+
+  # Fill each result's :cover_width by probing Cloudinary. Sequential and
+  # network-bound (~one request per cover), which is why it is opt-in; progress
+  # goes to stderr so the report on stdout stays clean.
+  def probe_covers(results)
+    coverable = results.select { |r| present?(r[:cover]) }
+    warn "Probing #{coverable.size} cover widths via Cloudinary fl_getinfo…"
+    coverable.each_with_index do |r, i|
+      r[:cover_width] = probe_cover_width(r[:cover])
+      warn "  …#{i + 1}/#{coverable.size}" if ((i + 1) % 25).zero?
+    end
+  end
+
+  # Probe one cover's pixel width via Cloudinary's fl_getinfo delivery flag,
+  # which returns image metadata as JSON without auth (verified against this
+  # account). Returns the integer width, or nil on any failure (non-Cloudinary
+  # path, network error, unexpected payload) — width is a best-effort triage
+  # signal, never fatal.
+  def probe_cover_width(url)
+    info = getinfo_url(url)
+    return nil unless info
+
+    uri = URI(info)
+    res = Net::HTTP.start(uri.host, uri.port, use_ssl: true,
+                          open_timeout: 8, read_timeout: 8) do |http|
+      http.get(uri.request_uri)
+    end
+    return nil unless res.is_a?(Net::HTTPSuccess)
+
+    data  = JSON.parse(res.body)
+    width = data.dig("input", "width") || data.dig("output", "width")
+    width&.to_i
+  rescue StandardError
+    nil
+  end
+
+  # Insert the fl_getinfo flag for a cover URL. Handles the two Cloudinary
+  # delivery shapes (upload + fetch) and wraps any other remote http URL in a
+  # fetch call; returns nil for relative legacy paths (nothing probeable).
+  def getinfo_url(url)
+    u = url.to_s
+    return nil unless u.start_with?("http")
+
+    if u.include?("/image/upload/")
+      u.sub("/image/upload/", "/image/upload/fl_getinfo/")
+    elsif u.include?("/image/fetch/")
+      u.sub("/image/fetch/", "/image/fetch/fl_getinfo/")
+    else
+      "#{CLOUDINARY_BASE}/image/fetch/fl_getinfo/#{u}"
+    end
+  end
+
   # --- runner --------------------------------------------------------------
 
-  def run(source:, dest:, dry_run:, force:)
+  def run(source:, dest:, dry_run:, force:, probe:)
     files = Dir.glob(File.join(source, "*.md")).sort
     abort "No source articles found in #{source}" if files.empty?
 
@@ -475,6 +528,8 @@ module Migrate
     rescue => e
       errors << { slug: File.basename(path, ".md"), message: e.message }
     end
+
+    probe_covers(results) if probe
 
     report(source: source, dest: dest, dry_run: dry_run, force: force,
            total: files.size, results: results, written: written,
@@ -569,7 +624,8 @@ if __FILE__ == $PROGRAM_NAME
     source: File.expand_path("../ofreport.com-nuxt2/content/articles", repo_root),
     dest: File.join(repo_root, "content", "blog"),
     dry_run: false,
-    force: false
+    force: false,
+    probe: false
   }
 
   OptionParser.new do |opts|
@@ -578,6 +634,7 @@ if __FILE__ == $PROGRAM_NAME
     opts.on("--dest PATH", "Destination dir (Hugo content/blog)") { |v| options[:dest] = File.expand_path(v) }
     opts.on("--dry-run", "Transform + validate + report; write nothing") { options[:dry_run] = true }
     opts.on("--force", "Overwrite existing files (re-migrate all)") { options[:force] = true }
+    opts.on("--probe-covers", "Probe cover widths via Cloudinary (network)") { options[:probe] = true }
     opts.on("-h", "--help", "Show this help") { puts opts; exit }
   end.parse!
 
