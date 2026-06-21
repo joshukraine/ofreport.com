@@ -30,6 +30,21 @@
 #     one in-page skip-link, genuine <a> links) is left as-is and surfaced in the
 #     RESIDUAL RAW HTML report for the manual fix pass.
 #
+# Scope (issue #128, validation + content-audit report). On top of the #126/#127
+# transforms, the script now:
+#   * Hardens validation into explicit PASS/FAIL assertions that FAIL THE RUN
+#     (exit 1): input==output count, all required frontmatter present, zero
+#     leftover <article-*>, zero CONVERSION GAPS, and "good and evil" fully
+#     consolidated to "good-and-evil".
+#   * Writes a machine-readable content-audit CSV (default tmp/migration-audit.csv)
+#     — the triage hand-off for the manual fix pass (#129) and graceful display
+#     (#135). One row per article: cover status/width, missing description /
+#     caption / figure alt, residual raw HTML by type, conversion gaps, legacy
+#     HTML entities, bare-angle-bracket URLs, and per-file notes.
+#   * Optionally probes each cover's pixel width via Cloudinary's fl_getinfo flag
+#     (--probe-covers) to flag legacy thumbnails below SMALL_COVER_WIDTH. Off by
+#     default so the normal run stays fast, offline, and deterministic.
+#
 # Re-runnability (per Joshua's 2026-06-21 decision): the default guard is
 # SKIP-IF-EXISTS. A normal re-run writes only NEW files (late-arriving posts) and
 # never clobbers a target that already exists — so hand-edits made after a prior
@@ -37,18 +52,25 @@
 # DOES overwrite, including hand-edits); use it when an upstream correction to an
 # already-migrated post needs to be re-pulled.
 #
-# Dependencies: Ruby stdlib only (yaml, fileutils, optparse, date). No gems.
+# Dependencies: Ruby stdlib only (yaml, fileutils, optparse, date, csv, json,
+# net/http, uri). No gems.
 #
 # Usage:
 #   ruby scripts/migrate.rb              # migrate new files into content/blog/
 #   ruby scripts/migrate.rb --dry-run    # transform + validate + report, write nothing
 #   ruby scripts/migrate.rb --force      # re-migrate ALL files (overwrites)
+#   ruby scripts/migrate.rb --probe-covers   # also probe cover widths (network)
+#   ruby scripts/migrate.rb --audit PATH     # audit CSV path (default tmp/migration-audit.csv)
 #   ruby scripts/migrate.rb --source PATH --dest PATH
 
 require "yaml"
 require "fileutils"
 require "optparse"
 require "date"
+require "csv"
+require "json"
+require "net/http"
+require "uri"
 
 module Migrate
   # Frontmatter field order in the output, matching archetypes/blog.md. Optional
@@ -78,6 +100,31 @@ module Migrate
     "genuine <a> link"         => /<a\s/i,
     "<sup>/<figcaption>/<br>"  => /<(sup|figcaption|br)\b/i
   }.freeze
+
+  # --- content-audit constants (issue #128) --------------------------------
+
+  # Our Cloudinary delivery base, used to build a fetch fl_getinfo URL for any
+  # remote (non-Cloudinary) cover. Mirrors hugo.toml [params] cloudinaryBase.
+  CLOUDINARY_BASE = "https://res.cloudinary.com/dnkvsijzu"
+
+  # Covers narrower than this (px) are flagged "small" — a legacy thumbnail that
+  # can't fill the modern hero/OG display crisply. Tunable; 1200 = the OG width.
+  SMALL_COVER_WIDTH = 1200
+
+  # Legacy HTML entities left over from the WordPress lineage (e.g. "&nbsp;",
+  # "Q&amp;A", "&#39;"). They render, but should be real characters — surfaced
+  # for the manual fix pass. The catch-all "&word;" alternative is last so the
+  # named/numeric forms are reported by their exact spelling.
+  LEGACY_TOKEN_RE = /&nbsp;|&amp;|&#\d+;|&[a-z]+;/i
+
+  # Bare-angle-bracket autolinks like <https://…>. They render under goldmark,
+  # but are often a youtu.be link that should be an embed — surfaced for review.
+  BARE_ANGLE_URL_RE = %r{<https?://[^>\s]+>}i
+
+  # A migrated {{< figure >}}; group 1 is its parameter string. Used to count
+  # figures carrying neither alt= nor caption= (a real a11y gap — no fallback
+  # text), distinct from the common alt-falls-back-to-caption case.
+  FIGURE_RE = /\{\{<\s*figure\s+(.*?)\s*>}}/m
 
   # Precompiled once (rather than per file): each regex matches a single
   # <name …> tag, tolerating ">" inside quoted attribute values (some captions
@@ -371,13 +418,27 @@ module Migrate
     yaml = YAML.dump(new_fm, line_width: -1).sub(/\A---\s*\n/, "")
     content = "---\n#{yaml}---\n\n#{new_body}"
 
+    cover = new_fm["cover"]
+    # Figures with neither alt= nor caption= — no fallback text at all.
+    figs_no_alt = new_body.scan(FIGURE_RE).flatten
+                          .count { |params| !params.include?("alt=") && !params.include?("caption=") }
+
     {
       slug: slug,
       content: content,
+      date: new_fm["date"].to_s,
+      cover: cover,
+      cover_width: nil, # filled by the optional --probe-covers pass
       missing_required: REQUIRED_FIELDS.reject { |f| present?(new_fm[f]) },
       leftover_components: new_body.scan(/<article-[\w-]+/).uniq,
       gaps: GAP_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
       residual: RESIDUAL_PATTERNS.select { |_, re| new_body.match?(re) }.keys,
+      description_empty: !present?(new_fm["description"]),
+      missing_caption: present?(cover) && !present?(new_fm["caption"]),
+      figures_missing_alt: figs_no_alt,
+      legacy_tokens: new_body.scan(LEGACY_TOKEN_RE).map(&:downcase).uniq.sort,
+      bare_angle_urls: new_body.scan(BARE_ANGLE_URL_RE).size,
+      bad_tags: Array(new_fm["tags"]).select { |t| t == "good and evil" },
       flags: fm_flags + warnings
     }
   end
