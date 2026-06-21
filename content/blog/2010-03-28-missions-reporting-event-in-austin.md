@@ -1,0 +1,19 @@
+---
+title: Missions Reporting Event in Austin
+date: '2010-03-28'
+author: Joshua Steele
+description: Due to sickness in my family and also in the family that was organizing this event, we have decided to postpone it until a later date. If/when that is scheduled, we will post a new invitation. We apologize for the late notice.
+tags:
+- ministry
+slug: 2010-03-28-missions-reporting-event-in-austin
+---
+
+<p style="text-align: center;"><strong><span style="color: #ff0000;">EVENT CANCELLED</span></strong></p>
+
+Due to sickness in my family and also in the family that was organizing this event, we have decided to postpone it until a later date. If/when that is scheduled, we will post a new invitation. We apologize for the late notice.
+
+---
+
+I will be speaking in Austin, TX this coming Wednesday, March 31 at 7:00pm. I'll be showing our missions DVD, speaking about the ministry, and preaching a message on evangelism called "Vision, Strategy, Perseverance."
+
+If you're in the area and you'd like to join us, please [contact me for details](/contact/).

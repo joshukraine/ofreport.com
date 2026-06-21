@@ -170,11 +170,11 @@ links to the relevant PRD document for full requirements.
 ## Phase 15: Content Migration
 
 - [x] Ruby migration script written (see [`06-content-migration.md`](./06-content-migration.md))
-- [ ] All 223 articles converted
-- [ ] Frontmatter transformed (preview → description, slug added, etc.)
-- [ ] Vue components converted to Hugo shortcodes
-- [ ] Duplicate tag consolidated (`good-and-evil`)
-- [ ] Validation pass: no remaining `<article-` patterns
+- [x] All 223 articles converted
+- [x] Frontmatter transformed (preview → description, slug added, etc.)
+- [x] Vue components converted to Hugo shortcodes
+- [x] Duplicate tag consolidated (`good-and-evil`)
+- [x] Validation pass: no remaining `<article-` patterns
 - [ ] Legacy WordPress articles reviewed and fixed
 - [ ] Static pages created
 - [ ] Data files migrated (`authors.json`, `archives.json`)
