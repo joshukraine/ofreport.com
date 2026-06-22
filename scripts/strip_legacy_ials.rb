@@ -49,7 +49,12 @@ NO_CAPTION_IAL  = "{: .article-image}"
 CAPTION_IAL     = "{: .caption-text .article-image__caption}"
 CENTER_IAL      = "{: .article-text--centered}"
 
-# Quote + escape a value for a Hugo shortcode parameter, matching migrate.rb.
+# A figure caption= that absorbed an article-image IAL instead of real text.
+BOGUS_CAPTION_ATTR = /caption="(\{:[^"]*)"/
+
+# Quote + escape a value for a Hugo shortcode parameter. Keep in sync with
+# Migrate.quote — the Go interpreted-string escaping must be identical so swept
+# captions match freshly-migrated ones.
 def quote(value)
   escaped = value.to_s.gsub("\\") { "\\\\" }.gsub('"') { '\\"' }
   %("#{escaped}")
@@ -65,11 +70,15 @@ end
 # ![alt](url). Protocol-relative URLs are normalized to https, matching
 # migrate.rb. Returns nil for anything that is not a lone image line.
 def parse_md_image(line)
-  if (m = line.match(%r{\A\[!\[([^\]]*)\]\([^)]*\)\]\(([^)]*)\)\z}))
-    [m[1], m[2].sub(%r{\A//}, "https://")]
-  elsif (m = line.match(%r{\A!\[([^\]]*)\]\(([^)]*)\)\z}))
-    [m[1], m[2].sub(%r{\A//}, "https://")]
-  end
+  alt, url =
+    if (m = line.match(%r{\A\[!\[([^\]]*)\]\([^)]*\)\]\(([^)]*)\)\z}))
+      [m[1], m[2]]
+    elsif (m = line.match(%r{\A!\[([^\]]*)\]\(([^)]*)\)\z}))
+      [m[1], m[2]]
+    end
+  return unless url
+
+  [alt, url.sub(%r{\A//}, "https://")]
 end
 
 def strip_file(path)
@@ -85,22 +94,23 @@ def strip_file(path)
     # Rule A / B: figure shortcode that absorbed an IAL into caption=. A handful
     # of figure lines carry stray leading whitespace from the source; matching
     # the lstripped line normalizes the indent away on rewrite.
-    if stripped.start_with?("{{< figure ") && stripped =~ /caption="(\{:[^"]*)"/
-      ial = Regexp.last_match(1)
+    if stripped.start_with?("{{< figure ") && (m = stripped.match(BOGUS_CAPTION_ATTR))
+      ial = m[1]
 
       if ial.include?("--has-caption") && caption_line?(lines[i + 1]) &&
          lines[i + 2]&.strip == CAPTION_IAL
         # Rule A: promote the displaced caption, drop alt + the two stray lines.
         real = lines[i + 1].rstrip
-        rebuilt = stripped.sub(/caption="\{:[^"]*"/, "caption=#{quote(real)}")
+        rebuilt = stripped.sub(BOGUS_CAPTION_ATTR, "caption=#{quote(real)}")
                           .sub(/ alt="(?:[^"\\]|\\.)*"/, "")
         out << rebuilt
         i += 3
         changed = true
         next
       else
-        # Rule B: no real caption — just drop the bogus caption= attribute.
-        out << stripped.sub(/ caption="\{:[^"]*"/, "")
+        # Rule B: no real caption — drop the bogus attribute (and its leading
+        # space, so the figure line doesn't keep a double space).
+        out << stripped.sub(/ #{BOGUS_CAPTION_ATTR}/, "")
         i += 1
         changed = true
         next
@@ -110,11 +120,11 @@ def strip_file(path)
     # Rule E: un-converted markdown image (linked or bare) + standalone
     # article-image IAL.
     parsed = parse_md_image(stripped)
-    if parsed &&
-       (lines[i + 1]&.strip == HAS_CAPTION_IAL || lines[i + 1]&.strip == NO_CAPTION_IAL)
+    nxt    = lines[i + 1]&.strip
+    if parsed && (nxt == HAS_CAPTION_IAL || nxt == NO_CAPTION_IAL)
       alt, src = parsed
 
-      if lines[i + 1].strip == HAS_CAPTION_IAL && caption_line?(lines[i + 2]) &&
+      if nxt == HAS_CAPTION_IAL && caption_line?(lines[i + 2]) &&
          lines[i + 3]&.strip == CAPTION_IAL
         # Has a real caption — promote it and drop the placeholder alt.
         real = lines[i + 2].rstrip
