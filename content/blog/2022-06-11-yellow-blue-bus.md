@@ -132,7 +132,7 @@ Report_, has been our primary communication medium for ministry and family
 updates for over 20 years. However, during the chaos of evacuation, we found it
 simpler/faster to record brief audio updates to let people know how we were.
 These updates were well-received, and we soon turned them into a podcast which
-we call [_Journey to Ukraine_](https://ofreport.com/podcast/). Hence the
+we call [_Journey to Ukraine_](/podcast/). Hence the
 question many have asked: now that we have a podcast, will we continue
 publishing our newsletter? Simple answer: **yes, we absolutely will!**
 
