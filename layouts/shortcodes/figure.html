@@ -25,8 +25,9 @@
   {{- errorf "figure shortcode: 'src' param is required (%s)" .Position -}}
 {{- end -}}
 {{- $caption := .Get "caption" -}}
-{{- /* Plain-text caption for attributes (alt, GLightbox description): strip markdown/HTML. */ -}}
-{{- $captionPlain := chomp (plainify (markdownify $caption)) -}}
+{{- /* Plain-text caption for attributes (alt, GLightbox description): strips markdown/HTML
+       and the render hook's "(opens in a new tab)" announcement (see caption-plain.html). */ -}}
+{{- $captionPlain := partial "caption-plain.html" $caption -}}
 {{- $alt := or (.Get "alt") $captionPlain -}}
 {{- /* src may be a full Cloudinary URL or a bare public ID; cloudinary-url.html handles both. */ -}}
 {{- $display := partial "cloudinary-url.html" (dict "src" $src "preset" "figure") -}}

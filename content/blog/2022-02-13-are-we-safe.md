@@ -9,7 +9,7 @@ tags:
 - family
 - audio
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1644791442/OFReport/2022-02-13-are-we-safe/andriyko-podilnyk-TaWaGbjp60Q-unsplash-1200x700_yjxl0p.jpg
-caption: Photo by <a href="https://unsplash.com/@yirage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andriyko Podilnyk</a> on <a href="https://unsplash.com/s/photos/ukraine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+caption: Photo by [Andriyko Podilnyk](https://unsplash.com/@yirage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ukraine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 slug: 2022-02-13-are-we-safe
 ---
 

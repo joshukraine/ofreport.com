@@ -102,7 +102,7 @@ The roster for CMO this year is filling up quickly! As of this writing, we have 
 
 This will be our 9th CMO project, and while we’ve covered lots of ground in years past, there is so much yet to do! As Christ admonished His disciples in Matthew 9:37-38, *“...The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.”* God is calling new laborers to the fields of Ukraine this summer, and we ask you to pray for them, for our staff, and for those we will reach.
 
-So that you can be more informed as you pray, we would like to encourage you to visit our web site (<a href="http://www.euroteamoutreach.org" target="_blank">www.euroteamoutreach.org</a>) and subscribe to our email newsletter. During the off-season, we send emails infrequently, but during the summer there will be updates nearly every week, written by various team members.
+So that you can be more informed as you pray, we would like to encourage you to visit our web site ([www.euroteamoutreach.org](http://www.euroteamoutreach.org)) and subscribe to our email newsletter. During the off-season, we send emails infrequently, but during the summer there will be updates nearly every week, written by various team members.
 
 ### How You Can Pray
 

@@ -28,7 +28,7 @@ In addition to the teaching sessions, there were family activities, sporting eve
 
 NGJ also set up an exhibit hall where vendors could sell various products and services for families. *Bible First* had a table there, and we were excited for the opportunity to share our vision with many who were interested in evangelism. One man who stopped by our table has already been using *Bible First* materials in a prison here in the US!
 
-If you’d like to learn more about the Shindig, be sure to visit <a href="http://www.nogreaterjoy.org/shindig" target="_blank">www.nogreaterjoy.org/shindig</a>. All the sessions were recorded on video and I believe they will be made available soon.
+If you’d like to learn more about the Shindig, be sure to visit [www.nogreaterjoy.org/shindig](http://www.nogreaterjoy.org/shindig). All the sessions were recorded on video and I believe they will be made available soon.
 
 ### Missionary to Egypt
 
@@ -39,7 +39,7 @@ This year, we had just one CMO guy who joined us from the US. His name is James 
 We ministered side-by-side with James for two months in Ukraine, and I can say with conviction that he is one of the most committed and faithful men who has ever served on a CMO team. I speak for the entire board of Euro Team Outreach in saying that we heartily recommend him as man of integrity who is stepping out by faith to obey God’s call on his life.
 
 If you would be interested in supporting James financially or simply want to know more about his work, you can contact him via e-mail at
-<a href="mailto:james.alvin260@gmail.com" target="_blank">james.alvin260@gmail.com</a>.
+[james.alvin260@gmail.com](mailto:james.alvin260@gmail.com).
 
 ### Family Update
 
@@ -49,7 +49,7 @@ Our fourth daughter is due to be born on December 19th, though past experience s
 
 ### How You Can Pray
 
-* Pray for a strong team for CMO 2015. Details are available now at <a href="http://www.CMOproject.org" target="_blank">www.CMOproject.org</a>.
+* Pray for a strong team for CMO 2015. Details are available now at [www.CMOproject.org](http://www.CMOproject.org).
 * Praise God for over 50 Ukrainian graduates from our Bible First program!
 * Pray for health and safety for Kelsie and our new baby.
 * Pray for Nathan Gregson as he serves with our staff team in Ukraine. (Nathan is a former CMO team member who came for the 2013 project.)

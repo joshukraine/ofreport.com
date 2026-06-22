@@ -27,4 +27,4 @@ God has recently opened several doors for us to share our work in Ukraine in var
 
 ## CMO Plans
 
-We already have a few guys planning to come to CMO this year. If you're thinking about coming, you need to send in your application ASAP. The registration deadline is April 15th. Don't put it off! If you have questions, <a href="http://www.euroteamoutreach.org/cmo" target="_blank">check our web site</a> or [send us an e-mail](/contact/). Don't miss this exciting opportunity to help advance the Kingdom of God!
+We already have a few guys planning to come to CMO this year. If you're thinking about coming, you need to send in your application ASAP. The registration deadline is April 15th. Don't put it off! If you have questions, [check our web site](http://www.euroteamoutreach.org/cmo) or [send us an e-mail](/contact/). Don't miss this exciting opportunity to help advance the Kingdom of God!

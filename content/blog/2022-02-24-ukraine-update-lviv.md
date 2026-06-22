@@ -9,7 +9,7 @@ tags:
 - family
 - audio
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1645708553/OFReport/2022-02-24-ukraine-update-lviv/max-kukurudziak-qbc3Zmxw0G8-unsplash_vobsgd.jpg
-caption: Photo by <a href="https://unsplash.com/@maxkuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max Kukurudziak</a> on <a href="https://unsplash.com/s/photos/ukraine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+caption: Photo by [Max Kukurudziak](https://unsplash.com/@maxkuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ukraine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 slug: 2022-02-24-ukraine-update-lviv
 ---
 

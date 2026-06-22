@@ -20,7 +20,7 @@ L'viv is beautiful in the fall. For a large city, it's quite rich in plant life.
 
 If you've been following our ministry for any length of time, then you've heard us speak about the difficulties of obtaining visas and other documents necessary for us to live in Ukraine on a continual basis. One of the biggest problems in this area is the frequency with which Ukraine changes its immigration policies. Guess what? They did it again.
 
-In August of this year, the Ukrainian government passed <a href="http://zakon1.rada.gov.ua/cgi-bin/laws/main.cgi?nreg=z1110-11">Resolution 602</a> which completely revamps the standards for long-term residency in Ukraine. Without getting into all the boring details, I'll simply say that after the new year, we will again be facing some challenges with regards to our position in the country. We've enlisted professional legal help, and at this point we're optimistic that things will turn out well. However, we're not out of the woods by any means, and we would appreciate your continued prayers for us and the many other missionaries whose ministries, homes, and families are in jeopardy.
+In August of this year, the Ukrainian government passed [Resolution 602](http://zakon1.rada.gov.ua/cgi-bin/laws/main.cgi?nreg=z1110-11) which completely revamps the standards for long-term residency in Ukraine. Without getting into all the boring details, I'll simply say that after the new year, we will again be facing some challenges with regards to our position in the country. We've enlisted professional legal help, and at this point we're optimistic that things will turn out well. However, we're not out of the woods by any means, and we would appreciate your continued prayers for us and the many other missionaries whose ministries, homes, and families are in jeopardy.
 
 ## Family Report
 
@@ -34,7 +34,7 @@ Most of all, we are thrilled to see Abby developing a tender heart towards us an
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/11/IMG_0250_opt.jpg" caption="Abigail Hope, age 6" >}}
 
-To see a recent video of Abby quoting a poem in Ukrainian, check out Kelsie's new blog, <a title="Be of Good Courage" href="http://kelsiesteele.blogspot.com/2011/11/abby-presents-do-you-like-mushrooms.html" target="_blank">Be of Good Courage</a>.
+To see a recent video of Abby quoting a poem in Ukrainian, check out Kelsie's new blog, [Be of Good Courage](http://kelsiesteele.blogspot.com/2011/11/abby-presents-do-you-like-mushrooms.html).
 
 ### Rebekah
 
@@ -62,6 +62,6 @@ Kelsie and I are of course kept very busy with our kiddos and a growing ministry
 
 ## Ministry Report
 
-As you may have guessed, our big focus in the ministry right now is still *Bible First*. The Ukrainian course continues to grow, with new students signing up every month. As we announced in our last post, we have now completed our <a title="Bible First Training Videos" href="http://euroteamoutreach.org/index.php?p=bftv">new series of training videos</a>, and we'll be releasing new videos every week leading up to the launch of *Bible First* in English. Just yesterday, we added a <a title="Audience First" href="http://euroteamoutreach.org/index.php?p=bftv-player&amp;video=2-3">new video</a> to our ministry web site, and we encourage you to take a look!
+As you may have guessed, our big focus in the ministry right now is still *Bible First*. The Ukrainian course continues to grow, with new students signing up every month. As we announced in our last post, we have now completed our [new series of training videos](http://euroteamoutreach.org/index.php?p=bftv), and we'll be releasing new videos every week leading up to the launch of *Bible First* in English. Just yesterday, we added a [new video](http://euroteamoutreach.org/index.php?p=bftv-player&video=2-3) to our ministry web site, and we encourage you to take a look!
 
-We're also gearing up for <a title="CMO 2012" href="http://euroteamoutreach.org/index.php?p=cmo">Carpathian Mountain Outreach 2012</a>. While it's still several months away, preparations are already underway, and we have several young men who are serious about coming over for the project. If you'd like to learn more about CMO, please visit our web site and download the <a href="http://euroteamoutreach.org/cmo/download_app.php">Application</a> and <a href="http://euroteamoutreach.org/cmo/download_ip.php">Info Pack</a>. If you or someone you know is interested in coming, now's the time to apply!
+We're also gearing up for [Carpathian Mountain Outreach 2012](http://euroteamoutreach.org/index.php?p=cmo). While it's still several months away, preparations are already underway, and we have several young men who are serious about coming over for the project. If you'd like to learn more about CMO, please visit our web site and download the [Application](http://euroteamoutreach.org/cmo/download_app.php) and [Info Pack](http://euroteamoutreach.org/cmo/download_ip.php). If you or someone you know is interested in coming, now's the time to apply!

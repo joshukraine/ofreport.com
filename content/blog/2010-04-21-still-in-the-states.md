@@ -10,7 +10,7 @@ tags:
 slug: 2010-04-21-still-in-the-states
 ---
 
-Yep, we're still here! Why? Just Google the terms "<a href="http://lmgtfy.com/?q=iceland+volcano" target="_blank">Iceland volcano</a>" and you'll find a whole pile of news stories covering the most recent act of God which has paralyzed European air travel. Bottom line: our original flight to Ukraine was cancelled, and we have been rebooked for April 27th, ash-cloud permitting. Please pray that God would remove this ash cloud and that we would have safe flying conditions for our return to L'viv. Traveling with us on the same day will be Bryan Shufelt.
+Yep, we're still here! Why? Just Google the terms "[Iceland volcano](http://lmgtfy.com/?q=iceland+volcano)" and you'll find a whole pile of news stories covering the most recent act of God which has paralyzed European air travel. Bottom line: our original flight to Ukraine was cancelled, and we have been rebooked for April 27th, ash-cloud permitting. Please pray that God would remove this ash cloud and that we would have safe flying conditions for our return to L'viv. Traveling with us on the same day will be Bryan Shufelt.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/04/DSC_8837.jpg" caption="The Steele Clan at a recent family night" >}}
 
@@ -31,8 +31,8 @@ Remember a few months ago when we told you about some immigration snags that wer
 ## Hank Thompson
 
 Speaking of preaching, we recently had the honor of hosting Hank Thompson and his family at our house in Fort Worth. Hank and his wife Amy are just back from Thailand and are speaking and preaching at various locations in the US. Also traveling with the Thompsons are the Murphy's. Like Hank, Bryce Murphy is a street preacher. Bryce, Hank, myself and a couple of other men went to downtown Fort Worth one night while they were here and preached the Gospel on the street corners for a couple of hours. I hadn't done that in a while, and even though my voice gave out quickly, it was wonderful to once again be proclaiming Christ in the "highways and hedges." I stand fully behind Hank's ministry, and I believe that God is using him in a powerful way to open the eyes of sinners to their need for the Lord Jesus. If you'd like to get a fresh dose of encouragement and vision for front-line evangelism, contact Hank about speaking at your church. You'll be glad you did! Here's how to contact Hank:
-E-mail: <a href="mailto:henry.hispower@gmail.com">henry.hispower@gmail.com</a>
-Web site: <a href="http://www.HisPower.org" target="_blank">www.HisPower.org</a>
+E-mail: [henry.hispower@gmail.com](mailto:henry.hispower@gmail.com)
+Web site: [www.HisPower.org](http://www.HisPower.org)
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/04/DSC_8799.jpg" caption="Hank Thompson, his wife Amy, and their two children" >}}
 
@@ -40,6 +40,6 @@ Web site: <a href="http://www.HisPower.org" target="_blank">www.HisPower.org</a>
 
 ## CMO Plans
 
-Good news for all you procrastinators out there: the CMO 2010 deadline has been moved back to May 15! Time is running out, so if you want to come, <a href="http://www.euroteamoutreach.org/index.php?p=cmo" target="_blank">download the app from our web site</a> and get it to us ASAP! CMO begins June 1, and if you want to come we need to hear from you right away. If you have any questions, please don't hesitate to <a href="http://www.euroteamoutreach.org/index.php?p=contact">contact us</a>.
+Good news for all you procrastinators out there: the CMO 2010 deadline has been moved back to May 15! Time is running out, so if you want to come, [download the app from our web site](http://www.euroteamoutreach.org/index.php?p=cmo) and get it to us ASAP! CMO begins June 1, and if you want to come we need to hear from you right away. If you have any questions, please don't hesitate to [contact us](http://www.euroteamoutreach.org/index.php?p=contact).
 
 <p style="text-align: center;">{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/04/cmo_2010_logo-277x300.jpg" >}}</p>

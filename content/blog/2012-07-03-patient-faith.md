@@ -21,4 +21,4 @@ Sorry, your browser does not support the audio element.
 
 <br>
 
-<a title="Patient Faith by Joshua Steele" href="//d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3">Download (24 MB)</a>
+[Download (24 MB)](//d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3)

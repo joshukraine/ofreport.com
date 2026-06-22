@@ -29,9 +29,9 @@ We are currently finishing the writing process for Lesson 13 (Sodom and Gomorrah
 
 ### New Blog Feature (from Josh ;) )
 
-You may have noticed that on the side bar of our blog there is a new section called Josh's Twitter Feed. <a title="Visit Twitter.com" href="http://twitter.com/" target="_blank">Twitter</a> is a free online service used to communicate and stay connected through the exchange of short text messages. These messages can be posted via the Twitter web site, or even through one's mobile telephone, and are then immediately displayed on our blog. We find Twitter useful for those times when we'd like to post a quick note or update, but don't have time to put together an entire blog post.
+You may have noticed that on the side bar of our blog there is a new section called Josh's Twitter Feed. [Twitter](http://twitter.com/) is a free online service used to communicate and stay connected through the exchange of short text messages. These messages can be posted via the Twitter web site, or even through one's mobile telephone, and are then immediately displayed on our blog. We find Twitter useful for those times when we'd like to post a quick note or update, but don't have time to put together an entire blog post.
 
 So if you're looking for news from the Steele's, be sure to check the Twitter feed. If you like, you can open your own Twitter account and follow us online.
 
-* Follow Joshua @ <a href="http://twitter.com/joshukraine">http://twitter.com/joshukraine</a>
-* Follow Kelsie @ <a href="http://twitter.com/steelekelsie">http://twitter.com/steelekelsie</a>
+* Follow Joshua @ [http://twitter.com/joshukraine](http://twitter.com/joshukraine)
+* Follow Kelsie @ [http://twitter.com/steelekelsie](http://twitter.com/steelekelsie)

@@ -19,6 +19,6 @@ Well, it's been a while, but today we uploaded a new issue of our print newslett
 {{< callout pdf="OFR-Jan-2012.pdf" >}}
 {{< /callout >}}
 
-In case you haven't seen it, you can view our latest <a title="ETO Video Reports on Vimeo" href="http://vimeo.com/album/1692055" target="_blank">ETO Video Report</a> below. Thanks for praying for our family and work here in Ukraine!
+In case you haven't seen it, you can view our latest [ETO Video Report](http://vimeo.com/album/1692055) below. Thanks for praying for our family and work here in Ukraine!
 
 {{< vimeo 33968788 >}}

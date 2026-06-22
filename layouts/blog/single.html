@@ -19,7 +19,7 @@
           class="glightbox block"
           data-type="image"
           data-gallery="article"
-          {{- with $.Params.caption }} data-description="{{ . }}"{{ end }}
+          {{- with $.Params.caption }} data-description="{{ partial "caption-plain.html" . }}"{{ end }}
         >
           <img
             src="{{ $hero }}"
@@ -47,7 +47,10 @@
         {{- end -}}
       {{- end -}}
       {{- if and .Params.cover .Params.caption }}
-        <p class="mt-2 text-center text-sm font-semibold text-gray-500 sm:text-base">{{ .Params.caption }}</p>
+        {{- /* markdownify (not raw output) so caption links/emphasis render and
+               pass through the link render hook — matches the figure shortcode
+               caption (#144). Inline HTML like <br> still renders via unsafe=true. */ -}}
+        <p class="mt-2 text-center text-sm font-semibold text-gray-500 sm:text-base">{{ .Params.caption | markdownify }}</p>
       {{- end }}
 
       {{/* Article title */}}

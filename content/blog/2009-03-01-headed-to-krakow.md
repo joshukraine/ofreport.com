@@ -18,4 +18,4 @@ This time, our trip is a little more complicated. My current visa expires in Apr
 * Pray that I will be granted a new, five-year, multi-entry visa without any problems. Normally, this is a same-day operation. We will be applying for the visa this coming Wednesday.
 * Pray for our children, Abigail and Rebekah, who will be staying in L'viv with friends.
 
-We may not be able to upate our blog very much while we're gone, but I'll try to stay up to date on <a href="http://twitter.com/joshukraine" target="_blank">Twitter</a> as much as possible.
+We may not be able to upate our blog very much while we're gone, but I'll try to stay up to date on [Twitter](http://twitter.com/joshukraine) as much as possible.

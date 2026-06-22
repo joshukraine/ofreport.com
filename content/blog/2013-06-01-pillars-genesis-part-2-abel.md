@@ -9,7 +9,7 @@ tags:
 slug: 2013-06-01-pillars-genesis-part-2-abel
 ---
 
-The following is an excerpt taken from the twentieth and final lesson of *<a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">Bible First</a>*.
+The following is an excerpt taken from the twentieth and final lesson of *[Bible First](http://www.getbiblefirst.com)*.
 
 ### Abel’s Atonement
 

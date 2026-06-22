@@ -17,7 +17,7 @@ Better late than never? I suppose the truth of that statement depends on the sit
 
 ## New OFR Available
 
-The publication of our newsletter, Overseas Field Report, has admittedly fallen behind schedule. The main reason for this is that more and more of our reporting is now done online. At any rate, the latest PDF copy of Overseas Field Report has been mailed out to all our regular subscribers. If you haven't seen it yet, you can <a href="/archives">download it here</a>.
+The publication of our newsletter, Overseas Field Report, has admittedly fallen behind schedule. The main reason for this is that more and more of our reporting is now done online. At any rate, the latest PDF copy of Overseas Field Report has been mailed out to all our regular subscribers. If you haven't seen it yet, you can [download it here](/archives).
 
 {{< callout pdf="OFR-April-2011.pdf" >}}
 {{< /callout >}}

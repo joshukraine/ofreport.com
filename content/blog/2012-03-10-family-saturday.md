@@ -25,6 +25,6 @@ Today we decided to take the whole family out for trip to downtown L'viv. We sta
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/03/family-saturday21.jpg" caption="My little Rebekah Praise" >}}
 
-And that's not all! <a title="Family Saturday (Facebook album)" href="https://www.facebook.com/media/set/?set=a.3216653888802.2147337.1040006553&amp;type=1&amp;l=75cb04edad" target="_blank">Check out the full Family Saturday album here</a>.
+And that's not all! [Check out the full Family Saturday album here](https://www.facebook.com/media/set/?set=a.3216653888802.2147337.1040006553&type=1&l=75cb04edad).
 
-Lastly, please remember to pray for <a title="Going to Krakow!" href="../../03/krakow/" target="_blank">our upcoming trip to Poland</a>. We leave very early Monday morning, documents in hand, headed for the Ukrainian consulate in Krakow. We'll arrive in Krakow late in the afternoon Monday, spend the night, then go to the consulate on Tuesday morning. Lord willing, we'll receive our visas that same day. Please pray that God would bless every step of this trip. We'll keep you posted!
+Lastly, please remember to pray for [our upcoming trip to Poland](/blog/2012-03-07-krakow/). We leave very early Monday morning, documents in hand, headed for the Ukrainian consulate in Krakow. We'll arrive in Krakow late in the afternoon Monday, spend the night, then go to the consulate on Tuesday morning. Lord willing, we'll receive our visas that same day. Please pray that God would bless every step of this trip. We'll keep you posted!

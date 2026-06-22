@@ -9,7 +9,7 @@ tags:
 slug: 2009-01-20-welcome-bryan-shufelt
 ---
 
-This week, we are excited to announce the arrival of a new ETO team member: missionary Bryan Shufelt. Bryan served here in Ukraine with us during <a href="http://cmoproject.org/" target="_blank">CMO 2006</a>, and proved himself a capable and faithful minister of the Gospel. Bryan is sent out <a href="http://www.fairparkbaptist.org/" target="_blank">Fairpark Baptist Church</a> in Fort Worth, Texas.
+This week, we are excited to announce the arrival of a new ETO team member: missionary Bryan Shufelt. Bryan served here in Ukraine with us during [CMO 2006](http://cmoproject.org/), and proved himself a capable and faithful minister of the Gospel. Bryan is sent out [Fairpark Baptist Church](http://www.fairparkbaptist.org/) in Fort Worth, Texas.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/bryan.jpg" caption="Bryan Shufelt" >}}
 

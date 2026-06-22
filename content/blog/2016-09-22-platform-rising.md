@@ -25,7 +25,7 @@ As I further developed my ministry, I ran into an unexpected frustration. Despit
 
 ### Audience First
 
-If you’ve watched our <a href="http://getbiblefirst.com/training/#video-start">Bible First training videos</a>, then you are familiar with a concept we teach called “Audience First”. The basic idea is that in order to be effective in communicating a message, you first need to establish a hearing with your target audience. In social media, this is often referred to as “building a platform.”
+If you’ve watched our [Bible First training videos](http://getbiblefirst.com/training/#video-start), then you are familiar with a concept we teach called “Audience First”. The basic idea is that in order to be effective in communicating a message, you first need to establish a hearing with your target audience. In social media, this is often referred to as “building a platform.”
 
 Our world today is filled with voices competing for their turn at the mic. Everyone, it seems, has something to say, but not everyone has a platform from which to say it.
 

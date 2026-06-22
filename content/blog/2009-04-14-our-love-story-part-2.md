@@ -10,7 +10,7 @@ tags:
 slug: 2009-04-14-our-love-story-part-2
 ---
 
-*The following post is the second installment in a series of articles we are publishing about how God brought us together as a couple. If you haven't already done so, be sure to <a href="https://www.OFReport.com/blog/2009-03-02-our-love-story">read Part 1 first</a>.*
+*The following post is the second installment in a series of articles we are publishing about how God brought us together as a couple. If you haven't already done so, be sure to [read Part 1 first](https://www.OFReport.com/blog/2009-03-02-our-love-story).*
 
 On March 18, 2001, I left the United States bound for L'viv, Ukraine, and the beginning of my work as a full-time missionary overseas. I was 21. At the time, marriage was not even on the radar for me. I had already purposed that I would first establish my work on the field - especially mastery of the language - before I even considered taking a wife. Within a year of my arrival on the field, I was preaching in Ukrainian, and ministering regularly with a local church in L'viv. While I was content to serve the Lord in singleness during that time, my days often seemed quite lonely. Having grown up in a large family, I was unaccustomed to being alone in a quiet apartment with no one to talk to. I did have a roommate, but it wasn't the same. I was beginning to feel a bit like Adam in the garden of Eden: my job was established, my needs were provided, but only half of me was there to enjoy it.
 
