@@ -17,4 +17,4 @@ Walter Williams, an economics professor at George Mason University, said this 
 
 If you love freedom, you will be blessed by reading The Law. Here's where to get it:
 
-<p style="text-align: center;"><a title="Download The Law in PDF format" href="https://mises.org/library/law" target="_blank">Read online</a> | <a title="Free audio book" href="https://mises.org/library/law-0" target="_blank">Free audio book</a> | <a title="The Law in Russian" href="http://www.libertarium.ru/libertarium/lib_law" target="_blank">The Law in Russian</a></p>
+<p style="text-align: center;"><a title="Download The Law in PDF format" href="https://mises.org/library/law" target="_blank">Read online</a> | <a title="Free audio book" href="https://mises.org/library/law" target="_blank">Free audio book</a> | <a title="The Law in Russian" href="http://www.libertarium.ru/libertarium/lib_law" target="_blank">The Law in Russian</a></p>

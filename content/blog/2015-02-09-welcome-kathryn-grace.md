@@ -30,7 +30,7 @@ This year’s CMO project is on track to begin June 15th. As I mentioned above, 
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/02/cmo_2015_logo-417x450.png" caption="cmo_2015_logo" >}}
 
-The deadline to [register for CMO 2015 is May 1](http://www.euroteamoutreach.org/index.php?p=cmo), so if you or someone you know is interested in coming, please contact us right away! And of course, please continue to lift up our team in prayer as we make preparations for the summer.
+The deadline to [register for CMO 2015 is May 1](https://cmoproject.org/), so if you or someone you know is interested in coming, please contact us right away! And of course, please continue to lift up our team in prayer as we make preparations for the summer.
 
 ### *Bible First* Update
 
