@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Historically, men have sought God’s favor through their works. While this pursuit is theoretically legitimate, it is always found inadequate due to the presence of sin. Although righteous works are indeed pleasing to God, they cannot undo evil works.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Abraham.jpg" caption="{: .article-image .article-image--has-caption}" alt="Abraham" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Abraham-372x450.jpg" caption="{: .article-image .article-image--has-caption}" alt="Abraham" >}}
 “But without faith it is impossible to please [God]…” (Hebrews 11:6)
 {: .caption-text .article-image__caption}
 

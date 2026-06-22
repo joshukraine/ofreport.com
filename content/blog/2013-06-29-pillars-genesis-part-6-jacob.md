@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Jacob, the third of the great patriarchs, seemed an unlikely candidate to carry on the Abrahamic covenant, and yet his life demonstrated a personal relationship with God and a genuine walk of faith. Many aspects of Jacob’s life parallel that of Christ, but perhaps most significant is his inheritance.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Jacob.jpg" caption="{: .article-image}" alt="Jacob" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Jacob-366x450.jpg" caption="{: .article-image}" alt="Jacob" >}}
 
 On the night that Jacob wrestled with God, his name was changed to Israel, which also became the name of the nation God had revealed to Abraham years earlier. Jacob’s sons, who themselves became the heads of twelve tribes, were born into a glorious inheritance. From their lineage sprang a nation without equal on the earth: chosen of God, blessed of God, and known to the world as the people of God.
 
