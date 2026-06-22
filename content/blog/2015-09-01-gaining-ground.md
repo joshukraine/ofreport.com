@@ -26,7 +26,7 @@ But what are five people among 300,000? Maybe not much in terms of numbers, but 
 
 Year after year, our stats continue to demonstrate that around 40% of all our Bible students enroll via word-of-mouth recommendations. These are people with whom we never had any direct contact who are now reaching out to us with a desire to study the Word of God. And as Paul reminds us in Romans 10:17, *“...faith cometh by hearing, and hearing by the word of God.”*
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/38-20150620_175158.png" caption="{: .article-image}" alt="38-20150620_175158" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/38-20150620_175158.png" alt="38-20150620_175158" >}}
 
 ### New Fronts
 
@@ -36,9 +36,7 @@ For example, James Slice, who served with us last year, has just returned from s
 
 Men from the CMO 2015 team are also moving forward in ministry. Emanuel Schrock has already conducted literature campaigns of his own since returning from Ukraine, and he is currently studying linguistics in preparation for mission work overseas. Adam Hall is getting ready to spend a year in northern Africa with a mission work that’s previously been established there. The Henderson family continues to build their *Bible First* course in Minnesota, and they’ve been involving other believers in outreaches in their community.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/36-CMO2015-Team-Photo.png" caption="{: .article-image .article-image--has-caption}" alt="The CMO 2015 team. From the left: Isaiah, Emanuel, Caleb, Ben, Nathan, Joshua, Joe, and Adam." >}}
-The CMO 2015 team. From the left: Isaiah, Emanuel, Caleb, Ben, Nathan, Joshua, Joe, and Adam.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/36-CMO2015-Team-Photo.png" caption="The CMO 2015 team. From the left: Isaiah, Emanuel, Caleb, Ben, Nathan, Joshua, Joe, and Adam." >}}
 
 As always, your prayer support is greatly needed! Pray not only for our team here in Ukraine, but for these who are entering new fields, proclaiming the Lord to men and women who do not yet know Him.
 
@@ -49,18 +47,10 @@ As always, your prayer support is greatly needed! Pray not only for our team her
 * Pray for the Day family as they prepare to travel to the US for the birth of their third child.
 * Pray our staff here as we deal with the large quantities of mail we are receiving from our Bible students.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/31-IMG_2016.png" caption="{: .article-image .article-image--has-caption}" alt="Nathan Day and Adam (a young man from the east of Ukraine) distribute Good and Evil books in a gypsy village in the Carpathians." >}}
-Nathan Day and Adam (a young man from the east of Ukraine) distribute Good and Evil books in a gypsy village in the Carpathians.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/31-IMG_2016.png" caption="Nathan Day and Adam (a young man from the east of Ukraine) distribute Good and Evil books in a gypsy village in the Carpathians." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/22-IMG_1321.png" caption="{: .article-image .article-image--has-caption}" alt="One of our larger film showings this year in the mountains" >}}
-One of our larger film showings this year in the mountains
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/22-IMG_1321.png" caption="One of our larger film showings this year in the mountains" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/25-CMO-Week-4-128.png" caption="{: .article-image .article-image--has-caption}" alt="Preaching the Gospel after the showing" >}}
-Preaching the Gospel after the showing
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/25-CMO-Week-4-128.png" caption="Preaching the Gospel after the showing" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/54-CMO-Wk-1-Mango-547.png" caption="{: .article-image .article-image--has-caption}" alt="Happy to have a Good and Evil book!" >}}
-Happy to have a Good and Evil book!
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/54-CMO-Wk-1-Mango-547.png" caption="Happy to have a Good and Evil book!" >}}

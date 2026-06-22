@@ -10,9 +10,7 @@ slug: 2009-03-01-headed-to-krakow
 
 Once again, Kels and I are embarking on one of our mandatory, twice-a-year "vacations." Even though we have Ukrainian multi-entry visas that are good for five years, the law still states that we have to leave the country every six months and come back in again. (sigh) Technically, there are ways around this (yes, we know about registration), but for us, a trip into Poland twice a year has historically been cheaper, simpler, and infinitely more pleasant than the alternative.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/cmo2006_007_lg.jpg" caption="{: .article-image .article-image--has-caption}" alt="One of the many elegant courtyards inside Krakow's famous Wawel Castle." >}}
-One of the many elegant courtyards inside Krakow's famous Wawel Castle.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/cmo2006_007_lg.jpg" caption="One of the many elegant courtyards inside Krakow's famous Wawel Castle." >}}
 
 This time, our trip is a little more complicated. My current visa expires in April, and so I need to apply for a new visa at the Ukrainian consulate in Krakow. I have spoken with the consulate by phone, and it looks like all is in order. I have all my documents ready. Still, there are a lot of variables, and we would appreciate your prayers.
 

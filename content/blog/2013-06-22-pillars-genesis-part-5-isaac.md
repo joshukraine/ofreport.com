@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 After repeatedly promising Abraham that he would become a great nation, God fulfilled His word by giving Abraham a miracle son: Isaac. Given this background, one can only imagine the shock Abraham must have experienced when God commanded him to offer Isaac as a sacrifice. Not only was human sacrifice inconsistent with God’s previous commands regarding the sanctity of life, but this new directive seemed a contradiction of His promise to make Abraham the head of a great nation. How could there ever be such a nation if God’s promised child, Isaac, was to die?
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Isaac-349x450.jpg" caption="{: .article-image}" alt="Isaac" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Isaac-349x450.jpg" alt="Isaac" >}}
 
 Happily, faith in God’s direction was a lesson Abraham had learned well. Although overcome with sorrow, he set out immediately to obey. When all was ready and Isaac lay bound on the altar, Abraham lifted the knife to slay his son. At the last moment, God intervened and saved Isaac’s life, saying, *“…Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.” (Genesis 22:12)* The test was over, and Abraham had passed.
 

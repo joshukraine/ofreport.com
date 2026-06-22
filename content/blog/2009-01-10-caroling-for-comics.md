@@ -13,8 +13,6 @@ Here in Ukraine, it is common for children to go door to door and sing Christmas
 
 The next day, guess who was at the door? One of the kids had already read his copy of *Good and Evil* Short and now the others wanted one. We showed them the full version of *Good and Evil*, and explained how they could mail in the form at the back of *Good and Evil* Short to receive a copy on the mail. Then we gave them all their own copies of *Good and Evil* Short and they went happily on their way.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4390.jpg" caption="{: .article-image .article-image--has-caption}" alt="The boys who came to carol at our house show off their new copies of Good and Evil." >}}
-The boys who came to carol at our house show off their new copies of Good and Evil.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4390.jpg" caption="The boys who came to carol at our house show off their new copies of Good and Evil." >}}
 
 We are very excited about the *Good and Evil* project in Ukrainian and are already seeing very positive responses to this powerful book. If you are interested in purchasing copies of *Good and Evil* in Ukrainian for friends, churches, missionaries, etc. please contact us for details. We can ship the books to any address in Ukraine or the US.

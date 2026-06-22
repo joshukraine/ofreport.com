@@ -14,23 +14,17 @@ As the days passed, my confidence in our relationship grew steadily. Soon, I dec
 
 Armed with this approval, I purchased a dozen red roses and placed them in the parlor of my Grandmother’s house, where Kelsie had been staying. That afternoon, Kelsie and I entered the parlor together where she immediately saw the flowers. Her face beamed as she noticed the card protruding from the side. Inscribed on it in large letters were the words: “I love you, Princess Kelsie!”
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1124.jpg" caption="{: .article-image .article-image--has-caption}" alt="&quot;I love you, Princess Kelsie!&quot;" >}}
-"I love you, Princess Kelsie!"
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1124.jpg" caption="\"I love you, Princess Kelsie!\"" >}}
 
 A few days later, I asked Kelsie to marry me, and she joyfully agreed. Perhaps no two people on earth were happier that day than we were. After long months of waiting, seeking, praying and trusting God, we knew for certain that each of us had found our life-partner in the other.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1179.jpg" caption="{: .article-image .article-image--has-caption}" alt="She said yes!" >}}
-She said yes!
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1179.jpg" caption="She said yes!" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/IMG_1235.jpg" caption="{: .article-image .article-image--has-caption}" alt="Planning the wedding at the Powells' home in Canada" >}}
-Planning the wedding at the Powells' home in Canada
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/IMG_1235.jpg" caption="Planning the wedding at the Powells' home in Canada" >}}
 
 The days and weeks that followed were a delightful blend of travel, meeting family, wedding planning, and of course, spending every possible moment with each other. On September 18, 2004 our young courtship officially ended as we crossed the threshold from singleness into marriage. Less than a month later, we arrived in Ukraine as a missionary couple and began building our new life together.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1129.jpg" caption="{: .article-image}" alt="111_1129" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1129.jpg" alt="111_1129" >}}
 
 ### Ever After
 
@@ -41,18 +35,12 @@ We count ourselves very blessed to have had parents and mentors who urged us to 
 *“Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”*
 *(Prov. 3:5-6)*
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/157_5780.jpg" caption="{: .article-image .article-image--has-caption}" alt="From the left: Cindy Powell, Danny Powell, Kelsie, Joshua, Cathy Steele, Mike Steele" >}}
-From the left: Cindy Powell, Danny Powell, Kelsie, Joshua, Cathy Steele, Mike Steele
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/157_5780.jpg" caption="From the left: Cindy Powell, Danny Powell, Kelsie, Joshua, Cathy Steele, Mike Steele" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/160_6056A.jpg" caption="{: .article-image}" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/160_6056A.jpg" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/161_6167.jpg" caption="{: .article-image}" alt="161_6167" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/161_6167.jpg" alt="161_6167" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/IMG_1512.jpg" caption="{: .article-image .article-image--has-caption}" alt="Honeymooning in Eureka Springs" >}}
-Honeymooning in Eureka Springs
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/IMG_1512.jpg" caption="Honeymooning in Eureka Springs" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/IMG_5706-8X10.jpg" caption="{: .article-image .article-image--has-caption}" alt="The honeymoon continues..." >}}
-The honeymoon continues...
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/IMG_5706-8X10.jpg" caption="The honeymoon continues..." >}}

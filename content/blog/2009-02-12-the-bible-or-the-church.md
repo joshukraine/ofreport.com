@@ -14,9 +14,7 @@ slug: 2009-02-12-the-bible-or-the-church
 
 Last time at ABS (Audio Bible Study), I taught from John chapter 20 on the resurrection. During the course of the lesson, one of the verses I cited was I Timothy 2:5: *"For there is one God, and one mediator between God and men, the man Christ Jesus;"* After the lesson had ended, one of our students, Marian, came up to ask me about this point.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4871.jpg" caption="{: .article-image .article-image--has-caption}" alt="Joshua and Marian chat after ABS." >}}
-Joshua and Marian discuss the Bible after ABS.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4871.jpg" caption="Joshua and Marian discuss the Bible after ABS." >}}
 
 He began by explaining that once he had asked his priest why he should pray to an icon. The priest had replied that the icon was a "mediator" between himself and God. In contrast, we had shown clearly from Scripture that Christ is the ONLY mediator between us and the Father. "Why then would the Church promote prayer to icons if the Bible forbids this?" Marian asked.
 
@@ -24,17 +22,11 @@ We had quite a long conversation about the matter, but the primary issue that we
 
 While this is a difficult choice for many, I believe that Marian has a sincere desire to follow the Lord. Each week he comes to me with new questions. Please continue to pray for him and for the other Ukrainians attending ABS. Pray that their eyes will be opened and that they will come to saving faith in Jesus Christ.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4872.jpg" caption="{: .article-image .article-image--has-caption}" alt="Taras (right) brought his friend Igor (left) to ABS last time. Igor said he enjoyed it and would be back again." >}}
-Taras (right) brought his friend Igor (left) to ABS last time. Igor said he enjoyed it and would be back again.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4872.jpg" caption="Taras (right) brought his friend Igor (left) to ABS last time. Igor said he enjoyed it and would be back again." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4867.jpg" caption="{: .article-image .article-image--has-caption}" alt="During English Club, everyone splits up into groups to practice conversational skills." >}}
-During English Club, everyone splits up into groups to practice conversational skills.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4867.jpg" caption="During English Club, everyone splits up into groups to practice conversational skills." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4863.jpg" caption="{: .article-image .article-image--has-caption}" alt="Jessie (right) chats with Taras (left) during English Club." >}}
-Jessie (right) chats with Taras (left) during English Club.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4863.jpg" caption="Jessie (right) chats with Taras (left) during English Club." >}}
 
 ### A NOTE OF CLARIFICATION
 

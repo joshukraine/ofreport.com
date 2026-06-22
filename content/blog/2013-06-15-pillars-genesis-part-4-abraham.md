@@ -15,9 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Historically, men have sought God’s favor through their works. While this pursuit is theoretically legitimate, it is always found inadequate due to the presence of sin. Although righteous works are indeed pleasing to God, they cannot undo evil works.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Abraham-372x450.jpg" caption="{: .article-image .article-image--has-caption}" alt="Abraham" >}}
-“But without faith it is impossible to please [God]…” (Hebrews 11:6)
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Abraham-372x450.jpg" caption="“But without faith it is impossible to please [God]…” (Hebrews 11:6)" >}}
 
 When God promised to give Abraham a son under impossible circumstances, Abraham believed that God would do exactly as He said. As a result of Abraham’s faith, God chose to attribute His own perfect righteousness to Abraham. Abraham’s deliberate belief in God’s promise became the standard by which all men would eventually have opportunity to be reconciled to their Creator. For this reason, the story of Abraham’s faith, as recorded in Genesis 15 and later expounded in Romans 4, represents the most foundational doctrine in all of Scripture. The great significance of Abraham’s faith is found in its result: imputed righteousness.
 
