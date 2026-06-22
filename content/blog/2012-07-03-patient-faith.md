@@ -15,10 +15,10 @@ You can listen to the message using the audio player below, or download it by ri
 ### Patient Faith (51 minutes)
 
 <audio width="300" height="32" controls="controls">
-<source src="//d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3" type="audio/mpeg" />
+<source src="https://d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3" type="audio/mpeg" />
 Sorry, your browser does not support the audio element.
 </audio>
 
 <br>
 
-[Download (24 MB)](//d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3)
+[Download (24 MB)](https://d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3)
