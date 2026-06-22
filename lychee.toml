@@ -1,0 +1,64 @@
+# lychee.toml — site-wide link-check config for the launch gate (issue #168).
+#
+# Run after a clean build (from the repo root):
+#   hugo --gc --minify --cleanDestinationDir
+#   lychee --root-dir "$PWD/public" public
+#
+# lychee auto-loads this file. --root-dir resolves Hugo's root-relative links
+# (/blog/...) against ./public as local files; everything else is checked over
+# the network. Internal links are the hard gate — they must all resolve. The
+# `exclude` list below records the outbound triage: links that fail automated
+# checks but work in a browser, plus dead legacy links with no live equivalent
+# (the fixable ones were repointed in content). See docs/link-check.md.
+
+# 403/429 = bot-blocked or rate-limited (the link works fine in a browser).
+accept = "200..=206, 403, 429"
+
+max_concurrency = 16
+timeout = 20
+max_retries = 1
+
+exclude = [
+  # Production domain — verified separately by the URL-parity gate
+  # (docs/url-parity/verify.py, #173). Checking it here would hit the live
+  # (still-Nuxt) site rather than this build.
+  '^https?://([a-z0-9-]+\.)?ofreport\.com',
+
+  # Our own Cloudinary image CDN. Excluded for two reasons: (1) bulk automated
+  # HEADs to hundreds of derivatives get throttled, yielding non-deterministic
+  # "connection failed" noise (the images are live — verified by curl); (2) cover
+  # images already have a dedicated gate, scripts/probe-covers.rb (#166). This
+  # gate targets navigation + outbound links, not our asset CDN. See docs/link-check.md.
+  '^https://res\.cloudinary\.com/',
+
+  # --- Not actually broken (work in a browser, fail automated checks) ---
+  # Vimeo embed players answer 401 to direct requests but play when embedded.
+  '^https?://player\.vimeo\.com/video/',
+  # Ford UK returns an HTTP/2 protocol error to lychee; the page loads fine.
+  '^https://www\.ford\.co\.uk/cars/tourneo-custom/',
+  # Animated-GIF lightbox derivative exceeds Cloudinary's transform pixel budget
+  # at w_1600 (the figure itself displays fine). One image; see docs/link-check.md.
+  'you-monster-gif-12_cfwfl8',
+
+  # --- Dead legacy links, no live equivalent (accepted; see docs/link-check.md) ---
+  # Old Euro Team Outreach PHP site — the org restructured; the two live CMO
+  # links were repointed to cmoproject.org, the rest have no equivalent.
+  '^https?://(www\.)?euroteamoutreach\.org/(index\.php|cmo/download|zhylavy)',
+  # Defunct domains / removed pages.
+  '^http://picasaweb\.google\.com/',
+  '^http://(www\.)?lmgtfy\.(com|app)/',
+  '^http://www\.generation-impact\.com/',
+  '^http://www\.hispower\.org/',
+  '^http://www\.libertarium\.ru/',
+  '^https://www\.pysannya\.com/',
+  '^https://kadebloomukraine\.com/',
+  '^https://covid19\.gov\.ua/',
+  '^https://(www\.)?mealtrain\.com/9wlnd5',
+  '^https://jsua\.co/jan-2021-invitation',
+  '^https://travel\.state\.gov/.*covid-19_testing_required',
+  '^https://unsplash\.com/@yirage',
+  '^https://militaryland\.net/(ukraine/invasion-day-98-summary|maps/invasion-maps)',
+  # Recent (2025) NoGreaterJoy "Donate Now" product page 404s; awaiting the
+  # current giving URL. TODO: repoint when provided (docs/link-check.md).
+  '^https://nogreaterjoy\.org/shop/ministry-gift-ukraine-ge-printing',
+]
