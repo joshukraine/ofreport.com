@@ -24,12 +24,8 @@ Kelsie’s immediate response was to get alone and pray. She had my letter, the 
 
 As Kelsie prayed, the rest of us held our breaths and waited. Happily, we did not have to wait long. A few hours later I received Kelsie’s response in which she excitedly agreed to begin a relationship!
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/12/P1010014_2.jpg" caption="{: .article-image .article-image--has-caption}" alt="Our moms met and chatted at the girls' retreat before Kelsie knew what was going on." >}}
-Our moms met and chatted at the girls' retreat before Kelsie knew what was going on.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/12/P1010014_2.jpg" caption="Our moms met and chatted at the girls' retreat before Kelsie knew what was going on." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/12/P1010013_2.jpg" caption="{: .article-image .article-image--has-caption}" alt="Suddenly, Kelsie was spending a lot more time with her email!" >}}
-Suddenly, Kelsie was spending a lot more time with her email!
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/12/P1010013_2.jpg" caption="Suddenly, Kelsie was spending a lot more time with her email!" >}}
 
 [Part 6: Mystery Courtship](/blog/2013-01-04-love-story-part-6/)

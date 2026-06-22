@@ -20,24 +20,15 @@ On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK
 
 I agreed and our first class was held on the Sunday after Easter. I brought a short message for the church during which I introduced *Bible First*, giving an overview of the course and explaining our goals to the parents. I then invited all the older kids up on the stage and gave them three challenges on which to focus as we started our new class: 1. Set aside childish things (1 Cor. 13:11), 2. Build a Godly reputation (Prov. 20:11), and 3. Seek the Lord in their youth (Eccl. 12:1). This done, we prayed and exited the main auditorium together.
 
-[![The class receives three challenges in front of the congregation on our first day.](https://d21yo20tm8bmc2.cloudfront.net/2017/challenge-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/challenge-1440w.jpg)
-{: .article-image .article-image--has-caption}
-The class receives three challenges in front of the congregation on our first day.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/challenge-1440w.jpg" caption="The class receives three challenges in front of the congregation on our first day." >}}
 
 I was glad that Pastor Vladyslav was joining me to help lead the class. Most of my Bible teaching experience has been with adults, and I confess I was bit nervous with the idea of committing to lead a weekly kids' class. That first day, however, laid my fears to rest. We got right down to business, reading through a good portion of Lesson 1. I also introduced the kids to "sword drills", wherein everyone practices finding various passages in their Bibles as quickly as possible. Whoever finds the passage first reads it aloud. He then comes to the front and leads the next drill.
 
-[![Danylo Medyakovsky (16) takes a turn leading the class in sword drills.](https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-2000w.jpg)
-{: .article-image .article-image--has-caption}
-Danylo Medyakovsky (16) takes a turn leading the class in sword drills.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-2000w.jpg" caption="Danylo Medyakovsky (16) takes a turn leading the class in sword drills." >}}
 
 In addition to reading through *Bible First* lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter "intro" message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
 
-[![The kids takes notes while listening to a message in the main service.](https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-2000w.jpg)
-{: .article-image .article-image--has-caption}
-The kids takes notes while listening to a message in the main service.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-2000w.jpg" caption="The kids takes notes while listening to a message in the main service." >}}
 
 On several occasions, God has opened the door for me to have one-on-one conversations with various kids. These have proven to be good opportunities to get better acquainted and to encourage them to make wise decisions.
 
@@ -52,8 +43,7 @@ We’ve now finished Lesson 1 of *Bible First*, and we’re about halfway throug
 
 Have you wondered whether or not *Bible First* could help you teach your kids about the Lord? Give it a try! While some of the material is definitely advanced, an attentive teacher or parent can easily fill in the gaps. I think you’ll find, as we have, that reading through *Bible First* with your children will prompt much needed conversations about the Lord. What an exciting privilege to introduce these young ones to Christ!
 
-[Learn more about Bible First](https://getbiblefirst.com/){: .button}
-{: .article-button}
+{{< button href="https://getbiblefirst.com/" text="Learn more about Bible First" external=true >}}
 
 ### Good and Evil Update
 

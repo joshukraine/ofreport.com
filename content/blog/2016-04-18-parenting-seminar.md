@@ -34,17 +34,11 @@ Kelsie and I spent many hours on the couch, huddled around the laptop, typing ou
 
 Finally the day came. Speaking tag-team, in Ukrainian, for nearly seven hours turned about to be both exhausting and very rewarding. I believe God used the seminar to bless these families, and we pray that as a result, many Ukrainian children we will grow up to walk with Jesus.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/IMG_6940-e1460954875136.jpg" caption="{: .article-image .article-image--has-caption}" alt="It’s a great encouragement to see young families train up their children to follow the Lord." >}}
-It’s a great encouragement to see young families train up their children to follow the Lord.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/IMG_6940-e1460954875136.jpg" caption="It’s a great encouragement to see young families train up their children to follow the Lord." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/1934696_494868230702991_8116875278078929514_n.jpg" caption="{: .article-image .article-image--has-caption}" alt="Kelsie and I took turns speaking as we progressed through six sessions of material." >}}
-Kelsie and I took turns speaking as we progressed through six sessions of material.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/1934696_494868230702991_8116875278078929514_n.jpg" caption="Kelsie and I took turns speaking as we progressed through six sessions of material." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/IMG_6876.jpg" caption="{: .article-image .article-image--has-caption}" alt="The seminar lasted for the better part of a Saturday. It was exhausting but fun!" >}}
-The seminar lasted for the better part of a Saturday. It was exhausting but fun!
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/IMG_6876.jpg" caption="The seminar lasted for the better part of a Saturday. It was exhausting but fun!" >}}
 
 ### CMO 2016
 
@@ -52,7 +46,7 @@ Summer is approaching once again, and with it our annual project: Carpathian Mou
 
 As always, there is much preparation to be done. In particular, we will be printing tens of thousands of tracts. There is housing to arrange, and there are film showings to schedule. Please pray that God would open doors before us as we labor, and that as a result of our efforts, multitudes would come to repentance in Christ.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/12/cmo-logo-full.png" caption="{: .article-image}" alt="cmo-logo-full" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/12/cmo-logo-full.png" alt="cmo-logo-full" >}}
 
 ### Bible First
 

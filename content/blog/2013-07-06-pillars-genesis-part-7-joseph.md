@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Joseph is often acclaimed as the most complete type of Christ found in the Old Testament. Entire charts have been constructed to show the numerous parallels between the life of Joseph and the life of our Savior. Of all Joseph’s qualities, his forgiveness of those who had been his persecutors is among the most Christ-like.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/07/Joseph-372x450.jpg" caption="{: .article-image}" alt="Joseph" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/07/Joseph-372x450.jpg" alt="Joseph" >}}
 
 As governor of Egypt, Joseph held the power to bring down crushing retribution against those who had hated, mocked and betrayed him. Amazingly, the Genesis record gives no indication that this course of action ever entered his mind.
 

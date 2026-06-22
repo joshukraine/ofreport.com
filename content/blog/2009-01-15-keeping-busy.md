@@ -13,9 +13,7 @@ slug: 2009-01-15-keeping-busy
 
 After breaking last week for the Ukrainian Christmas (here in Ukraine they celebrate on the 6th and 7th of January), we prepared for English Club and ABS (Audio Bible Study) this week with anticipation. Over the past few weeks attendance had dropped due to the holidays, and we wondered if people would return. We had seen some good momentum and interest, but would it continue? On Monday we called our contact list, reminding people that we were resuming the meetings after Christmas. Everyone seemed excited to hear from us and promised to come. Sure enough, on Tuesday evening, the majority of our core group arrived with enthusiasm!
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/abs-jan13-20093.jpg" caption="{: .article-image .article-image--has-caption}" alt="Standing (from left to right): Jessie, Evelina, Kelsie, Taras, Roman. Sitting: Joshua, Bohdan, Marian, Roman, Anya." >}}
-Standing (from left to right): Jessie, Evelina, Kelsie, Taras, Roman. Sitting: Joshua, Bohdan, Marian, Roman, Anya. (Click the picture to enlarge.)
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/abs-jan13-20093.jpg" caption="Standing (from left to right): Jessie, Evelina, Kelsie, Taras, Roman. Sitting: Joshua, Bohdan, Marian, Roman, Anya. (Click the picture to enlarge.)" >}}
 
 Joshua's message that evening came out of John 17, with a special emphasis on verses dealing with eternal life. *"And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent." John 17:3* Anya, a young adult seated next to me, seemed to eat up every word that Joshua spoke and eagerly pursued the verses as we read them.
 

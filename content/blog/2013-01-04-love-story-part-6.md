@@ -10,13 +10,9 @@ slug: 2013-01-04-love-story-part-6
 
 As Kelsie and I embarked on what would become a life-long journey together, our relationship was unlike anything I had envisioned. I was still in Thailand and she in Oklahoma. My acquaintance with her family had reached the ripe old age of three weeks, and neither of us had ever seen each other in person. Our budding new friendship sounded more like a success story from an online dating site than a Christian courtship. Yet none involved could deny that God was leading.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/P1010017.jpg" caption="{: .article-image .article-image--has-caption}" alt="Kelsie receives her first bouquet from me while I was still overseas." >}}
-Kelsie receives her first bouquet from me while I was still overseas.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/P1010017.jpg" caption="Kelsie receives her first bouquet from me while I was still overseas." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/P1010020_3.jpg" caption="{: .article-image .article-image--has-caption}" alt="I think she liked them." >}}
-I think she liked them.
-{: .caption-text .article-image__caption}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/P1010020_3.jpg" caption="I think she liked them." >}}
 
 Let me clarify at this point what exactly we had begun. Neither of us had agreed to marriage. How could we? We knew only the barest facts about each other and were proceeding primarily based on the sincere belief that this was God’s direction.
 

@@ -39,4 +39,3 @@ E'er since by faith I saw the stream
 Thy flowing wounds supply,  
 Redeeming love has been my theme  
 And shall be till I die!*
-{: .article-text--centered}
