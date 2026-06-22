@@ -150,8 +150,8 @@ enableRobotsTXT = true
   [menus.footer_col3.params]
     external = true
 [[menus.footer_col3]]
-  name = "kelsie.me"
-  url = "https://kelsie.me/"
+  name = "Kelsie's Substack"
+  url = "https://kelsiesteele.substack.com/"
   weight = 40
   [menus.footer_col3.params]
     external = true
