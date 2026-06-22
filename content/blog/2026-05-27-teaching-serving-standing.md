@@ -97,7 +97,7 @@ translated subtitles. You can find the videos and all the accompanying materials
 at my new
 [_Discovering Romans_ website](https://joshukraine.com/romans-course/).
 
-{{< figure src="OFReport/2026-05-27-teaching-serving-standing/romans-site_iaurho" >}}
+{{< figure src="OFReport/2026-05-27-teaching-serving-standing/romans-site_iaurho" alt="Homepage of the Ukrainian Discovering Romans course website, titled 'Відкриваємо Римлян' over a Greek temple" >}}
 
 {{< callout >}}
 Check out my new _Discovering Romans_ course website!
@@ -172,7 +172,7 @@ with our distributors. The app is built and currently in testing. We’re
 encouraged by how it’s coming together and eager to see what God will continue
 to do with the _Good and Evil_ book here in Ukraine.
 
-{{< figure src="OFReport/2026-05-27-teaching-serving-standing/crowd-good-and-evil-books_vjllu7" >}}
+{{< figure src="OFReport/2026-05-27-teaching-serving-standing/crowd-good-and-evil-books_vjllu7" alt="Crowd of Ukrainian villagers holding up copies of the Good and Evil book, 'Добро і Зло', outdoors" >}}
 
 ## War and Safety
 

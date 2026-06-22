@@ -16,7 +16,7 @@ CMO 2010 is over, and we are once again rejoicing as we witness the increase God
 {{< callout pdf="OFR-October-2010.pdf" >}}
 {{< /callout >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/09/DSC_8991a.jpg" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/09/DSC_8991a.jpg" alt="Group of young men with backpacks huddled together studying a map outdoors" >}}
 
 As of this writing, we have 574 students in active enrollment, studying the Bible through our correspondence course. Over the years we have seen the great potential that such a course has as an evangelistic tool, and for some time now it has been our vision to make this course available to other believers, churches, and missionaries. More specifically, we would like to incorporate it into the training that CMO men receive while they serve with us in Ukraine. During their time here, these men learn by experience how to reach a city through literature, and we would like to be able to send them back to the US with a complete Bible course in hand.
 

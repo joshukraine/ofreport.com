@@ -26,4 +26,4 @@ On the other hand, travel to the States always comes with a certain amount of st
 
 We look forward to seeing many of you very soon!
 
-{{< figure src="OFReport/2021-08-19-coming-soon-to-a-neighborhood-near-you/IMG_6045_xytr1v.jpg" >}}
+{{< figure src="OFReport/2021-08-19-coming-soon-to-a-neighborhood-near-you/IMG_6045_xytr1v.jpg" alt="The Steele family of eight smiling together outdoors with green hills behind them, one daughter holding a small dog" >}}

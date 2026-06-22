@@ -25,8 +25,8 @@ We love her dearly and are so grateful to the Lord for sending her to us!
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4722.jpg" caption="Oh boy! New bath toys." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4727.jpg" alt="dsc_4727" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4727.jpg" alt="Baby Rebekah in a pink top mouthing a blue butterfly-shaped bath toy, a colorful ball in her other hand" >}}
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4731.jpg" caption="Grandmas are so wonderful–they send presents for the older kids too!" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4737.jpg" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/dsc_4737.jpg" alt="Smiling young girl in a red top holding an open yellow-and-orange umbrella beside a laughing woman" >}}

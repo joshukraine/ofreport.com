@@ -94,7 +94,7 @@ Minutes later, Mom was installed in her waiting hospice bed. She had requested
 that we place it in the front of the house near a window. This way, she could
 easily see outside and also be near family.
 
-{{< figure src="OFReport/2024-06-13-a-miracle-for-mom/smile-in-bed_jko5sc" >}}
+{{< figure src="OFReport/2024-06-13-a-miracle-for-mom/smile-in-bed_jko5sc" alt="Mom smiling from her hospice bed, on oxygen, as a family member sits beside her by a window" >}}
 
 ## Final Days?
 
@@ -102,7 +102,7 @@ The next few days were spent singing hymns, administering medications, and
 desperately trying to savor every last moment we had. We even managed a family
 picture in the rain! And yet, much as we feared it, the end did not come.
 
-{{< figure src="OFReport/2024-06-13-a-miracle-for-mom/rain-photo_z6snk0" >}}
+{{< figure src="OFReport/2024-06-13-a-miracle-for-mom/rain-photo_z6snk0" alt="Family gathered outdoors around Mom seated in a chair, one man holding an umbrella against the rain" >}}
 
 Close friends and family soon began calling, asking if they could visit. Streams
 of people came through our doors bringing food, gifts, and sometimes medical
@@ -111,7 +111,7 @@ encounter with a dear friend who had touched their lives. There were many
 tearful meetings full of hugs and prayers and gratefulness. And still, the end
 did not come.
 
-{{< figure src="OFReport/2024-06-13-a-miracle-for-mom/friends-visiting_lxv5jp" >}}
+{{< figure src="OFReport/2024-06-13-a-miracle-for-mom/friends-visiting_lxv5jp" alt="Visitors gathered around Mom in her hospice bed in the living room, praying and laying hands on her" >}}
 
 A chaplain came by from the hospice service and prayed with us. He left some
 booklets about how to handle grief. They lay at the end of the counter in Mom

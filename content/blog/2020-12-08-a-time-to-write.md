@@ -22,7 +22,7 @@ This summer, we finally printed our Ukrainian translation of Michael Pearl’s [
 
 After losing the Zhylavy family in 2019, we began to search for a new Ukrainian translator. Serhii introduced us to Fedir Levchuk, and we decided to hire him for a small project as a trial run. After several weeks of collaboration with Fedir, we completed our translation of another of Mike’s booklets: [*Pornography: Road to Hell*](https://nogreaterjoy.org/shop/pornography-road-to-hell-booklet). We were very pleased with the quality of Fedir’s work, and we’ve already got him busy on our next translation project — this time, a full book. [*By Divine Design*](https://nogreaterjoy.org/shop/by-divine-design-book), by Michael Pearl, is a book I’ve wanted to translate for a long time, and one that was instrumental in bringing my good friend Nathan Day to Christ many years ago. We’ve now completed two chapters, and Fedir is hard at work on chapter 3.
 
-{{< figure src="OFReport/2020-12-08-a-time-to-write/PornographyRoadtoHell_cover_ukr_zdfkbw" >}}
+{{< figure src="OFReport/2020-12-08-a-time-to-write/PornographyRoadtoHell_cover_ukr_zdfkbw" alt="Ukrainian edition cover of Michael Pearl's booklet Pornography: Road to Hell, titled Порнографія: Дорога в пекло" >}}
 
 ## Local Church Ministry
 
@@ -77,7 +77,7 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4447_sdye47" caption=" “OK, Mia here’s the deal. This is your new bed. This is where you will go night-night. So lie down and go to sleep. Yes, right here. OK niiiiight night.” Why do I feel like I’m in that bedtime scene from Monsters, Inc?" >}}
 
-{{< figure src="OFReport/2020-12-08-a-time-to-write/you-monster-gif-12_cfwfl8" >}}
+{{< figure src="OFReport/2020-12-08-a-time-to-write/you-monster-gif-12_cfwfl8" alt="Animated still from Monsters Inc of Sulley reacting with the caption You" >}}
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4456_sjsmzx" caption="Where’s Daddy?" >}}
 

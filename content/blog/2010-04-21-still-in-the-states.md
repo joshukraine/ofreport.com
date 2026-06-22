@@ -42,4 +42,4 @@ Web site: [www.HisPower.org](http://www.HisPower.org)
 
 Good news for all you procrastinators out there: the CMO 2010 deadline has been moved back to May 15! Time is running out, so if you want to come, [download the app from our web site](http://www.euroteamoutreach.org/index.php?p=cmo) and get it to us ASAP! CMO begins June 1, and if you want to come we need to hear from you right away. If you have any questions, please don't hesitate to [contact us](http://www.euroteamoutreach.org/index.php?p=contact).
 
-<p style="text-align: center;">{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/04/cmo_2010_logo-277x300.jpg" >}}</p>
+<p style="text-align: center;">{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/04/cmo_2010_logo-277x300.jpg" alt="Carpathian Mountain Outreach 2010 logo with a backpacker overlooking green hills" >}}</p>

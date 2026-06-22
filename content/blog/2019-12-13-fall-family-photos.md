@@ -31,7 +31,7 @@ As always, we're grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2498_fds9fo" caption="Little Mia is a pretty happy kid. We love her precious smiles! 🥰" >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2591_bnd0cd" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2591_bnd0cd" alt="A young girl smiling face-to-face with baby Mia in a pink bib" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2538_l9zq4t" caption="Abby and Hosanna have recently started singing with the music group at our church. It's been a great opportunity for them to be more involved with our Ukrainian friends in ministry." >}}
 
@@ -41,14 +41,14 @@ As always, we're grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2297_etc9r6" caption="The littles have a special alarm clock in their room — a puppy holding a ball that glows red during the night. When it's time to get up, the ball glows green. So we have this rhyme they like to repeat at bedtime: “When the light is red, we stay in bed. When the light is green, we may be seen!”" >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2483_xxofxi" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2483_xxofxi" alt="Joshua kneeling on the carpet, smiling down at baby Mia lying on a pillow" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2359_eberca" caption="We often enjoy walks along the various trails and sidewalks near our apartment building. L'viv in the fall is beautiful! 🍁" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2338_clytbb" caption="Our dog Macie has really grown to be part of the family. ❤️ She and Abby are especially close with Macie following Abby most everywhere she goes." >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2420_d57m1w" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2420_d57m1w" alt="Baby Mia in a blue hair bow lying on her side on a dark table" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2392_efhrta" caption="Family time at the playground! Good thing big sister is along to help the little guys navigate the tunnels. 😉" >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2657_fxcshg" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2657_fxcshg" alt="Kelsie smiling in the kitchen while carrying baby Mia in a front baby carrier" >}}
