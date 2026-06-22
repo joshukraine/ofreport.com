@@ -175,7 +175,7 @@ links to the relevant PRD document for full requirements.
 - [x] Vue components converted to Hugo shortcodes
 - [x] Duplicate tag consolidated (`good-and-evil`)
 - [x] Validation pass: no remaining `<article-` patterns
-- [~] Legacy WordPress articles reviewed and fixed
+- [x] Legacy WordPress articles reviewed and fixed (#129 content, #135 display, #160 hero cap)
 - [x] Static pages created
 - [ ] Data files migrated (`authors.json`, `archives.json`)
 
