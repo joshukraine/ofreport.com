@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{/* Custom 404. Inherits the header/footer chrome from baseof.html via the
+       "main" block. Deliberately NOT the standard page-shell header — the big
+       "Page not found" reads as an error state, not a content page. Matches the
+       page-shell vertical rhythm (py-24 sm:py-32) and the site's design tokens
+       (font-header, text-ink, brand-blue buttons) for visual consistency. */}}
+  <section class="px-6 py-24 text-center sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-2xl">
+      <p class="font-header text-base font-semibold text-blue-700">404</p>
+      <h1 class="mt-4 font-header text-5xl font-bold leading-tight tracking-tight text-pretty text-ink sm:text-6xl">
+        Page not found
+      </h1>
+      <p class="mt-6 text-lg text-pretty text-gray-600 sm:text-xl">
+        Sorry, we couldn’t find that page. It may have moved, or the link you
+        followed may be out of date.
+      </p>
+      <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+        <a href="{{ .Site.Home.RelPermalink }}"
+           class="inline-flex items-center px-6 py-3 text-base {{ partial "button-classes.html" (dict "variant" "filled") }}">
+          Back home
+        </a>
+        <a href="{{ "/blog/" | relURL }}"
+           class="inline-flex items-center px-6 py-3 text-base {{ partial "button-classes.html" (dict "variant" "outline") }}">
+          Browse the blog
+        </a>
+      </div>
+    </div>
+  </section>
+{{ end }}
