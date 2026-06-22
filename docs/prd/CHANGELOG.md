@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-22 — `layouts/partials/cloudinary-url.html`, `content/blog/2012-11-04-today-fly.md`
+
+**What changed:** Graceful-display pass for no-cover / small-image legacy articles (issue #135). Verification found the requirement was already met by the templates, which faithfully ported the original Nuxt site's `v-if="cover"` guards: the single-article hero and preview-card image both omit cleanly when `cover` is absent (no broken hero, no 404), OG/Twitter fall back to `params.ogImage`, and the RSS `<enclosure>` is omitted. The documented no-cover fallback is therefore **omit** (parity with the original), not a neutral default header. Two hardening changes applied: (1) the display Cloudinary presets (`featured`, `regular`, `hero`) switched from `c_scale` to `c_limit` so an intrinsically small image is never upscaled; (2) the one broken relative-path cover (`2012-11-04-today-fly`) repointed to its CloudFront URL so it loads via Cloudinary fetch.
+
+**Why:** #135 framed the no-cover fallback as an open choice (omit vs. neutral default). The original site omits, all 124 real covers are large Cloudinary-native images (no small/legacy covers exist), and inline figures already use `c_limit` — so the existing behavior already satisfies every acceptance criterion. Choosing "omit" keeps parity and avoids introducing a default-cover asset to maintain. The `c_scale → c_limit` guard is a zero-cost correctness improvement (identical output for the large covers we have) that makes "no upscale" provably hold if a small cover ever appears. The `today-fly` cover was a migration gap — a relative WordPress path the script left unconverted because it lived in `cover:` frontmatter rather than a body `<img>`.
+
+**Category:** Discovery
+
 ### 2026-06-22 — `docs/prd/07-deployment.md`, `docs/prd/ROADMAP.md`
 
 **What changed:** Settled the legacy repo's post-launch name as `ofreport.com-nuxt` (the PRD's `07-deployment.md` previously gave `ofreport.com-legacy` as an illustrative example). Added a pointer from `ROADMAP.md` Phase 16 to the new Launch Readiness Epic (#150).
