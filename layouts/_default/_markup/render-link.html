@@ -1,0 +1,20 @@
+{{- /*
+  render-link — Hugo link render hook for markdown links.
+
+  Restores the original site's behavior: external links open in a new tab. An
+  external link is any link whose host is present and differs from the site's
+  own host. This (not a bare `hasPrefix "http"`) keeps absolute same-domain
+  links like https://ofreport.com/podcast/ internal, and leaves mailto:, tel:,
+  anchor, and relative links untouched (they have no host).
+
+  Raw-HTML <a> tags in legacy articles are not markdown, so this hook never
+  touches them — several already carry their own target="_blank".
+*/ -}}
+{{- $siteHost := (urls.Parse site.BaseURL).Host -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $external := and (ne $u.Host "") (ne $u.Host $siteHost) -}}
+<a href="{{ .Destination | safeURL }}"
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+  {{- if $external }} target="_blank" rel="noopener noreferrer"{{ end -}}
+>{{ .Text }}{{ if $external }}<span class="sr-only"> (opens in a new tab)</span>{{ end }}</a>
+{{- /* chomp trailing newline */ -}}
