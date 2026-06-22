@@ -110,7 +110,7 @@ See more Ukraine photos in our Facebook album!
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/12-grandkids_rovjeg.jpg" caption="Wow — Nana and Granddad Steele are up to 12 grandkids now!" >}}
 
-{{< figure src="OFReport/2019-01-25-chapter-of-blessing/david-kelsie-gramps_t1njw8.jpg" caption="We always love visiting Kelsie&apos;s grandparents, \"Gramps\" and \"Ma\". Here, David gets to meet Gramps for the first time!" >}}
+{{< figure src="OFReport/2019-01-25-chapter-of-blessing/david-kelsie-gramps_t1njw8.jpg" caption="We always love visiting Kelsie’s grandparents, \"Gramps\" and \"Ma\". Here, David gets to meet Gramps for the first time!" >}}
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/ma-with-girls_ptdxmv.jpg" caption="Group hug with Ma!" >}}
 

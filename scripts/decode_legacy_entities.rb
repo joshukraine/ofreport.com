@@ -1,0 +1,85 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# One-off content sweep for issue #129: decode the leftover HTML entities that
+# the WordPress/Middleman lineage carried through migration (e.g. "&mdash;",
+# "&copy;", "Adam &amp; Eve") into the real Unicode characters they stand for.
+# Companion to scripts/strip_legacy_ials.rb (PR #154).
+#
+# Runs against the committed #136 baseline in content/blog/. Idempotent: once a
+# file is clean none of these entities remain in exposed text, so re-running is
+# a no-op, and the migration's skip-if-exists guard preserves the edits.
+#
+# Entities are decoded ONLY in prose and shortcode-attribute text. They are left
+# untouched inside:
+#   - <script>…</script> blocks (e.g. embed JS that uses &amp; in query
+#     strings), and
+#   - HTML tags <…> — an <a href="…?aid=87725&amp;id=…"> query string is
+#     correct HTML and must stay encoded, or the link breaks.
+# Protecting those two regions is what makes a blind "&amp; -> &" replace safe;
+# every &amp; that must stay encoded lives inside an <a href> here (verified).
+#
+# Two things are handled by hand, NOT here:
+#   - &quot;: its only occurrence is a redundant figure alt= duplicating the
+#     caption; decoding to a straight " would break the "…" attribute. Fixed by
+#     dropping the alt (the figure shortcode falls back to caption).
+#   - The bare-angle <https://…> autolinks in 2023-05-07-we-ve-made-our-decision
+#     (no entities; a separate slice).
+#
+# &nbsp; decodes to a normal space: every occurrence is decorative padding after
+# an emoji, where the non-breaking behavior is immaterial and a plain space
+# reads cleanest in source. The rendered gap is unchanged.
+#
+# Apostrophe entities (&#39; / &apos;) decode to the curly U+2019, matching the
+# typographic apostrophe the rest of the content already uses as a literal char
+# (e.g. "God's", "who's"); that keeps the apostrophes consistent site-wide.
+
+BLOG_DIR = File.expand_path("../content/blog", __dir__)
+
+# Entity -> real character. &quot; is intentionally absent (see header).
+ENTITIES = {
+  "&mdash;"  => "—", # — em dash
+  "&copy;"   => "©", # © copyright
+  "&hearts;" => "♥", # ♥ heart
+  "&raquo;"  => "»", # » right guillemet
+  "&rarr;"   => "→", # → rightwards arrow
+  "&ldquo;"  => "“", # “ left double quote
+  "&rdquo;"  => "”", # ” right double quote
+  "&#39;"    => "’", # ’ apostrophe
+  "&apos;"   => "’", # ’ apostrophe
+  "&nbsp;"   => " ", #   decorative space
+  "&amp;"    => "&"  # & ampersand (protected forms excepted)
+}.freeze
+
+# A real HTML tag's "<" is immediately followed by a letter or "/" (<a, </a>,
+# <br>). This deliberately does NOT match a Hugo shortcode's "{{< … >}}", whose
+# "<" is followed by a space — so entities inside a figure caption= are decoded,
+# while an <a href="…&amp;…"> query string stays protected.
+SCRIPT_BLOCK = %r{<script\b.*?</script>}mi
+HTML_TAG     = %r{</?[a-zA-Z][^>\n]*>}
+ENTITY       = Regexp.union(ENTITIES.keys)
+
+# A single left-to-right pass. At each position a script block or an HTML tag is
+# matched first and returned verbatim — protecting any entity inside it — before
+# a bare entity can match and be decoded. Order matters: SCRIPT_BLOCK precedes
+# HTML_TAG so a whole embed is protected, not just its opening <script> tag.
+TOKEN = Regexp.union(SCRIPT_BLOCK, HTML_TAG, ENTITY)
+
+def decode_text(text)
+  text.gsub(TOKEN) { |match| ENTITIES.fetch(match, match) }
+end
+
+def decode_file(path)
+  original = File.read(path)
+  decoded  = decode_text(original)
+  return false if decoded == original
+
+  File.write(path, decoded)
+  true
+end
+
+if $PROGRAM_NAME == __FILE__
+  edited = Dir.glob(File.join(BLOG_DIR, "*.md")).sort.select { |path| decode_file(path) }
+  puts "Decoded legacy HTML entities in #{edited.length} files:"
+  edited.each { |path| puts "  #{File.basename(path)}" }
+end

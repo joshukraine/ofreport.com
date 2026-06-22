@@ -113,7 +113,7 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/truck-for-david_ppwxgy.jpg" caption="David got a new truck. That boy loves anything with wheels!" >}}
 
-{{< figure src="OFReport/2019-06-07-calm-before-the-storm/tshirt-for-beka_xhez2q.jpg" caption="Rebekah and Abby both got t-shirts. Rebekah&apos;s shirt says \"No-prob-llama!\" 😆" >}}
+{{< figure src="OFReport/2019-06-07-calm-before-the-storm/tshirt-for-beka_xhez2q.jpg" caption="Rebekah and Abby both got t-shirts. Rebekah’s shirt says \"No-prob-llama!\" 😆" >}}
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/new-water-bottle_hzrgyq.jpg" caption="Kathryn now has a \"big girl\" water bottle." >}}
 

@@ -45,4 +45,4 @@ The Bible states clearly that, when a person comes to God through faith in Jesus
 
 *“And you, being dead in your sins and the uncircumcision of your flesh, hath he quickened together with him, <span style="text-decoration: underline;">having forgiven you all trespasses</span>;” (Colossians 2:13)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

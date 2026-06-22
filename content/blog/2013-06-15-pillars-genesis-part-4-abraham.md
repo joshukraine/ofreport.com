@@ -39,4 +39,4 @@ Proverbs 11:4 presents a simple and solemn warning for all who seek deliverance 
 
 *“And be found in him, <span style="text-decoration: underline;">not having mine own righteousness</span>, which is of the law, but <span style="text-decoration: underline;">that which is through the faith of Christ</span>, the righteousness which is of God by faith:” (Philippians 3:9)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

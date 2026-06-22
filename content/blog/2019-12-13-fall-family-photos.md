@@ -23,7 +23,7 @@ As always, we're grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2641_rfjyfl" caption="Ear muffs are the new must-have trendy accessory at our house." >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2560_czidae" caption="&ldquo;Wow Dad, how's the weather up there?&rdquo; 🌦" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2560_czidae" caption="“Wow Dad, how's the weather up there?” 🌦" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2618_oibogu" caption="Last month, Hosanna turned 9. Mom and the older girls outdid themselves with this hand-made Lego Hobbit cake!" >}}
 
@@ -35,11 +35,11 @@ As always, we're grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2538_l9zq4t" caption="Abby and Hosanna have recently started singing with the music group at our church. It's been a great opportunity for them to be more involved with our Ukrainian friends in ministry." >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2445_bp9lgy" caption="&ldquo;Well, hello there!&rdquo; 🥰 (Somebody will be crawling before you can say &ldquo;cute baby bow&rdquo;!)" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2445_bp9lgy" caption="“Well, hello there!” 🥰 (Somebody will be crawling before you can say “cute baby bow”!)" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2298_t7pmel" caption="Bedtime is a special time for piggy-back rides, silly songs with Dad, and cozy covers." >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2297_etc9r6" caption="The littles have a special alarm clock in their room — a puppy holding a ball that glows red during the night. When it's time to get up, the ball glows green. So we have this rhyme they like to repeat at bedtime: &ldquo;When the light is red, we stay in bed. When the light is green, we may be seen!&rdquo;" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2297_etc9r6" caption="The littles have a special alarm clock in their room — a puppy holding a ball that glows red during the night. When it's time to get up, the ball glows green. So we have this rhyme they like to repeat at bedtime: “When the light is red, we stay in bed. When the light is green, we may be seen!”" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2483_xxofxi" >}}
 

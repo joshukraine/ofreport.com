@@ -40,7 +40,7 @@ The first phase of our course will consist of 17 lessons, covering the entire bo
 1. Creation Part II (Gen. 1)
 1. Adam and Eve (Gen. 1, 2)
 1. The Fall (Gen. 3)
-1. The Curse &amp; The Promised Deliverer (Gen. 3)
+1. The Curse & The Promised Deliverer (Gen. 3)
 1. Cain and Abel (Gen. 4)
 1. Noah and the Great Flood (Gen. 5-11)
 1. Abraham I (Gen. 12-14)

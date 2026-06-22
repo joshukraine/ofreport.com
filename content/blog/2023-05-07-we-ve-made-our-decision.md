@@ -35,13 +35,13 @@ from you as soon as possible. The buttons below will get you started!
 
 ## Ukraine News Sources
 
-- Sky News - <https://youtu.be/zDIJmhRuVj0>
-- The Kyiv Independent - <https://kyivindependent.com/>
-- Denys Davydov - <https://youtu.be/s8l44bxVND0>
-- Jake Broe - <https://youtu.be/GPC4ifmoMVw>
-- TLDR News EU - <https://youtu.be/_OQdf7HghEo>
-- Institute for the Study of War (ISW) - <https://www.understandingwar.org/>
-- Deep State Map - <https://deepstatemap.live/>
+- [Sky News](https://youtu.be/zDIJmhRuVj0)
+- [The Kyiv Independent](https://kyivindependent.com/)
+- [Denys Davydov](https://youtu.be/s8l44bxVND0)
+- [Jake Broe](https://youtu.be/GPC4ifmoMVw)
+- [TLDR News EU](https://youtu.be/_OQdf7HghEo)
+- [Institute for the Study of War (ISW)](https://www.understandingwar.org/)
+- [Deep State Map](https://deepstatemap.live/)
 
 ## How You Can Pray
 

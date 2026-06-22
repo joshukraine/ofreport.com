@@ -46,13 +46,13 @@ God continues to bring opportunities for Kelsie and I to speak to Ukrainian grou
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/girls-singing-church_lvbxfk" caption="Rebekah, Hosanna, and Abigail sing “Let My People Go” as part of a play about Moses and the Exodus." >}}
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/kels-josh-birthday-selfie_jc16pm" caption="Birthday selfie! 🥳&nbsp;&nbsp;This lady took me out for a fun evening of scooter rides and gourmet hamburgers." >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/kels-josh-birthday-selfie_jc16pm" caption="Birthday selfie! 🥳  This lady took me out for a fun evening of scooter rides and gourmet hamburgers." >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-kels-scooters_eeyfic" caption="Electric scooter rentals are new to L’viv, but in recent weeks they’ve exploded in popularity. We really like them!" >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-nathan-translation-proofing_cnz8sn" caption="These days, Nathan and I do a lot of work over Zoom or Skype. In this photo, we’re proofing more translation work on Mike Pearls’ book *By Divine Design*. We’ve now completed six chapters in Ukrainian!" >}}
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/kathryn-first-piano-lesson_rxizoo" caption="Guess who’s taking piano lessons? 😮&nbsp;&nbsp;Kathryn is so excited and she really likes our teacher, Gabriella." >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/kathryn-first-piano-lesson_rxizoo" caption="Guess who’s taking piano lessons? 😮  Kathryn is so excited and she really likes our teacher, Gabriella." >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/kels-david-game-floor_xmo38x" caption="Mom takes time out of a busy day to enjoy a game with David in the playroom. 🥰" >}}
 
@@ -68,4 +68,4 @@ God continues to bring opportunities for Kelsie and I to speak to Ukrainian grou
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/hosanna-birthday-hug_cwjyid" caption="Daddy is a busy man, but there’s always time for hugs. Especially birthday hugs from Hosanna!" >}}
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/mia-doctor-costume_qoewyh" caption="Got aches or pains? 🤒&nbsp;&nbsp;Dr. Mia can fix you up! 💝" >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/mia-doctor-costume_qoewyh" caption="Got aches or pains? 🤒  Dr. Mia can fix you up! 💝" >}}

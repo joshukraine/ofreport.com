@@ -31,10 +31,10 @@ them directly via PayPal using Serhii’s email address (see below). And don’t
 forget to choose the “family and friends” option so that the entire donation
 will go to the Chepara’s.
 
-❤️ &nbsp;**Donate directly to the Chepara’s via
+❤️  **Donate directly to the Chepara’s via
 [PayPal](https://www.paypal.com/)!**
 
-📨 &nbsp;**<serhii.chepara@gmail.com>**
+📨  **<serhii.chepara@gmail.com>**
 
 Thank you so much for listening to our podcast! Please
 [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)

@@ -15,7 +15,7 @@ It's hard to believe, but as of Friday, September 25th, our little Abigail is fo
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/09/DSC_7817.JPG" caption="The next present was a biiiig one…" alt="The next present was a biiiig one..." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/09/DSC_7821.JPG" caption="\"Wow! A dollhouse!\"" alt="&quot;Wow! A dollhouse!&quot;" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/09/DSC_7821.JPG" caption="\"Wow! A dollhouse!\"" >}}
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/09/DSC_7833.JPG" caption="Mommy helps with the setup. Definitely a winning idea for Abby's birthday." >}}
 
