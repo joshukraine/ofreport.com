@@ -1,0 +1,19 @@
+{{- /*
+  caption-plain — plain-text form of a caption for HTML attribute contexts
+  (img `alt`, GLightbox `data-description`), where rendered markup must not
+  appear.
+
+  markdownify renders the caption's inline markdown (links, emphasis) and inline
+  HTML (e.g. <br>); we then strip the link render hook's "(opens in a new tab)"
+  sr-only announcement before plainify, so that screen-reader-only text does not
+  flatten into the attribute as literal words. plainify removes the remaining
+  tags, leaving clean prose.
+
+  Pairs with render-link.html (which injects the announcement) and is used
+  anywhere a caption is reused as a plain attribute value.
+
+  Usage: {{ partial "caption-plain.html" $caption }}
+*/ -}}
+{{- $html := . | markdownify -}}
+{{- $html = replaceRE `<span class="sr-only"> \(opens in a new tab\)</span>` "" $html -}}
+{{- $html | plainify | chomp -}}
