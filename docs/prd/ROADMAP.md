@@ -183,6 +183,8 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 16: Deployment
 
+> **Launch execution is tracked in the Launch Readiness Epic ([#150](https://github.com/joshukraine/ofreport.com-hugo/issues/150)).** That issue is the living runbook for the cutover (URL parity, redirects, repo rename, integrations, ordered cutover steps). The checkboxes below remain the high-level phase marker.
+
 - [ ] `netlify.toml` configured (see [`07-deployment.md`](./07-deployment.md))
 - [ ] Redirects for SEO continuity
 - [ ] Security headers

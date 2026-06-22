@@ -19,7 +19,7 @@ the build process.
 1. **During development:** Create a new repo (e.g., `ofreport.com-hugo` or
    similar) for all Hugo development work
 2. **At launch:** When the Hugo site is ready to go live:
-   - Archive or rename the old Nuxt repo (e.g., `ofreport.com-legacy`)
+   - Archive or rename the old Nuxt repo to `ofreport.com-nuxt`
    - Rename the Hugo repo to `ofreport.com` (or push to a fresh repo with
      that name)
    - Update Netlify to build from the new repo

@@ -34,7 +34,13 @@ Each entry records one deviation or decision:
 
 ## Entries
 
-### 2026-06-21 — `.markdownlint-cli2.yaml`
+### 2026-06-22 — `docs/prd/07-deployment.md`, `docs/prd/ROADMAP.md`
+
+**What changed:** Settled the legacy repo's post-launch name as `ofreport.com-nuxt` (the PRD's `07-deployment.md` previously gave `ofreport.com-legacy` as an illustrative example). Added a pointer from `ROADMAP.md` Phase 16 to the new Launch Readiness Epic (#150).
+
+**Why:** Launch planning produced a concrete cutover runbook (#150), and the repo-rename dance there needs an exact name rather than an example. `ofreport.com-nuxt` names the predecessor stack explicitly. The ROADMAP pointer keeps the epic as the single source of truth for launch *execution* while the PRD remains the spec and Phase 16 stays the high-level phase marker — avoiding two competing task lists.
+
+**Category:** Correction
 
 **What changed:** Excluded `content/blog/**` from markdown linting. The 223-article migration baseline (issue #136) committed raw script output, which trips 141 markdownlint errors (heading-increment, ordered-list prefixes, emphasis style, trailing whitespace) inherited from the legacy WordPress→Middleman→Nuxt content.
 
