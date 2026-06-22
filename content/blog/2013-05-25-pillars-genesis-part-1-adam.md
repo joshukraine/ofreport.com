@@ -19,7 +19,7 @@ Genesis introduces many significant characters, but seven individuals in particu
 
 The Bible is a book of kingdoms, and Adam was earth’s first king. Like most monarchs, Adam’s authority was given him by right of birth. Immediately after his creation, God charged Adam to take dominion over the entire planet.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Adam-and-Eve-1200-1.jpg" caption="{: .article-image}" alt="Adam and Eve" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Adam-and-Eve-1200-1-351x450.jpg" caption="{: .article-image}" alt="Adam and Eve" >}}
 
 But Adam was more than our first king. He was also our father. Though he did not fully understand it at the time, his position as head of the human race meant that every decision he made would directly affect his descendants. Sadly, when Adam chose to disobey God, he forfeited his dominion to Satan who became the god of this world. As a result, mankind was plunged into darkness and corporately separated from God’s life-giving presence.
 

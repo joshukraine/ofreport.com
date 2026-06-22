@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Abel’s offering of a lamb in Genesis 4 clearly represents the payment God requires to atone for (that is, cover) sin. Only innocent blood possesses the judicial power to effectively remove sin. (See Leviticus 17:11, Hebrews 9:22)
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/06/Abel.jpg" caption="{: .article-image}" alt="Cain and Abel" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/06/Abel-366x450.jpg" caption="{: .article-image}" alt="Cain and Abel" >}}
 
 At first glance, many have supposed that Abel’s choice of an offering was based on his profession: he was a shepherd and thus brought a lamb. If that were true, God’s refusal of Cain’s gift would be quite unjust, for Cain, a farmer by trade, brought the best of his harvest. In actuality, God’s rejection of Cain was not based on the quality of his labor, but on the fact that his offering was inappropriate to the task for which it was intended. Fruits and vegetables cannot pay for sin. This operation, known in the Bible as atonement, can only be accomplished by the shedding of innocent blood.
 

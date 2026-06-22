@@ -15,7 +15,7 @@ The following is an excerpt taken from the twentieth and final lesson of *<a tit
 
 Noah lived in an era of wickedness so terrible that it caused God to regret His creation of the human race. Yet in the midst of this universal debauchery, Noah was found to be righteous.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Noah.jpg" caption="{: .article-image}" alt="Noah" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Noah-378x450.jpg" caption="{: .article-image}" alt="Noah" >}}
 
 As God resolved to destroy humanity in a global flood, He made provision for the salvation of Noah and his family. But this provision was narrow and exact. Noah was required to follow detailed instructions as he constructed a giant ark that would one day become the only habitable place on earth.
 
