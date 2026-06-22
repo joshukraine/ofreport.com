@@ -17,7 +17,7 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
 <link rel="canonical" href="{{ .Permalink }}">
-{{- if hugo.IsProduction }}
+{{- if and hugo.IsProduction (not .Params.noindex) }}
 <meta name="robots" content="index,follow">
 {{- else }}
 <meta name="robots" content="noindex,nofollow">

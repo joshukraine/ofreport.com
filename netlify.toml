@@ -24,11 +24,27 @@
   HUGO_VERSION = "0.163.0"
   HUGO_ENVIRONMENT = "preview"
 
-# Redirects for SEO continuity
+# Redirects for SEO continuity.
+#
+# page/1 pagination → list root (26 live URLs: /blog/page/1 + 25 tag page/1s).
+# Hugo auto-emits a meta-refresh alias stub for each of these; these forced
+# server-side 301s replace that client-side refresh with a clean redirect.
+# `force = true` is required so the rule wins over the existing page/1/index.html
+# alias file (a non-forced rule is shadowed by it and never fires), and the
+# trailing-slash form matches Netlify's normalized request path. The :tag
+# placeholder collapses all 25 tag URLs into one rule.
+# See docs/url-parity/report.md "The redirect set #172 must implement".
 [[redirects]]
-  from = "/blog/page/1"
+  from = "/blog/page/1/"
   to = "/blog/"
   status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/:tag/page/1/"
+  to = "/tags/:tag/"
+  status = 301
+  force = true
 
 # Security headers
 [[headers]]
