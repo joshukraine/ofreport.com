@@ -1,9 +1,12 @@
 {{- /*
   figure — inline Cloudinary image, clickable to a larger lightbox view.
 
-  Inline <img> is served at ~768px (the article body width) so pages stay light;
-  the wrapping <a> points at a larger version for the lightbox zoom. GLightbox
-  itself is wired up in Phase 13 — this only emits the compatible markup
+  The inline <img> is delivered inside a 1344x1344 box (c_limit, ~2x the 672px
+  content column for retina crispness) and constrained in CSS to a 672x672 box,
+  so the LONG SIDE is a consistent ~672px regardless of orientation — landscapes
+  fill the column, portraits render narrower and centered (see #141). The
+  wrapping <a> points at a larger version for the lightbox zoom. GLightbox itself
+  is wired up in Phase 13 — this only emits the compatible markup
   (class="glightbox", data-gallery, data-description), which is forward-compatible.
 
   not-prose keeps the typography plugin from styling the figure/img/figcaption,
@@ -31,10 +34,14 @@
 <figure class="not-prose my-10 md:my-16">
   {{- /* data-type="image" is required: Cloudinary f_auto URLs have no file extension, so GLightbox's auto-detection would treat them as external (iframe) and show a blank box. */ -}}
   <a href="{{ $lightbox }}" class="glightbox" data-type="image" data-gallery="article"{{ with $captionPlain }} data-description="{{ . }}"{{ end }}>
-    <img src="{{ $display }}" alt="{{ $alt }}" loading="lazy" class="w-full rounded-xl bg-gray-50">
+    <img src="{{ $display }}" alt="{{ $alt }}" loading="lazy" class="mx-auto h-auto max-h-[42rem] max-w-full rounded-xl bg-gray-50">
   </a>
   {{- with $caption }}
   {{- /* markdownify renders inline markdown and (via unsafe=true) inline HTML like <br>; single-line captions stay unwrapped (no <p>). */ -}}
-  <figcaption class="mx-auto mt-2 text-base font-serif font-semibold text-center">{{ . | markdownify }}</figcaption>
+  {{- /* max-w-xl (576px) keeps the centered caption to a tidy measure narrower
+         than a full-width landscape; ports the original's portrait-caption rule
+         (it was 576px too), applied universally since orientation is unknown at
+         build time. */ -}}
+  <figcaption class="mx-auto mt-2 max-w-xl text-base font-serif font-semibold text-center">{{ . | markdownify }}</figcaption>
   {{- end }}
 </figure>
