@@ -39,4 +39,4 @@ However, the blood of animals could only provide a temporary covering for sin. (
 
 *“Neither by the blood of goats and calves, but <span style="text-decoration: underline;">by [Christ’s] own blood</span> he entered in once into the holy place, having obtained eternal redemption for us. For if the blood of bulls and of goats, and the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh: How much more shall <span style="text-decoration: underline;">the blood of Christ</span>, who through the eternal Spirit offered himself without spot to God, <span style="text-decoration: underline;">purge your conscience from dead works</span> to serve the living God?” (Hebrews 9:12–14)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

@@ -59,12 +59,12 @@ can do so easily by sending funds to Yura via PayPal. (details below) Don’t
 forget to choose the “family and friends” option so that Yura will receive the
 full amount of your gift.
 
-❤️ &nbsp;**Donate to Radekhivski Hospodyni (via Yuriy Petriv) on
+❤️  **Donate to Radekhivski Hospodyni (via Yuriy Petriv) on
 [PayPal](https://www.paypal.com/)!**
 
-📨 &nbsp;**<petrivs@ukr.net>**
+📨  **<petrivs@ukr.net>**
 
-✅ &nbsp;**Specify “Radekhivski Hospodyni” in the memo line.**
+✅  **Specify “Radekhivski Hospodyni” in the memo line.**
 
 {{< callout >}}
 Keep scrolling for more photos! First up, a few photos from the *Good and Evil* delivery...

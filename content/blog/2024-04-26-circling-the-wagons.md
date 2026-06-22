@@ -42,7 +42,7 @@ Him and we are so grateful for the years He has given with Mom.
 - Pray that God would heal Mom and give her more years of life with us. I'm
   praying for 15. It worked for Hezekiah! 😁🙏
 - Pray for our family as we travel by van across four countries just to reach
-  our departure airport. (Ukraine &rarr; Poland &rarr; Slovakia &rarr; Austria)
+  our departure airport. (Ukraine → Poland → Slovakia → Austria)
   We fly out of Vienna on Wednesday morning.
 - Pray for our children as they adjust to a new culture and new experiences, not
   to mention fighting jet lag.

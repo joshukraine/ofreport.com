@@ -43,4 +43,4 @@ The ark is an Old Testament illustration of Jesus Christ. As in the days of Noah
 
 *“Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places <span style="text-decoration: underline;">in Christ</span>:” (Ephesians 1:3)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

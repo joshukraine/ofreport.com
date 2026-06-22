@@ -35,4 +35,4 @@ Like Adam, Christ also came as King on the earth. He too received His authority 
 
 *“For if by one man’s offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.) Therefore as <span style="text-decoration: underline;">by the offence of one [Adam] judgment came</span> upon all men to condemnation; even so <span style="text-decoration: underline;">by the righteousness of one [Christ] the free gift came</span> upon all men unto justification of life. For as by one man’s disobedience many were made sinners, so by the obedience of one shall many be made righteous.” (Romans 5:17–19)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

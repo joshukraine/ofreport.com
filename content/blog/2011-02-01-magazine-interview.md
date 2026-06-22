@@ -24,6 +24,6 @@ In our interview, Kelsie and I answered several questions about homeschooling an
 
 We encourage you to <a href="http://www.generation-impact.com/">visit generation-impact.com</a> and to pray for their ministry. We are grateful to Grace and her family for the opportunity to share our experiences in their magazine.
 
-<a href="http://www.generation-impact.com/archives/2327">Read the interview here &raquo;</a>
+<a href="http://www.generation-impact.com/archives/2327">Read the interview here »</a>
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/02/236-8698.jpg" caption="&hearts; Josh &amp; Kelsie, 2011 &hearts;" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/02/236-8698.jpg" caption="♥ Josh & Kelsie, 2011 ♥" >}}

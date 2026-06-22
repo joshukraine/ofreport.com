@@ -39,4 +39,4 @@ Friend, where do you stand today? The world around us is dying, starving amidst 
 
 Trust no longer in your own dead works, but believe on the name of Jesus Christ alone. Salvation is not as far as you may think. *“…The word is nigh thee, even in thy mouth, and in thy heart: that is, the word of faith, which we preach; That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.” (Romans 10:8-9)*
 
-*BIBLE FIRST*, LESSON 19 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 19 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

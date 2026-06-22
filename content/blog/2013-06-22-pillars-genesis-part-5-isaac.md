@@ -39,4 +39,4 @@ Substitution was God’s master plan to save His family from condemnation. By of
 
 *“Christ hath redeemed us from the curse of the law, <span style="text-decoration: underline;">being made a curse for us</span>…” (Galatians 3:13)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

@@ -45,12 +45,12 @@ specific supplies requested by Radekhivski Hospodyni. Don’t forget to choose t
 “family and friends” option so that Yura will receive the full amount of your
 gift.
 
-❤️ &nbsp;**Donate to Radekhivski Hospodyni (via Yuriy Petriv) on
+❤️  **Donate to Radekhivski Hospodyni (via Yuriy Petriv) on
 [PayPal](https://www.paypal.com/)!**
 
-📨 &nbsp;**petrivs@ukr.net**
+📨  **petrivs@ukr.net**
 
-✅ &nbsp;**Specify “Radekhivski Hospodyni” in the memo line.**
+✅  **Specify “Radekhivski Hospodyni” in the memo line.**
 
 ### How You Can Pray
 

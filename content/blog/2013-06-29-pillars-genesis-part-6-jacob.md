@@ -33,4 +33,4 @@ The Scriptures reveal that Christ also received a great inheritance from His Fat
 
 *“That in the dispensation of the fulness of times he might <span style="text-decoration: underline;">gather together in one all things in Christ</span>, both which are in heaven, and which are on earth; even in him: <span style="text-decoration: underline;">In whom also we have obtained an inheritance</span>, being predestinated according to the purpose of him who worketh all things after the counsel of his own will:” (Ephesians 1:10–11)*
 
-*BIBLE FIRST*, LESSON 20 &mdash; COPYRIGHT &copy; 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
