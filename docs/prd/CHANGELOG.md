@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-22 — `docs/prd/03-site-structure.md`, `docs/prd/appendix.md`, `docs/prd/ROADMAP.md`, `CLAUDE.md`
+
+**What changed:** Descoped `authors.json` from the migration. The PRD listed it as a data file to migrate (`appendix.md` envisioned author name/bio/avatar accessed via `site.Data.authors`), but it is not being brought over to the Hugo site. `archives.json` migration is unaffected (done, byte-identical to the Nuxt source).
+
+**Why:** The data file's original purpose was to render each byline as a live link to that author's homepage/profile. The blog has three authors — Joshua and Kelsie Steele (the site owners) and Raphaël Villeneuve (a single guest post years ago, who has no link). Self-linking the owners' bylines to `/contact` is redundant, and the richer author-profile capability the PRD imagined (bio/avatar blocks) is premature abstraction for this author set. Nothing in the Hugo build reads the file: the byline renders from the frontmatter `author` string (`.Params.author`) as plain text in `single.html` / `article-card.html`, with no `site.Data.authors` lookup anywhere, and the file was never copied into `data/`. So this is a clean descope, not a removal of working functionality — an authors data file is trivial to add back if the author base ever grows.
+
+**Category:** Pivot
+
 ### 2026-06-22 — `layouts/partials/cloudinary-url.html`, `content/blog/2012-11-04-today-fly.md`
 
 **What changed:** Graceful-display pass for no-cover / small-image legacy articles (issue #135). Verification found the requirement was already met by the templates, which faithfully ported the original Nuxt site's `v-if="cover"` guards: the single-article hero and preview-card image both omit cleanly when `cover` is absent (no broken hero, no 404), OG/Twitter fall back to `params.ogImage`, and the RSS `<enclosure>` is omitted. The documented no-cover fallback is therefore **omit** (parity with the original), not a neutral default header. Two hardening changes applied: (1) the display Cloudinary presets (`featured`, `regular`, `hero`) switched from `c_scale` to `c_limit` so an intrinsically small image is never upscaled; (2) the one broken relative-path cover (`2012-11-04-today-fly`) repointed to its CloudFront URL so it loads via Cloudinary fetch.

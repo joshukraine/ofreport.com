@@ -27,7 +27,6 @@ ofreport.com/
 │   ├── subscribe.md             # Newsletter signup page
 │   └── thank-you.md             # Contact form success page
 ├── data/
-│   ├── authors.json             # Author information
 │   └── archives.json            # PDF archive listing by year
 ├── docs/
 │   └── tailwind_plus/           # Tailwind Plus reference snippets (gitignored)
