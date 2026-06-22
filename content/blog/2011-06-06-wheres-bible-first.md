@@ -12,4 +12,4 @@ It's been a while since we've posted an update on the progress of Bible First. T
 
 [Read the article here.](http://euroteamoutreach.org/index.php?p=ereport)
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/06/lessons.png" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/06/lessons.png" alt="Shelves stacked with printed Bible First course lesson booklets" >}}

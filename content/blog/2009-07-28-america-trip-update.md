@@ -23,7 +23,7 @@ Below are a few pictures from CMO, ABS, CBC, and our other acronym-rich activiti
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/07/20090726_0019.JPG" caption="Our most recent Fireproof showing in the village of Tershiv." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/07/20090714_0064.JPG" caption="Teaching Romans 7 at a recent ABS meeting." alt="20090714_0064" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/07/20090714_0064.JPG" caption="Teaching Romans 7 at a recent ABS meeting." >}}
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/07/20090621_0560.jpg" caption="Preaching the Gospel after a film showing" >}}
 

@@ -88,7 +88,7 @@ printing of over 11,000 books is now underway. Lord willing, we expect to
 receive delivery of the new books by October 1st so that we can begin using them
 in our next UGO project.
 
-{{< figure src="OFReport/2025-08-31-announcing-ukraine-gospel-outreach/IMG_3583_gvluio" >}}
+{{< figure src="OFReport/2025-08-31-announcing-ukraine-gospel-outreach/IMG_3583_gvluio" alt="A man hands a Good and Evil book to a crowd of children and adults gathered by a van in a Ukrainian village" >}}
 
 ## Conclusion
 

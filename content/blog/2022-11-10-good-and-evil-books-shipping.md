@@ -58,9 +58,9 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-19-56-326_is7eyt" caption="Oleksandr (far left) is a Ukrainian missionary who is very active. We’re sending him *Good and Evil* books to aid in his evangelism outreaches in central Ukraine." >}}
 
-{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-20-13-823_l2akmc" >}}
+{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-20-13-823_l2akmc" alt="Three Ukrainian girls indoors holding up copies of the Good and Evil book (Добро і Зло)" >}}
 
-{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-20-13-751_d9h3ja" >}}
+{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-20-13-751_d9h3ja" alt="A Ukrainian boy at an outdoor sports court holding a copy of the Good and Evil book (Добро і Зло)" >}}
 
 {{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/IMG_9222_ute8u8" caption="We recently enjoyed a barbeque with two Ukrainian families that we’ve gotten to know through our church here in Žilina." >}}
 

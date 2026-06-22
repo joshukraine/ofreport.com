@@ -36,8 +36,8 @@ I know of many others who were also up in the night praying for our family. Than
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2937.jpg" caption="Rebekah Praise - our little future mommy. One of three, actually." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2928.jpg" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2928.jpg" alt="Close-up of newborn Hosanna's face, cradled in a hand and wearing a floral onesie" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2927.jpg" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/11/DSC_2927.jpg" alt="Newborn Hosanna sleeping, tucked under a brightly colored crocheted blanket" >}}
 
 {{< youtube GrfyhS-wZUE >}}

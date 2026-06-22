@@ -59,27 +59,27 @@ Keep scrolling for more photos from our family and ministry!
 
 The following are a few of the photos we've received so far from people who have helped us by donating copies of _Good and Evil_ to their local libraries.
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-09_fuqzbk.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-09_fuqzbk.jpg" alt="A young man hands the dark-covered Good and Evil book to two women at a colorful children's library" >}}
 
 {{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-08_jwsyzp.jpg" caption="The sign at the top says \"City Library for Children\"." >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-10_wk7jvc.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-10_wk7jvc.jpg" alt="A man and a woman exchange a copy of Good and Evil across a desk in a library reading room" >}}
 
 {{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-02_wrvbiz.jpg" caption="Sign at the top: \"Stop for a minute and look at a new book!\" In Ukrainian it rhymes." >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-14_rkj2iq.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-14_rkj2iq.jpg" alt="A woman holds a copy of Good and Evil, with another copy displayed on the library shelf behind her" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-11_bgizwd.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-11_bgizwd.jpg" alt="A woman in a pink turtleneck holds a copy of Good and Evil in front of children's library bookshelves" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-13_x4c5nv.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-13_x4c5nv.jpg" alt="Two women in a library each hold a copy of Good and Evil in front of book-filled shelves" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-12_b9adid.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-12_b9adid.jpg" alt="A woman holds a copy of Good and Evil in a library beside a wall portrait of Taras Shevchenko" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-15_k9bubi.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-15_k9bubi.jpg" alt="A man holds a copy of Good and Evil outside the Ruzhyn central district library beside its blue sign" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-03_miuaqu.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-03_miuaqu.jpg" alt="Two copies of Good and Evil shelved on display among other Ukrainian books at a library" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-16_eqyquy.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-16_eqyquy.jpg" alt="A woman, a young girl in a red hat, and a teenager holding Good and Evil in a brightly decorated children's library" >}}
 
 ## Family Photos
 
@@ -91,7 +91,7 @@ And finally, a few more photos from our life here in L'viv...
 
 {{< figure src="OFReport/2019-03-30-operation-library/beka-birthday-03-3000w_hwtuyn.jpg" caption="The girls invited several friends to go ice skating to celebrate." >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/beka-birthday-02-3000w_xdxp2m.jpg" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/beka-birthday-02-3000w_xdxp2m.jpg" alt="Six girls in winter coats pose together in front of a Christmas tree in a shopping mall" >}}
 
 {{< figure src="OFReport/2019-03-30-operation-library/david-little-man_wpy3mi.jpg" caption="David is 2 now, and growing into quite the little man!" >}}
 

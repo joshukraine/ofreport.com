@@ -21,7 +21,7 @@ This has been a sad chapter in our lives, and yet we rejoice that the story does
 
 Farewell, Little One. Be at peace in the glory of His presence and know that Mommy and Daddy love you. Wait a little while, and we’ll be home.
 
-{{< figure src="OFReport/2012-06-26-little-one/Little-One-b_jdhxay.jpg" >}}
+{{< figure src="OFReport/2012-06-26-little-one/Little-One-b_jdhxay.jpg" alt="Keepsake box holding a card with tiny inked hand and footprints labeled Baby Girl Steele with her birth details" >}}
 
 {{< callout >}}
 "But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven." (Matthew 19:14)

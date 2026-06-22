@@ -16,7 +16,7 @@ L'viv is beautiful in the fall. For a large city, it's quite rich in plant life.
 
 ## Immigration
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/11/ukraine_coat_of_arms.png" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/11/ukraine_coat_of_arms.png" alt="Coat of arms of Ukraine, a golden trident on a blue shield" >}}
 
 If you've been following our ministry for any length of time, then you've heard us speak about the difficulties of obtaining visas and other documents necessary for us to live in Ukraine on a continual basis. One of the biggest problems in this area is the frequency with which Ukraine changes its immigration policies. Guess what? They did it again.
 

@@ -90,9 +90,9 @@ And now some of those gorgeous terrace views!
 
 {{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_8594_ify3u5" caption="Mountains in the front yard, anyone?" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_0194_an8hny" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_0194_an8hny" alt="View from the terrace across green fields toward a mountain range under a blue sky, with village rooftops in between" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_0195_wldswf" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_0195_wldswf" alt="Terrace view over neighboring house rooftops toward forested mountains under a partly cloudy sky" >}}
 
 {{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_0092_szoluz" caption="Sunset in Mojš (back of the house)" >}}
 
@@ -102,28 +102,28 @@ And now some of those gorgeous terrace views!
 The following are photos sent to us by various people who are using the *Good and Evil* books in ministry in Ukraine...
 {{< /callout >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/image0_z3odsw" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/image0_z3odsw" alt="Children gather in a classroom as a man holds a book beside a box of Good and Evil books on a table" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/image1_bexewt" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/image1_bexewt" alt="A man hands a Добро і Зло (Good and Evil) book to a boy in a classroom full of children and adults" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG_20220710_103443_dvi65k" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG_20220710_103443_dvi65k" alt="A bearded man on a city street holds up a Добро і Зло (Good and Evil) book with its dark cover facing the camera" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG_20220710_133805_gvtmm7" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG_20220710_133805_gvtmm7" alt="A smiling man in a plaid shirt holds a Добро і Зло (Good and Evil) book up with both hands indoors" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-89f4a7b545356ab6e4f7981a5f3b7f42-V_hdidk1" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-89f4a7b545356ab6e4f7981a5f3b7f42-V_hdidk1" alt="An outdoor table laid out with stacks of Good and Evil books and other Christian literature beside a box of snacks" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/viber_image_2022-07-18_13-35-00-605_tat9cq" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/viber_image_2022-07-18_13-35-00-605_tat9cq" alt="A smiling woman in a store holds a Добро і Зло (Good and Evil) book against her chest" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/viber_image_2022-07-18_13-35-16-646_ti7kew" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/viber_image_2022-07-18_13-35-16-646_ti7kew" alt="An elderly man holds a Добро і Зло (Good and Evil) book toward the camera while seated indoors" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-4c0c8584fc0b02a086371c9447eb7178-V_rxoelw" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-4c0c8584fc0b02a086371c9447eb7178-V_rxoelw" alt="A group of teenage girls pose outdoors at a summer camp, several holding Good and Evil books and gift bags" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/photo_2022-07-11_11-56-49_x6rexl" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/photo_2022-07-11_11-56-49_x6rexl" alt="Two older women browse Christian books and literature laid out on an outdoor table on a city sidewalk" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-bc17a30213fa37eeef3db7197771ef0f-V_jhtipf" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-bc17a30213fa37eeef3db7197771ef0f-V_jhtipf" alt="Children and youth gather at an outdoor table to receive Good and Evil books and snacks during an outreach" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-1d1a1d27d2b182d3eecf3d077ee16eb6-V_f3dpco" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-1d1a1d27d2b182d3eecf3d077ee16eb6-V_f3dpco" alt="A smiling teenage girl outdoors holds a Добро і Зло (Good and Evil) book in her hands" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-5ae17cebab62f5de8086269500b3192f-V_nhijdd" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-5ae17cebab62f5de8086269500b3192f-V_nhijdd" alt="A man on a city street holds a Добро і Зло (Good and Evil) book against his chest" >}}
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-0d69dc4072cc5e7e30173329a05840db-V_iztcre" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/IMG-0d69dc4072cc5e7e30173329a05840db-V_iztcre" alt="A group of young children at an outdoor table, one holding a Good and Evil book, with toy cars and snacks" >}}

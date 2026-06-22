@@ -139,7 +139,7 @@ Since Russia invaded Ukraine in early 2022, we have given away over 11,000
 copies of _Good and Evil_. Often, our distributors send us pictures of their
 work, and we’ve included some highlights below.
 
-{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-collage_vhmyca" >}}
+{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-collage_vhmyca" alt="Collage of Ukrainian children and adults holding up copies of the Good and Evil book at outdoor distribution events" >}}
 
 ## How You Can Pray
 
@@ -176,12 +176,12 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-soldier_fya2ws" caption="It's great to see _Good and Evil_ reaching Ukrainian soldiers!" >}}
 
-{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-kid-group_fuwlrw" >}}
+{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-kid-group_fuwlrw" alt="Group of children outdoors by a balloon arch, holding up copies of the Good and Evil book" >}}
 
-{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-kid-group-2_nryevy" >}}
+{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-kid-group-2_nryevy" alt="Large group of children at an indoor holiday event raising copies of the Good and Evil book and gift bags" >}}
 
-{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-crowd_xe7gjg" >}}
+{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-crowd_xe7gjg" alt="A crowd of people reaching out for a copy of the Good and Evil book being handed out at an outdoor distribution" >}}
 
-{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-adult-group_vjvec5" >}}
+{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-adult-group_vjvec5" alt="Indoor group photo of adults holding copies of the Good and Evil book, with a man taking a selfie in the foreground" >}}
 
-{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-girl_ur6xzy" >}}
+{{< figure src="OFReport/2024-01-19-ministry-and-family-in-time-of-war/ge-book-girl_ur6xzy" alt="Young woman in a winter coat and knit hat holding a copy of the Good and Evil book at an outdoor street event" >}}

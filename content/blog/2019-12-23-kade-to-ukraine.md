@@ -53,11 +53,11 @@ Already we have several young men expressing interest in the project, and space 
 
 The new Ukrainian edition of *Good and Evil* continues to reach people with the message of the Gospel. In addition to a steady stream of individual requests via our web site (dobroizlo.com.ua), we also receive regular orders from other ministries that are using the books for outreach. *Good and Evil* is making its way into libraries, schools, orphanages and youth camps around the country. Below are some photos we received from a group near Odessa who are using *Good and Evil* in their youth camps.
 
-{{< figure src="OFReport/2019-12-23-kade-to-ukraine/image5_nydewt.jpg" >}}
+{{< figure src="OFReport/2019-12-23-kade-to-ukraine/image5_nydewt.jpg" alt="Ukrainian children seated on benches at a youth camp holding copies of the Добро і Зло book" >}}
 
-{{< figure src="OFReport/2019-12-23-kade-to-ukraine/image7_tiiarg.jpg" >}}
+{{< figure src="OFReport/2019-12-23-kade-to-ukraine/image7_tiiarg.jpg" alt="A woman in a youth-camp uniform smiling and holding a stack of Добро і Зло booklets" >}}
 
-{{< figure src="OFReport/2019-12-23-kade-to-ukraine/image3_cajfzt.jpg" >}}
+{{< figure src="OFReport/2019-12-23-kade-to-ukraine/image3_cajfzt.jpg" alt="Large group of children and leaders at a youth camp posing together on a beach" >}}
 
 ## How You Can Pray
 

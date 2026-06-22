@@ -76,7 +76,7 @@ glossy comic book is a real attention grabber.
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-group-2_heuoum" caption="Groups of kids and adults alike are being introduced to Christ through the _Good and Evil_ books." >}}
 
-{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boy-open-book_uv1hzx" >}}
+{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boy-open-book_uv1hzx" alt="A boy seated outdoors holds open the Good and Evil comic book, showing its illustrated Bible story pages" >}}
 
 We hope to be able to print more books in the future, and we are grateful to
 everyone who has made this ministry possible: donors, distributors, prayer

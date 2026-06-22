@@ -45,7 +45,7 @@ The book came about as the result of a parenting seminar that Kelsie and I prese
 
 The distribution of *Good and Evil* continues to move forward. We're sending out books regularly to ministries, libraries, and individuals. And as always, we expect *Good and Evil* to play a major role in our upcoming CMO project this summer!
 
-{{< figure src="OFReport/2019-06-07-calm-before-the-storm/ge-cover-2019_ooxqoh.png" >}}
+{{< figure src="OFReport/2019-06-07-calm-before-the-storm/ge-cover-2019_ooxqoh.png" alt="Cover of the Ukrainian edition of the Good and Evil Bible comic book, titled Добро і Зло" >}}
 
 ## Bible First Online Update
 

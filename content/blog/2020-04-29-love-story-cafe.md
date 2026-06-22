@@ -16,11 +16,11 @@ slug: 2020-04-29-love-story-cafe
 
 Dinnerware clinked and the chic restaurant dining room hummed with the activity of about 50 people: couples dressed up to celebrate the 14th of February over a special dinner. “The Love Story Cafe”, a Valentine’s outreach hosted by [God’s Design Church](https://www.facebook.com/gods.design.lviv/), was in full progress. Josh and I had supplied the “love story” part a few minutes earlier.
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4814_yljwob.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4814_yljwob.jpg" alt="Two couples smiling together at a dinner table in the brick-walled cafe" >}}
 
 The query came from the pastor of GDC and friend of ours, Pavlo. He was conducting an interview about our relationship as part of the evening’s entertainment. We spoke into microphones from a contrived stage area and directed our answers out over a sea of faces.
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4760_tofy6i.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4760_tofy6i.jpg" alt="Joshua and Kelsie Steele speaking into microphones beside the host during the love story interview" >}}
 
 Among the couples gathered were some that we knew, fellow believers from Pavlo’s church. But fully half were strangers to us, people who may or may not have a church background or an understanding of the gospel. They had attended previous English clubs and outreaches hosted by God’s Design Church, and now their curiosity was piqued to hear the unusual story of an American couple and (hopefully) glean a few tips for a happy family and marriage.
 
@@ -32,7 +32,7 @@ Our host had asked us to keep churchy terms out of our story and try to make it 
 
 The response to the Love Story Cafe was warm and receptive, and many couples expressed interest in participating in similar events in the future. We’re grateful to have been part of it.
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4777_r4b969.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4777_r4b969.jpg" alt="Speakers gesturing on stage as seated guests at cafe tables smile and listen" >}}
 
 As a rule, our family has a fairly quiet social calendar. But this year was an exception as we actually had two opportunities to share around Valentine’s Day. Only a few days before the LSC, a group of 50+ single adults gathered at a local Baptist church to hear our love story.
 
@@ -50,19 +50,19 @@ God is the Author of everything good in our lives!
 Keep scrolling for more photos from the Love Story Cafe!
 {{< /callout >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4801_hsojqm.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4801_hsojqm.jpg" alt="Young couple on a sofa holding an orange Love Story Cafe program against a brick wall" >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4865_xwsifd.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4865_xwsifd.jpg" alt="Joshua and Kelsie Steele standing arm in arm by a window at the cafe" >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4839_ohf9tz.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4839_ohf9tz.jpg" alt="Couple leaning together at a cafe table making playful expressions" >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4856_orqlv3.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4856_orqlv3.jpg" alt="Young couple smiling and posing together by a window at the cafe" >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4826_r0qasf.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4826_r0qasf.jpg" alt="Smiling couple embracing at a table holding an orange Love Story Cafe program" >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4787_m38tlj.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4787_m38tlj.jpg" alt="Couple sitting close on a blue velvet sofa with a pink tulip on the table" >}}
 
-{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4820_pzydto.jpg" >}}
+{{< figure src="OFReport/2020-04-29-love-story-cafe/DSCF4820_pzydto.jpg" alt="Two women smiling cheek to cheek with the busy cafe behind them" >}}
 
 {{< callout >}}
 Haven’t read our love story yet?

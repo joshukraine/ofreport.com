@@ -43,7 +43,7 @@ During CMO, we always send out more frequent updates, and if you'd like to recei
 
 We are AL. MOST. THERE. After countless hours of work by many different people, the revised, full-color, Ukrainian edition of *Good and Evil* is nearly ready! Right  now, our designer in Kyiv is making the final preparations for print, and we hope to have presses rolling some time next week! Please pray that the work will be done well, and that there will be no defective books. (This was an issue last time.) Also pray that the books will be delivered in time for use during CMO. We are so grateful to all of you who have prayed for and supported this project. We are excited to see how God will use *Good and Evil* in Ukraine!
 
-{{< figure src="OFReport/2018-06-24-sharpening-arrows/ge-68-69-spread_xcabwq.png" >}}
+{{< figure src="OFReport/2018-06-24-sharpening-arrows/ge-68-69-spread_xcabwq.png" alt="Open two-page spread of the Good and Evil comic book showing full-color illustrated Bible story panels" >}}
 
 {{< callout >}}
 "Coming Soon!"

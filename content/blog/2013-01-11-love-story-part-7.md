@@ -37,7 +37,7 @@ We count ourselves very blessed to have had parents and mentors who urged us to 
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/157_5780.jpg" caption="From the left: Cindy Powell, Danny Powell, Kelsie, Joshua, Cathy Steele, Mike Steele" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/160_6056A.jpg" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/160_6056A.jpg" alt="Joshua and Kelsie kiss at their wedding, the groom wearing a white rose boutonniere" >}}
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/161_6167.jpg" alt="161_6167" >}}
 
