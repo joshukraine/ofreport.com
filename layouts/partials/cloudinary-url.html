@@ -24,12 +24,18 @@
     {{- $isRemote = true -}}
   {{- end -}}
 
+  {{- /* Display presets use c_limit, not c_scale, so an intrinsically small
+         image is delivered at its native size rather than upscaled (#135): a
+         300px legacy cover renders crisp-but-small instead of blurry-stretched.
+         c_limit and c_scale are identical for the curated covers (all >= 2000px
+         wide); the guard only matters if a small cover ever appears. og keeps
+         c_fill — social cards need exact 1200x630 dimensions. */ -}}
   {{- $presets := dict
-    "featured" "c_scale,f_auto,q_auto,w_740"
-    "regular"  "c_scale,f_auto,q_auto,w_610"
+    "featured" "c_limit,f_auto,q_auto,w_740"
+    "regular"  "c_limit,f_auto,q_auto,w_610"
     "figure"   "c_limit,f_auto,q_auto,w_1344,h_1344"
     "article"  "c_scale,f_auto,q_auto:best"
-    "hero"     "c_scale,f_auto,q_auto:best,w_2000"
+    "hero"     "c_limit,f_auto,q_auto:best,w_2000"
     "cover"    "c_scale,f_auto,q_auto:best,w_200"
     "lightbox" "c_scale,f_auto,q_auto,w_1600"
     "og"       "c_fill,f_auto,h_630,q_auto,w_1200"
