@@ -29,11 +29,11 @@ Ukrainians in Eastern Europe.
 
 ## Links from the Episode
 
-- News and updates going forward: [OFReport.com](https://ofreport.com/)
+- News and updates going forward: [OFReport.com](/)
 - Subscribe to our blog:
-  [OFReport.com/subscribe](https://ofreport.com/subscribe/)
+  [OFReport.com/subscribe](/subscribe/)
 - Listen to all our podcast episodes:
-  [OFReport.com/podcast](https://ofreport.com/podcast/)
+  [OFReport.com/podcast](/podcast/)
 - CMO 2023 updates:
   [euroteamoutreach.org/blog](https://euroteamoutreach.org/blog/)
 - CMO photo albums:
