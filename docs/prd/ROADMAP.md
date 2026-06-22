@@ -23,7 +23,7 @@ links to the relevant PRD document for full requirements.
 | 12 | Newsletter Integration | Phase 3 | Complete |
 | 13 | Lightbox Integration | Phase 6 | Complete |
 | 14 | Analytics | Phase 3 | Complete (credentials deferred to Phase 16) |
-| 15 | Content Migration | Phase 6 | Not started |
+| 15 | Content Migration | Phase 6 | In progress |
 | 16 | Deployment | Phase 15 | Not started |
 
 ---
@@ -176,7 +176,7 @@ links to the relevant PRD document for full requirements.
 - [x] Duplicate tag consolidated (`good-and-evil`)
 - [x] Validation pass: no remaining `<article-` patterns
 - [ ] Legacy WordPress articles reviewed and fixed
-- [ ] Static pages created
+- [x] Static pages created
 - [ ] Data files migrated (`authors.json`, `archives.json`)
 
 **Key learning:** Migration scripting, validation, content testing
