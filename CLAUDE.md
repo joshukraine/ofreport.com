@@ -64,7 +64,7 @@ hugo new content blog/YYYY-MM-DD-slug-title.md
 
 - Blog articles live in `content/blog/` with YAML frontmatter
 - Static pages (`family.md`, `ministry.md`, etc.) live in `content/` root
-- Data files (`authors.json`, `archives.json`) in `data/`
+- Data files (`archives.json`) in `data/`
 - Tag taxonomy is the only taxonomy (`[taxonomies] tag = "tags"`)
 
 ### Article Frontmatter Schema

@@ -22,10 +22,10 @@
 
 ## Existing Data Files
 
-These files from the current site should be migrated to the Hugo `data/`
-directory:
+This file from the current site is migrated to the Hugo `data/` directory:
 
-| File            | Purpose                        | Hugo Usage                                 |
-| --------------- | ------------------------------ | ------------------------------------------ |
-| `authors.json`  | Author name, bio, avatar       | Data file accessed via `site.Data.authors` |
-| `archives.json` | PDF newsletter archive by year | Data file for `/archives/` page template   |
+| File            | Purpose                        | Hugo Usage                               |
+| --------------- | ------------------------------ | ---------------------------------------- |
+| `archives.json` | PDF newsletter archive by year | Data file for `/archives/` page template |
+
+> `authors.json` was **descoped** (see `CHANGELOG.md`, 2026-06-22) — the byline renders from the frontmatter `author` string, not a data file.

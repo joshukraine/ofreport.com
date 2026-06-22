@@ -177,7 +177,7 @@ links to the relevant PRD document for full requirements.
 - [x] Validation pass: no remaining `<article-` patterns
 - [x] Legacy WordPress articles reviewed and fixed (#129 content, #135 display, #160 hero cap)
 - [x] Static pages created
-- [ ] Data files migrated (`authors.json`, `archives.json`)
+- [x] Data files migrated (`archives.json`; `authors.json` descoped — see CHANGELOG 2026-06-22)
 
 **Key learning:** Migration scripting, validation, content testing
 
