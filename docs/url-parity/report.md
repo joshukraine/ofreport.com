@@ -16,7 +16,9 @@ This is the **audit** stage of the 3-issue §2 pipeline (audit → redirects →
 4. **Diff** — normalized away the trailing-slash difference and categorized every live URL (`docs/url-parity/audit.py`).
 5. **Empirical redirect tests** — `curl` against the live Hugo preview (`ofreport-dev.netlify.app`) and the live Nuxt site to confirm *actual* Netlify behavior rather than assuming it.
 
-Re-run any time with `python3 docs/url-parity/audit.py` (after a clean build). It exits non-zero if any live URL would 404, so it doubles as the pre-cutover gate for #173. The snapshots (`live-urls.txt`, `hugo-urls.txt`, `hugo-aliases.txt`) are committed alongside this report.
+Re-run any time with `python3 docs/url-parity/audit.py` (after a clean build). It exits non-zero if any live URL would 404. The snapshots (`live-urls.txt`, `hugo-urls.txt`, `hugo-aliases.txt`) are committed alongside this report.
+
+`audit.py` proves the right pages **exist** (static `./public` diff). The companion **`verify.py`** proves every old URL **resolves** by firing real HTTP requests at the deployed site — see "Verification (#173)" below.
 
 ---
 
@@ -141,9 +143,71 @@ The homepage's only other internal references are `_nuxt/*` build bundles (retir
 
 ---
 
-## Acceptance criteria
+## Acceptance criteria (#171 — audit)
 
 - [x] Authoritative old-URL inventory captured (sitemap + crawl) and committed — `live-urls.txt` (373).
 - [x] Every old URL categorized (1:1 / needs-301 / gone) — 347 / 26 / 0; 0 would 404.
 - [x] Pagination and trailing-slash behavior explicitly analyzed and documented — both verified empirically.
 - [x] Report names the exact redirect set the redirect-map issue must implement — see above.
+
+---
+
+## Verification (#173) — live resolution gate
+
+The audit above *predicts* parity from a static diff. `verify.py` *proves* it by
+firing real HTTP requests at the deployed Hugo site and asserting every old URL
+ends in a `200` — directly, or via a **single** `301` — with no `404`s, no
+redirect chains, and no loops. Built to be re-run as the final pre-cutover check
+(epic #150 §7 step 7).
+
+### How to run
+
+```bash
+python3 docs/url-parity/verify.py                       # default: deploy preview
+python3 docs/url-parity/verify.py https://ofreport.com  # cutover-day check
+```
+
+It reads the `live-urls.txt` inventory, follows each URL's redirect chain
+hop-by-hop, and exits non-zero on any failure so a clean run is unambiguous.
+
+### What counts as a clean resolve
+
+Netlify normalizes a missing trailing slash with its own `301` (`/contact` →
+`/contact/`). That hop is cosmetic — same page — so it does **not** count against
+the "single 301" budget; only a redirect to a *different* page does. This makes
+the buckets line up with the audit's 347 / 26 / 0 split:
+
+- **1:1** — `200`, direct or after the cosmetic slash `301` (347 URLs).
+- **single 301** — one content redirect → `200`; the `page/1` set (26 URLs).
+  Netlify applies the forced `page/1/ → list-root` rule *and* the slash
+  normalization in one hop, so e.g. `/blog/page/1` → `301` → `/blog/` is a clean
+  single redirect, not a chain.
+- **FAIL** — a `404`, a 2+ hop content chain, a loop, or any non-`200` final
+  status.
+
+### Result (deploy preview, 2026-06-22)
+
+```text
+Resolution buckets:
+  1:1 (200, direct / slash-normalized) : 347
+  single 301 -> 200                    : 26
+  FAILURES                             : 0
+
+SEO-critical confirmations:
+  [PASS] blog permalinks : 223/223 resolve (expect 223)
+  [PASS] tag pages       : 25/25 resolve (expect 25)
+  [PASS] /feed.xml       : 200 (XML feed)
+  [PASS] /sitemap.xml    : 200, 258 URLs, all resolve; /thank-you excluded
+
+RESULT: PASS — every old URL resolves 1:1 or via a single 301 to 200.
+```
+
+The new sitemap lists 258 URLs (real pages only — no `page/1` aliases, no
+`/thank-you`, no stale Nuxt-only paths); every one resolves `200`.
+
+### Acceptance criteria (#173 — verify)
+
+- [x] Every old URL resolves 1:1 or via a single `301` → `200` on the preview — 347 / 26 / 0.
+- [x] `/blog/:slug/`, `/tags/{tag}/`, and `/feed.xml` confirmed resolving — 223, 25, and the feed all `PASS`.
+- [x] `sitemap.xml` reflects the new structure (no stale Nuxt-only URLs) — 258 real-page URLs, all resolve, `/thank-you` excluded.
+- [x] Script is documented and re-runnable for the cutover-day check (§7 step 7) — `verify.py`, accepts a base-URL argument.
