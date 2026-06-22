@@ -21,10 +21,16 @@
           data-gallery="article"
           {{- with $.Params.caption }} data-description="{{ partial "caption-plain.html" . }}"{{ end }}
         >
+          {{- /* Fixed heights (not min-h): on an <img>, min-height is only a floor,
+                 so w-full lets the image grow to its intrinsic aspect-ratio height
+                 and overflow the viewport on large/wide screens, hiding the caption
+                 and title. The original used a background <div> whose height equalled
+                 its min-height; a fixed height + object-cover reproduces that cap so
+                 text below the hero always stays in view (#160). */ -}}
           <img
             src="{{ $hero }}"
             alt="{{ $.Title }}"
-            class="block w-full object-cover min-h-[250px] sm:min-h-[450px] md:min-h-[500px] lg:min-h-[600px] xl:min-h-[75vh]"
+            class="block w-full object-cover h-[250px] sm:h-[450px] md:h-[500px] lg:h-[600px] xl:h-[75vh]"
             loading="eager"
           >
         </a>
