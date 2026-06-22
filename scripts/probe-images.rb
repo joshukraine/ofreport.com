@@ -14,108 +14,89 @@
 #   template one.
 #
 # What it does:
-#   1. Scans content/blog/*.md for every remote image URL (figure shortcodes,
-#      markdown images, and cover frontmatter).
+#   1. Scans content/blog/*.md for every remote http(s) image URL — the legacy
+#      CloudFront figure/markdown sources, plus full Cloudinary URLs (covers).
+#      Bare Cloudinary public IDs (native figures, e.g.
+#      "OFReport/.../slug_ab12") are delivered from our own Cloudinary account
+#      and are out of scope for this CloudFront audit; their count is reported
+#      but they are not probed.
 #   2. Probes each distinct URL's HTTP status (HEAD, with a ranged-GET retry
-#      for hosts that reject HEAD).
+#      for hosts that reject HEAD), concurrently.
 #   3. Reports dead URLs grouped with the articles that reference them.
-#   4. For each dead URL, looks up the matching Nuxt source article and tries
-#      to recover the original <img src> derivative the migration discarded,
-#      probing that candidate so a working replacement can be suggested.
+#   4. For each dead URL, looks up the matching Nuxt source article (same
+#      filename) and tries to recover the original <img src> derivative the
+#      migration discarded, probing that candidate so a working replacement can
+#      be suggested.
 #
 # It only reads and makes network requests — it never edits content. Remediation
 # is applied by hand from this report (the dead set is small and each fix wants
 # a human eyeball).
 #
-# Dependencies: Ruby stdlib only (net/http, uri, thread, optparse).
+# Dependencies: Ruby stdlib only (net/http, uri, set).
 #
 # Usage:
-#   ruby scripts/probe-images.rb            # probe all remote image URLs
-#   ruby scripts/probe-images.rb --dead     # only print the dead URLs section
-#   ruby scripts/probe-images.rb --csv FILE # also write a machine-readable CSV
+#   ruby scripts/probe-images.rb
 
 require "net/http"
 require "uri"
-require "thread"
-require "optparse"
 require "set"
 
-BLOG_DIR   = File.expand_path("../content/blog", __dir__)
-NUXT_DIR   = File.expand_path("../../ofreport.com-nuxt2/content/articles", __dir__)
-CLOUDINARY = "res.cloudinary.com"
-THREADS    = 12
-TIMEOUT    = 25
+BLOG_DIR = File.expand_path("../content/blog", __dir__)
+NUXT_DIR = File.expand_path("../../ofreport.com-nuxt2/content/articles", __dir__)
+THREADS  = 12
+TIMEOUT  = 25
 
-options = { dead_only: false, csv: nil }
-OptionParser.new do |o|
-  o.banner = "Usage: ruby scripts/probe-images.rb [options]"
-  o.on("--dead", "Print only the dead-URL section") { options[:dead_only] = true }
-  o.on("--csv FILE", "Write a CSV of every probed URL") { |f| options[:csv] = f }
-end.parse!
+# A worker that raises an unexpected (non-network) error should fail loudly
+# rather than silently dropping its URLs from the results.
+Thread.abort_on_exception = true
 
 # --- Extraction -------------------------------------------------------------
 
-# Pull every remote (http/https, protocol-relative) image URL out of a file.
-# Returns an array of [url, kind] where kind is :figure | :markdown | :cover.
-def extract_urls(text)
-  found = []
-
-  text.scan(/\{\{<\s*figure\s+[^>]*?src="([^"]+)"/) do |(src)|
-    found << [src, :figure]
-  end
-
-  text.scan(/!\[[^\]]*\]\((https?:\/\/[^)\s]+|\/\/[^)\s]+)\)/) do |(src)|
-    found << [src, :markdown]
-  end
-
-  text.scan(/^cover:\s*["']?([^"'\s]+)["']?\s*$/) do |(src)|
-    found << [src, :cover]
-  end
-
-  found
-    .map { |url, kind| [normalize(url), kind] }
-    .select { |url, _| remote_image?(url) }
+# Pull every image src out of a file: figure shortcodes, markdown images, and
+# cover frontmatter. Returns raw (un-normalized) src strings.
+def extract_srcs(text)
+  srcs = []
+  text.scan(/\{\{<\s*figure\s+[^>]*?src="([^"]+)"/) { |(s)| srcs << s }
+  text.scan(/!\[[^\]]*\]\((https?:\/\/[^)\s]+|\/\/[^)\s]+)\)/) { |(s)| srcs << s }
+  text.scan(/^cover:\s*["']?([^"'\s]+)["']?\s*$/) { |(s)| srcs << s }
+  srcs
 end
 
 def normalize(url)
-  url = "https:#{url}" if url.start_with?("//")
-  url
+  url.start_with?("//") ? "https:#{url}" : url
 end
 
-def remote_image?(url)
-  return false unless url.start_with?("http")
-  url.match?(/\.(jpe?g|png|gif|webp)$/i)
+# A probeable source is a full http(s) URL pointing at an image file.
+def probeable?(url)
+  url.start_with?("http") && url.match?(/\.(jpe?g|png|gif|webp)$/i)
 end
 
-def cloudinary?(url)
-  url.include?(CLOUDINARY)
+# A bare Cloudinary public ID (no scheme) — delivered from our own account, so
+# out of scope here but worth counting so coverage is honest.
+def bare_cloudinary_id?(url)
+  !url.start_with?("http") && !url.start_with?("//")
 end
 
 # --- Probing ----------------------------------------------------------------
 
-# Returns an HTTP status integer, or 0 on a network/timeout error.
+def alive?(code)
+  (200..399).cover?(code)
+end
+
+# Returns an HTTP status integer, or 0 on a network/timeout error. Tries HEAD
+# first; some object stores reject HEAD (405) or answer oddly, so a non-alive
+# verdict is confirmed with a 1-byte ranged GET before being trusted.
 def probe(url)
-  status = head_status(url)
-  # Some object stores reject HEAD (405) or answer it oddly; confirm with a
-  # 1-byte ranged GET before trusting a non-2xx/3xx verdict.
-  status = ranged_get_status(url) if status.zero? || status >= 400
-  status
-rescue StandardError
-  0
-end
-
-def head_status(url)
-  request(url, Net::HTTP::Head.new(URI(url)))
-end
-
-def ranged_get_status(url)
-  req = Net::HTTP::Get.new(URI(url))
-  req["Range"] = "bytes=0-0"
-  request(url, req)
-end
-
-def request(url, req)
   uri = URI(url)
+  code = request(uri, Net::HTTP::Head.new(uri))
+  return code if alive?(code)
+
+  get = Net::HTTP::Get.new(uri)
+  get["Range"] = "bytes=0-0"
+  request(uri, get)
+end
+
+def request(uri, req)
   http = Net::HTTP.new(uri.host, uri.port)
   http.use_ssl = uri.scheme == "https"
   http.open_timeout = TIMEOUT
@@ -130,13 +111,17 @@ end
 # For a dead URL, find the original <img src> derivative the migration dropped.
 # The Nuxt markup is <a href="DEAD"><img ... src="DERIVATIVE" ...></a>; the
 # migration kept the href and discarded the derivative, which often survives.
-def recovery_candidate(dead_url, nuxt_files_cache)
+#
+# Scoped to the Nuxt source of the article that actually references the dead URL
+# (same filename) — so generic WordPress filenames reused across posts (e.g.
+# IMG_1234.jpg) can never cross-match and suggest another article's derivative.
+def recovery_candidate(dead_url, blog_files)
   basename = File.basename(dead_url)
-  nuxt_files_cache.each do |path, text|
-    next unless text.include?(basename)
+  blog_files.each do |blog_name|
+    path = File.join(NUXT_DIR, blog_name)
+    next unless File.file?(path)
 
-    # Match an <a href="...basename"> immediately wrapping an <img ... src="...">.
-    m = text.match(
+    m = File.read(path).match(
       /<a[^>]+href="([^"]*#{Regexp.escape(basename)})"[^>]*>\s*<img[^>]+src="([^"]+)"/
     )
     return normalize(m[2]) if m
@@ -144,29 +129,28 @@ def recovery_candidate(dead_url, nuxt_files_cache)
   nil
 end
 
-def load_nuxt_files
-  return {} unless Dir.exist?(NUXT_DIR)
-
-  Dir.glob(File.join(NUXT_DIR, "*.md")).each_with_object({}) do |path, h|
-    h[path] = File.read(path)
-  end
-end
-
 # --- Main -------------------------------------------------------------------
 
-# url => { kinds: Set, files: Set }
-references = Hash.new { |h, k| h[k] = { kinds: Set.new, files: Set.new } }
+blog_files = Dir.glob(File.join(BLOG_DIR, "*.md")).sort
 
-Dir.glob(File.join(BLOG_DIR, "*.md")).sort.each do |path|
+# url => Set of referencing blog filenames
+references  = Hash.new { |h, k| h[k] = Set.new }
+skipped_ids = Set.new
+
+blog_files.each do |path|
   name = File.basename(path)
-  extract_urls(File.read(path)).each do |url, kind|
-    references[url][:kinds] << kind
-    references[url][:files] << name
+  extract_srcs(File.read(path)).map { |s| normalize(s) }.each do |url|
+    if probeable?(url)
+      references[url] << name
+    elsif bare_cloudinary_id?(url)
+      skipped_ids << url
+    end
   end
 end
 
 urls = references.keys.sort
-puts "Probing #{urls.size} distinct remote image URLs across #{Dir.glob(File.join(BLOG_DIR, '*.md')).size} articles...\n\n" unless options[:dead_only]
+puts "Probing #{urls.size} remote image URLs across #{blog_files.size} articles " \
+     "(skipping #{skipped_ids.size} in-Cloudinary public-ID images — out of scope)...\n\n"
 
 # Probe concurrently; collect into a thread-safe hash.
 results = {}
@@ -176,8 +160,13 @@ urls.each { |u| queue << u }
 
 workers = Array.new(THREADS) do
   Thread.new do
-    until queue.empty?
-      url = queue.pop(true) rescue break
+    loop do
+      url =
+        begin
+          queue.pop(true)
+        rescue ThreadError # queue drained
+          break
+        end
       code = probe(url)
       mutex.synchronize { results[url] = code }
     end
@@ -185,51 +174,27 @@ workers = Array.new(THREADS) do
 end
 workers.each(&:join)
 
-dead = urls.reject { |u| (200..399).cover?(results[u]) }
-nuxt_files = dead.empty? ? {} : load_nuxt_files
+puts "Status summary:"
+results.values.tally.sort.each { |code, n| puts "  #{code.zero? ? 'ERR' : code}: #{n}" }
+puts
 
-unless options[:dead_only]
-  by_code = results.values.group_by { |c| c }.transform_values(&:size)
-  puts "Status summary:"
-  by_code.sort.each { |code, n| puts "  #{code == 0 ? 'ERR' : code}: #{n}" }
-  puts
-end
+dead = urls.reject { |u| alive?(results[u]) }
 
 puts "=== Dead image sources (#{dead.size}) ==="
 if dead.empty?
   puts "None — every remote image source resolved."
 else
   dead.each do |url|
-    info = references[url]
-    cand = recovery_candidate(url, nuxt_files)
-    cand_status = cand ? probe(cand) : nil
+    files = references[url].to_a.sort
+    cand  = recovery_candidate(url, files)
     puts
-    puts "DEAD #{results[url] == 0 ? 'ERR' : results[url]}  #{url}"
-    puts "  referenced by: #{info[:files].to_a.sort.join(', ')}"
+    puts "DEAD #{results[url].zero? ? 'ERR' : results[url]}  #{url}"
+    puts "  referenced by: #{files.join(', ')}"
     if cand
-      verdict = (200..399).cover?(cand_status) ? "WORKS (#{cand_status})" : "also dead (#{cand_status})"
-      puts "  nuxt recovery candidate: #{cand}  -> #{verdict}"
+      code = probe(cand)
+      puts "  nuxt recovery candidate: #{cand}  -> #{alive?(code) ? "WORKS (#{code})" : "also dead (#{code})"}"
     else
       puts "  nuxt recovery candidate: none found"
     end
   end
-end
-
-if options[:csv]
-  require "csv"
-  CSV.open(options[:csv], "w") do |csv|
-    csv << %w[url status alive cloudinary kinds files]
-    urls.each do |url|
-      code = results[url]
-      csv << [
-        url,
-        code,
-        (200..399).cover?(code),
-        cloudinary?(url),
-        references[url][:kinds].to_a.sort.join("|"),
-        references[url][:files].to_a.sort.join("|"),
-      ]
-    end
-  end
-  puts "\nWrote #{options[:csv]}"
 end
