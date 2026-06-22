@@ -9,7 +9,7 @@ tags:
 slug: 2013-05-25-pillars-genesis-part-1-adam
 ---
 
-The following text is taken from the twentieth and final lesson of <a title="Bible First" href="http://www.getbiblefirst.com/" target="_blank">*Bible First*</a>. As promised in a previous issue of our newsletter, we'll be publishing *The Seven Pillars of Genesis* as a series of blog posts over the next few weeks.
+The following text is taken from the twentieth and final lesson of [*Bible First*](http://www.getbiblefirst.com/). As promised in a previous issue of our newsletter, we'll be publishing *The Seven Pillars of Genesis* as a series of blog posts over the next few weeks.
 
 ### The Seven Pillars of Genesis
 

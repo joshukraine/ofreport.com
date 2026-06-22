@@ -34,4 +34,4 @@ Today, Nathan oversees our entire Ukrainian correspondence course, which reaches
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/03/katelin_nathan_melissa.jpg" caption="The Day family: Katelin, Nathan, and Melissa" >}}
 
-In late 2009, Nathan married Katelin Rebsch, and their first child, Melissa, was born in December of 2010. I thank God for Nathan and his family, and would like to ask you to pray for them as they serve with our team, working tirelessly to advance the cause of Christ in Ukraine. You can learn more about Nathan and Katelin by visiting their blog: <a href="http://daysinukraine.com/">http://daysinukraine.com</a>.
+In late 2009, Nathan married Katelin Rebsch, and their first child, Melissa, was born in December of 2010. I thank God for Nathan and his family, and would like to ask you to pray for them as they serve with our team, working tirelessly to advance the cause of Christ in Ukraine. You can learn more about Nathan and Katelin by visiting their blog: [http://daysinukraine.com](http://daysinukraine.com/).

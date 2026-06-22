@@ -19,7 +19,7 @@ After many weeks of preparation, the Steele family is finally departing for Amer
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/08/20090823_0061.JPG" caption="Beka and Abby are growing all the time! Abby will be four in September. Beka is 19 months." >}}
 
-Nathan Day will be traveling to America a few days after we do. As many of you know, he will be getting married to Katelin Rebsch on November 7 of this year. Please pray for safe travel for Nathan and Katelin and for God’s blessing on them as they begin their new life together in Ukraine. Also, be sure to <a href="http://www.mywedding.com/natelin" target="_blank">check out their new wedding web site!</a>
+Nathan Day will be traveling to America a few days after we do. As many of you know, he will be getting married to Katelin Rebsch on November 7 of this year. Please pray for safe travel for Nathan and Katelin and for God’s blessing on them as they begin their new life together in Ukraine. Also, be sure to [check out their new wedding web site!](http://www.mywedding.com/natelin)
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/08/ETO_Team_Picture.jpg" caption="The 2009 ETO staff team" >}}
 
@@ -53,7 +53,7 @@ The first phase of our course will consist of 17 lessons, covering the entire bo
 
 ### Audio Bible Studies (ABS)
 
-Our Audio Bible Study sessions continue to progress well. We hold weekly meetings here in L’viv which consist of a one-hour English Club followed by a one-hour Bible lesson. During English Club, Ukrainians are invited to practice their language skills on various topics. We also make heavy use of No Greater Joy’s *<a href="http://goodandevilbook.com/ukrainian/" target="_blank">Good and Evil</a>*, which the students practice reading aloud in English. All of our students have copies of the book in Ukrainian, and we encourage them to compare the two languages and ask questions about what they read.
+Our Audio Bible Study sessions continue to progress well. We hold weekly meetings here in L’viv which consist of a one-hour English Club followed by a one-hour Bible lesson. During English Club, Ukrainians are invited to practice their language skills on various topics. We also make heavy use of No Greater Joy’s *[Good and Evil](http://goodandevilbook.com/ukrainian/)*, which the students practice reading aloud in English. All of our students have copies of the book in Ukrainian, and we encourage them to compare the two languages and ask questions about what they read.
 
 We have a handful of people who have been coming on a regular basis, and most opt to stay for Bible lesson as well. Over the past several weeks, we have been teaching through the book of Romans, recording every message in digital audio. Last week, we completed Romans 8. The Romans series will be on hold while our family is in the States, but English Club will proceed as usual.
 

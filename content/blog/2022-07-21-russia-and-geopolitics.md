@@ -9,7 +9,7 @@ tags:
 - family
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1658398270/OFReport/2022-07-21-russia-and-geopolitics/ivan-lapyrin-9rGjL68h5N8-unsplash-1200-630_valqso.jpg
-caption: Photo by <a href="https://unsplash.com/@lapyrin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivan Lapyrin</a> on <a href="https://unsplash.com/s/photos/kremlin-night?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+caption: Photo by [Ivan Lapyrin](https://unsplash.com/@lapyrin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/kremlin-night?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 slug: 2022-07-21-russia-and-geopolitics
 ---
 

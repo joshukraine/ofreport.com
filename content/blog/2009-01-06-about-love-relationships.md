@@ -9,7 +9,7 @@ tags:
 slug: 2009-01-06-about-love-relationships
 ---
 
-With well over 300 Ukrainian students enrolled in our <a href="http://getbiblefirst.com/" target="_blank">Chronological Bible Course</a>, we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?"
+With well over 300 Ukrainian students enrolled in our [Chronological Bible Course](http://getbiblefirst.com/), we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?"
 
 Recently, one of our newer students, a young lady named Maryana, wrote to us with the following question:
 

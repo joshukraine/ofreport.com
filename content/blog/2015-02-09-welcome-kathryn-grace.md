@@ -20,7 +20,7 @@ Last spring, when Kelsie and I learned that we were expecting a baby, our first 
 
 Kelsie did have some trouble delivering the placenta, but we were able to transport her to a local hospital and in a few hours everything was taken care of. While this was definitely one of Kelsie’s hardest births from a labor and delivery standpoint, we are grateful that God led and protected us as He always does.
 
-In just a few days, our family will be flying back to Ukraine to continue our ministry. Although the political situation there remains tenuous, we’re grateful that L’viv is far removed from the violence. We’re also excited to report that over the past few months, we’ve seen a significant increase in requests for our Bible materials! My inbox fills up daily with emails from people enrolling in our <a title="Bible First" href="http://getbiblefirst.com" target="_blank">*Bible First* course</a> or requesting copies of the book <a title="Good and Evil" href="http://goodandevilbook.com/" target="_blank">*Good and Evil*</a>. We are optimistic that God will use this time of turmoil in Ukraine to turn many to Himself. Please continue to pray with us as we communicate the message of Christ to these precious people!
+In just a few days, our family will be flying back to Ukraine to continue our ministry. Although the political situation there remains tenuous, we’re grateful that L’viv is far removed from the violence. We’re also excited to report that over the past few months, we’ve seen a significant increase in requests for our Bible materials! My inbox fills up daily with emails from people enrolling in our [*Bible First* course](http://getbiblefirst.com) or requesting copies of the book [*Good and Evil*](http://goodandevilbook.com/). We are optimistic that God will use this time of turmoil in Ukraine to turn many to Himself. Please continue to pray with us as we communicate the message of Christ to these precious people!
 
 (HINT: More baby photos at the end of this post!)
 
@@ -30,7 +30,7 @@ This year’s CMO project is on track to begin June 15th. As I mentioned above, 
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/02/cmo_2015_logo-417x450.png" caption="cmo_2015_logo" >}}
 
-The deadline to <a title="CMO 2015" href="http://www.euroteamoutreach.org/index.php?p=cmo" target="_blank">register for CMO 2015 is May 1</a>, so if you or someone you know is interested in coming, please contact us right away! And of course, please continue to lift up our team in prayer as we make preparations for the summer.
+The deadline to [register for CMO 2015 is May 1](http://www.euroteamoutreach.org/index.php?p=cmo), so if you or someone you know is interested in coming, please contact us right away! And of course, please continue to lift up our team in prayer as we make preparations for the summer.
 
 ### *Bible First* Update
 

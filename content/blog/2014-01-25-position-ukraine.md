@@ -11,7 +11,7 @@ caption: As you are no doubt aware, Ukraine is in the middle of a political cris
 slug: 2014-01-25-position-ukraine
 ---
 
-As you are no doubt aware, Ukraine is in the middle of a political crisis. The details of the conflict–which have grown more gory in recent days–are readily available on <a title="KyivPost" href="http://www.kyivpost.com/" target="_blank">major news outlets</a>, so I won’t waste space here repeating what’s been said by others. The purpose of this post is to inform you of our family’s position in Ukraine relative to current events.
+As you are no doubt aware, Ukraine is in the middle of a political crisis. The details of the conflict–which have grown more gory in recent days–are readily available on [major news outlets](http://www.kyivpost.com/), so I won’t waste space here repeating what’s been said by others. The purpose of this post is to inform you of our family’s position in Ukraine relative to current events.
 
 There are quite a few foreign missionaries (Americans, Canadians, Czech, and others) who live and minister in Ukraine. Certainly many of our supporters and friends back home are wondering, “With all this in the news about revolution in Ukraine, what are the missionaries doing?” I’ll tell you: we’ve been calling each other on the phone and asking that same question. :) While that last sentence may have brought a smile to your face (as was its intention) it is nonetheless true. In my circle of friends–both American and Ukrainian–I don’t know anyone who’s ever had to flee a country due to civil war, the declaration of martial law, or violent revolution.
 
@@ -19,7 +19,7 @@ Over the past few days, several options have been discussed. We have tried our b
 
 ### The Status in L’viv
 
-For my entire adult life, I have made my home in <a title="About L'viv" href="http://en.wikipedia.org/wiki/Lviv" target="_blank">L’viv</a>, a medium-size city in western Ukraine with a population comparable to my Texas hometown of Fort Worth. As of this writing, the bulk of the violence is occurring in Kyiv, Ukraine’s capital city, which is located a little more than 300 miles east of us. For now, things in L’viv are mostly calm. Yes, it is true that protesters have taken over the Oblast Administration building (as they have in many other oblasts across the country), and have forced the governor to resign, but happily, the city continues to operate mostly normally.
+For my entire adult life, I have made my home in [L’viv](http://en.wikipedia.org/wiki/Lviv), a medium-size city in western Ukraine with a population comparable to my Texas hometown of Fort Worth. As of this writing, the bulk of the violence is occurring in Kyiv, Ukraine’s capital city, which is located a little more than 300 miles east of us. For now, things in L’viv are mostly calm. Yes, it is true that protesters have taken over the Oblast Administration building (as they have in many other oblasts across the country), and have forced the governor to resign, but happily, the city continues to operate mostly normally.
 
 Yesterday, I was in downtown L’viv for an hour or so running errands, and except for the peaceful gathering of protesters in the main square (our “maydan”) there were no signs that anything was amiss. Public transportation is functioning normally, traffic is horrendous as usual, shops are open for business, and people are going about their daily lives as best they can. There are no riot police on the streets. Furthermore, all major utilities and other services have continued without interruption. We have light, gas, water, heat, cell phone service, and internet access. Nothing has been turned off, and to my knowledge, the rumors of internet censorship have proven false. For now, at least, L’viv is very much a safe place to be.
 
@@ -33,7 +33,7 @@ If all that seems like a cloud of complexity, that’s because it is. War–if t
 
 ### Our Plan
 
-God has blessed us with a wonderful team here on the mission field, and for the most part we try to do things together. The current crisis is no exception. All three of the men who lead <a title="Euro Team Outreach" href="http://www.euroteamoutreach.org" target="_blank">Euro Team Outreach</a>–myself, Nathan Day, and Jessie Beal–have discussed the situation and decided on a course of action for our team. This is our outlook in a nutshell:
+God has blessed us with a wonderful team here on the mission field, and for the most part we try to do things together. The current crisis is no exception. All three of the men who lead [Euro Team Outreach](http://www.euroteamoutreach.org)–myself, Nathan Day, and Jessie Beal–have discussed the situation and decided on a course of action for our team. This is our outlook in a nutshell:
 
 * Our bags are packed. For now, we are staying put. But there are several possible events which could change our minds, and if one or more of those occur, we are ready to leave on short notice.
 * We have set up a rendezvous point where our team would meet immediately in the event that phone and internet communications are cut off, which is a real possibility if martial law is declared.

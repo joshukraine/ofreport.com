@@ -27,4 +27,4 @@ Thank you to our parents, siblings, and friends, who sent boxes over or gave us 
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_4055.jpg" caption="A happy daddy with his girls." >}}
 
-To view more pictures, visit our <a title="Steele Family Photos" href="http://picasaweb.google.com/joshandkels/" target="_blank">Picasa Web Album</a>.
+To view more pictures, visit our [Picasa Web Album](http://picasaweb.google.com/joshandkels/).

@@ -16,4 +16,4 @@ We arrived in Krakow late Monday afternoon, and we were at the Ukrainian embassy
 
 Now that the Day and Steele families have R visas, we are working to get new visas for the Beals and Denise Hutchison. Right now, they are in the process of obtaining their letters of invitation, and once they have those they will also travel to Poland to apply for the visas. Please pray that this would all work out quickly and successfully.
 
-If you want to see more pix from our trip, check out <a href="http://daysinukraine.com/">Nathan and Katelin's blog</a>!
+If you want to see more pix from our trip, check out [Nathan and Katelin's blog](http://daysinukraine.com/)!

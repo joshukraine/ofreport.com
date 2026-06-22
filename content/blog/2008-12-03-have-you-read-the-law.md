@@ -9,7 +9,7 @@ tags:
 slug: 2008-12-03-have-you-read-the-law
 ---
 
-With all that's been going on of late in the political world, I decided to pull out my copy of The Law by <a href="http://en.wikipedia.org/wiki/Frederic_Bastiat" target="_blank">Frederic Bastiat</a> and read through it again. The Law is a very short book (sometimes even referred to as "pamphlet") but it is truly revolutionary in the strictest sense of the word.
+With all that's been going on of late in the political world, I decided to pull out my copy of The Law by [Frederic Bastiat](http://en.wikipedia.org/wiki/Frederic_Bastiat) and read through it again. The Law is a very short book (sometimes even referred to as "pamphlet") but it is truly revolutionary in the strictest sense of the word.
 
 Walter Williams, an economics professor at George Mason University, said this in his introduction to The Law:
 

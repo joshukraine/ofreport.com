@@ -34,11 +34,11 @@ As modern American Christians, we tend to be easily discouraged when we don’t 
 
 Please don’t stop praying for our team as we minister. God knows every heart in every village, and His Word is not bound. Every weekend camping trip brings our team into contact with new faces, new opportunities to preach the Gospel and distribute Bible literature. Pray that God would strengthen us and that He would use our efforts to turn many to repentance.
 
-If you’d like to keep up with CMO 2014 as the project progresses, be sure to subscribe to the ETO eReport at <a title="Euro Team Outreach" href="http://www.euroteamoutreach.org" target="_blank">www.euroteamoutreach.org</a>.
+If you’d like to keep up with CMO 2014 as the project progresses, be sure to subscribe to the ETO eReport at [www.euroteamoutreach.org](http://www.euroteamoutreach.org).
 
 ### New *Bible First* Lessons
 
-We’ve recently released Volumes 3 and 4 of our *Bible First* course in English. These two volumes add an additional seven lessons to those already available. As our local *Bible First* course in Ukraine continues to grow, we are excited to see more people using the English version of these materials in their own ministries. To learn more about how you can use *Bible First* to reach the lost in your own ministry, please visit our web site: <a title="Bible First" href="http://www.getbiblefirst.com" target="_blank">www.getbiblefirst.com</a>.
+We’ve recently released Volumes 3 and 4 of our *Bible First* course in English. These two volumes add an additional seven lessons to those already available. As our local *Bible First* course in Ukraine continues to grow, we are excited to see more people using the English version of these materials in their own ministries. To learn more about how you can use *Bible First* to reach the lost in your own ministry, please visit our web site: [www.getbiblefirst.com](http://www.getbiblefirst.com).
 
 ### Baby Update
 
