@@ -15,6 +15,9 @@ docs/tailwind_plus/
 # Temporary working files
 tmp/
 
+# Python bytecode cache (from the docs/url-parity audit/verify scripts)
+__pycache__/
+
 # OS files
 .DS_Store
 Thumbs.db
