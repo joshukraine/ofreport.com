@@ -11,7 +11,7 @@ slug: 2013-06-01-pillars-genesis-part-2-abel
 
 The following is an excerpt taken from the twentieth and final lesson of *[Bible First](http://www.getbiblefirst.com)*.
 
-### Abel’s Atonement
+## Abel’s Atonement
 
 Abel’s offering of a lamb in Genesis 4 clearly represents the payment God requires to atone for (that is, cover) sin. Only innocent blood possesses the judicial power to effectively remove sin. (See Leviticus 17:11, Hebrews 9:22)
 
@@ -23,11 +23,11 @@ The Biblical account of Cain and Abel does not explain where they learned of the
 
 However, the blood of animals could only provide a temporary covering for sin. (Hebrews 10:1-4) Abel’s lamb, while acceptable to God at that time, represents a mere shadow of God’s ultimate solution for the redemption of mankind. Thousands of years after Abel’s cruel death at the hands of Cain, Jesus was announced by John the Baptist as, *“…the Lamb of God, which taketh away the sin of the world.” (John 1:29)* Like Abel, Christ was also murdered by wicked men who spilled His divine blood as they scourged and crucified Him. But in contrast to Abel, Christ’s blood did not cry out for vengeance. (Genesis 4:10, Hebrews 12:24) Though it appeared a tragedy, the death of Christ was a triumph, a voluntary sacrifice that provided the atonement needed to cover our sin.
 
-### Abel’s Atonement in Genesis
+## Abel’s Atonement in Genesis
 
 *“And Abel, he also brought of the firstlings of his flock and of the fat thereof. And the LORD had respect unto Abel and to his offering:” (Genesis 4:4)*
 
-### Other Key Passages on Blood Atonement
+## Other Key Passages on Blood Atonement
 
 *“For the life of the flesh is in the blood: and I have given it to you upon the altar to make an atonement for your souls: for <span style="text-decoration: underline;">it is the blood that maketh an atonement for the soul</span>.” (Leviticus 17:11)*
 

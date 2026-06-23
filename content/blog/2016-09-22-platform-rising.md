@@ -23,7 +23,7 @@ As I began my language-learning journey, I became something of a fanatic. I imme
 
 As I further developed my ministry, I ran into an unexpected frustration. Despite my ability to speak, there were surprisingly few who wanted to listen.
 
-### Audience First
+## Audience First
 
 If you’ve watched our [Bible First training videos](http://getbiblefirst.com/training/#video-start), then you are familiar with a concept we teach called “Audience First”. The basic idea is that in order to be effective in communicating a message, you first need to establish a hearing with your target audience. In social media, this is often referred to as “building a platform.”
 
@@ -31,7 +31,7 @@ Our world today is filled with voices competing for their turn at the mic. Every
 
 In this report, I’d like to share with you how God is blessing our platform in Ukraine and around the world.
 
-### Good and Evil: Round 2
+## Good and Evil: Round 2
 
 Several years ago, we translated Good and Evil into Ukrainian. We began handing out the books at film showings, and offering free copies on our web site. Back then, things were pretty quiet. But in recent months, we have seen traffic increase dramatically such that we are now sending out 50-70 books per month!
 
@@ -41,7 +41,7 @@ Just before CMO began this summer, someone posted a link to our web site on a Uk
 
 At this pace, our supply of books is fast running out, and soon it will be gone. God is clearly blessing this outreach, and for this reason, we’ve begun work on “Round 2” of our Good and Evil ministry. We are working on a completely new translation of Good and Evil and we’ll be using the latest color artwork from NGJ. If God provides the funds, we hope to do a new printing in Ukrainian next year.
 
-### Bible First Translations
+## Bible First Translations
 
 Since No Greater Joy began distributing Bible First books in English, we’ve seen demand for them grow tremendously! One area that is particularly exciting is the translation of Bible First into other languages. Right now, we have Spanish and French translations in progress. There is also a possibility that a Russian translation may begin soon.
 
@@ -51,13 +51,13 @@ Meanwhile, our Bible First ministry in Ukraine is thriving as well. We continue 
 
 In the United States, a growing number of people are using Bible First to great effect in prisons. Just a few days ago, I received an email from a brother named Steve who says, “I use the Bible First course in the prison that I minister at full time in Alabama and the inmates LOVE the course and are constantly asking me if there are more courses by Bible First.”
 
-### A Cup Overflowing
+## A Cup Overflowing
 
 As we look towards the fall season, our ministry cup is overflowing! Our message is the same as it’s been for years, but now it seems that God is allowing it to reach even more people. In addition to the two projects I’ve mentioned above, I am continuing my weekly Bible study with Oleg, and I also have regular opportunities to preach in our church here in L’viv.
 
 Abigail, Rebekah, and Hosanna are all progressing well in school. Kelsie is a star homeschool mommy and keeps all of us on our toes! Little Kathryn is the sunshine in our lives, toddling all over the house and making new “discoveries” every day.
 
-### It’s a Boy!
+## It’s a Boy!
 
 In case you missed our blog post in June, we’d like to share some exciting news! Kelsie is in her 25th week of pregnancy. And now, after four girls, God has given us our first boy! We are thrilled and grateful for His gift of life, and we’re ready to embark on this new adventure. The girls in particular are excited that they will finally have a little brother. :)
 
@@ -65,7 +65,7 @@ In case you missed our blog post in June, we’d like to share some exciting new
 
 Aside from the usual fatigue, Kelsie is doing well. Based on the latest ultrasound data, our projected due date is January 5, 2017. Please keep Kelsie and our new baby in your prayers!
 
-### How You Can Pray
+## How You Can Pray
 
 * Praise God for the new doors He is opening in ministry. Pray that we will continue to be diligent stewards of the platform He has given.
 * Pray for those who heard the Gospel during CMO 2016.

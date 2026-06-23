@@ -11,7 +11,7 @@ slug: 2013-06-08-pillars-genesis-part-3-noah
 
 The following is an excerpt taken from the twentieth and final lesson of *[Bible First](http://www.getbiblefirst.com)*.
 
-### Noah’s Position
+## Noah’s Position
 
 Noah lived in an era of wickedness so terrible that it caused God to regret His creation of the human race. Yet in the midst of this universal debauchery, Noah was found to be righteous.
 
@@ -27,13 +27,13 @@ Noah initially found grace in the sight of God because he chose to walk righteou
 
 The ark is an Old Testament illustration of Jesus Christ. As in the days of Noah, God has seen fit to provide a means for the salvation of anyone who will receive it. Jesus is our ark, and all who enter in will be delivered from the coming flood of God’s righteous wrath. Christ Himself declares in John 10:9, *“I am the door: by me if any man enter in, he shall be saved…”*
 
-### Noah’s Position IN the Ark
+## Noah’s Position IN the Ark
 
 *“And the LORD said unto Noah, Come thou and all thy house <span style="text-decoration: underline;">into the ark</span>; for thee have I seen righteous before me in this generation.” (Genesis 7:1)*
 
 *“By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark to the saving of his house; by the which he condemned the world, and became heir of the righteousness which is by faith.” (Hebrews 11:7)*
 
-### The Bible Speaks of our Position IN Christ
+## The Bible Speaks of our Position IN Christ
 
 *“For as <span style="text-decoration: underline;">in Adam</span> all die, even so <span style="text-decoration: underline;">in Christ</span> shall all be made alive.” (1 Corinthians 15:22)*
 

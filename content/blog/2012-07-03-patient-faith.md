@@ -12,7 +12,7 @@ On Sunday morning, June 3, I preached a message called Patient Faith at our home
 
 You can listen to the message using the audio player below, or download it by right-clicking the download link and selecting "Save as...".
 
-### Patient Faith (51 minutes)
+## Patient Faith (51 minutes)
 
 <audio width="300" height="32" controls="controls">
 <source src="https://d21yo20tm8bmc2.cloudfront.net/audio/Patient-Faith.mp3" type="audio/mpeg" />

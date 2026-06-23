@@ -72,7 +72,7 @@ This cute little guy was fascinated with Joshua's camera!
 [![Description](https://d21yo20tm8bmc2.cloudfront.net/2017/kelsie-katelin-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/kelsie-katelin-2000w.jpg)
 This was the second mommy talk that Kelsie and Katelin have done together, and, Lord willing, it won't be their last!
 
-### How You Can Pray
+## How You Can Pray
 
 * Pray for the ladies who attended the seminar.
 * Praise God for great progress with our *Good and Evil* translation! More details in a future update...

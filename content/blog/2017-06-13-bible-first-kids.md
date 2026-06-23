@@ -45,17 +45,17 @@ Have you wondered whether or not *Bible First* could help you teach your kids ab
 
 {{< button href="https://getbiblefirst.com/" text="Learn more about Bible First" external=true >}}
 
-### Good and Evil Update
+## Good and Evil Update
 
 The translation of Good and Evil into Ukrainian continues to progress well. Anatoli has now completed two chapters, and Sasha (our designer in Kyiv) has done the initial layout work for both. Chapter three is moving forward! Please keep praying with us about this project. We hope to be ready to print by the fall as we need to have the new books ready for next year’s summer outreach.
 
-### The Russian is Coming!
+## The Russian is Coming!
 
 We are very pleased to announce that we now have a Russian translation of *Bible First* underway! Missionary Pat LaBarbera (sent out of same church as Jessie Beal) has been spearheading this effort. So far, nine lessons have been completed! There is a great demand even amongst our existing Ukrainian students for Russian-language materials, and we are looking forward to the completion of this translation.
 
 Please continue to pray for the various translation efforts. We now have four languages in progress: Ukrainian (revision), Spanish, French, and Russian.
 
-### How You Can Pray
+## How You Can Pray
 
 - Praise the Lord for the fruit we are seeing with our new Bible First Kids class at church!
 - Pray that Good and Evil in Ukrainian would be completed soon, and that we would be able to print this fall.

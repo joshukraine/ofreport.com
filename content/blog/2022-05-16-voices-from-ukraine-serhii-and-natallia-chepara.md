@@ -51,7 +51,7 @@ After you finish the episode, check out the video of Serhii and Natallia’s reu
 
 {{< youtube XT1vhANNw8Y >}}
 
-### How You Can Pray
+## How You Can Pray
 
 - Praise the Lord that we received our Ukrainian residency cards! 🥳
 - Pray for Serhii and Natallia as they navigate difficult days ahead.

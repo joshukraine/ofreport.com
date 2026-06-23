@@ -26,7 +26,7 @@ The days and weeks that followed were a delightful blend of travel, meeting fami
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/111_1129.jpg" alt="111_1129" >}}
 
-### Ever After
+## Ever After
 
 At the time of this writing, Kelsie and I have been married for over 8 years, and the Lord has blessed us with three precious children who are the joy of our lives. While married life has certainly presented its challenges, we have faced them together: not as competitors, but as friends. In fact, the phrase, “You’re my best friend,” is one used often in our home.
 

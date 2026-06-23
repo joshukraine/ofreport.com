@@ -26,7 +26,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-10860990"></div><script src="https://www.buzzsprout.com/1953515/10860990-moving-again.js?container_id=buzzsprout-player-10860990&player=small" type="text/javascript" charset="utf-8"></script>
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray that God would bless our move to the new house!
 - Pray that our fingerprints would be accepted at the FBI and that we would be

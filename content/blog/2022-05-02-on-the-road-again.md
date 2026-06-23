@@ -35,7 +35,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-10552421"></div><script src="https://www.buzzsprout.com/1953515/10552421-on-the-road-again.js?container_id=buzzsprout-player-10552421&player=small" type="text/javascript" charset="utf-8"></script>
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for our next trip into Ukraine to pick up our residency cards. Since
   recording this episode we’ve been notified that they are ready! 🥳

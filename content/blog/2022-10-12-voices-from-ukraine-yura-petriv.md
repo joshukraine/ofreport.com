@@ -31,7 +31,7 @@ Ukrainians in Eastern Europe.
 
 {{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/lviv-in-darkness_b7ktme" caption="L’viv in darkness after Russian missiles damage critical infrastructure on October 10, 2022." >}}
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for Yura as he continues his labor of love in Ukraine.
 - Pray for a speedy end to the war and a reuniting of separated Ukrainian
@@ -51,7 +51,7 @@ Ukrainians in Eastern Europe.
 - Pray that we would receive our residency status in Slovakia soon.
 - Pray for peace and liberty in Ukraine. 💙💛
 
-### Donations to Yura and Radekhivski Hospodyni
+## Donations to Yura and Radekhivski Hospodyni
 
 If you would like to donate to support Yura’s work with
 [Radekhivski Hospodyni](https://www.facebook.com/groups/404821584832741), you

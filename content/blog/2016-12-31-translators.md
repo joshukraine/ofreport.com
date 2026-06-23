@@ -24,7 +24,7 @@ Because we are English speakers ministering the Gospel amongst Ukrainians, trans
 
 Now, as Bible First spreads far beyond the borders of Ukraine, the need for translation work has again come to the forefront. We’re very encouraged about the progress being made, and in this report I’d like to share an update on three specific language groups.
 
-### Ukrainian
+## Ukrainian
 
 Back in the mid-2000’s, the very first language group to receive a translation of Bible First was Ukrainian. Later, we implemented significant improvements to our English lessons, but many of these were never incorporated back into the earlier Ukrainian lessons.
 
@@ -33,14 +33,14 @@ This fall, we hired Anatoliy Zhylaviy, a Ukrainian translator and philologist fr
 ![Anatoliy Zhylavyi](https://d21yo20tm8bmc2.cloudfront.net/2016/12/DSC_1007a-295x300.jpg)
 Anatoliy Zhylavyi
 
-### French
+## French
 
 Meet Catherine Leavitt - a French national who has spent more than two decades living in Oregon. Catherine contacted us several months ago with a desire to translate Bible First into French. She’s been working diligently on the project and is making good progress. Her father, a French linguist who still lives in France, is assisting her as well. We are very grateful to their family, and we’re looking forward to making Bible First available as a ministry tool for believers in France!
 
 ![Catherine Leavitt](https://d21yo20tm8bmc2.cloudfront.net/2016/12/IMG_3244-400x300.jpg)
 Catherin Leavitt
 
-### Spanish
+## Spanish
 
 Several months ago, we received an email from a lady named Maria Sanchez. Maria uses Bible First in prison ministry, and because many of the inmates only speak Spanish, she asked if Bible First was available in that language. Upon learning that it was not, she asked for permission to translate it herself. Kelsie is also a Spanish speaker (she formerly translated for Voice of the Martyrs), and after reviewing a sample of Maria’s work, we gave her the green light.
 
@@ -49,7 +49,7 @@ Over the past several months, Maria has kept us on our toes as she has sent emai
 ![Maria Sanchez](https://d21yo20tm8bmc2.cloudfront.net/2016/12/mail_image_preview-400x300.png)
 Maria Sanchez
 
-### The Language of the Web
+## The Language of the Web
 
 As our Ukrainian, French and Spanish translators work to make Bible First available to those respective language groups, another effort is moving forward to make sure that these translations will enjoy the far-reaching scope of the World Wide Web. For some time now, we have been building a web-based application that will serve as a digital platform for Bible First. This app will allow churches and missionaries to reach people with Bible First over electronic media.
 
@@ -57,13 +57,13 @@ As of this writing, we estimate that Bible First Online is about 70% complete. T
 
 We’ll be writing more about this project in future updates, but for now, please pray for our development team as we build this app. We are particularly grateful for programmers Trevor Brown and Andy Buck who are assisting us.
 
-### Almost Baby Time!
+## Almost Baby Time!
 
 Oh, and there’s one more thing: it’s almost baby time! Kelsie is due to deliver our first son in early January. Please pray for our family–and Kelsie in particular–as we prepare to welcome our new little boy!
 
 ![Steele Kids](https://d21yo20tm8bmc2.cloudfront.net/2016/12/steele-girls-338x450.jpg)
 
-### How You Can Pray
+## How You Can Pray
 
 * Praise God for the work being done to translate Bible First into various languages.
 * Pray for Anatoliy, Catherine, and Maria as they translate. We are very grateful for their diligence and commitment to this ministry!

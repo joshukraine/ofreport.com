@@ -11,7 +11,7 @@ slug: 2013-06-15-pillars-genesis-part-4-abraham
 
 The following is an excerpt taken from the twentieth and final lesson of *[Bible First](http://www.getbiblefirst.com)*.
 
-### Abraham’s Faith
+## Abraham’s Faith
 
 Historically, men have sought God’s favor through their works. While this pursuit is theoretically legitimate, it is always found inadequate due to the presence of sin. Although righteous works are indeed pleasing to God, they cannot undo evil works.
 
@@ -25,11 +25,11 @@ With Abraham, God revealed a completely new kind of moral standing, a righteousn
 
 Proverbs 11:4 presents a simple and solemn warning for all who seek deliverance from God’s coming judgment: “Riches profit not in the day of wrath: But righteousness delivereth from death.” To this we have a joyous response, for the righteousness we cannot attain by works is freely given by faith! *“But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; <span style="text-decoration: underline;">Even the righteousness of God which is by faith</span> of Jesus Christ unto all and upon all them that believe: for there is no difference:” (Romans 3:21–22)*
 
-### Abraham’s Faith in Genesis
+## Abraham’s Faith in Genesis
 
 *“And [the Lord] brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be. And <span style="text-decoration: underline;">[Abraham] believed in the LORD</span>; and he <span style="text-decoration: underline;">counted it to him for righteousness</span>.” (Genesis 15:5–6)*
 
-### Righteousness Imputed by Faith in the New Testament
+## Righteousness Imputed by Faith in the New Testament
 
 *“For what saith the scripture? <span style="text-decoration: underline;">Abraham believed God, and it was counted unto him for righteousness</span>. Now to him that worketh is the reward not reckoned of grace, but of debt. But to him that <span style="text-decoration: underline;">worketh not</span>, but <span style="text-decoration: underline;">believeth on him</span> that justifieth the ungodly, <span style="text-decoration: underline;">his faith is counted for righteousness</span>.” (Romans 4:3–5)*
 

@@ -27,7 +27,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-11325975"></div><script src="https://www.buzzsprout.com/1953515/11325975-and-we-re-back.js?container_id=buzzsprout-player-11325975&player=small" type="text/javascript" charset="utf-8"></script>
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for salvation for the many children and adults who heard the Gospel at
   our recent music outreach.
@@ -42,14 +42,14 @@ Ukrainians in Eastern Europe.
 - Pray for health for our family. (Kids — chicken pox, Joshua — asthma)
 - Pray for peace and liberty in Ukraine. 💙💛
 
-### Videos
+## Videos
 
 - [The Ukrainians Strike Back](https://youtu.be/iAD684eczq8)
 - [How did Ukraine retake so much territory from Russia so fast?](https://youtu.be/rSLMuMjeZ38)
 - [Russian Military Front Lines Have COLLAPSED](https://youtu.be/bihU0FLH9To)
 - [Ukraine War: Ukrainians calling the shots](https://youtu.be/8OMT6mqItxE)
 
-### Links
+## Links
 
 - [Invasion Day 200 – Summary (militaryland.net)](https://militaryland.net/news/invasion-day-200-summary/)
 - [Liberators Greeted With Cheers, Tears Of Joy (thedrive.com)](https://www.thedrive.com/the-war-zone/ukraine-situation-report-liberators-greeted-with-cheers-tears-of-joy)

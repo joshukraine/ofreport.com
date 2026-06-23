@@ -27,7 +27,7 @@ Europe.
 
 <div id="buzzsprout-player-10408239"></div><script src="https://www.buzzsprout.com/1953515/10408239-back-to-the-borders.js?container_id=buzzsprout-player-10408239&player=small" type="text/javascript" charset="utf-8"></script>
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for our next trip to L’viv this weekend (Joshua and Kelsie only) and for
   our Ukrainian residency documents. Also pray for our kids’ wellbeing while
@@ -39,12 +39,12 @@ Europe.
   minister to Ukrainians.
 - Pray for peace and liberty in Ukraine.
 
-### PayPal in Ukraine
+## PayPal in Ukraine
 
 - [Press Release (paypal-corp.com)](https://newsroom.paypal-corp.com/2022-03-Expanding-PayPals-Money-Services-To-Help-Ukraine-Humanitarian-Efforts)
 - [Ukrainian-language Instructions (tsn.ua)](https://tsn.ua/ukrayina/paypal-v-ukrayini-scho-ce-take-yak-koristuvatisya-2012557.html)
 
-### News Sources
+## News Sources
 
 - [Ukraine NOW [English] (Telegram)](https://t.me/ukrainenowenglish)
 - [The Kyiv Independent (Telegram)](https://t.me/KyivIndependent_official)

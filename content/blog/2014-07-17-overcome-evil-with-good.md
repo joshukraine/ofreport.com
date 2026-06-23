@@ -36,15 +36,15 @@ Please don’t stop praying for our team as we minister. God knows every heart i
 
 If you’d like to keep up with CMO 2014 as the project progresses, be sure to subscribe to the ETO eReport at [www.euroteamoutreach.org](http://www.euroteamoutreach.org).
 
-### New *Bible First* Lessons
+## New *Bible First* Lessons
 
 We’ve recently released Volumes 3 and 4 of our *Bible First* course in English. These two volumes add an additional seven lessons to those already available. As our local *Bible First* course in Ukraine continues to grow, we are excited to see more people using the English version of these materials in their own ministries. To learn more about how you can use *Bible First* to reach the lost in your own ministry, please visit our web site: [www.getbiblefirst.com](http://www.getbiblefirst.com).
 
-### Baby Update
+## Baby Update
 
 As you likely know already, we are excitedly anticipating the arrival of our fourth child in late December of this year! After much prayer and consideration, we’ve decided to have the baby in the U.S. For that reason, our family will be coming back to Texas in mid-October to prepare for the birth. Please pray for safety and health as we travel.
 
-### How You Can Pray
+## How You Can Pray
 
 * Pray for open doors to preach Christ in the Carpathians and throughout Ukraine.
 * Praise God for the many new responses we are receiving as a result of literature campaigns!

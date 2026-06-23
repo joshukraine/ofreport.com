@@ -28,7 +28,7 @@ Year after year, our stats continue to demonstrate that around 40% of all our Bi
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/09/38-20150620_175158.png" alt="38-20150620_175158" >}}
 
-### New Fronts
+## New Fronts
 
 In addition to the growth we are seeing in Ukraine, there is another type of multiplication that we are equally excited about. The men who come to CMO each summer are going on to establish their own ministries in the US and even in other countries.
 
@@ -40,7 +40,7 @@ Men from the CMO 2015 team are also moving forward in ministry. Emanuel Schrock 
 
 As always, your prayer support is greatly needed! Pray not only for our team here in Ukraine, but for these who are entering new fields, proclaiming the Lord to men and women who do not yet know Him.
 
-### How You Can Pray
+## How You Can Pray
 
 * Praise the Lord for new ground gained this summer in the advancement of the Gospel!
 * Pray for the CMO men as they continue their ministries in the US and around the world.

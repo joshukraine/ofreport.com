@@ -35,7 +35,7 @@ Please keep praying for our class. We're approaching the end of [Lesson 2](https
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-10-2000w.jpg" caption="Here's one for the refrigerator! Please remember to pray for our Bible First Kids in L'viv. Clockwise from the back row: Timothy, Joshua, Lisa, Danylo, Pastor Vladyslav, Anya, Maria, Anya, Akim, Anya, Mark, Stas, Matthew, Tolik. Yeah, we have a lot of Anya's in our group! ;)" >}}
 
-### The Grand Finale
+## The Grand Finale
 
 At the end of the rope course, everyone faced a mini rock-climbing wall followed by a zip line. Check out these videos of a few of our brave climbers!
 

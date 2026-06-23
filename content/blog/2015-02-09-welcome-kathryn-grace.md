@@ -24,7 +24,7 @@ In just a few days, our family will be flying back to Ukraine to continue our mi
 
 (HINT: More baby photos at the end of this post!)
 
-### CMO 2015
+## CMO 2015
 
 This year’s CMO project is on track to begin June 15th. As I mentioned above, the military conflict in Ukraine has caused many to give greater consideration to the things of eternity, and we believe that we are facing a special door of opportunity to sow the seed of the Gospel on fertile ground. We’re praying that God will raise up a strong team of young men to help us preach Christ in Ukraine this summer!
 
@@ -32,7 +32,7 @@ This year’s CMO project is on track to begin June 15th. As I mentioned above, 
 
 The deadline to [register for CMO 2015 is May 1](https://cmoproject.org/), so if you or someone you know is interested in coming, please contact us right away! And of course, please continue to lift up our team in prayer as we make preparations for the summer.
 
-### *Bible First* Update
+## *Bible First* Update
 
 Our list of *Bible First* graduates in Ukraine continues to grow, with the majority professing faith in Christ and expressing interest in receiving more of our materials in the future. One of our next major objectives is to make *Bible First* available online, and to this end we’ve begun developing a web-based application that will allow anyone world-wide to begin and manage their own *Bible First* course. This application will open the door to allowing our Ukrainian graduates to begin their own indigenous ministries, reaching their fellow Ukrainians using the same materials that brought them to Christ.
 
@@ -40,7 +40,7 @@ Our list of *Bible First* graduates in Ukraine continues to grow, with the major
 
 In late January, we were very blessed to have Trevor Brown, a software developer from Florida, visit us in Texas for an entire week. Trevor and I spent many hours writing code to get the *Bible First* app on its feet, and while there is still much to do, we made a great start! Trevor will continue to work with us remotely as we develop this software.
 
-### How You Can Pray
+## How You Can Pray
 
 * Pray for our family as we depart for Ukraine on February 16th.
 * Praise the Lord for His protection and provision surrounding Kathryn’s birth!
