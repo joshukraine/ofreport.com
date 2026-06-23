@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/69a46dc9-827c-4b08-8b75-0164feb31dce/deploy-status)](https://app.netlify.com/projects/ofreport/deploys)
 
-A missionary family blog by Joshua and Kelsie Steele, documenting 17 years of ministry work in Ukraine. The site was rebuilt from Nuxt.js 2 to [Hugo](https://gohugo.io/) in 2026 and is live at **[ofreport.com](https://ofreport.com)**.
+A missionary family blog by Joshua and Kelsie Steele, documenting 25 years of ministry work in Ukraine. The site was rebuilt from Nuxt.js 2 to [Hugo](https://gohugo.io/) in 2026 and is live at **[ofreport.com](https://ofreport.com)**.
 
 > [!NOTE]
 > Looking for the previous version? The original **Nuxt.js 2** site lives in [joshukraine/ofreport.com-nuxt](https://github.com/joshukraine/ofreport.com-nuxt) (archived, read-only).
