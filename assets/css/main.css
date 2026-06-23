@@ -59,8 +59,10 @@
    plugin's --tw-prose-links variable (so a per-link text-* utility still wins
    when needed); weight and hover have no plugin variable, so they're explicit
    rules mirroring the plugin's own :where()/not-prose selector. The plugin's
-   default underline is intentionally kept — it's the clearest link affordance (a
-   deliberate divergence from the original, which had none).
+   default underline is intentionally kept at rest — it's the clearest link
+   affordance (a deliberate divergence from the original, which had none) — and
+   it's *removed on hover* as the interactive feedback (the resting underline,
+   not color, is what distinguishes the link, so a dark blue stays unambiguous).
 
    Color is blue-800, not the original's lighter blue-600: #1992d4 only reaches
    ~3.3:1 on the page gray, below WCAG AA (4.5:1), so links darken to blue-800
@@ -74,6 +76,7 @@
 }
 .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)):hover {
   color: var(--color-blue-900);
+  text-decoration: none;
 }
 
 /* Faded full-bleed page background for static pages (see #69). The per-page

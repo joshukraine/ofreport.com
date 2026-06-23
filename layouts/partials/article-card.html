@@ -52,7 +52,7 @@
   <div class="mt-6 flex items-center justify-between border-t border-gray-200 pt-2">
     {{- /* aria-label gives this otherwise-generic "Read more" link descriptive
            text for screen readers + SEO (the title link above shares the URL). */ -}}
-    <a href="{{ $page.RelPermalink }}" class="text-base text-blue-800 hover:text-blue-900" aria-label="Read more: {{ $page.Title }}">Read more</a>
+    <a href="{{ $page.RelPermalink }}" class="text-base text-blue-800 underline hover:text-blue-900 hover:no-underline" aria-label="Read more: {{ $page.Title }}">Read more</a>
     {{- with $page.Params.pdf }}
       <a
         href="{{ site.Params.pdfBase }}{{ . }}"
