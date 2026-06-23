@@ -119,8 +119,10 @@ grep -oE "name=['\"]?(form-name|bot-field)" /tmp/contact.html | sort -u
 ### Account-side confirm (Joshua) — on the `ofreport-dev` site
 
 - [x] A form named **`contact`** appears under the site's **Forms** tab (Netlify dashboard → `ofreport-dev` → Forms) — confirmed 2026-06-23, matching the HTML evidence above.
-- [ ] Submit the contact form at `/contact/`; confirm the submission appears under that form.
-- [ ] Submit again with the hidden **`bot-field`** populated (e.g. via devtools) and confirm Netlify drops it as spam (does not appear as a real submission).
+- [x] **Two submissions staged 2026-06-23** (driven via browser; both reached `/thank-you/`):
+  - **Clean** — `Claude — #179 clean test` / `ofr179-clean@example.com`, honeypot empty → **should appear** under the `contact` form.
+  - **Honeypot** — `Claude — #179 honeypot test` / `ofr179-bot@example.com`, `bot-field` populated → **should be dropped** (absent from verified submissions; the redirect to `/thank-you/` is expected — Netlify accepts silently so as not to tip off bots).
+- [ ] _Joshua's final eyeball:_ confirm the clean submit is captured and the honeypot submit is absent (or filed under Spam), then delete the two test rows.
 
 ### Notification subject — set in the form, not the dashboard
 
