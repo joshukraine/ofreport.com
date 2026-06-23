@@ -37,7 +37,7 @@
         {{/* Show pages within the window */}}
         {{- if and (ge $pageNum (int $windowStart)) (le $pageNum (int $windowEnd)) }}
           {{- if eq $pageNum $current }}
-            <a href="{{ .URL }}" aria-current="page" class="inline-flex items-center border-t-2 border-blue-500 px-4 pt-4 text-sm font-medium text-blue-600">{{ $pageNum }}</a>
+            <a href="{{ .URL }}" aria-current="page" class="inline-flex items-center border-t-2 border-blue-500 px-4 pt-4 text-sm font-medium text-blue-800">{{ $pageNum }}</a>
           {{- else }}
             <a href="{{ .URL }}" class="inline-flex items-center border-t-2 border-transparent px-4 pt-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">{{ $pageNum }}</a>
           {{- end }}
