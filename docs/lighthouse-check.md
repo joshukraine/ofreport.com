@@ -7,17 +7,27 @@ A pre-cutover gate that audits representative pages with Lighthouse, records a b
 
 ## How to run
 
+The deterministic categories (accessibility, best-practices) run at **both** form-factors — mobile **and** desktop. Both passes are required for every representative page.
+
 ```bash
-# One page (mobile is the form factor that surfaced the issues; add --preset=desktop for desktop):
+# Pass 1 — mobile (the form factor that surfaced the original issues):
 npx lighthouse https://ofreport-dev.netlify.app/ \
   --only-categories=performance,accessibility,best-practices,seo \
-  --form-factor=mobile --output=json --output-path=home.json --quiet \
+  --form-factor=mobile --output=json --output-path=home-mobile.json --quiet \
+  --chrome-flags="--headless=new"
+
+# Pass 2 — desktop (REQUIRED; accessibility + best-practices, the categories affected by responsive-hidden UI):
+npx lighthouse https://ofreport-dev.netlify.app/ \
+  --only-categories=accessibility,best-practices \
+  --preset=desktop --output=json --output-path=home-desktop.json --quiet \
   --chrome-flags="--headless=new"
 ```
 
-Representative pages: `/` · `/blog/2026-05-27-teaching-serving-standing/` (heaviest — cover + figures + GLightbox) · `/blog/` · `/tags/newsletter/` · `/tags/`.
+Representative pages: `/` · `/blog/2026-05-27-teaching-serving-standing/` (heaviest — cover + figures + GLightbox) · `/blog/` · `/tags/newsletter/` · `/tags/`. **Run both the mobile and desktop pass on each** — the desktop pass is not optional.
 
-> **Measure deterministic categories against a production-config build.** Accessibility / Best-Practices / SEO / CLS are stable; run them against `ofreport-dev` (or a local `HUGO_ENVIRONMENT=production hugo --minify` build served over HTTP) so robots is `index,follow`. **Mobile *performance* scores are high-variance** (simulated throttling + remote Cloudinary images + edge-cache warmth) — take the median of 3–5 runs and don't read a single run as signal.
+> **Why desktop is required.** Anything hidden at the mobile viewport escapes a mobile-only audit: the desktop nav is `hidden lg:flex` (`display:none` below `lg`), the mobile menu is collapsed (`x-show`), and axe-core skips hidden elements. The #184 gate ran mobile-only and so never evaluated the nav — letting a real WCAG AA contrast failure on the nav links (`text-slate-400`, 2.63:1) slip through. It was caught separately in #164 and fixed in #190. The same blind spot covers every `lg:`/`md:`-gated element and hover-only affordance, so the desktop (`--preset=desktop`) pass is mandatory to exercise them.
+
+> **Measure deterministic categories against a production-config build.** Accessibility / Best-Practices / SEO / CLS are stable; run them against `ofreport-dev` (or a local `HUGO_ENVIRONMENT=production hugo --minify` build served over HTTP) so robots is `index,follow`. **Mobile *performance* scores are high-variance** (simulated throttling + remote Cloudinary images + edge-cache warmth) — take the median of 3–5 runs and don't read a single run as signal. *Performance is mobile-dominated and stays a mobile measurement; only the deterministic categories get the second desktop pass.*
 
 ## Results — before → after
 
