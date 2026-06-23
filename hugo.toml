@@ -49,8 +49,8 @@ enableRobotsTXT = true
   #   scriptUrl = "https://lens.euroteamoutreach.org/script.js"
   #   websiteId = "34d2cfa4-e623-418a-936d-670c9d163ead"
   [params.umami]
-    scriptUrl = ""
-    websiteId = ""
+    scriptUrl = "https://lens.euroteamoutreach.org/script.js"
+    websiteId = "34d2cfa4-e623-418a-936d-670c9d163ead"
 
 # Build stats for Tailwind CSS purging
 [build]
