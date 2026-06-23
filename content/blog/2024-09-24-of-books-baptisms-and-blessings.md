@@ -174,7 +174,7 @@ Next up, some photos from our _Good and Evil_ outreach...
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-boys-loading_njvqqk" caption="We worked fast, and soon the van was loaded." >}}
 
-{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-joshua-boys-nova-poshta_so2w6m" caption="Next we drove the books to our local *Nova Poshta* depot (think, Ukrainian FedEx). Once there, we used a cart to ferry them inside and send them out to our various distributors across Ukraine." >}}
+{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-joshua-boys-nova-poshta_so2w6m" caption="Next we drove the books to our local _Nova Poshta_ depot (think, Ukrainian FedEx). Once there, we used a cart to ferry them inside and send them out to our various distributors across Ukraine." >}}
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/ge-two-stacks-left_xaf65h" caption="After we sent that order, this is what we have left: about 900 books. We started with 15,000. That's a lot of books now in circulation!" >}}
 

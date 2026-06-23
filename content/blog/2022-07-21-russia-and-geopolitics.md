@@ -26,7 +26,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-11004806"></div><script src="https://www.buzzsprout.com/1953515/11004806-russia-and-geopolitics.js?container_id=buzzsprout-player-11004806&player=small" type="text/javascript" charset="utf-8"></script>
 
-{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/thehordelands2-01_kwpubx" caption="The Eurasian Hordelands map from [*The Accidental Superpower*](https://zeihan.com/purchase-the-accidental-superpower/) by Peter Zeihan" >}}
+{{< figure src="OFReport/2022-07-21-russia-and-geopolitics/thehordelands2-01_kwpubx" caption="The Eurasian Hordelands map from [_The Accidental Superpower_](https://zeihan.com/purchase-the-accidental-superpower/) by Peter Zeihan" >}}
 
 ## How You Can Pray
 
@@ -99,7 +99,7 @@ And now some of those gorgeous terrace views!
 {{< figure src="OFReport/2022-07-21-russia-and-geopolitics/terrace-views/IMG_8664_n22mhx" caption="After it rains, we often get breathtaking rainbows! 🌧🌈" >}}
 
 {{< callout >}}
-The following are photos sent to us by various people who are using the *Good and Evil* books in ministry in Ukraine...
+The following are photos sent to us by various people who are using the _Good and Evil_ books in ministry in Ukraine...
 {{< /callout >}}
 
 {{< figure src="OFReport/2022-07-21-russia-and-geopolitics/good-and-evil/image0_z3odsw" alt="Children gather in a classroom as a man holds a book beside a box of Good and Evil books on a table" >}}

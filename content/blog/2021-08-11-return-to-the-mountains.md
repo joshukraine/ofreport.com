@@ -42,11 +42,11 @@ In June, Joshua and I were invited by a local church to speak at a family picnic
 
 ## How You Can Pray
 
-*	Pray for the seeds sown in Pylypets and at the L’viv Family Picnic.
-*	Pray for the continued growth of Bible First Online, both in Ukraine and around the world.
-*	Pray for our local Ukrainian church where we serve, Greater Grace. Pray for maturity in Christ and protection from strife.
-*	Pray for our children to grow in wisdom and the knowledge of Christ.
-*	Pray for peace and liberty in Ukraine.
+* Pray for the seeds sown in Pylypets and at the L’viv Family Picnic.
+* Pray for the continued growth of Bible First Online, both in Ukraine and around the world.
+* Pray for our local Ukrainian church where we serve, Greater Grace. Pray for maturity in Christ and protection from strife.
+* Pray for our children to grow in wisdom and the knowledge of Christ.
+* Pray for peace and liberty in Ukraine.
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/after-play-group-shot_yg6ddv" caption="Group photo!" >}}
 

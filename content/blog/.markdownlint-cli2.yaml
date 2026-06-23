@@ -1,0 +1,10 @@
+# markdownlint-cli2 config scoped to migrated blog prose (2008–2026).
+# Inherits the repo-root .markdownlint-cli2.yaml and overrides only as below.
+config:
+  # MD029/ol-prefix : disabled for prose.
+  # Legacy posts use manual numbering (1) 2) 3) …) for rhetorical points that
+  # are separated by paragraphs. Goldmark renders each such point as its own
+  # <ol> with a `start=` attribute matching the source number, so enforcing —
+  # or auto-fixing — the prefix style rewrites the visible numbering (e.g.
+  # "1. 2. 3." collapses to "1. 1. 1."). The rule stays enabled for docs/.
+  MD029: false

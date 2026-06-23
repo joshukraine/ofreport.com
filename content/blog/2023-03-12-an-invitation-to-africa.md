@@ -88,7 +88,7 @@ and Evil_ books continue to come in. We’re grateful for Tanya Herasimova, who 
 helping to oversee the G&E distribution project and our Ukrainian _Bible First_
 students.
 
-{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/hryhoriy-van-books_i7wyt4" caption="Yura Petriv continues to use the yellow van to transport *Good and Evil* books. He is often assisted by Hryhoriy (pictured) who is the father of the Ukrainian family currently living in our house in L’viv." >}}
+{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/hryhoriy-van-books_i7wyt4" caption="Yura Petriv continues to use the yellow van to transport _Good and Evil_ books. He is often assisted by Hryhoriy (pictured) who is the father of the Ukrainian family currently living in our house in L’viv." >}}
 
 {{< figure src="OFReport/2023-03-12-an-invitation-to-africa/yura-van-radekhiv_zevxta" caption="Yura also uses the van to transport humanitarian aid to organizations like the one we’ve often highlighted in Radekhiv." >}}
 

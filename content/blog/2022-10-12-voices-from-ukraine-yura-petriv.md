@@ -67,10 +67,10 @@ full amount of your gift.
 ✅  **Specify “Radekhivski Hospodyni” in the memo line.**
 
 {{< callout >}}
-Keep scrolling for more photos! First up, a few photos from the *Good and Evil* delivery...
+Keep scrolling for more photos! First up, a few photos from the _Good and Evil_ delivery...
 {{< /callout >}}
 
-{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/good-and-evil-unloading_ddnl7z" caption="On September 23, 15,000 copies of *Good and Evil* were finally delivered to a storage facility just outside of L’viv." >}}
+{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/good-and-evil-unloading_ddnl7z" caption="On September 23, 15,000 copies of _Good and Evil_ were finally delivered to a storage facility just outside of L’viv." >}}
 
 {{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/good-and-evil-storage_kfshna" caption="We are very grateful to Vladyslav Medyakovsky (a pastor from our church) for his invaluable assistance in coordinating the logistics of the delivery and unloading. We are also very grateful to the [Hebron IT Academy](https://hebron-academy.com/) for allowing us to store the books at their facility free of charge." >}}
 

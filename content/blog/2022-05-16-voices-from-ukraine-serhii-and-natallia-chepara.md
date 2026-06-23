@@ -84,7 +84,7 @@ Keep scrolling for more photos from our life in Eastern Europe!
 
 {{< figure src="OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/radekhiv-group_psvfou" caption="It was encouraging to see the work this group is doing to support the war effort. We hope to do an episode in the near future which will feature Yura, Milena, and the volunteers who are striving to bless Ukraine’s front-line defenders." >}}
 
-{{< figure src="OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/ge-loading_ettnwt" caption="Grigoriy, the father of the Ukrainian family currently living in our apartment, helps me load 20 cases of *Good and Evil* books into the van. His son Kostya and a friend, Ivan, also helped." >}}
+{{< figure src="OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/ge-loading_ettnwt" caption="Grigoriy, the father of the Ukrainian family currently living in our apartment, helps me load 20 cases of _Good and Evil_ books into the van. His son Kostya and a friend, Ivan, also helped." >}}
 
 {{< figure src="OFReport/2022-05-16-voices-from-ukraine-serhii-and-natallia-chepara/ge-20-cases_fs5ewq" caption="All 20 cases of books were delivered to our friend in L’viv, Valentyna Mochar, who is also involved in shipping humanitarian aid to different parts of Ukraine. I gave her 20 cases of books last month, and she sent them all out! Now she’s been restocked. 🙂" >}}
 

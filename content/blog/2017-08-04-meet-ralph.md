@@ -15,7 +15,7 @@ Over the years, I've corresponded with many young men about ministering in Ukrai
 
 ---
 
-DISCLAIMER: This post is longer than most I write. The technical nature of Ralph's work requires some explanation in order for most readers to understand its true impact. If you have the patience, and you're interested to see how God is using a seventeen-year-old to further His kingdom, I encourage you to read on! If you can't bear the suspense, [click here](#skip-to-conclusion) to jump to the conclusion.
+DISCLAIMER: This post is longer than most I write. The technical nature of Ralph's work requires some explanation in order for most readers to understand its true impact. If you have the patience, and you're interested to see how God is using a seventeen-year-old to further His kingdom, I encourage you to read on! If you can't bear the suspense, [jump to the conclusion](#skip-to-conclusion).
 
 ---
 
@@ -96,8 +96,8 @@ Now, as new material is completed and placed under version control, Ralph has th
 Laying out pages for Bible First in Ukrainian.
 
 <div class="link-target__container">
-	<span class="link-target" id="skip-to-conclusion"></span>
-	<h2>Conclusion</h2>
+ <span class="link-target" id="skip-to-conclusion"></span>
+ <h2>Conclusion</h2>
 </div>
 
 In a recent email to Kelsie, Ralph's mother, Danièle, made the following observation: *"I miss Ralph, but I'm not sad to have him so far of us this summer, because **he chose to follow God and to trust Him with his life.**"*

@@ -18,7 +18,7 @@ Over 20 years ago, our friends and fellow missionaries, Mark and Rhonda Blessing
 {{< callout pdf="OFR-Apr-Jul-2020.pdf" >}}
 {{< /callout >}}
 
-Enter COVID-19. As it has with so many, Covid created a gap for Mark and Rhonda and their church. They were unable to get back to Ukraine at a time when their congregation, like so many others during the pandemic, stood in great need of encouragement. 
+Enter COVID-19. As it has with so many, Covid created a gap for Mark and Rhonda and their church. They were unable to get back to Ukraine at a time when their congregation, like so many others during the pandemic, stood in great need of encouragement.
 
 Over the past several months, Joshua has had the privilege of filling that gap, taking over the preaching for most of the Sunday services. He began with a four-part series from Psalm 34:1-4, teaching on four decisions needful in the life of every believer. Following were messages about the character of God, seeking God, and how to discern His will for your life, among others. I wish I could give you links to access those messages, but you would need to brush up on your Ukrainian first! 😉
 

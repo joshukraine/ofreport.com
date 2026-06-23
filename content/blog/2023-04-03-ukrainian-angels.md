@@ -83,7 +83,7 @@ Keep scrolling for more photos from our visit to Radekhiv...
 
 {{< figure src="OFReport/2023-04-03-ukrainian-angels/yura-volunteer-meat-packing_vlyqsv" caption="Our friend, Yura Petriv, continues to serve as a vital liason. Here he is working with another volunteer packing pork in jars to be sent to the front." >}}
 
-{{< figure src="OFReport/2023-04-03-ukrainian-angels/yellow-van-supplies_cugrum" caption="Ye olde Yellow Van keeps on trucking! Yura carries aid, people, and *Good and Evil* books." >}}
+{{< figure src="OFReport/2023-04-03-ukrainian-angels/yellow-van-supplies_cugrum" caption="Ye olde Yellow Van keeps on trucking! Yura carries aid, people, and _Good and Evil_ books." >}}
 
 {{< figure src="OFReport/2023-04-03-ukrainian-angels/abbie-milena-radekhiv_s3tkkc" caption="Abbie really enjoyed meeting Milena and witnessing firsthand the work that is being done." >}}
 
@@ -91,6 +91,6 @@ Keep scrolling for more photos from our visit to Radekhiv...
 
 {{< figure src="OFReport/2023-04-03-ukrainian-angels/group-award_dnvurr" caption="Fun times!" >}}
 
-{{< figure src="OFReport/2023-04-03-ukrainian-angels/marko-books-van_tgn0sw" caption="On a different day, Marko and his friend help with a shipment of *Good and Evil* books." >}}
+{{< figure src="OFReport/2023-04-03-ukrainian-angels/marko-books-van_tgn0sw" caption="On a different day, Marko and his friend help with a shipment of _Good and Evil_ books." >}}
 
 {{< figure src="OFReport/2023-04-03-ukrainian-angels/postal-worker-good-evil-book_z0r1nq" caption="Our local postal worker in L’viv got his very own copy!" >}}

@@ -11,7 +11,7 @@ caption: Joseph meets his brothers in Egypt.
 slug: 2013-02-20-gospel-story-joseph
 ---
 
-*The following text is taken from the concluding section of Lesson 19 of [Bible First](http://getbiblefirst.com/). Lesson 19 is the second in a two-part series on the life of Joseph.* 
+*The following text is taken from the concluding section of Lesson 19 of [Bible First](http://getbiblefirst.com/). Lesson 19 is the second in a two-part series on the life of Joseph.*
 
 ---
 

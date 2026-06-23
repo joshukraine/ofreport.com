@@ -58,11 +58,11 @@ they are excited about the impact they are seeing!
 As of this writing, we’ve sent out over 6,500 books to our various distributors
 across Ukraine.
 
-{{< figure src="OFReport/2023-06-07-countdown/soldiers-good-and-evil-book_rckbzw" caption="Olya Pukavska distributes *Good and Evil* books to soliders in Kyiv." >}}
+{{< figure src="OFReport/2023-06-07-countdown/soldiers-good-and-evil-book_rckbzw" caption="Olya Pukavska distributes _Good and Evil_ books to soliders in Kyiv." >}}
 
-{{< figure src="OFReport/2023-06-07-countdown/andrii-park-outreach_nts1cr" caption="Andrii Pukavskyi hands out tracts and *Good and Evil’s* at a park." >}}
+{{< figure src="OFReport/2023-06-07-countdown/andrii-park-outreach_nts1cr" caption="Andrii Pukavskyi hands out tracts and _Good and Evil’s_ at a park." >}}
 
-{{< figure src="OFReport/2023-06-07-countdown/soldier-reading_wf94lk" caption="A Ukrainian soldier reads his new copy of *Good and Evil*." >}}
+{{< figure src="OFReport/2023-06-07-countdown/soldier-reading_wf94lk" caption="A Ukrainian soldier reads his new copy of _Good and Evil_." >}}
 
 ## ⛰️ Carpathian Mountain Outreach 2023
 

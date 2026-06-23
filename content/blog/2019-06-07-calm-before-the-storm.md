@@ -31,7 +31,7 @@ Now I'm back in Ukraine, and as we prepare to take yet another CMO plunge, I'd l
 
 ## Heavenly Parenting Book
 
-Due in large part to the diligence and fund-raising efforts of our friend Serhii Chepara, Kelsie and I now have our own published book on parenting. It's called *Nebesne Batkivstvo* (Heavenly Parenting) and as long as your Ukrainian is not too rusty, we'd love for you to read it! 
+Due in large part to the diligence and fund-raising efforts of our friend Serhii Chepara, Kelsie and I now have our own published book on parenting. It's called *Nebesne Batkivstvo* (Heavenly Parenting) and as long as your Ukrainian is not too rusty, we'd love for you to read it!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/heavenly-parenting-book_eof28n.jpg" caption="A small sample of *Heavenly Parenting* books from our first print run!" >}}
 

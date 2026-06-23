@@ -28,7 +28,7 @@ to have the book back in stock. Please keep supporting this effort in your
 prayers. We believe that God will use this book to bring many to salvation!
 
 {{< callout >}}
-Check out these photos of *Good and Evil* being printed right now in Kyiv!
+Check out these photos of _Good and Evil_ being printed right now in Kyiv!
 {{< /callout >}}
 
 {{< figure src="OFReport/2022-07-25-presses-rolling/293510142_1179568442836507_8737752371829150623_n_fppyxm" alt="Stacks of the finished Ukrainian Good and Evil book with its dark cover and blue-and-yellow ribbon at the print shop" >}}

@@ -33,7 +33,7 @@ All this means a lot of work in the mail room for our team member, Denise Hutchi
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/ready-to-mail_r0smks.jpg" caption="Denise has been hard at work mailing out Good and Evil books. Since August, we've sent out about 60 books!" >}}
 
-We are very excited about the potential impact of *Good and Evil* in Ukraine. Please pray with us that every book will find its way into the hands of those hungry for truth. 
+We are very excited about the potential impact of *Good and Evil* in Ukraine. Please pray with us that every book will find its way into the hands of those hungry for truth.
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/kids-reading-good-and-evil_louinh.jpg" caption="I recently gave a copy of Good and Evil to every family represented in my Bible First Kids class. The first story we read together was the account of Jesus' conversation with Nicodemus about the brass serpent. Good and Evil includes both the New Testament account in John 3, and the corresponding Old Testament story of the brass serpent in Numbers. We read both and then discussed the correlation between them." >}}
 

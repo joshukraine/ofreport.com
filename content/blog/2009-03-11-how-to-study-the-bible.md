@@ -11,7 +11,7 @@ tags:
 slug: 2009-03-11-how-to-study-the-bible
 ---
 
-We had our core group of men show up last night for English Club and Audio Bible Study (ABS)! As time has passed, we feel we have really gotten to know this group and that our friendships are steadily growing. 
+We had our core group of men show up last night for English Club and Audio Bible Study (ABS)! As time has passed, we feel we have really gotten to know this group and that our friendships are steadily growing.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5115.jpg" caption="Several men joined us last night for English Club and ABS." >}}
 

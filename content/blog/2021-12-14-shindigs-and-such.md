@@ -22,7 +22,7 @@ You could sum up our last few months in just 2 words: travel and people! Here ar
 
 ## Phase 1: Shindigs and Road Trip
 
-On September 1st, we embarked on an adventure of travel and speaking in the US. Our journey has taken us through 11 States, two conferences, and to the homes of many friends and family. 
+On September 1st, we embarked on an adventure of travel and speaking in the US. Our journey has taken us through 11 States, two conferences, and to the homes of many friends and family.
 
 The first of our stops was a homeschool Shindig in the Black Hills of South Dakota. Here Joshua spoke a number of times, covering topics like *Active Forgiveness* and *Continuing Steadfast in the Faith*. I had the privilege to share about *3 Strategies for a Happy Home* with a friendly ladies’ group there. We rarely saw our kids, who were enjoying camp life: volleyball, gaga ball and even square dancing! When camp finished, Joshua’s parents were able to join us for a family trip to the iconic Mt. Rushmore.
 
@@ -44,7 +44,7 @@ Next up, we enjoyed a fun visit in Minnesota with our friends, Hank and Amy Thom
 
 Our next family camp was in northern Ohio, right in the heart of Amish country. Many of the attendees were formerly Amish, having left that community when they found faith in Jesus Christ. It was fascinating to learn more about the Amish teachings and ways. These people had a noticeable passion for the message of Christ’s finished work that paid our debt in full! At this gathering, Joshua spoke about chronological Bible teaching and strategies for evangelism.
 
-We made our way south toward Texas, stopping with friends in Kentucky, Tennessee, and Arkansas. Finally, on October 5th, we pulled into Joshua’s parents’ driveway in TX, after over a month of travel! 
+We made our way south toward Texas, stopping with friends in Kentucky, Tennessee, and Arkansas. Finally, on October 5th, we pulled into Joshua’s parents’ driveway in TX, after over a month of travel!
 
 {{< figure src="OFReport/2021-12-14-shindigs-and-such/ark-steele-family_dx4bwl" caption="We squeezed in a quick trip to the [Ark Encounter](https://arkencounter.com/) on our way back to Texas." >}}
 
@@ -52,9 +52,9 @@ We made our way south toward Texas, stopping with friends in Kentucky, Tennessee
 
 ## Phase 2: Minnesota Gospel Outreach
 
-You might think we’d be done with traveling, but remember those Minnesota plans we mentioned? Details came together for Joshua, Hosanna and me to fly back to MN at the end of October. Hank and Amy had been preparing weeks in advance for a gospel outreach at their cabin near International Falls. A large group of committed young people and adults from the Thompson’s church participated. Over the Halloween weekend, we went out to surrounding towns to invite folks to a gospel fellowship. Using a simple Bible survey, we opened conversations and gave people the opportunity to sign up for Bible First Online. In fact, several people did sign up over the course of the weekend! 
+You might think we’d be done with traveling, but remember those Minnesota plans we mentioned? Details came together for Joshua, Hosanna and me to fly back to MN at the end of October. Hank and Amy had been preparing weeks in advance for a gospel outreach at their cabin near International Falls. A large group of committed young people and adults from the Thompson’s church participated. Over the Halloween weekend, we went out to surrounding towns to invite folks to a gospel fellowship. Using a simple Bible survey, we opened conversations and gave people the opportunity to sign up for Bible First Online. In fact, several people did sign up over the course of the weekend!
 
-When Joshua and I were invited to the MN outreach, one of the strong draws was a large Ukrainian immigrant community in that area. During the outreach, special efforts were made to meet and invite these families, who were largely from a Pentecostal background. On Sunday night as we opened the barn for gospel preaching, about 20 of these Ukrainians attended. Joshua and I had the unique privilege of presenting in tandem, as he preached to them in Ukrainian and I gave a translation in English. I believe it was a piece of home for us and them! Many good connections were made. 
+When Joshua and I were invited to the MN outreach, one of the strong draws was a large Ukrainian immigrant community in that area. During the outreach, special efforts were made to meet and invite these families, who were largely from a Pentecostal background. On Sunday night as we opened the barn for gospel preaching, about 20 of these Ukrainians attended. Joshua and I had the unique privilege of presenting in tandem, as he preached to them in Ukrainian and I gave a translation in English. I believe it was a piece of home for us and them! Many good connections were made.
 
 {{< figure src="OFReport/2021-12-14-shindigs-and-such/josh-hank_vfcljw" caption="Hank and Joshua confer over ministry plans like generals before battle. 😉" >}}
 

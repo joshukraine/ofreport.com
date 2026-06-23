@@ -10,7 +10,7 @@ pdf: ofr_dec_2008.pdf
 slug: 2008-12-22-new-ofr-posted
 ---
 
-The latest version of our newsletter, [Overseas Field Report](/archives/), has now been posted to our blog. To download it in PDF format, please select "Download OFR" from the right-hand menu, or click the link above. 
+The latest version of our newsletter, [Overseas Field Report](/archives/), has now been posted to our blog. To download it in PDF format, please select "Download OFR" from the right-hand menu, or click the link above.
 
 {{< callout pdf="ofr_dec_2008.pdf" >}}
 {{< /callout >}}

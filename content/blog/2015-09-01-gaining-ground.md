@@ -13,7 +13,7 @@ pdf: OFR-Sep-Oct-2015.pdf
 slug: 2015-09-01-gaining-ground
 ---
 
-This summer marked our 9th CMO project! When we first embarked down this path back in 2006, I had no idea how far the Lord would take it. Each year, He continues to bless this outreach, bringing new laborers into the field and new fruit for His glory. 
+This summer marked our 9th CMO project! When we first embarked down this path back in 2006, I had no idea how far the Lord would take it. Each year, He continues to bless this outreach, bringing new laborers into the field and new fruit for His glory.
 
 {{< callout pdf="OFR-Sep-Oct-2015.pdf" >}}
 {{< /callout >}}

@@ -27,7 +27,7 @@ Back in Vienna, we were soon rerouted. It would be two more airport waits, two h
 
 {{< figure src="OFReport/2022-01-24-home-sweet-ukraine/lviv-airport-arrival_dh7g5z" caption="Strolling into L’viv’s international terminal after 1am in the morning! 🥱" >}}
 
-Our kids were troopers! Despite a few expected meltdowns, they all did really well and were in ecstasies when we finally walked through our front door on Pancha 5! We’re so thankful for God’s goodness in bringing us home again! 
+Our kids were troopers! Despite a few expected meltdowns, they all did really well and were in ecstasies when we finally walked through our front door on Pancha 5! We’re so thankful for God’s goodness in bringing us home again!
 
 Speaking of thankful, you know you’ve got true friends when they pick you up at the airport in the middle of the night, stock your fridge with meals for days, and deck out your house with welcome banners and clean sheets. This is love at its finest. We are so thankful to Serhii, Natallia, Nathan, Katelin, Vira, Bohdana and Margarita for making our homecoming smooth!
 

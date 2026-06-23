@@ -54,15 +54,15 @@ Keep scrolling for more photos!
 
 {{< figure src="OFReport/2022-06-27-moving-again/new-house-yard_ajfcpp" caption="And there’s even a yard for the kids! Granddad’s already bought a kiddy pool for the littles. ☀️💦" >}}
 
-{{< figure src="OFReport/2022-06-27-moving-again/bratislava-singing-1_dl1imj" caption="Our family sings *Prayer for Ukraine* at a Ukrainian Baptist Church in Bratislava." >}}
+{{< figure src="OFReport/2022-06-27-moving-again/bratislava-singing-1_dl1imj" caption="Our family sings _Prayer for Ukraine_ at a Ukrainian Baptist Church in Bratislava." >}}
 
 {{< figure src="OFReport/2022-06-27-moving-again/bratislava-preaching_nwng6g" caption="Joshua preaches a short message on “Storm Speakers”." >}}
 
-{{< figure src="OFReport/2022-06-27-moving-again/bratislava-singing-2_iydbsg" caption="We also sang an English/Ukrainian medley of *In Christ Alone*." >}}
+{{< figure src="OFReport/2022-06-27-moving-again/bratislava-singing-2_iydbsg" caption="We also sang an English/Ukrainian medley of _In Christ Alone_." >}}
 
 {{< figure src="OFReport/2022-06-27-moving-again/bratislava-pastor-victor_l1wby0" caption="Pastor Victor (center) is a Ukrainian national who has been serving as a missionary pastor in Slovakia for the past several years. With the coming of war in Ukraine, his congregation has grown significantly." >}}
 
-{{< figure src="OFReport/2022-06-27-moving-again/wingspan-game_hhkieq" caption="One of Rebekah’s favorite boardgames is called *Wingspan* and she’s enjoyed several fun rounds with Baba and Granddad." >}}
+{{< figure src="OFReport/2022-06-27-moving-again/wingspan-game_hhkieq" caption="One of Rebekah’s favorite boardgames is called _Wingspan_ and she’s enjoyed several fun rounds with Baba and Granddad." >}}
 
 {{< figure src="OFReport/2022-06-27-moving-again/david-pumping-diesel_zkfmse" caption="This little man wants to help with whatever Dad is doing! 💪🏻 Recently David got his first experience pumping diesel at the filling station. 🥰 (Maybe he wouldn’t be smiling so much if he knew what it cost! 🙀)" >}}
 
