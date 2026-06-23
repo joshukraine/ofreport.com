@@ -61,7 +61,7 @@ Ukrainians in Eastern Europe.
 Keep scrolling for more photos! First up, more photos from our music outreach...
 {{< /callout >}}
 
-{{< figure src="OFReport/2022-09-15-and-we-re-back/music-outreach-2_ljz1m2" caption="The kids were pretty excited to get their own copies of the *Good and Evil* comic books!" >}}
+{{< figure src="OFReport/2022-09-15-and-we-re-back/music-outreach-2_ljz1m2" caption="The kids were pretty excited to get their own copies of the _Good and Evil_ comic books!" >}}
 
 {{< figure src="OFReport/2022-09-15-and-we-re-back/music-outreach-3_aem7a6" caption="This was our first chance to try out our new sound gear. We had a few glitches (almost got rained out!) but in the end God gave success!" >}}
 

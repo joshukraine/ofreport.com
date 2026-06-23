@@ -69,15 +69,15 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2023-10-19-loving-ukraine/hospital-concert-hallway_cwroqt" caption="During the summer project, we were invited to sing at a local hospital for wounded Ukrainian soldiers." >}}
 
-{{< figure src="OFReport/2023-10-19-loving-ukraine/hospital-concert-singing_hf17rc" caption="Sometimes it was hard to fit everyone in, but we sang with joy in our hearts and smiles on our faces. Afterwards, each soldier received a copy of *Good and Evil*." >}}
+{{< figure src="OFReport/2023-10-19-loving-ukraine/hospital-concert-singing_hf17rc" caption="Sometimes it was hard to fit everyone in, but we sang with joy in our hearts and smiles on our faces. Afterwards, each soldier received a copy of _Good and Evil_." >}}
 
 {{< figure src="OFReport/2023-10-19-loving-ukraine/hos-nad-bill-team-meeting_vxycwl" caption="Team meeting in the mountains (CMO 2023)" >}}
 
-{{< figure src="OFReport/2023-10-19-loving-ukraine/kelsie-costume_phxvfg" caption="Kelsie tries on her new costume for the concert. (*Good and Evil* books at the ready!)" >}}
+{{< figure src="OFReport/2023-10-19-loving-ukraine/kelsie-costume_phxvfg" caption="Kelsie tries on her new costume for the concert. (_Good and Evil_ books at the ready!)" >}}
 
 {{< figure src="OFReport/2023-10-19-loving-ukraine/radekhiv-concert_s182gx" caption="Singing at the Radekhiv city festival" >}}
 
-{{< figure src="OFReport/2023-10-19-loving-ukraine/bill-ge-handout-radekhiv_srrzhw" caption="As always, when the concert is over, we break out the cases of *Good and Evil* and give them away as fast as we can. At this concert, we gave out all 10 cases that we had with us!" >}}
+{{< figure src="OFReport/2023-10-19-loving-ukraine/bill-ge-handout-radekhiv_srrzhw" caption="As always, when the concert is over, we break out the cases of _Good and Evil_ and give them away as fast as we can. At this concert, we gave out all 10 cases that we had with us!" >}}
 
 {{< figure src="OFReport/2023-10-19-loving-ukraine/cmo-2023-team-photo_z7zjlm" caption="The CMO 2023 team. From the left: Hosanna, Bill, Nathan, Joshua, Abigail" >}}
 

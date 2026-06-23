@@ -47,7 +47,7 @@ It goes without saying that COVID has drastically changed daily life for the who
 
 Could Ukraine close its borders? Yes. What if we have a summer spike in cases? Might happen. Maybe a new variant worse than delta or omicron? Sure, that’s possible, although, in case you haven’t noticed, they’re running out of Greek letters. 😉
 
-So don’t buy your plane tickets just yet, and know that things could change. Meanwhile, we’re planning and praying that CMO 2022 will happen in July as announced. 
+So don’t buy your plane tickets just yet, and know that things could change. Meanwhile, we’re planning and praying that CMO 2022 will happen in July as announced.
 
 Here are a few things we know right now:
 

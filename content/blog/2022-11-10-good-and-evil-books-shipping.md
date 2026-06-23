@@ -52,11 +52,11 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/tanya-office_ry0wdk" caption="Tanya handles the registration of new distrubtors, arranges book shipping, and also manages our Ukrainian branch of Bible First!" >}}
 
-{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/p-vlad-p-misha_jx8lby" caption="Pastor Vladyslav (left) recently suffered a heart attack. He had previously been helping us a lot with the shipping of *Good and Evil* books. Here he is visited in the hospital by Pastor Mykhaylo (right) who is the head pastor at our church in L’viv. Please pray for a quick and complete recovery for Pastor Vladyslav!" >}}
+{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/p-vlad-p-misha_jx8lby" caption="Pastor Vladyslav (left) recently suffered a heart attack. He had previously been helping us a lot with the shipping of _Good and Evil_ books. Here he is visited in the hospital by Pastor Mykhaylo (right) who is the head pastor at our church in L’viv. Please pray for a quick and complete recovery for Pastor Vladyslav!" >}}
 
 {{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/grihoriy-lviv_jkqchj" caption="With Pastor Vladyk in the hospital, others have stepped in to help transport books. Gregory (pictured) and Yura (main photo) recently made a trip out to our storage facility to retrieve 14 cases of books for shipping to our distributors. These boxes are heavy (18 books each!) and we’re grateful to these men for their labor. 🙂💪🏻" >}}
 
-{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-19-56-326_is7eyt" caption="Oleksandr (far left) is a Ukrainian missionary who is very active. We’re sending him *Good and Evil* books to aid in his evangelism outreaches in central Ukraine." >}}
+{{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-19-56-326_is7eyt" caption="Oleksandr (far left) is a Ukrainian missionary who is very active. We’re sending him _Good and Evil_ books to aid in his evangelism outreaches in central Ukraine." >}}
 
 {{< figure src="OFReport/2022-11-10-good-and-evil-books-shipping/viber_image_2022-10-26_18-20-13-823_l2akmc" alt="Three Ukrainian girls indoors holding up copies of the Good and Evil book (Добро і Зло)" >}}
 

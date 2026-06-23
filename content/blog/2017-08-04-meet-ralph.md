@@ -96,8 +96,8 @@ Now, as new material is completed and placed under version control, Ralph has th
 Laying out pages for Bible First in Ukrainian.
 
 <div class="link-target__container">
-	<span class="link-target" id="skip-to-conclusion"></span>
-	<h2>Conclusion</h2>
+ <span class="link-target" id="skip-to-conclusion"></span>
+ <h2>Conclusion</h2>
 </div>
 
 In a recent email to Kelsie, Ralph's mother, Danièle, made the following observation: *"I miss Ralph, but I'm not sad to have him so far of us this summer, because **he chose to follow God and to trust Him with his life.**"*

@@ -31,7 +31,7 @@ Your question: *"Can a girl who attends an evangelical church be involved romant
 
 Regardless of what church you go to, it is important to understand what the Bible says about marriage and love relationships. God is not as concerned with what church you are attending as He is with whether or not you are following Him through His Word.
 
-While the Bible talks very specifically about singleness, and it also talks a lot about marriage, there is not very much information regarding the period between the one and the other. We believe this is because God did not intend for that time to be extended. He made marriage to be the “safety zone” in which a man and woman can love one another fully without the danger of fornication. *(1 Corinthians 7: 2)* With that in mind, a look at some of the things God says about marriage may help you understand how you should conduct yourself toward men from other churches or faiths. 
+While the Bible talks very specifically about singleness, and it also talks a lot about marriage, there is not very much information regarding the period between the one and the other. We believe this is because God did not intend for that time to be extended. He made marriage to be the “safety zone” in which a man and woman can love one another fully without the danger of fornication. *(1 Corinthians 7: 2)* With that in mind, a look at some of the things God says about marriage may help you understand how you should conduct yourself toward men from other churches or faiths.
 
 You may not be considering marriage with the young man from the Provoslavnyk Church, but it is important that you realize that entering into a dating relationship with him is the first step in that direction. While not all “love-relationships” lead to marriage, it is best not to involve yourself in a dating relationship unless you are certain that the man is the kind of man you *could* marry.
 
@@ -61,7 +61,7 @@ Whether your future husband is good, bad, kind, cruel, righteous, wicked, wise, 
 
 4) An unbelieving wife or husband can influence his/her partner away from God.
 
-The Old Testament gives us many examples of this point. 
+The Old Testament gives us many examples of this point.
 
 * God consistently warned His people, the Israelites, not to intermarry with the people of the wicked nations surrounding them, lest they begin worshipping other gods and take on the wicked customs of those nations. (Neh. 13:23-27, Dt. 7:1-4, Joshua 23:12-13)
 * Abraham, the father of Isaac, did not on any account want his son to marry one of the daughters of the Canaanites, the wicked people surrounding him. He took very great care to find a wife for his son from among his own people. (Gen. 24)
@@ -70,7 +70,7 @@ The Old Testament gives us many examples of this point. 
 
 While these examples certainly cannot be taken as commands to New Testament Christians, they do warn us of the strength of one partner’s influence on the other. We can learn from them that God’s intent was for marriage partners to both be followers of God.
 
-5) Lastly, no matter who you are dating, God’s Word teaches clearly that any sexual involvement outside of marriage is absolutely wrong. 
+5) Lastly, no matter who you are dating, God’s Word teaches clearly that any sexual involvement outside of marriage is absolutely wrong.
 
 * 1 Corinthians 7:2 *“Nevertheless, to avoid fornication, let every man have his own wife, and let every woman have her own husband.”* (The implication is that fornication is any sexual activity outside of that between a man and his wife.)
 * Hebrews 13:4 *“Marriage is honorable in all, and the bed undefiled; but whoremongers and adulterers (those who act outside of marriage, both unmarried and married) God will judge.”*

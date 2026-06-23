@@ -26,7 +26,7 @@ After losing the Zhylavy family in 2019, we began to search for a new Ukrainian 
 
 ## Local Church Ministry
 
-Despite the afore-mentioned challenges of the pandemic, our involvement in our local church here in L’viv seems only to have grown. I am preaching regularly on Sundays, and two of our daughters (Abigail and Hosanna) sing most every week with the music ministry. These people are like family to us, and we’re so grateful for the part we have in this body! 
+Despite the afore-mentioned challenges of the pandemic, our involvement in our local church here in L’viv seems only to have grown. I am preaching regularly on Sundays, and two of our daughters (Abigail and Hosanna) sing most every week with the music ministry. These people are like family to us, and we’re so grateful for the part we have in this body!
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/preaching-gg-youtube-stream_mpj9b3" caption="Some people still aren’t able to attend church services in person, so one of the men in the church has been faithful to stream the messages live on YouTube. Care to listen to some Ukrainian preaching? [Check out the video here!](https://youtu.be/WES5rVacn6E?t=840)" >}}
 

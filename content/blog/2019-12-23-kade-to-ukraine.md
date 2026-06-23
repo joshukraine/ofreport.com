@@ -65,7 +65,7 @@ The new Ukrainian edition of *Good and Evil* continues to reach people with the 
 * Pray that God would raise up a strong team for CMO 2020, and that He would open doors to the Gospel.
 * Pray for the various other ministries we have going, including *Good and Evil*, *Bible First*, and our new web app, Bible First Online.
 * Pray for health and physical safety for our team here in L'viv. Lots of colds and flu right now!
-* Pray for peace and liberty in Ukraine. 
+* Pray for peace and liberty in Ukraine.
 
 {{< callout >}}
 Keep scrolling for more photos from our family and ministry!
