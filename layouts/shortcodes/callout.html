@@ -30,7 +30,7 @@
   {{- with .Get "pdf" }}
   <a
     href="{{ site.Params.pdfBase }}{{ . }}"
-    class="callout-download inline-flex items-center gap-1.5 font-sans text-blue-800 no-underline transition-colors hover:text-blue-900"
+    class="callout-download inline-flex items-center gap-1.5 font-sans text-blue-800 underline transition-colors hover:text-blue-900 hover:no-underline"
     target="_blank"
     rel="noopener noreferrer"
   >

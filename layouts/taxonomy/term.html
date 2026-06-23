@@ -11,7 +11,7 @@
           {{ $count }} {{ cond (eq $count 1) "article" "articles" }} tagged &ldquo;{{ .Data.Term }}&rdquo;.
         </p>
         <p class="mt-4">
-          <a href="{{ "/tags/" | relURL }}" class="text-base/7 font-semibold text-blue-800 transition-colors hover:text-blue-900">
+          <a href="{{ "/tags/" | relURL }}" class="text-base/7 font-semibold text-blue-800 underline transition-colors hover:text-blue-900 hover:no-underline">
             View all tags <span aria-hidden="true">&rarr;</span>
           </a>
         </p>
