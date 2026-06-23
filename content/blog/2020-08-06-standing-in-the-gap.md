@@ -2,18 +2,18 @@
 title: Standing in the Gap
 date: '2020-08-06'
 author: Kelsie Steele
-description: Over 20 years ago, our friends and fellow missionaries, Mark and Rhonda Blessing, came to Ukraine and began a thriving ministry. Among other things, Mark pastors a church here in L’viv and his family is very active in the lives of the members. At the beginning of 2020, Rhonda needed an operation in the U.S. which kept them there for a few months.
+description: Over 20 years ago, our friends and fellow missionaries, Mark and Rhonda Blessing, came to Ukraine and began a thriving ministry. Among other things, Mark pastors a church here in Lviv and his family is very active in the lives of the members. At the beginning of 2020, Rhonda needed an operation in the U.S. which kept them there for a few months.
 tags:
 - newsletter
 - ministry
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1596706604/OFReport/2020-08-06-standing-in-the-gap/joshua-preaching-lw-church_bouwvx.jpg
-caption: Joshua preaches the Sunday morning service at Living Word Church in L’viv.
+caption: Joshua preaches the Sunday morning service at Living Word Church in Lviv.
 pdf: OFR-Apr-Jul-2020.pdf
 slug: 2020-08-06-standing-in-the-gap
 ---
 
-Over 20 years ago, our friends and fellow missionaries, Mark and Rhonda Blessing, came to Ukraine and began a thriving ministry. Among other things, Mark pastors a church here in L’viv and his family is very active in the lives of the members. At the beginning of 2020, Rhonda needed an operation in the U.S. which kept them there for a few months.
+Over 20 years ago, our friends and fellow missionaries, Mark and Rhonda Blessing, came to Ukraine and began a thriving ministry. Among other things, Mark pastors a church here in Lviv and his family is very active in the lives of the members. At the beginning of 2020, Rhonda needed an operation in the U.S. which kept them there for a few months.
 
 {{< callout pdf="OFR-Apr-Jul-2020.pdf" >}}
 {{< /callout >}}

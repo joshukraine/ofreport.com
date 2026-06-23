@@ -93,4 +93,4 @@ Keep scrolling for more photos from our visit to Radekhiv...
 
 {{< figure src="OFReport/2023-04-03-ukrainian-angels/marko-books-van_tgn0sw" caption="On a different day, Marko and his friend help with a shipment of _Good and Evil_ books." >}}
 
-{{< figure src="OFReport/2023-04-03-ukrainian-angels/postal-worker-good-evil-book_z0r1nq" caption="Our local postal worker in L’viv got his very own copy!" >}}
+{{< figure src="OFReport/2023-04-03-ukrainian-angels/postal-worker-good-evil-book_z0r1nq" caption="Our local postal worker in Lviv got his very own copy!" >}}

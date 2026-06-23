@@ -39,7 +39,7 @@ curious, you can see photos of their work on their
 
 If you would like donate to Radekhivski Hospodyni, you can do so easily by
 sending funds via PayPal to Yura (Yuriy) Petriv. (details below) Yura is a
-member of our church in L’viv and a personal friend of more than 20 years. He
+member of our church in Lviv and a personal friend of more than 20 years. He
 receives funds from American donors and uses them to purchase and deliver the
 specific supplies requested by Radekhivski Hospodyni. Don’t forget to choose the
 “family and friends” option so that Yura will receive the full amount of your

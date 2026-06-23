@@ -26,7 +26,7 @@ They have.
 {{< /callout >}}
 
 First, there was COVID, then war broke out in Ukraine. We spent almost a year
-and a half in Slovakia, followed by a return to L’viv in mid-2023. Then, in
+and a half in Slovakia, followed by a return to Lviv in mid-2023. Then, in
 early 2024, Mom’s health began declining sharply as a result of her cancer. I
 made more trips back and forth across the Atlantic than I ever had before in a
 single year, trying desperately to balance family, ministry, and war. At times,
@@ -52,7 +52,7 @@ path they have chosen, and we are excited to see how God will lead their lives
 in the years to come. Please pray for them — and for all the new believers here
 — that God would continue to draw them closer to Himself.
 
-{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-hosanna_jqd2sa" caption="Baptizing Hosanna alongside Pastor Misha, our head pastor in L’viv." >}}
+{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-hosanna_jqd2sa" caption="Baptizing Hosanna alongside Pastor Misha, our head pastor in Lviv." >}}
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-kathryn_f82nul" caption="Next up, Kathryn was baptized." >}}
 
@@ -162,7 +162,7 @@ Keep scrolling for more photos and video! First up, the baptism...
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-kathryn-testimony_yxbfjq" caption="Kathryn also stood before the group and told about her faith in Jesus." >}}
 
-{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-church-photo_ieyke4" caption="Finally, we gathered outside for a church photo. This is by far not the whole group, but it's everyone who could make it that day. We are blessed to be a part of this amazing body in L'viv!" >}}
+{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-church-photo_ieyke4" caption="Finally, we gathered outside for a church photo. This is by far not the whole group, but it's everyone who could make it that day. We are blessed to be a part of this amazing body in Lviv!" >}}
 
 {{< callout >}}
 Next up, some photos from our _Good and Evil_ outreach...
@@ -204,7 +204,7 @@ And finally, some recent photos from our family and friends in Ukraine...
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/david-mia-picnic_qqgayx" caption="Picnics always bring out those golden smiles!" >}}
 
-{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/daddy-back-home_ezh2wt" caption="After another long trip to Texas, Daddy is finally back home in L'viv!" >}}
+{{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/daddy-back-home_ezh2wt" caption="After another long trip to Texas, Daddy is finally back home in Lviv!" >}}
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/dad-abbie-mom-krakow_xsqoz4" caption="Just a couple of days ago, Abigail came back to Ukraine for a visit! We met her in Krakow and then drove across into Ukraine." >}}
 

@@ -2,21 +2,21 @@
 title: Leaving Home to Go Home
 date: '2021-04-17'
 author: Joshua Steele
-description: 'On March 18, I observed 20 years since boarding a plane at DFW, bound for L’viv and a life of ministry amongst Ukrainians. Another year or two, and I will have lived longer in Ukraine than anywhere else in the world. Which brings up a difficult question faced by many missionaries who serve abroad: “Where’s home?” As a close friend of mine once commented, “We can never be on the same side of the Atlantic with all of our loved ones at the same time.”'
+description: 'On March 18, I observed 20 years since boarding a plane at DFW, bound for Lviv and a life of ministry amongst Ukrainians. Another year or two, and I will have lived longer in Ukraine than anywhere else in the world. Which brings up a difficult question faced by many missionaries who serve abroad: “Where’s home?” As a close friend of mine once commented, “We can never be on the same side of the Atlantic with all of our loved ones at the same time.”'
 tags:
 - family
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1618583522/OFReport/2021-04-17-leaving-home-to-go-home/flight-horizon-1200w_albzal.jpg
-caption: As we neared the end of our transatlantic fight, Abby and I were struck by the beauty of the sunrise. Just a few more hours, and we’d be home in L’viv!
+caption: As we neared the end of our transatlantic fight, Abby and I were struck by the beauty of the sunrise. Just a few more hours, and we’d be home in Lviv!
 slug: 2021-04-17-leaving-home-to-go-home
 ---
 
-On March 18, I observed 20 years since boarding a plane at DFW, bound for L’viv and a life of ministry amongst Ukrainians. Another year or two, and I will have lived longer in Ukraine than anywhere else in the world. Which brings up a difficult question faced by many missionaries who serve abroad: “Where’s home?” As a close friend of mine once commented, “We can never be on the same side of the Atlantic with all of our loved ones at the same time.”
+On March 18, I observed 20 years since boarding a plane at DFW, bound for Lviv and a life of ministry amongst Ukrainians. Another year or two, and I will have lived longer in Ukraine than anywhere else in the world. Which brings up a difficult question faced by many missionaries who serve abroad: “Where’s home?” As a close friend of mine once commented, “We can never be on the same side of the Atlantic with all of our loved ones at the same time.”
 
 Those of you who have been reading our blog know that I’ve now made two trips to the U.S. this year, leaving my home in Ukraine to visit my home in Texas. The purpose of these journeys has been to provide support for my parents during their recent health crises.
 
-{{< figure src="OFReport/2021-04-17-leaving-home-to-go-home/IMG_5138_s4q327" caption="March 5, 2021: Abby and I are on the plane in L’viv, headed for Texas!" >}}
+{{< figure src="OFReport/2021-04-17-leaving-home-to-go-home/IMG_5138_s4q327" caption="March 5, 2021: Abby and I are on the plane in Lviv, headed for Texas!" >}}
 
-Abby and I stayed in Texas for about three weeks, and we’re now back in L’viv. Jet lag has been a killer this time around, and it’s taken me a couple of weeks to get back on my feet. But now that things are stabilizing here, I’d like to give you an update on our family.
+Abby and I stayed in Texas for about three weeks, and we’re now back in Lviv. Jet lag has been a killer this time around, and it’s taken me a couple of weeks to get back on my feet. But now that things are stabilizing here, I’d like to give you an update on our family.
 
 ## Dad’s Health
 

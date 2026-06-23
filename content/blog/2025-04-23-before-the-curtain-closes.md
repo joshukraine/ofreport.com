@@ -2,7 +2,7 @@
 title: Before the Curtain Closes
 date: '2025-04-23'
 author: Joshua Steele
-description: 'Our team of four barely fit into a mid-size Ford van, which we had packed from floor to ceiling with supplies: bread, aid boxes, rice, and cases of the Bible comic book Good and Evil. After hours of travel from L’viv in the west, passing through Zhytomyr and Kyiv in the north, we entered the flat, open plains of Ukraine’s southern regions. Gone were the urban centers and smooth highways; in their place, we found a scene reminiscent of some dystopian Hollywood movie.'
+description: 'Our team of four barely fit into a mid-size Ford van, which we had packed from floor to ceiling with supplies: bread, aid boxes, rice, and cases of the Bible comic book Good and Evil. After hours of travel from Lviv in the west, passing through Zhytomyr and Kyiv in the north, we entered the flat, open plains of Ukraine’s southern regions. Gone were the urban centers and smooth highways; in their place, we found a scene reminiscent of some dystopian Hollywood movie.'
 tags:
 - good-and-evil
 - ukraine
@@ -26,7 +26,7 @@ support! 💙💛**
 
 Our team of four barely fit into a mid-size Ford van, which we had packed from
 floor to ceiling with supplies: bread, aid boxes, rice, and cases of the Bible
-comic book _Good and Evil_. After hours of travel from L’viv in the west,
+comic book _Good and Evil_. After hours of travel from Lviv in the west,
 passing through Zhytomyr and Kyiv in the north, we entered the flat, open plains
 of Ukraine’s southern regions. Gone were the urban centers and smooth highways;
 in their place, we found a scene reminiscent of some dystopian Hollywood movie.

@@ -25,7 +25,7 @@ as normal, even though many members were up through the night.
 {{< figure src="OFReport/2025-07-06-speaking-into-the-struggle/josh-preaching_ca5mah" caption="Joshua's message was entitled _Learning from the Demons_, out of Mark 5. Does that pique your interest?" >}}
 
 Joshua had the privilege of speaking twice to a church group from Poltava, one
-of Ukraine’s eastern oblasts. They brought their youth to L’viv last week for
+of Ukraine’s eastern oblasts. They brought their youth to Lviv last week for
 some much-needed R&R at a nearby campground, and Josh was one of the event
 speakers. Poltava experiences regular– if not nightly– air raids, and many
 hypersonic missiles have been launched in recent days at Kremenchuk, one of its

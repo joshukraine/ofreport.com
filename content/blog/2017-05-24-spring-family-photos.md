@@ -13,7 +13,7 @@ slug: 2017-05-24-spring-family-photos
 
 Spring is here! And that means family photos. :) Our little David Noble is now 4 months old, and until now he's been conspicuously absent from our main family portrait. Time to fix that!
 
-The weather these days in L'viv has been gorgeous. Spring has undoubtedly sprung, and the greenery is everywhere. Last week, we planned a picnic at a large park here in the city called [Stryis'kyi Park](https://goo.gl/maps/VtZdwLKBaaw). Despite its location, once you enter the park you would never guess that you're in a city.
+The weather these days in Lviv has been gorgeous. Spring has undoubtedly sprung, and the greenery is everywhere. Last week, we planned a picnic at a large park here in the city called [Stryis'kyi Park](https://goo.gl/maps/VtZdwLKBaaw). Despite its location, once you enter the park you would never guess that you're in a city.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/picnic-and-photos-2000w.jpg" caption="What could be more fun that a picnic in the park on a sunny day? :)" >}}
 

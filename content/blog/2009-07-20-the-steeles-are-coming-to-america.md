@@ -2,14 +2,14 @@
 title: The Steeles are Coming to America!
 date: '2009-07-20'
 author: Joshua Steele
-description: Yes, as many of you have heard, our family will soon be making a trip to the United States. We will be leaving L'viv on August 26, arriving in DFW the same day. While we don't have an exact return date, we expect to be back in Ukraine by mid-May, in time for the start of CMO 2010. There are actually several reasons that we decided to make this trip at this time, but one of the main ones has to do with immigration problems that have come up recently in Ukraine. Here's a quick synopsis of the situation.
+description: Yes, as many of you have heard, our family will soon be making a trip to the United States. We will be leaving Lviv on August 26, arriving in DFW the same day. While we don't have an exact return date, we expect to be back in Ukraine by mid-May, in time for the start of CMO 2010. There are actually several reasons that we decided to make this trip at this time, but one of the main ones has to do with immigration problems that have come up recently in Ukraine. Here's a quick synopsis of the situation.
 tags:
 - family
 - ministry
 slug: 2009-07-20-the-steeles-are-coming-to-america
 ---
 
-Yes, as many of you have heard, our family will soon be making a trip to the United States. We will be leaving L'viv on August 26, arriving in DFW the same day. While we don't have an exact return date, we expect to be back in Ukraine by mid-May, in time for the start of CMO 2010. There are actually several reasons that we decided to make this trip at this time, but one of the main ones has to do with immigration problems that have come up recently in Ukraine. Here's a quick synopsis of the situation.
+Yes, as many of you have heard, our family will soon be making a trip to the United States. We will be leaving Lviv on August 26, arriving in DFW the same day. While we don't have an exact return date, we expect to be back in Ukraine by mid-May, in time for the start of CMO 2010. There are actually several reasons that we decided to make this trip at this time, but one of the main ones has to do with immigration problems that have come up recently in Ukraine. Here's a quick synopsis of the situation.
 
 In May of this year, Ukraine's parliament passed a new law restricting the amount of time during which foreigners can stay in the country. In short, the new law says that you can only stay in Ukraine for 90 days out of every 180, unless you apply for an extension. The process of receiving this extension is called "registration" and is not simple or cheap. To further complicate the situation, every government agency that we deal with (e.g. border patrol, foreign affairs office, the embassy) seems to have a different interpretation of the law. There are as many versions as there are agencies, and some agencies do not yet acknowledge that there have been any changes at all!
 

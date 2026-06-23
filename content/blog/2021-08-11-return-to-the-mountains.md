@@ -18,11 +18,11 @@ slug: 2021-08-11-return-to-the-mountains
 {{< callout pdf="OFR-Jul-Aug-2021.pdf" >}}
 {{< /callout >}}
 
-Back in L’viv, Saturday arrived, drippy and overcast. Joshua packed his Bible, grabbed a coffee, and filled the yellow van with diesel in preparation for another trip to the Carpathian Mountains. Even though CMO had to be canceled the last two summers due to Covid, this year still yielded opportunities to take God’s Word to the mountains. Today would be a 3.5 hour drive to the village of Pylypets, the same place where the children blanketed the neighborhood with invitations earlier in the week.
+Back in Lviv, Saturday arrived, drippy and overcast. Joshua packed his Bible, grabbed a coffee, and filled the yellow van with diesel in preparation for another trip to the Carpathian Mountains. Even though CMO had to be canceled the last two summers due to Covid, this year still yielded opportunities to take God’s Word to the mountains. Today would be a 3.5 hour drive to the village of Pylypets, the same place where the children blanketed the neighborhood with invitations earlier in the week.
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/yellow-van-greeting_ex1vao" caption="The yellow van receives a warm greeting in Pylypets." >}}
 
-A friend of ours, Margarita, was the mind and muscle behind this particular gathering. She organized a week-long retreat in the Carpathians for a group of L’viv children (including two of our girls). It was her idea to host the *Exodus* skit, lead the children in making and distributing invitations, and bring in the special guests: Joshua to preach and Oleksa (Alex) to perform special music.
+A friend of ours, Margarita, was the mind and muscle behind this particular gathering. She organized a week-long retreat in the Carpathians for a group of Lviv children (including two of our girls). It was her idea to host the *Exodus* skit, lead the children in making and distributing invitations, and bring in the special guests: Joshua to preach and Oleksa (Alex) to perform special music.
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/exodus-actors_whsjvo" caption="The young cast of *Exodus*" >}}
 
@@ -36,13 +36,13 @@ Referencing Pharaoh and his hard heart, Joshua asked the people how Pharaoh woul
 
 In work for the Lord, we don’t always get to see the results of our labors. Primarily, we are sowers, spreading the seed of the Word where we have opportunity. In this small Carpathian village, the seed was sown in hearts that may never have heard before that Christ’s sacrifice is enough to reconcile them to God. Now, we wait on God to do His work and bear fruit in His time.
 
-## L’viv Family Picnic
+## Lviv Family Picnic
 
 In June, Joshua and I were invited by a local church to speak at a family picnic in the park. We presented three fast-paced mini-sessions on family relationships. A final topic had been selected as a grand finale. Standing in the grass under a tree limb, with God’s glorious creation all around, Joshua opened  his Bible and gave a challenge to believe the gospel. This was a memorable opportunity to interact with both believers and unbelievers!
 
 ## How You Can Pray
 
-* Pray for the seeds sown in Pylypets and at the L’viv Family Picnic.
+* Pray for the seeds sown in Pylypets and at the Lviv Family Picnic.
 * Pray for the continued growth of Bible First Online, both in Ukraine and around the world.
 * Pray for our local Ukrainian church where we serve, Greater Grace. Pray for maturity in Christ and protection from strife.
 * Pray for our children to grow in wisdom and the knowledge of Christ.
@@ -54,7 +54,7 @@ In June, Joshua and I were invited by a local church to speak at a family picnic
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/hosanna-rebekah-buddies_miyuaa" caption="Rebekah and Hosanna had a blast on their Carpathian retreat!" >}}
 
-{{< figure src="OFReport/2021-08-11-return-to-the-mountains/beka-salad_vwdugh" caption="Back in L’viv, Rebekah gets a date with Mom." >}}
+{{< figure src="OFReport/2021-08-11-return-to-the-mountains/beka-salad_vwdugh" caption="Back in Lviv, Rebekah gets a date with Mom." >}}
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/beka-mom-silly_kedov6" caption="Because silly photos are “funner”" >}}
 

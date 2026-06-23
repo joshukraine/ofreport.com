@@ -34,7 +34,7 @@ At the time I was hesitant to commit, but I have learned by experience that God 
 
 During the call, I explained that our ministry activities this year would be very different from a typical CMO project. We wouldn't be going to the mountains, camping, or showing films. Instead, much of our current work is focused on computer-related tasks such as translation, page layout, and web development. These are tasks that need to be completed in order for future CMO projects and other ministries to remain effective.
 
-Ralph explained that his desire was to gain experience on the mission field in Eastern Europe. Though only 17 years old, he already had a lot of experience with computers, and he said he would be glad to work with us on our projects. We also discussed the potential for taking language lessons and getting to know Ukrainians in our church here in L'viv.
+Ralph explained that his desire was to gain experience on the mission field in Eastern Europe. Though only 17 years old, he already had a lot of experience with computers, and he said he would be glad to work with us on our projects. We also discussed the potential for taking language lessons and getting to know Ukrainians in our church here in Lviv.
 
 In the end, the decision was made that Ralph could come. What transpired over the next few months confirmed for me beyond all doubt that Ralph's trip to Ukraine was not only God's direction, it was God's blessing and provision for our ministry.
 
@@ -86,7 +86,7 @@ What this means for us is that, with Ralph on the team, we are able to read and 
 
 Although plain text is the preferred format for storing the source text of *Bible First*, there is still a need to format each lesson for print. This has already been done in English, but as new translations are completed, each one will need to be laid out for print using Adobe InDesign. This means flowing text and graphics on a page, adding page numbers, the table of contents, footnotes, and so forth.
 
-After Ralph arrived in L'viv, I suggested that he might be interested in learning how to use InDesign. I showed him the work we've done previously, and gave a general demonstration of the workflow. Then, as with the other technologies, I sent him an online tutorial to work through. Soon, he completed all 8 hours of material, and said he was ready to try his hand at laying out some real *Bible First* lessons.
+After Ralph arrived in Lviv, I suggested that he might be interested in learning how to use InDesign. I showed him the work we've done previously, and gave a general demonstration of the workflow. Then, as with the other technologies, I sent him an online tutorial to work through. Soon, he completed all 8 hours of material, and said he was ready to try his hand at laying out some real *Bible First* lessons.
 
 Initially, we worked together formatting one of our Ukrainian lessons until Ralph had the hang of it. Then he continued formatting more lessons on his own.
 

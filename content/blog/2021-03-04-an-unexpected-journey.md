@@ -2,7 +2,7 @@
 title: An Unexpected Journey
 date: '2021-03-04'
 author: Joshua Steele
-description: It was the morning of January 17, and as I made final preparations to leave for L’viv’s Danylo Halytskyi International Airport, I quietly switched off the “Find My Friends” location tracker on my iPhone. A surprise visit for Mom was in the works, and it just wouldn’t do for her to notice that I was suddenly stopped at a hotel in LA. Thanks to the cooperative efforts of my siblings and their spouses, Mom was about to get what turned out to be, in her words, the shock of her life.
+description: It was the morning of January 17, and as I made final preparations to leave for Lviv’s Danylo Halytskyi International Airport, I quietly switched off the “Find My Friends” location tracker on my iPhone. A surprise visit for Mom was in the works, and it just wouldn’t do for her to notice that I was suddenly stopped at a hotel in LA. Thanks to the cooperative efforts of my siblings and their spouses, Mom was about to get what turned out to be, in her words, the shock of her life.
 tags:
 - family
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1614876507/OFReport/2021-03-04-an-unexpected-journey/back-together-again-1200x630-ratio_gmku7v.jpg
@@ -10,7 +10,7 @@ caption: On January 18 of this year, I flew to Texas for a surprise two-week vis
 slug: 2021-03-04-an-unexpected-journey
 ---
 
-It was the morning of January 17, and as I made final preparations to leave for L’viv’s Danylo Halytskyi International Airport, I quietly switched off the “Find My Friends” location tracker on my iPhone. A surprise visit for Mom was in the works, and it just wouldn’t do for her to notice that I was suddenly passing over the North Atlantic. Thanks to the cooperative efforts of my siblings and their spouses, Mom was about to get what turned out to be, in her words, the shock of her life.
+It was the morning of January 17, and as I made final preparations to leave for Lviv’s Danylo Halytskyi International Airport, I quietly switched off the “Find My Friends” location tracker on my iPhone. A surprise visit for Mom was in the works, and it just wouldn’t do for her to notice that I was suddenly passing over the North Atlantic. Thanks to the cooperative efforts of my siblings and their spouses, Mom was about to get what turned out to be, in her words, the shock of her life.
 
 The next day, the various siblings and their families began to “pop in” for a visit at Mom and Dad’s house. Some of them feigned schedule conflicts at first — just to avoid suspicion — but then, amazingly, things worked out and everyone made it. As my final flight neared Dallas Love Field, my brother Josiah announced that he needed to “run a few errands”. He would be back later. And with that, another location tracker disappeared from the grid — again unnoticed by our unsuspecting mother.
 
@@ -77,7 +77,7 @@ Additionally, if you would like to send cash, the best way is via my sister Jenn
 * Pray that Dad’s feet will heal quickly and that the infection will clear up. In a worst-case scenario, there is a real risk that he could lose one or both feet.
 * Pray for grace and strength for my siblings and their families as they make daily sacrifices to care for Mom and Dad.
 * Pray for strength and safety for Abby and I as we travel.
-* Pray for Kelsie and the kiddos as they remain behind in L’viv.
+* Pray for Kelsie and the kiddos as they remain behind in Lviv.
 
 ## Conclusion
 

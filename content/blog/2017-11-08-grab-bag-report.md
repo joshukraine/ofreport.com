@@ -48,17 +48,17 @@ Someday soon, it will be ready. The software that will allow coaches and student
 [![Hackers for Christ](https://d21yo20tm8bmc2.cloudfront.net/2017/11/hackers-for-christ-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/hackers-for-christ-2000w.jpg)
 Nathan, Trevor, Joshua — hackers for Christ!
 
-[Trevor Brown][stratus3d title] is a software engineer from Florida, and he's been helping us build *Bible First Online* since its inception. During the month of October, he used every day of time off he could scrape together and flew to L'viv for a coding marathon. He and I, along with Nathan Day, spent pretty much every waking hour for two weeks writing code. As a result of this latest push, we are now very close to importing our own Ukrainian students into the new system. Once we've been able to test the app internally for a while, we'll release it publicly for others to use in their own ministries!
+[Trevor Brown][stratus3d title] is a software engineer from Florida, and he's been helping us build *Bible First Online* since its inception. During the month of October, he used every day of time off he could scrape together and flew to Lviv for a coding marathon. He and I, along with Nathan Day, spent pretty much every waking hour for two weeks writing code. As a result of this latest push, we are now very close to importing our own Ukrainian students into the new system. Once we've been able to test the app internally for a while, we'll release it publicly for others to use in their own ministries!
 
 [![The Import Script](https://d21yo20tm8bmc2.cloudfront.net/2017/11/the-import-script-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/the-import-script-2000w.jpg)
-On his very last night in L'viv, Trevor tests out the script that will import our existing Bible First students into Bible First Online. (Hacking always works better if you wear a black stocking cap. ;)
+On his very last night in Lviv, Trevor tests out the script that will import our existing Bible First students into Bible First Online. (Hacking always works better if you wear a black stocking cap. ;)
 
 [![Bible First Online Cookies](https://d21yo20tm8bmc2.cloudfront.net/2017/11/bible-first-online-cookie-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/bible-first-online-cookie-2000w.jpg)
 We even have Bible First Online cookies! (courtesy of Miss Denise Hutchison)
 
 ## Kids' Class
 
-I've written before about the kids' class I lead on Sundays at our church here in L'viv. This is one of those ministries I wasn't looking for — God just dropped it in my lap. I've been surprised at how much fun I've had with this group! Every week, we do sword drills, read through a section of *Bible First*, and work on memory verses. Inspired by my mom's memory program for her grandkids, I've been offering the kids modest financial incentives to memorize Scripture. That has really taken off! Even during the week, kids come to my house to say their verses. One girl even brought a friend from the neighborhood who has now started a memory project!
+I've written before about the kids' class I lead on Sundays at our church here in Lviv. This is one of those ministries I wasn't looking for — God just dropped it in my lap. I've been surprised at how much fun I've had with this group! Every week, we do sword drills, read through a section of *Bible First*, and work on memory verses. Inspired by my mom's memory program for her grandkids, I've been offering the kids modest financial incentives to memorize Scripture. That has really taken off! Even during the week, kids come to my house to say their verses. One girl even brought a friend from the neighborhood who has now started a memory project!
 
 [![Kids' Class](https://d21yo20tm8bmc2.cloudfront.net/2017/11/kids-class-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/kids-class-2000w.jpg)
 Sword drills are a fun time each week. The kids are getting pretty good at finding references quickly!
@@ -121,7 +121,7 @@ Bohdan was the first in the class to complete a level 4 memory project (30 verse
 [![Anya](https://d21yo20tm8bmc2.cloudfront.net/2017/11/anya-550h.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/anya-2000h.jpg)
 Not far behind Bohdan, Anya also completed Proverbs 1! These kids are on fire!
 
-[![Selfie in L'viv](https://d21yo20tm8bmc2.cloudfront.net/2017/11/lviv-selfie-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/lviv-selfie-2000w.jpg)
+[![Selfie in Lviv](https://d21yo20tm8bmc2.cloudfront.net/2017/11/lviv-selfie-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/11/lviv-selfie-2000w.jpg)
 While Trevor was here, we did a little sight-seeing. Here we snapped a quick selfie from the lookout on High Castle.
 
 [cmo title]: http://www.cmoproject.org/ "Learn more about Carpathian Mountain Outreach."

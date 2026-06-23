@@ -18,9 +18,9 @@ This summer marked our 9th CMO project! When we first embarked down this path ba
 {{< callout pdf="OFR-Sep-Oct-2015.pdf" >}}
 {{< /callout >}}
 
-One of the things I look forward to most during CMO is visiting new cities. While our team always spends a fair amount of time ministering in our home town of L’viv, we are focusing more and more on branching out to establish beachheads in other towns.
+One of the things I look forward to most during CMO is visiting new cities. While our team always spends a fair amount of time ministering in our home town of Lviv, we are focusing more and more on branching out to establish beachheads in other towns.
 
-Before CMO began this year, we had our eye on a mid-size city called Khmelnytskiy. This city, with its population of nearly 300,000 people, is an oblast center located about four hours west of L’viv, and one that we’ve not previously visited. When I checked our database at the beginning of the summer, we had one student in Khmelnytskiy. Now, after conducting a three-day literature campaign there in mid-July, we have five.
+Before CMO began this year, we had our eye on a mid-size city called Khmelnytskiy. This city, with its population of nearly 300,000 people, is an oblast center located about four hours west of Lviv, and one that we’ve not previously visited. When I checked our database at the beginning of the summer, we had one student in Khmelnytskiy. Now, after conducting a three-day literature campaign there in mid-July, we have five.
 
 But what are five people among 300,000? Maybe not much in terms of numbers, but they are a start. Over the years we’ve learned that we don’t necessarily need to reach everyone up front. We just need a foot in the door, so to speak. Once we establish a presence in a city or village, there is significant potential for our student base to grow.
 

@@ -2,7 +2,7 @@
 title: Countdown
 date: '2023-06-07'
 author: Joshua Steele
-description: It’s hard to believe that it’s been a year and three months since we evacuated from Ukraine on a bitter-cold March morning in 2022. During this time, God has kept and blessed our family in Slovakia. We have connected with a wonderful church family consisting of Slovaks, Ukrainians, Czechs, Americans, and Britons. These people have become very dear to us, and we are keenly aware that we are leaving a piece of our hearts here. Now, the time has come to return to Ukraine and our ministry in L’viv.
+description: It’s hard to believe that it’s been a year and three months since we evacuated from Ukraine on a bitter-cold March morning in 2022. During this time, God has kept and blessed our family in Slovakia. We have connected with a wonderful church family consisting of Slovaks, Ukrainians, Czechs, Americans, and Britons. These people have become very dear to us, and we are keenly aware that we are leaving a piece of our hearts here. Now, the time has come to return to Ukraine and our ministry in Lviv.
 tags:
 - ukraine
 - ministry
@@ -18,7 +18,7 @@ kept and blessed our family in Slovakia. We have connected with a wonderful
 church family consisting of Slovaks, Ukrainians, Czechs, Americans, and Britons.
 These people have become very dear to us, and we are keenly aware that we are
 leaving a piece of our hearts here. Now, the time has come to return to Ukraine
-and our ministry in L’viv.
+and our ministry in Lviv.
 
 Today is our final day at our rented house in the little village of Mojš. We’re
 packing suitcases, disassembling furniture, and wrapping our belongings in
@@ -29,14 +29,14 @@ to her house for the day so we can better focus on packing. It’s organized
 chaos, but by God’s grace, it’s all coming together.
 
 As I write these words, our friends Vladyslav and Marta are on their way to us,
-driving the church van from L’viv. They should arrive later this evening, at
+driving the church van from Lviv. They should arrive later this evening, at
 which time we will pack everything we can fit into their van and our van.
 Tomorrow morning (June 8) at around 6 am, our little caravan will depart for
 Ukraine.
 
 Our route will take us north through the mountains towards Krakow, Poland, and
 from there we’ll drive east to the Ukrainian border. If all goes well, we will
-arrive at our home in L’viv sometime in the late afternoon.
+arrive at our home in Lviv sometime in the late afternoon.
 
 Please pray specifically for our crossing at the border. We are bringing quite
 an array of personal belongings — everything from clothes to coffee machines,
@@ -123,4 +123,4 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2023-06-07-countdown/rebekah-kelsie-bratislava_ymifgv" caption="Recently, we took Rebekah to the US Embassy in Bratislava to get her a new passport. We had a fun day together!" >}}
 
-{{< figure src="OFReport/2023-06-07-countdown/steeles-sweeneys_j9ccej" caption="The Sweeney’s are a British family from our church, and we’ve become close friends during our time here in Slovakia. We’ve found that we have quite a lot in common, and we have truly enjoyed their fellowship and hospitality. We’re hoping they can visit us soon in L’viv!" >}}
+{{< figure src="OFReport/2023-06-07-countdown/steeles-sweeneys_j9ccej" caption="The Sweeney’s are a British family from our church, and we’ve become close friends during our time here in Slovakia. We’ve found that we have quite a lot in common, and we have truly enjoyed their fellowship and hospitality. We’re hoping they can visit us soon in Lviv!" >}}

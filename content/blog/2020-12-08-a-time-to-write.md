@@ -18,7 +18,7 @@ Ministry in a COVID-19 world continues to present both challenges and opportunit
 {{< callout pdf="OFR-Aug-Dec-2020.pdf" >}}
 {{< /callout >}}
 
-This summer, we finally printed our Ukrainian translation of Michael Pearl’s [*Learning from the Atheists*](https://nogreaterjoy.org/shop/learning-from-the-atheists-booklet). We’ve had the Ukrainian text for quite a while — an initiative begun by Serhii Chepara several years ago — but it needed review and page layout. Now the project is complete and copies are circulating among believers in L’viv and other parts of Ukraine.
+This summer, we finally printed our Ukrainian translation of Michael Pearl’s [*Learning from the Atheists*](https://nogreaterjoy.org/shop/learning-from-the-atheists-booklet). We’ve had the Ukrainian text for quite a while — an initiative begun by Serhii Chepara several years ago — but it needed review and page layout. Now the project is complete and copies are circulating among believers in Lviv and other parts of Ukraine.
 
 After losing the Zhylavy family in 2019, we began to search for a new Ukrainian translator. Serhii introduced us to Fedir Levchuk, and we decided to hire him for a small project as a trial run. After several weeks of collaboration with Fedir, we completed our translation of another of Mike’s booklets: [*Pornography: Road to Hell*](https://nogreaterjoy.org/shop/pornography-road-to-hell-booklet). We were very pleased with the quality of Fedir’s work, and we’ve already got him busy on our next translation project — this time, a full book. [*By Divine Design*](https://nogreaterjoy.org/shop/by-divine-design-book), by Michael Pearl, is a book I’ve wanted to translate for a long time, and one that was instrumental in bringing my good friend Nathan Day to Christ many years ago. We’ve now completed two chapters, and Fedir is hard at work on chapter 3.
 
@@ -26,7 +26,7 @@ After losing the Zhylavy family in 2019, we began to search for a new Ukrainian 
 
 ## Local Church Ministry
 
-Despite the afore-mentioned challenges of the pandemic, our involvement in our local church here in L’viv seems only to have grown. I am preaching regularly on Sundays, and two of our daughters (Abigail and Hosanna) sing most every week with the music ministry. These people are like family to us, and we’re so grateful for the part we have in this body!
+Despite the afore-mentioned challenges of the pandemic, our involvement in our local church here in Lviv seems only to have grown. I am preaching regularly on Sundays, and two of our daughters (Abigail and Hosanna) sing most every week with the music ministry. These people are like family to us, and we’re so grateful for the part we have in this body!
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/preaching-gg-youtube-stream_mpj9b3" caption="Some people still aren’t able to attend church services in person, so one of the men in the church has been faithful to stream the messages live on YouTube. Care to listen to some Ukrainian preaching? [Check out the video here!](https://youtu.be/WES5rVacn6E?t=840)" >}}
 
@@ -61,7 +61,7 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4572_a9xdor" caption="Kelsie and I recently celebrated 16 years of marriage.💞 God is so faithful!" >}}
 
-{{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4574_tzjc1s" caption="We decided to try a new restaurant here in L’viv. I enjoyed some tasty pumpkin soup with this lovely lady!" >}}
+{{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4574_tzjc1s" caption="We decided to try a new restaurant here in Lviv. I enjoyed some tasty pumpkin soup with this lovely lady!" >}}
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4523_zbye8r" caption="Kathryn gets a turn in the dentist chair. (Wow, when you have six kids, you get to know the dentist office pretty well! 🥺)" >}}
 
@@ -87,7 +87,7 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4304_rvzi59" caption="In November, we were blessed by a visit from Mike and Denise Ireland. As many of you know, Denise (formerly Hutchison) served on our team for many years. She and Mike were married earlier this year and are preparing to return to Ukraine as a couple." >}}
 
-{{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4245_edihmr" caption="Edmund and Agnes are a missionary couple from Northern Ireland who serve here in L’viv. Edmund organizes Christian conferences each year with his church, and I’ve helped him several times by providing Ukrainian translation. Recently they had our family over for dinner and we had a marvelous evening of fellowship together!" >}}
+{{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4245_edihmr" caption="Edmund and Agnes are a missionary couple from Northern Ireland who serve here in Lviv. Edmund organizes Christian conferences each year with his church, and I’ve helped him several times by providing Ukrainian translation. Recently they had our family over for dinner and we had a marvelous evening of fellowship together!" >}}
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4231_gk794i" caption="In August, Hosanna and Rebekah took part in a mini summer camp organized by a lady in our church named Margarita (center in the photo above). They spent about a week in the Carpathians and had a fantastic time!" >}}
 

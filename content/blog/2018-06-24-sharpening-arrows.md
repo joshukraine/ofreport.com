@@ -9,7 +9,7 @@ tags:
 - cmo
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1571908949/OFReport/2018-06-24-sharpening-arrows/teaching-forum-mall-12-6_vbjilu.jpg
-caption: The Bible tells us that children are like arrows in the hands of a warrior — their impact can be swift and far-reaching. But effective arrows need preparation. They require thoughtful crafting to ensure that they are straight and sharp. I'm excited by the little arrows God is raising up here in our church in L'viv, and I'd like to tell you about how we are using Scripture to prepare these young people to have an impact for Christ.
+caption: The Bible tells us that children are like arrows in the hands of a warrior — their impact can be swift and far-reaching. But effective arrows need preparation. They require thoughtful crafting to ensure that they are straight and sharp. I'm excited by the little arrows God is raising up here in our church in Lviv, and I'd like to tell you about how we are using Scripture to prepare these young people to have an impact for Christ.
 pdf: OFR-May-Jun-2018.pdf
 slug: 2018-06-24-sharpening-arrows
 ---
@@ -72,7 +72,7 @@ We are AL. MOST. THERE. After countless hours of work by many different people, 
 
 {{< figure src="OFReport/2018-06-24-sharpening-arrows/at-vlad-and-martas_ullvym.jpg" caption="Pastor Vladyslav Medyakovskiy and his wife Marta are dear friends of ours. They have five children, many of whom are close in age to ours. Recently they invited us out to their home for dinner and fellowship." >}}
 
-{{< figure src="OFReport/2018-06-24-sharpening-arrows/david-in-garden_nhq9dd.jpg" caption="They live in the country just outside L'viv. Everyone enjoyed the outside time — especially David!" >}}
+{{< figure src="OFReport/2018-06-24-sharpening-arrows/david-in-garden_nhq9dd.jpg" caption="They live in the country just outside Lviv. Everyone enjoyed the outside time — especially David!" >}}
 
 {{< figure src="OFReport/2018-06-24-sharpening-arrows/david-with-kels_untmho.jpg" caption="Fun with Mama!" >}}
 

@@ -2,7 +2,7 @@
 title: A Chapter of Blessing
 date: '2019-01-25'
 author: Joshua Steele
-description: On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in L'viv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
+description: On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in Lviv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
 tags:
 - newsletter
 - photos
@@ -12,7 +12,7 @@ pdf: OFR-Oct-Dec-2018.pdf
 slug: 2019-01-25-chapter-of-blessing
 ---
 
-On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in L'viv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
+On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in Lviv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
 
 {{< callout pdf="OFR-Oct-Dec-2018.pdf" >}}
 {{< /callout >}}
@@ -81,7 +81,7 @@ See more Fort Worth photos in our Facebook album!
 
 Traveling internationally is always an exhausting venture, especially for a large family. And yet, as we close this chapter of our lives, we cannot help but marvel at the blessings that were showered upon us. To all of you who housed us, fed us, and gave of yourselves to bless us in many other ways, we would like to extend our sincerest thanks. You were the reason we came, and because of your kindness, we feel refreshed and encouraged as we open a new chapter here on the mission field.
 
-{{< figure src="OFReport/2019-01-25-chapter-of-blessing/church-lviv_kgluj7.jpg" caption="After returning to Ukraine, it was wonderful to be reunited with our church family in L'viv!" >}}
+{{< figure src="OFReport/2019-01-25-chapter-of-blessing/church-lviv_kgluj7.jpg" caption="After returning to Ukraine, it was wonderful to be reunited with our church family in Lviv!" >}}
 
 {{< callout >}}
 See more Ukraine photos in our Facebook album!

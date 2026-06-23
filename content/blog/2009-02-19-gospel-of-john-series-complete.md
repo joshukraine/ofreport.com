@@ -29,7 +29,7 @@ The following is an overview of the ABS schedule for the next couple of months.
 * 4/21 - Romans 3 (taught by Joshua)
 * 4/28 - The Deity of Christ (taught by Jessie)
 
-Even as I write this post, our team is working on another large mailout to notify our CBC students of the upcoming schedule for ABS. All of our L'viv-based students (over 230 altogether) will receive a letter including the schedule above. It is our hope that this will serve to generate more interest in our weekly Bible studies. As always, we appreciate your continued prayers for this ministry. Remember: ABS meets every week at 11:00am CST. God bless you for interceding for those who are hearing the Word of God. Pray that the Lord would open their hearts. *"So then faith cometh by hearing, and hearing by the Word of God." (Rom. 10:17)*
+Even as I write this post, our team is working on another large mailout to notify our CBC students of the upcoming schedule for ABS. All of our Lviv-based students (over 230 altogether) will receive a letter including the schedule above. It is our hope that this will serve to generate more interest in our weekly Bible studies. As always, we appreciate your continued prayers for this ministry. Remember: ABS meets every week at 11:00am CST. God bless you for interceding for those who are hearing the Word of God. Pray that the Lord would open their hearts. *"So then faith cometh by hearing, and hearing by the Word of God." (Rom. 10:17)*
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4997.jpg" caption="Denise Hutchison and Bryan Shufelt print addresses for our upcoming ABS mailout." >}}
 

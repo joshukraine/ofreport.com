@@ -12,7 +12,7 @@ The following is copied from an email which I sent out yesterday to a small grou
 
 ## Email, May 8, 2012
 
-Today Kelsie and I went for a routine ultrasound to our clinic here in L'viv, hoping to find out the gender of our baby. Instead, we were shocked to learn that the baby has cystic hygroma (also known as lymphatic malformation), a severe genetic disorder which, depending on the cause, is often fatal. In our case, it is probable that this condition resulted from chromosomal abnormalities which were in motion from the start of the pregnancy.
+Today Kelsie and I went for a routine ultrasound to our clinic here in Lviv, hoping to find out the gender of our baby. Instead, we were shocked to learn that the baby has cystic hygroma (also known as lymphatic malformation), a severe genetic disorder which, depending on the cause, is often fatal. In our case, it is probable that this condition resulted from chromosomal abnormalities which were in motion from the start of the pregnancy.
 
 We saw two different sonographers today, and then went to a consultation with a genetic specialist who explained the situation more fully and gave us an official diagnosis. Outside of a direct miracle from God, there is no chance that our baby will live to term. Right now, the geneticist's best guess was that we have about a month. The swelling and deformity of the body is extensive, and already vital signs are weakening.
 

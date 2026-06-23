@@ -29,7 +29,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-11484125"></div><script src="https://www.buzzsprout.com/1953515/11484125-voices-from-ukraine-yura-petriv.js?container_id=buzzsprout-player-11484125&player=small" type="text/javascript" charset="utf-8"></script>
 
-{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/lviv-in-darkness_b7ktme" caption="L’viv in darkness after Russian missiles damage critical infrastructure on October 10, 2022." >}}
+{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/lviv-in-darkness_b7ktme" caption="Lviv in darkness after Russian missiles damage critical infrastructure on October 10, 2022." >}}
 
 ## How You Can Pray
 
@@ -70,7 +70,7 @@ full amount of your gift.
 Keep scrolling for more photos! First up, a few photos from the _Good and Evil_ delivery...
 {{< /callout >}}
 
-{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/good-and-evil-unloading_ddnl7z" caption="On September 23, 15,000 copies of _Good and Evil_ were finally delivered to a storage facility just outside of L’viv." >}}
+{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/good-and-evil-unloading_ddnl7z" caption="On September 23, 15,000 copies of _Good and Evil_ were finally delivered to a storage facility just outside of Lviv." >}}
 
 {{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/good-and-evil-storage_kfshna" caption="We are very grateful to Vladyslav Medyakovsky (a pastor from our church) for his invaluable assistance in coordinating the logistics of the delivery and unloading. We are also very grateful to the [Hebron IT Academy](https://hebron-academy.com/) for allowing us to store the books at their facility free of charge." >}}
 
@@ -86,7 +86,7 @@ Yura and his two boys...
 
 {{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/matviy-sleeping-car_pjsbvw" caption="Matviy, like so many of us, slept in the car during the evacuation." >}}
 
-{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/yura-boys-car_gdicm0" caption="A couple of months ago, the boys were able to make a visit back to L’viv to be temporarily reunited with their dad." >}}
+{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/yura-boys-car_gdicm0" caption="A couple of months ago, the boys were able to make a visit back to Lviv to be temporarily reunited with their dad." >}}
 
 {{< callout >}}
 Humanitarian aid outreach in cooperation with Radekhivski Hospodyni...
@@ -110,7 +110,7 @@ Humanitarian aid outreach in cooperation with Radekhivski Hospodyni...
 
 {{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/olekciy-wet-wipes_tzothg" caption="Oleksiy is a man from our church who now serves in the Ukrainian army. Yura was recently able to acquire a supply of wet wipes for Oleksiy and his fellow soldiers." >}}
 
-{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/yura-roman-van-radekhiv_nlphex" caption="Yura and pastor Roman (from our church in L’viv) transport supplies out to Radekhiv." >}}
+{{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/yura-roman-van-radekhiv_nlphex" caption="Yura and pastor Roman (from our church in Lviv) transport supplies out to Radekhiv." >}}
 
 {{< figure src="OFReport/2022-10-12-voices-from-ukraine-yura-petriv/tourniquets_qoui6i" caption="Tourniquets are always in short supply. This is a batch we recently purchased with Yura for soldiers in hot zones." >}}
 

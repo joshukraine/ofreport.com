@@ -88,25 +88,25 @@ and Evil_ books continue to come in. We’re grateful for Tanya Herasimova, who 
 helping to oversee the G&E distribution project and our Ukrainian _Bible First_
 students.
 
-{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/hryhoriy-van-books_i7wyt4" caption="Yura Petriv continues to use the yellow van to transport _Good and Evil_ books. He is often assisted by Hryhoriy (pictured) who is the father of the Ukrainian family currently living in our house in L’viv." >}}
+{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/hryhoriy-van-books_i7wyt4" caption="Yura Petriv continues to use the yellow van to transport _Good and Evil_ books. He is often assisted by Hryhoriy (pictured) who is the father of the Ukrainian family currently living in our house in Lviv." >}}
 
 {{< figure src="OFReport/2023-03-12-an-invitation-to-africa/yura-van-radekhiv_zevxta" caption="Yura also uses the van to transport humanitarian aid to organizations like the one we’ve often highlighted in Radekhiv." >}}
 
-## Trips to L’viv
+## Trips to Lviv
 
-Joshua and I were invited to L’viv to teach a marriage retreat in February, but
+Joshua and I were invited to Lviv to teach a marriage retreat in February, but
 unfortunately, that had to be postponed due to concerns with the war. However,
-our whole family is planning to visit L’viv in about a week! While we are there,
+our whole family is planning to visit Lviv in about a week! While we are there,
 Joshua and I will be submitting applications for our residency to be renewed, as
 we do each year.
 
 It’s probable we will need to make trips to Ukraine in April and perhaps in May.
 We feel like the time may also be drawing near for us to return there
 permanently. The electricity crisis has stabilized, and from everything we know,
-living in L’viv does not pose a significant threat to the safety of our family.
+living in Lviv does not pose a significant threat to the safety of our family.
 We are praying for God to give us clear guidance in this decision.
 
-{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/josh-kelsie-lviv_wtfwql" caption="Josh and I after getting our residency permits in L’viv last year." >}}
+{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/josh-kelsie-lviv_wtfwql" caption="Josh and I after getting our residency permits in Lviv last year." >}}
 
 ## How You Can Pray
 
@@ -137,7 +137,7 @@ Keep scrolling for more photos of our life and ministry in Eastern Europe...
 
 {{< figure src="OFReport/2023-03-12-an-invitation-to-africa/mia-daddy-date_yc1pgl" caption="Mia and Daddy enjoy a fun date at McDonald’s in Žilina. 😋" >}}
 
-{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/gg-music-group_afiimu" caption="Abby and Joshua with the L’viv music group at Christmas." >}}
+{{< figure src="OFReport/2023-03-12-an-invitation-to-africa/gg-music-group_afiimu" caption="Abby and Joshua with the Lviv music group at Christmas." >}}
 
 {{< figure src="OFReport/2023-03-12-an-invitation-to-africa/joshua-parents-airport_amhiby" caption="Though it was a quick trip Stateside, Joshua really enjoyed the time with his family." >}}
 

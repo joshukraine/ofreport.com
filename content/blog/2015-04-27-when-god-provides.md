@@ -2,23 +2,23 @@
 title: When God Provides
 date: '2015-04-27'
 author: Joshua Steele
-description: 'When we arrived back in L’viv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.'
+description: 'When we arrived back in Lviv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.'
 tags:
 - newsletter
 - family
 - cmo
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1573558057/OFReport/2015-04-27-when-god-provides/steele-family-spring-20151-12-6_ia9gcd.jpg
-caption: After nearly seven years living in a 775 square foot apartment, God has graciously provided the Steeles with more living space! We’d like to share with you the story of how God recently led our growing family to a new home in L’viv.
+caption: After nearly seven years living in a 775 square foot apartment, God has graciously provided the Steeles with more living space! We’d like to share with you the story of how God recently led our growing family to a new home in Lviv.
 pdf: OFR-Mar-Apr-2015.pdf
 slug: 2015-04-27-when-god-provides
 ---
 
-When we arrived back in L’viv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.
+When we arrived back in Lviv on February 20, we had one item on our to-do list that overshadowed all the others: find a bigger place to live. Our little apartment on Tychyny St. had been a wonderful home, and was itself a God-send back in 2008 when we found it. But after Kathryn was born late last year, Kelsie and I knew that it was time for a change of address.
 
 {{< callout pdf="OFR-Mar-Apr-2015.pdf" >}}
 {{< /callout >}}
 
-For those of you who’ve never lived in L’viv, the idea of moving to a flat with a bit more space might seem straightforward. Sadly, it’s not. While one and two bedroom apartments are relatively easy to find (assuming you’re not picky about their condition) larger apartments are much rarer. Finding a home for an American family of six that was in decent shape, located near the city, and reasonably priced, threatened to be a daunting task indeed, and one that could stretch out for weeks or even months.
+For those of you who’ve never lived in Lviv, the idea of moving to a flat with a bit more space might seem straightforward. Sadly, it’s not. While one and two bedroom apartments are relatively easy to find (assuming you’re not picky about their condition) larger apartments are much rarer. Finding a home for an American family of six that was in decent shape, located near the city, and reasonably priced, threatened to be a daunting task indeed, and one that could stretch out for weeks or even months.
 
 Yet nothing is impossible with God. As we have experienced time and again, God loves to lead His children to green pastures, providing for their needs at just the right time in ways that often astound.
 

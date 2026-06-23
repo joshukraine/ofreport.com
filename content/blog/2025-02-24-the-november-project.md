@@ -36,7 +36,7 @@ energy and boldness. Soon, I had him on the phone, and we began planning.
 Ben departed for Krakow, Poland, on November 1, but due to flight complications,
 he didn’t arrive until late Sunday night, November 3. We met at a local hotel,
 and the following morning, we drove to Ukraine as quickly as possible. We
-stopped in L’viv to pack gear and pick up Nathan Day, then hit the road again.
+stopped in Lviv to pack gear and pick up Nathan Day, then hit the road again.
 
 Our next destination was Zhytomyr, where Oleksandr lives and pastors a small
 church. He had arranged for us to load the van with supplies before heading
@@ -155,7 +155,7 @@ Keep scrolling for more photos and video from the trip!
 
 {{< figure src="OFReport/2025-02-24-the-november-project/good-evil-books-crowd-1_ahkt1r" caption="The crowd in Zhytomyr received some of the very last copies of _Good and Evil_ that we had. What a beautiful scene!" >}}
 
-{{< figure src="OFReport/2025-02-24-the-november-project/nathan-preaching-church-zhytomyr_qeydeb" caption="The last day before we returned to L'viv, we attended Oleksandr's church. Each of us gave a short message to the congregation. [See video clip](https://youtu.be/Fgnrqqw8wfI)" >}}
+{{< figure src="OFReport/2025-02-24-the-november-project/nathan-preaching-church-zhytomyr_qeydeb" caption="The last day before we returned to Lviv, we attended Oleksandr's church. Each of us gave a short message to the congregation. [See video clip](https://youtu.be/Fgnrqqw8wfI)" >}}
 
 {{< figure src="OFReport/2025-02-24-the-november-project/oleksandr-church-team_zhjvvv" caption="Oleksandr's team of helpers at the church in Zhytomyr" >}}
 

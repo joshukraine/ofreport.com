@@ -81,7 +81,7 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/nastia-first-project_fextv1.jpg" caption="Nastia completed her first Scripture memory project! Romans 15:1-4" >}}
 
-{{< figure src="OFReport/2019-06-07-calm-before-the-storm/verdict-cover_blffen.jpg" caption="Last year during CMO, we met so many English speakers in L'viv, that we decided to do a small run of English tracts for this year's project. This is a tract I wrote several years ago." >}}
+{{< figure src="OFReport/2019-06-07-calm-before-the-storm/verdict-cover_blffen.jpg" caption="Last year during CMO, we met so many English speakers in Lviv, that we decided to do a small run of English tracts for this year's project. This is a tract I wrote several years ago." >}}
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/verdict-open-front_h5taq7.jpg" caption="Side A..." >}}
 

@@ -64,8 +64,8 @@ But actually, going back to the States was the last thing we wanted to do.
 
 We left Ukraine out of concern for the safety of our children, and yet we longed
 to remain as close as possible. Maybe we could help refugees in Eastern Europe?
-Maybe we could make trips back to L’viv from time to time? And maybe... maybe
-one day we could go back home. Not back to America — back home. To L’viv.
+Maybe we could make trips back to Lviv from time to time? And maybe... maybe
+one day we could go back home. Not back to America — back home. To Lviv.
 
 I know that sentiment may be hard to understand, given that we _are_ Americans.
 We do dearly love our homes and friends in the U.S., and we are proud to be

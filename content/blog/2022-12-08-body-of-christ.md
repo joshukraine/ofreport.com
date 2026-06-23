@@ -185,8 +185,8 @@ A few snapshots from my recent trip to Ukraine...
 
 {{< figure src="OFReport/2022-12-08-body-of-christ/kelsie-joshua-map_efqqzi" caption="I try not to be this far from Kelsie if I can help it. But it always reminds us how blessed we are to be together — something missed by so many Ukrainian families right now." >}}
 
-{{< figure src="OFReport/2022-12-08-body-of-christ/entering-lviv_ttxjrz" caption="After many hours of driving, I was thrilled to see the “L’viv Welcomes You!” sign. So good to be back!" >}}
+{{< figure src="OFReport/2022-12-08-body-of-christ/entering-lviv_ttxjrz" caption="After many hours of driving, I was thrilled to see the “Lviv Welcomes You!” sign. So good to be back!" >}}
 
 {{< figure src="OFReport/2022-12-08-body-of-christ/gg-church-prayer-yura_muv7ft" caption="During the Sunday I spent at our church, we were blessed to have Yura Chuhay (bearded guy to my right) back from the front lines. He is stationed in the east in a very hot zone. We pray for his safety and a swift end to this terrible war." >}}
 
-{{< figure src="OFReport/2022-12-08-body-of-christ/gg-church-selfie_lv3o7l" caption="It was so good to be back with our home congregation in L’viv. I love these folks! 💙💛" >}}
+{{< figure src="OFReport/2022-12-08-body-of-christ/gg-church-selfie_lv3o7l" caption="It was so good to be back with our home congregation in Lviv. I love these folks! 💙💛" >}}

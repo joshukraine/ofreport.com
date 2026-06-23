@@ -8,7 +8,7 @@ tags:
 - ministry
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1573571847/OFReport/2017-08-12-a-chance-to-give-back/mom-seminar-group-12-6_h8v4dn.jpg
-caption: Recently, Kelsie was asked to speak at a two-day family seminar here in L’viv. She was joined by Katelin Day, and together they delivered a series of talks aimed at encouraging and equipping young mothers. This is Kelsie’s report of the event in her own words.
+caption: Recently, Kelsie was asked to speak at a two-day family seminar here in Lviv. She was joined by Katelin Day, and together they delivered a series of talks aimed at encouraging and equipping young mothers. This is Kelsie’s report of the event in her own words.
 pdf: OFR-Jul-Aug-2017.pdf
 slug: 2017-08-12-a-chance-to-give-back
 ---

@@ -2,21 +2,21 @@
 title: Loving Ukraine
 date: '2023-10-19'
 author: Joshua Steele
-description: We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of this chapter, we’re glad that our journey has brought us home to L’viv! Ukraine remains free, but the war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
+description: We’re back with more news from our family and ministry in Ukraine, but also an important announcement. This will be the final episode of the Journey to Ukraine podcast. While we are sad to have reached the end of this chapter, we’re glad that our journey has brought us home to Lviv! Ukraine remains free, but the war is not over, and there are new challenges ahead. Please join us for this special episode as we share what’s next for the Steele family in Ukraine!
 tags:
 - podcast
 - ukraine
 - ministry
 - family
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1697737974/OFReport/2023-10-19-loving-ukraine/hospital-concert-outside_jssam2.jpg
-caption: On a hot day in August, our family and the CMO team gathered at a hospital for wounded Ukrainian soldiers in L’viv. We went room to room, singing Ukrainian songs and sharing the Gospel.
+caption: On a hot day in August, our family and the CMO team gathered at a hospital for wounded Ukrainian soldiers in Lviv. We went room to room, singing Ukrainian songs and sharing the Gospel.
 slug: 2023-10-19-loving-ukraine
 ---
 
 We’re back with more news from our family and ministry in Ukraine, but also an
 important announcement. This will be the final episode of the Journey to Ukraine
 podcast. While we are sad to have reached the end of this chapter, we’re glad
-that our journey has brought us home to L’viv! Ukraine remains free, but the war
+that our journey has brought us home to Lviv! Ukraine remains free, but the war
 is not over, and there are new challenges ahead. Please join us for this special
 episode as we share what’s next for the Steele family in Ukraine!
 
@@ -85,9 +85,9 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2023-10-19-loving-ukraine/zilina-steeles-horyoviis_gldruj" caption="During a recent visit to Slovakia, it was great to see our Ukrainian friends the Horyovii family!" >}}
 
-{{< figure src="OFReport/2023-10-19-loving-ukraine/church-kids-prayer_xfa340" caption="Prayer for the kids at our church in L’viv" >}}
+{{< figure src="OFReport/2023-10-19-loving-ukraine/church-kids-prayer_xfa340" caption="Prayer for the kids at our church in Lviv" >}}
 
-{{< figure src="OFReport/2023-10-19-loving-ukraine/abbie-last-sunday_pazyln" caption="This was Abigail’s last Sunday in L’viv before she left for the US." >}}
+{{< figure src="OFReport/2023-10-19-loving-ukraine/abbie-last-sunday_pazyln" caption="This was Abigail’s last Sunday in Lviv before she left for the US." >}}
 
 {{< figure src="OFReport/2023-10-19-loving-ukraine/daddy-mia-shopping-cart_irfxax" caption="Daddy and Mia cruising through the local hardware store!" >}}
 

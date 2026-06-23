@@ -37,7 +37,7 @@ Ukrainians in Eastern Europe.
 
 ## How You Can Pray
 
-- Praise the Lord for bringing us safely back to our home in L’viv, Ukraine!
+- Praise the Lord for bringing us safely back to our home in Lviv, Ukraine!
 - Pray for our upcoming outreaches this summer during CMO.
 - Pray for safe travel and fruitful for ministry for the CMO team, including
   Nathan Day and Bill Thompson.
@@ -55,7 +55,7 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2023-07-27-destination/dinner-in-zilina_rbop4n" caption="As Abbie and I were finishing our final details in Žilina, our Ukrainian friends invited us for dinner. We miss them!" >}}
 
-{{< figure src="OFReport/2023-07-27-destination/church-crew_iyyn3g" caption="What a blessing to be met at our house by such a great crew from our church in L’viv! Thanks to their help, we got the vans unloaded in record time." >}}
+{{< figure src="OFReport/2023-07-27-destination/church-crew_iyyn3g" caption="What a blessing to be met at our house by such a great crew from our church in Lviv! Thanks to their help, we got the vans unloaded in record time." >}}
 
 {{< figure src="OFReport/2023-07-27-destination/hall-shelter_bgqyc3" caption="During the air-raid sirens this week, our family sheltered in our central hallway." >}}
 

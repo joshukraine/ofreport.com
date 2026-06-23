@@ -2,7 +2,7 @@
 title: Sirens and Shelters
 date: '2022-02-25'
 author: Joshua Steele
-description: Russia’s invasion of Ukraine continues into its second day. This morning, we woke up to air raid sirens in L’viv. Please listen to the audio clip below for our latest update. As always, we greatly appreciate your concern and prayers for our family and for Ukraine during this time.
+description: Russia’s invasion of Ukraine continues into its second day. This morning, we woke up to air raid sirens in Lviv. Please listen to the audio clip below for our latest update. As always, we greatly appreciate your concern and prayers for our family and for Ukraine during this time.
 tags:
 - ukraine
 - podcast
@@ -14,7 +14,7 @@ slug: 2022-02-25-sirens-and-shelters
 ---
 
 Russia’s invasion of Ukraine continues into its second day. This morning, we
-woke up to air raid sirens in L’viv. Please listen to the audio clip below for
+woke up to air raid sirens in Lviv. Please listen to the audio clip below for
 our latest update. As always, we greatly appreciate your concern and prayers for
 our family and for Ukraine during this time.
 

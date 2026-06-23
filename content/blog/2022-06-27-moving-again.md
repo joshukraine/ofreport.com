@@ -90,6 +90,6 @@ Keep scrolling for more photos!
 
 {{< figure src="OFReport/2022-06-27-moving-again/soldiers-shoes_pwuhsj" caption="The soldiers who received the shoes were very grateful! The lack of supplies of all kinds remains a major problem for frontline units, and we are excited to be able to contribute (and facilitate the contributions of others) where we can." >}}
 
-{{< figure src="OFReport/2022-06-27-moving-again/gg-church-air-raid_tl2pfz" caption="Last Sunday, our church in L’viv had to move their morning service to the cafe in the basement due to an air raid." >}}
+{{< figure src="OFReport/2022-06-27-moving-again/gg-church-air-raid_tl2pfz" caption="Last Sunday, our church in Lviv had to move their morning service to the cafe in the basement due to an air raid." >}}
 
 {{< figure src="OFReport/2022-06-27-moving-again/mom-hosanna_pavofi" caption="Mom and Hosanna — God is good!" >}}

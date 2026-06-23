@@ -1,19 +1,19 @@
 ---
-title: L'viv Rope Course
+title: Lviv Rope Course
 date: '2017-06-29'
 author: Joshua Steele
-description: Last Sunday, I took all the kids from our Bible First class to a rope course here in L’viv. We had a fun time and thought you might enjoy seeing some pictures.
+description: Last Sunday, I took all the kids from our Bible First class to a rope course here in Lviv. We had a fun time and thought you might enjoy seeing some pictures.
 tags:
 - ministry
 - photos
 - video
 - bible first
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1573400861/OFReport/2017-06-29-lviv-rope-course/rope-course-12-6_xxdjsy.jpg
-caption: L'viv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!
+caption: Lviv has recently gained some nice outdoor attractions, including a rope course. Check out this collection of photos from our weekend excursion!
 slug: 2017-06-29-lviv-rope-course
 ---
 
-Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in L'viv. We had a fun time and thought you might enjoy seeing some pictures.
+Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in Lviv. We had a fun time and thought you might enjoy seeing some pictures.
 
 Please keep praying for our class. We're approaching the end of [Lesson 2](https://getbiblefirst.com/lessons/lesson2/) in Bible First. The kids are learning a lot, and I'm very grateful for the opportunity we have to study this material together.
 
@@ -33,7 +33,7 @@ Please keep praying for our class. We're approaching the end of [Lesson 2](https
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-02-2000w.jpg" caption="Crossing to the finish" >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-10-2000w.jpg" caption="Here's one for the refrigerator! Please remember to pray for our Bible First Kids in L'viv. Clockwise from the back row: Timothy, Joshua, Lisa, Danylo, Pastor Vladyslav, Anya, Maria, Anya, Akim, Anya, Mark, Stas, Matthew, Tolik. Yeah, we have a lot of Anya's in our group! ;)" >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-10-2000w.jpg" caption="Here's one for the refrigerator! Please remember to pray for our Bible First Kids in Lviv. Clockwise from the back row: Timothy, Joshua, Lisa, Danylo, Pastor Vladyslav, Anya, Maria, Anya, Akim, Anya, Mark, Stas, Matthew, Tolik. Yeah, we have a lot of Anya's in our group! ;)" >}}
 
 ## The Grand Finale
 

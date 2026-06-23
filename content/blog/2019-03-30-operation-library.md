@@ -23,7 +23,7 @@ Shortly after our return from America, one of the teachers in the Christian scho
 
 As I began preparing materials for my talk, it occurred to me that I should bring along a few copies of our new color edition of _Good and Evil_ to donate to the library. Wouldn't it be great if local kids discovered _Good and Evil_ on the shelves and began to read the stories of the Bible? This thought then led to another: what if we could put copies of _Good and Evil_ in more libraries?
 
-A few days later, my friend Serhii Chepara stopped by our house. I met Serhii back in 2004, shortly after Kelsie and I were married, and in the early days he would come to our home regularly for Bible studies. Today he has a family of his own, and he is active in preaching and teaching in his local church here in L'viv.
+A few days later, my friend Serhii Chepara stopped by our house. I met Serhii back in 2004, shortly after Kelsie and I were married, and in the early days he would come to our home regularly for Bible studies. Today he has a family of his own, and he is active in preaching and teaching in his local church here in Lviv.
 
 Now, as we stood chatting in the entryway, I decided to share my library idea with Serhii. I told him about the upcoming event with the kids from the school, and about my plan to donate copies of _Good and Evil_ to the library. "What if we could donate these books to other Ukrainian libraries?", I suggested. "It seems to me that we could reach a lot of people that way. What do you think?"
 
@@ -83,7 +83,7 @@ The following are a few of the photos we've received so far from people who have
 
 ## Family Photos
 
-And finally, a few more photos from our life here in L'viv...
+And finally, a few more photos from our life here in Lviv...
 
 {{< figure src="OFReport/2019-03-30-operation-library/denise-airport_zfzhp5.jpg" caption="Denise Hutchison recently returned from a trip to the U.S. Everyone was glad to have her back!" >}}
 
@@ -99,7 +99,7 @@ And finally, a few more photos from our life here in L'viv...
 
 {{< figure src="OFReport/2019-03-30-operation-library/first-baby-pics_iqzork.jpg" caption="The kids gather around Mom to see our first ultrasound pictures of the new baby girl!" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/welcome-home-days_dpgndd.jpg" caption="The Days also traveled to the States, and they returned to L'viv a few weeks ago. So good to have them back!" >}}
+{{< figure src="OFReport/2019-03-30-operation-library/welcome-home-days_dpgndd.jpg" caption="The Days also traveled to the States, and they returned to Lviv a few weeks ago. So good to have them back!" >}}
 
 {{< figure src="OFReport/2019-03-30-operation-library/jonathan-and-the-beard_zjbqej.jpg" caption="The first time I picked up Jonathan, the Days' newest little guy, I thought he might be afraid of me. On the contrary, he immediately grabbed my beard with both hands! 😆" >}}
 
@@ -117,6 +117,6 @@ And finally, a few more photos from our life here in L'viv...
 
 {{< figure src="OFReport/2019-03-30-operation-library/ark-story-04-3000w_anxmb2.jpg" caption="After the story, we all went over to the local library where the kids did a puppet show about Noah's Ark. We also donated a few copies of Good and Evil while we were there!" >}}
 
-{{< figure src="OFReport/2019-03-30-operation-library/escape-room_ko8ria.jpg" caption="Denise is now in a relationship with Mike Ireland (second from the left), who has also been a missionary to Ukraine for many years. He visited our team in L'viv, and we had a good time at a local pirates-themed escape room! We are excited for Denise and Mike, and for the future God has for them." >}}
+{{< figure src="OFReport/2019-03-30-operation-library/escape-room_ko8ria.jpg" caption="Denise is now in a relationship with Mike Ireland (second from the left), who has also been a missionary to Ukraine for many years. He visited our team in Lviv, and we had a good time at a local pirates-themed escape room! We are excited for Denise and Mike, and for the future God has for them." >}}
 
 {{< figure src="OFReport/2019-03-30-operation-library/voznyuks-moving-day_gqh4pf.jpg" caption="Abby and her good friend, Anya Voznyuk. The Voznyuk's recently moved to a new apartment, and Abby and I got to help!" >}}

@@ -2,7 +2,7 @@
 title: Vision To Reality
 date: '2018-09-30'
 author: Joshua Steele
-description: For some of our readers, the completion of Good and Evil in Ukrainian may already be old news. 5,000 books were delivered to our office in L’viv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. (You can read that here.) But as you may have guessed, there is more to tell.
+description: For some of our readers, the completion of Good and Evil in Ukrainian may already be old news. 5,000 books were delivered to our office in Lviv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. (You can read that here.) But as you may have guessed, there is more to tell.
 tags:
 - newsletter
 - good-and-evil
@@ -14,7 +14,7 @@ pdf: OFR-Aug-Sep-2018.pdf
 slug: 2018-09-30-vision-to-reality
 ---
 
-For some of our readers, the completion of *Good and Evil* in Ukrainian may already be old news. 5,000 books were delivered to our office in L'viv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/)) But as you may have guessed, there is more to tell.
+For some of our readers, the completion of *Good and Evil* in Ukrainian may already be old news. 5,000 books were delivered to our office in Lviv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/)) But as you may have guessed, there is more to tell.
 
 {{< callout pdf="OFR-Aug-Sep-2018.pdf" >}}
 {{< /callout >}}
@@ -59,9 +59,9 @@ After taking a season off in 2017, CMO came back with a bang in 2018! There's a 
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/cmo-2018-showing_eg2uwl.jpg" caption="People from the village of Bystrytsya-Hirska view the film this summer during CMO." >}}
 
-{{< figure src="OFReport/2018-09-30-vision-to-reality/beka-abby-tracts_ydv5ws.jpg" caption="Abby and Rebekah came out with us several times to pass out tracts in L'viv. How can you say no to those charming smiles?" >}}
+{{< figure src="OFReport/2018-09-30-vision-to-reality/beka-abby-tracts_ydv5ws.jpg" caption="Abby and Rebekah came out with us several times to pass out tracts in Lviv. How can you say no to those charming smiles?" >}}
 
-{{< figure src="OFReport/2018-09-30-vision-to-reality/ben-preaching-lviv_rdw6i1.jpg" caption="Ben Sargent preaches the Gospel during one of our chalk art presentations in L'viv this summer." >}}
+{{< figure src="OFReport/2018-09-30-vision-to-reality/ben-preaching-lviv_rdw6i1.jpg" caption="Ben Sargent preaches the Gospel during one of our chalk art presentations in Lviv this summer." >}}
 
 ## How You Can Pray
 

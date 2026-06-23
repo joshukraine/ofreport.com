@@ -2,7 +2,7 @@
 title: 'Back from Ukraine: My Impressions'
 date: '2022-12-21'
 author: Joshua Steele
-description: 'I went to Ukraine and made it back in one piece! It was my first time there in six months. In this episode, I share my impressions from several days spent in L’viv as well as a possible answer to that looming question: “Can we return to Ukraine?”'
+description: 'I went to Ukraine and made it back in one piece! It was my first time there in six months. In this episode, I share my impressions from several days spent in Lviv as well as a possible answer to that looming question: “Can we return to Ukraine?”'
 tags:
 - podcast
 - ukraine
@@ -14,7 +14,7 @@ slug: 2022-12-21-back-from-ukraine-my-impressions
 
 I went to Ukraine and made it back in one piece! It was my first time there in
 six months. In this episode, I share my impressions from several days spent in
-L’viv as well as a possible answer to that looming question: “Can we return to
+Lviv as well as a possible answer to that looming question: “Can we return to
 Ukraine?”
 
 Thank you so much for listening to our podcast! Please
@@ -51,7 +51,7 @@ Keep scrolling for more photos from my trip to Ukraine...
 
 {{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-lyudmila-ihor_kbe6rs" caption="It was great to stop in for a visit with our upstairs neighbors, Lyudmila and Ihor. Lyudmila recently commented to me that they miss the sound of all our little kids “pattering around”. I’ve assured her that we will do our best to make sure she hears them again. 🥰" >}}
 
-{{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-oleksiy-meds_rg7diz" caption="Just before I left L’viv, we got word from Olekciy (right) that their group of soldiers was very low on meds. So on the way to the bus station, Yura and I stopped by a pharmacy and tried to get as much as we could of all the meds he asked for." >}}
+{{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-oleksiy-meds_rg7diz" caption="Just before I left Lviv, we got word from Olekciy (right) that their group of soldiers was very low on meds. So on the way to the bus station, Yura and I stopped by a pharmacy and tried to get as much as we could of all the meds he asked for." >}}
 
 {{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-books-van_ffgddb" caption="Since I left, Yura has already put the yellow van to good use. We’ve been shipping quite a large number of *Good and Evil* books out to churches for their Christmas outreaches." >}}
 

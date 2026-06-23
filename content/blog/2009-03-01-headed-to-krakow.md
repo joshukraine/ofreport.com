@@ -16,6 +16,6 @@ This time, our trip is a little more complicated. My current visa expires in Apr
 
 * Pray that all goes well crossing the border into Poland. I have a new US passport, so this could cause a stir at the border.
 * Pray that I will be granted a new, five-year, multi-entry visa without any problems. Normally, this is a same-day operation. We will be applying for the visa this coming Wednesday.
-* Pray for our children, Abigail and Rebekah, who will be staying in L'viv with friends.
+* Pray for our children, Abigail and Rebekah, who will be staying in Lviv with friends.
 
 We may not be able to upate our blog very much while we're gone, but I'll try to stay up to date on [Twitter](http://twitter.com/joshukraine) as much as possible.

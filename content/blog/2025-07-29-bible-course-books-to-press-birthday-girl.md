@@ -19,7 +19,7 @@ Online web application have been a core part of our ministry for years.
 
 {{< figure src="OFReport/2025-07-29-bible-course-books-to-press-birthday-girl/guys-front_m1dp51" caption="Nathan and Joshua work on upgrades and improvements to the Bible First Online platform." >}}
 
-When L’viv experienced heavy flooding in mid-July, we received this
+When Lviv experienced heavy flooding in mid-July, we received this
 disheartening photo of our storage unit:
 
 {{< figure src="OFReport/2025-07-29-bible-course-books-to-press-birthday-girl/flood_equevu" caption="This is the lot where our storage container –the place we keep literature and ministry gear– is located!" >}}

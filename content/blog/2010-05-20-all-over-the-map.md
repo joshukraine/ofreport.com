@@ -2,7 +2,7 @@
 title: All Over the Map
 date: '2010-05-20'
 author: Joshua Steele
-description: The image below is a picture of the map hanging in our ministry office here in L'viv. Each pin represents a town or village where we have students enrolled studying the Bible. Denise Hutchison recently gathered this info from our student tracking system and set up the map. (Thanks, Denise!) At present, we have 406 students in active enrollment, and with CMO approaching, we're expecting that number to rise!
+description: The image below is a picture of the map hanging in our ministry office here in Lviv. Each pin represents a town or village where we have students enrolled studying the Bible. Denise Hutchison recently gathered this info from our student tracking system and set up the map. (Thanks, Denise!) At present, we have 406 students in active enrollment, and with CMO approaching, we're expecting that number to rise!
 tags:
 - ministry
 - cmo
@@ -10,7 +10,7 @@ pdf: OFR-May-June-2010.pdf
 slug: 2010-05-20-all-over-the-map
 ---
 
-The image below is a picture of the map hanging in our ministry office here in L'viv. Each pin represents a town or village where we have students enrolled studying the Bible. Denise Hutchison recently gathered this info from our student tracking system and set up the map. (Thanks, Denise!) At present, we have 406 students in active enrollment, and with CMO approaching, we're expecting that number to rise!
+The image below is a picture of the map hanging in our ministry office here in Lviv. Each pin represents a town or village where we have students enrolled studying the Bible. Denise Hutchison recently gathered this info from our student tracking system and set up the map. (Thanks, Denise!) At present, we have 406 students in active enrollment, and with CMO approaching, we're expecting that number to rise!
 
 {{< callout pdf="OFR-May-June-2010.pdf" >}}
 {{< /callout >}}
@@ -21,7 +21,7 @@ Here's another interesting statistic from our database. We track how every stude
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/05/lesson-spread-trans.jpg" alt="Fanned-out copies of the Ukrainian Chronological Bible Course lessons, with open pages showing text and illustrations" >}}
 
-Late in last year's CMO project, we visited a town called Chervonograd (Red City), about an hour or so north of L'viv. We passed out several thousand invites for the correspondence course while we were there. As of this writing, we have 47 students in the city of Chervonograd, and 40 of them (85%!) were signed up by friends!
+Late in last year's CMO project, we visited a town called Chervonograd (Red City), about an hour or so north of Lviv. We passed out several thousand invites for the correspondence course while we were there. As of this writing, we have 47 students in the city of Chervonograd, and 40 of them (85%!) were signed up by friends!
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/05/cmo2009_20090730_0082.jpg" caption="Passing out CBC invites in Chervonograd" >}}
 

@@ -2,7 +2,7 @@
 title: Expanding Fronts
 date: '2022-03-25'
 author: Joshua Steele
-description: God is continuing to open doors here in Slovakia, and we are seeing good progress on several fronts. In this episode, we’ll talk about our new apartment, some good relationships that we’ve been building with Ukrainians, an exciting evacuation story from Kharkiv, and Joshua’s upcoming trip back to L’viv. Additionally, we have some good news about a new van!
+description: God is continuing to open doors here in Slovakia, and we are seeing good progress on several fronts. In this episode, we’ll talk about our new apartment, some good relationships that we’ve been building with Ukrainians, an exciting evacuation story from Kharkiv, and Joshua’s upcoming trip back to Lviv. Additionally, we have some good news about a new van!
 tags:
 - ukraine
 - podcast
@@ -15,7 +15,7 @@ slug: 2022-03-25-expanding-fronts
 God is continuing to open doors here in Slovakia, and we are seeing good
 progress on several fronts. In this episode, we’ll talk about our new apartment,
 some good relationships that we’ve been building with Ukrainians, an exciting
-evacuation story from Kharkiv, and Joshua’s upcoming trip back to L’viv.
+evacuation story from Kharkiv, and Joshua’s upcoming trip back to Lviv.
 Additionally, we have some good news about a new van!
 
 Thank you for listening and for praying for our family. We are excited about the
