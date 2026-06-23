@@ -1,7 +1,7 @@
 # Integrations Verification
 
 **Issue:** #179 (launch-readiness epic #150 §4)
-**Last run:** 2026-06-23 — RSS ✅ PASS (incl. Mailchimp render, #180/#181); Netlify Forms detection ✅ (HTML evidence); Mailchimp signup submit + Netlify dashboard round-trip pending Joshua; Umami deferred to cutover.
+**Last run:** 2026-06-23 — RSS ✅ PASS (incl. Mailchimp render, #180/#181); Mailchimp signup ✅ PASS (3 placements, Joshua); Netlify Forms ✅ detected (HTML + dashboard), notification subject + honeypot-reject in progress; Umami deferred to cutover.
 
 A pre-cutover gate for the site's four external integrations. Like the URL-parity (`docs/url-parity/`) and link-check (`docs/link-check.md`) gates, it proves each integration rather than assuming it. **Only two integrations can be fully verified before cutover** — the other two are production-only by design and are confirmed on cutover day (#150 §7 steps 6–7). This doc records the evidence and keeps that boundary explicit.
 
@@ -10,8 +10,8 @@ A pre-cutover gate for the site's four external integrations. Like the URL-parit
 | Integration | When verifiable | Status |
 | --- | --- | --- |
 | **RSS feed** (Phase 9) | Now (preview) | ✅ **PASS** — well-formed, 10 items + `content:encoded`, all 20 image URLs resolve; Mailchimp render confirmed (#180/#181) |
-| **Mailchimp signup forms** (Phase 12) | Now (preview) | ⬜ Pending account-side submit |
-| **Netlify Forms** detection + honeypot (Phase 11) | Now (preview, partial) | 🟡 **Detection confirmed** (HTML evidence); submission + honeypot pending dashboard |
+| **Mailchimp signup forms** (Phase 12) | Now (preview) | ✅ **PASS** — all 3 placements submit to Mailchimp (Joshua) |
+| **Netlify Forms** detection + honeypot (Phase 11) | Now (preview, partial) | ✅ **Detected** (HTML + dashboard); notification subject + honeypot-reject in progress |
 | **Umami analytics** (Phase 14) | Cutover only | ⬜ Deferred — production-gated by design (#150 §7) |
 
 Preview base for all "now" checks: `https://ofreport-dev.netlify.app`
@@ -70,23 +70,17 @@ A real Mailchimp RSS-to-email **test campaign** was sent account-side: the **cov
 
 ---
 
-## 2. Mailchimp signup forms ⬜ Pending
+## 2. Mailchimp signup forms ✅ PASS (Joshua, 2026-06-23)
 
-The embedded forms POST directly to `OFReport.us6.list-manage.com` (`layouts/partials/mailchimp-form.html`) — **independent of the Hugo/Netlify environment**, so a preview submit exercises the real production path. Three placements to verify:
+The embedded forms POST directly to `OFReport.us6.list-manage.com` (`layouts/partials/mailchimp-form.html`) — **independent of the Hugo/Netlify environment**, so a preview submit exercises the real production path. All three placements were exercised:
 
-| Placement | Where |
-| --- | --- |
-| Homepage | `https://ofreport-dev.netlify.app/` |
-| Article footer | any article, e.g. `https://ofreport-dev.netlify.app/blog/2026-05-27-teaching-serving-standing/` |
-| Subscribe page | `https://ofreport-dev.netlify.app/subscribe/` |
+| Placement | Where | Result |
+| --- | --- | --- |
+| Homepage | `https://ofreport-dev.netlify.app/` | ✅ routes to Mailchimp signup |
+| Article footer (every post) | e.g. `https://ofreport-dev.netlify.app/blog/2026-05-27-teaching-serving-standing/` | ✅ routes to Mailchimp signup |
+| Subscribe page | `https://ofreport-dev.netlify.app/subscribe/` | ✅ routes to Mailchimp signup |
 
-### Account-side confirm (Joshua)
-
-- [ ] Submit a real test address from **each** of the three placements.
-- [ ] Confirm each submission lands in the Mailchimp audience (and the double-opt-in email arrives, if enabled).
-- [ ] Note any styling/UX issues with the inline success/error states.
-
-> _Evidence (fill in after testing): which placements tested, test address used, audience confirmation._
+**Evidence (Joshua):** confirmed the signup submits cleanly from all three placements — each reaches the Mailchimp signup/confirmation with no errors. Because the form POSTs straight to `list-manage.com`, this path is identical on the live domain; no cutover re-test needed.
 
 ---
 
@@ -124,17 +118,17 @@ grep -oE "name=['\"]?(form-name|bot-field)" /tmp/contact.html | sort -u
 
 ### Account-side confirm (Joshua) — on the `ofreport-dev` site
 
-Detection is already evidenced above; these confirm the round-trip in the dashboard.
-
-- [ ] Confirm a form named **`contact`** appears under the site's **Forms** tab (Netlify dashboard → `ofreport-dev` → Forms).
+- [x] A form named **`contact`** appears under the site's **Forms** tab (Netlify dashboard → `ofreport-dev` → Forms) — confirmed 2026-06-23, matching the HTML evidence above.
 - [ ] Submit the contact form at `/contact/`; confirm the submission appears under that form.
 - [ ] Submit again with the hidden **`bot-field`** populated (e.g. via devtools) and confirm Netlify drops it as spam (does not appear as a real submission).
 
-> _Evidence (fill in after testing): form appears in Forms tab Y/N, submission captured Y/N, honeypot-filled submit rejected Y/N._
+### Notification subject — set in the form, not the dashboard
+
+The contact form carries a hidden `subject` field (`layouts/partials/contact-form.html`) so the notification email's subject is versioned in the template and identical across preview/production. A form-supplied `subject` **takes precedence** over the dashboard's "Custom email subject line" field — so leave that UI field blank and the form value wins. Only the predefined vars `%{formName}`, `%{siteName}`, `%{submissionId}` interpolate in the subject; submitted fields (name/email) cannot, so it stays static.
 
 ### Deferred to cutover (#150 §7 step 6–7)
 
-- [ ] Set up notification routing on the **production** Netlify site (new — this site has no Forms config today).
+- [ ] Set up the email notification on the **production** Netlify site (the new site starts with no Forms config; the `subject` line carries over automatically via the form field).
 - [ ] After cutover, submit the contact form on `ofreport.com` and confirm routing + spam handling.
 
 ---
