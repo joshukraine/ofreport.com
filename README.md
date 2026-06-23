@@ -68,6 +68,6 @@ The Hugo rebuild is **complete** — OFReport.com went live on the new codebase 
 
 The source code in this repository is licensed under the [MIT License](LICENSE).
 
-Site **content** — blog articles, photographs, and other written material — is Copyright © 2001–2026 Joshua and Kelsie Steele. All rights reserved, and may not be reused without permission.
+Site **content** — blog articles, photographs, and other written material — is copyright © 2001–2026 Joshua and Kelsie Steele. All rights reserved, and may not be reused without permission.
 
 [screenshot]: https://res.cloudinary.com/dnkvsijzu/image/upload/bo_1px_solid_rgb:e2e8f0,c_scale,f_auto,q_auto,w_1000/v1782237895/screenshots/ofreport.com-hugo-2026_vtr69j.png
