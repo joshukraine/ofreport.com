@@ -15,7 +15,7 @@ Over the years, I've corresponded with many young men about ministering in Ukrai
 
 ---
 
-DISCLAIMER: This post is longer than most I write. The technical nature of Ralph's work requires some explanation in order for most readers to understand its true impact. If you have the patience, and you're interested to see how God is using a seventeen-year-old to further His kingdom, I encourage you to read on! If you can't bear the suspense, [click here](#skip-to-conclusion) to jump to the conclusion.
+DISCLAIMER: This post is longer than most I write. The technical nature of Ralph's work requires some explanation in order for most readers to understand its true impact. If you have the patience, and you're interested to see how God is using a seventeen-year-old to further His kingdom, I encourage you to read on! If you can't bear the suspense, [jump to the conclusion](#skip-to-conclusion).
 
 ---
 
