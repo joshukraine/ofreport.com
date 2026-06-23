@@ -23,17 +23,21 @@
       <div class="-mx-4 -mt-4 mb-4">
         {{- /* caption may carry inline markdown/HTML (links, <br>); caption-plain
                reduces it to clean text so no markup leaks into alt. */ -}}
+        {{- /* The featured (first, above-the-fold) card is the page's LCP
+               candidate, so it loads eagerly + high-priority; grid cards below
+               stay lazy. (#184 — improves blog-list LCP/CLS.) */ -}}
         <img
           src="{{ $imgURL }}"
           alt="{{ with $page.Params.caption }}{{ partial "caption-plain.html" . }}{{ end }}"
           class="block w-full"
-          loading="lazy"
+          loading="{{ cond $featured "eager" "lazy" }}"
+          {{ if $featured }}fetchpriority="high"{{ end }}
         >
       </div>
     {{- end }}
 
     <h2 class="mt-0 font-header text-4xl leading-tight font-bold">
-      <a href="{{ $page.RelPermalink }}" class="text-gray-900 hover:text-blue-600">{{ $page.Title }}</a>
+      <a href="{{ $page.RelPermalink }}" class="text-gray-900 hover:text-blue-800">{{ $page.Title }}</a>
     </h2>
 
     <p class="mt-1 text-sm text-gray-500">
@@ -46,7 +50,9 @@
   </div>
 
   <div class="mt-6 flex items-center justify-between border-t border-gray-200 pt-2">
-    <a href="{{ $page.RelPermalink }}" class="text-base text-blue-600 hover:text-blue-800">Read more</a>
+    {{- /* aria-label gives this otherwise-generic "Read more" link descriptive
+           text for screen readers + SEO (the title link above shares the URL). */ -}}
+    <a href="{{ $page.RelPermalink }}" class="text-base text-blue-800 hover:text-blue-900" aria-label="Read more: {{ $page.Title }}">Read more</a>
     {{- with $page.Params.pdf }}
       <a
         href="{{ site.Params.pdfBase }}{{ . }}"

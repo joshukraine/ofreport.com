@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-23 — `assets/css/main.css`, link + tag-pill colors across `layouts/`
+
+**What changed:** Darkened the inline text-link color site-wide from blue-600 (#1992d4) to blue-800 (#0b69a3), with hover deepening to blue-900 — via the prose `--tw-prose-links` token plus the explicit `text-blue-600` link utilities in eight templates (index, subscribe, archives, callout, taxonomy term, pagination, `_default/list`, article-card). Also restyled the two tag-pill variants: article pills (`bg-blue-600` + `opacity-50` + white text → solid `bg-blue-800`, hover `bg-blue-900`) and tags-index pills (`text-blue-700` / `text-blue-700/60` → `text-blue-800`).
+
+**Why:** The Lighthouse pre-cutover audit (#184) flagged the link color at ~3.3:1 and the faded article tag pills at 1.82:1 — both below WCAG AA (4.5:1). The original Nuxt site used the lighter blue-600, and the rebuild reproduced it during the design-parity pass, so this is a deliberate divergence from pixel-parity in favor of accessibility. blue-800 is already the site's button/nav blue, so the palette stays cohesive. Accessibility rose to 100 on all five audited page types.
+
+**Category:** Pivot
+
 ### 2026-06-23 — `layouts/_default/rss.xml`, `hugo.toml`
 
 **What changed:** Hardened the RSS feed for Mailchimp RSS-to-email (issue #180), refining the 2026-06-06 excerpt-only model. Three template changes plus one build-config change: (1) each item now carries a `<content:encoded>` CDATA block — an email-safe cover `<img>` sized by width only (`width="600"` + inline `height:auto`, delivered via the `og` preset's uniform 1200×630 / 1.91:1 fill) followed by the excerpt — while `<description>` stays the plain-text excerpt; (2) `<pubDate>` and `<lastBuildDate>` emit at **noon UTC** (`… 12:00:00 +0000`) instead of the stored midnight-UTC stamp; (3) the `<enclosure>` `type` is derived from the cover's file extension instead of being hardcoded `image/jpeg`; (4) `[minify] disableXML = true` added to `hugo.toml` so production builds preserve the literal `<![CDATA[…]]>` wrapper (the tdewolff XML minifier would otherwise rewrite it as entity-encoded HTML).

@@ -78,13 +78,15 @@
         <span>{{ .ReadingTime }} min read</span>
       </div>
 
-      {{/* Tags — filled blue pills (original), translucent until hover */}}
+      {{/* Tags — filled blue pills. The original faded them (opacity-50 until
+           hover), but white-on-50%-blue was only 1.82:1; solid blue-800 reads at
+           ~5.7:1 (WCAG AA) and deepens to blue-900 on hover (#184). */}}
       {{- with .Params.tags }}
         <div class="mt-4 flex flex-wrap gap-2">
           {{- range . }}
             <a
               href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
-              class="inline-flex items-center rounded-full bg-blue-600 px-3 py-1 text-xs font-bold leading-none text-white opacity-50 transition-opacity hover:opacity-100"
+              class="inline-flex items-center rounded-full bg-blue-800 px-3 py-1 text-xs font-bold leading-none text-white transition-colors hover:bg-blue-900"
             >
               {{- . -}}
             </a>

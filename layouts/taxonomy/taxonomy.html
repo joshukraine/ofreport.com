@@ -13,10 +13,10 @@
       {{- range .Data.Terms.Alphabetical }}
         <a
           href="{{ .Page.RelPermalink }}"
-          class="inline-flex items-center gap-x-2 rounded-full bg-blue-50 px-3 py-1.5 text-sm font-medium text-blue-700 inset-ring inset-ring-blue-700/10 transition-colors hover:bg-blue-100"
+          class="inline-flex items-center gap-x-2 rounded-full bg-blue-50 px-3 py-1.5 text-sm font-medium text-blue-800 inset-ring inset-ring-blue-800/10 transition-colors hover:bg-blue-100"
         >
           {{ .Term }}
-          <span class="text-xs text-blue-700/60">{{ .Count }}</span>
+          <span class="text-xs text-blue-800">{{ .Count }}</span>
         </a>
       {{- end }}
     </div>
