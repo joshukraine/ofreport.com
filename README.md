@@ -6,6 +6,11 @@ ministry work in Ukraine. This is a ground-up rebuild from Nuxt.js 2 to
 
 The site includes 223 blog articles (2008-2026), 5 static pages, and 26 tags.
 
+> [!NOTE]
+> Looking for the previous version? The original **Nuxt.js 2** site lives in
+> [joshukraine/ofreport.com-nuxt](https://github.com/joshukraine/ofreport.com-nuxt)
+> (archived, read-only).
+
 ## Tech Stack
 
 - **Hugo** - Static site generator with Go templates
@@ -42,28 +47,11 @@ data/             # Structured data files (authors, archives)
 docs/             # PRD and project documentation
 ```
 
-## Build Phases
+## Status
 
-Full requirements are in the [`docs/prd/`](docs/prd/) directory (start with [`00-overview.md`](docs/prd/00-overview.md); see [`ROADMAP.md`](docs/prd/ROADMAP.md) for build phases).
+The Hugo rebuild is **complete** — OFReport.com went live on the new codebase in June 2026.
 
-| Phase | Focus | Status |
-|-------|-------|--------|
-| 1 | Project scaffolding & configuration | Done |
-| 2 | Tailwind CSS v4 integration | Done |
-| 3 | Base layout & navigation | Done |
-| 4 | Blog listing with pagination | Up next |
-| 5 | Single article template | - |
-| 6 | Shortcodes | - |
-| 7 | Tag taxonomy | - |
-| 8 | Static pages | - |
-| 9 | RSS feed | - |
-| 10 | SEO & meta tags | - |
-| 11 | Contact form (Netlify Forms) | - |
-| 12 | Newsletter integration | - |
-| 13 | Lightbox integration | - |
-| 14 | Analytics | - |
-| 15 | Content migration | - |
-| 16 | Deployment | - |
+Full requirements and the phase-by-phase build history are in the [`docs/prd/`](docs/prd/) directory (start with [`00-overview.md`](docs/prd/00-overview.md); see [`ROADMAP.md`](docs/prd/ROADMAP.md) for build phases).
 
 ## License
 
