@@ -30,6 +30,14 @@
   {{- /* Netlify matches the POST to the "contact" form via this hidden field. */ -}}
   <input type="hidden" name="form-name" value="contact" />
 
+  {{- /* Netlify uses a field named "subject" as the notification email's
+         subject line, and a form-supplied value takes precedence over the
+         dashboard setting — so the subject lives in version control here, not
+         in per-site UI config. Only the predefined vars %{formName},
+         %{siteName}, %{submissionId} interpolate; submitted fields (name,
+         email) cannot, so this stays static. */ -}}
+  <input type="hidden" name="subject" value="New contact form message — OFReport.com" />
+
   {{- /* Honeypot — hidden from real visitors; bots that fill it are dropped by
          Netlify. Do not remove. */ -}}
   <p class="hidden" aria-hidden="true">
