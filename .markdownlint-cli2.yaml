@@ -15,10 +15,6 @@ ignores:
   - "**/vendor/**"
   - "**/tmux/.config/tmux/plugins/**"
   - "**/.git/**"
-  # Migrated legacy blog prose (2008–2026). Doc-style rules (heading
-  # increment, ordered-list prefixes) are the wrong scope for prose, and the
-  # per-article quality pass is tracked separately (#129).
-  - "content/blog/**"
 
 # markdownlint rule configuration
 # https://github.com/DavidAnson/markdownlint/blob/v0.38.0/schema/.markdownlint.yaml
