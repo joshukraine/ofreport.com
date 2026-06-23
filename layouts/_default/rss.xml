@@ -77,7 +77,9 @@
       {{- end }}
       {{- with $cover }}
       {{- $ext := lower (path.Ext .) }}
-      {{- $type := index (dict ".png" "image/png" ".gif" "image/gif" ".webp" "image/webp" ".avif" "image/avif" ".jpg" "image/jpeg" ".jpeg" "image/jpeg") $ext | default "image/jpeg" }}
+      {{- /* Non-jpeg overrides only; jpeg is the default (also covers .jpg/.jpeg
+             and the extension-less Cloudinary public IDs the newest covers use). */ -}}
+      {{- $type := index (dict ".png" "image/png" ".gif" "image/gif" ".webp" "image/webp" ".avif" "image/avif") $ext | default "image/jpeg" }}
       <enclosure url="{{ partial "cloudinary-url.html" (dict "src" . "preset" "rss") }}" length="0" type="{{ $type }}" />
       {{- end }}
     </item>
