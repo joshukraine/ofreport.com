@@ -23,6 +23,15 @@ enableRobotsTXT = true
 [outputFormats.RSS]
   baseName = "feed"
 
+# Minification. Disable XML so the feed's <content:encoded> keeps its literal
+# <![CDATA[…]]> wrapper (the tdewolff minifier would otherwise rewrite it as
+# entity-encoded HTML). CDATA is the more robustly-interpreted form for HTML
+# inside content:encoded across RSS/Mailchimp consumers. HTML/CSS/JS
+# minification is unaffected; only feed.xml and sitemap.xml ship with
+# whitespace preserved (both still valid; negligible after gzip).
+[minify]
+  disableXML = true
+
 # Site parameters
 [params]
   description = "Joshua and Kelsie Steele — Missionaries serving Christ in Ukraine"
