@@ -2,7 +2,7 @@
 title: Coming To America!
 date: '2018-02-05'
 author: Joshua Steele
-description: When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of L'viv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
+description: When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of Lviv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
 tags:
 - family
 - photos
@@ -11,7 +11,7 @@ caption: Get ready folks! This fall, the Steele clan is coming to the States! Th
 slug: 2018-02-05-coming-to-america
 ---
 
-When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of L'viv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
+When last we departed America, Kathryn was only a few weeks old. She recently turned 3! Meanwhile, David has cleared the one-year mark, and he's never been out of Lviv! Yep — it's been a while, and we're ready to see some friends and family face-to-face.
 
 {{< figure src="OFReport/2018-02-05-coming-to-america/christmas-eve-pajamas_wf8bwt.jpg" caption="The kids are pumped!" >}}
 
@@ -25,7 +25,7 @@ Be sure to read to the end where you'll find our latest collection of family pho
 
 ## Timeframe
 
-We don't yet have our tickets, but our target departure window is **early September of this year**. We plan to stay in the US until around the second week of December, traveling back to L'viv in between the Thanksgiving and Christmas holidays.
+We don't yet have our tickets, but our target departure window is **early September of this year**. We plan to stay in the US until around the second week of December, traveling back to Lviv in between the Thanksgiving and Christmas holidays.
 
 ## The Big East Road Trip
 
@@ -80,6 +80,6 @@ Keep scrolling to see our latest collection of family photos!
 
 {{< figure src="OFReport/2018-02-05-coming-to-america/dinner-with-days-2000w_k4mbvx.jpg" caption="We always enjoy having the Day family over for dinner. In this photo, we have Lydia (left) and her older sister Melissa (center) sharing the table with Hosanna. The grown-ups are in the other room at the boring table. 😉" >}}
 
-{{< figure src="OFReport/2018-02-05-coming-to-america/girls-rope-course-2000w_hhecrs.jpg" caption="Recently we took the kids to an attraction here in L'viv called Kids Planet. One of their favorite activities was the rope course!" >}}
+{{< figure src="OFReport/2018-02-05-coming-to-america/girls-rope-course-2000w_hhecrs.jpg" caption="Recently we took the kids to an attraction here in Lviv called Kids Planet. One of their favorite activities was the rope course!" >}}
 
 {{< figure src="OFReport/2018-02-05-coming-to-america/kelsie-song-book-2000h_u4hd35.jpg" caption="One of our favorite Christmas gifts this year was a set of handmade song books that my mom compiled and sent to us. We love to gather in the living room after dinner and sing together as a family! Thanks, Mom! 😁" >}}

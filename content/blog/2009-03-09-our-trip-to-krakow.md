@@ -14,7 +14,7 @@ To everyone who prayed for our recent trip to Krakow - thank you! It went very w
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5101.jpg" caption="We got one of the locals to snap this shot of us standing in front of Krakow's Florian Gate." >}}
 
-Kels and I had a wonderful time in Krakow as usual. For us, Krakow is a nice place to relax and take some time off from the daily grind of L'viv. Here are a few pictures from our trip. Thanks again for praying!
+Kels and I had a wonderful time in Krakow as usual. For us, Krakow is a nice place to relax and take some time off from the daily grind of Lviv. Here are a few pictures from our trip. Thanks again for praying!
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5043.jpg" caption="Getting to Krakow means about 9 hours on a train. Great time to get some reading done!" >}}
 
@@ -26,7 +26,7 @@ Because the tracks in Ukraine are a different gauge than the rest of Europe, the
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5073.jpg" caption="Of course, we found time to visit our favorite climbing wall in Krakow." >}}
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5086.jpg" caption="The gym in Krakow is much larger and nicer than the one we have in L'viv." >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5086.jpg" caption="The gym in Krakow is much larger and nicer than the one we have in Lviv." >}}
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5098.jpg" caption="Oh, and did we mention that McDonald's in Krakow has sausage-egg-and-cheese biscuits? Glory hallelujah!" >}}
 

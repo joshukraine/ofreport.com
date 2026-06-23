@@ -53,7 +53,7 @@ In the United States, a growing number of people are using Bible First to great 
 
 ## A Cup Overflowing
 
-As we look towards the fall season, our ministry cup is overflowing! Our message is the same as it’s been for years, but now it seems that God is allowing it to reach even more people. In addition to the two projects I’ve mentioned above, I am continuing my weekly Bible study with Oleg, and I also have regular opportunities to preach in our church here in L’viv.
+As we look towards the fall season, our ministry cup is overflowing! Our message is the same as it’s been for years, but now it seems that God is allowing it to reach even more people. In addition to the two projects I’ve mentioned above, I am continuing my weekly Bible study with Oleg, and I also have regular opportunities to preach in our church here in Lviv.
 
 Abigail, Rebekah, and Hosanna are all progressing well in school. Kelsie is a star homeschool mommy and keeps all of us on our toes! Little Kathryn is the sunshine in our lives, toddling all over the house and making new “discoveries” every day.
 

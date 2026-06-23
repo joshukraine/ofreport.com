@@ -31,7 +31,7 @@ Ukrainians in Eastern Europe.
 - Pray for a safe, restful and joyful time for the Chepara family as they spend
   five days together in Odessa.
 - Pray for safety and a successful border crossing as I drive Natallia (Serhii’s
-  wife) and their two children to L’viv on Saturday, December 24.
+  wife) and their two children to Lviv on Saturday, December 24.
 - Pray for Ukraine’s energy infrastructure as millions face a long, cold winter
   with limited access to heat and electricity.
 - Pray for health, wisdom and courage for our family.

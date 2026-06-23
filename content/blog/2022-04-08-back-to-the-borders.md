@@ -2,7 +2,7 @@
 title: Back to the Borders
 date: '2022-04-08'
 author: Joshua Steele
-description: For the first time since our evacuation, Joshua made a trip back into Ukraine to our home in L’viv. Hours before his planned arrival, L’viv was hit by Russian cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She joins us in this episode to share her story! We also have news about a new van for our family, as well as several prayer requests, especially regarding our health.
+description: For the first time since our evacuation, Joshua made a trip back into Ukraine to our home in Lviv. Hours before his planned arrival, Lviv was hit by Russian cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She joins us in this episode to share her story! We also have news about a new van for our family, as well as several prayer requests, especially regarding our health.
 tags:
 - ukraine
 - podcast
@@ -14,7 +14,7 @@ slug: 2022-04-08-back-to-the-borders
 ---
 
 For the first time since our evacuation, Joshua made a trip back into Ukraine to
-our home in L’viv. Hours before his planned arrival, L’viv was hit by Russian
+our home in Lviv. Hours before his planned arrival, Lviv was hit by Russian
 cruise missiles! Meanwhile, our daughter Abigail volunteered for a week with a
 team distributing humanitarian aid to Ukrainian refugees entering Slovakia. She
 joins us in this episode to share her story! We also have news about a new van
@@ -29,7 +29,7 @@ Europe.
 
 ## How You Can Pray
 
-- Pray for our next trip to L’viv this weekend (Joshua and Kelsie only) and for
+- Pray for our next trip to Lviv this weekend (Joshua and Kelsie only) and for
   our Ukrainian residency documents. Also pray for our kids’ wellbeing while
   we’re away.
 - Pray for our new van purchase and delivery to be completed quickly.
@@ -49,7 +49,7 @@ Europe.
 - [Ukraine NOW [English] (Telegram)](https://t.me/ukrainenowenglish)
 - [The Kyiv Independent (Telegram)](https://t.me/KyivIndependent_official)
 - [Ukraine War Report (Telegram)](https://t.me/UkrWarRep)
-- [Air Raid Alerts in L’viv UKR/ENG (Telegram)](https://t.me/dczloda)
+- [Air Raid Alerts in Lviv UKR/ENG (Telegram)](https://t.me/dczloda)
 - [SOF News (sof.news)](https://sof.news/)
 
 {{< callout >}}
@@ -58,7 +58,7 @@ Keep scrolling for more photos from our life in Slovakia!
 
 {{< figure src="OFReport/2022-04-08-back-to-the-borders/reading-to-mia_wuyo30" caption="Evac life is crazy, but that’s all the more reason to read a good story with Dad! 🥰" >}}
 
-{{< figure src="OFReport/2022-04-08-back-to-the-borders/joshua-yura_aehiig" caption="There were so many wonderful reunions in L’viv. This is my good friend Yura Petriv. His kids are abroad and he remains in L’viv." >}}
+{{< figure src="OFReport/2022-04-08-back-to-the-borders/joshua-yura_aehiig" caption="There were so many wonderful reunions in Lviv. This is my good friend Yura Petriv. His kids are abroad and he remains in Lviv." >}}
 
 {{< figure src="OFReport/2022-04-08-back-to-the-borders/refugee-bus_bg8zbn" caption="Abby distributing food on an arriving refugee bus" >}}
 
@@ -70,6 +70,6 @@ Keep scrolling for more photos from our life in Slovakia!
 
 {{< figure src="OFReport/2022-04-08-back-to-the-borders/hosanna-bunkbeds-2_siovra" caption="How fortunate that I have a lovely cowgirl assistant! 🤠" >}}
 
-{{< figure src="OFReport/2022-04-08-back-to-the-borders/oksana-family_bdkfen" caption="Oksana (second from right) is a coworker of one of the pastors in our church. I gave her a ride out of Ukraine to her daughter’s house in Krakow, Poland. It was great to meet their family! I look forward to introducing my own family to them once we’re all back in L’viv." >}}
+{{< figure src="OFReport/2022-04-08-back-to-the-borders/oksana-family_bdkfen" caption="Oksana (second from right) is a coworker of one of the pastors in our church. I gave her a ride out of Ukraine to her daughter’s house in Krakow, Poland. It was great to meet their family! I look forward to introducing my own family to them once we’re all back in Lviv." >}}
 
 {{< figure src="OFReport/2022-04-08-back-to-the-borders/family-picnic_uu3czp" caption="With Dad in Ukraine, Kels and kiddos got out to expore a nearby park in Žilina!" >}}

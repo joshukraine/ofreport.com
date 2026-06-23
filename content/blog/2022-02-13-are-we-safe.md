@@ -22,10 +22,10 @@ article after article on this situation, (English, Ukrainian, and Russian)
 listened to interviews, watched videos, read feedback from military
 professionals, and even read or watched Russian propaganda on the subject. One
 thing that everyone agrees on is that Russia taking all of Ukraine in one fell
-swoop is unrealistic. It is unlikely that L’viv, which is far to the West, would
+swoop is unrealistic. It is unlikely that Lviv, which is far to the West, would
 be attacked. The American Embassy even underscored this by evacuating their
-personnel to L’viv. (Other foreign embassies have done the same.) Various
-American missionaries we know in L’viv all plan to stay, in fact we don’t know
+personnel to Lviv. (Other foreign embassies have done the same.) Various
+American missionaries we know in Lviv all plan to stay, in fact we don’t know
 of anyone in this area who is leaving.
 
 In short, we do not feel that our family is under imminent threat.

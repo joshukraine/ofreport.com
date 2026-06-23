@@ -2,7 +2,7 @@
 title: All Over the Map
 date: '2022-04-20'
 author: Joshua Steele
-description: Evacuation life for our family has proven to be anything but boring! In this episode, we’re excited to share our most recent stories with you, including another trip back into Ukraine, new doors opening for ministry to refugees in Slovakia and Poland, family news, and, sadly, a report on Russia’s latest missile strike in L’viv.
+description: Evacuation life for our family has proven to be anything but boring! In this episode, we’re excited to share our most recent stories with you, including another trip back into Ukraine, new doors opening for ministry to refugees in Slovakia and Poland, family news, and, sadly, a report on Russia’s latest missile strike in Lviv.
 tags:
 - ukraine
 - podcast
@@ -17,7 +17,7 @@ Evacuation life for our family has proven to be anything but boring! In this
 episode, we’re excited to share our most recent stories with you, including
 another trip back into Ukraine, new doors opening for ministry to refugees in
 Slovakia and Poland, family news, and, sadly, a report on Russia’s latest
-missile strike in L’viv.
+missile strike in Lviv.
 
 Thank you so much for listening to our podcast! Please
 [share this episode](https://podcasts.apple.com/us/podcast/journey-to-ukraine/id1613710582)
@@ -28,7 +28,7 @@ Ukrainians in Eastern Europe.
 
 ## How You Can Pray
 
-- Pray for our next trip to L’viv to pick up residency cards. We expect that
+- Pray for our next trip to Lviv to pick up residency cards. We expect that
   some time in early May.
 - Pray for timely and successful completion of the registration process for our
   new van. 🚌
@@ -51,15 +51,15 @@ Ukrainians in Eastern Europe.
 Keep scrolling for more photos from our life in Slovakia!
 {{< /callout >}}
 
-{{< figure src="OFReport/2022-04-20-all-over-the-map/josh-kels-lviv_oqukpe" caption="Spending time with my best girl in my favorite city. We love L’viv! ❤️ 🇺🇦" >}}
+{{< figure src="OFReport/2022-04-20-all-over-the-map/josh-kels-lviv_oqukpe" caption="Spending time with my best girl in my favorite city. We love Lviv! ❤️ 🇺🇦" >}}
 
 {{< figure src="OFReport/2022-04-20-all-over-the-map/tanya-group-poland_sx0zwd" caption="We gave Tanya and her kids a ride out of Ukraine to Krakow, Poland. It was great to get to know them better along the way!" >}}
 
-{{< figure src="OFReport/2022-04-20-all-over-the-map/kelsie-khrystya_odbkvp" caption="While in Krakow, we got to spend some time with our dear friend from L’viv, Khrystya!" >}}
+{{< figure src="OFReport/2022-04-20-all-over-the-map/kelsie-khrystya_odbkvp" caption="While in Krakow, we got to spend some time with our dear friend from Lviv, Khrystya!" >}}
 
 {{< figure src="OFReport/2022-04-20-all-over-the-map/polish-mag-cover_r8ksfu" caption="On our way through Poland, we stopped at a gas station where I snapped a photo of this magazine cover. The title of the magazine (top left) is “Our History”. The main story title (left side under Lenin’s arm) says, “Putin ‘liberated’ Ukraine like Stalin did Poland in 1939.” At the bottom of the cover is the word “Aggressors”." >}}
 
-{{< figure src="OFReport/2022-04-20-all-over-the-map/telegram-thread_pyyith" caption="This is a screen grab from one of our Telegram channels as the missile attack unfolded Monday morning.<br>6:44AM Warning! Air alarm!<br>7:33AM Explosions are heard in L’viv. Stay in the shelters!<br>7:42AM The air alarm is ongoing. Remain in the shelters! [Further instructions]<br>7:48AM Preliminary information indicates 4 missile strikes. Remain in the shelters!<br>7:51AM 5 guided missile strikes in L’viv. The relevant emergency services are responding. We are trying to obtain more detailed information. — Sadoviy (Mayor of L’viv)" >}}
+{{< figure src="OFReport/2022-04-20-all-over-the-map/telegram-thread_pyyith" caption="This is a screen grab from one of our Telegram channels as the missile attack unfolded Monday morning.<br>6:44AM Warning! Air alarm!<br>7:33AM Explosions are heard in Lviv. Stay in the shelters!<br>7:42AM The air alarm is ongoing. Remain in the shelters! [Further instructions]<br>7:48AM Preliminary information indicates 4 missile strikes. Remain in the shelters!<br>7:51AM 5 guided missile strikes in Lviv. The relevant emergency services are responding. We are trying to obtain more detailed information. — Sadoviy (Mayor of Lviv)" >}}
 
 {{< figure src="OFReport/2022-04-20-all-over-the-map/lviv-garage-before_thamet" caption="The car garage *before* the missile attack on April 18." >}}
 

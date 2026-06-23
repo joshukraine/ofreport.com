@@ -69,7 +69,7 @@ Keep scrolling for more photos! First up, more photos from our music outreach...
 
 {{< figure src="OFReport/2022-09-15-and-we-re-back/good-evil-palette_pjcqxn" caption="Freshly printed books, ready for trimming" >}}
 
-{{< figure src="OFReport/2022-09-15-and-we-re-back/good-evil-book_kgpyhq" caption="Can’t wait for these to arrive in L’viv and then go out across Ukraine!" >}}
+{{< figure src="OFReport/2022-09-15-and-we-re-back/good-evil-book_kgpyhq" caption="Can’t wait for these to arrive in Lviv and then go out across Ukraine!" >}}
 
 {{< callout >}}
 Next, some fun snaps from family life in Slovakia...

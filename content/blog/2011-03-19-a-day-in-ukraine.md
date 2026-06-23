@@ -26,7 +26,7 @@ Two years later in September of 2003, Nations Training Institute was launched in
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2011/03/teaching_english_in_bangkok.jpg" caption="Nathan teaching English in Thailand" >}}
 
-As the training time in Bangkok was approaching its end, many of the men began discussing their next steps in ministry. I had already made plans to return to Ukraine, and I invited any who were willing to join me. Nathan decided to come, and in early April of 2004, we arrived in L’viv together.
+As the training time in Bangkok was approaching its end, many of the men began discussing their next steps in ministry. I had already made plans to return to Ukraine, and I invited any who were willing to join me. Nathan decided to come, and in early April of 2004, we arrived in Lviv together.
 
 Nathan didn’t waste any time getting to work. He immediately enrolled in language lessons, studying Ukrainian with a private tutor for many hours every week. Because he was still single at the time, he had the advantage of sharing an apartment with a Ukrainian man, and this allowed him to progress rapidly in his language skills. Just over a year after his arrival in the country, Nathan spoke publicly in Ukrainian for the first time when he taught four sessions at a Bible camp we organized in the Carpathians.
 

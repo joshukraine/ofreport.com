@@ -2,7 +2,7 @@
 title: Fall Family Photos
 date: '2019-12-13'
 author: Joshua Steele
-description: It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in L'viv.
+description: It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in Lviv.
 tags:
 - family
 - photos
@@ -11,7 +11,7 @@ caption: 'We still don''t have a new "official" family photo since Mia''s arriva
 slug: 2019-12-13-fall-family-photos
 ---
 
-It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in L'viv.
+It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in Lviv.
 
 As always, we're grateful for your prayers and support as we minister!
 
@@ -19,7 +19,7 @@ As always, we're grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2441_k0chr2" caption="We stayed in a small apartment, and everyone had their own nightstand. Kathryn was particularly pleased with this arrangement. 😁" >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2667_k7vfef" caption="Thanksgiving dinner with friends in L'viv!" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2667_k7vfef" caption="Thanksgiving dinner with friends in Lviv!" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2641_rfjyfl" caption="Ear muffs are the new must-have trendy accessory at our house." >}}
 
@@ -43,7 +43,7 @@ As always, we're grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2483_xxofxi" alt="Joshua kneeling on the carpet, smiling down at baby Mia lying on a pillow" >}}
 
-{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2359_eberca" caption="We often enjoy walks along the various trails and sidewalks near our apartment building. L'viv in the fall is beautiful! 🍁" >}}
+{{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2359_eberca" caption="We often enjoy walks along the various trails and sidewalks near our apartment building. Lviv in the fall is beautiful! 🍁" >}}
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2338_clytbb" caption="Our dog Macie has really grown to be part of the family. ❤️ She and Abby are especially close with Macie following Abby most everywhere she goes." >}}
 

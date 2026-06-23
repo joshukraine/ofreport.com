@@ -12,7 +12,7 @@ description: >-
 A podcast by Joshua and Kelsie Steele
 {{< /callout >}}
 
-In March of 2022, our family was forced to evacuate from Ukraine. We have served as missionaries in L’viv for over 20 years, and now, like so many others, we find ourselves suddenly displaced from our home, our church, and our precious Ukrainian friends. But despite the shock of evacuation, God is opening doors and leading us step by step down this new path. Our purpose is to bless and minister to Ukrainians affected by the war. Come with us as we share our stories: striving to serve God, bless people, and praying that someday soon this journey will lead us back to our beloved Ukraine.
+In March of 2022, our family was forced to evacuate from Ukraine. We have served as missionaries in Lviv for over 20 years, and now, like so many others, we find ourselves suddenly displaced from our home, our church, and our precious Ukrainian friends. But despite the shock of evacuation, God is opening doors and leading us step by step down this new path. Our purpose is to bless and minister to Ukrainians affected by the war. Come with us as we share our stories: striving to serve God, bless people, and praying that someday soon this journey will lead us back to our beloved Ukraine.
 
 {{< button text="Subscribe now!" href="https://journeytoukraine.buzzsprout.com/" outline=true external=true >}}
 

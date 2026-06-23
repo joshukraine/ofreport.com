@@ -67,9 +67,9 @@ So can we really talk about short-term missions in Ukraine with Russia at the ba
 In the meantime, here are some things to be aware of:
 
 - Ukraine has been engaged in an [ongoing conflict with Russia](https://en.wikipedia.org/wiki/Russo-Ukrainian_War) since 2014 when Russia annexed Crimea and supported insurgencies in two of Ukraine’s eastern regions.
-- CMO takes place mostly in L’viv and its surrounding regions, located on the far west side of the country.
-- L’viv has remained largely peaceful (save for some protests) throughout the entirety of the so-called Russo-Ukrainian War. No military violence has occurred in or anywhere near our region.
-- The distance from L’viv to the conflict zone in the east (including the majority of Russian troop positions) is over 1000 kilometers (~620 miles).
+- CMO takes place mostly in Lviv and its surrounding regions, located on the far west side of the country.
+- Lviv has remained largely peaceful (save for some protests) throughout the entirety of the so-called Russo-Ukrainian War. No military violence has occurred in or anywhere near our region.
+- The distance from Lviv to the conflict zone in the east (including the majority of Russian troop positions) is over 1000 kilometers (~620 miles).
 - The U.S. State Department has posted [travel advisories](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/ukraine-travel-advisory.html) for Ukraine mainly due to COVID (level 4) and possible threats from Russia (level 3).
 - U.S. citizens who live in Ukraine (like our families) get regular warnings and updates from the [U.S. Embassy in Kyiv](https://ua.usembassy.gov/) about all kinds of things. So far they have not advised anyone to leave, and no one we know in Ukraine is planning to leave in the near future.
 

@@ -18,7 +18,7 @@ You could sum up our last few months in just 2 words: travel and people! Here ar
 {{< callout pdf="OFR-Sep-Dec-2021.pdf" >}}
 {{< /callout >}}
 
-{{< figure src="OFReport/2021-12-14-shindigs-and-such/lviv-airport_qkiy7j" caption="3:00am at the L’viv airport, preparing to depart for the US" >}}
+{{< figure src="OFReport/2021-12-14-shindigs-and-such/lviv-airport_qkiy7j" caption="3:00am at the Lviv airport, preparing to depart for the US" >}}
 
 ## Phase 1: Shindigs and Road Trip
 

@@ -1,5 +1,5 @@
 ---
-title: Ukraine Update from L’viv
+title: Ukraine Update from Lviv
 date: '2022-02-24'
 author: Joshua Steele
 description: Russia has invaded Ukraine. Our family remains in Ukraine as of this writing, and we’d like to provide you with a brief update on our situation here. Please listen to the audio clip below to learn more. As always, we greatly appreciate your concern and prayers for our family and for Ukraine during this time.
@@ -13,7 +13,7 @@ caption: Photo by [Max Kukurudziak](https://unsplash.com/@maxkuk?utm_source=unsp
 slug: 2022-02-24-ukraine-update-lviv
 ---
 
-Russia has invaded Ukraine. Our family remains in L’viv as of this writing, and
+Russia has invaded Ukraine. Our family remains in Lviv as of this writing, and
 we’d like to provide you with a brief update on our situation here. Please
 listen to the audio clip below to learn more. As always, we greatly appreciate
 your concern and prayers for our family and for Ukraine during this time.

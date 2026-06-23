@@ -2,7 +2,7 @@
 title: Still in the States
 date: '2010-04-21'
 author: Joshua Steele
-description: 'Yep, we''re still here! Why? Just Google the terms "Iceland volcano" and you''ll find a whole pile of news stories covering the most recent act of God which has paralyzed European air travel. Bottom line: our original flight to Ukraine was cancelled, and we have been rebooked for April 27th, ash-cloud permitting. Please pray that God would remove this ash cloud and that we would have safe flying conditions for our return to L''viv. Traveling with us on the same day will be Bryan Shufelt.'
+description: 'Yep, we''re still here! Why? Just Google the terms "Iceland volcano" and you''ll find a whole pile of news stories covering the most recent act of God which has paralyzed European air travel. Bottom line: our original flight to Ukraine was cancelled, and we have been rebooked for April 27th, ash-cloud permitting. Please pray that God would remove this ash cloud and that we would have safe flying conditions for our return to Lviv. Traveling with us on the same day will be Bryan Shufelt.'
 tags:
 - family
 - ministry
@@ -10,7 +10,7 @@ tags:
 slug: 2010-04-21-still-in-the-states
 ---
 
-Yep, we're still here! Why? Just Google the terms "[Iceland volcano](http://lmgtfy.com/?q=iceland+volcano)" and you'll find a whole pile of news stories covering the most recent act of God which has paralyzed European air travel. Bottom line: our original flight to Ukraine was cancelled, and we have been rebooked for April 27th, ash-cloud permitting. Please pray that God would remove this ash cloud and that we would have safe flying conditions for our return to L'viv. Traveling with us on the same day will be Bryan Shufelt.
+Yep, we're still here! Why? Just Google the terms "[Iceland volcano](http://lmgtfy.com/?q=iceland+volcano)" and you'll find a whole pile of news stories covering the most recent act of God which has paralyzed European air travel. Bottom line: our original flight to Ukraine was cancelled, and we have been rebooked for April 27th, ash-cloud permitting. Please pray that God would remove this ash cloud and that we would have safe flying conditions for our return to Lviv. Traveling with us on the same day will be Bryan Shufelt.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/04/DSC_8837.jpg" caption="The Steele Clan at a recent family night" >}}
 

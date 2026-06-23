@@ -8,7 +8,7 @@ tags:
 - family
 - good-and-evil
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1573405111/OFReport/2017-03-29-meet-david-noble/david-collage_dytfdl.jpg
-caption: David Noble Steele was born in L'viv, Ukraine, on January 16, 2017. As you may have guessed from the photos, we like this little guy a lot, and we can't wait to introduce you!
+caption: David Noble Steele was born in Lviv, Ukraine, on January 16, 2017. As you may have guessed from the photos, we like this little guy a lot, and we can't wait to introduce you!
 pdf: OFR-Mar-Apr-2017.pdf
 slug: 2017-03-29-meet-david-noble
 ---
@@ -22,7 +22,7 @@ I'll never forget that day we went in for the ultrasound. When the technician to
 
 Thereafter, at every ultrasound, I would always ask, "So we still think it's going to be a boy?" Finally, a few weeks before the birth, we had one last ultrasound, and I asked my usual question. The doctor chuckled, looked at the monitor, then back at me, and with an emphatic smile declared, "No possible alternative!"
 
-Finally, the day came for the birth. As Kelsie and I settled in to our room at the Ukrainian hospital here in L'viv, we prayed for a short labor, for safety for mother and baby, and for wisdom for the doctors. The contractions began around four in the afternoon, and David was born without incident a little before nine o'clock that evening.
+Finally, the day came for the birth. As Kelsie and I settled in to our room at the Ukrainian hospital here in Lviv, we prayed for a short labor, for safety for mother and baby, and for wisdom for the doctors. The contractions began around four in the afternoon, and David was born without incident a little before nine o'clock that evening.
 
 One might think that after so many children, these new arrivals would lose their shine. But experience has proven that every child, boy and girl alike, is a reward from heaven, and their entrance into the family is cause for rejoicing which cannot be described in words.
 

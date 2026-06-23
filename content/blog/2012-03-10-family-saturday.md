@@ -2,7 +2,7 @@
 title: Family Saturday
 date: '2012-03-10'
 author: Joshua Steele
-description: Today we decided to take the whole family out for trip to downtown L'viv. We started with a nice lunch at Puzata Khata (a great place to try national Ukrainian dishes) followed by visit to our favorite indoor playground at Antoshka. I brought my camera along and got some fun photos of our cute kiddos. Hope you enjoy them!
+description: Today we decided to take the whole family out for trip to downtown Lviv. We started with a nice lunch at Puzata Khata (a great place to try national Ukrainian dishes) followed by visit to our favorite indoor playground at Antoshka. I brought my camera along and got some fun photos of our cute kiddos. Hope you enjoy them!
 tags:
 - family
 - photos
@@ -11,7 +11,7 @@ caption: Abby & Beka – best friends
 slug: 2012-03-10-family-saturday
 ---
 
-Today we decided to take the whole family out for trip to downtown L'viv. We started with a nice lunch at Puzata Khata (a great place to try national Ukrainian dishes) followed by visit to our favorite indoor playground at Antoshka. I brought my camera along and got some fun photos of our cute kiddos. Hope you enjoy them!
+Today we decided to take the whole family out for trip to downtown Lviv. We started with a nice lunch at Puzata Khata (a great place to try national Ukrainian dishes) followed by visit to our favorite indoor playground at Antoshka. I brought my camera along and got some fun photos of our cute kiddos. Hope you enjoy them!
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/03/family-saturday3.jpg" caption="Hosanna loves to push the basket with Mommy." >}}
 

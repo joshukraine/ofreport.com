@@ -61,8 +61,8 @@ Keep scrolling for more photos from our family and ministry...
 
 {{< figure src="OFReport/2023-05-07-we-ve-made-our-decision/picnic-sweeneys_uodeyi" caption="A picnic in Žilina with our UK friends, the Sweeney's" >}}
 
-{{< figure src="OFReport/2023-05-07-we-ve-made-our-decision/camo-netting_ekmbut" caption="Weaving camo nets in Radekhiv during our recent trip to L'viv" >}}
+{{< figure src="OFReport/2023-05-07-we-ve-made-our-decision/camo-netting_ekmbut" caption="Weaving camo nets in Radekhiv during our recent trip to Lviv" >}}
 
-{{< figure src="OFReport/2023-05-07-we-ve-made-our-decision/coffee-chmiels_jkkbff" caption="Coffee in L'viv with our long-time missionary friends, the Chmiel's" >}}
+{{< figure src="OFReport/2023-05-07-we-ve-made-our-decision/coffee-chmiels_jkkbff" caption="Coffee in Lviv with our long-time missionary friends, the Chmiel's" >}}
 
 {{< figure src="OFReport/2023-05-07-we-ve-made-our-decision/back-in-ukraine_coeog3" caption="Cross the border, get a selfie by the sign! 💙💛" >}}

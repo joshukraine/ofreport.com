@@ -8,7 +8,7 @@ tags:
 - cmo
 - bible first
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1573556562/OFReport/2016-04-18-parenting-seminar/IMG_6934_ef18wu.jpg
-caption: Kelsie and I recently had the privilege of teaching our very first parenting seminar! Organized by a local church here in L’viv, the event was well attended, and we were excited for the opportunity to address Ukrainian couples on the topic of child training.
+caption: Kelsie and I recently had the privilege of teaching our very first parenting seminar! Organized by a local church here in Lviv, the event was well attended, and we were excited for the opportunity to address Ukrainian couples on the topic of child training.
 pdf: OFR-Jan-Mar-2016.pdf
 slug: 2016-04-18-parenting-seminar
 ---

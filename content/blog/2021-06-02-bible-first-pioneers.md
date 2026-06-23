@@ -33,22 +33,22 @@ In recent weeks, we’ve also opened up the Pioneers program to our Ukrainian *B
 
 ## Intimacy in Marriage Seminar
 
-God continues to bring opportunities for Kelsie and I to speak to Ukrainian groups about marriage and family. Recently, we held a mini-seminar on the topic of intimacy in marriage. The event was organized by our friends at God’s Design Church here in L’viv. It was our first time to speak publicly on the topic, and it gave us the opportunity to develop some new material!
+God continues to bring opportunities for Kelsie and I to speak to Ukrainian groups about marriage and family. Recently, we held a mini-seminar on the topic of intimacy in marriage. The event was organized by our friends at God’s Design Church here in Lviv. It was our first time to speak publicly on the topic, and it gave us the opportunity to develop some new material!
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/intimacy-in-marriage-talk_dltn0k" caption="Kelsie and I recently gave a short seminar about intimacy in marriage at God’s Design Church in L’viv." >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/intimacy-in-marriage-talk_dltn0k" caption="Kelsie and I recently gave a short seminar about intimacy in marriage at God’s Design Church in Lviv." >}}
 
 ## How You Can Pray
 
 * Pray that God would bless and grow our Pioneers project, both in the U.S. and in Ukraine.
 * Pray that CMO 2022 would happen! This year’s project was [canceled due to COVID](https://euroteamoutreach.org/blog/2021/03/cmo-in-a-covid-world/).
-* Pray for courage, grace, and wisdom as we raise our family and minister the Gospel here in L’viv.
+* Pray for courage, grace, and wisdom as we raise our family and minister the Gospel here in Lviv.
 * Pray for peace and liberty in Ukraine.
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/girls-singing-church_lvbxfk" caption="Rebekah, Hosanna, and Abigail sing “Let My People Go” as part of a play about Moses and the Exodus." >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/kels-josh-birthday-selfie_jc16pm" caption="Birthday selfie! 🥳  This lady took me out for a fun evening of scooter rides and gourmet hamburgers." >}}
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-kels-scooters_eeyfic" caption="Electric scooter rentals are new to L’viv, but in recent weeks they’ve exploded in popularity. We really like them!" >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-kels-scooters_eeyfic" caption="Electric scooter rentals are new to Lviv, but in recent weeks they’ve exploded in popularity. We really like them!" >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-nathan-translation-proofing_cnz8sn" caption="These days, Nathan and I do a lot of work over Zoom or Skype. In this photo, we’re proofing more translation work on Mike Pearls’ book *By Divine Design*. We’ve now completed six chapters in Ukrainian!" >}}
 
@@ -56,7 +56,7 @@ God continues to bring opportunities for Kelsie and I to speak to Ukrainian grou
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/kels-david-game-floor_xmo38x" caption="Mom takes time out of a busy day to enjoy a game with David in the playroom. 🥰" >}}
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-yura-mcdonalds_fz6akj" caption="Yura Petriv was one of the first Ukrainians who befriended me back in 2001 when I moved to L’viv. We’re still in the same church and we still enjoy chatting over a good cup of coffee. ☕️" >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-yura-mcdonalds_fz6akj" caption="Yura Petriv was one of the first Ukrainians who befriended me back in 2001 when I moved to Lviv. We’re still in the same church and we still enjoy chatting over a good cup of coffee. ☕️" >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/david-smile-vest_ro7gp6" caption="This little guy is just a happy dude! 😎" >}}
 

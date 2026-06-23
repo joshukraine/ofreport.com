@@ -7,7 +7,7 @@ tags:
 - family
 - ukraine
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1643017000/OFReport/2022-01-24-home-sweet-ukraine/steele-family-dfw-1200x630_ghza38.jpg
-caption: One last family photo on U.S. soil as we prepare to depart DFW airport bound for L’viv
+caption: One last family photo on U.S. soil as we prepare to depart DFW airport bound for Lviv
 slug: 2022-01-24-home-sweet-ukraine
 ---
 
@@ -21,11 +21,11 @@ A “normal” trip across the ocean to Ukraine runs about 22 hours, spanning 3 
 
 {{< figure src="OFReport/2022-01-24-home-sweet-ukraine/abby-writing-plane_x2m0yj" caption="Abby gets in some writing time during the flight." >}}
 
-Just as we were due to land, we learned that the weather was severe in L’viv, perhaps too severe for landing. After circling for 20-30 minutes, the decision was made to return to Vienna and not risk the landing. You can imagine our disappointment. We spent the rest of the flight wondering what was next. How would we get home? Would we need to spend the night in the airport? Though exhausted, it was clear God was watching over us and allowing us a crash course in patience and endurance. So we tried to keep our courage and trust Him.
+Just as we were due to land, we learned that the weather was severe in Lviv, perhaps too severe for landing. After circling for 20-30 minutes, the decision was made to return to Vienna and not risk the landing. You can imagine our disappointment. We spent the rest of the flight wondering what was next. How would we get home? Would we need to spend the night in the airport? Though exhausted, it was clear God was watching over us and allowing us a crash course in patience and endurance. So we tried to keep our courage and trust Him.
 
-Back in Vienna, we were soon rerouted. It would be two more airport waits, two harried trips through security, and two more flights (with windy, bumpy descents) before we finally landed in L’viv at 1:00 am local time! Our total travel time clocked in at around 36 hours, with roughly 17 of that in the air.
+Back in Vienna, we were soon rerouted. It would be two more airport waits, two harried trips through security, and two more flights (with windy, bumpy descents) before we finally landed in Lviv at 1:00 am local time! Our total travel time clocked in at around 36 hours, with roughly 17 of that in the air.
 
-{{< figure src="OFReport/2022-01-24-home-sweet-ukraine/lviv-airport-arrival_dh7g5z" caption="Strolling into L’viv’s international terminal after 1am in the morning! 🥱" >}}
+{{< figure src="OFReport/2022-01-24-home-sweet-ukraine/lviv-airport-arrival_dh7g5z" caption="Strolling into Lviv’s international terminal after 1am in the morning! 🥱" >}}
 
 Our kids were troopers! Despite a few expected meltdowns, they all did really well and were in ecstasies when we finally walked through our front door on Pancha 5! We’re so thankful for God’s goodness in bringing us home again!
 
@@ -50,7 +50,7 @@ If you’d like a thorough and informative overview of what is happening, I enco
 
 {{< figure src="OFReport/2022-01-24-home-sweet-ukraine/russian-buildup_wj7la6" caption="Recent satellite imagery of Russian military equipment near Ukraine’s border" >}}
 
-So what does it all mean? What does Putin really want, and will he invade? If war comes, what does that mean for families like ours who serve in Ukraine as missionaries? The short answer, of course, is that we don’t know. Yes, there are plenty of warning signs and reasons for concern. But there are also reasons to be hopeful. Right now, we are watching and praying like so many others. **For the time being, our family has chosen to remain in L’viv.**
+So what does it all mean? What does Putin really want, and will he invade? If war comes, what does that mean for families like ours who serve in Ukraine as missionaries? The short answer, of course, is that we don’t know. Yes, there are plenty of warning signs and reasons for concern. But there are also reasons to be hopeful. Right now, we are watching and praying like so many others. **For the time being, our family has chosen to remain in Lviv.**
 
 Here are some things we do know as of this writing, Monday, January 24, 2022:
 
@@ -60,9 +60,9 @@ Here are some things we do know as of this writing, Monday, January 24, 2022:
 - The U.S. has ordered family members of embassy staff in Kyiv to depart the country. The Ukrainian government called this move “[premature](https://twitter.com/OlegNikolenko_/status/1485528934330605569)”.
 - Yesterday, the embassy sent an email to U.S. citizens in Ukraine, advising them to “consider departing”.
 - The [E.U. has said](https://www.foxnews.com/world/european-union-us-ukraine-embassy-evacuation-orders-russia) it will *not* be evacuating its embassy personnel from Ukraine.
-- The mood here in L’viv is somber but calm. People are ready to resist any invasion and to fight for their independence.
-- Most Ukrainians I’ve talked to do not believe the conflict will reach L’viv.
-- We know many missionary families in Ukraine, most of them in L’viv. I’ve heard from several, and so far all have chosen to stay in Ukraine for the time being.
+- The mood here in Lviv is somber but calm. People are ready to resist any invasion and to fight for their independence.
+- Most Ukrainians I’ve talked to do not believe the conflict will reach Lviv.
+- We know many missionary families in Ukraine, most of them in Lviv. I’ve heard from several, and so far all have chosen to stay in Ukraine for the time being.
 
 In summary, we are concerned, we are making reasonable preparations, and we are praying for peace and liberty as we have since the last Russian invasion back in 2014. Ukraine is our home, and many Ukrainians are our dear friends, brothers and sisters in Christ. The time may come when, for the safety of our children, we are forced to evacuate. But that will be an absolute last resort. As long as God grants us liberty to stay, we will stay and we will stand with Ukrainians.
 

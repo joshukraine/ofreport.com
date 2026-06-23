@@ -2,17 +2,17 @@
 title: Life is Colorful
 date: '2011-11-08'
 author: Joshua Steele
-description: L'viv is beautiful in the fall. For a large city, it's quite rich in plant life. Even the downtown area boasts rows of large trees which are now displaying all kinds of vibrant colors. In a way, all these shifting colors remind me of the current state of affairs here in Ukraine. Many things are changing, and as always we are in need of your prayers as we move forward.
+description: Lviv is beautiful in the fall. For a large city, it's quite rich in plant life. Even the downtown area boasts rows of large trees which are now displaying all kinds of vibrant colors. In a way, all these shifting colors remind me of the current state of affairs here in Ukraine. Many things are changing, and as always we are in need of your prayers as we move forward.
 tags:
 - family
 - ministry
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1573584251/OFReport/2011-11-08-life-is-colorful/IMG_0156_opt-12-6_i4mfdy.jpg
-caption: The center of L'viv, looking towards the Opera Theater
+caption: The center of Lviv, looking towards the Opera Theater
 slug: 2011-11-08-life-is-colorful
 ---
 
-L'viv is beautiful in the fall. For a large city, it's quite rich in plant life. Even the downtown area boasts rows of large trees which are now displaying all kinds of vibrant colors. In a way, all these shifting colors remind me of the current state of affairs here in Ukraine. Many things are changing, and as always we are in need of your prayers as we move forward.
+Lviv is beautiful in the fall. For a large city, it's quite rich in plant life. Even the downtown area boasts rows of large trees which are now displaying all kinds of vibrant colors. In a way, all these shifting colors remind me of the current state of affairs here in Ukraine. Many things are changing, and as always we are in need of your prayers as we move forward.
 
 ## Immigration
 

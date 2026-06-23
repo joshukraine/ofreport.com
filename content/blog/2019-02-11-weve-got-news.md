@@ -22,7 +22,7 @@ All joking aside, we will be thrilled to welcome whomever God brings, girl or bo
 As we move closer to our due date, here are some things to pray for:
 
 * Health and strength for Kelsie.
-* Wisdom and direction in making arrangements with a birthing doctor in L'viv.
+* Wisdom and direction in making arrangements with a birthing doctor in Lviv.
 * That the birthing clinic we like (where David was born) will be open during the time we need it. (These clinics close periodically for sanitizing.)
 * Health and safety for the baby.
 * A safe and speedy delivery.

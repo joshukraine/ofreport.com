@@ -12,7 +12,7 @@ slug: 2012-04-01-doors-opening-skole
 
 This past week, our team held a four-day English Club in the Carpathian town of Skole. (pronounced skó-leh) This outreach was actually begun by a Ukrainian friend of ours, Sergiy Chepara, who is native to Skole.
 
-Every morning, Jessie, Denise and I made the 1.5 drive to Skole for the meetings which began at 11am. These usually lasted until 1:00 or so, after which we would drive back to L'viv. It was a rather tiring ordeal, but God certainly blessed.
+Every morning, Jessie, Denise and I made the 1.5 drive to Skole for the meetings which began at 11am. These usually lasted until 1:00 or so, after which we would drive back to Lviv. It was a rather tiring ordeal, but God certainly blessed.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2012/04/SkoleEnglishClub42.jpg" caption="After our last meeting on Thursday, the whole group went for a walk in the woods near Skole." >}}
 

@@ -17,6 +17,6 @@ As a new missionary on the field, some of Bryan's initial goals include language
 
 To stay in touch with Bryan and his work in Ukraine, please visit his blog: shufelt.euroteamoutreach.org. If you like, you can subscribe to his e-mail updates and be kept abreast of his latest news and prayer requests.
 
-{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/cmo2006_004_lg.jpg" caption="Bryan preaches on the street in L'viv, 2006." >}}
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/cmo2006_004_lg.jpg" caption="Bryan preaches on the street in Lviv, 2006." >}}
 
 Please remember Bryan and his ministry in your prayers. We are very grateful to have a new team member serving with us, and we look forward to the things God will do in the days to come.

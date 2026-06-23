@@ -23,13 +23,13 @@ Every year, as we prepare for our summer outreaches, we pray that God would send
 
 Kade Bloom already had his sights set on the mission field before he arrived last summer to take part in CMO 2019. We met him through ETO board member, Ben Sargent, because the two of them had been evangelizing together in Georgia and North Carolina. During our staff meetings, I kept hearing Kade's name come up with phrases like "top-shelf" and "A-team".
 
-{{< figure src="OFReport/2019-12-23-kade-to-ukraine/kade-ben-airport_m9i03x.jpg" caption="Kade arrives in L’viv for CMO 2019 and is met by Ben Sargent." >}}
+{{< figure src="OFReport/2019-12-23-kade-to-ukraine/kade-ben-airport_m9i03x.jpg" caption="Kade arrives in Lviv for CMO 2019 and is met by Ben Sargent." >}}
 
-Sure enough, Kade proved himself to be a valuable team member during CMO. He was diligent, sober-minded, and genuinely excited about the work of the Lord. Toward the end of his time in Ukraine, Kade asked to sit down for a chat with Nathan and I. He explained how he felt God was calling him to serve as a missionary full-time, and that he would like to begin by joining our team here in L'viv. He was prepared to stay for at least a year, and longer if God so directed. We gave him the green light and the countdown began. Since then, Kade has kept in touch with us, and he's gotten all his affairs in order. He will be arriving in L'viv on January 3, 2020.
+Sure enough, Kade proved himself to be a valuable team member during CMO. He was diligent, sober-minded, and genuinely excited about the work of the Lord. Toward the end of his time in Ukraine, Kade asked to sit down for a chat with Nathan and I. He explained how he felt God was calling him to serve as a missionary full-time, and that he would like to begin by joining our team here in Lviv. He was prepared to stay for at least a year, and longer if God so directed. We gave him the green light and the countdown began. Since then, Kade has kept in touch with us, and he's gotten all his affairs in order. He will be arriving in Lviv on January 3, 2020.
 
 {{< figure src="OFReport/2019-12-23-kade-to-ukraine/kade-and-family_evp6gi.jpg" caption="Kade and his family in Georgia" >}}
 
-Meanwhile, we've been lining up some ministry opportunities for Kade. Less than a week after he lands, he will be helping us with an evangelistic English retreat hosted by a local church in L'viv. The week after that, he'll begin teaching a Bible study with the teens at our church, Greater Grace. And of course, he'll be studying Ukrainian and spending as much time as possible with the Ukrainian people.
+Meanwhile, we've been lining up some ministry opportunities for Kade. Less than a week after he lands, he will be helping us with an evangelistic English retreat hosted by a local church in Lviv. The week after that, he'll begin teaching a Bible study with the teens at our church, Greater Grace. And of course, he'll be studying Ukrainian and spending as much time as possible with the Ukrainian people.
 
 {{< figure src="OFReport/2019-12-23-kade-to-ukraine/tracting-usa_gmkq85.jpg" caption="Kade and some friends passing out Gospel tracts in the States" >}}
 
@@ -64,7 +64,7 @@ The new Ukrainian edition of *Good and Evil* continues to reach people with the 
 * Pray for Kade Bloom as he prepares to come to Ukraine and begin full-time ministry.
 * Pray that God would raise up a strong team for CMO 2020, and that He would open doors to the Gospel.
 * Pray for the various other ministries we have going, including *Good and Evil*, *Bible First*, and our new web app, Bible First Online.
-* Pray for health and physical safety for our team here in L'viv. Lots of colds and flu right now!
+* Pray for health and physical safety for our team here in Lviv. Lots of colds and flu right now!
 * Pray for peace and liberty in Ukraine.
 
 {{< callout >}}

@@ -2,7 +2,7 @@
 title: Ministry and Family in Time of War
 date: '2024-01-19'
 author: Joshua Steele
-description: There are days when things appear almost peaceful. We move about the city, living what seems a normal life, and we almost forget that there’s a war on. Then the sirens go off again, reminding us why we pray for peace and liberty in Ukraine. Thankfully, L’viv remains one of the safer areas of Ukraine right now, and God has been faithful to protect our lives and property. We have lost so little compared to many, and the Lord continues to guide and bless us. In this (admittedly overdue) report, we’d like to share with you a glimpse into our family and ministry in this difficult time of war.
+description: There are days when things appear almost peaceful. We move about the city, living what seems a normal life, and we almost forget that there’s a war on. Then the sirens go off again, reminding us why we pray for peace and liberty in Ukraine. Thankfully, Lviv remains one of the safer areas of Ukraine right now, and God has been faithful to protect our lives and property. We have lost so little compared to many, and the Lord continues to guide and bless us. In this (admittedly overdue) report, we’d like to share with you a glimpse into our family and ministry in this difficult time of war.
 tags:
 - newsletter
 - ministry
@@ -10,7 +10,7 @@ tags:
 - photos
 - good-and-evil
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1705306410/OFReport/2024-01-19-ministry-and-family-in-time-of-war/marriage-retreat-cover-1200-630_wlomm3.jpg
-caption: We recently had the wonderful privilege of leading a marriage retreat for couples from our church in L’viv.
+caption: We recently had the wonderful privilege of leading a marriage retreat for couples from our church in Lviv.
 pdf: OFR-Nov-Dec-2023.pdf
 slug: 2024-01-19-ministry-and-family-in-time-of-war
 ---
@@ -20,7 +20,7 @@ living what seems a normal life, and we almost forget that there’s a war on.
 Then the sirens go off again, reminding us why we pray for peace and liberty in
 Ukraine.
 
-Thankfully, L’viv remains one of the safer areas of Ukraine right now, and God
+Thankfully, Lviv remains one of the safer areas of Ukraine right now, and God
 has been faithful to protect our lives and property. We have lost so little
 compared to many, and the Lord continues to guide and bless us. In this
 (admittedly overdue) report, we’d like to share with you a glimpse into our
@@ -31,13 +31,13 @@ family and ministry in this difficult time of war.
 
 ## Fall Marriage Retreat
 
-In January of 2023, while we were still in Slovakia, our church from L’viv
+In January of 2023, while we were still in Slovakia, our church from Lviv
 contacted us with a request: would Kelsie and I travel back into Ukraine to lead
 a marriage seminar? We agreed, and preparations began in earnest.
 
 Then, just a few weeks before the seminar was scheduled, rumors began to swirl
 of a new invasion from Belorussian territory, which is only a few hundred
-kilometers north of L’viv. People were suddenly forced anew to make decisions
+kilometers north of Lviv. People were suddenly forced anew to make decisions
 about whether or not to flee the country in the face of foreign aggression. It
 was decided that, given this new looming threat, now was not the time to gather
 for a seminar, and the event was canceled.
@@ -53,7 +53,7 @@ right choice.
 
 Time passed, and the wife of one of our pastors approached us again about the
 possibility of revisiting the marriage seminar. This time it would be a couples
-retreat in the Carpathian Mountains, just a few hours south of L’viv. We again
+retreat in the Carpathian Mountains, just a few hours south of Lviv. We again
 agreed, and again began to prepare.
 
 The event was held in November, and while the focus was on couples, we all
