@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-23 — `layouts/_default/rss.xml`, `hugo.toml`
+
+**What changed:** Hardened the RSS feed for Mailchimp RSS-to-email (issue #180), refining the 2026-06-06 excerpt-only model. Three template changes plus one build-config change: (1) each item now carries a `<content:encoded>` CDATA block — an email-safe cover `<img>` sized by width only (`width="600"` + inline `height:auto`, delivered via the `og` preset's uniform 1200×630 / 1.91:1 fill) followed by the excerpt — while `<description>` stays the plain-text excerpt; (2) `<pubDate>` and `<lastBuildDate>` emit at **noon UTC** (`… 12:00:00 +0000`) instead of the stored midnight-UTC stamp; (3) the `<enclosure>` `type` is derived from the cover's file extension instead of being hardcoded `image/jpeg`; (4) `[minify] disableXML = true` added to `hugo.toml` so production builds preserve the literal `<![CDATA[…]]>` wrapper (the tdewolff XML minifier would otherwise rewrite it as entity-encoded HTML).
+
+**Why:** Two warts followed the feed over from the legacy Nuxt site. The cover image rendered stretched in email because the feed offered it only as an `<enclosure>`, leaving sizing to Mailchimp's image block (fixed width *and* height onto a non-matching ratio); the width-only `<img>` in `content:encoded` can't distort, and the fixed 1.91:1 `og` ratio keeps every email uniform and retina-crisp at the 600px display width. The publish date displayed one day early because posts are date-only, so Hugo stamps them midnight UTC, which reads as the previous evening anywhere west of UTC (all of the Americas); noon UTC keeps the displayed day correct everywhere from the Americas to Ukraine without editing 223 posts' frontmatter (a site `timeZone` was rejected — pointing it at Kyiv shifts the stamp *backward*, worse). The hardcoded `image/jpeg` was inaccurate for the two `.png` covers in the current feed window. CDATA is preserved (over the minifier's equivalent entity-encoding) because it is the more robustly-interpreted form for HTML inside `content:encoded` across RSS/Mailchimp consumers; `disableXML` leaves HTML/CSS/JS minification untouched and only ships `feed.xml`/`sitemap.xml` with whitespace preserved (both valid, negligible after gzip).
+
+**Category:** Pivot
+
 ### 2026-06-22 — `docs/prd/03-site-structure.md`, `docs/prd/appendix.md`, `docs/prd/ROADMAP.md`, `CLAUDE.md`
 
 **What changed:** Descoped `authors.json` from the migration. The PRD listed it as a data file to migrate (`appendix.md` envisioned author name/bio/avatar accessed via `site.Data.authors`), but it is not being brought over to the Hugo site. `archives.json` migration is unaffected (done, byte-identical to the Nuxt source).
