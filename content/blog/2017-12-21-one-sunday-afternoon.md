@@ -7,7 +7,7 @@ tags:
 - ministry
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1571938781/OFReport/2017-12-21-one-sunday-afternoon/kids-in-snow-12-6_ot5lzj.jpg
-caption: Last Sunday, we invited our kids from church to join us for an afternoon of pizza, games, singing, and smores. We had a blast, and we'd like to share a few of the warmest moments with you.
+caption: Last Sunday, we invited our kids from church to join us for an afternoon of pizza, games, singing, and smores. We had a blast, and we’d like to share a few of the warmest moments with you.
 slug: 2017-12-21-one-sunday-afternoon
 ---
 
@@ -15,7 +15,7 @@ The [Bible First Kids class](/blog/2017-06-13-bible-first-kids/) I lead at our c
 
 This past Sunday, we did something new. Instead of our usual class, we gathered all the kids together, hopped in the [famous yellow van](https://youtu.be/m4Kul2Jn1fI), and drove back to our house. Once there, we kicked things off with an art contest and hot chocolate. Next came games, pizza, singing, and finally roasted marshmallows over the fireplace.
 
-Pictures tell the story best, so scroll on down and enjoy the ride! We love these kids and we're thrilled to see them seeking Christ as they prepare for adulthood. Please pray with us that God will turn each of them into powerful "arrows" for His kingdom!
+Pictures tell the story best, so scroll on down and enjoy the ride! We love these kids and we’re thrilled to see them seeking Christ as they prepare for adulthood. Please pray with us that God will turn each of them into powerful “arrows” for His kingdom!
 
 {{< figure src="OFReport/2017-12-21-one-sunday-afternoon/art-contest_uisloi" caption="We started things out with an art contest - a nice simple activity as the kids were arriving and getting out of coats and boots. (When you have a narrow apartment entrance and a crowd of kids all bundled up, the transition can take some time.) Hot chocolate was also a big win!" >}}
 

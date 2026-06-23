@@ -2,7 +2,7 @@
 title: 'Bible First: The Final Lessons'
 date: '2013-04-13'
 author: Joshua Steele
-description: The March/April issue of our newsletter, Overseas Field Report, is now available. In this issue, we'll bring you up to date on the latest progress with our Bible First ministry. Also included are reports about CMO 2013, our registration process, and the new Pysannya video ministry.
+description: The March/April issue of our newsletter, Overseas Field Report, is now available. In this issue, we’ll bring you up to date on the latest progress with our Bible First ministry. Also included are reports about CMO 2013, our registration process, and the new Pysannya video ministry.
 tags:
 - newsletter
 - bible first
@@ -13,7 +13,7 @@ pdf: OFR-Mar-Apr-2013.pdf
 slug: 2013-04-13-bible-first-final-lessons
 ---
 
-The March/April issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we'll bring you up to date on the latest progress with our Bible First ministry. Also included are reports about CMO 2013, our registration process, and the new Pysannya video ministry.
+The March/April issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we’ll bring you up to date on the latest progress with our Bible First ministry. Also included are reports about CMO 2013, our registration process, and the new Pysannya video ministry.
 
 {{< callout pdf="OFR-Mar-Apr-2013.pdf" >}}
 {{< /callout >}}

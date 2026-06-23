@@ -2,19 +2,19 @@
 title: Sharpening Arrows
 date: '2018-06-24'
 author: Joshua Steele
-description: There are days when I feel too exhausted to go on. Sometimes I think, “I have so many other ministries...maybe I'm stretching myself too thin with this kids' class?” Then my phone rings. A child's voice greets me from the other end of the line in the respectful Ukrainian “vy” form which makes me feel old. “Good day, Uncle Joshua! Do you have time for me to come over and recite my memory project?” And just like that, I'm back in the game.
+description: There are days when I feel too exhausted to go on. Sometimes I think, “I have so many other ministries...maybe I’m stretching myself too thin with this kids’ class?” Then my phone rings. A child’s voice greets me from the other end of the line in the respectful Ukrainian “vy” form which makes me feel old. “Good day, Uncle Joshua! Do you have time for me to come over and recite my memory project?” And just like that, I’m back in the game.
 tags:
 - newsletter
 - good-and-evil
 - cmo
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1571908949/OFReport/2018-06-24-sharpening-arrows/teaching-forum-mall-12-6_vbjilu.jpg
-caption: The Bible tells us that children are like arrows in the hands of a warrior — their impact can be swift and far-reaching. But effective arrows need preparation. They require thoughtful crafting to ensure that they are straight and sharp. I'm excited by the little arrows God is raising up here in our church in Lviv, and I'd like to tell you about how we are using Scripture to prepare these young people to have an impact for Christ.
+caption: The Bible tells us that children are like arrows in the hands of a warrior — their impact can be swift and far-reaching. But effective arrows need preparation. They require thoughtful crafting to ensure that they are straight and sharp. I’m excited by the little arrows God is raising up here in our church in Lviv, and I’d like to tell you about how we are using Scripture to prepare these young people to have an impact for Christ.
 pdf: OFR-May-Jun-2018.pdf
 slug: 2018-06-24-sharpening-arrows
 ---
 
-There are days when I feel too exhausted to go on. Sometimes I think, “I have so many other ministries...maybe I'm stretching myself too thin with this kids' class?” Then my phone rings. A child's voice greets me from the other end of the line in the respectful Ukrainian “vy” form which makes me feel old. “Good day, Uncle Joshua! Do you  have time for me to come over and recite my memory project?” And just like that, I'm back in the game.
+There are days when I feel too exhausted to go on. Sometimes I think, “I have so many other ministries...maybe I’m stretching myself too thin with this kids’ class?” Then my phone rings. A child’s voice greets me from the other end of the line in the respectful Ukrainian “vy” form which makes me feel old. “Good day, Uncle Joshua! Do you  have time for me to come over and recite my memory project?” And just like that, I’m back in the game.
 
 {{< callout pdf="OFR-May-Jun-2018.pdf" >}}
 {{< /callout >}}
@@ -23,19 +23,19 @@ There are days when I feel too exhausted to go on. Sometimes I think, “I have 
 
 Since we launched the Bible First Kids class last year, these young people have memorized hundreds of passages. Some are quoting long chapters like Romans 8, Proverbs 31, and Hebrews 11. And while the kids have fun tracking their progress and earning rewards, I know that the Scripture they are hiding in their hearts today will transform their futures.
 
-We still meet on Sundays to work on memory projects, sword drills, and to study the Bible First lessons. I've also started taking them out one Sunday a month to a nearby mall for a special class. Each of them is given a Bible verse printed on a slip of paper which they can review during the short walk across the street to the mall. Once we get there, we pull some tables together and sit down for ice cream. Then, we go around the table and each child has a chance to explain the meaning of the their verse to the others in the group. Even the youngest are able to pull out key words and answer my questions when prompted. It's a great way to get them thinking about these passages. We all learn best when we teach!
+We still meet on Sundays to work on memory projects, sword drills, and to study the Bible First lessons. I’ve also started taking them out one Sunday a month to a nearby mall for a special class. Each of them is given a Bible verse printed on a slip of paper which they can review during the short walk across the street to the mall. Once we get there, we pull some tables together and sit down for ice cream. Then, we go around the table and each child has a chance to explain the meaning of the their verse to the others in the group. Even the youngest are able to pull out key words and answer my questions when prompted. It’s a great way to get them thinking about these passages. We all learn best when we teach!
 
 {{< figure src="OFReport/2018-06-24-sharpening-arrows/bfk-forum-mcflurries_v4ohgp.jpg" caption="Everyone gets a Bible verse and a McFlurry. 😁 We go around the table, and each one explains the meaning of his verse to the rest of the group. It's a chance to learn by teaching!" >}}
 
 {{< figure src="OFReport/2018-06-24-sharpening-arrows/bfk-kids-mall-group_qymyyp.jpg" caption="\"As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate.\" (Psalms 127:4-5)!" >}}
 
-Please keep praying for these kids. They are tomorrow's fathers and mothers, teachers, pastors, and government leaders. I am so grateful to have this chance to sharpen these precious arrows before they go out!
+Please keep praying for these kids. They are tomorrow’s fathers and mothers, teachers, pastors, and government leaders. I am so grateful to have this chance to sharpen these precious arrows before they go out!
 
 ## CMO 2018
 
 Only a couple of weeks remain until CMO 2018 commences on July 12. God is blessing our preparations, and we are anticipating an exciting project this year! We will be joined by six men from the US in addition to our staff team. On June 12, I traveled to the Carpathians with Nathan and Tolik to make arrangements for film showings. God blessed, and we got our first three showings on the calendar!
 
-During CMO, we always send out more frequent updates, and if you'd like to receive those, be sure that you are [subscribed to our email list](https://euroteamoutreach.org/subscribe) on the ETO site.
+During CMO, we always send out more frequent updates, and if you’d like to receive those, be sure that you are [subscribed to our email list](https://euroteamoutreach.org/subscribe) on the ETO site.
 
 {{< svg name="cmo-logo" class="block w-[250px] max-w-full h-auto" >}}
 
@@ -46,7 +46,7 @@ We are AL. MOST. THERE. After countless hours of work by many different people, 
 {{< figure src="OFReport/2018-06-24-sharpening-arrows/ge-68-69-spread_xcabwq.png" alt="Open two-page spread of the Good and Evil comic book showing full-color illustrated Bible story panels" >}}
 
 {{< callout >}}
-"Coming Soon!"
+“Coming Soon!”
 
 [www.dobroizlo.com.ua](https://dobroizlo.com.ua/)
 {{< /callout >}}

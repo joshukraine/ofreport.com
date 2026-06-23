@@ -11,15 +11,15 @@ tags:
 slug: 2009-02-25-authenticity-of-the-bible
 ---
 
-This week at ABS, Jessie Beal taught on the authenticity of the Bible. It was a great message, and one that is certainly needed in our day. One of the main ideas that we try to communicate to people here is that the Bible is our final authority in every area. While many Ukrainians acknowledge that the Bible is a "holy book," few have any real knowledge as to the many proofs of its divine inspiration.
+This week at ABS, Jessie Beal taught on the authenticity of the Bible. It was a great message, and one that is certainly needed in our day. One of the main ideas that we try to communicate to people here is that the Bible is our final authority in every area. While many Ukrainians acknowledge that the Bible is a “holy book,” few have any real knowledge as to the many proofs of its divine inspiration.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5016.jpg" caption="Jessie teaches on the authenticity of the Bible at ABS, while Joshua translates." >}}
 
-One particularly interesting point that Jessie shared was the fact that many people over the centuries have tried in vain to destroy the Bible. This is one of the many proofs of God's preservation of His Word. The students listened eagerly as Jessie recounted the example of Voltaire, the noted French infidel who died in 1778. Voltaire said that in 100 years from his time Christianity would be swept from existence and passed into history. But only fifty years after his death, the Geneva Bible Society used his press and house to produce Bibles for the world.
+One particularly interesting point that Jessie shared was the fact that many people over the centuries have tried in vain to destroy the Bible. This is one of the many proofs of God’s preservation of His Word. The students listened eagerly as Jessie recounted the example of Voltaire, the noted French infidel who died in 1778. Voltaire said that in 100 years from his time Christianity would be swept from existence and passed into history. But only fifty years after his death, the Geneva Bible Society used his press and house to produce Bibles for the world.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5014.jpg" caption="We have lots of Bibles on hand at our meetings so that students can follow along during the teaching." >}}
 
-English Club is also going well. We usually start out each meeting with some type of discussion topic (this week we talked about "Friends"), and then finish up by reading through a portion of *Good and Evil*. All our students have their own copies of *Good and Evil* in Ukrainian, and we encourage them to compare the English portions we give them as a way to improve their English. This week we read through the account of Christ's ascension and asked the students questions about the story.
+English Club is also going well. We usually start out each meeting with some type of discussion topic (this week we talked about “Friends”), and then finish up by reading through a portion of *Good and Evil*. All our students have their own copies of *Good and Evil* in Ukrainian, and we encourage them to compare the English portions we give them as a way to improve their English. This week we read through the account of Christ’s ascension and asked the students questions about the story.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5012.jpg" caption="ABS students take turns reading through a selection from Good and Evil during English Club." >}}
 

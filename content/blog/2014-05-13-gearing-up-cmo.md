@@ -2,7 +2,7 @@
 title: Gearing Up for CMO
 date: '2014-05-13'
 author: Joshua Steele
-description: The April/May issue of our newsletter, Overseas Field Report, is now available. In this issue, we'll tell you about our current preparations for CMO 2014, especially with regard to the political crisis in Ukraine. Also included is an update on our Bible First program.
+description: The April/May issue of our newsletter, Overseas Field Report, is now available. In this issue, we’ll tell you about our current preparations for CMO 2014, especially with regard to the political crisis in Ukraine. Also included is an update on our Bible First program.
 tags:
 - newsletter
 - cmo
@@ -13,7 +13,7 @@ pdf: OFR-Apr-May-2014.pdf
 slug: 2014-05-13-gearing-up-cmo
 ---
 
-The April/May issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we'll tell you about our current preparations for CMO 2014, especially with regard to the political crisis in Ukraine. Also included is an update on our *Bible First* program.
+The April/May issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we’ll tell you about our current preparations for CMO 2014, especially with regard to the political crisis in Ukraine. Also included is an update on our *Bible First* program.
 
 {{< callout pdf="OFR-Apr-May-2014.pdf" >}}
 {{< /callout >}}

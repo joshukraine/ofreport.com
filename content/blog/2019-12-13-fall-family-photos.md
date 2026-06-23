@@ -2,18 +2,18 @@
 title: Fall Family Photos
 date: '2019-12-13'
 author: Joshua Steele
-description: It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in Lviv.
+description: It’s true, fall is nearly over. All the more reason to share some of the photos we’ve snapped over the past couple of months! We’ll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in Lviv.
 tags:
 - family
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1576234307/OFReport/2019-12-13-fall-family-photos/fall-family-cover-12-6_wfjp7q.jpg
-caption: 'We still don''t have a new "official" family photo since Mia''s arrival, but this impromptu shot in the living room turned out pretty nicely! Clockwise from the top: Joshua, Kelsie, Mia (4 mos.), Rebekah (11), Abigail (14), Macie (dog), Hosanna (9), David (2), Kathryn (4).'
+caption: 'We still don’t have a new “official” family photo since Mia’s arrival, but this impromptu shot in the living room turned out pretty nicely! Clockwise from the top: Joshua, Kelsie, Mia (4 mos.), Rebekah (11), Abigail (14), Macie (dog), Hosanna (9), David (2), Kathryn (4).'
 slug: 2019-12-13-fall-family-photos
 ---
 
-It's true, fall is nearly over. All the more reason to share some of the photos we've snapped over the past couple of months! We'll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in Lviv.
+It’s true, fall is nearly over. All the more reason to share some of the photos we’ve snapped over the past couple of months! We’ll have a newsletter coming out soon, but in the meantime, here are a handful of memories from our life in Lviv.
 
-As always, we're grateful for your prayers and support as we minister!
+As always, we’re grateful for your prayers and support as we minister!
 
 {{< figure src="OFReport/2019-12-13-fall-family-photos/IMG_2434_spmfcs" caption="We recently had to travel to the city of Vinnytsya (~6 hrs. east of us) to get new passports. All in all, it was a fun road trip!" >}}
 

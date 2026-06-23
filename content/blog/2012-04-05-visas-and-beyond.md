@@ -2,7 +2,7 @@
 title: Visas and Beyond
 date: '2012-04-05'
 author: Joshua Steele
-description: The April issue of our newsletter, Overseas Field Report, is now available. In this issue, we bring you the very latest on the immigration front. We're making progress! You'll also read a bit more about some new ministry opportunities that God has brought in the Carpathian town of Skole.
+description: The April issue of our newsletter, Overseas Field Report, is now available. In this issue, we bring you the very latest on the immigration front. We’re making progress! You’ll also read a bit more about some new ministry opportunities that God has brought in the Carpathian town of Skole.
 tags:
 - newsletter
 - ukraine
@@ -13,7 +13,7 @@ pdf: OFR-Apr-2012.pdf
 slug: 2012-04-05-visas-and-beyond
 ---
 
-The April issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we bring you the very latest on the immigration front. We're making progress! You'll also read a bit more about some new ministry opportunities that God has brought in the Carpathian town of Skole.
+The April issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we bring you the very latest on the immigration front. We’re making progress! You’ll also read a bit more about some new ministry opportunities that God has brought in the Carpathian town of Skole.
 
 {{< callout pdf="OFR-Apr-2012.pdf" >}}
 {{< /callout >}}

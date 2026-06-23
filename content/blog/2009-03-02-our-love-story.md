@@ -15,22 +15,22 @@ Joshua and I have often expressed how much we wished we had written our love sto
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/111_1129.jpg" caption="Joshua & Kelsie - Married September 18, 2004" >}}
 
-**Psalm 118: 23 "This is the LORD's doing; it is marvelous in our eyes."**
+**Psalm 118: 23 “This is the LORD’s doing; it is marvelous in our eyes.”**
 
 ## PART ONE
 
-"Thank you so much!" I crooned as I pulled a cute gray sweater vest from the gift bag. "Mrs. Steele, it was so nice having you on the team this week. I really enjoyed meeting you. And Jessica, it was great getting to know you too!"
+“Thank you so much!” I crooned as I pulled a cute gray sweater vest from the gift bag. “Mrs. Steele, it was so nice having you on the team this week. I really enjoyed meeting you. And Jessica, it was great getting to know you too!”
 
 As I packed the new vest among my things to take home, I little imagined that the givers of it would at some point become an important part of my life. Instead, my thoughts were busied with reflections from the past week. 200 mothers and daughters, dynamic speakers, skits, piano playing, team activities, and most of all a feeling of excitement and encouragement from hearing and sharing the Word of God, all whirled through my head as I prepared to leave.
 
 This had been my 3<sup>rd</sup> experience participating in the leadership team for COMMIT conferences. COMMIT was a program designed to encourage young girls to seek a close relationship with Christ and make wise decisions throughout their teen years. In addition to playing piano and speaking a time or two, I was one of twenty or so other young adult women who formed the group of team leaders for the mothers and daughters attending.  Among those other team leaders I had gotten to know Jennifer Steele, a vibrant, enthusiastic girl with a heartbeat for God and young girls.
 
-This was also Jennifer's 3<sup>rd</sup> conference as a team leader and speaker, but this time her mother and younger sister, Jessica, came along as attendees. They were assigned to my team along with 6-8 other mothers and daughters. I well remember young Jessica's contagious energy, and Mrs. Steele's active participation and support for me as I led team activities. Looking out over the sea of faces as I gave my public talks, Mrs. Steele's beaming, encouraging face and regular nods stood out to me like a lighthouse for sea worn travelers. She had told me of her family of six children, four of whom were red-headed. One son who was older than Jennifer was on his way to the mission field very soon. This last point must have rolled off of me like water off a duck's back, because I really have no recollection of it now, although I know we talked about it.
+This was also Jennifer’s 3<sup>rd</sup> conference as a team leader and speaker, but this time her mother and younger sister, Jessica, came along as attendees. They were assigned to my team along with 6-8 other mothers and daughters. I well remember young Jessica’s contagious energy, and Mrs. Steele’s active participation and support for me as I led team activities. Looking out over the sea of faces as I gave my public talks, Mrs. Steele’s beaming, encouraging face and regular nods stood out to me like a lighthouse for sea worn travelers. She had told me of her family of six children, four of whom were red-headed. One son who was older than Jennifer was on his way to the mission field very soon. This last point must have rolled off of me like water off a duck’s back, because I really have no recollection of it now, although I know we talked about it.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/commit.jpg" caption="Jessica Steele is in the front wearing a striped sweater vest. Mrs. Steele and I are next to each other on the back row, directly under the flower arrangement on the wall." >}}
 
-The gray sweater vest became a regular part of my wardrobe, and the Steele's were added to the number of other fond acquaintances I had made at COMMIT.
+The gray sweater vest became a regular part of my wardrobe, and the Steele’s were added to the number of other fond acquaintances I had made at COMMIT.
 
-Unbeknownst to me, I had been the object of Mrs. Steele's special observation that week. Several times the thought had occurred to her: "This girl would be right for my son, Joshua," or, "this would be the kind of girl I would want for him to marry." The idea was nearly always dismissed as quickly as it had originated. After all, he was busy getting ready to go to Ukraine. He was still young and laying the foundation for his occupation and ministry. And, as for me, I was only 17.
+Unbeknownst to me, I had been the object of Mrs. Steele’s special observation that week. Several times the thought had occurred to her: “This girl would be right for my son, Joshua,” or, “this would be the kind of girl I would want for him to marry.” The idea was nearly always dismissed as quickly as it had originated. After all, he was busy getting ready to go to Ukraine. He was still young and laying the foundation for his occupation and ministry. And, as for me, I was only 17.
 
 *To be continued...*

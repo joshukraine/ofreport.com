@@ -2,7 +2,7 @@
 title: Gathering Fruit
 date: '2013-11-06'
 author: Joshua Steele
-description: The October-December issue of our newsletter, Overseas Field Report, is now available. In this issue, we've got lots to report about the fruit that God is bringing in as a result of this summer's CMO project.
+description: The October-December issue of our newsletter, Overseas Field Report, is now available. In this issue, we’ve got lots to report about the fruit that God is bringing in as a result of this summer’s CMO project.
 tags:
 - newsletter
 - cmo
@@ -12,7 +12,7 @@ pdf: OFR-Oct-Dec-2013.pdf
 slug: 2013-11-06-gathering-fruit
 ---
 
-The October-December issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we've got lots to report about the fruit that God is bringing in as a result of this summer's CMO project.
+The October-December issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we’ve got lots to report about the fruit that God is bringing in as a result of this summer’s CMO project.
 
 {{< callout pdf="OFR-Oct-Dec-2013.pdf" >}}
 {{< /callout >}}

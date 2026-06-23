@@ -41,7 +41,7 @@ we began exploring new techniques, new ideas, and new ways to spread the Gospel
 during a time of war.
 
 As so often happens, while we made our plans, we were never really in the
-driver's seat. In 2024, God brought about a series of circumstances that opened
+driver’s seat. In 2024, God brought about a series of circumstances that opened
 our eyes to new doors of ministry we had not previously explored. Last November,
 we teamed up with a Ukrainian missionary named Oleksandr, and together we
 traveled south and east, visiting villages that had been devastated by Russian
@@ -65,14 +65,14 @@ There is, of course, so much more that I could say about Ukraine Gospel
 Outreach. Some of our plans are already finalized, while others are still taking
 shape. There will be new opportunities for learning and growth, as well as new
 challenges that we will need to adapt to in the years ahead. Our next UGO
-project is already on the horizon, and I'd like to share it with you now.
+project is already on the horizon, and I’d like to share it with you now.
 
 This October, we are returning to the de-occupied zones of southern and eastern
 Ukraine. We will visit new villages, bring humanitarian aid, and share the
 Gospel with the precious people who live amidst the calamity that Russia has
 heaped upon them.
 
-We've created an online information page, which you can view at
+We’ve created an online information page, which you can view at
 [ugoproject.org](https://ugoproject.org/). This page provides an overview of
 what UGO is, our initial plans for ministry, and how you can get involved. In
 particular, similar to CMO projects of the past, UGO incorporates a discipleship

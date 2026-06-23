@@ -1,8 +1,8 @@
 ---
-title: ABS from Nikki's Point of View
+title: ABS from Nikki’s Point of View
 date: '2009-05-21'
 author: Kelsie Steele
-description: '"Nikki" is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening''s events. The following are a few of her shots from recent weeks.'
+description: '“Nikki” is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening’s events. The following are a few of her shots from recent weeks.'
 tags:
 - abs
 - bible study
@@ -12,7 +12,7 @@ tags:
 slug: 2009-05-21-abs-from-nikkis-point-of-view
 ---
 
-"Nikki" is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening's events. The following are a few of her shots from recent weeks.
+“Nikki” is what we have affectionately dubbed our Nikon D40 camera. Every Tuesday, she goes with us to English Club and Bible study to help document the evening’s events. The following are a few of her shots from recent weeks.
 
 God is continuing to bless this ministry--we are building good friendships and people are hearing the gospel preached. Please continue to pray that those who are coming would repent and believe in Christ!
 
@@ -34,4 +34,4 @@ About once a month or so, we have hosted a game night during our English teachin
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/05/dsc_5163.jpg" caption="Hurry, time is ticking!" >}}
 
-**"Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorified...." 2 Thessalonians 3:1**
+**“Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorified....” 2 Thessalonians 3:1**

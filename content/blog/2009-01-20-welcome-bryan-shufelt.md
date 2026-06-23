@@ -13,7 +13,7 @@ This week, we are excited to announce the arrival of a new ETO team member: miss
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/bryan.jpg" caption="Bryan Shufelt" >}}
 
-As a new missionary on the field, some of Bryan's initial goals include language and culture studies. He will be starting formal Ukrainian classes right away, studying under the same lady who has taught the rest of our team. Bryan will also be living with a Ukrainian brother from the local church we attend. This man does not speak any English, so Bryan should have plenty of opportunity to practice his language skills!
+As a new missionary on the field, some of Bryan’s initial goals include language and culture studies. He will be starting formal Ukrainian classes right away, studying under the same lady who has taught the rest of our team. Bryan will also be living with a Ukrainian brother from the local church we attend. This man does not speak any English, so Bryan should have plenty of opportunity to practice his language skills!
 
 To stay in touch with Bryan and his work in Ukraine, please visit his blog: shufelt.euroteamoutreach.org. If you like, you can subscribe to his e-mail updates and be kept abreast of his latest news and prayer requests.
 

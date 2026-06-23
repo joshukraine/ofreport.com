@@ -23,7 +23,7 @@ are circling the wagons, as it were, to support her in every way we can.
 
 {{< figure src="OFReport/2024-04-26-circling-the-wagons/mom-family-prayer_ntaccb" caption="Praying with Mom before she went in the hospital last month" >}}
 
-God's healing hand is not shortened, and He knows the number of Mom's days.
+God’s healing hand is not shortened, and He knows the number of Mom’s days.
 Still, given all that has transpired, we believe that now is the time to gather.
 We pray that God will give her years more of life, but if days or weeks are what
 we have, we want to spend them well. Together with our Mom. Together as a
@@ -39,7 +39,7 @@ Him and we are so grateful for the years He has given with Mom.
 
 ## How You Can Pray
 
-- Pray that God would heal Mom and give her more years of life with us. I'm
+- Pray that God would heal Mom and give her more years of life with us. I’m
   praying for 15. It worked for Hezekiah! 😁🙏
 - Pray for our family as we travel by van across four countries just to reach
   our departure airport. (Ukraine → Poland → Slovakia → Austria)

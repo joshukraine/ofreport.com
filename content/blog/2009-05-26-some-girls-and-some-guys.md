@@ -2,7 +2,7 @@
 title: Some Girls and Some Guys
 date: '2009-05-26'
 author: Joshua Steele
-description: It's been a while since we've posted any pictures of Abby and Rebekah. Here's a sampling of some family shots.
+description: It’s been a while since we’ve posted any pictures of Abby and Rebekah. Here’s a sampling of some family shots.
 tags:
 - family
 - ministry
@@ -10,7 +10,7 @@ tags:
 slug: 2009-05-26-some-girls-and-some-guys
 ---
 
-It's been a while since we've posted any pictures of Abby and Rebekah. Here's a sampling of some family shots.
+It’s been a while since we’ve posted any pictures of Abby and Rebekah. Here’s a sampling of some family shots.
 
 ## The Girls
 

@@ -8,7 +8,7 @@ tags:
 slug: 2011-02-01-magazine-interview
 ---
 
-Recently, Kelsie and I were interviewed by an online magazine called [Generation Impact](http://www.generation-impact.com/), edited by Grace Williamson. The magazine is a ministry of the Williamson family, and their goal is to encourage homeschoolers to be lights for Christ. Here's a brief excerpt from their web site:
+Recently, Kelsie and I were interviewed by an online magazine called [Generation Impact](http://www.generation-impact.com/), edited by Grace Williamson. The magazine is a ministry of the Williamson family, and their goal is to encourage homeschoolers to be lights for Christ. Here’s a brief excerpt from their web site:
 
 > Our mission at Generation-Impact is to encourage these young people to stand strong in their convictions. We hope to uplift them by sharing the stories of other homeschool students and graduates who are striving to follow God’s call for their lives instead of the world’s. We hope to encourage those still in the process of homeschooling as well as those who have graduated and are wondering what to do next.
 

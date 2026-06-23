@@ -2,7 +2,7 @@
 title: Every Perfect Gift
 date: '2012-01-03'
 author: Joshua Steele
-description: Well, it's been a while, but today we uploaded a new issue of our print newsletter, Overseas Field Report. If you're on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
+description: Well, it’s been a while, but today we uploaded a new issue of our print newsletter, Overseas Field Report. If you’re on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
 tags:
 - newsletter
 - family
@@ -14,11 +14,11 @@ pdf: OFR-Jan-2012.pdf
 slug: 2012-01-03-every-perfect-gift
 ---
 
-Well, it's been a while, but today we uploaded a new issue of our print newsletter, *Overseas Field Report*. If you're on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
+Well, it’s been a while, but today we uploaded a new issue of our print newsletter, *Overseas Field Report*. If you’re on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
 
 {{< callout pdf="OFR-Jan-2012.pdf" >}}
 {{< /callout >}}
 
-In case you haven't seen it, you can view our latest [ETO Video Report](http://vimeo.com/album/1692055) below. Thanks for praying for our family and work here in Ukraine!
+In case you haven’t seen it, you can view our latest [ETO Video Report](http://vimeo.com/album/1692055) below. Thanks for praying for our family and work here in Ukraine!
 
 {{< vimeo 33968788 >}}

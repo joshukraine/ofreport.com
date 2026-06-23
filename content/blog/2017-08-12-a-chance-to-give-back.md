@@ -2,7 +2,7 @@
 title: A Chance to Give Back
 date: '2017-08-12'
 author: Kelsie Steele
-description: '"God," I whispered, "will you help me?" I sat in a small bedroom hearing the spring breeze rustle the curtains and play in my hair. I wiped my sweaty palms and tried to take some deep breaths. It wasn’t the first time I had to face my nervousness and take on a public speaking opportunity in a foreign language.'
+description: '“God,” I whispered, “will you help me?” I sat in a small bedroom hearing the spring breeze rustle the curtains and play in my hair. I wiped my sweaty palms and tried to take some deep breaths. It wasn’t the first time I had to face my nervousness and take on a public speaking opportunity in a foreign language.'
 tags:
 - newsletter
 - ministry
@@ -13,7 +13,7 @@ pdf: OFR-Jul-Aug-2017.pdf
 slug: 2017-08-12-a-chance-to-give-back
 ---
 
-"God," I whispered, "will you help me?" I sat in a small bedroom hearing the spring breeze rustle the curtains and play in my hair. I wiped my sweaty palms and tried to take some deep breaths. It wasn’t the first time I had to face my nervousness and take on a public speaking opportunity in a foreign language. But so far it hadn’t gotten any easier. The first session was already finished and I had felt awkward and stiff, stumbling around to find words and explain things clearly. A wave of embarrassment crept over me at the thought. Who was I to be standing in front of these women?
+“God,” I whispered, “will you help me?” I sat in a small bedroom hearing the spring breeze rustle the curtains and play in my hair. I wiped my sweaty palms and tried to take some deep breaths. It wasn’t the first time I had to face my nervousness and take on a public speaking opportunity in a foreign language. But so far it hadn’t gotten any easier. The first session was already finished and I had felt awkward and stiff, stumbling around to find words and explain things clearly. A wave of embarrassment crept over me at the thought. Who was I to be standing in front of these women?
 
 {{< callout pdf="OFR-Jul-Aug-2017.pdf" >}}
 {{< /callout >}}

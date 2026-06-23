@@ -2,7 +2,7 @@
 title: A Chapter of Blessing
 date: '2019-01-25'
 author: Joshua Steele
-description: On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in Lviv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
+description: On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in Lviv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we’d like to share with you a few of the highlights.
 tags:
 - newsletter
 - photos
@@ -12,26 +12,26 @@ pdf: OFR-Oct-Dec-2018.pdf
 slug: 2019-01-25-chapter-of-blessing
 ---
 
-On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in Lviv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we'd like to share with you a few of the highlights.
+On December 14, 2018, amidst heavy snowfall, our plane finally touched down at the airport in Lviv. We were all exhausted and several of us were suffering from colds, but we were glad to be back home in Ukraine. God blessed our visit to America in many wonderful ways, and in this admittedly overdue report, we’d like to share with you a few of the highlights.
 
 {{< callout pdf="OFR-Oct-Dec-2018.pdf" >}}
 {{< /callout >}}
 
 ## Our God Knows Logistics
 
-Once upon a time we were a missionary couple with a baby. We could be neatly tucked away in the guest bedroom or share a ride to church. Today we are a clan. We can't ride with you in your minivan. We need the *whole minivan!*
+Once upon a time we were a missionary couple with a baby. We could be neatly tucked away in the guest bedroom or share a ride to church. Today we are a clan. We can’t ride with you in your minivan. We need the *whole minivan!*
 
 As Kelsie and I began planning our trip, I remember wondering how we would overcome these logistical hurdles during our stay in the US. But God never wonders. He knows every detail, and He is able to provide real, practical solutions that meet our needs.  By the time our family arrived in the States, God had provided a beautiful 2015 Toyota minivan which we leased from the good folks at Missionary TECH Team in Longview, TX.
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/toyota-34_sm83wd.jpg" caption="One last photo before we turned in the minivan. This vehicle was a big blessing to our family during our stay. Its fleet number, 34, was a reminder of one of our favorite passages: \"O taste and see that the LORD is good: blessed is the man that trusteth in him.\" (Psalms 34:8)" >}}
 
-But what to do about housing? While in Houston, we were able to stay with Kelsie's parents, since they have several spare bedrooms available. And in Fort Worth, where space was more limited, we were able to stay on my parents' property thanks to our friends, the Critz's, who loaned us their travel trailer. This beautiful trailer is 37 feet long, has fully-functional kitchen and bathroom facilities, sleeps up to ten people, and even has a master bedroom with a queen-size bed!
+But what to do about housing? While in Houston, we were able to stay with Kelsie’s parents, since they have several spare bedrooms available. And in Fort Worth, where space was more limited, we were able to stay on my parents’ property thanks to our friends, the Critz’s, who loaned us their travel trailer. This beautiful trailer is 37 feet long, has fully-functional kitchen and bathroom facilities, sleeps up to ten people, and even has a master bedroom with a queen-size bed!
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/jayco-trailer_prdy0r.jpg" caption="Big thank-you to John and Courtney Critz for loaning us their travel trailer!" >}}
 
 ## With the Powells in Houston
 
-We spent the first month of our trip in Houston with Kelsie's family. Baba and Granddad certainly had a house-full, but there were many moments of joy and sweet fellowship. The kids spent their days feeding the chickens, riding bikes, reading stories, and splashing in the puddles caused by the seemingly endless rains.
+We spent the first month of our trip in Houston with Kelsie’s family. Baba and Granddad certainly had a house-full, but there were many moments of joy and sweet fellowship. The kids spent their days feeding the chickens, riding bikes, reading stories, and splashing in the puddles caused by the seemingly endless rains.
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/story-time-with-granddad_s3qgye.jpg" caption="Time for a bed-time story with Granddad. 🥰" >}}
 
@@ -45,7 +45,7 @@ See more Houston photos in our Facebook album!
 
 ## The Road Trip
 
-One of the highlights of our stay in the US was our Big East Road Trip. During the first two weeks of October, we logged over 3,000 miles on the minivan as we traveled through Arkansas, Tennessee, Kentucky, Ohio, and North Carolina. Along the way we visited many old friends and also met some new ones. If you'd like to read more about the trip and see our favorite photos, be sure to keep scrolling!
+One of the highlights of our stay in the US was our Big East Road Trip. During the first two weeks of October, we logged over 3,000 miles on the minivan as we traveled through Arkansas, Tennessee, Kentucky, Ohio, and North Carolina. Along the way we visited many old friends and also met some new ones. If you’d like to read more about the trip and see our favorite photos, be sure to keep scrolling!
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/kathryn-rides-camel_exqh1q.jpg" caption="Kathryn enjoys a her first-ever camel ride at the Ark Encounter!" >}}
 
@@ -63,7 +63,7 @@ See more Road Trip photos in our Facebook album!
 
 ## With the Steeles in Fort Worth
 
-After returning from our road trip, we transitioned from Houston up to Fort Worth to spend time with the Steele side of the family. Even though we slept out in the trailer, we spent a lot of time with Nana and Granddad in the main house. Every Saturday was Family Day, and my siblings and their families would often join us for meals and activities. Mom and Dad's SteeleCreek Farm has lots of outdoor space — the perfect place for all the cousins to get reacquainted!
+After returning from our road trip, we transitioned from Houston up to Fort Worth to spend time with the Steele side of the family. Even though we slept out in the trailer, we spent a lot of time with Nana and Granddad in the main house. Every Saturday was Family Day, and my siblings and their families would often join us for meals and activities. Mom and Dad’s SteeleCreek Farm has lots of outdoor space — the perfect place for all the cousins to get reacquainted!
 
 {{< figure src="OFReport/2019-01-25-chapter-of-blessing/the-whole-steele-clan_ks2lpp.jpg" caption="The Steele Family — Fall, 2018" >}}
 
