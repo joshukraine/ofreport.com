@@ -23,7 +23,7 @@ links to the relevant PRD document for full requirements.
 | 12 | Newsletter Integration | Phase 3 | Complete |
 | 13 | Lightbox Integration | Phase 6 | Complete |
 | 14 | Analytics | Phase 3 | Complete (credentials deferred to Phase 16) |
-| 15 | Content Migration | Phase 6 | In progress |
+| 15 | Content Migration | Phase 6 | Complete |
 | 16 | Deployment | Phase 15 | Not started |
 
 ---
