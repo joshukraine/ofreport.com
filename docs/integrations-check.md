@@ -104,7 +104,7 @@ Three serializers make this unambiguous:
 
 The runtime fields survive the rewrite, confirming the form is wired to capture: `<input type=hidden name=form-name value=contact>` (associates the POST with the "contact" form) and `<input name=bot-field …>` (the honeypot trap). The `netlify-honeypot="bot-field"` directive is consumed — Netlify now knows which field is the honeypot.
 
-#### How to re-run
+#### How to re-run the detection check
 
 ```bash
 curl -s https://ofreport-dev.netlify.app/contact/ -o /tmp/contact.html
@@ -128,7 +128,7 @@ grep -oE "name=['\"]?(form-name|bot-field)" /tmp/contact.html | sort -u
 
 The contact form carries a hidden `subject` field (`layouts/partials/contact-form.html`) so the notification email's subject is versioned in the template and identical across preview/production. A form-supplied `subject` **takes precedence** over the dashboard's "Custom email subject line" field — so leave that UI field blank and the form value wins. Only the predefined vars `%{formName}`, `%{siteName}`, `%{submissionId}` interpolate in the subject; submitted fields (name/email) cannot, so it stays static.
 
-### Deferred to cutover (#150 §7 step 6–7)
+### Deferred to cutover — notification routing (#150 §7 step 6–7)
 
 - [ ] Set up the email notification on the **production** Netlify site (the new site starts with no Forms config; the `subject` line carries over automatically via the form field).
 - [ ] After cutover, submit the contact form on `ofreport.com` and confirm routing + spam handling.
@@ -141,7 +141,7 @@ The `analytics.html` partial is **double-gated on `hugo.IsProduction` + a config
 
 `[params.umami]` in `hugo.toml` is intentionally blank today.
 
-### Deferred to cutover (#150 §7 step 6–7)
+### Deferred to cutover — Umami credentials (#150 §7 step 6–7)
 
 - [ ] Populate live `scriptUrl` + `websiteId` (reuses the existing OFReport.com website ID `34d2cfa4-e623-418a-936d-670c9d163ead`, so the dashboard record continues unbroken).
 - [ ] Confirm events fire on `ofreport.com` in production **only**, and never on the preview.
