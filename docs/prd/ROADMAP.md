@@ -115,7 +115,7 @@ links to the relevant PRD document for full requirements.
 - [x] Custom RSS template at `/feed.xml` (see [`01-architecture.md`](./01-architecture.md))
 - [x] Cover images with Cloudinary transformations (cover `<enclosure>`, `w_560` rss preset)
 - [x] Curated excerpt in feed items (excerpt model, not full HTML — see [`CHANGELOG.md`](./CHANGELOG.md), 2026-06-06)
-- [—] Mailchimp compatibility verified (deferred — needs a live, publicly-pollable feed; verify during Phase 16 deploy)
+- [x] Mailchimp compatibility verified (RSS-to-email test send on the PR #181 deploy preview — cover renders undistorted, publish date correct; see #180. Production reconfirm on the live feed tracked in #150 §8)
 
 **Key learning:** Custom RSS template, Hugo output formats
 

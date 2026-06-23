@@ -7,9 +7,18 @@
       lightbox galleries, donate/subscribe CTAs, and podcast live) and keeps
       emails small enough to dodge Gmail's ~102KB clipping. The "Read more"
       button is added in the Mailchimp campaign via the RSSITEM:URL merge tag.
-    - One cover image per item via <enclosure> (Cloudinary rss preset, w_560)
-      as the email's visual hook. Email clients can't lazy-load, so a post's
-      full set of images never belongs in the feed.
+    - <content:encoded> carries email-safe HTML for the Mailchimp campaign
+      body: a single cover <img> sized by width only (width="600" + inline
+      height:auto) so email clients can't distort it, followed by the excerpt.
+      The image uses the og preset (1200x630 c_fill) for a uniform 1.91:1 ratio
+      that stays retina-crisp at the 600px email display width. <description>
+      stays plain text so RSS readers/previews remain tidy.
+    - The cover is also kept as an <enclosure> for podcast-style readers; its
+      type is derived from the cover's file extension (not hardcoded jpeg).
+    - Dates are emitted at noon UTC (see <pubDate> below): posts are date-only,
+      so Hugo stamps them midnight UTC; rendered west of UTC that reads as the
+      previous evening. Noon UTC keeps the displayed day correct everywhere
+      from the Americas to Ukraine without per-post content edits.
     - Restricted to the blog section, so static pages never leak into the feed.
     - <dc:creator> for the author name (RSS <author> expects an email).
 */ -}}
@@ -19,7 +28,7 @@
   {{- $pages = $pages | first $limit -}}
 {{- end -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.Title | transform.XMLEscape | safeHTML }}</title>
     <link>{{ .Permalink }}</link>
@@ -32,25 +41,46 @@
     <copyright>{{ . | transform.XMLEscape | safeHTML }}</copyright>
     {{- end }}
     {{- with (index $pages 0) }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006" | safeHTML }} 12:00:00 +0000</lastBuildDate>
     {{- end }}
     {{- with .OutputFormats.Get "rss" }}
     <atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />
     {{- end }}
     {{- range $pages }}
+    {{- $cover := .Params.cover }}
+    {{- $excerpt := .Description }}
+    {{- $alt := .Title | transform.XMLEscape }}
     <item>
       <title>{{ .Title | transform.XMLEscape | safeHTML }}</title>
       <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006" | safeHTML }} 12:00:00 +0000</pubDate>
       {{- with .Params.author }}
       <dc:creator>{{ . | transform.XMLEscape | safeHTML }}</dc:creator>
       {{- end }}
       <guid>{{ .Permalink }}</guid>
-      {{- with .Description }}
+      {{- with $excerpt }}
       <description>{{ . | transform.XMLEscape | safeHTML }}</description>
       {{- end }}
-      {{- with .Params.cover }}
-      <enclosure url="{{ partial "cloudinary-url.html" (dict "src" . "preset" "rss") }}" length="0" type="image/jpeg" />
+      {{- /* Build the email-safe HTML body: cover <img> (width-sized, height:auto
+             so it can't distort) + the excerpt, wrapped in a CDATA block. */ -}}
+      {{- $body := "" }}
+      {{- with $cover }}
+        {{- $imgsrc := partial "cloudinary-url.html" (dict "src" . "preset" "og") }}
+        {{- $style := "display:block;width:100%;max-width:600px;height:auto;border:0" }}
+        {{- $body = printf "<img src=\"%s\" alt=\"%s\" width=\"600\" style=\"%s\" />" $imgsrc $alt $style }}
+      {{- end }}
+      {{- with $excerpt }}
+        {{- $body = printf "%s<p>%s</p>" $body (. | transform.XMLEscape) }}
+      {{- end }}
+      {{- with $body }}
+      <content:encoded>{{ printf "<![CDATA[%s]]>" . | safeHTML }}</content:encoded>
+      {{- end }}
+      {{- with $cover }}
+      {{- $ext := lower (path.Ext .) }}
+      {{- /* Non-jpeg overrides only; jpeg is the default (also covers .jpg/.jpeg
+             and the extension-less Cloudinary public IDs the newest covers use). */ -}}
+      {{- $type := index (dict ".png" "image/png" ".gif" "image/gif" ".webp" "image/webp" ".avif" "image/avif") $ext | default "image/jpeg" }}
+      <enclosure url="{{ partial "cloudinary-url.html" (dict "src" . "preset" "rss") }}" length="0" type="{{ $type }}" />
       {{- end }}
     </item>
     {{- end }}
