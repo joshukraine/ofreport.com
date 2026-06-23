@@ -3,6 +3,8 @@
 This document tracks implementation progress across build phases. Each item
 links to the relevant PRD document for full requirements.
 
+> **Status: ✅ Rebuild complete.** All 16 phases done; the site has been live on Hugo since 2026-06-23. See the [Launch Readiness Epic #150](https://github.com/joshukraine/ofreport.com-hugo/issues/150) (closed) for the cutover record. Remaining ideas live under [Future / Unscheduled](#future--unscheduled).
+
 **Progress key:** `[ ]` Not started · `[~]` In progress · `[x]` Complete · `[—]` Deferred / descoped
 
 ## Phase Overview
@@ -22,9 +24,9 @@ links to the relevant PRD document for full requirements.
 | 11 | Contact Form (Netlify Forms) | Phase 8 | Complete |
 | 12 | Newsletter Integration | Phase 3 | Complete |
 | 13 | Lightbox Integration | Phase 6 | Complete |
-| 14 | Analytics | Phase 3 | Complete (credentials deferred to Phase 16) |
+| 14 | Analytics | Phase 3 | Complete |
 | 15 | Content Migration | Phase 6 | Complete |
-| 16 | Deployment | Phase 15 | Not started |
+| 16 | Deployment | Phase 15 | Complete |
 
 ---
 
@@ -162,8 +164,8 @@ links to the relevant PRD document for full requirements.
 
 - [x] `partials/analytics.html` — swappable analytics partial (see [`01-architecture.md`](./01-architecture.md))
 - [x] Conditional loading (production only, double-gated on `hugo.IsProduction` + configured website ID)
-- [x] Analytics tool selected and configured (Umami; `[params.umami]` left empty)
-- [—] Live credentials populated (deferred to Phase 16 — go-live flip; reuses the existing OFReport.com Umami website ID)
+- [x] Analytics tool selected and configured (Umami)
+- [x] Live credentials populated at go-live (`[params.umami]` website ID set; reuses the existing OFReport.com Umami site — #187)
 
 **Key learning:** Privacy-friendly analytics partial
 
@@ -183,16 +185,16 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 16: Deployment
 
-> **Launch execution is tracked in the Launch Readiness Epic ([#150](https://github.com/joshukraine/ofreport.com-hugo/issues/150)).** That issue is the living runbook for the cutover (URL parity, redirects, repo rename, integrations, ordered cutover steps). The checkboxes below remain the high-level phase marker.
+> **Launch executed via the Launch Readiness Epic ([#150](https://github.com/joshukraine/ofreport.com-hugo/issues/150), closed).** The site went live on Hugo on 2026-06-23. That epic was the runbook for the cutover (URL parity, redirects, repo rename, integrations, ordered cutover steps); the checkboxes below are the high-level phase marker.
 
-- [ ] `netlify.toml` configured (see [`07-deployment.md`](./07-deployment.md))
-- [~] Redirects for SEO continuity
-- [ ] Security headers
-- [ ] Deploy preview tested
-- [ ] Production deployment
-- [ ] DNS/domain verified (no changes needed)
-- [ ] Lighthouse audit passed
-- [ ] Old repo archived
+- [x] `netlify.toml` configured (see [`07-deployment.md`](./07-deployment.md))
+- [x] Redirects for SEO continuity (#172 / #173)
+- [x] Security headers
+- [x] Deploy preview tested (#182)
+- [x] Production deployment — live on Hugo 2026-06-23
+- [x] DNS/domain verified (no changes needed)
+- [x] Lighthouse audit passed (#184 / #186; a11y follow-ups #190 / #193)
+- [x] Old repo archived (Nuxt source archived; #189)
 
 **Key learning:** Netlify configuration, redirects, final testing
 
