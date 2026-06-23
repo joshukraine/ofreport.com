@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OFReport.com Hugo Rebuild — Debrief: Launch-Readiness Verification Gates</title>
+<style>
+  :root {
+    --bg:#f1f5f9; --surface:#ffffff; --surface-2:#f8fafc; --border:#e2e8f0;
+    --strong:#1e293b; --text:#334155; --muted:#64748b;
+    --accent:#1992d4; --accent-bright:#2bb0ed; --accent-deep:#0f2847;
+    --accent-code:#024775; --accent-soft:#e0f2fe; --heading:#0f2847;
+    --hero-from:#024775; --hero-to:#0f2847;
+    --good:#15803d; --warn:#b45309; --bad:#b91c1c;
+    --cal-info-rule:#1992d4; --cal-info-fill:#dbeafe;
+    --cal-warn-rule:#f59e0b; --cal-warn-fill:#fef3c7;
+    --cal-bad-rule:#dc2626;  --cal-bad-fill:#fee2e2;
+    --cal-good-fill:#dcfce7;
+    --pre-bg:#0f2847; --pre-text:#e2e8f0;
+    --tok-c:#64748b; --tok-k:#7dd3fc; --tok-s:#fcd34d;
+    --radius: 12px; --radius-sm: 8px;
+    --shadow: 0 1px 3px rgba(15,40,71,0.06);
+    --shadow-hero: 0 2px 14px rgba(15,40,71,0.25);
+    --maxw: 1160px;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#0b1622; --surface:#111f30; --surface-2:#16273b; --border:#243b53;
+      --strong:#e6eef7; --text:#b7c5d6; --muted:#7e93ab;
+      --accent:#38bdf8; --accent-bright:#5cc6f5; --accent-deep:#0e2a4a;
+      --accent-code:#7dd3fc; --accent-soft:#0c2a44; --heading:#cfe0f2;
+      --hero-from:#024775; --hero-to:#07223f;
+      --good:#4ade80; --warn:#fbbf24; --bad:#f87171;
+      --cal-info-rule:#38bdf8; --cal-info-fill:#0e2438;
+      --cal-warn-rule:#fbbf24; --cal-warn-fill:#2c2310;
+      --cal-bad-rule:#f87171;  --cal-bad-fill:#371718;
+      --cal-good-fill:#0e2a1a;
+      --pre-bg:#081522; --pre-text:#d6e2f0;
+      --tok-c:#6b7d91; --tok-k:#7dd3fc; --tok-s:#fcd34d;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: var(--sans); line-height: 1.6; font-size: 16px;
+  }
+  strong, b { color: var(--strong); }
+  /* ---- Full-bleed hero (placed BEFORE .wrap in the template) ---- */
+  header.hero {
+    background: linear-gradient(135deg, var(--hero-from) 0%, var(--hero-to) 100%);
+    color: #fff; padding: 44px 0 38px; margin-bottom: 36px; box-shadow: var(--shadow-hero);
+  }
+  header.hero .hero-inner { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+  header.hero h1 { font-size: 34px; line-height: 1.15; font-weight: 800; letter-spacing: -.01em; margin: 0 0 14px; color: #fff; }
+  header.hero .eyebrow { color: var(--accent-bright); }
+  header.hero .sub { color: #cfe6f6; font-size: 16px; margin: -4px 0 16px; }
+  header.hero dl.meta dt { color: #9fc6e6; }
+  header.hero dl.meta dd { color: #eaf6ff; }
+  header.hero dl.meta a { color: #eaf6ff; text-decoration: underline; }
+  header.hero code { background: rgba(255,255,255,0.12); border-color: transparent; color: #eaf6ff; }
+  .eyebrow { color: var(--accent); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; margin: 0 0 8px; }
+  .wrap { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 46px; max-width: var(--maxw); margin: 0 auto; padding: 8px 24px 96px; }
+  /* ---- Table of contents ---- */
+  nav.toc { position: sticky; top: 24px; align-self: start; font-size: 14px; max-height: calc(100vh - 48px); overflow-y: auto; }
+  nav.toc h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 12px; }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; }
+  nav.toc li { margin: 0 0 8px; }
+  nav.toc a { color: var(--muted); text-decoration: none; display: block; padding: 5px 11px; border-left: 2px solid transparent; border-radius: 0 6px 6px 0; }
+  nav.toc a:hover { background: var(--surface); border-left-color: var(--accent); color: var(--accent); }
+  nav.toc .crumb { font-size: 11.5px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--accent); margin: 0 0 4px; padding: 0; border-left: 0; }
+  nav.toc .ttl { font-size: 17px; font-weight: 700; line-height: 1.25; margin: 0 0 16px; color: var(--strong); }
+  nav.toc a .n { color: var(--muted); font-variant-numeric: tabular-nums; margin-right: 6px; }
+  .srcbox { font-size: 12.5px; color: var(--muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 9px; padding: 11px 13px; margin-top: 16px; }
+  .srcbox b { color: var(--strong); }
+  .srcbox code { font-family: var(--mono); font-size: 12px; }
+  /* ---- Main column ---- */
+  main { min-width: 0; }
+  dl.meta { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 0; font-size: 14px; }
+  dl.meta dt { color: var(--muted); font-weight: 600; }
+  dl.meta dd { margin: 0; }
+  .sub { color: var(--muted); }
+  /* ---- Metric strip (render at top of main, under the hero) ---- */
+  .metrics { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin: 0 0 26px; }
+  .metric { border: 1px solid var(--border); border-radius: var(--radius); padding: 13px 15px; background: var(--surface); box-shadow: var(--shadow); }
+  .metric .v { font-size: 24px; font-weight: 700; line-height: 1; color: var(--heading); }
+  .metric .k { font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.3; }
+  /* ---- Sections: OPEN underlined headers (collapsible, no box) ---- */
+  details.section { margin: 30px 0; }
+  details.section > summary {
+    cursor: pointer; list-style: none; font-size: 20px; font-weight: 700; color: var(--heading);
+    padding: 0 0 8px; border-bottom: 2px solid var(--border);
+    display: flex; align-items: center; gap: 12px; letter-spacing: -.01em;
+  }
+  details.section > summary::-webkit-details-marker { display: none; }
+  details.section > summary::before {
+    content: "›"; display: inline-block; transition: transform .15s ease;
+    color: var(--accent-bright); font-size: 19px; line-height: 1; font-weight: 700;
+  }
+  details.section[open] > summary::before { transform: rotate(90deg); }
+  details.section > summary .badge { margin-left: auto; font-family: var(--mono); font-size: 11.5px; font-weight: 600; color: var(--muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; }
+  .section-body { padding: 16px 0 0; }
+  h3 { font-size: 17px; margin: 24px 0 9px; letter-spacing: -.01em; color: var(--strong); }
+  h4 { font-size: 13px; margin: 20px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  p { margin: 14px 0; }
+  a { color: var(--accent); }
+  code { font-family: var(--mono); font-size: 13px; background: var(--bg); border: 1px solid var(--border); padding: 1px 6px; border-radius: 5px; color: var(--accent-code); }
+  /* ---- Code blocks: navy in BOTH modes (echoes the hero), syntax tokens ---- */
+  pre { background: var(--pre-bg); color: var(--pre-text); border-radius: var(--radius); padding: 16px 18px; overflow-x: auto; font-size: 13.5px; line-height: 1.6; box-shadow: var(--shadow); }
+  pre code { background: none; border: 0; padding: 0; font-size: inherit; color: inherit; }
+  pre .c { color: var(--tok-c); }   /* comment / delimiter */
+  pre .k { color: var(--tok-k); }   /* keyword */
+  pre .s { color: var(--tok-s); }   /* string */
+  /* ---- Tables: white card, navy thead, zebra rows ---- */
+  table { border-collapse: separate; border-spacing: 0; width: 100%; margin: 18px 0; font-size: 14.5px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+  thead th { background: var(--accent-deep); color: #fff; text-align: left; padding: 12px 14px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+  tbody td { text-align: left; padding: 13px 14px; border-top: 1px solid var(--border); vertical-align: top; }
+  tbody tr:nth-child(even) { background: var(--surface-2); }
+  /* ---- Callouts (info default; warn; flag) ---- */
+  .callout { border-left: 4px solid var(--cal-info-rule); background: var(--cal-info-fill); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 14px 18px; margin: 20px 0; }
+  .callout.warn { border-left-color: var(--cal-warn-rule); background: var(--cal-warn-fill); }
+  .callout.flag { border-left-color: var(--cal-bad-rule); background: var(--cal-bad-fill); }
+  .callout .label { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; display: block; margin-bottom: 5px; color: var(--strong); }
+  /* ---- Rundown: icon-led points on a card with hairline dividers ---- */
+  .rundown { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); padding: 2px 22px; margin: 20px 0; }
+  .rundown .item { display: flex; gap: 14px; padding: 15px 0; border-bottom: 1px solid var(--border); }
+  .rundown .item:last-child { border-bottom: none; }
+  .rundown .ico { flex: none; width: 24px; text-align: center; font-size: 17px; line-height: 1.55; }
+  .rundown .item:not(:has(.ico)) .body { position: relative; padding-left: 20px; }
+  .rundown .item:not(:has(.ico)) .body::before { content: ""; position: absolute; left: 0; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent-bright); }
+  .rundown .item .body { color: var(--text); }
+  /* ---- Story / step cards ---- */
+  .story { border: 1px solid var(--border); border-radius: var(--radius); margin: 20px 0; overflow: hidden; background: var(--surface); box-shadow: var(--shadow); }
+  .story > .story-head { background: var(--surface-2); padding: 12px 18px; font-weight: 600; font-size: 16px; color: var(--strong); border-bottom: 1px solid var(--border); }
+  .story .role-pill { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 2px 11px; margin-left: 8px; }
+  .story ol { margin: 12px 0; padding-left: 28px; }
+  .story ol li { margin: 8px 0; }
+  .story .expect { color: var(--good); font-weight: 500; }
+  .story-body { padding: 4px 18px 16px; }
+  /* ---- Diagram figure ---- */
+  figure.diagram { margin: 22px 0; text-align: center; }
+  figure.diagram svg { max-width: 100%; height: auto; }
+  figure.diagram figcaption { color: var(--muted); font-size: 13px; margin-top: 9px; }
+  /* ---- Tags ---- */
+  .tag { font-size: 11.5px; font-weight: 600; padding: 2px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: .04em; }
+  .tag.good { color: var(--good); background: var(--cal-good-fill); }
+  .tag.warn { color: var(--warn); background: var(--cal-warn-fill); }
+  .tag.bad { color: var(--bad); background: var(--cal-bad-fill); }
+  /* ---- Click-to-copy ---- */
+  .copy { cursor: pointer; border: 1px solid var(--border); background: var(--surface-2); color: inherit; font-family: var(--mono); font-size: 0.95em; line-height: 1; padding: 0.2em 0.65em; border-radius: 6px; display: inline-flex; align-items: center; gap: 0.45em; user-select: none; vertical-align: baseline; transition: background .12s ease, border-color .12s ease, color .12s ease; }
+  .copy:hover { background: var(--accent-soft); border-color: var(--accent); }
+  .copy::after { content: "⧉"; opacity: 0.7; font-size: 1.05em; }
+  .copy.copied { color: var(--good); border-color: var(--good); }
+  .copy.copied::after { content: "✓"; opacity: 1; }
+  /* ---- Button (primary CTA; works on <button> or <a>) ---- */
+  .btn { display: inline-block; cursor: pointer; font-family: var(--sans); font-size: 15px; font-weight: 600; color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: var(--radius-sm); padding: 9px 17px; text-decoration: none; }
+  .btn:hover { filter: brightness(1.08); }
+  /* ---- Checklist ---- */
+  ul.checklist { list-style: none; margin: 14px 0; padding: 0; }
+  ul.checklist li { margin: 10px 0; }
+  ul.checklist label { display: flex; gap: 9px; align-items: flex-start; cursor: pointer; }
+  ul.checklist input { margin-top: 5px; flex: none; accent-color: var(--accent); }
+  footer.doc { margin-top: 46px; padding-top: 18px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13.5px; }
+  /* ---- RFC keyword chip (MUST / SHOULD / MAY) ---- */
+  .kw { font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: .04em; padding: 1px 8px; border-radius: 5px; background: var(--cal-warn-fill); color: var(--warn); border: 1px solid var(--cal-warn-rule); }
+  /* ---- Data-model field markers (used inside tables) ---- */
+  .pill { font-family: var(--mono); font-size: 11.5px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--border); color: var(--muted); white-space: nowrap; }
+  .req { color: var(--bad); font-size: 11.5px; font-weight: 700; }
+  .opt { color: var(--muted); font-size: 11.5px; }
+  /* ---- Responsive ---- */
+  @media (max-width: 820px) {
+    header.hero { padding: 32px 0 28px; margin-bottom: 24px; }
+    header.hero .hero-inner { padding: 0 16px; }
+    header.hero h1 { font-size: 27px; }
+    .wrap { grid-template-columns: 1fr; gap: 18px; padding: 4px 16px 64px; }
+    nav.toc { position: static; max-height: none; border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 18px; background: var(--surface); }
+    .metrics { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">OFReport.com Hugo Rebuild · Debrief</p>
+    <h1>Launch-Readiness Verification Gates</h1>
+    <dl class="meta">
+      <dt>Date</dt><dd>2026-06-23</dd>
+      <dt>Scope</dt><dd>Phase 16 (Deployment) foundation — URL parity, redirects &amp; re-runnable pre-cutover gates</dd>
+      <dt>PRs</dt><dd>#174, #175, #176, #177, #178 (all merged)</dd>
+      <dt>Issues</dt><dd>#171, #172, #173, #168, #166 — under launch epic #150</dd>
+      <dt>PRD refs</dt><dd><code>07-deployment.md</code> "Netlify Configuration"; <code>ROADMAP.md</code> Phase 16</dd>
+    </dl>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#built"><span class="n">1</span>What We Built</a></li>
+      <li><a href="#architecture"><span class="n">2</span>Architecture &amp; Decisions</a></li>
+      <li><a href="#tests"><span class="n">3</span>Gate Coverage</a></li>
+      <li><a href="#tour"><span class="n">4</span>Run It Yourself</a></li>
+    </ol>
+    <div class="srcbox">
+      <b>One-line verdict:</b> All <b>373</b> live URLs resolve on Hugo — <b>0</b> would 404. Cutover has a proven, re-runnable safety net.
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="metrics">
+      <div class="metric"><div class="v">373</div><div class="k">live URLs, 0 would 404</div></div>
+      <div class="metric"><div class="v">347 / 26 / 0</div><div class="k">1:1 / single-301 / fail</div></div>
+      <div class="metric"><div class="v">125</div><div class="k">covers probed, 0 broken</div></div>
+      <div class="metric"><div class="v">0</div><div class="k">broken internal links</div></div>
+      <div class="metric"><div class="v">4</div><div class="k">re-runnable gates</div></div>
+      <div class="metric"><div class="v">5</div><div class="k">PRs merged</div></div>
+    </div>
+
+    <details class="section" id="built" open>
+      <summary>1 · What We Built (and Why It Matters)</summary>
+      <div class="section-body">
+
+        <p>This window built the <strong>verification scaffolding for the Nuxt → Hugo cutover</strong>. The site's content and templates were already done; what was missing was <em>evidence</em> that flipping the switch won't break SEO — that every URL Google has indexed for 18 years still resolves on the new stack. That's exactly what this work proves, and it proves it with scripts we can re-run on cutover day rather than a one-time manual spot-check.</p>
+
+        <p>It maps to <code>ROADMAP.md</code> Phase 16 (Deployment) and <code>07-deployment.md</code> "Netlify Configuration", and every issue rolls up to the <strong>Launch Readiness Epic (#150)</strong>, which is the living cutover runbook. During the same window, <strong>Phase 15 (Content Migration) was formally closed</strong> — all 16 checkboxes complete.</p>
+
+        <h3>The five pieces</h3>
+        <div class="rundown">
+          <div class="item"><div class="ico">🗺️</div><div class="body"><strong>URL parity audit</strong> (#174 / #171) — a static diff of the live Nuxt sitemap against the local Hugo build. Proves the right pages <em>exist</em>. Verdict: 347 one-to-one, 26 need a redirect, <strong>0 would 404</strong>.</div></div>
+          <div class="item"><div class="ico">↪️</div><div class="body"><strong>Redirect map + noindex</strong> (#175 / #172) — forced server-side 301s for the 26 <code>page/1</code> URLs, and a <code>noindex</code> + sitemap exclusion for the new <code>/thank-you</code> page.</div></div>
+          <div class="item"><div class="ico">✅</div><div class="body"><strong>Live resolution gate</strong> (#176 / #173) — <code>verify.py</code> fires real HTTP at the deployed preview and proves every old URL <em>resolves</em> (200, direct or via one clean 301). The behavioral complement to the static audit.</div></div>
+          <div class="item"><div class="ico">🖼️</div><div class="body"><strong>Cover-image probe</strong> (#177 / #166) — <code>probe-covers.rb</code> rebuilds each article's served cover URL and confirms it resolves on Cloudinary. 125 covers, <strong>0 broken</strong>.</div></div>
+          <div class="item"><div class="ico">🔗</div><div class="body"><strong>Site-wide link check</strong> (#178 / #168) — a lychee gate over the built site. Internal links are a hard zero-tolerance gate; outbound links are triaged. Fixed/repointed several dead legacy links along the way.</div></div>
+        </div>
+
+        <h3>Scope decisions</h3>
+        <p><strong>Included:</strong> everything needed to <em>prove</em> parity and catch regressions, plus the two small behavior changes the audit surfaced as necessary (the <code>page/1</code> redirects and the <code>/thank-you</code> noindex). <strong>Deliberately deferred:</strong> the remaining Phase 16 items — full <code>netlify.toml</code> build config sign-off, security-header review, the Lighthouse audit, and the actual production flip. Also deferred: wiring these gates into CI (today they're local/manual, which is the right call for a one-time cutover — see flags).</p>
+
+        <div class="callout">
+          <span class="label">Why this matters for an 18-year-old blog</span>
+          OFReport has 223 articles indexed since 2008. A botched cutover that 404s even a handful of permalinks throws away accumulated SEO equity and breaks inbound links from across the web. This work converts "we think the URLs match" into "we proved all 373 resolve, and here's the script that re-proves it on launch morning."
+        </div>
+      </div>
+    </details>
+
+    <details class="section" id="architecture">
+      <summary>2 · Architecture &amp; Design Decisions</summary>
+      <div class="section-body">
+
+        <h3>The three-stage parity pipeline</h3>
+        <p>The single most important structural decision was splitting URL parity into <strong>three stages with two distinct scripts</strong>, rather than one mega-checker. Each stage answers a different question and fails for a different reason.</p>
+
+        <figure class="diagram">
+          <svg viewBox="0 0 720 230" role="img" aria-label="Three-stage URL parity pipeline: audit, redirects, verify">
+            <defs>
+              <marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+                <path d="M0,0 L7,3 L0,6 Z" fill="#1992d4"></path>
+              </marker>
+            </defs>
+            <!-- Stage 1 -->
+            <rect x="14" y="40" width="200" height="92" rx="10" fill="#ffffff" stroke="#1992d4" stroke-width="1.5"></rect>
+            <text x="114" y="66" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f2847">1 · audit.py</text>
+            <text x="114" y="88" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11.5" fill="#475569">static diff</text>
+            <text x="114" y="105" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11.5" fill="#475569">live sitemap vs ./public</text>
+            <text x="114" y="122" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#15803d" font-weight="600">"pages EXIST"</text>
+            <!-- Stage 2 -->
+            <rect x="260" y="40" width="200" height="92" rx="10" fill="#ffffff" stroke="#64748b" stroke-width="1.5"></rect>
+            <text x="360" y="66" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f2847">2 · netlify.toml</text>
+            <text x="360" y="88" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11.5" fill="#475569">forced 301 redirects</text>
+            <text x="360" y="105" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11.5" fill="#475569">+ /thank-you noindex</text>
+            <text x="360" y="122" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#b45309" font-weight="600">"pages REDIRECT"</text>
+            <!-- Stage 3 -->
+            <rect x="506" y="40" width="200" height="92" rx="10" fill="#ffffff" stroke="#1992d4" stroke-width="1.5"></rect>
+            <text x="606" y="66" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="14" font-weight="700" fill="#0f2847">3 · verify.py</text>
+            <text x="606" y="88" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11.5" fill="#475569">live HTTP gate</text>
+            <text x="606" y="105" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11.5" fill="#475569">real requests → preview</text>
+            <text x="606" y="122" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="11" fill="#15803d" font-weight="600">"pages RESOLVE"</text>
+            <!-- arrows -->
+            <line x1="214" y1="86" x2="258" y2="86" stroke="#1992d4" stroke-width="1.6" marker-end="url(#arr)"></line>
+            <line x1="460" y1="86" x2="504" y2="86" stroke="#1992d4" stroke-width="1.6" marker-end="url(#arr)"></line>
+            <!-- inventory feed -->
+            <rect x="160" y="178" width="200" height="34" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2"></rect>
+            <text x="260" y="199" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" fill="#64748b">live-urls.txt (373, committed)</text>
+            <line x1="180" y1="178" x2="130" y2="134" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3"></line>
+            <line x1="340" y1="178" x2="600" y2="134" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="3 3"></line>
+          </svg>
+          <figcaption>Audit proves existence offline; verify proves resolution live. Both read the same committed 373-URL inventory, so they can't disagree about <em>what</em> they're checking.</figcaption>
+        </figure>
+
+        <p><strong>Why two scripts and not one?</strong> <code>audit.py</code> is deterministic and offline — it diffs a committed snapshot of the live Nuxt sitemap against a walk of <code>./public</code>, so it runs in CI-time with no network and catches a missing page the instant the build changes. <code>verify.py</code> is the opposite: it makes real HTTP requests to the deployed preview, because a page can exist as a file yet still fail to resolve if a Netlify redirect rule misfires or a chain forms. One can't replace the other — they catch different failure classes — so collapsing them would have hidden a category of bug.</p>
+
+        <h3>The subtle bit: the "cosmetic slash hop" exclusion</h3>
+        <p>This is the decision I'd most want a future maintainer to understand. Netlify automatically 301s a missing trailing slash (<code>/contact</code> → <code>/contact/</code>) — that's the <em>same page</em>, just normalized. Meanwhile the real redirect we care about (<code>/blog/page/1</code> → <code>/blog/</code>) <em>also</em> gets slash-normalized in the same response. A naïve hop-counter would see two redirects and flag <code>page/1</code> as a failing multi-hop chain.</p>
+        <p>So <code>verify.py</code>'s classifier counts a hop as a "content hop" only when the path actually changes ignoring slashes:</p>
+        <pre><code><span class="c"># docs/url-parity/verify.py — content_hops()</span>
+<span class="k">return</span> sum(
+    1
+    <span class="k">for</span> cur, status, loc <span class="k">in</span> chain
+    <span class="k">if</span> status <span class="k">in</span> REDIRECT_CODES <span class="k">and</span> loc
+    <span class="k">and</span> cur.rstrip(<span class="s">"/"</span>) != loc.rstrip(<span class="s">"/"</span>)   <span class="c"># slash-only hop doesn't count</span>
+)</code></pre>
+        <p>That one comparison is what makes the live buckets (347 / 26 / 0) line up <em>exactly</em> with the static audit's prediction. Without it, the two stages would report different numbers and the whole "proof" falls apart.</p>
+
+        <h3>Proving the old redirect rule was dead</h3>
+        <p>The PRD shipped a redirect rule for <code>page/1</code> — but the audit <em>traced it on the live preview</em> and found it never fired:</p>
+        <pre><code><span class="c"># What actually happened with the original non-forced rule:</span>
+/blog/page/1  ->[301]->  /blog/page/1/  ->[200]  (Hugo alias stub, meta-refresh)</code></pre>
+        <p>Netlify normalized the slash first, then served Hugo's own <code>page/1/index.html</code> alias file — which <em>shadows</em> a non-forced redirect. The fix needed three things together, and the live gate confirms all three work:</p>
+        <table>
+          <thead><tr><th>Change</th><th>Why it's required</th></tr></thead>
+          <tbody>
+            <tr><td><code>force = true</code></td><td>Wins over the existing <code>page/1/index.html</code> alias file (a non-forced rule loses to a real file).</td></tr>
+            <tr><td>trailing-slash <code>from</code></td><td>Matches Netlify's <em>normalized</em> request path, so the rule is reached at all.</td></tr>
+            <tr><td><code>:tag</code> placeholder</td><td>Collapses all 25 tag <code>page/1</code> URLs into one rule. The live verify (26/26 single-301s) confirms the placeholder matches every tag — the open question from the audit is now answered.</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Defense-in-depth noindex for <code>/thank-you</code></h3>
+        <p><code>/thank-you</code> is the one genuinely new URL (the Nuxt site processed its contact form via Lambda and had no confirmation page). A form-confirmation page should never appear in search, so it's suppressed two independent ways:</p>
+        <pre><code><span class="c"># content/thank-you.md frontmatter</span>
+<span class="k">noindex:</span> <span class="s">true</span>          <span class="c"># → robots meta, via seo.html</span>
+<span class="k">sitemap:</span>
+  <span class="k">disable:</span> <span class="s">true</span>       <span class="c"># → kept out of sitemap.xml</span></code></pre>
+        <p>The <code>seo.html</code> gate is <code>{{ if and hugo.IsProduction (not .Params.noindex) }}</code> — production-gated <em>and</em> per-page opt-out. Robots meta tells a crawler that arrives not to index; the sitemap exclusion stops us advertising the page in the first place. Different crawler paths, so both are warranted. <code>verify.py</code> explicitly asserts <code>/thank-you</code> never leaks into the sitemap.</p>
+
+        <h3>Gates own disjoint slices (the exclude-list philosophy)</h3>
+        <p>Each gate deliberately excludes what another gate owns, so coverage is partitioned rather than overlapping:</p>
+        <div class="rundown">
+          <div class="item"><div class="ico">🔗</div><div class="body">lychee excludes <code>ofreport.com</code> — that's <code>verify.py</code>'s job (and checking it here would hit the <em>old</em> live Nuxt site).</div></div>
+          <div class="item"><div class="ico">🖼️</div><div class="body">lychee excludes <code>res.cloudinary.com</code> — covers are <code>probe-covers.rb</code>'s job, and bulk automated HEADs to hundreds of derivatives throttle into non-deterministic "connection failed" noise.</div></div>
+          <div class="item"><div class="ico">📋</div><div class="body">Every other exclude entry is documented <em>triage</em> in <code>docs/link-check.md</code> — bot-blocked-but-live (Vimeo, Ford UK), or dead legacy links with no live equivalent — never silent suppression.</div></div>
+        </div>
+        <p>The payoff is that each gate is deterministic on its own slice; you never get a red run because two gates fought over the same flaky resource.</p>
+
+        <div class="callout">
+          <span class="label">POODR spotlight — Single Responsibility &amp; depending on stable things</span>
+          <p style="margin-top:6px">The <code>audit.py</code> / <code>verify.py</code> split is textbook <strong>Single Responsibility</strong>: each script has exactly one reason to change. If the build's page set changes, only <code>audit.py</code> is affected; if Netlify's redirect behavior changes, only <code>verify.py</code> cares. Merging them would have given one class two axes of change — the SRP smell.</p>
+          <p>The second principle on display is <strong>depend on something more stable than yourself</strong>. <code>probe-covers.rb</code> reads <code>cloudinaryBase</code> straight out of <code>hugo.toml</code> rather than hardcoding the CDN host, and both parity scripts read the committed <code>live-urls.txt</code> inventory rather than re-deriving it. The gates depend on the same source of truth the site does, so they can't quietly drift from it. The one place this <em>isn't</em> achieved — the <code>HERO_TRANSFORMS</code> constant duplicating the partial's preset — is flagged in code with a "MUST stay in sync" comment, i.e. acknowledged coupling rather than hidden coupling.</p>
+        </div>
+
+        <h3>One clever insight worth keeping</h3>
+        <p><code>probe-covers.rb</code> probes only <em>one</em> transform per cover (the <code>hero</code> preset), not all six. The reasoning: Cloudinary derivatives are all-or-nothing on the source asset — if the asset exists, every transform of it resolves; if the cover was fabricated/placeholder, every transform 404s. So one representative transform conclusively answers "does this cover resolve?" That's a 6× reduction in network calls justified by how the CDN actually behaves.</p>
+      </div>
+    </details>
+
+    <details class="section" id="tests">
+      <summary>3 · Gate Coverage &amp; Quality</summary>
+      <div class="section-body">
+        <p>This chunk has no unit tests in the traditional sense — it <em>is</em> the test suite for the cutover. The "tests" are four re-runnable gates, each exiting non-zero on failure so a clean run is unambiguous. My philosophy here was: <strong>prove the launch-critical invariants empirically, and make every proof repeatable on cutover day</strong> rather than a one-shot manual check.</p>
+
+        <h3>All gates re-run for this debrief (2026-06-23) — all green</h3>
+        <table>
+          <thead><tr><th>Gate</th><th>What it proves</th><th>Result</th></tr></thead>
+          <tbody>
+            <tr><td><code>hugo --gc --minify</code></td><td>Production build is clean</td><td><span class="tag good">290 pages · 0.6s</span></td></tr>
+            <tr><td><code>probe-covers.rb</code></td><td>Every article cover resolves on Cloudinary</td><td><span class="tag good">125 / 125 · 0 broken</span></td></tr>
+            <tr><td><code>audit.py</code></td><td>Right pages exist (static diff)</td><td><span class="tag good">373 URLs · 0 would 404</span></td></tr>
+            <tr><td><code>verify.py</code></td><td>Every old URL resolves live (preview)</td><td><span class="tag good">347 / 26 / 0 · PASS</span></td></tr>
+            <tr><td><code>lychee</code> (documented run)</td><td>No broken internal links</td><td><span class="tag good">3830 unique · 0 internal errors</span></td></tr>
+          </tbody>
+        </table>
+
+        <p>The live <code>verify.py</code> run also asserts the SEO-critical specifics — <strong>blog 223/223, tags 25/25, <code>/feed.xml</code> a real feed (Mailchimp continuity), and <code>/sitemap.xml</code> listing 258 real-page URLs with <code>/thank-you</code> excluded</strong>. Those aren't aggregate counts; each is an explicit PASS/FAIL line in the script.</p>
+
+        <h3>What I deliberately did not test, and why</h3>
+        <div class="rundown">
+          <div class="item"><div class="body"><strong>Every Cloudinary figure derivative</strong> — out of scope by design. Covers have a dedicated probe; bulk HEADs to inline-figure derivatives throttle and would make the gate flaky. <em>Known coverage gap:</em> a typo'd inline figure public ID would not be caught by any current gate. Acceptable for cutover; worth a thought post-launch.</div></div>
+          <div class="item"><div class="body"><strong>Outbound link liveness as a hard gate</strong> — outbound links are triaged, not gated. Many hosts bot-block crawlers (403/429) while working fine in a browser, and some legacy links are simply dead with no replacement. Hard-gating them would mean a perpetually red run for things we can't fix.</div></div>
+          <div class="item"><div class="body"><strong>Production domain resolution</strong> — <code>verify.py</code> runs against the preview today because production is still the Nuxt site. The script takes a base-URL argument precisely so it becomes the cutover-day check against <code>ofreport.com</code>.</div></div>
+        </div>
+
+        <div class="callout warn">
+          <span class="label">Thin spot to watch</span>
+          The gates are powerful but <strong>manual</strong> — none are wired into the Netlify build or CI yet. For a one-time cutover that's the right call (you run them deliberately, in order, before flipping). Post-launch, the lack of automation is a regression risk: a future content edit could reintroduce a broken internal link and nothing would catch it until the next manual run.
+        </div>
+      </div>
+    </details>
+
+    <details class="section" id="tour" open>
+      <summary>4 · Run It Yourself</summary>
+      <div class="section-body">
+        <p>This is infrastructure work, so the "product tour" is running the gates and watching the redirects behave in a browser. Everything below is copy-paste. Run from the repo root.</p>
+
+        <div class="story">
+          <div class="story-head">Prove URL parity end to end <span class="role-pill">Release engineer</span></div>
+          <div class="story-body">
+            <ol>
+              <li>Produce a clean build:
+                <button type="button" class="copy" data-copy="hugo --gc --minify --cleanDestinationDir">hugo --gc --minify --cleanDestinationDir</button></li>
+              <li>Run the static audit (offline — diffs the live sitemap against <code>./public</code>):
+                <button type="button" class="copy" data-copy="python3 docs/url-parity/audit.py">python3 docs/url-parity/audit.py</button>
+                <span class="expect">Expected: "MISSING (404 risk): 0" and "extra Hugo pages: 1 (+ /thank-you)". Exit 0.</span></li>
+              <li>Run the live gate against the deploy preview:
+                <button type="button" class="copy" data-copy="python3 docs/url-parity/verify.py">python3 docs/url-parity/verify.py</button>
+                <span class="expect">Expected: buckets 347 / 26 / 0, all four SEO confirmations PASS, "RESULT: PASS".</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="story">
+          <div class="story-head">Confirm every cover image is live <span class="role-pill">Release engineer</span></div>
+          <div class="story-body">
+            <ol>
+              <li>Probe all article covers on Cloudinary:
+                <button type="button" class="copy" data-copy="ruby scripts/probe-covers.rb">ruby scripts/probe-covers.rb</button>
+                <span class="expect">Expected: "Status summary: 200: 125" and "Cover failures (0)". Exit 0.</span></li>
+              <li>To prove it's a real gate, the script exits non-zero if any cover 404s — so it's safe to drop straight into a pre-cutover checklist.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="story">
+          <div class="story-head">Run the site-wide link check <span class="role-pill">Release engineer</span></div>
+          <div class="story-body">
+            <ol>
+              <li>One-time install (if needed):
+                <button type="button" class="copy" data-copy="brew install lychee">brew install lychee</button></li>
+              <li>Crawl the built site (auto-loads <code>lychee.toml</code>):
+                <button type="button" class="copy" data-copy="lychee --root-dir &quot;$PWD/public&quot; public">lychee --root-dir "$PWD/public" public</button>
+                <span class="expect">Expected: "0 Errors" and exit 0. Internal links are the hard gate.</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="story">
+          <div class="story-head">See a <code>page/1</code> redirect fire in the browser <span class="role-pill">Reviewer</span></div>
+          <div class="story-body">
+            <ol>
+              <li>Open the deploy preview's blog pagination URL:
+                <button type="button" class="copy" data-copy="https://ofreport-dev.netlify.app/blog/page/1/">https://ofreport-dev.netlify.app/blog/page/1/</button></li>
+              <li>Open DevTools → Network, tick "Preserve log", then reload.
+                <span class="expect">Expected: a single 301 from <code>/blog/page/1/</code> to <code>/blog/</code>, landing on a 200 — not a meta-refresh, not a chain.</span></li>
+              <li>Repeat with any tag, e.g.
+                <button type="button" class="copy" data-copy="https://ofreport-dev.netlify.app/tags/family/page/1/">https://ofreport-dev.netlify.app/tags/family/page/1/</button>
+                <span class="expect">Expected: 301 → <code>/tags/family/</code>. The single <code>:tag</code> rule covers all 25 tags.</span></li>
+              <li>Confirm the new page is non-indexable — view source on
+                <button type="button" class="copy" data-copy="https://ofreport-dev.netlify.app/thank-you/">https://ofreport-dev.netlify.app/thank-you/</button>
+                <span class="expect">Expected: <code>&lt;meta name="robots" content="noindex,nofollow"&gt;</code> in the head, and the URL absent from <code>/sitemap.xml</code>.</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="callout flag">
+          <span class="label">One real follow-up before launch</span>
+          The "Donate Now" button on <code>2025-04-23-before-the-curtain-closes</code> points at a NoGreaterJoy product page that now 404s. It's parked in the lychee exclude list, but it's a <strong>live, user-facing giving CTA</strong> — not a crawler nit. It needs the current NoGreaterJoy giving URL to repoint before cutover. This is the highest-value open item in the set.
+        </div>
+      </div>
+    </details>
+
+    <footer class="doc">
+      Generated by the <code>/debrief</code> skill · 2026-06-23 · Summary log at <code>docs/debriefs/summary/2026-06-23-launch-readiness-gates.md</code>
+    </footer>
+  </main>
+</div>
+<script>
+  // Click-to-copy. Any [data-copy] element copies its data-copy value
+  // (falling back to its text). Modern Clipboard API with a legacy
+  // execCommand fallback so it works on file:// and older browsers.
+  (function () {
+    function flash(el) {
+      el.classList.add("copied");
+      clearTimeout(el._copyTimer);
+      el._copyTimer = setTimeout(function () { el.classList.remove("copied"); }, 1200);
+    }
+    function legacyCopy(text, el) {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "absolute";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); flash(el); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+    document.addEventListener("click", function (e) {
+      var el = e.target.closest("[data-copy]");
+      if (!el) return;
+      var text = el.getAttribute("data-copy") || el.textContent.trim();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { flash(el); },
+          function () { legacyCopy(text, el); });
+      } else {
+        legacyCopy(text, el);
+      }
+    });
+  })();
+</script>
+</body>
+</html>
