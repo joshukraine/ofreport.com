@@ -62,8 +62,7 @@ As you have likely inferred by now, we needed to move the text of *Bible First* 
 
 Ralph's first task would be to take every English lesson in the *Bible First* program and convert it into a plain-text format called [Markdown][md title]. From there he would go through the entire lesson, paragraph by paragraph, and ensure that all the content was present and displayed in its proper order. This also involved adding special formatting markers that would indicate which text should be bold or italic, which headings should be primary or secondary, and so on.
 
-[![Comparing Spanish and English versions of Bible First in Vim.](https://d21yo20tm8bmc2.cloudfront.net/2017/vim-markdown-550w.png)](https://d21yo20tm8bmc2.cloudfront.net/2017/vim-markdown-2300w.png)
-Comparing Spanish and English versions of Bible First in Vim.
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/vim-markdown-2300w.png" caption="Comparing Spanish and English versions of Bible First in Vim." >}}
 
 Every step of the way, Ralph would save his work in Git - an operation known as *making a commit* - and upload it to a remote repository. When this process was completed for a given lesson, Ralph would send us a request for review. Once approved, the lesson would be merged into what is called the *master branch* - the main body of the repository where all content is kept.
 
@@ -92,8 +91,7 @@ Initially, we worked together formatting one of our Ukrainian lessons until Ralp
 
 Now, as new material is completed and placed under version control, Ralph has the skills to complete the cycle by formatting the lessons for print.
 
-[![Laying out pages for Bible First in Ukrainian](https://d21yo20tm8bmc2.cloudfront.net/2017/ralph-computer-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/ralph-computer-2000w.jpg)
-Laying out pages for Bible First in Ukrainian.
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/ralph-computer-2000w.jpg" caption="Laying out pages for Bible First in Ukrainian." >}}
 
 <div class="link-target__container">
  <span class="link-target" id="skip-to-conclusion"></span>
@@ -114,11 +112,7 @@ Make no mistake: the God who searched the globe to find Abraham, David, Samuel, 
 
 ---
 
-[![Be like Ralph.](https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-04-550w.jpg)](https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-04-2000w.jpg)
-
-**This is Ralph.  
-Ralph is happy because he's chosen to follow God.  
-Be like Ralph.**
+{{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-04-2000w.jpg" caption="**This is Ralph.<br>Ralph is happy because he's chosen to follow God.<br>Be like Ralph.**" >}}
 
 [cli title]: https://en.wikipedia.org/wiki/Command-line_interface "Read more about command line interfaces."
 [vim title]: https://en.wikipedia.org/wiki/Vim_(text_editor) "Read more about Vim."
