@@ -11,7 +11,7 @@ slug: 2013-06-22-pillars-genesis-part-5-isaac
 
 The following is an excerpt taken from the twentieth and final lesson of *[Bible First](http://www.getbiblefirst.com)*.
 
-### Isaac’s Substitution
+## Isaac’s Substitution
 
 After repeatedly promising Abraham that he would become a great nation, God fulfilled His word by giving Abraham a miracle son: Isaac. Given this background, one can only imagine the shock Abraham must have experienced when God commanded him to offer Isaac as a sacrifice. Not only was human sacrifice inconsistent with God’s previous commands regarding the sanctity of life, but this new directive seemed a contradiction of His promise to make Abraham the head of a great nation. How could there ever be such a nation if God’s promised child, Isaac, was to die?
 
@@ -25,11 +25,11 @@ Similar to Isaac’s plight, all of humanity was once in jeopardy because of sin
 
 Substitution was God’s master plan to save His family from condemnation. By offering His only begotten Son to be executed in our place, God could remain just, and at the same time justify the ungodly. *“...That he might be just, and the justifier of him which believeth on Jesus.” (Romans 3:26)* Christ took our place on the cross in order to purchase for us a place in the family of God.
 
-### Isaac’s Substitution in Genesis
+## Isaac’s Substitution in Genesis
 
 *“And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering <span style="text-decoration: underline;">in the stead of his son</span>.” (Genesis 22:13)*
 
-### Christ as Our Substitute in the New Testament
+## Christ as Our Substitute in the New Testament
 
 *“For when we were yet without strength, in due time <span style="text-decoration: underline;">Christ died for the ungodly</span>. For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die. But God commendeth his love toward us, in that, <span style="text-decoration: underline;">while we were yet sinners, Christ died for us</span>.” (Romans 5:6–8)*
 

@@ -40,7 +40,7 @@ Finally the day came. Speaking tag-team, in Ukrainian, for nearly seven hours tu
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2016/04/IMG_6876.jpg" caption="The seminar lasted for the better part of a Saturday. It was exhausting but fun!" >}}
 
-### CMO 2016
+## CMO 2016
 
 Summer is approaching once again, and with it our annual project: Carpathian Mountain Outreach. This year it looks like five young men will be joining us from the States as we spread the Gospel here in western Ukraine.
 
@@ -48,7 +48,7 @@ As always, there is much preparation to be done. In particular, we will be print
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/12/cmo-logo-full.png" alt="cmo-logo-full" >}}
 
-### Bible First
+## Bible First
 
 God continues to bless the impact of our Bible First course both here in Ukraine and elsewhere. Enrollment for our Ukrainian course is now over 700 students, and with CMO approaching, that number is likely to increase significantly.
 
@@ -60,7 +60,7 @@ Additionally, the Lord has provided some extra assistance with the Bible First w
 
 <h3 style="text-align: center;"><a href="http://nogreaterjoy.org/shop/bible-first-complete-set">Purchase Bible First</a></h3>
 
-### How You Can Pray
+## How You Can Pray
 
 * Pray that much fruit would come as a result of the parenting seminar. Pray that God would open doors for us to do more seminars in the future.
 * Pray that God would bless CMO 2 016, and that as a result many would hear the Gospel.

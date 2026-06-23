@@ -22,7 +22,7 @@ Our family is getting things ready for the holidays!
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3781.jpg" caption="Taking your own picture with a Nikon D40 is not that easy. (The girls were sleeping; otherwise, they would've made better photo material. =) )" >}}
 
-### Ministry Update
+## Ministry Update
 
 Our good friend and missionary here in Ukraine, Denise Hutchison, helps us tremendously by keeping up our Correspondence Bible Course of over 300 students. She and Nathan Day are responsible for grading lessons, sending out letters to students, addressing envelopes, and much more that goes into maintaining this course. Denise is going to be leaving for the U.S. this weekend, and Nathan is also in the U.S. visiting family. This means that the whole responsibility of the course will be on our shoulders and the Beal's over the next month or so! Our ministry obligations are already mushrooming, so we would appreciate your prayers for us as we take on this additional job.
 

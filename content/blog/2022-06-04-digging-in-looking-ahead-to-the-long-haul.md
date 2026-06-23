@@ -27,7 +27,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-10731962"></div><script src="https://www.buzzsprout.com/1953515/10731962-digging-in-looking-ahead-to-the-long-haul.js?container_id=buzzsprout-player-10731962&player=small" type="text/javascript" charset="utf-8"></script>
 
-### 💙💛 Radekhivski Hospodyni
+## 💙💛 Radekhivski Hospodyni
 
 Also in this episode, we talk more about the charity foundation “Radekhivski
 Hospodyni”. Their volunteers are working hard to send aid to soldiers on the
@@ -52,7 +52,7 @@ gift.
 
 ✅  **Specify “Radekhivski Hospodyni” in the memo line.**
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for Serhii and Natallia and their children as they persevere through
   prolonged separation. Pray for Serhii as he finishes his training and heads to
@@ -69,7 +69,7 @@ gift.
   minister to Ukrainians.
 - Pray for peace and liberty in Ukraine.
 
-### Resources
+## Resources
 
 - ❤️
   [Radekhivski Hospodyni (facebook.com)](https://www.facebook.com/groups/404821584832741/)

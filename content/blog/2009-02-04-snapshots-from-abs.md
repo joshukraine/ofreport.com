@@ -31,7 +31,7 @@ We had a great turn out for English Club and Audio Bible Study (ABS) last night!
 
 Please continue to pray that the Word of God would be powerful in transforming the lives of these individuals and bringing them to faith in Christ!
 
-### Correspondence Bible Course
+## Correspondence Bible Course
 
 In other news, Bryan has been getting involved right away in helping with the Correspondence Bible Course. The areas he is able to cover have been a tremendous help to Joshua and I in keeping up with the course.
 

@@ -28,6 +28,6 @@ While this is a difficult choice for many, I believe that Marian has a sincere d
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4863.jpg" caption="Jessie (right) chats with Taras (left) during English Club." >}}
 
-### A NOTE OF CLARIFICATION
+## A NOTE OF CLARIFICATION
 
 The Bible teaches that the true Church is the body of Jesus Christ, consisting of all born-again believers. (Col. 1:18, 24; I Cor. 12:27) As such, Christ's Church is much higher than any denomination or religious system operating on Earth. While the New Testament certainly calls for believers to assemble themselves in a local church structure, we believe that <span style="text-decoration: underline;">the Bible nonetheless remains our final authority in every area</span>. No person or organization - whether or not they refer to themselves as a "church" - has the authority to teach doctrines which contradict the written Word of God.

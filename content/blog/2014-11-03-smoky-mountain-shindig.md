@@ -30,7 +30,7 @@ NGJ also set up an exhibit hall where vendors could sell various products and se
 
 If you’d like to learn more about the Shindig, be sure to visit [www.nogreaterjoy.org/shindig](http://www.nogreaterjoy.org/shindig). All the sessions were recorded on video and I believe they will be made available soon.
 
-### Missionary to Egypt
+## Missionary to Egypt
 
 This year, we had just one CMO guy who joined us from the US. His name is James Slice, and he is now preparing to go as a full-time missionary to Egypt. Even before coming to Ukraine, James had his eye on Egypt, and has spent more than a year studying Arabic.
 
@@ -41,13 +41,13 @@ We ministered side-by-side with James for two months in Ukraine, and I can say w
 If you would be interested in supporting James financially or simply want to know more about his work, you can contact him via e-mail at
 [james.alvin260@gmail.com](mailto:james.alvin260@gmail.com).
 
-### Family Update
+## Family Update
 
 Following a busy month of travel and speaking engagements in September, we’ve been enjoying some rest and fellowship with our extended family. Right now we’re staying with Kelsie’s parents, the Powells, and in early December we’ll be heading back to Fort Worth where we’ll spend some time with my parents and prepare for the birth.
 
 Our fourth daughter is due to be born on December 19th, though past experience suggests that she’s more likely to come in the form of a Christmas gift. Either way, we’re thrilled to be receiving yet another little one from the Lord. Please pray with us for strength, health and safety for Kelsie and the baby.
 
-### How You Can Pray
+## How You Can Pray
 
 * Pray for a strong team for CMO 2015. Details are available now at [www.CMOproject.org](http://www.CMOproject.org).
 * Praise God for over 50 Ukrainian graduates from our Bible First program!

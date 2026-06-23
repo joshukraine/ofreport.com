@@ -16,7 +16,7 @@ The book is due to come out in January, but we'd like to give you a preview of o
 
 And now, without further ado...
 
-### Part 1 – Three Strikes and You’re Out?
+## Part 1 – Three Strikes and You’re Out?
 
 As the year 2003 was drawing to a close, I had reached the grim conclusion that God probably did not want me to be married any time soon. I was 24, and while my life heretofore had seen many successes, romance had not been among them. Onlookers, perhaps, suspected that I just was not trying hard enough, but this was far from true.
 

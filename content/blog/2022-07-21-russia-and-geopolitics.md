@@ -28,7 +28,7 @@ Ukrainians in Eastern Europe.
 
 {{< figure src="OFReport/2022-07-21-russia-and-geopolitics/thehordelands2-01_kwpubx" caption="The Eurasian Hordelands map from [*The Accidental Superpower*](https://zeihan.com/purchase-the-accidental-superpower/) by Peter Zeihan" >}}
 
-### How You Can Pray
+## How You Can Pray
 
 - Praise the Lord for the provision of a house for our family during our stay in
   Slovakia.
@@ -45,7 +45,7 @@ Ukrainians in Eastern Europe.
   again on the rise.
 - Pray for peace and liberty in Ukraine. 💙💛
 
-### Resources
+## Resources
 
 - [Vinnytsia Attack (facebook.com)](https://www.facebook.com/joshukraine/posts/pfbid0bxUBuzDuQMsYjkh7sHhToPS67UFDy8WEAmm7iaj5Q25htbAocHaNy96xP7X8gkqdl)
 - [The Accidental Superpower by Peter Zeihan (amazon.com)](https://www.amazon.com/gp/product/1455583685/)

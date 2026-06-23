@@ -10,7 +10,7 @@ slug: 2012-05-09-sad-turn-events
 
 The following is copied from an email which I sent out yesterday to a small group of family and friends. We appreciate your prayers for our family during this time.
 
-### Email, May 8, 2012
+## Email, May 8, 2012
 
 Today Kelsie and I went for a routine ultrasound to our clinic here in L'viv, hoping to find out the gender of our baby. Instead, we were shocked to learn that the baby has cystic hygroma (also known as lymphatic malformation), a severe genetic disorder which, depending on the cause, is often fatal. In our case, it is probable that this condition resulted from chromosomal abnormalities which were in motion from the start of the pregnancy.
 

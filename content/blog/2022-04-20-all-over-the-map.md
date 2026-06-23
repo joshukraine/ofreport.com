@@ -26,7 +26,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-10477856"></div><script src="https://www.buzzsprout.com/1953515/10477856-all-over-the-map.js?container_id=buzzsprout-player-10477856&player=small" type="text/javascript" charset="utf-8"></script>
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for our next trip to L’viv to pick up residency cards. We expect that
   some time in early May.
@@ -40,7 +40,7 @@ Ukrainians in Eastern Europe.
   minister to Ukrainians.
 - Pray for peace and liberty in Ukraine.
 
-### Resources
+## Resources
 
 - [Humanitarian Aid and Rescue Project (harprescue.org)](https://www.harprescue.org/)
 - [SOF News - April 18 (sof.news)](https://sof.news/ukraine/20220418/)

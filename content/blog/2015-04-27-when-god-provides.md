@@ -24,19 +24,19 @@ Yet nothing is impossible with God. As we have experienced time and again, God l
 
 So without further ado, here’s the blow-by-blow of how God blessed us with a new home that fits our needs better than we could have hoped.
 
-### Monday, February 23
+## Monday, February 23
 
 We’d been in Ukraine all of three days. That morning I had a meeting with our attorney to discuss the upcoming renewal of our residency permits. As we were finishing up, I mentioned to him that we would like to begin searching for a new apartment. His daughter, Victoria, is a realtor and he promised to pass along my request. As I returned home to continue unpacking from our trip, I had no idea how quickly things were about to move.
 
 That very afternoon, I received a call from Victoria. She had gotten the message from her father, and now she wanted to know more details about what we were looking for. Location? Number of rooms? Cost? I gave her some general criteria, but emphasized that we were willing to be flexible. We haven’t been apartment hunting for ourselves in several years, and I wasn’t sure what we’d find on the market.
 
-### Tuesday, February 24
+## Tuesday, February 24
 
 To my surprise, Victoria called and said she had found a large apartment right in our region that was for rent. When could we come and see it?
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/04/2015-02-26-15.22.22.jpg" caption="The building where our new apartment is located." >}}
 
-### Wednesday, February 25
+## Wednesday, February 25
 
 At the agreed upon time, Kelsie and I went to the address Victoria had provided us. It was only about a five-minute drive from Tychyny, and almost across the street from the apartment that ETO rents as our “Ministry Center”!
 
@@ -50,11 +50,11 @@ Since the Ministry Center was just a couple of blocks away, Kelsie and I walked 
 
 Needless to say, we called Victoria back with a positive answer.
 
-### Thursday, February 26
+## Thursday, February 26
 
 At 2pm, we sat down and signed a one-year lease for an apartment well over twice the size of our previous one. We had been in Ukraine for six days.
 
-### Let the “Remont” Begin!
+## Let the “Remont” Begin!
 
 The Ukrainian language has a wonderful little word that translates “remodeling job”: remont. Even the Americans here use the word remont in everyday speech, partly because it’s short and easy to say, and partly because it seems everyone is either doing a remont or needs to do one.
 
@@ -66,7 +66,7 @@ This brings up another amazing (at least to us) part of this story: all of this 
 
 As the painting progressed, we began slowly ferrying our belongings over in Jessie’s van, which he graciously allowed us to use throughout this time.
 
-### Moving Day
+## Moving Day
 
 Finally, the remont was finished and it was time to move. We packed everything in advance, wrapped all our furniture in plastic film, and steeled ourselves (no pun intended) for what promised to be a whopper of a work day.
 
@@ -80,7 +80,7 @@ A few days before the move, two young guys came over, glanced briefly around the
 
 On the day of the move, they arrived at 8am sharp. They worked all day long, helped by me and two other guys from our team. When they finally carried the last of our belongings into the new house, it was past midnight. Exhausted, they told us that it was by far the largest job they’d ever had.
 
-### Taste and See
+## Taste and See
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/04/2015-02-26-15.20.14.jpg" caption="2015-02-26 15.20.14" >}}
 
@@ -96,7 +96,7 @@ In the weeks leading up to our move, our family had been memorizing Psalm 34. Th
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/04/IMG_6471.jpg" caption="Space for dad to have his office at home!" >}}
 
-### An 8-man CMO Team
+## An 8-man CMO Team
 
 The roster for CMO this year is filling up quickly! As of this writing, we have six men confirmed to come for the project. Adam, Isaiah, Ben, Joe, Caleb and Emmanuel will be joining Nathan and I in mid-June for six weeks of literature campaigns, film showings, mountain travel and hands-on missionary training.
 
@@ -104,7 +104,7 @@ This will be our 9th CMO project, and while we’ve covered lots of ground in ye
 
 So that you can be more informed as you pray, we would like to encourage you to visit our web site ([www.euroteamoutreach.org](http://www.euroteamoutreach.org)) and subscribe to our email newsletter. During the off-season, we send emails infrequently, but during the summer there will be updates nearly every week, written by various team members.
 
-### How You Can Pray
+## How You Can Pray
 
 * Praise the Lord for His provision of a larger apartment for our family!
 * Pray for Adam, Isaiah, Ben, Joe, Caleb and Emmanuel as they travel to Ukraine in June.

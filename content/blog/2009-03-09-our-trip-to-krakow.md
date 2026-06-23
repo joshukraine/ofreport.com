@@ -30,6 +30,6 @@ Because the tracks in Ukraine are a different gauge than the rest of Europe, the
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/03/dsc_5098.jpg" caption="Oh, and did we mention that McDonald's in Krakow has sausage-egg-and-cheese biscuits? Glory hallelujah!" >}}
 
-### ABS Tomorrow
+## ABS Tomorrow
 
 We skipped one week of ABS while we were in Poland, but will be resuming tomorrow evening. We would appreciate your prayers as usual: Tuesday @ 12:00pm CST. Thank you!

@@ -25,14 +25,14 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-11663771"></div><script src="https://www.buzzsprout.com/1953515/11663771-good-and-evil-books-shipping.js?container_id=buzzsprout-player-11663771&player=small" type="text/javascript" charset="utf-8"></script>
 
-### Links from the Episode
+## Links from the Episode
 
 - [Alert map of Ukraine (alerts.in.ua/en)](https://alerts.in.ua/en)
 - [Our Ukrainian distributor form](https://forms.gle/J5jGHkEKQRmqbjU36)
 - [Hebron IT Academy](https://hebron-academy.com/)
 - [Free Ukrainian Language Offer (pimsleur.com)](https://www.pimsleur.com/c/free-ukrainian)
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for quick, efficient, and widespread distribution of _Good and Evil_
   books in Ukraine.

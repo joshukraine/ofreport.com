@@ -24,7 +24,7 @@ Ukrainians in Eastern Europe.
 
 <div id="buzzsprout-player-11803903"></div><script src="https://www.buzzsprout.com/1953515/11803903-the-yellow-van-rides-again.js?container_id=buzzsprout-player-11803903&player=small" type="text/javascript" charset="utf-8"></script>
 
-### How You Can Pray
+## How You Can Pray
 
 - Pray for safety as I travel to Ukraine.
 - Pray that the van would continue to operate well, both for my trip and for

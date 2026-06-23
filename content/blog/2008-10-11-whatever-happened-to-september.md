@@ -19,7 +19,7 @@ With the end of the project, the Steeles have been enjoying a few quieter days.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/11/steele_dsc_3377-1.jpg" caption="We love having Daddy home more often!" >}}
 
-### 4th Anniversary!!
+## 4th Anniversary!!
 
 Joshua and I took a 6 day get away trip to Krakow, Poland, over our anniversary!
 
@@ -41,7 +41,7 @@ On the night of our anniversary, we ate at a very quaint traditional Polish rest
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/11/steele_anniversary_trip_055.jpg" caption="Best friends and lovers" >}}
 
-### Happy 3rd Birthday, Abigail!
+## Happy 3rd Birthday, Abigail!
 
 We had a blast doing fun things together on Abigail’s birthday. We opened presents all throughout the day, playing with each one. We even saved some until the following morning! It’s hard to believe our little girl is already three.
 

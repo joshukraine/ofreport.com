@@ -17,7 +17,7 @@ Joshua and I have often expressed how much we wished we had written our love sto
 
 **Psalm 118: 23 "This is the LORD's doing; it is marvelous in our eyes."**
 
-### PART ONE
+## PART ONE
 
 "Thank you so much!" I crooned as I pulled a cute gray sweater vest from the gift bag. "Mrs. Steele, it was so nice having you on the team this week. I really enjoyed meeting you. And Jessica, it was great getting to know you too!"
 
