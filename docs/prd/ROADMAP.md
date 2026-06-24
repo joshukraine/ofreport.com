@@ -27,7 +27,7 @@ links to the relevant PRD document for full requirements.
 | 14 | Analytics | Phase 3 | Complete |
 | 15 | Content Migration | Phase 6 | Complete |
 | 16 | Deployment | Phase 15 | Complete |
-| 17 | Client-Side Search | Phase 16 | Planned |
+| 17 | Client-Side Search | Phase 16 | Complete |
 
 ---
 
@@ -207,7 +207,7 @@ palette; indexes blog article body + title + tags only.
 
 - [x] Indexing & build pipeline — `pagefind` dependency, Netlify build command, `data-pagefind-*` attributes on `single.html`, index scoped to blog articles
 - [x] Command palette UI — header trigger (icon + ⌘K/Ctrl-K + `/`), Alpine modal from Tailwind Plus snippets, Pagefind JS API, keyboard nav, mobile sheet
-- [ ] Accessibility, polish & QA — focus trap, dialog/listbox ARIA, empty/no-results states, cross-device QA, Lighthouse re-check
+- [x] Accessibility, polish & QA — focus trap, dialog/listbox ARIA, empty/no-results states, cross-device QA, Lighthouse re-check
 
 **Key learning:** Static search indexing, Pagefind JS API, accessible modal/command-palette UI
 
