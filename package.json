@@ -12,6 +12,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "alpinejs": "^3.0.0",
     "markdownlint-cli2": "^0.22.1",
+    "pagefind": "^1.5.2",
     "tailwindcss": "^4.0.0"
   }
 }
