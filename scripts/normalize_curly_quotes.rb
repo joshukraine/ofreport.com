@@ -65,7 +65,7 @@ PROSE_KEYS = %w[
   title description caption heading subheading conclusion DISCLAIMER _UPDATE
 ].freeze
 
-# ── Directional double-quote helper ──────────────────────────────────────────
+# ── Quote-curling helpers ────────────────────────────────────────────────────
 
 # A " opens when it begins a region or follows whitespace, an opening bracket, an
 # em/en dash, or a markdown emphasis marker; otherwise it closes.
@@ -75,28 +75,27 @@ def opening_quote?(prev_char)
   prev_char.nil? || OPENING_BEFORE.match?(prev_char)
 end
 
-# Curl the straight double quotes in +str+ directionally. +seed_prev+ is the
-# character considered to precede the first char (defaults to a space, so a
-# leading quote opens).
-def curl_double_quotes(str, seed_prev = " ")
-  prev = seed_prev
-  str.each_char.map do |ch|
-    out =
-      if ch == '"'
-        opening_quote?(prev) ? "“" : "”"
-      else
-        ch
-      end
-    prev = ch
-    out
-  end.join
+# Curl one straight quote. An apostrophe is always ’; a double quote opens or
+# closes based on +pre+, the text preceding it (its last char is the context, or
+# nil at the start of a region — which opens). This is the single place the
+# open/close rule lives: both the body gsub and curl_quotes feed it.
+def curl_quote_char(quote, pre)
+  return "’" if quote == "'"
+
+  opening_quote?(pre[-1]) ? "“" : "”"
+end
+
+# Curl every straight apostrophe and double quote in a plain string with no
+# protected regions. gsub's pre_match hands each quote its preceding context.
+def curl_quotes(str)
+  str.gsub(/['"]/) { curl_quote_char(Regexp.last_match[0], Regexp.last_match.pre_match) }
 end
 
 # ── Body pass ────────────────────────────────────────────────────────────────
 
 SHORTCODE    = /\{\{[<%].*?[%>]\}\}/
 LINK_REF_DEF = /^\[[^\]\n]+\]:[ \t]+\S.*$/
-HTML_TAG     = %r{</?[a-zA-Z][^>\n]*>}
+HTML_TAG     = %r{</?[a-zA-Z][^>\n]*>} # same tag matcher as decode_legacy_entities.rb
 MD_LINK_DEST = /\]\([^)\n]*\)/
 BARE_URL     = %r{https?://\S+}
 STRAIGHT     = /['"]/
@@ -110,12 +109,8 @@ BODY_TOKEN = Regexp.union(
 
 def curl_body(text)
   text.gsub(BODY_TOKEN) do |match|
-    case match
-    when "'"
-      "’"
-    when '"'
-      pre = Regexp.last_match.pre_match
-      opening_quote?(pre.empty? ? nil : pre[-1]) ? "“" : "”"
+    if match == "'" || match == '"'
+      curl_quote_char(match, Regexp.last_match.pre_match)
     else
       match # protected region — verbatim
     end
@@ -127,37 +122,17 @@ end
 KEY_LINE   = /\A(\s*)([A-Za-z_][\w]*):[ \t]*(.*)\z/
 BLOCK_VALUE = /\A[|>][-+0-9]*\s*\z/
 
-# Curl the inner content of a double-quoted YAML scalar. A literal " inside is
-# YAML-escaped as \" — collapse each to a directional curly quote and drop the
-# backslash (curly quotes need no escaping). Apostrophes curl in place.
-def curl_double_scalar_inner(inner)
-  out = +""
-  prev = " "
-  i = 0
-  while i < inner.length
-    if inner[i] == "\\" && inner[i + 1] == '"'
-      out << (opening_quote?(prev) ? "“" : "”")
-      prev = '"'
-      i += 2
-    else
-      ch = inner[i] == "'" ? "’" : inner[i]
-      out << ch
-      prev = inner[i]
-      i += 1
-    end
-  end
-  out
-end
-
-# Curl a single frontmatter scalar value, preserving its YAML quoting style.
+# Curl a single frontmatter scalar value, preserving its YAML quoting style. The
+# escapes are unwound to bare quotes before curling so curl_quotes can place them
+# directionally: the single-quote scalar's doubled '' and the double-quote
+# scalar's \" both collapse to one literal quote (curly forms need no escaping).
 def curl_fm_value(value)
   if (m = value.match(/\A'(.*)'\z/))           # single-quoted scalar
-    inner = m[1].gsub("''", "’")               # YAML escape -> literal curly ’
-    "'#{curl_double_quotes(inner)}'"
+    "'#{curl_quotes(m[1].gsub("''", "’"))}'"
   elsif (m = value.match(/\A"(.*)"\z/))        # double-quoted scalar
-    "\"#{curl_double_scalar_inner(m[1])}\""
+    "\"#{curl_quotes(m[1].gsub('\\"', '"'))}\""
   else                                         # plain scalar
-    curl_double_quotes(value.tr("'", "’"))
+    curl_quotes(value)
   end
 end
 
@@ -170,7 +145,6 @@ def curl_frontmatter(fm)
     line = raw.chomp
 
     if (m = line.match(KEY_LINE))
-      indent = m[1].length
       key = m[2]
       value = m[3]
 
@@ -181,14 +155,14 @@ def curl_frontmatter(fm)
 
       if value.match?(BLOCK_VALUE)             # block scalar — curl its body
         in_block = true
-        block_indent = indent
+        block_indent = m[1].length
         next raw
       end
 
       in_block = false
       "#{m[1]}#{key}: #{curl_fm_value(value)}#{nl}"
-    elsif in_block && (line.strip.empty? || line[/\A\s*/].length > block_indent)
-      curl_double_quotes(line.tr("'", "’")) + nl  # block continuation prose
+    elsif in_block && (line.strip.empty? || line.length - line.lstrip.length > block_indent)
+      curl_quotes(line) + nl                    # block continuation prose
     else
       in_block = false
       raw
