@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-06-24 — `layouts/blog/single.html`
+
+**What changed:** Added `data-pagefind-ignore` to the article meta line (author / date / reading time) and the tag-pill wrapper. The "Indexing Design" section of `09-search.md` enumerated `data-pagefind-ignore` only on the prev/next nav and the article-footer newsletter form, so these two regions were indexed as body text.
+
+**Why:** Building the command palette (#204) surfaced the result excerpts, which were polluted with chrome — e.g. "Joshua Steele · October 19, 2023 · 4 min read. podcast ministry family" — instead of article prose. The plain `data-pagefind-ignore` (not `="all"`) still processes the metadata, sort, and filter attributes inside the element, so the date's `data-pagefind-sort`/`-meta` and the tags' `data-pagefind-filter` remain captured; only the display text is excluded. This realizes the intent already stated in "Indexing Design" (ignored chrome's text should never pollute the index or the excerpts) — the original attribute list just didn't cover these two regions.
+
+**Category:** Discovery
+
 ### 2026-06-23 — `assets/css/main.css`, link + tag-pill colors across `layouts/`
 
 **What changed:** Darkened the inline text-link color site-wide from blue-600 (#1992d4) to blue-800 (#0b69a3), with hover deepening to blue-900 — via the prose `--tw-prose-links` token plus the explicit `text-blue-600` link utilities in eight templates (index, subscribe, archives, callout, taxonomy term, pagination, `_default/list`, article-card). Also restyled the two tag-pill variants: article pills (`bg-blue-600` + `opacity-50` + white text → solid `bg-blue-800`, hover `bg-blue-900`) and tags-index pills (`text-blue-700` / `text-blue-700/60` → `text-blue-800`). Following design review, content text links also gained a consistent affordance — **underlined at rest, underline removed on hover** — applied site-wide to inline/content links (prose, "Archives"/"Unsubscribe", "Download PDF", archives PDF links, `_default/list`, blog-card "Read more") but **not** to blog-card title links, tag pills, the pagination widget, or the "View all tags →" back-link (its arrow carries the affordance).

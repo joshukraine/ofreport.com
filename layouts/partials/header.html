@@ -10,40 +10,59 @@
       {{ end }}
     </a>
 
-    {{/* Desktop navigation — Lato (font-header), 20px, semibold, cool-gray
-         (slate-500 — ≥4.5:1 on white for WCAG AA; slate-400 was only 2.6:1),
-         with the original's slide-in blue underline on hover / current page. */}}
-    <nav class="hidden lg:flex lg:items-center lg:gap-x-8" aria-label="Main navigation">
-      {{ $currentPage := . }}
-      {{ range site.Menus.main }}
-        <a href="{{ .URL }}"
-           class="relative font-header text-xl font-semibold transition-colors duration-150
-                  before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-full before:origin-center before:scale-x-0 before:bg-blue-600 before:transition-transform before:duration-200 before:content-['']
-                  hover:before:scale-x-100
-                  {{ if $currentPage.IsMenuCurrent "main" . }}
-                    text-blue-700
-                  {{ else }}
-                    text-slate-500 hover:text-blue-600
-                  {{ end }}">
-          {{ .Name }}
-        </a>
-      {{ end }}
-    </nav>
+    {{/* Right-side controls cluster: desktop nav, the search trigger (visible on
+         every viewport), and the mobile hamburger. Grouping them keeps the logo
+         hard-left and this cluster hard-right under justify-between. */}}
+    <div class="flex items-center gap-x-2 sm:gap-x-3 lg:gap-x-6">
 
-    {{/* Mobile hamburger button */}}
-    <button @click="mobileMenuOpen = !mobileMenuOpen"
-            class="inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 lg:hidden"
-            :aria-expanded="mobileMenuOpen"
-            aria-label="Toggle navigation menu">
-      {{/* Hamburger icon */}}
-      <svg x-show="!mobileMenuOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-      </svg>
-      {{/* Close icon */}}
-      <svg x-show="mobileMenuOpen" x-cloak class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-      </svg>
-    </button>
+      {{/* Desktop navigation — Lato (font-header), 20px, semibold, cool-gray
+           (slate-500 — ≥4.5:1 on white for WCAG AA; slate-400 was only 2.6:1),
+           with the original's slide-in blue underline on hover / current page. */}}
+      <nav class="hidden lg:flex lg:items-center lg:gap-x-8" aria-label="Main navigation">
+        {{ $currentPage := . }}
+        {{ range site.Menus.main }}
+          <a href="{{ .URL }}"
+             class="relative font-header text-xl font-semibold transition-colors duration-150
+                    before:absolute before:-bottom-1 before:left-0 before:h-0.5 before:w-full before:origin-center before:scale-x-0 before:bg-blue-600 before:transition-transform before:duration-200 before:content-['']
+                    hover:before:scale-x-100
+                    {{ if $currentPage.IsMenuCurrent "main" . }}
+                      text-blue-700
+                    {{ else }}
+                      text-slate-500 hover:text-blue-600
+                    {{ end }}">
+            {{ .Name }}
+          </a>
+        {{ end }}
+      </nav>
+
+      {{/* Search trigger — dispatches `search-open` to the palette (partials/
+           search.html), passing the button so focus can return to it on close.
+           Visible on desktop and mobile; the ⌘K / `/` shortcuts open the same
+           palette for keyboard users. */}}
+      <button @click="$dispatch('search-open', $event.currentTarget)"
+              class="inline-flex items-center justify-center rounded-md p-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
+              aria-label="Search articles">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+      </button>
+
+      {{/* Mobile hamburger button */}}
+      <button @click="mobileMenuOpen = !mobileMenuOpen"
+              class="inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 lg:hidden"
+              :aria-expanded="mobileMenuOpen"
+              aria-label="Toggle navigation menu">
+        {{/* Hamburger icon */}}
+        <svg x-show="!mobileMenuOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        {{/* Close icon */}}
+        <svg x-show="mobileMenuOpen" x-cloak class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+    </div>
 
   </div>
 

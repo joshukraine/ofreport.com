@@ -78,7 +78,13 @@
       {{/* Meta line: author, date, reading time. mt-1 keeps the byline tight to
            the title (the original's 4px), grouped with it rather than drifting
            toward the tags below (which keep their mt-4 / 16px separation). */}}
-      <div class="mt-1 flex flex-wrap items-center gap-x-3 text-sm/6 text-gray-500">
+      {{/* data-pagefind-ignore keeps this byline text ("Joshua Steele · Date ·
+           N min read") out of the search index and excerpts — it's chrome, not
+           article prose (Phase 17, → See docs/prd/09-search.md "Indexing
+           Design"). The PLAIN form (not ="all") still processes the metadata and
+           sort attributes on the <time> below, so the date is captured as result
+           metadata even though its display text is excluded. */}}
+      <div class="mt-1 flex flex-wrap items-center gap-x-3 text-sm/6 text-gray-500" data-pagefind-ignore>
         {{- with .Params.author }}
           <span>{{ . }}</span>
           <span aria-hidden="true">&middot;</span>
@@ -102,9 +108,12 @@
            hover), but white-on-50%-blue was only 1.82:1; solid blue-800 reads at
            ~5.7:1 (WCAG AA) and deepens to blue-900 on hover (#184). */}}
       {{/* data-pagefind-filter="tag" captures each tag so tag-filtered search can
-           be added later without re-indexing the archive. No tag-filter UI in v1. */}}
+           be added later without re-indexing the archive. No tag-filter UI in v1.
+           data-pagefind-ignore on the wrapper keeps the tag words out of the body
+           index and excerpts (they read as noise — "podcast ministry family" —
+           in result snippets); the plain form still captures each tag's filter. */}}
       {{- with .Params.tags }}
-        <div class="mt-4 flex flex-wrap gap-2">
+        <div class="mt-4 flex flex-wrap gap-2" data-pagefind-ignore>
           {{- range . }}
             <a
               href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
