@@ -9,7 +9,9 @@
   is the shared mailchimp-form.html partial (also used on the homepage and
   /subscribe/), so no form markup is duplicated here.
 */ -}}
-<section class="mt-16">
+{{- /* data-pagefind-ignore: the wordmark + newsletter CTA repeat on every post;
+       indexing them would pollute every article's search excerpt (Phase 17). */ -}}
+<section class="mt-16" data-pagefind-ignore>
   {{/* "To God be the Glory" script wordmark. Decorative lettering, so it carries
        its words as an accessible label rather than being hidden. The wide (≈7:1)
        SVG scales to the centered max-w-lg column, mirroring the original's
