@@ -30,7 +30,7 @@ are:
 - **Content span**: October 2008 — August 2025 (17 years)
 - **Current stack**: Nuxt.js 2.18.1, Tailwind CSS v1, Cloudinary, Netlify
 - **Deployment**: Static site generation (`nuxt generate`) deployed to Netlify CDN
-- **Source code**: [github.com/joshukraine/ofreport.com](https://github.com/joshukraine/ofreport.com)
+- **Source code**: [github.com/joshukraine/ofreport.com-nuxt](https://github.com/joshukraine/ofreport.com-nuxt) (archived)
 
 ---
 

@@ -6,7 +6,7 @@ This document records why and how the `chrome-devtools-mcp` server was wired int
 
 We added a **project-scoped** `.mcp.json` at the repo root that runs the Chrome DevTools MCP server (built and maintained by the Google Chrome team). It gives the AI agent access to DevTools' *analytical* panels — Lighthouse audits, performance traces, and device/network/CPU emulation — which our existing browser tooling could not do. The server is scoped to this repository only and launches a throwaway, isolated Chrome profile, so there is no exposure of the developer's real browser session.
 
-**Trial verdict (as of 2026-06-13): net positive, trending toward keep.** What real use has shown is recorded under [Trial findings](#trial-findings) below.
+**Trial verdict: KEEP — the trial succeeded.** It earned its place across the Hugo rebuild's front-end QA (a11y/Lighthouse, performance, responsive emulation) and is now a standing part of the toolchain. What real use showed is recorded under [Trial findings](#trial-findings) below.
 
 ## Background: why this was worth adding
 
@@ -91,7 +91,7 @@ The Chrome team's own disclaimer: the server "exposes the content of the browser
 
 ## Trial findings
 
-**Verdict (as of 2026-06-13): net positive, trending toward keep for front-end work.** Validated across two issues during the Hugo rebuild:
+**Verdict: KEEP — confirmed net positive for front-end work.** Validated across multiple issues during the Hugo rebuild and retained as standing tooling:
 
 - **It caught a real bug.** A Lighthouse accessibility pass during #94 surfaced a genuine WCAG AA color-contrast failure on the primary filled buttons (white on `bg-blue-600`, 3.44:1) — something the existing tooling and a build-output diff could not have found. Fixed in PR #96.
 - **The dev-vs-production caveat is real, not theoretical.** On #92/#94 the SEO audit flagged `is-crawlable` because the dev server emits `noindex,nofollow` (production is `index,follow`). Anyone trusting a localhost SEO score would read this as a regression. This is the lived confirmation of the split documented under "Which audits are trustworthy against the dev server."
@@ -100,7 +100,7 @@ The Chrome team's own disclaimer: the server "exposes the content of the browser
 
 **Honest caveat:** for a *pure refactor* (e.g. #92), a byte-for-byte diff of the generated `public/` HTML is stronger verification than any screenshot — the browser pass is a complement there, not the proof. Reach for the audit tools where they add signal a diff cannot: accessibility, contrast, responsive behavior, and real-world performance.
 
-**Next checkpoint:** if it keeps earning its place across a few more issues (and ideally a second project), promote the setup to a reusable snippet per the rule of three — see "Implications going forward."
+**Outcome:** the in-project trial concluded successfully and the server is kept. The remaining open step is cross-project: once it earns its place on a second project, promote the setup to a reusable snippet per the rule of three — see "Implications going forward."
 
 ## Implications going forward
 

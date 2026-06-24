@@ -43,7 +43,7 @@ layouts/          # Go templates (base, partials, shortcodes)
 assets/css/       # Tailwind CSS entry point
 assets/img/       # Site images (logo SVG)
 static/           # Favicons, webmanifest, browserconfig
-data/             # Structured data files (authors, archives)
+data/             # Structured data files (archives.json)
 docs/             # PRD and project documentation
 ```
 

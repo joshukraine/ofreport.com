@@ -3,7 +3,7 @@
 This document tracks implementation progress across build phases. Each item
 links to the relevant PRD document for full requirements.
 
-> **Status: ✅ Rebuild complete.** All 16 phases done; the site has been live on Hugo since 2026-06-23. See the [Launch Readiness Epic #150](https://github.com/joshukraine/ofreport.com-hugo/issues/150) (closed) for the cutover record. Remaining ideas live under [Future / Unscheduled](#future--unscheduled).
+> **Status: ✅ Rebuild complete.** All 16 phases done; the site has been live on Hugo since 2026-06-23. See the [Launch Readiness Epic #150](https://github.com/joshukraine/ofreport.com/issues/150) (closed) for the cutover record. Remaining ideas live under [Future / Unscheduled](#future--unscheduled).
 
 **Progress key:** `[ ]` Not started · `[~]` In progress · `[x]` Complete · `[—]` Deferred / descoped
 
@@ -185,7 +185,7 @@ links to the relevant PRD document for full requirements.
 
 ## Phase 16: Deployment
 
-> **Launch executed via the Launch Readiness Epic ([#150](https://github.com/joshukraine/ofreport.com-hugo/issues/150), closed).** The site went live on Hugo on 2026-06-23. That epic was the runbook for the cutover (URL parity, redirects, repo rename, integrations, ordered cutover steps); the checkboxes below are the high-level phase marker.
+> **Launch executed via the Launch Readiness Epic ([#150](https://github.com/joshukraine/ofreport.com/issues/150), closed).** The site went live on Hugo on 2026-06-23. That epic was the runbook for the cutover (URL parity, redirects, repo rename, integrations, ordered cutover steps); the checkboxes below are the high-level phase marker.
 
 - [x] `netlify.toml` configured (see [`07-deployment.md`](./07-deployment.md))
 - [x] Redirects for SEO continuity (#172 / #173)

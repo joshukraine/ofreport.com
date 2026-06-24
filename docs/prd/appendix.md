@@ -16,7 +16,7 @@
 - [Netlify Hugo Deployment](https://docs.netlify.com/frameworks/hugo/)
 - [Cloudinary Transformation Reference](https://cloudinary.com/documentation/transformation_reference)
 - [Tailwind CSS v4 Documentation](https://tailwindcss.com/docs)
-- [OFReport.com Source Code (Nuxt)](https://github.com/joshukraine/ofreport.com)
+- [OFReport.com Source Code (Nuxt)](https://github.com/joshukraine/ofreport.com-nuxt) (archived)
 
 ---
 
