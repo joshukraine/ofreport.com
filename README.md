@@ -35,6 +35,16 @@ hugo --gc --minify
 
 Requires [Hugo](https://gohugo.io/installation/) (extended edition) and [Node.js](https://nodejs.org/) 20 or newer (production builds run on Node 22).
 
+### Previewing search locally
+
+Search uses [Pagefind](https://pagefind.app), which indexes the **built** `public/` directory — so it does not work against a bare `hugo server` (which serves from memory). To preview search, run a real build, generate the index, then serve the output:
+
+```bash
+hugo --minify && npx pagefind --site public && npx serve public
+```
+
+Only search-UI work needs this extra step; day-to-day content authoring with `hugo server -D` is unaffected.
+
 ## Project Structure
 
 ```text

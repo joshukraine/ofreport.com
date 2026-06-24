@@ -205,7 +205,7 @@ First post-launch feature. Full spec in [`09-search.md`](./09-search.md).
 Self-hosted [Pagefind](https://pagefind.app) with a design-native ⌘K command
 palette; indexes blog article body + title + tags only.
 
-- [ ] Indexing & build pipeline — `pagefind` dependency, Netlify build command, `data-pagefind-*` attributes on `single.html`, index scoped to blog articles
+- [x] Indexing & build pipeline — `pagefind` dependency, Netlify build command, `data-pagefind-*` attributes on `single.html`, index scoped to blog articles
 - [ ] Command palette UI — header trigger (icon + ⌘K/Ctrl-K + `/`), Alpine modal from Tailwind Plus snippets, Pagefind JS API, keyboard nav, mobile sheet
 - [ ] Accessibility, polish & QA — focus trap, dialog/listbox ARIA, empty/no-results states, cross-device QA, Lighthouse re-check
 

@@ -27,17 +27,28 @@
                  and title. The original used a background <div> whose height equalled
                  its min-height; a fixed height + object-cover reproduces that cap so
                  text below the hero always stays in view (#160). */ -}}
+          {{- /* data-pagefind-meta="image[src]": capture the cover URL as result
+                 metadata for richer search cards later (Phase 17). Captured now,
+                 not displayed in v1. Pagefind reads page-level meta even though the
+                 hero sits outside the data-pagefind-body wrapper below. */ -}}
           <img
             src="{{ $hero }}"
             alt="{{ $.Title }}"
             class="block w-full object-cover h-[250px] sm:h-[450px] md:h-[500px] lg:h-[600px] xl:h-[75vh]"
             loading="eager"
+            data-pagefind-meta="image[src]"
           >
         </a>
       </div>
     {{- end }}
 
-    <div class="mx-auto max-w-3xl px-6 lg:px-8 {{ if not .Params.cover }}pt-24 sm:pt-32{{ end }}">
+    {{/* data-pagefind-body scopes the search index: once it exists on any page,
+         Pagefind indexes ONLY pages that carry it — giving us "blog articles only"
+         with no glob config. Site chrome (header/footer/nav in baseof.html) sits
+         outside this element and is never indexed; non-article regions inside it
+         carry data-pagefind-ignore. (Phase 17 — → See docs/prd/09-search.md
+         "Indexing Design".) */}}
+    <div class="mx-auto max-w-3xl px-6 lg:px-8 {{ if not .Params.cover }}pt-24 sm:pt-32{{ end }}" data-pagefind-body>
 
       {{/* Caption — sits tight under the cover (mt-2) and well clear of the
            title (which carries the larger top margin below), grouping it with
@@ -73,7 +84,16 @@
           <span aria-hidden="true">&middot;</span>
         {{- end }}
         {{- $isoDate := .Date.Format "2006-01-02" -}}
-        <time datetime="{{ $isoDate }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{- /* Pagefind captures the publish date from the ISO datetime attribute
+               (not the display text): "2026-06-13" sorts lexicographically correct,
+               whereas "January 2, 2026" would sort April before January.
+               data-pagefind-sort enables a future date-sort option; -meta makes the
+               date available for the result card. Both v1-captured, no UI yet. */ -}}
+        <time
+          datetime="{{ $isoDate }}"
+          data-pagefind-sort="date[datetime]"
+          data-pagefind-meta="date[datetime]"
+        >{{ .Date.Format "January 2, 2006" }}</time>
         <span aria-hidden="true">&middot;</span>
         <span>{{ .ReadingTime }} min read</span>
       </div>
@@ -81,12 +101,15 @@
       {{/* Tags — filled blue pills. The original faded them (opacity-50 until
            hover), but white-on-50%-blue was only 1.82:1; solid blue-800 reads at
            ~5.7:1 (WCAG AA) and deepens to blue-900 on hover (#184). */}}
+      {{/* data-pagefind-filter="tag" captures each tag so tag-filtered search can
+           be added later without re-indexing the archive. No tag-filter UI in v1. */}}
       {{- with .Params.tags }}
         <div class="mt-4 flex flex-wrap gap-2">
           {{- range . }}
             <a
               href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
               class="inline-flex items-center rounded-full bg-blue-800 px-3 py-1 text-xs font-bold leading-none text-white transition-colors hover:bg-blue-900"
+              data-pagefind-filter="tag"
             >
               {{- . -}}
             </a>
@@ -106,7 +129,9 @@
       {{- $older := .NextInSection -}}
       {{- $newer := .PrevInSection -}}
       {{- if or $older $newer }}
-        <nav class="mt-16 border-t border-gray-200 pt-8" aria-label="Previous and next articles">
+        {{/* data-pagefind-ignore: the adjacent-article titles are navigation, not
+             this article's content — keep them out of the index and excerpts. */}}
+        <nav class="mt-16 border-t border-gray-200 pt-8" aria-label="Previous and next articles" data-pagefind-ignore>
           <div class="flex flex-col gap-6 sm:flex-row sm:justify-between">
             {{- if $older }}
               <a href="{{ $older.RelPermalink }}" class="group flex-1">
