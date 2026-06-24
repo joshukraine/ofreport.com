@@ -39,7 +39,7 @@
            search.html), passing the button so focus can return to it on close.
            Visible on desktop and mobile; the ⌘K / `/` shortcuts open the same
            palette for keyboard users. */}}
-      <button @click="window.dispatchEvent(new CustomEvent('search-open', { detail: $event.currentTarget }))"
+      <button @click="$dispatch('search-open', $event.currentTarget)"
               class="inline-flex items-center justify-center rounded-md p-2 text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900"
               aria-label="Search articles">
         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">

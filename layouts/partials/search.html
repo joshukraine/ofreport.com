@@ -131,8 +131,10 @@
             <p class="mt-4 text-sm text-gray-500">Search the full archive by title or content.</p>
           </div>
 
-          {{- /* Searching — brief, between keystroke and first results */ -}}
-          <div x-show="loading && query.trim() && results.length === 0 && !pagefindFailed" class="px-6 py-14 text-center text-sm text-gray-500">
+          {{- /* Searching — brief, between keystroke and first results. `loading`
+                 is only ever set while a non-empty query runs against a loaded
+                 index, so it already implies query-present and not-failed. */ -}}
+          <div x-show="loading && results.length === 0" class="px-6 py-14 text-center text-sm text-gray-500">
             Searching&hellip;
           </div>
 
@@ -160,6 +162,13 @@
 </div>
 
 <script>
+  // Allocated once, not per formatDate() call (which Alpine re-runs per result
+  // on every render — e.g. each arrow-key move or hover changes activeIndex).
+  const SEARCH_MONTHS = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December',
+  ];
+
   document.addEventListener('alpine:init', () => {
     Alpine.data('searchPalette', () => ({
       isOpen: false,
@@ -284,11 +293,7 @@
         const m = Number(parts[1]);
         const d = Number(parts[2]);
         if (!y || !m || !d) return '';
-        const months = [
-          'January', 'February', 'March', 'April', 'May', 'June',
-          'July', 'August', 'September', 'October', 'November', 'December',
-        ];
-        return months[m - 1] + ' ' + d + ', ' + y;
+        return SEARCH_MONTHS[m - 1] + ' ' + d + ', ' + y;
       },
     }));
   });
