@@ -44,6 +44,18 @@
   display: none !important;
 }
 
+/* Search palette: Pagefind wraps matched terms in its excerpts with <mark>.
+   The browser default is a yellow block that clashes with the palette; restyle
+   it as a soft on-brand highlight. blue-100 on blue-900 text stays legible both
+   on white and on the blue-50 selected-row tint. */
+.search-excerpt mark {
+  border-radius: 0.25rem;
+  background-color: var(--color-blue-100);
+  padding-inline: 0.125rem;
+  font-weight: 600;
+  color: var(--color-blue-900);
+}
+
 /* The Typography plugin wraps blockquotes in curly quotation marks via
    ::before/::after. The original site never did this, and it reads as stray
    punctuation around content like the Donate mailing address, so suppress it. */
