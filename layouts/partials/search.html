@@ -108,6 +108,17 @@
           </button>
         </div>
 
+        {{- /* Result count — pinned above the scrolling results (a sibling of the
+               body, so it stays visible while paging through matches). Reads
+               totalResults, the full match set before the display cap, so it adds
+               no extra result.data() fetches. Shown only when there are matches. */ -}}
+        <div
+          x-show="results.length > 0"
+          x-cloak
+          class="flex-none border-b border-gray-100 px-4 py-2 text-xs text-gray-400"
+          x-text="resultCountLabel()"
+        ></div>
+
         {{- /* Body — fills remaining height on mobile (flex-1), height-capped on
                desktop (max-h-96). Holds the results list and the state panels;
                exactly one renders at a time. */ -}}
@@ -197,6 +208,9 @@
       isOpen: false,
       query: '',
       results: [],
+      // Total matches Pagefind found for the current query (the full set before
+      // the display cap). Drives the count line; reading it costs no extra fetch.
+      totalResults: 0,
       activeIndex: -1,
       loading: false,
       hasSearched: false,
@@ -206,7 +220,7 @@
 
       // Cap displayed results: only the visible slice calls result.data() (each
       // is a fetch), so per-query bandwidth stays low.
-      maxResults: 12,
+      maxResults: 20,
 
       open(triggerEl) {
         // Remember what to restore focus to on close. The header button passes
@@ -267,6 +281,7 @@
         const q = this.query.trim();
         if (!q) {
           this.results = [];
+          this.totalResults = 0;
           this.activeIndex = -1;
           this.hasSearched = false;
           this.loading = false;
@@ -282,6 +297,9 @@
         // query has superseded this one — in that case we no-op.
         const ret = await this.pagefind.debouncedSearch(q);
         if (ret === null) return;
+        // ret.results is the full ranked match set; capture its length for the
+        // count line, then fetch data() only for the displayed slice.
+        this.totalResults = ret.results.length;
         const data = await Promise.all(
           ret.results.slice(0, this.maxResults).map((r) => r.data())
         );
@@ -289,6 +307,16 @@
         this.activeIndex = data.length ? 0 : -1;
         this.hasSearched = true;
         this.loading = false;
+      },
+
+      // Count-line label, e.g. "37 results · showing top 20" (or "1 result").
+      // The "showing top N" suffix appears only when matches exceed the cap.
+      resultCountLabel() {
+        const total = this.totalResults;
+        const shown = this.results.length;
+        let label = total + (total === 1 ? ' result' : ' results');
+        if (total > shown) label += ' · showing top ' + shown;
+        return label;
       },
 
       move(delta) {
