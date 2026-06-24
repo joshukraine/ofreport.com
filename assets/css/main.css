@@ -56,6 +56,19 @@
   color: var(--color-blue-900);
 }
 
+/* Respect prefers-reduced-motion for the search palette. Alpine's x-transition
+   drives the open/close fade + scale via Tailwind transition utilities; zeroing
+   the durations here makes the palette snap open/closed for readers who ask for
+   reduced motion, while leaving the transition machinery intact (Alpine still
+   gets its transitionend immediately). Scoped to the palette subtree. */
+@media (prefers-reduced-motion: reduce) {
+  .search-palette,
+  .search-palette * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
 /* The Typography plugin wraps blockquotes in curly quotation marks via
    ::before/::after. The original site never did this, and it reads as stray
    punctuation around content like the Donate mailing address, so suppress it. */

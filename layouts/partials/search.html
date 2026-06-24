@@ -16,16 +16,21 @@
   "unavailable" message (documented dev wrinkle, → See 09-search.md "Local
   Development Workflow").
 
-  Scope note: this is the UI issue (#204). The rigorous focus trap, full
-  listbox ARIA (role=listbox/option, aria-activedescendant), focus restoration,
-  and prefers-reduced-motion are #205. The cheap, testable basics live here:
-  role="dialog", autofocus on open, a simple open/close transition, Esc to close.
+  A11y (#205): the palette is a modal dialog (role="dialog", aria-modal) with a
+  focus trap (@keydown.tab → trapTab) and focus restoration to the trigger on
+  close. The input is a combobox (role="combobox", aria-controls/-expanded/
+  -activedescendant) over a results listbox (role="listbox" / role="option"), so
+  a screen reader announces the active result as ↑/↓ move it — focus stays on the
+  input throughout, per the WAI-ARIA combobox pattern. prefers-reduced-motion is
+  honored via a scoped rule in main.css.
 */ -}}
 <div
   x-data="searchPalette"
+  class="search-palette"
   @search-open.window="open($event.detail)"
   @keydown.window="onGlobalKey($event)"
   @keydown.escape.window="close()"
+  @keydown.tab="trapTab($event)"
 >
   {{- /* Overlay — present in the DOM only while open. Its own opacity transition
          keeps the whole layer (backdrop + panel) mounted through the leave
@@ -55,6 +60,7 @@
       @click.self="close()"
     >
       <div
+        x-ref="panel"
         x-show="isOpen"
         x-transition:enter="transition ease-out duration-300"
         x-transition:enter-start="opacity-0 scale-95"
@@ -83,6 +89,11 @@
             autocapitalize="off"
             spellcheck="false"
             aria-label="Search articles"
+            role="combobox"
+            aria-controls="search-results-list"
+            aria-autocomplete="list"
+            :aria-expanded="results.length > 0"
+            :aria-activedescendant="activeIndex >= 0 && results.length ? 'search-result-' + activeIndex : false"
             class="h-12 w-full border-0 bg-transparent px-3 text-base text-gray-900 outline-none placeholder:text-gray-400 sm:text-sm"
           />
           <button
@@ -102,12 +113,24 @@
                exactly one renders at a time. */ -}}
         <div x-ref="body" class="min-h-0 flex-1 overflow-y-auto sm:max-h-96 sm:flex-none">
 
-          {{- /* Results */ -}}
-          <div x-show="results.length > 0" class="p-3">
+          {{- /* Results listbox. Focus stays on the combobox input; each option
+                 carries a stable id the input's aria-activedescendant points at,
+                 and tabindex="-1" keeps options out of the tab order (the focus
+                 trap then cycles only input ↔ close button). */ -}}
+          <div
+            x-show="results.length > 0"
+            id="search-results-list"
+            role="listbox"
+            aria-label="Search results"
+            class="p-3"
+          >
             <template x-for="(r, i) in results" :key="r.url">
               <a
                 :href="r.url"
                 @mouseenter="activeIndex = i"
+                role="option"
+                :id="'search-result-' + i"
+                tabindex="-1"
                 :aria-selected="activeIndex === i"
                 :data-active="activeIndex === i"
                 class="group flex cursor-pointer rounded-xl p-3 select-none aria-selected:bg-blue-50"
@@ -186,7 +209,9 @@
       maxResults: 12,
 
       open(triggerEl) {
-        // Remember what to restore focus to on close (#205 hardens this).
+        // Remember what to restore focus to on close. The header button passes
+        // itself via the search-open event; ⌘K / "/" fall back to whatever held
+        // focus when the palette opened.
         this.trigger = triggerEl || document.activeElement;
         this.isOpen = true;
         document.body.style.overflow = 'hidden';
@@ -278,6 +303,36 @@
         if (!body) return;
         const el = body.querySelector('[data-active="true"]');
         if (el) el.scrollIntoView({ block: 'nearest' });
+      },
+
+      // Focus trap: keep Tab / Shift+Tab inside the panel while the dialog is
+      // open. In practice the only tabbable elements are the input and the close
+      // button (result options are tabindex="-1"), so this cycles between them
+      // and blocks Tab from escaping to the page behind the backdrop.
+      trapTab(e) {
+        if (!this.isOpen) return;
+        const items = this.focusable();
+        if (!items.length) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        const active = document.activeElement;
+        if (e.shiftKey && (active === first || !this.$refs.panel.contains(active))) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && (active === last || !this.$refs.panel.contains(active))) {
+          e.preventDefault();
+          first.focus();
+        }
+      },
+
+      focusable() {
+        const panel = this.$refs.panel;
+        if (!panel) return [];
+        return Array.from(
+          panel.querySelectorAll(
+            'a[href]:not([tabindex="-1"]), button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+          )
+        ).filter((el) => el.getClientRects().length > 0);
       },
 
       onEnter() {
