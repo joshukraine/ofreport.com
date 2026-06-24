@@ -23,6 +23,23 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css"
     integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
     crossorigin="anonymous">
+  {{- /* Mirror the in-copy <figcaption> typography (text-base / font-semibold /
+       font-serif; see layouts/shortcodes/figure.html) in the lightbox caption.
+       GLightbox's default .gslide-desc renders smaller (.86em ≈ 13.76px),
+       lighter (400), and in Arial. This targets the library's own selector, so
+       it ties on specificity and wins on source order — no !important — and
+       .glightbox-clean is present at every viewport, so it holds on mobile and
+       desktop. var(--font-serif) / 1rem are the same tokens the figcaption
+       resolves to, keeping the two in lockstep. Color is intentionally left to
+       the library (the lightbox panel is dark on mobile, white on desktop — see
+       issue #200). */ -}}
+  <style>
+    .glightbox-clean .gslide-desc {
+      font-family: var(--font-serif);
+      font-weight: 600;
+      font-size: 1rem;
+    }
+  </style>
   <script
     defer
     src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/js/glightbox.min.js"
