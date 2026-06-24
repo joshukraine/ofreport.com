@@ -1,5 +1,5 @@
 ---
-title: It's beginning to look a lot like Christmas!
+title: It’s beginning to look a lot like Christmas!
 date: '2008-12-19'
 author: Kelsie Steele
 description: Our family is getting things ready for the holidays!
@@ -24,6 +24,6 @@ Our family is getting things ready for the holidays!
 
 ## Ministry Update
 
-Our good friend and missionary here in Ukraine, Denise Hutchison, helps us tremendously by keeping up our Correspondence Bible Course of over 300 students. She and Nathan Day are responsible for grading lessons, sending out letters to students, addressing envelopes, and much more that goes into maintaining this course. Denise is going to be leaving for the U.S. this weekend, and Nathan is also in the U.S. visiting family. This means that the whole responsibility of the course will be on our shoulders and the Beal's over the next month or so! Our ministry obligations are already mushrooming, so we would appreciate your prayers for us as we take on this additional job.
+Our good friend and missionary here in Ukraine, Denise Hutchison, helps us tremendously by keeping up our Correspondence Bible Course of over 300 students. She and Nathan Day are responsible for grading lessons, sending out letters to students, addressing envelopes, and much more that goes into maintaining this course. Denise is going to be leaving for the U.S. this weekend, and Nathan is also in the U.S. visiting family. This means that the whole responsibility of the course will be on our shoulders and the Beal’s over the next month or so! Our ministry obligations are already mushrooming, so we would appreciate your prayers for us as we take on this additional job.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3788.jpg" caption="These lessons just arrived from the printer today." >}}

@@ -2,7 +2,7 @@
 title: Our Love Story
 date: '2012-11-27'
 author: Joshua Steele
-description: The November/December issue of our newsletter, Overseas Field Report, is now available. In this issue we discuss the recent publishing of our courtship testimony! We shared our story at No Greater Joy's conference in October, and we're happy to announce that we will also be publishing this account in written form right here on our blog. (Finally!) Be sure to read this month's issue of our newsletter for details.
+description: The November/December issue of our newsletter, Overseas Field Report, is now available. In this issue we discuss the recent publishing of our courtship testimony! We shared our story at No Greater Joy’s conference in October, and we’re happy to announce that we will also be publishing this account in written form right here on our blog. (Finally!) Be sure to read this month’s issue of our newsletter for details.
 tags:
 - newsletter
 - love story
@@ -12,7 +12,7 @@ pdf: OFR-Nov-Dec-2012.pdf
 slug: 2012-11-27-love-story
 ---
 
-The November/December issue of our newsletter, *Overseas Field Report*, is now available. In this issue we discuss the recent publishing of our courtship testimony! We shared our story at No Greater Joy's conference in October, and we're happy to announce that we will also be publishing this account in written form right here on our blog. (Finally!) Be sure to read this month's issue of our newsletter for details.
+The November/December issue of our newsletter, *Overseas Field Report*, is now available. In this issue we discuss the recent publishing of our courtship testimony! We shared our story at No Greater Joy’s conference in October, and we’re happy to announce that we will also be publishing this account in written form right here on our blog. (Finally!) Be sure to read this month’s issue of our newsletter for details.
 
 {{< callout pdf="OFR-Nov-Dec-2012.pdf" >}}
 {{< /callout >}}

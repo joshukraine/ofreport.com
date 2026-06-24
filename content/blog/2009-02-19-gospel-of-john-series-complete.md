@@ -2,7 +2,7 @@
 title: Gospel of John Series Complete!
 date: '2009-02-19'
 author: Joshua Steele
-description: Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It's been a great experience, and we're very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD's to our students.
+description: Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It’s been a great experience, and we’re very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD’s to our students.
 tags:
 - abs
 - bible study
@@ -10,11 +10,11 @@ tags:
 slug: 2009-02-19-gospel-of-john-series-complete
 ---
 
-Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It's been a great experience, and we're very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD's to our students.
+Last Tuesday evening at ABS, I finished teaching through the Gospel of John. It’s been a great experience, and we’re very grateful for all the Ukrainians who have heard the Gospel through this series. In addition to those who actually attend our meetings live, many more will hear the messages on CD and cassette in the days to come. We have recorded every lesson that was taught from John in digital format, and soon we plan to begin mailing CD’s to our students.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4845.jpg" caption="ABS students listen to teaching from the Gospel of John." >}}
 
-Next up at ABS: the book of Romans! We will begin this series on March 24. In addition to our verse-by-verse study of Romans, we will also be adding some topical messages to the mix. When speaking and witnessing to Ukrainians, one notices that many of the same questions seem to come up repeatedly. With this in mind, we're going to start covering these in messages entitled "What the Bible says about \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_."
+Next up at ABS: the book of Romans! We will begin this series on March 24. In addition to our verse-by-verse study of Romans, we will also be adding some topical messages to the mix. When speaking and witnessing to Ukrainians, one notices that many of the same questions seem to come up repeatedly. With this in mind, we’re going to start covering these in messages entitled “What the Bible says about \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.”
 
 The following is an overview of the ABS schedule for the next couple of months.
 
@@ -29,7 +29,7 @@ The following is an overview of the ABS schedule for the next couple of months.
 * 4/21 - Romans 3 (taught by Joshua)
 * 4/28 - The Deity of Christ (taught by Jessie)
 
-Even as I write this post, our team is working on another large mailout to notify our CBC students of the upcoming schedule for ABS. All of our Lviv-based students (over 230 altogether) will receive a letter including the schedule above. It is our hope that this will serve to generate more interest in our weekly Bible studies. As always, we appreciate your continued prayers for this ministry. Remember: ABS meets every week at 11:00am CST. God bless you for interceding for those who are hearing the Word of God. Pray that the Lord would open their hearts. *"So then faith cometh by hearing, and hearing by the Word of God." (Rom. 10:17)*
+Even as I write this post, our team is working on another large mailout to notify our CBC students of the upcoming schedule for ABS. All of our Lviv-based students (over 230 altogether) will receive a letter including the schedule above. It is our hope that this will serve to generate more interest in our weekly Bible studies. As always, we appreciate your continued prayers for this ministry. Remember: ABS meets every week at 11:00am CST. God bless you for interceding for those who are hearing the Word of God. Pray that the Lord would open their hearts. *“So then faith cometh by hearing, and hearing by the Word of God.” (Rom. 10:17)*
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_4997.jpg" caption="Denise Hutchison and Bryan Shufelt print addresses for our upcoming ABS mailout." >}}
 

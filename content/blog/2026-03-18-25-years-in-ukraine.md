@@ -16,7 +16,7 @@ full-time missionary. I felt I could not let this day pass without expressing my
 gratefulness to the Lord and to the many friends and family who have walked with
 me through this journey.
 
-There is so much I could share, but in this brief post, I'd like to reflect on a
+There is so much I could share, but in this brief post, I’d like to reflect on a
 few of the milestones God has led me through. I hope that as you read, you will
 be encouraged to trust Him with your life and to follow Him in faith, no matter
 what happens. Like so many that have come before me, I can testify from long
@@ -146,7 +146,7 @@ total to twenty. _Bible First_ remains at the core of our ministry today.
 
 ### 2014
 
-The Maidan Revolution begins in Ukraine, followed by russia's invasion and
+The Maidan Revolution begins in Ukraine, followed by russia’s invasion and
 subsequent annexation of Crimea, as well as large portions of the Donbas region.
 
 Our fourth daughter, Kathryn, is born in December.
@@ -181,7 +181,7 @@ Working with a professional Ukrainian philologist, we complete a thorough
 updated translation of _Good and Evil_ in Ukrainian. New donations come in,
 enabling us to print 5,000 copies — this time in full color.
 
-Ben Sargent joins ETO's Board of Directors.
+Ben Sargent joins ETO’s Board of Directors.
 
 ### 2019
 
@@ -257,12 +257,12 @@ faith. He wants to lead you, He wants to bless you in ways you cannot imagine,
 and He wants to use your voice to call the lost out of darkness and into His
 light.
 
-Looking back over these 25 years, I realize that I wouldn't trade them for the
-world. There's nowhere else I would rather have been. There's nothing else I
+Looking back over these 25 years, I realize that I wouldn’t trade them for the
+world. There’s nowhere else I would rather have been. There’s nothing else I
 would rather have done than to raise my family in Ukraine and share Jesus Christ
 with the precious people amongst whom we live.
 
-I can't know how many more years God will give me on this earth, but my purpose
+I can’t know how many more years God will give me on this earth, but my purpose
 remains the same. Whether in Ukraine or the United States or wherever God will
 lead me, I am called to preach the Gospel of Jesus Christ to those who have not
 heard.

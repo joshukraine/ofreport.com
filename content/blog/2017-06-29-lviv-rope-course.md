@@ -15,7 +15,7 @@ slug: 2017-06-29-lviv-rope-course
 
 Last Sunday, I took all the kids from our [Bible First class](http://OFReport.com/2017/06/bible-first-kids/) to a rope course here in Lviv. We had a fun time and thought you might enjoy seeing some pictures.
 
-Please keep praying for our class. We're approaching the end of [Lesson 2](https://getbiblefirst.com/lessons/lesson2/) in Bible First. The kids are learning a lot, and I'm very grateful for the opportunity we have to study this material together.
+Please keep praying for our class. We’re approaching the end of [Lesson 2](https://getbiblefirst.com/lessons/lesson2/) in Bible First. The kids are learning a lot, and I’m very grateful for the opportunity we have to study this material together.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/rope-course-09-2000w.jpg" caption="Anya Medyakovska and her brother Danylo get suited up with a harness and helmet." >}}
 

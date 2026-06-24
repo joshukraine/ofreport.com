@@ -150,13 +150,13 @@ Keep scrolling for more photos and video! First up, the baptism...
   <source src="https://d21yo20tm8bmc2.cloudfront.net/2024/hosanna-baptism.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<figcaption class="mx-auto mt-2 text-base font-serif font-semibold text-center">Hosanna's baptism - September 7, 2024</figcaption>
+<figcaption class="mx-auto mt-2 text-base font-serif font-semibold text-center">Hosanna’s baptism - September 7, 2024</figcaption>
 
 <video class="baptism-video mx-auto" controls>
   <source src="https://d21yo20tm8bmc2.cloudfront.net/2024/kathryn-baptism.mov" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<figcaption class="mx-auto mt-2 text-base font-serif font-semibold text-center">Kathryn's baptism - September 7, 2024</figcaption>
+<figcaption class="mx-auto mt-2 text-base font-serif font-semibold text-center">Kathryn’s baptism - September 7, 2024</figcaption>
 
 {{< figure src="OFReport/2024-09-24-of-books-baptisms-and-blessings/baptism-hosanna-testimony_mngjvf" caption="Hosanna shares a brief testimony of how she came to faith in Christ." >}}
 

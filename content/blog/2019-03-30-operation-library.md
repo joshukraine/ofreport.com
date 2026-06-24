@@ -2,7 +2,7 @@
 title: Operation Library
 date: '2019-03-30'
 author: Joshua Steele
-description: Shortly after our return from America, one of the teachers in the Christian school at our church asked me speak to her class. She had heard about our visit to the Ark Encounter in Kentucky and wanted me to share our experience with the children. After I spoke, the kids would do a puppet show about Noah's Ark. The whole event was to take place at a local children's library in our neighborhood. I agreed to come and a date was set.
+description: Shortly after our return from America, one of the teachers in the Christian school at our church asked me speak to her class. She had heard about our visit to the Ark Encounter in Kentucky and wanted me to share our experience with the children. After I spoke, the kids would do a puppet show about Noah’s Ark. The whole event was to take place at a local children’s library in our neighborhood. I agreed to come and a date was set.
 tags:
 - newsletter
 - good-and-evil
@@ -14,32 +14,32 @@ pdf: OFR-Jan-Mar-2019.pdf
 slug: 2019-03-30-operation-library
 ---
 
-Shortly after our return from America, one of the teachers in the Christian school at our church asked me speak to her class. She had heard about our visit to the Ark Encounter in Kentucky and wanted me to share our experience with the children. After I spoke, the kids would do a puppet show about Noah's Ark. The whole event was to take place at a local children's library in our neighborhood. I agreed to come and a date was set.
+Shortly after our return from America, one of the teachers in the Christian school at our church asked me speak to her class. She had heard about our visit to the Ark Encounter in Kentucky and wanted me to share our experience with the children. After I spoke, the kids would do a puppet show about Noah’s Ark. The whole event was to take place at a local children’s library in our neighborhood. I agreed to come and a date was set.
 
 {{< callout pdf="OFR-Jan-Mar-2019.pdf" >}}
 {{< /callout >}}
 
 {{< figure src="OFReport/2019-03-30-operation-library/ark-story-03-3000w_ztn7pv.jpg" caption="Abby and I enjoyed telling the story of our experience at the Ark Encounter to these elementary school children." >}}
 
-As I began preparing materials for my talk, it occurred to me that I should bring along a few copies of our new color edition of _Good and Evil_ to donate to the library. Wouldn't it be great if local kids discovered _Good and Evil_ on the shelves and began to read the stories of the Bible? This thought then led to another: what if we could put copies of _Good and Evil_ in more libraries?
+As I began preparing materials for my talk, it occurred to me that I should bring along a few copies of our new color edition of _Good and Evil_ to donate to the library. Wouldn’t it be great if local kids discovered _Good and Evil_ on the shelves and began to read the stories of the Bible? This thought then led to another: what if we could put copies of _Good and Evil_ in more libraries?
 
 A few days later, my friend Serhii Chepara stopped by our house. I met Serhii back in 2004, shortly after Kelsie and I were married, and in the early days he would come to our home regularly for Bible studies. Today he has a family of his own, and he is active in preaching and teaching in his local church here in Lviv.
 
-Now, as we stood chatting in the entryway, I decided to share my library idea with Serhii. I told him about the upcoming event with the kids from the school, and about my plan to donate copies of _Good and Evil_ to the library. "What if we could donate these books to other Ukrainian libraries?", I suggested. "It seems to me that we could reach a lot of people that way. What do you think?"
+Now, as we stood chatting in the entryway, I decided to share my library idea with Serhii. I told him about the upcoming event with the kids from the school, and about my plan to donate copies of _Good and Evil_ to the library. “What if we could donate these books to other Ukrainian libraries?”, I suggested. “It seems to me that we could reach a lot of people that way. What do you think?”
 
 Serhii loved the idea and immediately began offering suggestions as to its implementation. By the end of the conversation, I invited him to put together a plan of action and get back in touch. Several days later we had a follow-up conversation and hammered out the final details. Serhii would spearhead the operation, and we would provide materials and support as needed.
 
-As a first step, Serhii sent out an email to dozens of his friends and contacts in cities across Ukraine. The proposition was simple: if you can get books to your local library, let us know and we'll send you the books. Soon, requests began coming in, and books began shipping out. Many people have even sent us pictures of their encounters donating the books to their local libraries. So far over 200 copies of _Good and Evil_ have been donated!
+As a first step, Serhii sent out an email to dozens of his friends and contacts in cities across Ukraine. The proposition was simple: if you can get books to your local library, let us know and we’ll send you the books. Soon, requests began coming in, and books began shipping out. Many people have even sent us pictures of their encounters donating the books to their local libraries. So far over 200 copies of _Good and Evil_ have been donated!
 
 {{< figure src="OFReport/2019-03-30-operation-library/operation-library-guys_wqnwe5.jpg" caption="Serhii (second from left) has done a great job networking, writing letters, and mailing books. As a result, over 200 copies of _Good and Evil_ have been donated to Ukrainian libraries across the country." >}}
 
-Serhii has something of a reputation for tenacity. Once he gets behind a project, he pushes it hard until it brings results. Our team is grateful for his work, and we're excited to see how the Lord will continue to use _Good and Evil_ to reach people for Christ!
+Serhii has something of a reputation for tenacity. Once he gets behind a project, he pushes it hard until it brings results. Our team is grateful for his work, and we’re excited to see how the Lord will continue to use _Good and Evil_ to reach people for Christ!
 
 ## Teen Group
 
 Another ministry door that God has recently opened for our family is a home group for young people in our church. These are kids ages 14-18, many of whom have been coming to my class at church for a long time. For the home group, we decided to tackle a particular theme: a Biblical perspective on courtship and marriage.
 
-We've had three meetings so far, and it took two of those for Kelsie and I to tell our love story. That never gets old! We've also had lots of good discussions with these kids, and we're excited about our upcoming lessons. Please pray with us for God's blessing on these meetings!
+We’ve had three meetings so far, and it took two of those for Kelsie and I to tell our love story. That never gets old! We’ve also had lots of good discussions with these kids, and we’re excited about our upcoming lessons. Please pray with us for God’s blessing on these meetings!
 
 {{< figure src="OFReport/2019-03-30-operation-library/teen-group_alilv4.jpg" caption="Our first home meeting with the teens from church" >}}
 
@@ -47,8 +47,8 @@ We've had three meetings so far, and it took two of those for Kelsie and I to te
 
 * Praise the Lord for the fruit we are seeing with the library project! Pray that libraries would be receptive and that many people would have opportunity to read _Good and Evil_.
 * Pray for our summer project, CMO 2019. Preparations are well underway, and soon guys will begin traveling to Ukraine! More at [www.cmoproject.org](https://cmoproject.org/).
-* Pray for Kelsie's pregnancy, and a safe delivery for our baby GIRL! 💖
-* Pray for God's guidance and blessing on the young people in our home group.
+* Pray for Kelsie’s pregnancy, and a safe delivery for our baby GIRL! 💖
+* Pray for God’s guidance and blessing on the young people in our home group.
 * Pray for peace and liberty in Ukraine.
 
 {{< callout >}}
@@ -57,7 +57,7 @@ Keep scrolling for more photos from our family and ministry!
 
 ## More library photos...
 
-The following are a few of the photos we've received so far from people who have helped us by donating copies of _Good and Evil_ to their local libraries.
+The following are a few of the photos we’ve received so far from people who have helped us by donating copies of _Good and Evil_ to their local libraries.
 
 {{< figure src="OFReport/2019-03-30-operation-library/dobro-i-zlo-library-09_fuqzbk.jpg" alt="A young man hands the dark-covered Good and Evil book to two women at a colorful children's library" >}}
 

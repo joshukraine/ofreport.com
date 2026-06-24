@@ -2,7 +2,7 @@
 title: Bible First Kids
 date: '2017-06-13'
 author: Joshua Steele
-description: On April 8, 2017, our eldest daughter Abigail was baptized following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. "I heard that you’ve been taking Abigail through the Bible First lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
+description: On April 8, 2017, our eldest daughter Abigail was baptized following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. “I heard that you’ve been taking Abigail through the Bible First lessons at home.” I acknowledged that this was correct. “Would you be willing to do the same for our older kids at church?”
 tags:
 - newsletter
 - bible first
@@ -13,7 +13,7 @@ pdf: OFR-May-Jun-2017.pdf
 slug: 2017-06-13-bible-first-kids
 ---
 
-On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. "I heard that you’ve been taking Abigail through the *Bible First* lessons at home." I acknowledged that this was correct. "Would you be willing to do the same for our older kids at church?"
+On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. “I heard that you’ve been taking Abigail through the *Bible First* lessons at home.” I acknowledged that this was correct. “Would you be willing to do the same for our older kids at church?”
 
 {{< callout pdf="OFR-May-Jun-2017.pdf" >}}
 {{< /callout >}}
@@ -22,11 +22,11 @@ I agreed and our first class was held on the Sunday after Easter. I brought a sh
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/challenge-1440w.jpg" caption="The class receives three challenges in front of the congregation on our first day." >}}
 
-I was glad that Pastor Vladyslav was joining me to help lead the class. Most of my Bible teaching experience has been with adults, and I confess I was bit nervous with the idea of committing to lead a weekly kids' class. That first day, however, laid my fears to rest. We got right down to business, reading through a good portion of Lesson 1. I also introduced the kids to "sword drills", wherein everyone practices finding various passages in their Bibles as quickly as possible. Whoever finds the passage first reads it aloud. He then comes to the front and leads the next drill.
+I was glad that Pastor Vladyslav was joining me to help lead the class. Most of my Bible teaching experience has been with adults, and I confess I was bit nervous with the idea of committing to lead a weekly kids’ class. That first day, however, laid my fears to rest. We got right down to business, reading through a good portion of Lesson 1. I also introduced the kids to “sword drills”, wherein everyone practices finding various passages in their Bibles as quickly as possible. Whoever finds the passage first reads it aloud. He then comes to the front and leads the next drill.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-2000w.jpg" caption="Danylo Medyakovsky (16) takes a turn leading the class in sword drills." >}}
 
-In addition to reading through *Bible First* lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter "intro" message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
+In addition to reading through *Bible First* lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter “intro” message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-2000w.jpg" caption="The kids takes notes while listening to a message in the main service." >}}
 

@@ -25,11 +25,11 @@ This printing of *Good and Evil* is the fulfillment of a vision that began in 20
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/dobro-zlo-box_q2jco5.jpg" caption="A case of 20 Good and Evil books" >}}
 
-On July 5, just before CMO began, we launched a new Ukrainian-language web site where people can go to request a free copy of the book. (Check out [dobroizlo.com.ua](https://dobroizlo.com.ua/) if you're curious.) As of this writing, we've received 191 requests — an average of over two requests every day!
+On July 5, just before CMO began, we launched a new Ukrainian-language web site where people can go to request a free copy of the book. (Check out [dobroizlo.com.ua](https://dobroizlo.com.ua/) if you’re curious.) As of this writing, we’ve received 191 requests — an average of over two requests every day!
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/dobro-zlo-site_l2mtx2.jpg" caption="Any Ukrainian may receive a copy of *Good and Evil* free of charge simply by submitting a request through our web site: [dobroizlo.com.ua](https://dobroizlo.com.ua/)" >}}
 
-All this means a lot of work in the mail room for our team member, Denise Hutchison. In addition to all her work sending and receiving *Bible First* lessons, she's now shipping out dozens of *Good and Evil* books. Since their delivery in August, we've sent between 50-60 books, and more are in the pipeline!
+All this means a lot of work in the mail room for our team member, Denise Hutchison. In addition to all her work sending and receiving *Bible First* lessons, she’s now shipping out dozens of *Good and Evil* books. Since their delivery in August, we’ve sent between 50-60 books, and more are in the pipeline!
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/ready-to-mail_r0smks.jpg" caption="Denise has been hard at work mailing out Good and Evil books. Since August, we've sent out about 60 books!" >}}
 
@@ -39,11 +39,11 @@ We are very excited about the potential impact of *Good and Evil* in Ukraine. Pl
 
 ## Our Trip to America
 
-We're here! After a long, but otherwise smooth series of flights, our family landed in Houston on September 1. We were greeted with warm smiles and hugs from Kelsie's folks who kindly picked us up at the airport. For the past few weeks, we've been enjoying a sweet time of fellowship in their home.
+We’re here! After a long, but otherwise smooth series of flights, our family landed in Houston on September 1. We were greeted with warm smiles and hugs from Kelsie’s folks who kindly picked us up at the airport. For the past few weeks, we’ve been enjoying a sweet time of fellowship in their home.
 
-As I write this report, we are just days away from our [Big East Road Trip](/blog/2018-02-05-coming-to-america), during which we'll visit the Ark Encounter and Creation Museum in Kentucky. We also plan to see several other people along our route, and then head to Family Camp in Big Sandy. After Family Camp, we'll transition up to Fort Worth to visit my family. We'll be returning to Ukraine in mid-December, just before the Christmas holidays.
+As I write this report, we are just days away from our [Big East Road Trip](/blog/2018-02-05-coming-to-america), during which we’ll visit the Ark Encounter and Creation Museum in Kentucky. We also plan to see several other people along our route, and then head to Family Camp in Big Sandy. After Family Camp, we’ll transition up to Fort Worth to visit my family. We’ll be returning to Ukraine in mid-December, just before the Christmas holidays.
 
-Time in the US is always refreshing but at the same time a challenge. The little ones especially struggle with the changes and lack of routine. Everything is new and different from the world they're used to in Ukraine. Just the other day, after spending some time at a playground here in Houston, Kathryn came up to me and proclaimed excitedly, “Daddy, I met a little girl at the playground and she spoke to me in English!” 😁 Please pray that God would give strength and rest as we try to make the most of our time here.
+Time in the US is always refreshing but at the same time a challenge. The little ones especially struggle with the changes and lack of routine. Everything is new and different from the world they’re used to in Ukraine. Just the other day, after spending some time at a playground here in Houston, Kathryn came up to me and proclaimed excitedly, “Daddy, I met a little girl at the playground and she spoke to me in English!” 😁 Please pray that God would give strength and rest as we try to make the most of our time here.
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/kids-minivan_cq0rxq.jpg" caption="Strapped in and ready to roll! God has graciously provided us with a leased minivan for our time in the US. It's super nice and a great fit for our big family!" >}}
 
@@ -55,7 +55,7 @@ Time in the US is always refreshing but at the same time a challenge. The little
 
 ## CMO 2018 Recap
 
-After taking a season off in 2017, CMO came back with a bang in 2018! There's a lot to tell — more than we have room for here. We had an outstanding team of men, and God blessed the advancement of His Gospel. If you'd like to learn more, please check out my recent post over on ETO's blog: [CMO 2018 Recap](https://euroteamoutreach.org/blog/2018/09/cmo-recap).
+After taking a season off in 2017, CMO came back with a bang in 2018! There’s a lot to tell — more than we have room for here. We had an outstanding team of men, and God blessed the advancement of His Gospel. If you’d like to learn more, please check out my recent post over on ETO’s blog: [CMO 2018 Recap](https://euroteamoutreach.org/blog/2018/09/cmo-recap).
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/cmo-2018-showing_eg2uwl.jpg" caption="People from the village of Bystrytsya-Hirska view the film this summer during CMO." >}}
 

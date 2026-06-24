@@ -2,7 +2,7 @@
 title: What Saith the Scripture?
 date: '2012-03-01'
 author: Joshua Steele
-description: The March issue of our newsletter, Overseas Field Report, is now available. Featured this month is our new Ukrainian-language video channel called "What saith the Scripture?" Also included is an update about the immigration situation plus some exciting family news!
+description: The March issue of our newsletter, Overseas Field Report, is now available. Featured this month is our new Ukrainian-language video channel called “What saith the Scripture?” Also included is an update about the immigration situation plus some exciting family news!
 tags:
 - newsletter
 - ministry
@@ -13,7 +13,7 @@ pdf: OFR-Mar-2012.pdf
 slug: 2012-03-01-what-saith-scripture
 ---
 
-The March issue of our newsletter, *Overseas Field Report*, is now available. Featured this month is our new Ukrainian-language video channel called "What saith the Scripture?" Also included is an update about the immigration situation plus some exciting family news!
+The March issue of our newsletter, *Overseas Field Report*, is now available. Featured this month is our new Ukrainian-language video channel called “What saith the Scripture?” Also included is an update about the immigration situation plus some exciting family news!
 
 {{< callout pdf="OFR-Mar-2012.pdf" >}}
 {{< /callout >}}

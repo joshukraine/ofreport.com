@@ -2,7 +2,7 @@
 title: Are We Safe?
 date: '2022-02-13'
 author: Kelsie Steele
-description: My mom made a comment to me about my husband several years ago. She said, "I think Joshua has good judgment. I would feel safe with him." I don’t even remember the circumstances that prompted that remark, but recently I have thought of it several times. Due to Ukraine’s recent place on the world stage, there has been a lot of interest in what our family would do.
+description: My mom made a comment to me about my husband several years ago. She said, “I think Joshua has good judgment. I would feel safe with him.” I don’t even remember the circumstances that prompted that remark, but recently I have thought of it several times. Due to Ukraine’s recent place on the world stage, there has been a lot of interest in what our family would do.
 tags:
 - ukraine
 - podcast

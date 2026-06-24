@@ -21,4 +21,4 @@ Each week, the Word of God is preached and they are staying to listen. As we tea
 
 Last night, Joshua did a great job of laying out simple steps to studying the Bible and drawing accurate conclusions about what it teaches. We hope that this message will benefit not only those who were present, but many others who will hear the recording of it in the days to come.
 
-**"Every word of God is pure: he is a shield unto them that put their trust in him." Proverbs 30:5**
+**“Every word of God is pure: he is a shield unto them that put their trust in him.” Proverbs 30:5**

@@ -162,7 +162,7 @@ Keep scrolling for more photos and video from the trip!
 {{< figure src="OFReport/2025-02-24-the-november-project/joshua-lady-good-evil-book_zwajny" caption="I don’t know her name, but I pray that one day it will be written in Heaven. The book she holds shows the way!" >}}
 
 {{< callout >}}
-Don't forget to check out our collection of video updates shot during the trip!
+Don’t forget to check out our collection of video updates shot during the trip!
 
 [The November Project 2024](https://jsua.co/nov-proj-2024)
 {{< /callout >}}

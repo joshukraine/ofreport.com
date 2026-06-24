@@ -20,7 +20,7 @@ The process is now complete, but if you wish to continue receiving our updates y
 * Check your inbox for an email from joshua@ofreport.com containing the subject line “[OFReport.com] Please confirm your request”. (NOTE: If you don’t see it within a few minutes, check your spam or junk mail folder)
 * Open this email and click the confirmation link.
 
-That’s it! Your email has been added to our new database of subscribers and you will now receive all of our future blog notifications. As always, you can easily unsubscribe by visiting [https://OFReport.com/subscribe](/subscribe/), entering your email address again, and pressing "Unsubscribe."
+That’s it! Your email has been added to our new database of subscribers and you will now receive all of our future blog notifications. As always, you can easily unsubscribe by visiting [https://OFReport.com/subscribe](/subscribe/), entering your email address again, and pressing “Unsubscribe.”
 
 We appreciate your continued prayers and support for our ministry overseas.
 

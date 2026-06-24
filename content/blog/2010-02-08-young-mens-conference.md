@@ -1,18 +1,18 @@
 ---
-title: Young Men's Conference
+title: Young Men’s Conference
 date: '2010-02-08'
 author: Joshua Steele
-description: Saturday was the second and final day of our Young Men's Conference. Thank you to all of you who were praying about this. We had a great turn out (over 30 guys), and I believe that these young men were encouraged and God was glorified.
+description: Saturday was the second and final day of our Young Men’s Conference. Thank you to all of you who were praying about this. We had a great turn out (over 30 guys), and I believe that these young men were encouraged and God was glorified.
 tags:
 - ministry
 slug: 2010-02-08-young-mens-conference
 ---
 
-Saturday was the second and final day of our Young Men's Conference. Thank you to all of you who were praying about this. We had a great turn out (over 30 guys), and I believe that these young men were encouraged and God was glorified.
+Saturday was the second and final day of our Young Men’s Conference. Thank you to all of you who were praying about this. We had a great turn out (over 30 guys), and I believe that these young men were encouraged and God was glorified.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8531.jpg" caption="Young Men's Conference - February 2010" >}}
 
-Our theme was II Timothy 2. The conference consisted of four sessions, each deriving it's subject from a verse in II Timothy 2. (see topical overview below) All four sessions were recorded on video, and Jonathan Steele is putting them onto a DVD.
+Our theme was II Timothy 2. The conference consisted of four sessions, each deriving it’s subject from a verse in II Timothy 2. (see topical overview below) All four sessions were recorded on video, and Jonathan Steele is putting them onto a DVD.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2010/02/DSC_8524.jpg" caption="Bill Bell gives a demonstration on tactical firearms." >}}
 

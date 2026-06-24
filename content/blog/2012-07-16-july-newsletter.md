@@ -2,7 +2,7 @@
 title: July Newsletter
 date: '2012-07-16'
 author: Joshua Steele
-description: The July issue of our newsletter, Overseas Field Report, is now available. This issue includes a reprint of our "Little One" article, plus updates on CMO 2012 and Vasyl, the man from our English Club who recently got saved.
+description: The July issue of our newsletter, Overseas Field Report, is now available. This issue includes a reprint of our “Little One” article, plus updates on CMO 2012 and Vasyl, the man from our English Club who recently got saved.
 tags:
 - newsletter
 - cmo
@@ -12,7 +12,7 @@ pdf: OFR-July-2012.pdf
 slug: 2012-07-16-july-newsletter
 ---
 
-The July issue of our newsletter, *Overseas Field Report*, is now available. This issue includes a reprint of our ["Little One"](/blog/2012-06-26-little-one/) article, plus updates on [CMO 2012](http://cmoproject.org/) and [Vasyl](/blog/2012-05-30-sinner-home/), the man from our English Club who recently got saved.
+The July issue of our newsletter, *Overseas Field Report*, is now available. This issue includes a reprint of our [“Little One”](/blog/2012-06-26-little-one/) article, plus updates on [CMO 2012](http://cmoproject.org/) and [Vasyl](/blog/2012-05-30-sinner-home/), the man from our English Club who recently got saved.
 
 {{< callout pdf="OFR-July-2012.pdf" >}}
 {{< /callout >}}

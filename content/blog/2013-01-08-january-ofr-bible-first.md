@@ -2,7 +2,7 @@
 title: 'January OFR: Bible First Is Here!'
 date: '2013-01-08'
 author: Joshua Steele
-description: 'The January issue of our newsletter, Overseas Field Report, is now available. For those of you who haven''t yet heard the news, this issue contains our announcement about the recent release of Bible First Also in this issue: an update on Vasyl and his family.'
+description: 'The January issue of our newsletter, Overseas Field Report, is now available. For those of you who haven’t yet heard the news, this issue contains our announcement about the recent release of Bible First Also in this issue: an update on Vasyl and his family.'
 tags:
 - newsletter
 - bible first
@@ -12,7 +12,7 @@ pdf: OFR-Jan-2013.pdf
 slug: 2013-01-08-january-ofr-bible-first
 ---
 
-The January issue of our newsletter, *Overseas Field Report*, is now available. For those of you who haven't yet heard the news, this issue contains our announcement about the recent release of [*Bible First*](http://www.getbiblefirst.com) Also in this issue: an update on Vasyl and his family.
+The January issue of our newsletter, *Overseas Field Report*, is now available. For those of you who haven’t yet heard the news, this issue contains our announcement about the recent release of [*Bible First*](http://www.getbiblefirst.com) Also in this issue: an update on Vasyl and his family.
 
 {{< callout pdf="OFR-Jan-2013.pdf" >}}
 {{< /callout >}}

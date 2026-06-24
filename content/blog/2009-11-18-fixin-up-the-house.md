@@ -1,5 +1,5 @@
 ---
-title: Fixin' Up the House
+title: Fixin’ Up the House
 date: '2009-11-27'
 author: Joshua Steele
 description: As many of you know, God recently opened the door for our family to purchase a house here in the States. We plan to live in the house until our return to Ukraine, and then rent it out. The house needed quite a bit of work when we bought it, and we have been very blessed by the many believers who have come forward and volunteered their efforts to help with repairs.

@@ -2,7 +2,7 @@
 title: An Evening of Christian Fellowship
 date: '2008-12-08'
 author: Kelsie Steele
-description: The postal worker's eyes widened as I handed her my 3 large stacks of business envelopes. "So many lovers to write to, eh?", the gray-headed gentleman next to me teased with a twinkle in his eye. I don't usually enjoy trips to the Ukrainian Post Office, but this one was important.
+description: The postal worker’s eyes widened as I handed her my 3 large stacks of business envelopes. “So many lovers to write to, eh?”, the gray-headed gentleman next to me teased with a twinkle in his eye. I don’t usually enjoy trips to the Ukrainian Post Office, but this one was important.
 tags:
 - abs
 - bible study
@@ -11,17 +11,17 @@ tags:
 slug: 2008-12-08-an-evening-of-christian-fellowship
 ---
 
-The postal worker's eyes widened as I handed her my 3 large stacks of business envelopes. "So many lovers to write to, eh?", the gray-headed gentleman next to me teased with a twinkle in his eye. I don't usually enjoy trips to the Ukrainian Post Office, but this one was important. Joshua and I had spent all weekend preparing this mail-out for those of our Bible Correspondence students who live in the Lviv area-- 228 in all. As I sat and licked each individual stamp, (no self-adhesive here!) my thoughts ran in a continuous cycle: Will this person come? Lord, draw their hearts to you. I wonder how many will be there. Will they come? Bring those who are ready to hear, Lord!
+The postal worker’s eyes widened as I handed her my 3 large stacks of business envelopes. “So many lovers to write to, eh?”, the gray-headed gentleman next to me teased with a twinkle in his eye. I don’t usually enjoy trips to the Ukrainian Post Office, but this one was important. Joshua and I had spent all weekend preparing this mail-out for those of our Bible Correspondence students who live in the Lviv area-- 228 in all. As I sat and licked each individual stamp, (no self-adhesive here!) my thoughts ran in a continuous cycle: Will this person come? Lord, draw their hearts to you. I wonder how many will be there. Will they come? Bring those who are ready to hear, Lord!
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_37023.jpg" alt="Group of young men and women seated on chairs in a wood-paneled room for an evening of fellowship" >}}
 
-Not long ago, an acquaintance named Roman approached Joshua and asked the worn out question that missionaries hear quite regularly, "Do you teach English?" Joshua gave him his usual answer, "If you can find a group of ten dedicated people who want to learn, call me and we'll talk about starting an English club." While most who ask never call back, it wasn't long before we heard from Roman again, saying he had found 8 people who would come.
+Not long ago, an acquaintance named Roman approached Joshua and asked the worn out question that missionaries hear quite regularly, “Do you teach English?” Joshua gave him his usual answer, “If you can find a group of ten dedicated people who want to learn, call me and we’ll talk about starting an English club.” While most who ask never call back, it wasn’t long before we heard from Roman again, saying he had found 8 people who would come.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2008/12/dsc_3701.jpg" caption="Our friend Roman (left) with his friend, also named Roman." >}}
 
 About this same time, our missionary team had been making plans to resume the Audio Bible Study that we had carried on over the past fall and winter. Last year, our students could come to hear weekly teaching from the book of John, with each session being recorded on CD for distribution on a wider scale. We did see fruit from this ministry, but only a very limited number of people came to the meetings regularly and it became difficult to continue them.
 
-With Roman's call, the decision was made to initiate "An Evening of Christian Fellowship", combining both the English Club and the Audio Bible Study (ABS) into one effort. Through the mail-out, we invited all our local students to come to one or both of the teaching times. First we would gather for English teaching and discussion; immediately afterward would follow Bible teaching on various themes or from the book of John.
+With Roman’s call, the decision was made to initiate “An Evening of Christian Fellowship”, combining both the English Club and the Audio Bible Study (ABS) into one effort. Through the mail-out, we invited all our local students to come to one or both of the teaching times. First we would gather for English teaching and discussion; immediately afterward would follow Bible teaching on various themes or from the book of John.
 
 The invites were taken to the Post Office and sent. We waited and prayed.
 

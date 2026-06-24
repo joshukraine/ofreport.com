@@ -1,8 +1,8 @@
 ---
-title: We've Made Our Decision
+title: We’ve Made Our Decision
 date: '2023-05-07'
 author: Joshua Steele
-description: It's been over a year since our initial evacuation to Slovakia. In this episode, we'll share our decision regarding a return to Ukraine in 2023. We'll also update you on the war, CMO 2023, and our other ministry projects.
+description: It’s been over a year since our initial evacuation to Slovakia. In this episode, we’ll share our decision regarding a return to Ukraine in 2023. We’ll also update you on the war, CMO 2023, and our other ministry projects.
 tags:
 - podcast
 - ukraine
@@ -13,8 +13,8 @@ caption: "Kyiv — the capital city of beautiful, free Ukraine \U0001F499\U0001F
 slug: 2023-05-07-we-ve-made-our-decision
 ---
 
-It's been over a year since our initial evacuation to Slovakia. In this episode,
-we'll share our decision regarding a return to Ukraine in 2023. We'll also
+It’s been over a year since our initial evacuation to Slovakia. In this episode,
+we’ll share our decision regarding a return to Ukraine in 2023. We’ll also
 update you on the war, CMO 2023, and our other ministry projects.
 
 Thank you so much for listening to our podcast! Please
@@ -26,7 +26,7 @@ Ukrainians in Eastern Europe.
 
 ## Carpathian Mountain Outreach 2023
 
-CMO is back for 2023! Time is short, so if you're interested, we need to hear
+CMO is back for 2023! Time is short, so if you’re interested, we need to hear
 from you as soon as possible. The buttons below will get you started!
 
 {{< button href="https://euroteamoutreach.org/blog/2023/04/time-to-go/" text="Read the Announcement" outline=true external=true >}}

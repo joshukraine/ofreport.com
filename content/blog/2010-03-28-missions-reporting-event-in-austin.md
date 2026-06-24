@@ -14,6 +14,6 @@ Due to sickness in my family and also in the family that was organizing this eve
 
 ---
 
-I will be speaking in Austin, TX this coming Wednesday, March 31 at 7:00pm. I'll be showing our missions DVD, speaking about the ministry, and preaching a message on evangelism called "Vision, Strategy, Perseverance."
+I will be speaking in Austin, TX this coming Wednesday, March 31 at 7:00pm. I’ll be showing our missions DVD, speaking about the ministry, and preaching a message on evangelism called “Vision, Strategy, Perseverance.”
 
-If you're in the area and you'd like to join us, please [contact me for details](/contact/).
+If you’re in the area and you’d like to join us, please [contact me for details](/contact/).

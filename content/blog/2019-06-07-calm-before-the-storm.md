@@ -9,7 +9,7 @@ tags:
 - family
 - photos
 cover: https://res.cloudinary.com/dnkvsijzu/image/upload/v1571898092/OFReport/2019-06-07-calm-before-the-storm/daddys-home-cover-1200-630_czmh0h.jpg
-caption: '"Daddy''s home!" As something of a finale to our otherwise quiet spring season, I got to attend the wedding of a good friend in the US. After a week away from my family, and a joyful reunion upon my return, it''s time to buckle up. CMO 2019 is only days away!'
+caption: '“Daddy’s home!” As something of a finale to our otherwise quiet spring season, I got to attend the wedding of a good friend in the US. After a week away from my family, and a joyful reunion upon my return, it’s time to buckle up. CMO 2019 is only days away!'
 pdf: OFR-Apr-Jun-2019.pdf
 slug: 2019-06-07-calm-before-the-storm
 ---
@@ -27,11 +27,11 @@ During the week that I was in Tennessee for the wedding, I stayed with Michael a
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/mike-and-debi_vaesaj.jpg" caption="The morning I left, I got a quick selfie with Mike and Debi. What a blessing these folks are to me and so many others!" >}}
 
-Now I'm back in Ukraine, and as we prepare to take yet another CMO plunge, I'd like to share how God has led us over the past couple of months.
+Now I’m back in Ukraine, and as we prepare to take yet another CMO plunge, I’d like to share how God has led us over the past couple of months.
 
 ## Heavenly Parenting Book
 
-Due in large part to the diligence and fund-raising efforts of our friend Serhii Chepara, Kelsie and I now have our own published book on parenting. It's called *Nebesne Batkivstvo* (Heavenly Parenting) and as long as your Ukrainian is not too rusty, we'd love for you to read it!
+Due in large part to the diligence and fund-raising efforts of our friend Serhii Chepara, Kelsie and I now have our own published book on parenting. It’s called *Nebesne Batkivstvo* (Heavenly Parenting) and as long as your Ukrainian is not too rusty, we’d love for you to read it!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/heavenly-parenting-book_eof28n.jpg" caption="A small sample of *Heavenly Parenting* books from our first print run!" >}}
 
@@ -43,21 +43,21 @@ The book came about as the result of a parenting seminar that Kelsie and I prese
 
 ## Good and Evil Ministry
 
-The distribution of *Good and Evil* continues to move forward. We're sending out books regularly to ministries, libraries, and individuals. And as always, we expect *Good and Evil* to play a major role in our upcoming CMO project this summer!
+The distribution of *Good and Evil* continues to move forward. We’re sending out books regularly to ministries, libraries, and individuals. And as always, we expect *Good and Evil* to play a major role in our upcoming CMO project this summer!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/ge-cover-2019_ooxqoh.png" alt="Cover of the Ukrainian edition of the Good and Evil Bible comic book, titled Добро і Зло" >}}
 
 ## Bible First Online Update
 
-Our Bible First correspondence course remains a core part of our ministry, and God continues to bless its impact here in Ukraine. For quite some time, we've been working on a web application called Bible First Online, which will allow coaches and students to interact via the web without the need for paper-based lessons.
+Our Bible First correspondence course remains a core part of our ministry, and God continues to bless its impact here in Ukraine. For quite some time, we’ve been working on a web application called Bible First Online, which will allow coaches and students to interact via the web without the need for paper-based lessons.
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/bfo-signin-screen_nqrxam.jpg" caption="The sign-in screen for Bible First Online." >}}
 
-Over the past few months we've made significant progress on the app, and we finally deployed an early version to production on April 24. We've migrated all our existing students to this new system, and I'm happy to report that everything is running smoothly! There is still more work to do, but once we get through CMO, our development pace should pick up again. Lord willing, we'll have a public beta ready by year's end. We appreciate your prayers and patience as we push this app towards completion!
+Over the past few months we’ve made significant progress on the app, and we finally deployed an early version to production on April 24. We’ve migrated all our existing students to this new system, and I’m happy to report that everything is running smoothly! There is still more work to do, but once we get through CMO, our development pace should pick up again. Lord willing, we’ll have a public beta ready by year’s end. We appreciate your prayers and patience as we push this app towards completion!
 
 ## CMO 2019 is Upon Us!
 
-This year we have four young men joining our team for CMO. Please pray for Kade, Ralph, Cornelius, and Nelson as they travel to Ukraine for the summer. Also pray for Ben and Karen Sargent (ETO staff) who will be flying in from North Carolina. The Sargents arrive on June 8, the guys on June 11-12, and our first trip to the Carpathians is on June 13. Pray for God's blessing and protection!
+This year we have four young men joining our team for CMO. Please pray for Kade, Ralph, Cornelius, and Nelson as they travel to Ukraine for the summer. Also pray for Ben and Karen Sargent (ETO staff) who will be flying in from North Carolina. The Sargents arrive on June 8, the guys on June 11-12, and our first trip to the Carpathians is on June 13. Pray for God’s blessing and protection!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/stacks-of-tracts_ejrtpj.jpg" caption="The CMO 2019 \"ammo dump\". In a matter of weeks, these tracts will be distributed to tens of thousands of people in Ukrainian cities!" >}}
 
@@ -66,7 +66,7 @@ This year we have four young men joining our team for CMO. Please pray for Kade,
 ## How You Can Pray
 
 * Praise the Lord for the publication of our first Ukrainian book, *Heavenly Parenting!*
-* Pray for God's blessing and protection on CMO 2019. Pray that the Gospel would go forth unhindered, and that many would turn to salvation!
+* Pray for God’s blessing and protection on CMO 2019. Pray that the Gospel would go forth unhindered, and that many would turn to salvation!
 * Pray for health and safety for the CMO team as they travel to and from Ukraine this summer.
 * Pray for a safe delivery for Kelsie and the baby. Due date is in late July.
 * Pray for peace and liberty in Ukraine.

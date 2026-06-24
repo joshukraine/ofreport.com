@@ -11,7 +11,7 @@ slug: 2012-06-26-little-one
 
 The journey that we began four months ago in Ukraine ended today in a quiet family birthing room in Houston. Our day started at 5am when we checked in to Hermann Memorial Hospital and Kelsie was given her initial dose of induction medication.
 
-As anticipated, the first several hours were fairly uneventful, but as time passed the contractions increased their intensity. While labor is never easy, God gave much grace and Kelsie came through with flying colors. Kelsie's mom, Cindy, was with us along with our amazing medical staff - Dr. Berryhill and his nurse Ruth.
+As anticipated, the first several hours were fairly uneventful, but as time passed the contractions increased their intensity. While labor is never easy, God gave much grace and Kelsie came through with flying colors. Kelsie’s mom, Cindy, was with us along with our amazing medical staff - Dr. Berryhill and his nurse Ruth.
 
 Our baby girl was born without incident at 3:37pm. She was 9 inches long and weighed 1 lbs. 8 oz. There were many tears mingled with words of comfort and relief. When everything was over, we all gathered around the bed, and I held Kelsie’s hand as we said a final prayer to the Lord, thanking Him for His gift of life and affirming our trust in His providence.
 
@@ -24,5 +24,5 @@ Farewell, Little One. Be at peace in the glory of His presence and know that Mom
 {{< figure src="OFReport/2012-06-26-little-one/Little-One-b_jdhxay.jpg" alt="Keepsake box holding a card with tiny inked hand and footprints labeled Baby Girl Steele with her birth details" >}}
 
 {{< callout >}}
-"But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven." (Matthew 19:14)
+“But Jesus said, Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven.” (Matthew 19:14)
 {{< /callout >}}

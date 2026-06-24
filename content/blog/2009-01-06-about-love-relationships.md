@@ -2,20 +2,20 @@
 title: About Love Relationships
 date: '2009-01-06'
 author: Joshua Steele
-description: With well over 300 Ukrainian students enrolled in our Chronological Bible Course, we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?"
+description: With well over 300 Ukrainian students enrolled in our Chronological Bible Course, we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from “Is it wrong to pray to icons?” to “Do I have a guardian angel?”
 tags:
 - bible first
 - ministry
 slug: 2009-01-06-about-love-relationships
 ---
 
-With well over 300 Ukrainian students enrolled in our [Chronological Bible Course](http://getbiblefirst.com/), we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from "Is it wrong to pray to icons?" to "Do I have a guardian angel?"
+With well over 300 Ukrainian students enrolled in our [Chronological Bible Course](http://getbiblefirst.com/), we get quite a lot of mail. Most of what we receive comes in the form of completed Bible lessons which are first graded and then returned to the student with the next lesson. But often we receive letters covering a broad range of topics. We have been asked everything from “Is it wrong to pray to icons?” to “Do I have a guardian angel?”
 
 Recently, one of our newer students, a young lady named Maryana, wrote to us with the following question:
 
 > Can a girl who attends an evangelical church be involved romantically with a young man who goes to an Orthodox church? Please explain to me if this is permissible, and if it is done at all.
 
-Due to the nature of the question, we decided that it would be best for Kelsie to answer this. Kels wrote the girl a three page letter, and when I had read it, I was again reminded of how blessed I am to have a prudent wife who loves the Lord. (Note to single guys: Look for a prudent wife who has a deep relationship with Christ. It will bless your life like you can't imagine.)
+Due to the nature of the question, we decided that it would be best for Kelsie to answer this. Kels wrote the girl a three page letter, and when I had read it, I was again reminded of how blessed I am to have a prudent wife who loves the Lord. (Note to single guys: Look for a prudent wife who has a deep relationship with Christ. It will bless your life like you can’t imagine.)
 
 Below is the full text of the letter Kelsie wrote. The greeting in the opening sentence is typical of how people in Western Ukraine greet each other.
 
@@ -27,7 +27,7 @@ Praise Jesus Christ! Thank you for your letter. I apologize that this answer is 
 
 Your question is an important one, and the answer to it may influence the course of your entire life.
 
-Your question: *"Can a girl who attends an evangelical church be involved romantically with a young man who goes to an Orthodox church? Please explain to me if this is permissible, and if it is done at all."*
+Your question: *“Can a girl who attends an evangelical church be involved romantically with a young man who goes to an Orthodox church? Please explain to me if this is permissible, and if it is done at all.”*
 
 Regardless of what church you go to, it is important to understand what the Bible says about marriage and love relationships. God is not as concerned with what church you are attending as He is with whether or not you are following Him through His Word.
 

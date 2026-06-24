@@ -2,13 +2,13 @@
 title: A Letter from Granddad
 date: '2012-07-10'
 author: Joshua Steele
-description: On the day that our fourth child was stillborn, my father wrote her a letter. With his permission, I've decided to share it with you.
+description: On the day that our fourth child was stillborn, my father wrote her a letter. With his permission, I’ve decided to share it with you.
 tags:
 - family
 slug: 2012-07-10-letter-granddad
 ---
 
-On the day that our fourth child was stillborn, my father wrote her a letter. With his permission, I've decided to share it with you. This letter offers yet another glimpse into the goodness and sovereignty of God, who used what seemed a tragedy to bless many.
+On the day that our fourth child was stillborn, my father wrote her a letter. With his permission, I’ve decided to share it with you. This letter offers yet another glimpse into the goodness and sovereignty of God, who used what seemed a tragedy to bless many.
 
 *Dear precious Little One,*
 
