@@ -45,10 +45,9 @@
     {{/* data-pagefind-body scopes the search index: once it exists on any page,
          Pagefind indexes ONLY pages that carry it — giving us "blog articles only"
          with no glob config. Site chrome (header/footer/nav in baseof.html) sits
-         outside this element and is never indexed. Regions inside it that are not
-         article content (prev/next nav, newsletter footer) carry
-         data-pagefind-ignore. (Phase 17 — → See docs/prd/09-search.md "Indexing
-         Design".) */}}
+         outside this element and is never indexed; non-article regions inside it
+         carry data-pagefind-ignore. (Phase 17 — → See docs/prd/09-search.md
+         "Indexing Design".) */}}
     <div class="mx-auto max-w-3xl px-6 lg:px-8 {{ if not .Params.cover }}pt-24 sm:pt-32{{ end }}" data-pagefind-body>
 
       {{/* Caption — sits tight under the cover (mt-2) and well clear of the
