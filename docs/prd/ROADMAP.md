@@ -27,6 +27,7 @@ links to the relevant PRD document for full requirements.
 | 14 | Analytics | Phase 3 | Complete |
 | 15 | Content Migration | Phase 6 | Complete |
 | 16 | Deployment | Phase 15 | Complete |
+| 17 | Client-Side Search | Phase 16 | Planned |
 
 ---
 
@@ -198,6 +199,18 @@ links to the relevant PRD document for full requirements.
 
 **Key learning:** Netlify configuration, redirects, final testing
 
+## Phase 17: Client-Side Search
+
+First post-launch feature. Full spec in [`09-search.md`](./09-search.md).
+Self-hosted [Pagefind](https://pagefind.app) with a design-native ⌘K command
+palette; indexes blog article body + title + tags only.
+
+- [ ] Indexing & build pipeline — `pagefind` dependency, Netlify build command, `data-pagefind-*` attributes on `single.html`, index scoped to blog articles
+- [ ] Command palette UI — header trigger (icon + ⌘K/Ctrl-K + `/`), Alpine modal from Tailwind Plus snippets, Pagefind JS API, keyboard nav, mobile sheet
+- [ ] Accessibility, polish & QA — focus trap, dialog/listbox ARIA, empty/no-results states, cross-device QA, Lighthouse re-check
+
+**Key learning:** Static search indexing, Pagefind JS API, accessible modal/command-palette UI
+
 ---
 
 ## Future / Unscheduled
@@ -210,7 +223,7 @@ Items that are out of scope for the initial rebuild but may be added later
 - Multilingual content
 - CMS integration (Decap CMS)
 - Image migration to local (Hugo page bundles)
-- Client-side search (Pagefind)
+- ~~Client-side search (Pagefind)~~ — promoted to [Phase 17](#phase-17-client-side-search)
 
 > **Adding new features:** Create a new numbered PRD document (e.g.,
 > `09-search.md`) and add an entry here under the appropriate phase or

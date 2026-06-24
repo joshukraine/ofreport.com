@@ -25,6 +25,7 @@ The [Hugo Migration Brief](../hugo-migration-brief.md) documents the existing Nu
 | `06-content-migration.md` | Migration script, legacy articles, validation checklist | Migrating the 223 Nuxt articles or debugging converted content |
 | `07-deployment.md` | Source control, Netlify config, deployment | Configuring Netlify, redirects, headers, or the production deploy |
 | `08-risks-and-future.md` | New features, risks, out-of-scope items | Scoping a future enhancement or weighing a known risk |
+| `09-search.md` | Client-side search (Pagefind) spec — decision, UX, indexing, build | Implementing or reviewing the ⌘K search feature (Phase 17) |
 | `appendix.md` | Reference links and existing data files | Looking up a source reference or data file detail |
 
 ## Conventions
