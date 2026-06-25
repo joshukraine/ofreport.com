@@ -228,7 +228,7 @@
         // focus when the palette opened.
         this.trigger = triggerEl || document.activeElement;
         this.isOpen = true;
-        document.body.style.overflow = 'hidden';
+        this.lockScroll();
         this.$nextTick(() => {
           if (this.$refs.input) this.$refs.input.focus();
         });
@@ -238,10 +238,32 @@
       close() {
         if (!this.isOpen) return;
         this.isOpen = false;
-        document.body.style.overflow = '';
+        this.unlockScroll();
         if (this.trigger && typeof this.trigger.focus === 'function') {
           this.trigger.focus();
         }
+      },
+
+      // Lock page scroll behind the palette without the sideways "jolt": before
+      // hiding overflow we measure the scrollbar's layout width (0 with overlay
+      // scrollbars) and expose it as --sbw, which main.css turns into matching
+      // padding on body + the fixed header so content doesn't reflow. Idempotent
+      // — if we're already locked, re-measuring would read a now-absent scrollbar
+      // (width 0) and clobber --sbw, reintroducing the shift; the guard prevents
+      // that. Paired with unlockScroll(); the actual overflow/padding live in CSS
+      // (html.search-lock).
+      lockScroll() {
+        const root = document.documentElement;
+        if (root.classList.contains('search-lock')) return;
+        const sbw = window.innerWidth - root.clientWidth;
+        root.style.setProperty('--sbw', sbw + 'px');
+        root.classList.add('search-lock');
+      },
+
+      unlockScroll() {
+        const root = document.documentElement;
+        root.classList.remove('search-lock');
+        root.style.removeProperty('--sbw');
       },
 
       onGlobalKey(e) {
