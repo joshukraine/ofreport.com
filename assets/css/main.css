@@ -56,6 +56,25 @@
   color: var(--color-blue-900);
 }
 
+/* Search palette scroll lock + scrollbar compensation. While the palette is
+   open, the page behind it must not scroll, so body overflow is hidden. On a
+   layout-consuming scrollbar (e.g. macOS "Show scroll bars: Always", or any
+   mouse-connected setup) that removes ~15px of width and the page reflows wider
+   — content and the fixed header's right-aligned cluster lurch sideways. The
+   palette JS measures the scrollbar width into --sbw before locking; we replace
+   the lost width with equal padding so nothing moves. --sbw is 0 when the
+   scrollbar consumes no width (overlay scrollbars / none), making this a no-op.
+   scrollbar-gutter: stable would be the tidier fix but Blink collapses the
+   reserved gutter under overflow: hidden, so it doesn't help this lock. */
+html.search-lock body {
+  overflow: hidden;
+  padding-right: var(--sbw, 0px);
+}
+
+html.search-lock header {
+  padding-right: var(--sbw, 0px);
+}
+
 /* Respect prefers-reduced-motion for the search palette. Alpine's x-transition
    drives the open/close fade + scale via Tailwind transition utilities; zeroing
    the durations here makes the palette snap open/closed for readers who ask for
