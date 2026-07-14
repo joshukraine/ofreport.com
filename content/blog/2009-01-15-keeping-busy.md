@@ -15,11 +15,11 @@ After breaking last week for the Ukrainian Christmas (here in Ukraine they celeb
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/01/abs-jan13-20093.jpg" caption="Standing (from left to right): Jessie, Evelina, Kelsie, Taras, Roman. Sitting: Joshua, Bohdan, Marian, Roman, Anya. (Click the picture to enlarge.)" >}}
 
-Joshua’s message that evening came out of John 17, with a special emphasis on verses dealing with eternal life. *“And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.” John 17:3* Anya, a young adult seated next to me, seemed to eat up every word that Joshua spoke and eagerly pursued the verses as we read them.
+Joshua’s message that evening came out of John 17, with a special emphasis on verses dealing with eternal life. _“And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.” John 17:3_ Anya, a young adult seated next to me, seemed to eat up every word that Joshua spoke and eagerly pursued the verses as we read them.
 
 There is a great spirit about this group and we are grateful for the freedom they seem to feel in spending time with us, asking questions, and building relationships. Ukrainian gatherings can often be stiff and uncomfortable, with everyone feeling uneasy and nervous, but that is not the case with this group! We pray for the salvation of each one, and for those who will listen to the preaching  being recorded on CD each week as we meet.
 
-A special thanks to all of you who are specifically praying for this ministry! We believe that God is at work through your prayers. *“The sacrifice of the wicked is an abomination to the Lord: <strong>but the prayer of the upright is his delight</strong>.”*
+A special thanks to all of you who are specifically praying for this ministry! We believe that God is at work through your prayers. _“The sacrifice of the wicked is an abomination to the Lord: <strong>but the prayer of the upright is his delight</strong>.”_
 
 ## CBC Course
 

@@ -15,4 +15,4 @@ The latest version of our newsletter, [Overseas Field Report](/archives/), has n
 {{< callout pdf="ofr_dec_2008.pdf" >}}
 {{< /callout >}}
 
-If you would like to receive *Overseas Field Report* by regular mail, just [send us your name and US mailing address](/contact/). There is no cost for subscription to our newsletter. We appreciate your continued prayer support for our ministry.
+If you would like to receive _Overseas Field Report_ by regular mail, just [send us your name and US mailing address](/contact/). There is no cost for subscription to our newsletter. We appreciate your continued prayer support for our ministry.

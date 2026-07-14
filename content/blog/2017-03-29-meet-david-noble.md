@@ -31,11 +31,11 @@ One might think that after so many children, these new arrivals would lose their
 Names are important to God, and in Scripture we find Him carefully selecting names based on their meaning. We have likewise tried to choose names for our children that will encourage them to aspire to follow Christ in bold ways.
 
 In the Bible, **David** was not only the greatest king ever to rule Israel, but he had a heart for the Lord that was unparalleled. Even when chastened, he said things like,
-*“... let me fall now into the hand of the LORD; for very great are his mercies:” (1 Chronicles 21:13)*
+_“... let me fall now into the hand of the LORD; for very great are his mercies:” (1 Chronicles 21:13)_
 
-The name **Noble** is a reference to the Bereans, of whom Paul said in Acts 17:11 that they *“...were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so.”* Thus nobility in this context is not a position of high birth or great material wealth, but a faithful tenacity in studying the Word of God.
+The name **Noble** is a reference to the Bereans, of whom Paul said in Acts 17:11 that they _“...were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so.”_ Thus nobility in this context is not a position of high birth or great material wealth, but a faithful tenacity in studying the Word of God.
 
-It is our prayer for our son that even in his youth he will come to know and love the *heart of God* as he immerses himself in the study of the *Word of God*.
+It is our prayer for our son that even in his youth he will come to know and love the _heart of God_ as he immerses himself in the study of the _Word of God_.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/03/david-blanket-1024x575.jpg" alt="David Noble" >}}
 

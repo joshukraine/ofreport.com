@@ -32,8 +32,8 @@ At the time of this writing, Kelsie and I have been married for over 8 years, an
 
 We count ourselves very blessed to have had parents and mentors who urged us to trust God in the area of marriage, and we can testify along with many thousands of saints that God is indeed faithful to direct the paths of those who wait on Him.
 
-*“Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”*
-*(Prov. 3:5-6)*
+_“Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”_
+_(Prov. 3:5-6)_
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/01/157_5780.jpg" caption="From the left: Cindy Powell, Danny Powell, Kelsie, Joshua, Cathy Steele, Mike Steele" >}}
 

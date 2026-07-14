@@ -12,7 +12,7 @@ caption: Mom and kids gather for a group hug on Kelsie’s birthday.
 slug: 2020-05-15-little-artists-and-producers
 ---
 
-David often asks me, “Is the bad sickness over yet?” I look forward to the day when the answer to that question will be *yes*. But for now, the Steele family is doing just fine.
+David often asks me, “Is the bad sickness over yet?” I look forward to the day when the answer to that question will be _yes_. But for now, the Steele family is doing just fine.
 
 We’re grateful to be together and healthy, and to have work to do. Here’s a look at some of our family’s activities during the past few weeks.
 
@@ -34,7 +34,7 @@ We’re grateful to be together and healthy, and to have work to do. Here’s a 
 
 {{< figure src="OFReport/2020-05-15-little-artists-and-producers/IMG_3801_qipuw9.jpg" caption="David educates Mia on the finer points of cars and trucks. 😉" >}}
 
-{{< figure src="OFReport/2020-05-15-little-artists-and-producers/IMG_3827_vhmdae.jpg" caption="Abigail and Rebekah take training in a graphics design program. They hope to be able to help lay out *Bible First* material in future!!" >}}
+{{< figure src="OFReport/2020-05-15-little-artists-and-producers/IMG_3827_vhmdae.jpg" caption="Abigail and Rebekah take training in a graphics design program. They hope to be able to help lay out _Bible First_ material in future!!" >}}
 
 {{< figure src="OFReport/2020-05-15-little-artists-and-producers/IMG_3244_leque9.jpg" caption="Little artists making self-portraits." >}}
 

@@ -18,9 +18,9 @@ Ministry in a COVID-19 world continues to present both challenges and opportunit
 {{< callout pdf="OFR-Aug-Dec-2020.pdf" >}}
 {{< /callout >}}
 
-This summer, we finally printed our Ukrainian translation of Michael Pearl’s [*Learning from the Atheists*](https://nogreaterjoy.org/shop/learning-from-the-atheists-booklet). We’ve had the Ukrainian text for quite a while — an initiative begun by Serhii Chepara several years ago — but it needed review and page layout. Now the project is complete and copies are circulating among believers in Lviv and other parts of Ukraine.
+This summer, we finally printed our Ukrainian translation of Michael Pearl’s [_Learning from the Atheists_](https://nogreaterjoy.org/shop/learning-from-the-atheists-booklet). We’ve had the Ukrainian text for quite a while — an initiative begun by Serhii Chepara several years ago — but it needed review and page layout. Now the project is complete and copies are circulating among believers in Lviv and other parts of Ukraine.
 
-After losing the Zhylavy family in 2019, we began to search for a new Ukrainian translator. Serhii introduced us to Fedir Levchuk, and we decided to hire him for a small project as a trial run. After several weeks of collaboration with Fedir, we completed our translation of another of Mike’s booklets: [*Pornography: Road to Hell*](https://nogreaterjoy.org/shop/pornography-road-to-hell-booklet). We were very pleased with the quality of Fedir’s work, and we’ve already got him busy on our next translation project — this time, a full book. [*By Divine Design*](https://nogreaterjoy.org/shop/by-divine-design-book), by Michael Pearl, is a book I’ve wanted to translate for a long time, and one that was instrumental in bringing my good friend Nathan Day to Christ many years ago. We’ve now completed two chapters, and Fedir is hard at work on chapter 3.
+After losing the Zhylavy family in 2019, we began to search for a new Ukrainian translator. Serhii introduced us to Fedir Levchuk, and we decided to hire him for a small project as a trial run. After several weeks of collaboration with Fedir, we completed our translation of another of Mike’s booklets: [_Pornography: Road to Hell_](https://nogreaterjoy.org/shop/pornography-road-to-hell-booklet). We were very pleased with the quality of Fedir’s work, and we’ve already got him busy on our next translation project — this time, a full book. [_By Divine Design_](https://nogreaterjoy.org/shop/by-divine-design-book), by Michael Pearl, is a book I’ve wanted to translate for a long time, and one that was instrumental in bringing my good friend Nathan Day to Christ many years ago. We’ve now completed two chapters, and Fedir is hard at work on chapter 3.
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/PornographyRoadtoHell_cover_ukr_zdfkbw" alt="Ukrainian edition cover of Michael Pearl's booklet Pornography: Road to Hell, titled Порнографія: Дорога в пекло" >}}
 
@@ -36,7 +36,7 @@ Despite the afore-mentioned challenges of the pandemic, our involvement in our l
 
 ## How You Can Pray
 
-* Our *Bible First* course in Ukraine is still going strong with around 90–100 active students at any one time. Pray that God would continue to bring fruit in this ministry.
+* Our _Bible First_ course in Ukraine is still going strong with around 90–100 active students at any one time. Pray that God would continue to bring fruit in this ministry.
 * Pray for wisdom regarding CMO 2021 relative to the pandemic. More details coming soon...
 * Pray for health and strength for our family.
 * Pray for peace and liberty in Ukraine.
@@ -57,7 +57,7 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4238_dlnsao" caption="And here’s another of her portraits, this one of Rebekah." >}}
 
-{{< figure src="OFReport/2020-12-08-a-time-to-write/lutsk-kids-gne-book_yf3yjz" caption="We continue to send out *Good and Evil* books to folks across Ukraine. This photo was sent to us by a church in Lutsk that received a case of books in October." >}}
+{{< figure src="OFReport/2020-12-08-a-time-to-write/lutsk-kids-gne-book_yf3yjz" caption="We continue to send out _Good and Evil_ books to folks across Ukraine. This photo was sent to us by a church in Lutsk that received a case of books in October." >}}
 
 {{< figure src="OFReport/2020-12-08-a-time-to-write/IMG_4572_a9xdor" caption="Kelsie and I recently celebrated 16 years of marriage.💞 God is so faithful!" >}}
 

@@ -69,7 +69,7 @@ inconsistencies.
 
 ### Raw-HTML normalization (issue #127)
 
-After the `<article-*>` conversion, the migration script normalizes the pervasive raw HTML left over from the WordPress → Middleman → Nuxt lineage. Because `[markup.goldmark.renderer] unsafe = true` is set, this HTML already *renders*; the goal is consistency, not rescue. Per-type handling:
+After the `<article-*>` conversion, the migration script normalizes the pervasive raw HTML left over from the WordPress → Middleman → Nuxt lineage. Because `[markup.goldmark.renderer] unsafe = true` is set, this HTML already _renders_; the goal is consistency, not rescue. Per-type handling:
 
 | Source markup | Handling | Notes |
 |---|---|---|

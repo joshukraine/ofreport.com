@@ -12,9 +12,9 @@ pdf: OFR-July-2012.pdf
 slug: 2012-07-16-july-newsletter
 ---
 
-The July issue of our newsletter, *Overseas Field Report*, is now available. This issue includes a reprint of our [“Little One”](/blog/2012-06-26-little-one/) article, plus updates on [CMO 2012](http://cmoproject.org/) and [Vasyl](/blog/2012-05-30-sinner-home/), the man from our English Club who recently got saved.
+The July issue of our newsletter, _Overseas Field Report_, is now available. This issue includes a reprint of our [“Little One”](/blog/2012-06-26-little-one/) article, plus updates on [CMO 2012](http://cmoproject.org/) and [Vasyl](/blog/2012-05-30-sinner-home/), the man from our English Club who recently got saved.
 
 {{< callout pdf="OFR-July-2012.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

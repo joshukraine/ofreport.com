@@ -13,9 +13,9 @@ pdf: OFR-Feb-2013.pdf
 slug: 2013-02-13-announcing-cmo-2013
 ---
 
-The February issue of our newsletter, *Overseas Field Report*, is now available. This month, we are announcing the CMO 2013 project! In this issue, find out how you can become more involved in sending new laborers to the field. Also included is an update on Bible First progress.
+The February issue of our newsletter, _Overseas Field Report_, is now available. This month, we are announcing the CMO 2013 project! In this issue, find out how you can become more involved in sending new laborers to the field. Also included is an update on Bible First progress.
 
 {{< callout pdf="OFR-Feb-2013.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

@@ -62,7 +62,7 @@ The Ukrainian language has a wonderful little word that translates “remodeling
 
 Our new place didn’t actually need much repair, but it did need paint. So for the next week and a half, I worked with my mom and several members of the ETO team to repaint the house.
 
-This brings up another amazing (at least to us) part of this story: all of this happened while my mom was still with us in Ukraine. We had tried to plan her trip such that *maybe* we could find an apartment and fix it up and move during her stay. For that we allowed six weeks, although at the time, it seemed like quite a long shot. As it turns out, had we known exactly what would transpire in advance, we could not have picked better dates for her trip.
+This brings up another amazing (at least to us) part of this story: all of this happened while my mom was still with us in Ukraine. We had tried to plan her trip such that _maybe_ we could find an apartment and fix it up and move during her stay. For that we allowed six weeks, although at the time, it seemed like quite a long shot. As it turns out, had we known exactly what would transpire in advance, we could not have picked better dates for her trip.
 
 As the painting progressed, we began slowly ferrying our belongings over in Jessie’s van, which he graciously allowed us to use throughout this time.
 
@@ -86,7 +86,7 @@ On the day of the move, they arrived at 8am sharp. They worked all day long, hel
 
 For our family, stories like the one I’ve just told are highlights in our walk with the Lord. They are our own little Red-Sea-crossings, miracles that remind us that we follow a God who is both powerful and kind. He is a Father who loves to do good things for His children.
 
-In the weeks leading up to our move, our family had been memorizing Psalm 34. The first time we went to see our new apartment, Kelsie noticed that it was number 34, a not-so-coincidental reminder to us of the many times we have tasted the goodness of our God. *“O taste and see that the Lord is good: blessed is the man that trusteth in him.” (Psalm 34:8)*
+In the weeks leading up to our move, our family had been memorizing Psalm 34. The first time we went to see our new apartment, Kelsie noticed that it was number 34, a not-so-coincidental reminder to us of the many times we have tasted the goodness of our God. _“O taste and see that the Lord is good: blessed is the man that trusteth in him.” (Psalm 34:8)_
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/04/dining-room.jpg" caption="This is the first house we’ve ever had that has a dining room. Great place for family meals... or for homeschooling kiddos!" >}}
 
@@ -100,7 +100,7 @@ In the weeks leading up to our move, our family had been memorizing Psalm 34. Th
 
 The roster for CMO this year is filling up quickly! As of this writing, we have six men confirmed to come for the project. Adam, Isaiah, Ben, Joe, Caleb and Emmanuel will be joining Nathan and I in mid-June for six weeks of literature campaigns, film showings, mountain travel and hands-on missionary training.
 
-This will be our 9th CMO project, and while we’ve covered lots of ground in years past, there is so much yet to do! As Christ admonished His disciples in Matthew 9:37-38, *“...The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.”* God is calling new laborers to the fields of Ukraine this summer, and we ask you to pray for them, for our staff, and for those we will reach.
+This will be our 9th CMO project, and while we’ve covered lots of ground in years past, there is so much yet to do! As Christ admonished His disciples in Matthew 9:37-38, _“...The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.”_ God is calling new laborers to the fields of Ukraine this summer, and we ask you to pray for them, for our staff, and for those we will reach.
 
 So that you can be more informed as you pray, we would like to encourage you to visit our web site ([www.euroteamoutreach.org](http://www.euroteamoutreach.org)) and subscribe to our email newsletter. During the off-season, we send emails infrequently, but during the summer there will be updates nearly every week, written by various team members.
 

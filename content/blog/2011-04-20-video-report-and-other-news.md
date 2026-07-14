@@ -11,7 +11,7 @@ pdf: OFR-April-2011.pdf
 slug: 2011-04-20-video-report-and-other-news
 ---
 
-Better late than never? I suppose the truth of that statement depends on the situation, but late as it may be, our *latest* ETO Video Report is online! Go ahead and check it out, then keep scrolling down for more news. And as always, thanks for keeping up with our ministry and praying for us!
+Better late than never? I suppose the truth of that statement depends on the situation, but late as it may be, our _latest_ ETO Video Report is online! Go ahead and check it out, then keep scrolling down for more news. And as always, thanks for keeping up with our ministry and praying for us!
 
 {{< youtube Czj5jzdAoa0 >}}
 

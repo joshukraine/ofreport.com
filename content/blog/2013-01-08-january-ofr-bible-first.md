@@ -12,9 +12,9 @@ pdf: OFR-Jan-2013.pdf
 slug: 2013-01-08-january-ofr-bible-first
 ---
 
-The January issue of our newsletter, *Overseas Field Report*, is now available. For those of you who haven’t yet heard the news, this issue contains our announcement about the recent release of [*Bible First*](http://www.getbiblefirst.com) Also in this issue: an update on Vasyl and his family.
+The January issue of our newsletter, _Overseas Field Report_, is now available. For those of you who haven’t yet heard the news, this issue contains our announcement about the recent release of [_Bible First_](http://www.getbiblefirst.com) Also in this issue: an update on Vasyl and his family.
 
 {{< callout pdf="OFR-Jan-2013.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

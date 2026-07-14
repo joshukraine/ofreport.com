@@ -65,8 +65,8 @@ Most gladly therefore will I rather glory in my infirmities, that the power of C
 ## How You Can Pray
 
 * Pray for the ladies who attended the seminar.
-* Praise God for great progress with our *Good and Evil* translation! More details in a future update...
-* Praise God for great progress with the various *Bible First* translations! Spanish is complete, and Russian is over 70% complete! [getbiblefirst.com/translations][translations]
+* Praise God for great progress with our _Good and Evil_ translation! More details in a future update...
+* Praise God for great progress with the various _Bible First_ translations! Spanish is complete, and Russian is over 70% complete! [getbiblefirst.com/translations][translations]
 * Continue to pray for our Bible First Kids class at church. God is blessing!
 * Pray for peace and liberty in Ukraine.
 

@@ -12,13 +12,13 @@ I am told that most young ladies receive a pleasant sort of shock when they lear
 
 Now, as her father handed over the rolled up parchment, she loosened the ribbon and read my invitation.
 
-*Dear Kelsie,*
+_Dear Kelsie,_
 
-*Although you do not know me, I have been corresponding with your parents for the past month or so in regards to a possible courtship with you. I have really enjoyed getting to know them, and in a way getting to know you through them…*
+_Although you do not know me, I have been corresponding with your parents for the past month or so in regards to a possible courtship with you. I have really enjoyed getting to know them, and in a way getting to know you through them…_
 
-*…we have been “talking about you” for some time now, and your mother and father wrote me recently, saying that they felt this would be a good time to let you know about all of this.*
+_…we have been “talking about you” for some time now, and your mother and father wrote me recently, saying that they felt this would be a good time to let you know about all of this._
 
-*And so my purpose in writing you this letter, is to see if you would be willing to begin a courtship relationship, with the goal of marriage in mind should the Lord so direct us.*
+_And so my purpose in writing you this letter, is to see if you would be willing to begin a courtship relationship, with the goal of marriage in mind should the Lord so direct us._
 
 Kelsie’s immediate response was to get alone and pray. She had my letter, the Ukrainian phrasebook, and a stack of missionary newsletters that I had written over the past two and a half years.
 

@@ -19,7 +19,7 @@ On December 14, 2018, amidst heavy snowfall, our plane finally touched down at t
 
 ## Our God Knows Logistics
 
-Once upon a time we were a missionary couple with a baby. We could be neatly tucked away in the guest bedroom or share a ride to church. Today we are a clan. We can’t ride with you in your minivan. We need the *whole minivan!*
+Once upon a time we were a missionary couple with a baby. We could be neatly tucked away in the guest bedroom or share a ride to church. Today we are a clan. We can’t ride with you in your minivan. We need the _whole minivan!_
 
 As Kelsie and I began planning our trip, I remember wondering how we would overcome these logistical hurdles during our stay in the US. But God never wonders. He knows every detail, and He is able to provide real, practical solutions that meet our needs.  By the time our family arrived in the States, God had provided a beautiful 2015 Toyota minivan which we leased from the good folks at Missionary TECH Team in Longview, TX.
 

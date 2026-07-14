@@ -9,15 +9,15 @@ tags:
 slug: 2008-12-23-in-him-was-life
 ---
 
-*“Did you notice that Roman brought a Bible with him this time?”*
+_“Did you notice that Roman brought a Bible with him this time?”_
 
-*“Yes! and Bohdan, who sat next to me, was able to locate all the Scripture references as we went.”*
+_“Yes! and Bohdan, who sat next to me, was able to locate all the Scripture references as we went.”_
 
-*“And we had ALL guys! It was a men’s Bible study!”*
+_“And we had ALL guys! It was a men’s Bible study!”_
 
-*“And our new rock climbing friend came too, and stayed the whole time.”*
+_“And our new rock climbing friend came too, and stayed the whole time.”_
 
-*“It seemed like you really had their attention during the preaching.”*
+_“It seemed like you really had their attention during the preaching.”_
 
 If you could’ve overheard Joshua and I after English Club/Bible study this evening, you would’ve heard something like the above. We were greatly encouraged and excited, to say the least. We had a great group of six men tonight, many of whom showed key signs of interest in God’s Word.
 

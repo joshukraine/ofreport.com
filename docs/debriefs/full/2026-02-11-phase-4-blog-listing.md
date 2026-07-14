@@ -61,7 +61,7 @@ individual width/height/quality parameters, the partial uses named presets.
 This means every call site says `"featured"` or `"og"` instead of juggling
 transform strings. The presets are defined as a `dict` inside the partial.
 
-*Why this over a config-driven approach?* We considered putting presets in
+_Why this over a config-driven approach?_ We considered putting presets in
 `hugo.toml` under `[params]`, but that adds indirection without real benefit —
 the presets are tightly coupled to template contexts that won't change without
 template changes. Keeping them in the partial means one file to read when

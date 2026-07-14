@@ -14,7 +14,7 @@ pdf: OFR-Nov-Dec-2019.pdf
 slug: 2019-12-23-kade-to-ukraine
 ---
 
-It’s been said before, but it’s worth saying again and again: THE number one need we have on the mission field is for laborers. Money, computers, vehicles, groceries, buildings — all of that is needful and we praise God for it. But vehicles don’t preach. Dollars alone can’t win souls. God has entrusted the ministry of the Gospel to *people*. *“Therefore said he unto them, The harvest truly is great, but the **labourers are few**: pray ye therefore the Lord of the harvest, **that he would send forth labourers into his harvest**.” (Luke 10:2)*
+It’s been said before, but it’s worth saying again and again: THE number one need we have on the mission field is for laborers. Money, computers, vehicles, groceries, buildings — all of that is needful and we praise God for it. But vehicles don’t preach. Dollars alone can’t win souls. God has entrusted the ministry of the Gospel to _people_. _“Therefore said he unto them, The harvest truly is great, but the **labourers are few**: pray ye therefore the Lord of the harvest, **that he would send forth labourers into his harvest**.” (Luke 10:2)_
 
 {{< callout pdf="OFR-Nov-Dec-2019.pdf" >}}
 {{< /callout >}}
@@ -51,7 +51,7 @@ Already we have several young men expressing interest in the project, and space 
 
 ## Good and Evil Ministry
 
-The new Ukrainian edition of *Good and Evil* continues to reach people with the message of the Gospel. In addition to a steady stream of individual requests via our web site (dobroizlo.com.ua), we also receive regular orders from other ministries that are using the books for outreach. *Good and Evil* is making its way into libraries, schools, orphanages and youth camps around the country. Below are some photos we received from a group near Odessa who are using *Good and Evil* in their youth camps.
+The new Ukrainian edition of _Good and Evil_ continues to reach people with the message of the Gospel. In addition to a steady stream of individual requests via our web site (dobroizlo.com.ua), we also receive regular orders from other ministries that are using the books for outreach. _Good and Evil_ is making its way into libraries, schools, orphanages and youth camps around the country. Below are some photos we received from a group near Odessa who are using _Good and Evil_ in their youth camps.
 
 {{< figure src="OFReport/2019-12-23-kade-to-ukraine/image5_nydewt.jpg" alt="Ukrainian children seated on benches at a youth camp holding copies of the Добро і Зло book" >}}
 
@@ -63,7 +63,7 @@ The new Ukrainian edition of *Good and Evil* continues to reach people with the 
 
 * Pray for Kade Bloom as he prepares to come to Ukraine and begin full-time ministry.
 * Pray that God would raise up a strong team for CMO 2020, and that He would open doors to the Gospel.
-* Pray for the various other ministries we have going, including *Good and Evil*, *Bible First*, and our new web app, Bible First Online.
+* Pray for the various other ministries we have going, including _Good and Evil_, _Bible First_, and our new web app, Bible First Online.
 * Pray for health and physical safety for our team here in Lviv. Lots of colds and flu right now!
 * Pray for peace and liberty in Ukraine.
 

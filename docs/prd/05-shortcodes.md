@@ -42,7 +42,7 @@ in a lightbox-compatible link.
   (`c_scale,f_auto,q_auto,w_768`) — the article body width — to keep pages
   light, while the lightbox `<a href>` uses the `lightbox` preset
   (`c_scale,f_auto,q_auto,w_1600`) for a larger zoom view. Display is
-  intentionally *not* the uncapped `article` preset, which is reserved for the
+  intentionally _not_ the uncapped `article` preset, which is reserved for the
   full-width cover image in `blog/single.html`.
 - Rendered with `not-prose` so it matches the cover-image figure styling
   (`rounded-xl`, `loading="lazy"`); the caption is centered. `figcaption` and

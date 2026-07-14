@@ -39,7 +39,7 @@ Ukrainians in Eastern Europe.
 Keep scrolling for more photos from my trip to Ukraine...
 {{< /callout >}}
 
-{{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-van-driving_cotnbi" caption="Yura Petriv takes his first drive in the yellow van. He’ll be using it to transport *Good and Evil* books as well as humanitarian aid." >}}
+{{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-van-driving_cotnbi" caption="Yura Petriv takes his first drive in the yellow van. He’ll be using it to transport _Good and Evil_ books as well as humanitarian aid." >}}
 
 {{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/buying-supplies_a2onnl" caption="After arriving in Radekhiv, we stopped in a local store and picked up more supplies to be send to the front lines. This time it was mostly canned goods. Upon hearing that we were buying for soldiers, the store gave us an 8% discount!" >}}
 
@@ -53,6 +53,6 @@ Keep scrolling for more photos from my trip to Ukraine...
 
 {{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-oleksiy-meds_rg7diz" caption="Just before I left Lviv, we got word from Olekciy (right) that their group of soldiers was very low on meds. So on the way to the bus station, Yura and I stopped by a pharmacy and tried to get as much as we could of all the meds he asked for." >}}
 
-{{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-books-van_ffgddb" caption="Since I left, Yura has already put the yellow van to good use. We’ve been shipping quite a large number of *Good and Evil* books out to churches for their Christmas outreaches." >}}
+{{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/yura-books-van_ffgddb" caption="Since I left, Yura has already put the yellow van to good use. We’ve been shipping quite a large number of _Good and Evil_ books out to churches for their Christmas outreaches." >}}
 
 {{< figure src="OFReport/2022-12-21-back-from-ukraine-my-impressions/josh-kelsie-dec-2022_f7uono" caption="Whenever I travel alone, I miss this lady the most. Kelsie is the color in my world, my daily reminder of God’s favor! 💖" >}}

@@ -59,7 +59,7 @@ Here are some things we do know as of this writing, Monday, January 24, 2022:
 - The U.S. State Department has issued a Level 4 “Do Not Travel” advisory for Ukraine. [Read the advisory here.](https://ua.usembassy.gov/ukraine-level-4-do-not-travel-2/)
 - The U.S. has ordered family members of embassy staff in Kyiv to depart the country. The Ukrainian government called this move “[premature](https://twitter.com/OlegNikolenko_/status/1485528934330605569)”.
 - Yesterday, the embassy sent an email to U.S. citizens in Ukraine, advising them to “consider departing”.
-- The [E.U. has said](https://www.foxnews.com/world/european-union-us-ukraine-embassy-evacuation-orders-russia) it will *not* be evacuating its embassy personnel from Ukraine.
+- The [E.U. has said](https://www.foxnews.com/world/european-union-us-ukraine-embassy-evacuation-orders-russia) it will _not_ be evacuating its embassy personnel from Ukraine.
 - The mood here in Lviv is somber but calm. People are ready to resist any invasion and to fight for their independence.
 - Most Ukrainians I’ve talked to do not believe the conflict will reach Lviv.
 - We know many missionary families in Ukraine, most of them in Lviv. I’ve heard from several, and so far all have chosen to stay in Ukraine for the time being.

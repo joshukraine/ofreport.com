@@ -26,7 +26,7 @@ I spoke at two of the main sessions, teaching on forgiveness and how to discern 
 
 In addition to the teaching sessions, there were family activities, sporting events, and gatherings for singles. In past years, there have been many new marriages which came about as a result of young people meeting one another for the first time at a Shindig.
 
-NGJ also set up an exhibit hall where vendors could sell various products and services for families. *Bible First* had a table there, and we were excited for the opportunity to share our vision with many who were interested in evangelism. One man who stopped by our table has already been using *Bible First* materials in a prison here in the US!
+NGJ also set up an exhibit hall where vendors could sell various products and services for families. _Bible First_ had a table there, and we were excited for the opportunity to share our vision with many who were interested in evangelism. One man who stopped by our table has already been using _Bible First_ materials in a prison here in the US!
 
 If you’d like to learn more about the Shindig, be sure to visit [www.nogreaterjoy.org/shindig](http://www.nogreaterjoy.org/shindig). All the sessions were recorded on video and I believe they will be made available soon.
 

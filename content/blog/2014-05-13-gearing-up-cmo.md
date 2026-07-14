@@ -13,9 +13,9 @@ pdf: OFR-Apr-May-2014.pdf
 slug: 2014-05-13-gearing-up-cmo
 ---
 
-The April/May issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we’ll tell you about our current preparations for CMO 2014, especially with regard to the political crisis in Ukraine. Also included is an update on our *Bible First* program.
+The April/May issue of our newsletter, _Overseas Field Report_, is now available. In this issue, we’ll tell you about our current preparations for CMO 2014, especially with regard to the political crisis in Ukraine. Also included is an update on our _Bible First_ program.
 
 {{< callout pdf="OFR-Apr-May-2014.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

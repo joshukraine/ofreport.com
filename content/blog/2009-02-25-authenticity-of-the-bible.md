@@ -19,7 +19,7 @@ One particularly interesting point that Jessie shared was the fact that many peo
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5014.jpg" caption="We have lots of Bibles on hand at our meetings so that students can follow along during the teaching." >}}
 
-English Club is also going well. We usually start out each meeting with some type of discussion topic (this week we talked about “Friends”), and then finish up by reading through a portion of *Good and Evil*. All our students have their own copies of *Good and Evil* in Ukrainian, and we encourage them to compare the English portions we give them as a way to improve their English. This week we read through the account of Christ’s ascension and asked the students questions about the story.
+English Club is also going well. We usually start out each meeting with some type of discussion topic (this week we talked about “Friends”), and then finish up by reading through a portion of _Good and Evil_. All our students have their own copies of _Good and Evil_ in Ukrainian, and we encourage them to compare the English portions we give them as a way to improve their English. This week we read through the account of Christ’s ascension and asked the students questions about the story.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2009/02/dsc_5012.jpg" caption="ABS students take turns reading through a selection from Good and Evil during English Club." >}}
 

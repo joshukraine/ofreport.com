@@ -26,7 +26,7 @@ gates every PR. Seven merged PRs cover:
 **Where we are in the bigger picture:** Phases 1–3 of 16 are complete. The
 foundation is laid — we have a build pipeline, styling system, layout shell,
 and CI. Everything from here (Phase 4 onward) is building content templates
-*inside* this shell: blog listings, article pages, shortcodes, taxonomies,
+_inside_ this shell: blog listings, article pages, shortcodes, taxonomies,
 etc.
 
 **What was intentionally deferred:**
@@ -121,7 +121,7 @@ The base template follows the PRD spec almost exactly:
 ```
 
 **Key choice:** GLightbox and analytics partials are referenced now as stubs.
-This means `baseof.html` is *done* — future phases just need to fill in the
+This means `baseof.html` is _done_ — future phases just need to fill in the
 partial contents, not touch the base template. This is deliberate: baseof is
 the most coupled file in a Hugo site, and minimizing future edits to it
 reduces merge conflicts and regression risk.

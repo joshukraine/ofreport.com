@@ -29,7 +29,7 @@ If you’ve been following our ministry, you’ve heard us talk about our work d
 
 We received much greater initial response than expected, and the project is now evolving into something of a coach-training program. Of course, our long-term vision is to open this application to missionaries and churches for use in evangelism. As we continue to iron out some of the wrinkles, the Pioneers project is giving people an opportunity to learn the software and get a feel for what it’s like to reach people for Christ through a digital correspondence course.
 
-In recent weeks, we’ve also opened up the Pioneers program to our Ukrainian *Bible First* graduates. We’ve now begun Zoom training sessions for Ukrainian coaches, and God is blessing our efforts! Please pray for this ministry, and if you’d like to try it out yourself, be sure to let us know!
+In recent weeks, we’ve also opened up the Pioneers program to our Ukrainian _Bible First_ graduates. We’ve now begun Zoom training sessions for Ukrainian coaches, and God is blessing our efforts! Please pray for this ministry, and if you’d like to try it out yourself, be sure to let us know!
 
 ## Intimacy in Marriage Seminar
 
@@ -50,7 +50,7 @@ God continues to bring opportunities for Kelsie and I to speak to Ukrainian grou
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-kels-scooters_eeyfic" caption="Electric scooter rentals are new to Lviv, but in recent weeks they’ve exploded in popularity. We really like them!" >}}
 
-{{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-nathan-translation-proofing_cnz8sn" caption="These days, Nathan and I do a lot of work over Zoom or Skype. In this photo, we’re proofing more translation work on Mike Pearls’ book *By Divine Design*. We’ve now completed six chapters in Ukrainian!" >}}
+{{< figure src="OFReport/2021-06-02-bible-first-pioneers/josh-nathan-translation-proofing_cnz8sn" caption="These days, Nathan and I do a lot of work over Zoom or Skype. In this photo, we’re proofing more translation work on Mike Pearls’ book _By Divine Design_. We’ve now completed six chapters in Ukrainian!" >}}
 
 {{< figure src="OFReport/2021-06-02-bible-first-pioneers/kathryn-first-piano-lesson_rxizoo" caption="Guess who’s taking piano lessons? 😮  Kathryn is so excited and she really likes our teacher, Gabriella." >}}
 

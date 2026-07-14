@@ -14,15 +14,15 @@ It was the morning of January 17, and as I made final preparations to leave for 
 
 The next day, the various siblings and their families began to “pop in” for a visit at Mom and Dad’s house. Some of them feigned schedule conflicts at first — just to avoid suspicion — but then, amazingly, things worked out and everyone made it. As my final flight neared Dallas Love Field, my brother Josiah announced that he needed to “run a few errands”. He would be back later. And with that, another location tracker disappeared from the grid — again unnoticed by our unsuspecting mother.
 
-During the nearly two-hour drive home from the airport, we made a brief stop at Chic-fil-A, followed by another at a friend’s house where I tried, largely unsuccessfully, to restore my poor, mask-thrashed beard. Having not been home in over two years, I did not want to greet my mother looking like a drunk pirate. After much combing and blow-drying and balming, I think I looked at least a *sober* pirate.
+During the nearly two-hour drive home from the airport, we made a brief stop at Chic-fil-A, followed by another at a friend’s house where I tried, largely unsuccessfully, to restore my poor, mask-thrashed beard. Having not been home in over two years, I did not want to greet my mother looking like a drunk pirate. After much combing and blow-drying and balming, I think I looked at least a _sober_ pirate.
 
 As we neared the house, our top-secret, siblings-only, iMessage thread lit up.
 
-*“What’s your ETA? Can you share your location?”*
+_“What’s your ETA? Can you share your location?”_
 
-*“No not without Mom noticing. ETA 20 minutes. What about the cousins?”*
+_“No not without Mom noticing. ETA 20 minutes. What about the cousins?”_
 
-*“We’re putting them in a bedroom with a movie. ... OK, Jonathan is posted by the garage. You’re all clear to drive in.”*
+_“We’re putting them in a bedroom with a movie. ... OK, Jonathan is posted by the garage. You’re all clear to drive in.”_
 
 As we pulled through the front gate of my parents’ property, I ducked down as low as I could in the passenger seat of Josiah’s massive Dodge RAM pickup. Jonathan waved us through and gave the signal. Family members chatting in other parts of the house casually suggested moving to the main family room.
 
@@ -54,7 +54,7 @@ Notwithstanding, things have been particularly difficult as our family faces the
 
 ## The Countdown Begins
 
-Tomorrow afternoon, March 5, my 15-year-old daughter Abigail will join me on a flight back to Texas. We’ll be there for three weeks helping in any way we can to be a blessing to my parents and my siblings. We can’t take away all the pain and uncertainty, but we can *be there*, helping to bear the load.
+Tomorrow afternoon, March 5, my 15-year-old daughter Abigail will join me on a flight back to Texas. We’ll be there for three weeks helping in any way we can to be a blessing to my parents and my siblings. We can’t take away all the pain and uncertainty, but we can _be there_, helping to bear the load.
 
 Please pray for our family during this time. I’ve only written a tiny fraction of what we’ve been facing, and yet through all of this we have felt the peace that only Christ can give. God has not turned away His face from us. He remains faithful, and we continue to look to Him for grace, guidance and victory.
 
@@ -81,6 +81,6 @@ Additionally, if you would like to send cash, the best way is via my sister Jenn
 
 ## Conclusion
 
-All of us are on a journey that will one day end in death. But for those who know the Lord Jesus, whose sins are covered by His blood, we know that death is only a passage to everlasting life. We pray for many more years on this earth with our parents, but whatever happens, we know, and they know, that eternity is before us, and that will be a time we spend *together* in the presence of our Savior.
+All of us are on a journey that will one day end in death. But for those who know the Lord Jesus, whose sins are covered by His blood, we know that death is only a passage to everlasting life. We pray for many more years on this earth with our parents, but whatever happens, we know, and they know, that eternity is before us, and that will be a time we spend _together_ in the presence of our Savior.
 
-*“For this corruptible must put on incorruption, and this mortal must put on immortality. So when this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall be brought to pass the saying that is written, Death is swallowed up in victory. O death, where is thy sting? O grave, where is thy victory? The sting of death is sin; and the strength of sin is the law. But thanks be to God, which giveth us the victory through our Lord Jesus Christ.” (1 Corinthians 15:53-57)*
+_“For this corruptible must put on incorruption, and this mortal must put on immortality. So when this corruptible shall have put on incorruption, and this mortal shall have put on immortality, then shall be brought to pass the saying that is written, Death is swallowed up in victory. O death, where is thy sting? O grave, where is thy victory? The sting of death is sin; and the strength of sin is the law. But thanks be to God, which giveth us the victory through our Lord Jesus Christ.” (1 Corinthians 15:53-57)_

@@ -33,4 +33,4 @@ The gray sweater vest became a regular part of my wardrobe, and the Steele’s w
 
 Unbeknownst to me, I had been the object of Mrs. Steele’s special observation that week. Several times the thought had occurred to her: “This girl would be right for my son, Joshua,” or, “this would be the kind of girl I would want for him to marry.” The idea was nearly always dismissed as quickly as it had originated. After all, he was busy getting ready to go to Ukraine. He was still young and laying the foundation for his occupation and ministry. And, as for me, I was only 17.
 
-*To be continued...*
+_To be continued..._

@@ -30,9 +30,9 @@ On my first run to the PDC, I think I had 3 passengers. Since I knew they needed
 
 {{< figure src="OFReport/2020-04-10-lviv-angels/van-selfie_kefvtm.jpg" caption="This morning’s run to the PDC with six of my new doctor friends. These folks really are a great bunch and it’s a blessing to be able to support their work during the pandemic. 🤗" >}}
 
-By this time, I was making two or three separate stops each morning on my way to the PDC. I decided to create my own Viber group to coordinate more effectively with my regular passengers. Over time, more people were added, and as of this writing, our group is up to seven — the maximum I can take in the van at once. In addition to my regulars, I often drive paramedics on weekends. Every first-time passenger gets a copy of *Good and Evil* in Ukrainian, and I’ve donated G&E books to other drivers who in turn give them to their passengers. Some drivers are also handing out Gideon New Testaments.
+By this time, I was making two or three separate stops each morning on my way to the PDC. I decided to create my own Viber group to coordinate more effectively with my regular passengers. Over time, more people were added, and as of this writing, our group is up to seven — the maximum I can take in the van at once. In addition to my regulars, I often drive paramedics on weekends. Every first-time passenger gets a copy of _Good and Evil_ in Ukrainian, and I’ve donated G&E books to other drivers who in turn give them to their passengers. Some drivers are also handing out Gideon New Testaments.
 
-{{< figure src="OFReport/2020-04-10-lviv-angels/drivers-books_ylteqh.jpg" caption="Several drivers carry *Good and Evil* books and Gideon New Testaments for our passengers." >}}
+{{< figure src="OFReport/2020-04-10-lviv-angels/drivers-books_ylteqh.jpg" caption="Several drivers carry _Good and Evil_ books and Gideon New Testaments for our passengers." >}}
 
 The Lviv Angels group now has over 50 drivers and is turning out to be a great opportunity both for humanitarian service and as a platform to tell doctors in Lviv about the Great Physician.
 

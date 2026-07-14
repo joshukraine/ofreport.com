@@ -61,9 +61,9 @@ Keep scrolling for more photos from our life in Slovakia!
 
 {{< figure src="OFReport/2022-04-20-all-over-the-map/telegram-thread_pyyith" caption="This is a screen grab from one of our Telegram channels as the missile attack unfolded Monday morning.<br>6:44AM Warning! Air alarm!<br>7:33AM Explosions are heard in Lviv. Stay in the shelters!<br>7:42AM The air alarm is ongoing. Remain in the shelters! [Further instructions]<br>7:48AM Preliminary information indicates 4 missile strikes. Remain in the shelters!<br>7:51AM 5 guided missile strikes in Lviv. The relevant emergency services are responding. We are trying to obtain more detailed information. — Sadoviy (Mayor of Lviv)" >}}
 
-{{< figure src="OFReport/2022-04-20-all-over-the-map/lviv-garage-before_thamet" caption="The car garage *before* the missile attack on April 18." >}}
+{{< figure src="OFReport/2022-04-20-all-over-the-map/lviv-garage-before_thamet" caption="The car garage _before_ the missile attack on April 18." >}}
 
-{{< figure src="OFReport/2022-04-20-all-over-the-map/lviv-garage-after_hwbtbo" caption="The car garage *after* the missile attack on April 18." >}}
+{{< figure src="OFReport/2022-04-20-all-over-the-map/lviv-garage-after_hwbtbo" caption="The car garage _after_ the missile attack on April 18." >}}
 
 {{< figure src="OFReport/2022-04-20-all-over-the-map/lviv-garage-3_trj422" caption="Emergency services on site" >}}
 
