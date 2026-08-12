@@ -10,27 +10,21 @@ The original Nuxt.js 2 source lives in the sibling directory `../ofreport.com-nu
 
 ## Development Approach
 
-This project follows **developer-directed, AI-assisted** development. The developer (Joshua) directs all decisions and seeks to understand each step. **Explain Hugo concepts and rationale before generating code.** Present options with trade-offs and let the developer choose. See `docs/prd/00-overview.md` for details.
+**Developer-directed, AI-assisted.** Joshua directs the decisions and wants to follow the reasoning — surface trade-offs and rejected alternatives, and explain the _why_ behind a design choice. He is fluent in Hugo (this site has been live on it since 2026-06-23, and he has shipped others since); treat Hugo concepts as given rather than explaining them. Explain the decision, not the syntax. See `docs/prd/00-overview.md` for details.
 
 ## Development Workflow
 
 All work flows through GitHub Issues. The full pipeline is:
 
-1. **Plan**: When discussing new features or multi-step work, the output of planning
-   should be one or more GitHub issues. Each issue needs a clear title, description,
-   and acceptance criteria. Create the issues before starting implementation.
-2. **Implement**: Use `/resolve-issue <number>` to implement each issue on a feature
-   branch with a structured workflow.
-3. **Pull Request**: Use `/create-pr --issue <number>` to open a PR linking to the
-   resolved issue.
+1. **Plan**: When discussing new features or multi-step work, the output of planning should be one or more GitHub issues. Each issue needs a clear title, description, and acceptance criteria. Create the issues before starting implementation.
+2. **Implement**: Use `/resolve-issue <number>` to implement each issue on a feature branch with a structured workflow.
+3. **Pull Request**: Use `/create-pr --issue <number>` to open a PR linking to the resolved issue.
 4. **Merge**: PRs should pass build verification (`hugo --gc --minify`) before merging.
 
 Additional conventions:
 
-- Commit messages use Conventional Commits format but do NOT reference issue numbers.
-  Issue linking happens in the PR description via "Closes #N".
-- Small, unrelated housekeeping changes (typos, README updates) can be committed
-  directly to main without an issue or PR.
+- Commit messages use Conventional Commits format but do NOT reference issue numbers. Issue linking happens in the PR description via "Closes #N".
+- Small, unrelated housekeeping changes (typos, README updates) can be committed directly to main without an issue or PR.
 
 ## Build Commands
 
