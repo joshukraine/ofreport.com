@@ -52,6 +52,22 @@ enableRobotsTXT = true
     scriptUrl = "https://lens.euroteamoutreach.org/script.js"
     websiteId = "34d2cfa4-e623-418a-936d-670c9d163ead"
 
+# Security policy — pinned rather than inherited.
+#
+# css.TailwindCSS shells out to the `tailwindcss` binary, which Hugo permits
+# only if it matches security.exec.allow. That list is a Hugo *default*, and the
+# default changed under us: 0.163 allowed `tailwindcss`, 0.165 does not, so a
+# routine Homebrew upgrade broke every local build with "access denied:
+# tailwindcss is not whitelisted".
+#
+# Declaring the list here decouples our build from whatever the installed Hugo
+# happens to default to. The value is 0.163's default, which is a superset of
+# 0.165's — it restores `tailwindcss` (required) and `sass-embedded` (unused
+# today, but dropping it would be an unrelated, silent narrowing).
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
 # Build stats for Tailwind CSS purging
 [build]
   [build.buildStats]
