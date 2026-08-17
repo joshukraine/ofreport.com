@@ -14,9 +14,9 @@ pdf: OFR-May-2012.pdf
 slug: 2012-05-01-registered
 ---
 
-The May issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we have the privilege of announcing some great news about our long-term presence here in Ukraine! We also bring you the very latest on the *Bible First* project, as well as an update on our ministry in Skole.
+The May issue of our newsletter, _Overseas Field Report_, is now available. In this issue, we have the privilege of announcing some great news about our long-term presence here in Ukraine! We also bring you the very latest on the _Bible First_ project, as well as an update on our ministry in Skole.
 
 {{< callout pdf="OFR-May-2012.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

@@ -32,13 +32,13 @@ The body at Living Word Church is a dedicated and God-focused group of people, o
 
 ## Remembering Bobby Fisher
 
-*Written by Joshua Steele*
+_Written by Joshua Steele_
 
 Today we would like to take a moment to honor a special couple that have been a blessing to our family. I first met Bobby and Sunni Fisher as a child in Sunday school. I can still remember Sunni sharing testimonies from their marriage, and how thrilled she was when Bobby came to Jesus. She told a story I’ll never forget about how Bobby went to a bar and shared the Gospel with someone he knew there.
 
-Bobby and Sunni have a mailing business, and many years ago they offered to handle the mailing of our newsletter. Every few months, they fold, stuff, stamp and mail hundreds of copies of *Overseas Field Report* to people in the United States and abroad. And they have done this free of charge as a ministry to us and ultimately to Christ.
+Bobby and Sunni have a mailing business, and many years ago they offered to handle the mailing of our newsletter. Every few months, they fold, stuff, stamp and mail hundreds of copies of _Overseas Field Report_ to people in the United States and abroad. And they have done this free of charge as a ministry to us and ultimately to Christ.
 
-On July 2, 2020, at the age of 77, Bobby received his promotion to glory after a battle with COVID-19. While we grieve at his departing, and the sorrow it means for Sunni, their family, and so many others, we rejoice at the knowledge that we will see him again one day. *“But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him.” (1 Thessalonians 4:13-14)*
+On July 2, 2020, at the age of 77, Bobby received his promotion to glory after a battle with COVID-19. While we grieve at his departing, and the sorrow it means for Sunni, their family, and so many others, we rejoice at the knowledge that we will see him again one day. _“But I would not have you to be ignorant, brethren, concerning them which are asleep, that ye sorrow not, even as others which have no hope. For if we believe that Jesus died and rose again, even so them also which sleep in Jesus will God bring with him.” (1 Thessalonians 4:13-14)_
 
 In addition to a career of 43 years with the U.S. Postal Service, Bobby was also a veteran who served our country in Panama and as part of a special guerrilla platoon which trained U.S. soldiers headed to Vietnam.
 
@@ -61,12 +61,12 @@ Keep scrolling for more photos from our family and ministry!
 
 {{< figure src="OFReport/2020-08-06-standing-in-the-gap/fun-at-the-days-house_ysagbw" caption="After weeks in quarantine, the kids loved getting back together with the Day family!" >}}
 
-{{< figure src="OFReport/2020-08-06-standing-in-the-gap/kids-good-and-evil-books_lrcipb" caption="We continue to ship *Good and Evil* books to churches and individuals across Ukraine. This photo is from a church in Kyiv to whom we recently sent a case of books." >}}
+{{< figure src="OFReport/2020-08-06-standing-in-the-gap/kids-good-and-evil-books_lrcipb" caption="We continue to ship _Good and Evil_ books to churches and individuals across Ukraine. This photo is from a church in Kyiv to whom we recently sent a case of books." >}}
 
 {{< figure src="OFReport/2020-08-06-standing-in-the-gap/two-girls-with-book_blchrz" caption="What a blessing to see young children developing a love for the Scriptures!" >}}
 
 {{< callout >}}
-Do you know someone in Ukraine who would like to receive a free copy of *Good and Evil* in their language? Direct them to the web address below!
+Do you know someone in Ukraine who would like to receive a free copy of _Good and Evil_ in their language? Direct them to the web address below!
 
 [dobroizlo.com.ua](https://dobroizlo.com.ua/)
 {{< /callout >}}

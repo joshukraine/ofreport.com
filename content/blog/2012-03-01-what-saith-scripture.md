@@ -13,9 +13,9 @@ pdf: OFR-Mar-2012.pdf
 slug: 2012-03-01-what-saith-scripture
 ---
 
-The March issue of our newsletter, *Overseas Field Report*, is now available. Featured this month is our new Ukrainian-language video channel called “What saith the Scripture?” Also included is an update about the immigration situation plus some exciting family news!
+The March issue of our newsletter, _Overseas Field Report_, is now available. Featured this month is our new Ukrainian-language video channel called “What saith the Scripture?” Also included is an update about the immigration situation plus some exciting family news!
 
 {{< callout pdf="OFR-Mar-2012.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

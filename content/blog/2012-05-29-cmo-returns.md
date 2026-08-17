@@ -13,9 +13,9 @@ pdf: OFR-June-2012.pdf
 slug: 2012-05-29-cmo-returns
 ---
 
-The June issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we’ll tell you a bit about the upcoming CMO project which begins in July. Also included are updates on the Skole ministry and our baby.
+The June issue of our newsletter, _Overseas Field Report_, is now available. In this issue, we’ll tell you a bit about the upcoming CMO project which begins in July. Also included are updates on the Skole ministry and our baby.
 
 {{< callout pdf="OFR-June-2012.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

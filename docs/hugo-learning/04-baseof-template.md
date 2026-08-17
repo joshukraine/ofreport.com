@@ -51,14 +51,14 @@ passes the full page context so the partial can access `.Title`,
 
 **`{{ with (templates.Defer ...) }}`** (lines 5–7) — This is the most
 interesting construct in the file. **`templates.Defer`** tells Hugo: "don't
-execute this block now — wait until the *very end* of page rendering, then come
+execute this block now — wait until the _very end_ of page rendering, then come
 back and run it."
 
 Why defer the CSS? Because of how Tailwind CSS v4 works with Hugo:
 
 1. Hugo renders all templates, collecting every CSS class it encounters into
    `hugo_stats.json`
-2. Only after *all* templates have rendered is `hugo_stats.json` complete
+2. Only after _all_ templates have rendered is `hugo_stats.json` complete
 3. The `css.html` partial reads `hugo_stats.json` to purge unused CSS
 
 If the CSS partial ran immediately (without `Defer`), it would process an

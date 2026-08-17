@@ -20,7 +20,7 @@ Last spring, when Kelsie and I learned that we were expecting a baby, our first 
 
 Kelsie did have some trouble delivering the placenta, but we were able to transport her to a local hospital and in a few hours everything was taken care of. While this was definitely one of Kelsie’s hardest births from a labor and delivery standpoint, we are grateful that God led and protected us as He always does.
 
-In just a few days, our family will be flying back to Ukraine to continue our ministry. Although the political situation there remains tenuous, we’re grateful that Lviv is far removed from the violence. We’re also excited to report that over the past few months, we’ve seen a significant increase in requests for our Bible materials! My inbox fills up daily with emails from people enrolling in our [*Bible First* course](http://getbiblefirst.com) or requesting copies of the book [*Good and Evil*](http://goodandevilbook.com/). We are optimistic that God will use this time of turmoil in Ukraine to turn many to Himself. Please continue to pray with us as we communicate the message of Christ to these precious people!
+In just a few days, our family will be flying back to Ukraine to continue our ministry. Although the political situation there remains tenuous, we’re grateful that Lviv is far removed from the violence. We’re also excited to report that over the past few months, we’ve seen a significant increase in requests for our Bible materials! My inbox fills up daily with emails from people enrolling in our [_Bible First_ course](http://getbiblefirst.com) or requesting copies of the book [_Good and Evil_](http://goodandevilbook.com/). We are optimistic that God will use this time of turmoil in Ukraine to turn many to Himself. Please continue to pray with us as we communicate the message of Christ to these precious people!
 
 (HINT: More baby photos at the end of this post!)
 
@@ -32,13 +32,13 @@ This year’s CMO project is on track to begin June 15th. As I mentioned above, 
 
 The deadline to [register for CMO 2015 is May 1](https://cmoproject.org/), so if you or someone you know is interested in coming, please contact us right away! And of course, please continue to lift up our team in prayer as we make preparations for the summer.
 
-## *Bible First* Update
+## _Bible First_ Update
 
-Our list of *Bible First* graduates in Ukraine continues to grow, with the majority professing faith in Christ and expressing interest in receiving more of our materials in the future. One of our next major objectives is to make *Bible First* available online, and to this end we’ve begun developing a web-based application that will allow anyone world-wide to begin and manage their own *Bible First* course. This application will open the door to allowing our Ukrainian graduates to begin their own indigenous ministries, reaching their fellow Ukrainians using the same materials that brought them to Christ.
+Our list of _Bible First_ graduates in Ukraine continues to grow, with the majority professing faith in Christ and expressing interest in receiving more of our materials in the future. One of our next major objectives is to make _Bible First_ available online, and to this end we’ve begun developing a web-based application that will allow anyone world-wide to begin and manage their own _Bible First_ course. This application will open the door to allowing our Ukrainian graduates to begin their own indigenous ministries, reaching their fellow Ukrainians using the same materials that brought them to Christ.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/02/trevor-josh-color.jpg" caption="Trevor Brown and I spent a week getting the Bible First online project started." >}}
 
-In late January, we were very blessed to have Trevor Brown, a software developer from Florida, visit us in Texas for an entire week. Trevor and I spent many hours writing code to get the *Bible First* app on its feet, and while there is still much to do, we made a great start! Trevor will continue to work with us remotely as we develop this software.
+In late January, we were very blessed to have Trevor Brown, a software developer from Florida, visit us in Texas for an entire week. Trevor and I spent many hours writing code to get the _Bible First_ app on its feet, and while there is still much to do, we made a great start! Trevor will continue to work with us remotely as we develop this software.
 
 ## How You Can Pray
 
@@ -46,7 +46,7 @@ In late January, we were very blessed to have Trevor Brown, a software developer
 * Praise the Lord for His protection and provision surrounding Kathryn’s birth!
 * Pray for this summer’s outreach, CMO 2015.
 * Pray for the development of the Bible First web app.
-* Pray that God would continue to bless and expand the impact of *Bible First* in Ukraine, the U.S. and other countries.
+* Pray that God would continue to bless and expand the impact of _Bible First_ in Ukraine, the U.S. and other countries.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2015/02/2015-01-11-21.19.15-2.jpg" caption="Beka, Abby, and Hosanna greet their new little sister.<br />No happier group of future mommies was ever seen!" alt="Beka, Abby, and Hosanna greet their new little sister.  No happier group of future mommies was ever seen!" >}}
 

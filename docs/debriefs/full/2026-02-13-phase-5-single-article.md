@@ -96,9 +96,9 @@ overflow), and saves significant effort. The 12KB size impact is negligible.
 
 ### Previous/next navigation (`single.html` lines 57-87)
 
-**Hugo naming is counterintuitive:** `.NextInSection` returns the *older*
+**Hugo naming is counterintuitive:** `.NextInSection` returns the _older_
 article (next chronologically going backward), and `.PrevInSection` returns the
-*newer* article. We alias these for clarity:
+_newer_ article. We alias these for clarity:
 
 ```go-html-template
 {{- $older := .NextInSection -}}

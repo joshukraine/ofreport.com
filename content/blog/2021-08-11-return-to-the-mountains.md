@@ -13,7 +13,7 @@ pdf: OFR-Jul-Aug-2021.pdf
 slug: 2021-08-11-return-to-the-mountains
 ---
 
-“Will you come to our play on Saturday?” Nine energetic youngsters bounded between houses, inviting hardworking and weather-worn villagers to see a performance of *Exodus*. “Don’t forget! Saturday at 6:00!”
+“Will you come to our play on Saturday?” Nine energetic youngsters bounded between houses, inviting hardworking and weather-worn villagers to see a performance of _Exodus_. “Don’t forget! Saturday at 6:00!”
 
 {{< callout pdf="OFR-Jul-Aug-2021.pdf" >}}
 {{< /callout >}}
@@ -22,13 +22,13 @@ Back in Lviv, Saturday arrived, drippy and overcast. Joshua packed his Bible, gr
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/yellow-van-greeting_ex1vao" caption="The yellow van receives a warm greeting in Pylypets." >}}
 
-A friend of ours, Margarita, was the mind and muscle behind this particular gathering. She organized a week-long retreat in the Carpathians for a group of Lviv children (including two of our girls). It was her idea to host the *Exodus* skit, lead the children in making and distributing invitations, and bring in the special guests: Joshua to preach and Oleksa (Alex) to perform special music.
+A friend of ours, Margarita, was the mind and muscle behind this particular gathering. She organized a week-long retreat in the Carpathians for a group of Lviv children (including two of our girls). It was her idea to host the _Exodus_ skit, lead the children in making and distributing invitations, and bring in the special guests: Joshua to preach and Oleksa (Alex) to perform special music.
 
-{{< figure src="OFReport/2021-08-11-return-to-the-mountains/exodus-actors_whsjvo" caption="The young cast of *Exodus*" >}}
+{{< figure src="OFReport/2021-08-11-return-to-the-mountains/exodus-actors_whsjvo" caption="The young cast of _Exodus_" >}}
 
-6:00 came and people began to trickle in. A group of village children took seats on the front row in the simple guest house. Mastering their nerves, the young performers filed in wearing a variety of Egyptian-looking costumes. After the skit, which included a rousing rendition of Louis Armstrong’s *Let My People Go* (in English!), Joshua got up to preach.
+6:00 came and people began to trickle in. A group of village children took seats on the front row in the simple guest house. Mastering their nerves, the young performers filed in wearing a variety of Egyptian-looking costumes. After the skit, which included a rousing rendition of Louis Armstrong’s _Let My People Go_ (in English!), Joshua got up to preach.
 
-Referencing Pharaoh and his hard heart, Joshua asked the people how Pharaoh would be judged when he stood before God. Would he be innocent or guilty?  Using passages from Romans to Revelation, he explained that the Bible speaks of only two options — heaven or hell — and urged his listeners to stop trusting in their own works and start trusting in Christ’s work on the cross. The gospel message was short but clear. Many children were present and took copies of *Good and Evil*, and others were given invitations to join our correspondence Bible course.
+Referencing Pharaoh and his hard heart, Joshua asked the people how Pharaoh would be judged when he stood before God. Would he be innocent or guilty?  Using passages from Romans to Revelation, he explained that the Bible speaks of only two options — heaven or hell — and urged his listeners to stop trusting in their own works and start trusting in Christ’s work on the cross. The gospel message was short but clear. Many children were present and took copies of _Good and Evil_, and others were given invitations to join our correspondence Bible course.
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/joshua-preaching_gnqmdh" caption="The best news ever – Jesus saves!" >}}
 
@@ -50,7 +50,7 @@ In June, Joshua and I were invited by a local church to speak at a family picnic
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/after-play-group-shot_yg6ddv" caption="Group photo!" >}}
 
-{{< figure src="OFReport/2021-08-11-return-to-the-mountains/oleksa-good-evil-book_ha2ewe" caption="Oleksa gives the kids a closer look at *Good and Evil*." >}}
+{{< figure src="OFReport/2021-08-11-return-to-the-mountains/oleksa-good-evil-book_ha2ewe" caption="Oleksa gives the kids a closer look at _Good and Evil_." >}}
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/hosanna-rebekah-buddies_miyuaa" caption="Rebekah and Hosanna had a blast on their Carpathian retreat!" >}}
 
@@ -94,7 +94,7 @@ In June, Joshua and I were invited by a local church to speak at a family picnic
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/david-water-stick_nrc69i" caption="…and of course sticks too!" >}}
 
-{{< figure src="OFReport/2021-08-11-return-to-the-mountains/bear-preserve_lmhu0o" caption="One of our stops was a bear preserve. Pretty cool! (As long as they’re on *that side* of the fence.)" >}}
+{{< figure src="OFReport/2021-08-11-return-to-the-mountains/bear-preserve_lmhu0o" caption="One of our stops was a bear preserve. Pretty cool! (As long as they’re on _that side_ of the fence.)" >}}
 
 {{< figure src="OFReport/2021-08-11-return-to-the-mountains/kelsie-selfie_z5md1l" caption="Riding the ski lift up the mountain. The beauty of the Carpathian’s refreshed my soul." >}}
 

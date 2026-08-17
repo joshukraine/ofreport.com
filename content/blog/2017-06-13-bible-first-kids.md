@@ -13,12 +13,12 @@ pdf: OFR-May-Jun-2017.pdf
 slug: 2017-06-13-bible-first-kids
 ---
 
-On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. “I heard that you’ve been taking Abigail through the *Bible First* lessons at home.” I acknowledged that this was correct. “Would you be willing to do the same for our older kids at church?”
+On April 8, 2017, our eldest daughter [Abigail was baptized](https://youtu.be/uK3PKNu_alw) following her profession of faith in Christ. After the event, as we stood outside and chatted with various friends who had attended, Pastor Mihailo approached me with a request. “I heard that you’ve been taking Abigail through the _Bible First_ lessons at home.” I acknowledged that this was correct. “Would you be willing to do the same for our older kids at church?”
 
 {{< callout pdf="OFR-May-Jun-2017.pdf" >}}
 {{< /callout >}}
 
-I agreed and our first class was held on the Sunday after Easter. I brought a short message for the church during which I introduced *Bible First*, giving an overview of the course and explaining our goals to the parents. I then invited all the older kids up on the stage and gave them three challenges on which to focus as we started our new class: 1. Set aside childish things (1 Cor. 13:11), 2. Build a Godly reputation (Prov. 20:11), and 3. Seek the Lord in their youth (Eccl. 12:1). This done, we prayed and exited the main auditorium together.
+I agreed and our first class was held on the Sunday after Easter. I brought a short message for the church during which I introduced _Bible First_, giving an overview of the course and explaining our goals to the parents. I then invited all the older kids up on the stage and gave them three challenges on which to focus as we started our new class: 1. Set aside childish things (1 Cor. 13:11), 2. Build a Godly reputation (Prov. 20:11), and 3. Seek the Lord in their youth (Eccl. 12:1). This done, we prayed and exited the main auditorium together.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/challenge-1440w.jpg" caption="The class receives three challenges in front of the congregation on our first day." >}}
 
@@ -26,7 +26,7 @@ I was glad that Pastor Vladyslav was joining me to help lead the class. Most of 
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/sword-drills-2000w.jpg" caption="Danylo Medyakovsky (16) takes a turn leading the class in sword drills." >}}
 
-In addition to reading through *Bible First* lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter “intro” message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
+In addition to reading through _Bible First_ lessons in class, I’ve also started taking the group into the main service about once a month. Our church has two messages each Sunday: a shorter “intro” message and a main message. Our class will sometimes sit in for the intro message, and all the kids take notes. We then move downstairs to our classroom and discuss what was taught.
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/taking-notes-2000w.jpg" caption="The kids takes notes while listening to a message in the main service." >}}
 
@@ -39,9 +39,9 @@ In order to help the kids learn how to navigate their Bibles more efficiently, I
 <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
 <br>
 
-We’ve now finished Lesson 1 of *Bible First*, and we’re about halfway through Lesson 2. I am thrilled with the response from these young people, and I count myself blessed to have the privilege of bringing them closer to the Lord through His Word.
+We’ve now finished Lesson 1 of _Bible First_, and we’re about halfway through Lesson 2. I am thrilled with the response from these young people, and I count myself blessed to have the privilege of bringing them closer to the Lord through His Word.
 
-Have you wondered whether or not *Bible First* could help you teach your kids about the Lord? Give it a try! While some of the material is definitely advanced, an attentive teacher or parent can easily fill in the gaps. I think you’ll find, as we have, that reading through *Bible First* with your children will prompt much needed conversations about the Lord. What an exciting privilege to introduce these young ones to Christ!
+Have you wondered whether or not _Bible First_ could help you teach your kids about the Lord? Give it a try! While some of the material is definitely advanced, an attentive teacher or parent can easily fill in the gaps. I think you’ll find, as we have, that reading through _Bible First_ with your children will prompt much needed conversations about the Lord. What an exciting privilege to introduce these young ones to Christ!
 
 {{< button href="https://getbiblefirst.com/" text="Learn more about Bible First" external=true >}}
 
@@ -51,7 +51,7 @@ The translation of Good and Evil into Ukrainian continues to progress well. Anat
 
 ## The Russian is Coming!
 
-We are very pleased to announce that we now have a Russian translation of *Bible First* underway! Missionary Pat LaBarbera (sent out of same church as Jessie Beal) has been spearheading this effort. So far, nine lessons have been completed! There is a great demand even amongst our existing Ukrainian students for Russian-language materials, and we are looking forward to the completion of this translation.
+We are very pleased to announce that we now have a Russian translation of _Bible First_ underway! Missionary Pat LaBarbera (sent out of same church as Jessie Beal) has been spearheading this effort. So far, nine lessons have been completed! There is a great demand even amongst our existing Ukrainian students for Russian-language materials, and we are looking forward to the completion of this translation.
 
 Please continue to pray for the various translation efforts. We now have four languages in progress: Ukrainian (revision), Spanish, French, and Russian.
 
@@ -59,5 +59,5 @@ Please continue to pray for the various translation efforts. We now have four la
 
 - Praise the Lord for the fruit we are seeing with our new Bible First Kids class at church!
 - Pray that Good and Evil in Ukrainian would be completed soon, and that we would be able to print this fall.
-- Pray for the success of our new Russian translation of *Bible First*, as well as the other languages currently in progress.
+- Pray for the success of our new Russian translation of _Bible First_, as well as the other languages currently in progress.
 - Pray for peace and liberty in Ukraine.

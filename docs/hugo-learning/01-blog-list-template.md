@@ -33,7 +33,7 @@ The double curly braces `{{ }}` output a value. The dot (`.`) represents the
 ### `{{- with .Content }}` ... `{{- end }}` (lines 8–10)
 
 - **`with`** is like an `if` + context shift. It checks if `.Content` exists; if
-  it does, the block executes and the dot (`.`) *inside* the block becomes
+  it does, the block executes and the dot (`.`) _inside_ the block becomes
   `.Content` itself. That's why line 9 uses `{{ . }}` — it means "the content we
   just checked for."
 - **The dash `-`** in `{{-` trims whitespace before the tag. `{{- ... -}}`
@@ -47,7 +47,7 @@ The double curly braces `{{ }}` output a value. The dot (`.`) represents the
 - **`.Paginate .Pages`** calls Hugo's built-in pagination, splitting `.Pages`
   (all blog posts) into chunks (default 10 per page). The returned paginator
   object has properties like `.HasPrev`, `.HasNext`, and `.Pages` (the posts
-  for the *current* chunk).
+  for the _current_ chunk).
 
 ### `{{- $isFirstPage := not $paginator.HasPrev -}}` (line 13)
 

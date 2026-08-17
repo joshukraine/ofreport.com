@@ -4,15 +4,15 @@ This document records why and how the `chrome-devtools-mcp` server was wired int
 
 ## TL;DR
 
-We added a **project-scoped** `.mcp.json` at the repo root that runs the Chrome DevTools MCP server (built and maintained by the Google Chrome team). It gives the AI agent access to DevTools' *analytical* panels — Lighthouse audits, performance traces, and device/network/CPU emulation — which our existing browser tooling could not do. The server is scoped to this repository only and launches a throwaway, isolated Chrome profile, so there is no exposure of the developer's real browser session.
+We added a **project-scoped** `.mcp.json` at the repo root that runs the Chrome DevTools MCP server (built and maintained by the Google Chrome team). It gives the AI agent access to DevTools' _analytical_ panels — Lighthouse audits, performance traces, and device/network/CPU emulation — which our existing browser tooling could not do. The server is scoped to this repository only and launches a throwaway, isolated Chrome profile, so there is no exposure of the developer's real browser session.
 
 **Trial verdict: KEEP — the trial succeeded.** It earned its place across the Hugo rebuild's front-end QA (a11y/Lighthouse, performance, responsive emulation) and is now a standing part of the toolchain. What real use showed is recorded under [Trial findings](#trial-findings) below.
 
 ## Background: why this was worth adding
 
-The pain point in past front-end work was that the AI agent could not see *into* Chrome DevTools — it could not measure performance, run accessibility/SEO audits, or properly emulate devices. Chrome shipped `chrome-devtools-mcp` to close that gap, and it reached **v1 stability in Chrome 149** (we pinned v1.2.0).
+The pain point in past front-end work was that the AI agent could not see _into_ Chrome DevTools — it could not measure performance, run accessibility/SEO audits, or properly emulate devices. Chrome shipped `chrome-devtools-mcp` to close that gap, and it reached **v1 stability in Chrome 149** (we pinned v1.2.0).
 
-The important nuance is that we already run **Claude in Chrome** (Anthropic's browser-extension MCP), which drives the real browser session and already handles clicking, navigating, screenshots, reading the console, reading network requests, and running JavaScript. So this is not "the agent can finally see the browser" — it is specifically the *measurement and audit* layer that the interactive extension never had.
+The important nuance is that we already run **Claude in Chrome** (Anthropic's browser-extension MCP), which drives the real browser session and already handles clicking, navigating, screenshots, reading the console, reading network requests, and running JavaScript. So this is not "the agent can finally see the browser" — it is specifically the _measurement and audit_ layer that the interactive extension never had.
 
 ### What each tool is for
 
@@ -98,7 +98,7 @@ The Chrome team's own disclaimer: the server "exposes the content of the browser
 - **`emulate` genuinely reflows the viewport.** A mobile-emulated screenshot of `/subscribe/` correctly showed the mobile cover variant and hamburger nav, so its screenshots are trustworthy for responsive QA — retiring the prior `resize_window` workaround (which did not reflow the captured viewport) for this tool.
 - **The division of labor held up in practice.** chrome-devtools for Lighthouse / traces / emulation; Claude in Chrome for live visual and interactive checks. Tool-selection overhead was minor.
 
-**Honest caveat:** for a *pure refactor* (e.g. #92), a byte-for-byte diff of the generated `public/` HTML is stronger verification than any screenshot — the browser pass is a complement there, not the proof. Reach for the audit tools where they add signal a diff cannot: accessibility, contrast, responsive behavior, and real-world performance.
+**Honest caveat:** for a _pure refactor_ (e.g. #92), a byte-for-byte diff of the generated `public/` HTML is stronger verification than any screenshot — the browser pass is a complement there, not the proof. Reach for the audit tools where they add signal a diff cannot: accessibility, contrast, responsive behavior, and real-world performance.
 
 **Outcome:** the in-project trial concluded successfully and the server is kept. The remaining open step is cross-project: once it earns its place on a second project, promote the setup to a reusable snippet per the rule of three — see "Implications going forward."
 

@@ -101,7 +101,7 @@ left-arrow icon.
 results). The `range` loop iterates through every one of them, and
 `.PageNumber` captures which page number each pager represents.
 
-This is the key insight: the loop visits *every* page, but the `if` conditions
+This is the key insight: the loop visits _every_ page, but the `if` conditions
 inside decide which ones actually render. It's a "loop and filter" pattern
 rather than "loop over only what you need."
 
@@ -116,7 +116,7 @@ rather than "loop over only what you need."
 {{- end }}
 ```
 
-This block only fires when `$pageNum` is 1 *and* the window doesn't start at 1
+This block only fires when `$pageNum` is 1 _and_ the window doesn't start at 1
 (meaning page 1 would otherwise be hidden). It ensures page 1 is always visible.
 
 - **`&hellip;`** is the HTML entity for "..." (ellipsis).

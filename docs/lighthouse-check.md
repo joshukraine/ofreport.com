@@ -27,7 +27,7 @@ Representative pages: `/` · `/blog/2026-05-27-teaching-serving-standing/` (heav
 
 **Why desktop is required.** Anything hidden at the mobile viewport escapes a mobile-only audit: the desktop nav is `hidden lg:flex` (`display:none` below `lg`), the mobile menu is collapsed (`x-show`), and axe-core skips hidden elements. The #184 gate ran mobile-only and so never evaluated the nav — letting a real WCAG AA contrast failure on the nav links (`text-slate-400`, 2.63:1) slip through. It was caught separately in #164 and fixed in #190. The same blind spot covers every `lg:`/`md:`-gated element and hover-only affordance, so the desktop (`--preset=desktop`) pass is mandatory to exercise them.
 
-> **Measure deterministic categories against a production-config build.** Accessibility / Best-Practices / SEO / CLS are stable; run them against `ofreport-dev` (or a local `HUGO_ENVIRONMENT=production hugo --minify` build served over HTTP) so robots is `index,follow`. **Mobile *performance* scores are high-variance** (simulated throttling + remote Cloudinary images + edge-cache warmth) — take the median of 3–5 runs and don't read a single run as signal. *Performance is mobile-dominated and stays a mobile measurement; only the deterministic categories get the second desktop pass.*
+> **Measure deterministic categories against a production-config build.** Accessibility / Best-Practices / SEO / CLS are stable; run them against `ofreport-dev` (or a local `HUGO_ENVIRONMENT=production hugo --minify` build served over HTTP) so robots is `index,follow`. **Mobile _performance_ scores are high-variance** (simulated throttling + remote Cloudinary images + edge-cache warmth) — take the median of 3–5 runs and don't read a single run as signal. _Performance is mobile-dominated and stays a mobile measurement; only the deterministic categories get the second desktop pass._
 
 ## Results — before → after
 
@@ -41,7 +41,7 @@ Accessibility / Best Practices / SEO are deterministic (measured on production-c
 | Tag term (`/tags/newsletter/`) | 95 → **100** | 100 | 92 (accepted) |
 | Tags index (`/tags/`) | 95 → **100** | 100 | 100 |
 
-**Performance:** desktop is excellent across the board (**90–100**, no regressions). Mobile is throttle/network-dominated; the homepage shows the expected win from the LCP changes (**80 → 96, LCP 3.7 s → 2.5 s**). The headline mobile improvement is deterministic: **blog-list CLS 0.231 → ~0** (eliminated). Single-run mobile *scores* on the list/tag pages swing ±10 between the warm main site and a cold deploy-preview, so no absolute mobile score delta is claimed there.
+**Performance:** desktop is excellent across the board (**90–100**, no regressions). Mobile is throttle/network-dominated; the homepage shows the expected win from the LCP changes (**80 → 96, LCP 3.7 s → 2.5 s**). The headline mobile improvement is deterministic: **blog-list CLS 0.231 → ~0** (eliminated). Single-run mobile _scores_ on the list/tag pages swing ±10 between the warm main site and a cold deploy-preview, so no absolute mobile score delta is claimed there.
 
 ## Fixes applied
 
@@ -61,7 +61,7 @@ This is a deliberate divergence from the original Nuxt site's lighter link blue 
 
 ## Triaged — accepted with rationale
 
-- **SEO `link-text` "Read more" (blog list + tag pages, SEO 92).** Each card's footer has a generic "Read more" link that Lighthouse flags as non-descriptive (it keys off *visible* anchor text, an SEO signal — an `aria-label` doesn't satisfy it). **Accepted:** every card already carries a **descriptive title link** (the `<h2>`) to the same URL, so search engines have good per-article anchor text regardless; "Read more" is a deliberate UI convention. We still added `aria-label="Read more: {title}"` so screen-reader users hear the article context (a real a11y improvement even though it doesn't flip this SEO heuristic).
+- **SEO `link-text` "Read more" (blog list + tag pages, SEO 92).** Each card's footer has a generic "Read more" link that Lighthouse flags as non-descriptive (it keys off _visible_ anchor text, an SEO signal — an `aria-label` doesn't satisfy it). **Accepted:** every card already carries a **descriptive title link** (the `<h2>`) to the same URL, so search engines have good per-article anchor text regardless; "Read more" is a deliberate UI convention. We still added `aria-label="Read more: {title}"` so screen-reader users hear the article context (a real a11y improvement even though it doesn't flip this SEO heuristic).
 - **`image-aspect-ratio` (homepage, desktop only — Best Practices 96 → otherwise 100).** One decorative newsletter thumbnail (`w-[100px]`) trips the heuristic. Cosmetic, single image, no layout impact; left as-is.
 
 ## Note — SEO `noindex` on deploy-previews (expected)

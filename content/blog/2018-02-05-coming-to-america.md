@@ -39,7 +39,7 @@ While we’re out there, we would also like to drive through Tennessee, North Ca
 
 ## A Van and a House 🚙 🏡
 
-During past trips, our parents have been very gracious to host us in their homes. They’ve also loaned us vehicles when we needed them! While I’m sure they’re no less willing this time around, our crew has gotten *big*. There are 1-2-3-4-5-6-7 of us now, and on some days Kathryn counts as two. 😉
+During past trips, our parents have been very gracious to host us in their homes. They’ve also loaned us vehicles when we needed them! While I’m sure they’re no less willing this time around, our crew has gotten _big_. There are 1-2-3-4-5-6-7 of us now, and on some days Kathryn counts as two. 😉
 
 The simple fact is that we will need to acquire our own housing and vehicle for the three months we’ll be in the US. We’re exploring some different options such as leasing a minivan, and maybe some kind of short-term rental for housing. But we don’t have a lot of experience in these areas, and we’re open to suggestions. If you have any ideas, contacts, or other input for us, we’d love to hear from you!
 

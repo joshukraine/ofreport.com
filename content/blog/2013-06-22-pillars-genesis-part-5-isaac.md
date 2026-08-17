@@ -9,7 +9,7 @@ tags:
 slug: 2013-06-22-pillars-genesis-part-5-isaac
 ---
 
-The following is an excerpt taken from the twentieth and final lesson of *[Bible First](http://www.getbiblefirst.com)*.
+The following is an excerpt taken from the twentieth and final lesson of _[Bible First](http://www.getbiblefirst.com)_.
 
 ## Isaac’s Substitution
 
@@ -17,26 +17,26 @@ After repeatedly promising Abraham that he would become a great nation, God fulf
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2013/05/Isaac-349x450.jpg" alt="Isaac" >}}
 
-Happily, faith in God’s direction was a lesson Abraham had learned well. Although overcome with sorrow, he set out immediately to obey. When all was ready and Isaac lay bound on the altar, Abraham lifted the knife to slay his son. At the last moment, God intervened and saved Isaac’s life, saying, *“…Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.” (Genesis 22:12)* The test was over, and Abraham had passed.
+Happily, faith in God’s direction was a lesson Abraham had learned well. Although overcome with sorrow, he set out immediately to obey. When all was ready and Isaac lay bound on the altar, Abraham lifted the knife to slay his son. At the last moment, God intervened and saved Isaac’s life, saying, _“…Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.” (Genesis 22:12)_ The test was over, and Abraham had passed.
 
 But while Isaac’s life was spared, the sacrifice that day was nonetheless completed. Rather than cancel His original command, God provided a ram to take Isaac’s place on the altar.
 
 Similar to Isaac’s plight, all of humanity was once in jeopardy because of sin. While God loved us as a Father, His own law demanded our death as payment for our sin. As this sad tale unfolded, Grace and Justice seemed the worst of enemies, incapable of reconciliation.
 
-Substitution was God’s master plan to save His family from condemnation. By offering His only begotten Son to be executed in our place, God could remain just, and at the same time justify the ungodly. *“...That he might be just, and the justifier of him which believeth on Jesus.” (Romans 3:26)* Christ took our place on the cross in order to purchase for us a place in the family of God.
+Substitution was God’s master plan to save His family from condemnation. By offering His only begotten Son to be executed in our place, God could remain just, and at the same time justify the ungodly. _“...That he might be just, and the justifier of him which believeth on Jesus.” (Romans 3:26)_ Christ took our place on the cross in order to purchase for us a place in the family of God.
 
 ## Isaac’s Substitution in Genesis
 
-*“And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering <span style="text-decoration: underline;">in the stead of his son</span>.” (Genesis 22:13)*
+_“And Abraham lifted up his eyes, and looked, and behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering <span style="text-decoration: underline;">in the stead of his son</span>.” (Genesis 22:13)_
 
 ## Christ as Our Substitute in the New Testament
 
-*“For when we were yet without strength, in due time <span style="text-decoration: underline;">Christ died for the ungodly</span>. For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die. But God commendeth his love toward us, in that, <span style="text-decoration: underline;">while we were yet sinners, Christ died for us</span>.” (Romans 5:6–8)*
+_“For when we were yet without strength, in due time <span style="text-decoration: underline;">Christ died for the ungodly</span>. For scarcely for a righteous man will one die: yet peradventure for a good man some would even dare to die. But God commendeth his love toward us, in that, <span style="text-decoration: underline;">while we were yet sinners, Christ died for us</span>.” (Romans 5:6–8)_
 
-*“Even as the Son of man came not to be ministered unto, but to minister, and <span style="text-decoration: underline;">to give his life a ransom for many</span>.” (Matthew 20:28)*
+_“Even as the Son of man came not to be ministered unto, but to minister, and <span style="text-decoration: underline;">to give his life a ransom for many</span>.” (Matthew 20:28)_
 
-*“So <span style="text-decoration: underline;">Christ was once offered to bear the sins of many</span>; and unto them that look for him shall he appear the second time without sin unto salvation.” (Hebrews 9:28)*
+_“So <span style="text-decoration: underline;">Christ was once offered to bear the sins of many</span>; and unto them that look for him shall he appear the second time without sin unto salvation.” (Hebrews 9:28)_
 
-*“Christ hath redeemed us from the curse of the law, <span style="text-decoration: underline;">being made a curse for us</span>…” (Galatians 3:13)*
+_“Christ hath redeemed us from the curse of the law, <span style="text-decoration: underline;">being made a curse for us</span>…” (Galatians 3:13)_
 
-*BIBLE FIRST*, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.
+_BIBLE FIRST_, LESSON 20 — COPYRIGHT © 2013 EURO TEAM OUTREACH, INC. ALL RIGHTS RESERVED.

@@ -48,7 +48,7 @@ partial, `.` is **not** a page — it's the dictionary
 <article class="{{ if $featured }}...classes...{{ else }}...classes...{{ end }}">
 ```
 
-An `if`/`else` *inside an HTML attribute*. This is a common Hugo pattern — you
+An `if`/`else` _inside an HTML attribute_. This is a common Hugo pattern — you
 can embed template logic anywhere in the markup. Featured articles get a
 horizontal layout (`lg:flex-row`), regular ones stay vertical.
 
@@ -61,9 +61,9 @@ horizontal layout (`lg:flex-row`), regular ones stay vertical.
 
 - **`$page.Params.cover`** — `.Params` accesses the frontmatter of an article.
   So this reads the `cover:` field from the article's YAML.
-- **`with`** again serves double duty: it checks that `cover` exists *and*
+- **`with`** again serves double duty: it checks that `cover` exists _and_
   rebinds `.` to the cover URL string inside the block.
-- **`partial "cloudinary-url.html"`** — Calls *another* partial to build the
+- **`partial "cloudinary-url.html"`** — Calls _another_ partial to build the
   optimized Cloudinary image URL. Partials can call other partials — they
   compose like functions.
 - **`(dict "src" . "preset" $preset)`** — Passes the cover URL (`.`, which is
@@ -154,7 +154,7 @@ Same pattern — `with` checks and rebinds, `.` becomes the author string.
   prefix).
 - The PDF filename (`.`) is appended to the base URL to form the full download
   link.
-- **`relative z-10`** on the link — The `z-10` ensures this link sits *above*
+- **`relative z-10`** on the link — The `z-10` ensures this link sits _above_
   that invisible `<span class="absolute inset-0">` from the title, so clicking
   "PDF" opens the PDF rather than navigating to the article. Without it, the
   card overlay would intercept the click.

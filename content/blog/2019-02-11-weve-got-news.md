@@ -27,4 +27,4 @@ As we move closer to our due date, here are some things to pray for:
 * Health and safety for the baby.
 * A safe and speedy delivery.
 
-*“Lo, children are an heritage of the LORD: and the fruit of the womb is his reward. As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate.” (Psalms 127:3-5)*
+_“Lo, children are an heritage of the LORD: and the fruit of the womb is his reward. As arrows are in the hand of a mighty man; so are children of the youth. Happy is the man that hath his quiver full of them: they shall not be ashamed, but they shall speak with the enemies in the gate.” (Psalms 127:3-5)_

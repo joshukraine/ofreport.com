@@ -28,7 +28,7 @@ The following is a topical overview of the conference:
 
 ## SESSION 1 - Chosen to be Soldiers
 
-*“Thou therefore endure hardness, **as a good soldier of Jesus Christ**.” 2 Timothy 2:3*
+_“Thou therefore endure hardness, **as a good soldier of Jesus Christ**.” 2 Timothy 2:3_
 
 * On Tactical Weaponry
 * About YOU
@@ -40,7 +40,7 @@ The following is a topical overview of the conference:
 
 ## SESSION 2 - Depart from Iniquity
 
-*“Nevertheless the foundation of God standeth sure, having this seal, The Lord knoweth them that are his. And, Let every one that nameth the name of Christ depart from iniquity.” 2 Timothy 2:19*
+_“Nevertheless the foundation of God standeth sure, having this seal, The Lord knoweth them that are his. And, Let every one that nameth the name of Christ depart from iniquity.” 2 Timothy 2:19_
 
 * Addiction
 * Reformation or Destruction?
@@ -53,7 +53,7 @@ The following is a topical overview of the conference:
 
 ## SESSION 3 - Avoid Entanglement
 
-*“No man that warreth entangleth himself with the affairs of this life; that he may please him who hath chosen him to be a soldier.” 2 Timothy 2:4*
+_“No man that warreth entangleth himself with the affairs of this life; that he may please him who hath chosen him to be a soldier.” 2 Timothy 2:4_
 
 * What are Entanglements?
 * Learn to Treasure a Tender Conscience
@@ -64,7 +64,7 @@ The following is a topical overview of the conference:
 
 ## SESSION 4 - A Workman not Ashamed
 
-*“Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.” 2 Timothy 2:15*
+_“Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.” 2 Timothy 2:15_
 
 * The Bible is your Final Authority
 * You need to search the Scriptures

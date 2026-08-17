@@ -14,7 +14,7 @@ This is the **audit** stage of the 3-issue §2 pipeline (audit → redirects →
 2. **Crawl cross-check** — probed URLs a sitemap can omit (`/feed.xml`, `/rss`, `/robots.txt`, `/sitemap.xml`, `/index.xml`) and scraped the live homepage's internal links. Nothing indexable surfaced outside the sitemap (details below).
 3. **Hugo inventory** — clean build (`hugo --gc --minify --cleanDestinationDir`) then walked `./public`: every `index.html` is a served URL; tiny meta-refresh stubs are aliases. 348 pages + 26 aliases.
 4. **Diff** — normalized away the trailing-slash difference and categorized every live URL (`docs/url-parity/audit.py`).
-5. **Empirical redirect tests** — `curl` against the live Hugo preview (`ofreport-dev.netlify.app`) and the live Nuxt site to confirm *actual* Netlify behavior rather than assuming it.
+5. **Empirical redirect tests** — `curl` against the live Hugo preview (`ofreport-dev.netlify.app`) and the live Nuxt site to confirm _actual_ Netlify behavior rather than assuming it.
 
 Re-run any time with `python3 docs/url-parity/audit.py` (after a clean build). It exits non-zero if any live URL would 404. The snapshots (`live-urls.txt`, `hugo-urls.txt`, `hugo-aliases.txt`) are committed alongside this report.
 
@@ -64,7 +64,7 @@ The issue flagged a mismatch: the Nuxt sitemap lists **no** trailing slash (`/co
 | `/blog` | **301 → `/blog/`** | **301 → `/blog/`** |
 | `/blog/{slug}` | 301 → `/blog/{slug}/` | 301 → `/blog/{slug}/` |
 
-So the sitemap's no-slash paths were *already* 301-redirecting on the live Nuxt site; Netlify's automatic "pretty URLs" normalization reproduces that behavior on Hugo with no configuration. **No trailing-slash redirect rules are needed — and none should be added** (manual rules would only risk redirect loops with Netlify's built-in normalization).
+So the sitemap's no-slash paths were _already_ 301-redirecting on the live Nuxt site; Netlify's automatic "pretty URLs" normalization reproduces that behavior on Hugo with no configuration. **No trailing-slash redirect rules are needed — and none should be added** (manual rules would only risk redirect loops with Netlify's built-in normalization).
 
 One incidental improvement: Nuxt served `/contact/` but declared its canonical as `/contact` (no slash) — self-contradictory. Hugo's canonical is `https://ofreport.com/contact/`, matching the served URL. Cleaner, and a net SEO positive.
 
@@ -92,7 +92,7 @@ Hugo's paginator **automatically** emits an alias for every `page/1` → its lis
 /blog/page/1  →[301]→  /blog/page/1/  →[200]→  (alias stub, meta-refresh to /blog/)
 ```
 
-Netlify normalizes the trailing slash first, then serves Hugo's `page/1/index.html` (which exists), so the **non-forced** redirect is shadowed by the file. The 25 tag `page/1` URLs were never covered by a server rule at all — they rely entirely on the meta-refresh aliases. Meta-refresh at 0 seconds is treated by Google as a 301-equivalent, so this is *functional* and *SEO-acceptable today*, but it is a 200-with-client-redirect rather than a clean server 301.
+Netlify normalizes the trailing slash first, then serves Hugo's `page/1/index.html` (which exists), so the **non-forced** redirect is shadowed by the file. The 25 tag `page/1` URLs were never covered by a server rule at all — they rely entirely on the meta-refresh aliases. Meta-refresh at 0 seconds is treated by Google as a 301-equivalent, so this is _functional_ and _SEO-acceptable today_, but it is a 200-with-client-redirect rather than a clean server 301.
 
 ---
 
@@ -154,7 +154,7 @@ The homepage's only other internal references are `_nuxt/*` build bundles (retir
 
 ## Verification (#173) — live resolution gate
 
-The audit above *predicts* parity from a static diff. `verify.py` *proves* it by
+The audit above _predicts_ parity from a static diff. `verify.py` _proves_ it by
 firing real HTTP requests at the deployed Hugo site and asserting every old URL
 ends in a `200` — directly, or via a **single** `301` — with no `404`s, no
 redirect chains, and no loops. Built to be re-run as the final pre-cutover check
@@ -174,12 +174,12 @@ hop-by-hop, and exits non-zero on any failure so a clean run is unambiguous.
 
 Netlify normalizes a missing trailing slash with its own `301` (`/contact` →
 `/contact/`). That hop is cosmetic — same page — so it does **not** count against
-the "single 301" budget; only a redirect to a *different* page does. This makes
+the "single 301" budget; only a redirect to a _different_ page does. This makes
 the buckets line up with the audit's 347 / 26 / 0 split:
 
 - **1:1** — `200`, direct or after the cosmetic slash `301` (347 URLs).
 - **single 301** — one content redirect → `200`; the `page/1` set (26 URLs).
-  Netlify applies the forced `page/1/ → list-root` rule *and* the slash
+  Netlify applies the forced `page/1/ → list-root` rule _and_ the slash
   normalization in one hop, so e.g. `/blog/page/1` → `301` → `/blog/` is a clean
   single redirect, not a chain.
 - **FAIL** — a `404`, a 2+ hop content chain, a loop, or any non-`200` final

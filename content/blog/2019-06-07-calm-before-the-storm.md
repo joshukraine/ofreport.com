@@ -31,19 +31,19 @@ Now I’m back in Ukraine, and as we prepare to take yet another CMO plunge, I�
 
 ## Heavenly Parenting Book
 
-Due in large part to the diligence and fund-raising efforts of our friend Serhii Chepara, Kelsie and I now have our own published book on parenting. It’s called *Nebesne Batkivstvo* (Heavenly Parenting) and as long as your Ukrainian is not too rusty, we’d love for you to read it!
+Due in large part to the diligence and fund-raising efforts of our friend Serhii Chepara, Kelsie and I now have our own published book on parenting. It’s called _Nebesne Batkivstvo_ (Heavenly Parenting) and as long as your Ukrainian is not too rusty, we’d love for you to read it!
 
-{{< figure src="OFReport/2019-06-07-calm-before-the-storm/heavenly-parenting-book_eof28n.jpg" caption="A small sample of *Heavenly Parenting* books from our first print run!" >}}
+{{< figure src="OFReport/2019-06-07-calm-before-the-storm/heavenly-parenting-book_eof28n.jpg" caption="A small sample of _Heavenly Parenting_ books from our first print run!" >}}
 
 The book came about as the result of a parenting seminar that Kelsie and I presented in early 2018. We taught the sessions in Ukrainian and everything was recorded on video. Serhii paid to have each session transcribed into text, cleaned up the errors, and got everything laid out into chapters. Various people contributed finances to the project, and the book was finally printed this spring.
 
-{{< figure src="OFReport/2019-06-07-calm-before-the-storm/hp-front-open_mci4po.jpg" caption="Left cover: \"As much as you can, be *like* Christ...\"" >}}
+{{< figure src="OFReport/2019-06-07-calm-before-the-storm/hp-front-open_mci4po.jpg" caption="Left cover: \"As much as you can, be _like_ Christ...\"" >}}
 
-{{< figure src="OFReport/2019-06-07-calm-before-the-storm/hp-back-open_htoihp.jpg" caption="Right cover: \"...and as much as you can, be *with* your children.\"" >}}
+{{< figure src="OFReport/2019-06-07-calm-before-the-storm/hp-back-open_htoihp.jpg" caption="Right cover: \"...and as much as you can, be _with_ your children.\"" >}}
 
 ## Good and Evil Ministry
 
-The distribution of *Good and Evil* continues to move forward. We’re sending out books regularly to ministries, libraries, and individuals. And as always, we expect *Good and Evil* to play a major role in our upcoming CMO project this summer!
+The distribution of _Good and Evil_ continues to move forward. We’re sending out books regularly to ministries, libraries, and individuals. And as always, we expect _Good and Evil_ to play a major role in our upcoming CMO project this summer!
 
 {{< figure src="OFReport/2019-06-07-calm-before-the-storm/ge-cover-2019_ooxqoh.png" alt="Cover of the Ukrainian edition of the Good and Evil Bible comic book, titled Добро і Зло" >}}
 
@@ -65,7 +65,7 @@ This year we have four young men joining our team for CMO. Please pray for Kade,
 
 ## How You Can Pray
 
-* Praise the Lord for the publication of our first Ukrainian book, *Heavenly Parenting!*
+* Praise the Lord for the publication of our first Ukrainian book, _Heavenly Parenting!_
 * Pray for God’s blessing and protection on CMO 2019. Pray that the Gospel would go forth unhindered, and that many would turn to salvation!
 * Pray for health and safety for the CMO team as they travel to and from Ukraine this summer.
 * Pray for a safe delivery for Kelsie and the baby. Due date is in late July.

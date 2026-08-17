@@ -14,7 +14,7 @@ pdf: OFR-Jan-2012.pdf
 slug: 2012-01-03-every-perfect-gift
 ---
 
-Well, it’s been a while, but today we uploaded a new issue of our print newsletter, *Overseas Field Report*. If you’re on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
+Well, it’s been a while, but today we uploaded a new issue of our print newsletter, _Overseas Field Report_. If you’re on our regular-mail list you should be receiving a hard copy in the next week or so. Or, if you prefer, you can download this issue in PDF format by clicking the link above.
 
 {{< callout pdf="OFR-Jan-2012.pdf" >}}
 {{< /callout >}}

@@ -14,12 +14,12 @@ pdf: OFR-Aug-Sep-2018.pdf
 slug: 2018-09-30-vision-to-reality
 ---
 
-For some of our readers, the completion of *Good and Evil* in Ukrainian may already be old news. 5,000 books were delivered to our office in Lviv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/)) But as you may have guessed, there is more to tell.
+For some of our readers, the completion of _Good and Evil_ in Ukrainian may already be old news. 5,000 books were delivered to our office in Lviv on August 23rd, and shortly thereafter we published an announcement on the ETO blog. ([You can read that here.](https://euroteamoutreach.org/blog/2018/08/delivered/)) But as you may have guessed, there is more to tell.
 
 {{< callout pdf="OFR-Aug-Sep-2018.pdf" >}}
 {{< /callout >}}
 
-This printing of *Good and Evil* is the fulfillment of a vision that began in 2016 when we realized that we would soon run out of books from our first print run (done in black and white). When we made the decision to print a new edition in color, we were not at all sure that we would be able to pull it off. Print runs like this cost thousands of dollars, to say nothing of the time and work involved with translation, graphics, editing, and so forth. As so often happens, God provided all that was needed, and now the new color edition of *Good and Evil* in Ukrainian is being shipped to families all across the nation.
+This printing of _Good and Evil_ is the fulfillment of a vision that began in 2016 when we realized that we would soon run out of books from our first print run (done in black and white). When we made the decision to print a new edition in color, we were not at all sure that we would be able to pull it off. Print runs like this cost thousands of dollars, to say nothing of the time and work involved with translation, graphics, editing, and so forth. As so often happens, God provided all that was needed, and now the new color edition of _Good and Evil_ in Ukrainian is being shipped to families all across the nation.
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/dobro-zlo-book-table_wfhasc.jpg" caption="The color edition of Good and Evil in Ukrainian is here!" >}}
 
@@ -27,13 +27,13 @@ This printing of *Good and Evil* is the fulfillment of a vision that began in 20
 
 On July 5, just before CMO began, we launched a new Ukrainian-language web site where people can go to request a free copy of the book. (Check out [dobroizlo.com.ua](https://dobroizlo.com.ua/) if you’re curious.) As of this writing, we’ve received 191 requests — an average of over two requests every day!
 
-{{< figure src="OFReport/2018-09-30-vision-to-reality/dobro-zlo-site_l2mtx2.jpg" caption="Any Ukrainian may receive a copy of *Good and Evil* free of charge simply by submitting a request through our web site: [dobroizlo.com.ua](https://dobroizlo.com.ua/)" >}}
+{{< figure src="OFReport/2018-09-30-vision-to-reality/dobro-zlo-site_l2mtx2.jpg" caption="Any Ukrainian may receive a copy of _Good and Evil_ free of charge simply by submitting a request through our web site: [dobroizlo.com.ua](https://dobroizlo.com.ua/)" >}}
 
-All this means a lot of work in the mail room for our team member, Denise Hutchison. In addition to all her work sending and receiving *Bible First* lessons, she’s now shipping out dozens of *Good and Evil* books. Since their delivery in August, we’ve sent between 50-60 books, and more are in the pipeline!
+All this means a lot of work in the mail room for our team member, Denise Hutchison. In addition to all her work sending and receiving _Bible First_ lessons, she’s now shipping out dozens of _Good and Evil_ books. Since their delivery in August, we’ve sent between 50-60 books, and more are in the pipeline!
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/ready-to-mail_r0smks.jpg" caption="Denise has been hard at work mailing out Good and Evil books. Since August, we've sent out about 60 books!" >}}
 
-We are very excited about the potential impact of *Good and Evil* in Ukraine. Please pray with us that every book will find its way into the hands of those hungry for truth.
+We are very excited about the potential impact of _Good and Evil_ in Ukraine. Please pray with us that every book will find its way into the hands of those hungry for truth.
 
 {{< figure src="OFReport/2018-09-30-vision-to-reality/kids-reading-good-and-evil_louinh.jpg" caption="I recently gave a copy of Good and Evil to every family represented in my Bible First Kids class. The first story we read together was the account of Jesus' conversation with Nicodemus about the brass serpent. Good and Evil includes both the New Testament account in John 3, and the corresponding Old Testament story of the brass serpent in Numbers. We read both and then discussed the correlation between them." >}}
 
@@ -65,7 +65,7 @@ After taking a season off in 2017, CMO came back with a bang in 2018! There’s 
 
 ## How You Can Pray
 
-- Pray that God would continue to bless the distribution of *Good and Evil* in Ukraine, and that through this book many would come to Christ.
+- Pray that God would continue to bless the distribution of _Good and Evil_ in Ukraine, and that through this book many would come to Christ.
 - Praise the Lord for all that was accomplished during CMO. Continue to pray for those who are responding and learning about Christ.
 - Pray for strength, health, rest, and safety for our family as we travel in the US visiting family and friends.
 - Pray that even now God would begin to raise up a strong team for CMO 2019.

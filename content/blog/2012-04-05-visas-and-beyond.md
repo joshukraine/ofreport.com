@@ -13,9 +13,9 @@ pdf: OFR-Apr-2012.pdf
 slug: 2012-04-05-visas-and-beyond
 ---
 
-The April issue of our newsletter, *Overseas Field Report*, is now available. In this issue, we bring you the very latest on the immigration front. We’re making progress! You’ll also read a bit more about some new ministry opportunities that God has brought in the Carpathian town of Skole.
+The April issue of our newsletter, _Overseas Field Report_, is now available. In this issue, we bring you the very latest on the immigration front. We’re making progress! You’ll also read a bit more about some new ministry opportunities that God has brought in the Carpathian town of Skole.
 
 {{< callout pdf="OFR-Apr-2012.pdf" >}}
 {{< /callout >}}
 
-If you subscribe to *Overseas Field Report* by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.
+If you subscribe to _Overseas Field Report_ by regular mail, you should be receiving a printed copy of this issue in the next week or so. As always, we greatly appreciate your prayers and support for our ministry.

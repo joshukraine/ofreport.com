@@ -13,7 +13,7 @@ slug: 2022-01-10-gearing-up-for-cmo-2022
 
 Yes, it’s official. We are planning to host Carpathian Mountain Outreach 2022! ...Wiiiith some asterisks, of course. 😬✱✱✱
 
-As you may know, we’ve had to cancel CMO for the past two years due to complications relating to COVID-19. But a new year is here, and that begs the question: to CMO or *not* to CMO? We’ve talked it over, looked at the various angles, and we’re opting to move forward.
+As you may know, we’ve had to cancel CMO for the past two years due to complications relating to COVID-19. But a new year is here, and that begs the question: to CMO or _not_ to CMO? We’ve talked it over, looked at the various angles, and we’re opting to move forward.
 
 And there’s one more thing... **this year we’re opening up CMO to ladies! 🥳**
 
@@ -23,11 +23,11 @@ Lord willing, CMO 2022 will begin on **July 20, 2022** and end on **August 15, 2
 
 ## 🙋🏻‍♀️ Ladies Welcome!
 
-You read that right: this year, for the first time in CMO history, the project will be open to both guys *and* gals. We’ve never had anything against the ladies, of course, but in years past we’ve kept things men-only for operational reasons.
+You read that right: this year, for the first time in CMO history, the project will be open to both guys _and_ gals. We’ve never had anything against the ladies, of course, but in years past we’ve kept things men-only for operational reasons.
 
-But since CMO was founded in 2006, God has done something interesting: he’s given our family and the Days *eight daughters* between us! 💖 We want our kids to be involved as much as possible in what we do, so we’re taking the plunge to expand CMO, making the necessary changes for young ladies to participate safely and effectively.
+But since CMO was founded in 2006, God has done something interesting: he’s given our family and the Days _eight daughters_ between us! 💖 We want our kids to be involved as much as possible in what we do, so we’re taking the plunge to expand CMO, making the necessary changes for young ladies to participate safely and effectively.
 
-And when I say *participate*, I mean the whole program: surveys, street ministry, tracts, and of course, camping.
+And when I say _participate_, I mean the whole program: surveys, street ministry, tracts, and of course, camping.
 
 ## 📑 The Info Pack, Application, etc.
 
@@ -43,7 +43,7 @@ There will certainly be changes to these, most notably COVID considerations and 
 
 ## 🦠 COVID Considerations
 
-It goes without saying that COVID has drastically changed daily life for the whole world. Planning for next week is hard, let alone next *month* or next *year*. But as James admonishes us, *“For that ye ought to say, If the Lord will, we shall live, and do this, or that.” (James 4:15)*
+It goes without saying that COVID has drastically changed daily life for the whole world. Planning for next week is hard, let alone next _month_ or next _year_. But as James admonishes us, _“For that ye ought to say, If the Lord will, we shall live, and do this, or that.” (James 4:15)_
 
 Could Ukraine close its borders? Yes. What if we have a summer spike in cases? Might happen. Maybe a new variant worse than delta or omicron? Sure, that’s possible, although, in case you haven’t noticed, they’re running out of Greek letters. 😉
 
@@ -52,13 +52,13 @@ So don’t buy your plane tickets just yet, and know that things could change. M
 Here are a few things we know right now:
 
 - Regular flights to Ukraine are open, and tourists are welcome.
-- You *don’t* need to be vaccinated to enter the country.
-- You *do* need a negative COVID test. Both PCR and rapid antigen tests are accepted.
+- You _don’t_ need to be vaccinated to enter the country.
+- You _do_ need a negative COVID test. Both PCR and rapid antigen tests are accepted.
 - You can learn more about travel to Ukraine here: [https://visitukraine.today](https://visitukraine.today/)
 
 ## 🇷🇺 What about Russia?
 
-We’re not the only ones who love outdoor adventures, apparently. Russia has been holding a little camping project of their own lately, with tens of thousands of troops positioned along the border with Ukraine. And the big question on everyone’s mind: *will Putin invade? Again?*
+We’re not the only ones who love outdoor adventures, apparently. Russia has been holding a little camping project of their own lately, with tens of thousands of troops positioned along the border with Ukraine. And the big question on everyone’s mind: _will Putin invade? Again?_
 
 The U.S. has a poor track record when it comes to guessing Russia’s intentions. Maybe Putin is serious? Maybe he’s just saber-rattling? If you read about Ukraine and Russia on major news outlets, then you know about as much as anyone does, save perhaps for insiders in the government.
 
@@ -79,6 +79,6 @@ Registration is not yet open, but **if you think CMO 2022 is something you’re 
 
 ## ✅ Conclusion
 
-We live in an era of questions and uncertainty. We can hide in a hole and try to “stay safe”, or we can stand up and do our best to serve God. Prudence is needed, but fear is to be avoided. We think CMO 2022 has a good chance of getting off the ground, and we’re working hard to make that a reality. Young men, *and young ladies*, we hope you’ll join us!
+We live in an era of questions and uncertainty. We can hide in a hole and try to “stay safe”, or we can stand up and do our best to serve God. Prudence is needed, but fear is to be avoided. We think CMO 2022 has a good chance of getting off the ground, and we’re working hard to make that a reality. Young men, _and young ladies_, we hope you’ll join us!
 
-*This article originally appeared on [euroteamoutreach.org](https://euroteamoutreach.org/blog/2022/01/gearing-up-for-cmo-2022/).*
+_This article originally appeared on [euroteamoutreach.org](https://euroteamoutreach.org/blog/2022/01/gearing-up-for-cmo-2022/)._

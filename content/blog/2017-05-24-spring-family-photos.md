@@ -23,7 +23,7 @@ We hope you enjoy the pictures. God has blessed our family with five precious ch
 
 ---
 
-*Click on any photo to enlarge it.*
+_Click on any photo to enlarge it._
 
 {{< figure src="https://d21yo20tm8bmc2.cloudfront.net/2017/abigail-2017-2000w.jpg" caption="Abigail Hope, 11 yrs." >}}
 

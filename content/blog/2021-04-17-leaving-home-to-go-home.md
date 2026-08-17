@@ -42,7 +42,7 @@ Many people have sent in generous donations to help support Mom and Dad during t
 
 During our final days in Texas, there was, as usual, a flurry of last-minute activity. Packing, weighing bags, shipping boxes, and (surprise!) mandatory PCR tests for reentry to Ukraine. And through it all we felt keenly the mixture of joy and sadness at “leaving home to go home”. But just as I was confident that God led us to Texas for ministry to my family there, so I remain confident that He is leading us to continue our ministry in Ukraine.
 
-Of course, with all the upheaval of the past few months, ministry tasks are a bit behind schedule. But the wheels are turning and we have some exciting developments we’d like to share with you. So keep your eyes open for our next issue of *Overseas Field Report*, coming (hopefully) very soon!
+Of course, with all the upheaval of the past few months, ministry tasks are a bit behind schedule. But the wheels are turning and we have some exciting developments we’d like to share with you. So keep your eyes open for our next issue of _Overseas Field Report_, coming (hopefully) very soon!
 
 {{< figure src="OFReport/2021-04-17-leaving-home-to-go-home/IMG_5286_j3rbot" caption="Saying “Good-bye” to Nana 🥲" >}}
 

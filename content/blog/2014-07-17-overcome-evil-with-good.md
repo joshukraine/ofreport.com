@@ -15,7 +15,7 @@ pdf: OFR-Jun-Aug-2014.pdf
 slug: 2014-07-17-overcome-evil-with-good
 ---
 
-Carpathian villages, though beautiful in photos, can be surprisingly dark places. Entrenched in centuries of religion and superstition, the people who live in these mountain communities often embody a sad yet all too common paradox: *“They profess that they know God; but in works they deny him...” (Titus 1:16)*
+Carpathian villages, though beautiful in photos, can be surprisingly dark places. Entrenched in centuries of religion and superstition, the people who live in these mountain communities often embody a sad yet all too common paradox: _“They profess that they know God; but in works they deny him...” (Titus 1:16)_
 
 {{< callout pdf="OFR-Jun-Aug-2014.pdf" >}}
 {{< /callout >}}
@@ -26,19 +26,19 @@ As the boys reach adolescence and slip into drinking and other destructive habit
 
 Bound by sin, people turn to the priest to appease their consciences. They attend mass and confession regularly, repeating empty prayers to idols while their lives and the lives of their children slide ever more quickly towards the blackness of hell.
 
-I write these things as one who has been visiting the Carpathians for nearly a decade. I’ve often asked myself the same question that is no doubt pressing your mind also: what is to be done? Is there nothing that can turn back this tide of evil? Yes, there is. The simple Gospel of Jesus Christ *“... is the power of God unto salvation to <span style="text-decoration: underline;">every one</span> that believeth...” (Romans 1:16)*
+I write these things as one who has been visiting the Carpathians for nearly a decade. I’ve often asked myself the same question that is no doubt pressing your mind also: what is to be done? Is there nothing that can turn back this tide of evil? Yes, there is. The simple Gospel of Jesus Christ _“... is the power of God unto salvation to <span style="text-decoration: underline;">every one</span> that believeth...” (Romans 1:16)_
 
 As modern American Christians, we tend to be easily discouraged when we don’t see sweeping revival in response to our evangelistic efforts. But Christ’s redeeming work is focused on the individual. The village as a whole may continue its march to destruction, but all the while God is quietly calling out His elect, those who choose to believe the Word preached to them.
 
-*“...And how shall they believe in him of whom they have not heard? and how shall they hear without a preacher?” (Romans 10:14)* We go to these places because we are sent; we preach because we are commanded to preach. We are called to hold the line as good soldiers, to shine Christ’s light in the darkest corners where hope seems lost, to proclaim the Gospel message until the day our Lord calls us home. This is the essence of our ministry in Ukraine, and of Carpathian Mountain Outreach in particular.
+_“...And how shall they believe in him of whom they have not heard? and how shall they hear without a preacher?” (Romans 10:14)_ We go to these places because we are sent; we preach because we are commanded to preach. We are called to hold the line as good soldiers, to shine Christ’s light in the darkest corners where hope seems lost, to proclaim the Gospel message until the day our Lord calls us home. This is the essence of our ministry in Ukraine, and of Carpathian Mountain Outreach in particular.
 
 Please don’t stop praying for our team as we minister. God knows every heart in every village, and His Word is not bound. Every weekend camping trip brings our team into contact with new faces, new opportunities to preach the Gospel and distribute Bible literature. Pray that God would strengthen us and that He would use our efforts to turn many to repentance.
 
 If you’d like to keep up with CMO 2014 as the project progresses, be sure to subscribe to the ETO eReport at [www.euroteamoutreach.org](http://www.euroteamoutreach.org).
 
-## New *Bible First* Lessons
+## New _Bible First_ Lessons
 
-We’ve recently released Volumes 3 and 4 of our *Bible First* course in English. These two volumes add an additional seven lessons to those already available. As our local *Bible First* course in Ukraine continues to grow, we are excited to see more people using the English version of these materials in their own ministries. To learn more about how you can use *Bible First* to reach the lost in your own ministry, please visit our web site: [www.getbiblefirst.com](http://www.getbiblefirst.com).
+We’ve recently released Volumes 3 and 4 of our _Bible First_ course in English. These two volumes add an additional seven lessons to those already available. As our local _Bible First_ course in Ukraine continues to grow, we are excited to see more people using the English version of these materials in their own ministries. To learn more about how you can use _Bible First_ to reach the lost in your own ministry, please visit our web site: [www.getbiblefirst.com](http://www.getbiblefirst.com).
 
 ## Baby Update
 

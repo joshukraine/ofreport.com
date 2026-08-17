@@ -18,7 +18,7 @@ Built the four custom Hugo shortcodes that article content is composed from — 
 - **`svg`:** `resources.Get` + `.Content | safeHTML` inline; missing param → `errorf` (fail), missing file → `warnf` (tolerate — Phase 8 logos don't exist yet).
 - **`callout`:** first paired shortcode; `.Page.RenderString (dict "display" "block") .Inner` for block markdown; `[&>:first-child]:mt-0 / [&>:last-child]:mb-0` resets prose margins for even box padding.
 - **`figure`:** one `src` → two sized Cloudinary URLs (display `figure` w_768 / lightbox `lightbox` w_1600); `not-prose` to match the cover figure; centered caption; lightbox-compatible markup (GLightbox itself is Phase 13).
-- **Most significant call (altitude):** moved bare-public-ID → full-URL expansion *into* `cloudinary-url.html` (rather than the figure shortcode). Completes the shared helper's contract (it previously silently no-op'd on a public ID), removes Cloudinary URL-format knowledge from the shortcode, and is backward-compatible (full URLs skip the branch; existing cover callers unchanged).
+- **Most significant call (altitude):** moved bare-public-ID → full-URL expansion _into_ `cloudinary-url.html` (rather than the figure shortcode). Completes the shared helper's contract (it previously silently no-op'd on a public ID), removes Cloudinary URL-format knowledge from the shortcode, and is backward-compatible (full URLs skip the branch; existing cover callers unchanged).
 
 ## Test Coverage
 

@@ -22,13 +22,13 @@ Although I do not have a transcript of that conversation, I do remember experien
 
 My father picks up the receiver, dials the number for the Powell household. The phone rings, and a man answers.
 
-*“Hello?”*
+_“Hello?”_
 
-*“Yes, may I speak with Danny Powell please?”*
+_“Yes, may I speak with Danny Powell please?”_
 
-*“This is Danny.”*
+_“This is Danny.”_
 
-*“Hi Danny, my name is Mike Steele. You don’t know me, and I don’t know you, but my daughter Jennifer has met your daughter Kelsie. Anyway, I’m actually calling on behalf of my son Joshua. You don’t know him either. He’s a missionary to Ukraine, but he’s currently working in Thailand. He’s interested in beginning a relationship with your daughter Kelsie, whom he also doesn’t know. He wanted to contact you about this without Kelsie knowing, but he can’t make calls out of Thailand. But he can email. He would like to know if he can send you an email about starting a relationship with Kelsie.”*
+_“Hi Danny, my name is Mike Steele. You don’t know me, and I don’t know you, but my daughter Jennifer has met your daughter Kelsie. Anyway, I’m actually calling on behalf of my son Joshua. You don’t know him either. He’s a missionary to Ukraine, but he’s currently working in Thailand. He’s interested in beginning a relationship with your daughter Kelsie, whom he also doesn’t know. He wanted to contact you about this without Kelsie knowing, but he can’t make calls out of Thailand. But he can email. He would like to know if he can send you an email about starting a relationship with Kelsie.”_
 
 Silence. Click.
 
