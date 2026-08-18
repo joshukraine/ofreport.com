@@ -52,6 +52,29 @@ enableRobotsTXT = true
     scriptUrl = "https://lens.euroteamoutreach.org/script.js"
     websiteId = "34d2cfa4-e623-418a-936d-670c9d163ead"
 
+# Site-wide announcement banner. Renders under the nav on every page until
+# `expires` passes. Two independent gates retire it: Hugo omits the markup at
+# build time once the deadline is past, and an inline script removes it
+# client-side between deploys (the one that matters — a static site can sit
+# undeployed for weeks).
+#
+# `expires` is a UTC instant, not a local date, so every reader gets the same
+# cutoff regardless of their own clock. 2026-08-23T05:00:00Z is midnight CDT at
+# the end of wedding day — CDT because the audience is primarily US-based. That
+# lands at 11:00 PM in El Salvador and 8:00 AM Sunday in Kyiv; the link survives
+# the deadline either way, since it serves the recording once the stream ends.
+#
+# `key` namespaces the "reader dismissed this" flag in localStorage. Bump it if
+# this block is ever reused for a different announcement, or everyone who
+# dismissed this one will silently never see the next one.
+[params.banner]
+  enabled = true
+  expires = "2026-08-23T05:00:00Z"
+  href = "https://jsua.co/abbie-axel"
+  text = "Abbie & Axel are getting married — Saturday, August 22."
+  linktext = "Watch the live stream"
+  key = "ofr-banner-abbie-axel-2026"
+
 # Security policy — pinned rather than inherited.
 #
 # css.TailwindCSS shells out to the `tailwindcss` binary, which Hugo permits
