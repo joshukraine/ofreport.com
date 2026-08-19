@@ -1,0 +1,94 @@
+{{/* Site-wide announcement banner.
+
+     Placement: rendered as the first child of <main>, deliberately in normal
+     flow. The header is `fixed top-0` with an h-16 bar, and main's `pt-16` is
+     what clears it — so a banner placed here starts exactly under the nav, and
+     `sticky top-16` then pins it there on scroll.
+
+     The obvious alternative (a second fixed row under the header) would force
+     main's top padding to track a *variable* banner height — the copy wraps at
+     narrow widths — and that padding would then have to shrink again the moment
+     the banner is dismissed. Staying in flow means dismissal reflows the page
+     for free, with no measurement and no JS-managed padding.
+
+     Expiry runs on two independent gates:
+       - Build time (below): once `expires` is past, Hugo emits nothing at all,
+         so the next deploy ships HTML with no banner in it.
+       - Run time (the inline script): removes the element in the reader's
+         browser between deploys. This is the gate that actually retires the
+         banner, since nothing guarantees a deploy after the deadline.
+
+     The script is inline and synchronous, immediately after the markup, so an
+     expired or already-dismissed banner is gone before first paint instead of
+     flashing. Plain JS on purpose: Alpine is loaded from a CDN with `defer`, so
+     anything depending on it would flash first and could fail entirely if the
+     CDN is slow or blocked. */}}
+
+{{ with site.Params.banner }}
+  {{ if .enabled }}
+    {{ $expires := time.AsTime .expires }}
+    {{ if now.Before $expires }}
+      <div id="site-banner"
+           role="region"
+           aria-label="Site announcement"
+           data-expires="{{ .expires }}"
+           data-key="{{ .key }}"
+           class="sticky top-16 z-40 bg-blue-900 text-white">
+        <div class="flex items-center gap-x-3 px-4 py-2.5 sm:px-6 lg:px-8">
+          <p class="grow text-sm sm:text-base">
+            {{ .text }}
+            <a href="{{ .href }}"
+               class="font-semibold whitespace-nowrap underline decoration-blue-400 underline-offset-2 transition-colors hover:text-blue-100 hover:decoration-blue-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+              {{ .linktext }}
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </p>
+          <button type="button"
+                  data-banner-dismiss
+                  aria-label="Dismiss announcement"
+                  class="shrink-0 self-start rounded-md p-1.5 transition-colors hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:self-center">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <script>
+        (function () {
+          var el = document.getElementById("site-banner");
+          if (!el) return;
+
+          var expires = Date.parse(el.dataset.expires);
+          var key = el.dataset.key;
+
+          if (!isNaN(expires) && Date.now() >= expires) {
+            el.remove();
+            return;
+          }
+
+          try {
+            if (key && window.localStorage.getItem(key) === "1") {
+              el.remove();
+              return;
+            }
+          } catch (e) {
+            /* localStorage throws in Safari private mode — fall through and
+               show the banner rather than failing closed. */
+          }
+
+          var button = el.querySelector("[data-banner-dismiss]");
+          if (!button) return;
+
+          button.addEventListener("click", function () {
+            try {
+              if (key) window.localStorage.setItem(key, "1");
+            } catch (e) {
+              /* Dismissal just won't persist; still remove it for this page. */
+            }
+            el.remove();
+          });
+        })();
+      </script>
+    {{ end }}
+  {{ end }}
+{{ end }}
