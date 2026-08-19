@@ -11,11 +11,11 @@ caption: Abbie and Axel will be married on Saturday, August 22, 2026, in Houston
 slug: 2026-08-18-abbie-and-axel-wedding-live
 ---
 
-Back in May we shared the news that our eldest daughter, Abigail, was engaged to Axel Alvarenga. That day is now just around the corner.
+Back in May, we shared the news that our eldest daughter, Abigail, was engaged to Axel Alvarenga. Their wedding day is now just around the corner!
 
-This Saturday, August 22, Abbie and Axel will be married in Houston, Texas. Our whole family has traveled back from Ukraine to be here, and I have been given the joy of officiating the ceremony myself.
+This Saturday, August 22, Abbie and Axel will be married in Houston, Texas. Our whole family has traveled back from Ukraine to be here, and I have been given the joy of officiating the ceremony.
 
-So many of you have walked with our family for years — praying for us, supporting us, and following along from Ukraine, the United States, and beyond. We cannot gather all of you into one room, so we are doing the next best thing: the ceremony will be streamed live, and you are invited to join us.
+So many of you have walked with our family for years — praying for us, supporting us, and following along from Ukraine, the United States, and beyond. We know it’s not possible for everyone to attend in person, so we’ve decided to stream the ceremony live. You are cordially invited to join us!
 
 ## How to watch
 
@@ -34,6 +34,6 @@ If that timing does not work where you are, the same link will carry the recordi
 
 ## Please pray
 
-Would you pray with us this week? Pray for Abbie and Axel as they begin their life together, for safe travel for the family and friends gathering in Texas, and for a day that honors the Lord from beginning to end.
+Would you pray with us this week? Pray for Abbie and Axel as they begin their new life together, for safe travel for family and friends gathering in Texas, and for a day that honors the Lord Jesus Christ from beginning to end.
 
-We are grateful beyond words for each of you who has prayed our family through the years — and we are so glad you can be part of this day with us.
+We are grateful beyond words for each of you who has prayed for our family through the years — and we are so glad you can be part of this day with us.
