@@ -21,7 +21,7 @@
   {{ partial "footer.html" . }}
   {{ partial "glightbox.html" . }}
   {{ partial "analytics.html" . }}
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"></script>
+  {{ partial "scripts.html" . }}
 </body>
 </html>
 ```
