@@ -34,6 +34,14 @@ Each entry records one deviation or decision:
 
 ## Entries
 
+### 2026-11-16 — `layouts/_default/baseof.html`, `layouts/partials/scripts.html`, `assets/js/main.js`
+
+**What changed:** Alpine.js is now bundled through Hugo's `js.Build` (minified, fingerprinted, SRI-verified) instead of loaded from the floating `cdn.jsdelivr.net/npm/alpinejs@3` tag. `01-architecture.md` previously allowed either and showed the CDN tag; it and `04-templates.md` now document the bundle.
+
+**Why:** Brings the site in line with the sister sites (ETO already ships this pattern), removes a third-party request from a site that self-hosts analytics to avoid them, adds integrity verification the CDN tag lacked, and replaces an unpinned major-version URL with a lockfile-pinned version. Trade-off: Alpine upgrades now arrive through Dependabot's npm PRs and change what visitors load, so those PRs need a nav + search check before merging rather than a rubber stamp.
+
+**Category:** Pivot
+
 ### 2026-06-24 — `layouts/blog/single.html`
 
 **What changed:** Added `data-pagefind-ignore` to the article meta line (author / date / reading time) and the tag-pill wrapper. The "Indexing Design" section of `09-search.md` enumerated `data-pagefind-ignore` only on the prev/next nav and the article-footer newsletter form, so these two regions were indexed as body text.

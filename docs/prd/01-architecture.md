@@ -151,15 +151,14 @@ JavaScript framework.
 **Implementation:**
 
 - Install via npm: `npm install --save-dev alpinejs`
-- Load via Hugo's `js.Build` pipe or from CDN
-- Initialize in the base layout before `</body>`:
+- Bundle via Hugo's `js.Build` pipe from `assets/js/main.js`, which imports Alpine, assigns `window.Alpine`, and calls `Alpine.start()`. The version is pinned by `package-lock.json`; no third-party CDN request.
+- Load it from `layouts/partials/scripts.html`, called in the base layout before `</body>`. Outside development the bundle is minified and fingerprinted, with an SRI `integrity` attribute:
 
   ```html
-  <script
-    defer
-    src="https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js"
-  ></script>
+  <script defer src="/js/main.<hash>.js" integrity="sha256-…" crossorigin="anonymous"></script>
   ```
+
+- Keep `defer`: it guarantees inline `alpine:init` listeners (e.g. the search palette's `Alpine.data` registration) run before `Alpine.start()`.
 
 - Use inline `x-data`, `@click`, `x-show` attributes in templates
 

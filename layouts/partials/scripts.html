@@ -1,0 +1,17 @@
+{{/* Alpine.js bundle. js.Build (esbuild) resolves the alpinejs npm import from
+     node_modules, so the version is pinned by package-lock.json; minified +
+     fingerprinted + SRI outside development. Keep `defer`: it is what guarantees
+     inline `alpine:init` listeners (search.html) register before Alpine.start()
+     runs, regardless of where this partial sits in the document. */}}
+{{ with resources.Get "js/main.js" }}
+  {{ $opts := dict "minify" (not hugo.IsDevelopment) "target" "es2020" }}
+  {{ with . | js.Build $opts }}
+    {{ if hugo.IsDevelopment }}
+      <script defer src="{{ .RelPermalink }}"></script>
+    {{ else }}
+      {{ with . | fingerprint }}
+        <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

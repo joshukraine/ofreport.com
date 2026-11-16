@@ -46,7 +46,7 @@ hugo new content blog/YYYY-MM-DD-slug-title.md
 
 - **Hugo** static site generator with Go templates
 - **Tailwind CSS v4** via Hugo's built-in `css.TailwindCSS` pipe (not PostCSS)
-- **Alpine.js** for minimal interactivity (mobile menu, dropdowns)
+- **Alpine.js** for minimal interactivity (mobile menu, search palette) — bundled via `js.Build` from `assets/js/main.js` through `partials/scripts.html` (fingerprinted + SRI, version pinned by `package-lock.json`; no CDN)
 - **Cloudinary** for all image hosting/transforms (cloud name: `dnkvsijzu`)
 - **GLightbox** for image lightbox on article pages
 - **Netlify** for hosting, forms, and deployment
