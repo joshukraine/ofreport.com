@@ -134,33 +134,35 @@
       {{/* Article footer: "To God be the Glory" wordmark + newsletter signup */}}
       {{ partial "article-footer.html" . }}
 
-      {{/* Previous/next article navigation */}}
-      {{- $older := .NextInSection -}}
-      {{- $newer := .PrevInSection -}}
+      {{/* Newer/older article navigation */}}
+      {{- $older := .PrevInSection -}}
+      {{- $newer := .NextInSection -}}
       {{- if or $older $newer }}
         {{/* data-pagefind-ignore: the adjacent-article titles are navigation, not
              this article's content — keep them out of the index and excerpts. */}}
-        <nav class="mt-16 border-t border-gray-200 pt-8" aria-label="Previous and next articles" data-pagefind-ignore>
+        <nav class="mt-16 border-t border-gray-200 pt-8" aria-label="Newer and older articles" data-pagefind-ignore>
           <div class="flex flex-col gap-6 sm:flex-row sm:justify-between">
-            {{- if $older }}
-              <a href="{{ $older.RelPermalink }}" class="group flex-1">
+            {{/* Newer on the left, older on the right — matches the blog list,
+                 which runs newest-first, so "further along" means older. */}}
+            {{- if $newer }}
+              <a href="{{ $newer.RelPermalink }}" class="group flex-1">
                 <span class="flex items-center gap-1 text-sm font-medium text-gray-500 group-hover:text-blue-800 transition-colors">
-                  <span aria-hidden="true">&larr;</span> Previous
+                  <span aria-hidden="true">&larr;</span> Newer
                 </span>
                 <span class="mt-1 block text-base font-semibold text-gray-900 group-hover:text-blue-800 transition-colors">
-                  {{- $older.Title -}}
+                  {{- $newer.Title -}}
                 </span>
               </a>
             {{- else }}
               <div class="flex-1"></div>
             {{- end }}
-            {{- if $newer }}
-              <a href="{{ $newer.RelPermalink }}" class="group flex-1 sm:text-right">
+            {{- if $older }}
+              <a href="{{ $older.RelPermalink }}" class="group flex-1 sm:text-right">
                 <span class="flex items-center gap-1 text-sm font-medium text-gray-500 group-hover:text-blue-800 transition-colors sm:justify-end">
-                  Next <span aria-hidden="true">&rarr;</span>
+                  Older <span aria-hidden="true">&rarr;</span>
                 </span>
                 <span class="mt-1 block text-base font-semibold text-gray-900 group-hover:text-blue-800 transition-colors">
-                  {{- $newer.Title -}}
+                  {{- $older.Title -}}
                 </span>
               </a>
             {{- end }}
