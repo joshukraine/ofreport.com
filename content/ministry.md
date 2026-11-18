@@ -19,19 +19,11 @@ Our family serves with a group of missionaries known as Euro Team Outreach (ETO)
 
 ---
 
-{{< svg name="ugo-logo" class="mx-auto block mb-6 h-auto w-[200px] max-w-full" >}}
+{{< svg name="ugo-logo" class="mx-auto block mb-6 h-auto w-[200px] max-w-full text-black" >}}
 
 Ukraine Gospel Outreach (UGO) is a ministry of Euro Team Outreach that carries the Gospel of Jesus Christ and hand-delivered aid into Ukrainian communities near the front, including villages the russian army once occupied. Small teams from Lviv make short trips into cities and villages across the country, preaching in Ukrainian and sending every family home with a box of food and a bundle of Bible literature. We completed our third UGO project in October 2026.
 
-{{< button text="Visit euroteamoutreach.org/ugo" href="https://euroteamoutreach.org/ugo/" outline=true external=true >}}
-
----
-
-{{< image src="https://res.cloudinary.com/euro-team-outreach/image/upload/dobro-i-zlo/dist-net-logo-en-1500w_exj2hb" alt="Good and Evil Distributor Network" class="mx-auto block mb-6! h-auto w-[400px] max-w-full" >}}
-
-_Good and Evil_ is a picture-Bible overview in comic-book form, and our team prints and distributes its Ukrainian edition. For years, we have sent free copies to individual Ukrainians who request one. Through the Good and Evil Distributor Network, churches, missionaries, schools, and community organizations across Ukraine can also request books in quantity to hand out free of charge in their own communities. The network placed 15,000 copies across the country after the full-scale invasion began in 2022, and with a new printing in hand, we have relaunched it.
-
-{{< button text="Visit dobroizlo.com.ua" href="https://dobroizlo.com.ua/en/distributors/" outline=true external=true >}}
+{{< button text="Visit ugoproject.org" href="https://ugoproject.org/" outline=true external=true >}}
 
 ---
 
@@ -40,6 +32,14 @@ _Good and Evil_ is a picture-Bible overview in comic-book form, and our team pri
 Bible First is an evangelistic correspondence course designed to reach unbelievers by involving them in a chronological study of the book of Genesis. Over the course of 20 lessons, students are presented not only with the Gospel, but every major doctrine in Scripture. The lessons point to Jesus, drawing on the types and parallels that God Himself built into Genesis.
 
 {{< button text="Visit getbiblefirst.com" href="https://getbiblefirst.com/" outline=true external=true >}}
+
+---
+
+{{< image src="https://res.cloudinary.com/euro-team-outreach/image/upload/dobro-i-zlo/dist-net-logo-en-1500w_exj2hb" alt="Good and Evil Distributor Network" class="mx-auto block mb-6! h-auto w-[400px] max-w-full" >}}
+
+_Good and Evil_ is a picture-Bible overview in comic-book form, and our team prints and distributes its Ukrainian edition. For years, we have sent free copies to individual Ukrainians who request one. Through the Good and Evil Distributor Network, churches, missionaries, schools, and community organizations across Ukraine can also request books in quantity to hand out free of charge in their own communities. After the full-scale invasion began in 2022, the network placed 15,000 copies across the country. Now, with a new printing in hand, we’re continuing to distribute _Good and Evil_ across Ukraine.
+
+{{< button text="Visit dobroizlo.com.ua" href="https://dobroizlo.com.ua/en/distributors/" outline=true external=true >}}
 
 ---
 
