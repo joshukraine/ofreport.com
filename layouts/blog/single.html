@@ -135,8 +135,8 @@
       {{ partial "article-footer.html" . }}
 
       {{/* Previous/next article navigation */}}
-      {{- $older := .NextInSection -}}
-      {{- $newer := .PrevInSection -}}
+      {{- $older := .PrevInSection -}}
+      {{- $newer := .NextInSection -}}
       {{- if or $older $newer }}
         {{/* data-pagefind-ignore: the adjacent-article titles are navigation, not
              this article's content — keep them out of the index and excerpts. */}}
