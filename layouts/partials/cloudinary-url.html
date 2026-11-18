@@ -7,6 +7,7 @@
     Three source shapes are supported:
       1. bare public ID            -> expand to a full Cloudinary /upload/ URL
       2. full Cloudinary URL       -> inject transforms after /upload/
+                                      (any cloud, not just ours)
       3. any other remote http URL -> deliver via Cloudinary fetch
                                       (/image/fetch/<transforms>/<remote-url>)
     Shape 3 is how legacy WordPress images (still hosted on the old CloudFront
@@ -19,8 +20,10 @@
   {{- end -}}
   {{- if not (hasPrefix $src "http") -}}
     {{- $src = printf "%s/image/upload/%s" site.Params.cloudinaryBase $src -}}
-  {{- else if not (hasPrefix $src site.Params.cloudinaryBase) -}}
-    {{- /* a full http URL that is not under our own Cloudinary base -> fetch */ -}}
+  {{- else if not (hasPrefix $src "https://res.cloudinary.com/") -}}
+    {{- /* a full http URL that is not on Cloudinary -> fetch. Any Cloudinary
+           URL, ours or another cloud's (e.g. ETO's), takes shape 2 instead:
+           Cloudinary refuses to fetch from its own delivery domain (404). */ -}}
     {{- $isRemote = true -}}
   {{- end -}}
 
