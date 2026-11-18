@@ -27,7 +27,7 @@ Ukraine Gospel Outreach (UGO) is a ministry of Euro Team Outreach that carries t
 
 ---
 
-{{< image src="https://res.cloudinary.com/euro-team-outreach/image/upload/dobro-i-zlo/dist-net-logo-en-1500w_exj2hb" alt="Good and Evil Distributor Network" class="mx-auto block mb-6 h-auto w-[400px] max-w-full" >}}
+{{< image src="https://res.cloudinary.com/euro-team-outreach/image/upload/dobro-i-zlo/dist-net-logo-en-1500w_exj2hb" alt="Good and Evil Distributor Network" class="mx-auto block mb-6! h-auto w-[400px] max-w-full" >}}
 
 _Good and Evil_ is a picture-Bible overview in comic-book form, and our team prints and distributes its Ukrainian edition. For years, we have sent free copies to individual Ukrainians who request one. Through the Good and Evil Distributor Network, churches, missionaries, schools, and community organizations across Ukraine can also request books in quantity to hand out free of charge in their own communities. The network placed 15,000 copies across the country after the full-scale invasion began in 2022, and with a new printing in hand, we have relaunched it.
 
