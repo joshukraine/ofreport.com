@@ -11,11 +11,22 @@ updates:
     labels:
       - "chore"
     groups:
+      # tailwindcss and @tailwindcss/cli must move together, majors included:
+      # split across two PRs, neither could merge alone. @tailwindcss/typography
+      # is still 0.x, where a "minor" bump can change prose styling, so it rides
+      # here too rather than in the low-risk group below.
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
       # Bundle low-risk minor/patch bumps into one PR to reduce noise.
       # Major bumps stay as individual PRs so they get individual review.
       npm-minor-patch:
         patterns:
           - "*"
+        exclude-patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
         update-types:
           - "minor"
           - "patch"
@@ -28,6 +39,10 @@ updates:
     labels:
       - "chore"
     groups:
+      # Same rule as npm: minor/patch together, majors as individual PRs.
       github-actions:
         patterns:
           - "*"
+        update-types:
+          - "minor"
+          - "patch"
