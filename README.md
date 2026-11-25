@@ -35,6 +35,20 @@ hugo --gc --minify
 
 Requires [Hugo](https://gohugo.io/installation/) (extended edition) and [Node.js](https://nodejs.org/) 20 or newer (production builds run on Node 22).
 
+### Writing a new blog post
+
+```bash
+hugo new content blog/YYYY-MM-DD-slug-title.md
+```
+
+This scaffolds the file from [`archetypes/blog.md`](archetypes/blog.md). The filename drives three fields: it becomes the `slug` (and therefore the URL, `/blog/YYYY-MM-DD-slug-title/`), its date becomes `date` (today's date if the name has none), and the rest becomes the `title` (`Slug Title`), which you can then polish. To move a post to another day, rename the file and change `slug` and `date` to match.
+
+Fill in `description`, `tags`, `cover`, `caption`, and `pdf` (newsletter editions only).
+
+Images go in a Cloudinary folder named after the slug (`OFReport/<slug>/`). `bin/copy_latest_slug.sh` copies the newest post's slug to the clipboard for that.
+
+New posts start with `draft: true`. Preview them locally with `hugo server -D`, but **set `draft: false` before pushing** — production and Netlify deploy previews both build without `-D`, so a draft is missing from the preview link as well as the live site. A future `date` is fine on a deploy preview (it builds with `--buildFuture`) but stays hidden in production until that date passes.
+
 ### Previewing search locally
 
 Search uses [Pagefind](https://pagefind.app), which indexes the **built** `public/` directory — so it does not work against a bare `hugo server` (which serves from memory). To preview search, run a real build, generate the index, then serve the output:
