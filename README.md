@@ -41,12 +41,9 @@ Requires [Hugo](https://gohugo.io/installation/) (extended edition) and [Node.js
 hugo new content blog/YYYY-MM-DD-slug-title.md
 ```
 
-This scaffolds the file from [`archetypes/blog.md`](archetypes/blog.md). The filename matters: it becomes the `slug`, and therefore the URL (`/blog/YYYY-MM-DD-slug-title/`). Two archetype fields need fixing by hand:
+This scaffolds the file from [`archetypes/blog.md`](archetypes/blog.md). The filename drives three fields: it becomes the `slug` (and therefore the URL, `/blog/YYYY-MM-DD-slug-title/`), its date becomes `date` (today's date if the name has none), and the rest becomes the `title` (`Slug Title`), which you can then polish. To move a post to another day, rename the file and change `slug` and `date` to match.
 
-- **`title`** is built from the whole filename, date included (`2026 12 02 Slug Title`), so rewrite it.
-- **`date`** is set to the moment you ran the command, not the date in the filename. Change it to the intended publish date.
-
-Then fill in `description`, `tags`, `cover`, `caption`, and `pdf` (newsletter editions only).
+Fill in `description`, `tags`, `cover`, `caption`, and `pdf` (newsletter editions only).
 
 Images go in a Cloudinary folder named after the slug (`OFReport/<slug>/`). `bin/copy_latest_slug.sh` copies the newest post's slug to the clipboard for that.
 
