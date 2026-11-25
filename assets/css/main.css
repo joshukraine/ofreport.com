@@ -123,6 +123,20 @@ html.search-lock header {
   text-decoration: none;
 }
 
+/* Caption links. The figure shortcode marks its <figure> not-prose (so the
+   plugin leaves the image and caption alone), which also opts caption links
+   out of the rules above — they'd render as plain caption text. Mirror the
+   body-link look here: same blue, resting underline, darker/no underline on
+   hover. Weight already matches (captions are font-semibold). */
+figcaption a {
+  color: var(--color-blue-800);
+  text-decoration: underline;
+}
+figcaption a:hover {
+  color: var(--color-blue-900);
+  text-decoration: none;
+}
+
 /* Faded full-bleed page background for static pages (see #69). The per-page
    Cloudinary URL is injected via the --page-bg-image custom property on a
    .page-bg element. The background color is the site-wide page gray (the exact
